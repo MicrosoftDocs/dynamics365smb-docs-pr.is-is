@@ -1,6 +1,6 @@
 ---
-title: Kynning á Contoso kaffi
-description: Yfirlit yfir aðstæður fyrir hvernig Contoso Coffee kynningargögn geta hjálpað þér að læra hvernig á að nota vörugeymslumöguleikana í Business Central.
+title: Kynning á Contoso-kaffi
+description: Yfirlit yfir atburðarásir um hvernig gögn contoso-kaffisins geta hjálpað þér að læra hvernig á að nota vörubúnaðinn í Business Central.
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -9,60 +9,60 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Kynning á Contoso kaffigeymslu
+# Kynning á Contoso Coffee Warehousing
 
-Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki.  **Contoso Coffee** öppin fyrir Business Central bæta við kynningargögnum sem þú getur notað til að læra hvernig á að nota vörugeymslumöguleikana í Business Central. Þú getur stillt vöruhúseiginleika á ýmsa vegu, sjá [Yfirlit yfir mismunandi stillingarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
+Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. Contoso-kaffiforritin **fyrir** Business Central bæta við kynningugögnum sem hægt er að nota til að læra hvernig á að nota vöruvörugetu í Business Central. Hægt er að grunnstilla vöruhúsaaðgerðir á ýmsa vegu, sjá [Yfirlit yfir mismunandi valkosti grunnstillingar](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-Forritið býður upp á þrjár staðsetningar sem eru fínstilltar fyrir mismunandi aðstæður:
+Forritið veitir þrjár staðsetningar sem eru bjartsýni fyrir mismunandi aðstæður:
 
 - **SILFUR**  
 
-  Þessi staðsetning stillt til að nota hólf. Það er auðvelt að stilla það til að styðja grunn eða háþróaða. 
+  Þessi birgðageymsla er grunnstillt til að nota hólf. Það er auðvelt að grunnstilla til að styðja grunn- eða háþróaða. 
 
-- **GULT**  
+- **GULUR**  
 
-  Þessi staðsetning notar háþróaða vöruhúsastillingu, en notar ekki hólf. Það er hægt að endurstilla það til að styðja grunnstillingar.
+  Þessi birgðageymsla notar ítarlega vöruhúsaskilgreiningu en notar ekki hólf. Hægt er að endurstilla hana til að styðja grunnstillingar.
 
 - **HVÍTUR**  
 
-  Þessi staðsetning notar háþróaða vöruhúsastillingu með beint frágangi og vali, sem gerir ítarlegri reglur um hvernig hlutir flytjast um vöruhús.
+  Þessi birgðageymsla notar Ítarlegt vöruhús með beinum frágangi og tínslum sem gerir ítarlegri reglur kleift að færa vörur um vöruhúsið.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Settu upp Contoso Coffee Warehousing gögn
+## Uppsetning Contoso Coffee Warehousing gagna
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
-Þegar viðeigandi öpp hafa verið sett upp skaltu fara á [Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) síðuna í [!INCLUDE [prod_short](../../includes/prod_short.md)], velja *Warehouse Module* línan og notaðu **Configure** aðgerðina til að undirbúa einingarnar. Eftirfarandi töflur lýsa stillingunum.  
+Þegar viðkomandi forrit hafa verið sett upp er farið á [síðuna Contoso Demo Tool](https://businesscentral.dynamics.com/?page=5194) í [!INCLUDE [prod_short](../../includes/prod_short.md)], línan Vöruhúsaeining *valin* og aðgerðin **Grunnstilla** til að undirbúa einingarnar. Eftirfarandi töflur lýsa stillingunum.  
 
 |Svæði  |Heimildasamstæða  |
 |---------|---------|
-|**Staðsetning Bin**  |Staðsetningin sem á að nota fyrir helstu staðsetningaratburðarás.|
-|**Staðsetning Ítarleg**  |Staðsetningin til að nota fyrir einfaldar skipulagssviðsmyndir.|
-|**Staðsetningarstýrt frágangi og vali**  |Staðsetningin til að nota fyrir háþróaða flutningasviðsmyndir.|
-|**Staðsetning í flutningi**  |Staðsetningin sem á að nota fyrir flutningsstaðsetningu í flutningsatburðarás.|
-|**Viðskiptavinur nr.**  |Viðskiptavinurinn til að nota fyrir grunn og einföld atburðarás í sölustarfsemi.|
-|**Seljandi nr.**  |Seljandinn sem á að nota fyrir allar aðstæður í innkaupaaðgerðum.|
-|**Liður 1 nr.**  |Aðalatriðið til að nota fyrir allar aðstæður.|
-|**Liður 2 nr.**  |Aukahluturinn til að nota fyrir allar aðstæður.|
-|**Liður 3 nr.**  |Atriðið með rakningu.|
+|**Hólf birgðageymslu**  |Staðsetningin sem nota á fyrir grunnstaðsetningar.|
+|**Ítarlegt birgðageymsla**  |Staðsetningin sem nota á fyrir einföld skipulagssvið.|
+|**Birgðageymsla beinn frágangur og tínsla**  |Staðsetningin sem nota á fyrir ítarlegar skipulagsaðgerðir.|
+|**Millifærslustaður**  |Staðsetningin sem nota á fyrir millifærslustaðinn í millifærsluaðstæðum.|
+|**Númer viðskiptamanns**  |Viðskiptavinurinn sem á að nota í grunn- og einföldum aðstæðum í söluaðgerðum.|
+|**Nr. lánardrottins**  |Lánardrottinn sem á að nota fyrir öll dæmi í innkaupaaðgerðum.|
+|**Vara 1 nr.**  |Aðalatriðið sem á að nota í öllum tilfellum.|
+|**Vörunr.**  |Aukaatriðið sem á að nota í öllum tilfellum.|
+|**Nr. vöru 3**  |Varan með rakningu.|
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
 > [!IMPORTANT]
-> Ef þú ert að keyra sviðsmyndirnar gætirðu viljað staðfesta að notandanum þínum hafi verið bætt við eins og á völdum stöðum. Fyrir frekari upplýsingar, sjá [Setja upp starfsmenn í vöruhúsum](../../warehouse-how-to-set-up-warehouse-employees.md).
+> Ef aðstæður eru keyrðar gæti verið ráðlegt að staðfesta að notandanum hafi verið bætt við fyrir tilteknar birgðageymslur. Nánari upplýsingar eru [í Setja upp vöruhúsastarfsmenn](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
-Sýningargögn Contoso Coffee vörugeymsla styðja eins og er eftirfarandi aðstæður fyrir próf og þjálfun:
+The Contoso Coffee warehousing kynningargögnin sem nú styðja við eftirfarandi aðstæður til prófunar og þjálfunar:
 
-1.  [Farið yfir inn- og útstreymi í grunnstillingum vöruhúsa](warehouse-basic-flow-putaway-pick.md)
-2.  [Yfirferð á inn- og útstreymi í blönduðum vöruhúsastillingum](warehouse-mixed-flow-receive-pick-ship.md)
-3.  [Yfirferð á inn- og útstreymi í háþróaðri vöruhúsastillingu með beint frágangi og vali](warehouse-directed-flow.md)
+1.  [Kynning á flæði á inn- og útleið í Grunngrunnstilling vöruhúss](warehouse-basic-flow-putaway-pick.md)
+2.  [Kynning á flæði inn og út í blandað vöruhús grunnstillingar](warehouse-mixed-flow-receive-pick-ship.md)
+3.  [Kynning á flæði inn og út í Ítarleg vöruhús grunnstilling með beinum frágangi og tínslu](warehouse-directed-flow.md)
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](../../inventory-setup-inventory.md) 
-[Hvernig á að setja upp staðsetningar](../../inventory-how-setup-locations.md) 
+[Hvernig á að setja upp birgðageymslur](../../inventory-how-setup-locations.md) 
 [Vörugeymsla](../../warehouse-manage-warehouse.md) 
 [Hönnunarupplýsingar](../../design-details-warehouse-overview.md) 

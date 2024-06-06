@@ -1,6 +1,6 @@
 ---
-title: Að bregðast við beiðnum um persónuupplýsingar notenda
-description: Þessi grein útskýrir hvernig á að bregðast við beiðnum um persónuupplýsingar.
+title: Svara beiðnum um persónugögn notenda
+description: Þessi grein útskýrir hvernig á að bregðast við beiðnum um persónugögn.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,59 +10,59 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a>Að bregðast við beiðnum um persónuupplýsingar notenda
+# Svara beiðnum um persónugögn notenda
 
-Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Til dæmis, samkvæmt sumum persónuverndarlögum og reglum, hafa þeir rétt til að biðja um útflutning, eyðingu og breytingu á persónuupplýsingum sínum. Þessar beiðnir eru kallaðar *Beiðnir um gagnaðila*. Ef þú hefur flokkað næmni gagna þinna og ert viss um að þau séu réttar, getur stjórnandi svarað beiðnum með því að nota valkostina á  **Gagnavernd** flipanum í **Upplýsingatæknistjóri** Hlutverkamiðstöð.
+Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Til dæmis, samkvæmt sumum lögum og reglum um persónuvernd, hafa þeir til dæmis rétt til að óska eftir útflutningi, eyðingu og breytingu á persónugögnum sínum. Þessar beiðnir kallast *beiðnir um efni gagna*. Ef næmi gagna hefur verið flokkað og hann er viss um að þau séu rétt getur stjórnandi svarað beiðnum með því að nota valkostina í flipanum Persónuvernd gagna **í**  **hlutverkamiðstöð tæknistjóra** .
 
-## <a name="types-of-requests"></a>Tegundir beiðna
+## Tegundir beiðna
 
-Eftirfarandi tafla gefur dæmi um þær tegundir beiðna sem stjórnendur geta svarað.
+Í eftirfarandi töflu eru dæmi um tegundir beiðnastjóra sem stjórnendur geta svarað.
 
 > [!Note]
-> Þó að við bjóðum upp á möguleika til að bregðast við slíkum beiðnum og þar með aðgang að persónuupplýsingum, er það á þína ábyrgð að tryggja að persónuleg og viðkvæm gögn séu staðsett og flokkuð á viðeigandi hátt.
+> Þó að við bjóðum upp á möguleika til að svara þessum gerðum beiðna og með því að fá aðgang að persónugögnum ber það ábyrgð á því að tryggja að persónuleg og viðkvæm gögn séu staðsett og flokkuð á viðeigandi hátt.
 
 |Tegund beiðni|Lýsing og leiðbeinandi svar|
 |-----|-----|
-|Flutningsbeiðni|Skráður einstaklingur getur lagt fram beiðni um gagnaflutning. Þú verður að flytja út persónuupplýsingar hins skráða úr kerfum þínum og láta þær í té á skipulögðu, almennu sniði. Til að bregðast við þessum beiðnum geturðu notað **Data Privacy Utility** til að flytja út persónuleg gögn í Excel skrá eða RapidStart stillingarpakka. Með því að nota Excel er hægt að breyta persónulegum gögnum og vista þau á algengu, vélalesanlegu sniði, eins og .csv eða .xml. Fyrir RapidStart-grunnstillingapakka er hægt að grunnstilla aðalgagnatöflur og tengdar töflur sem innihalda persónuleg gögn. <br><br> **Athugið:** Þegar þú flytur út gögn tilgreinirðu lágmarksnæmni. Útflutningur mun innihalda lágmarksstigið og öll stigin þar fyrir ofan. Til dæmis, ef þú flytur út gögn sem eru flokkuð sem persónuleg, inniheldur útflutningurinn einnig gögn sem flokkuð eru sem viðkvæm. <br><br>Við útflutning gagna sem tengjast skráðum einstaklingi leitar **Hjálparforrit gagnaverndar** að beinum venslum milli skráðs einstaklings og gagna sem tengjast honum. Óbein vensl milli gagna sem tengjast skráðum einstaklingi og annarra gagna eru ekki flutt sjálfkrafa út af **Hjálparforriti gagnaverndar**. Til dæmis hefur tengiliðataflan beintengd gögn tengiliðasvara forstillingar og tafla tengiliðasvara forstillingar tengist enn fremur gögnum forstillingarspurninga. Ef þú vilt einnig flytja út forstillingarspurningar verður þú að bæta þessari töflu við handvirkt sem röð með viðeigandi síum úr grunnstillingarpakkanum sem **Hjálparforrit gagnaverndar** býr til.|
-|Beiðni um eyðingu|Skráður aðili getur óskað eftir því að þú eyðir persónulegum gögnum. Það eru nokkrar leiðir til að eyða persónulegum gögnum með því að nota sérstillingarmöguleikana, en ákvörðun og framkvæmd er á þína ábyrgð. Í sumum tilfellum gætirðu valið að breyta gögnunum þínum beint. Til dæmis, eyða tengilið og keyra síðan runuvinnsluna Eyða aflýstum samskiptum til að eyða samskiptum fyrir tengiliðinn. <br><br> **Athugið:** Ef þú hefur tilgreint dagsetningu í **Leyfa eyðingu skjala áður** á reitnum **Sala & Uppsetning krafna** eða **Kaup & Uppsetning skulda** síður gætirðu þurft að breyta dagsetningunni þannig að þú getir eytt bókuðum sölu- og innkaupaskjölum sem hafa bókunardagsetningar á eða fyrir þá dagsetningu.|
-|Beiðnir um leiðréttingu|Skráður aðili getur óskað eftir því að ónákvæm persónuleg gögn verði leiðrétt. Hægt er gera það á nokkra vegu: Í sumum tilfellum er hægt að flytja út lista í Excel til að magnbreyta margar skrár á fljótlegan hátt og síðan flytja inn uppfærðu gögnin. Frekari upplýsingar eru í [Flytja út viðskiptagögn í Excel](about-export-data.md). Einnig er hægt að breyta reitum handvirkt sem innihalda persónuleg gögn, t.d. með því að breyta upplýsingum um viðskiptavin í viðskiptamannaspjaldinu. Hins vegar eru færslur eins og almennar, viðskiptamanna- og skattafærslur mikilvægar. Ef þú geymir persónuleg gögn í viðskiptafærsluskrám skaltu íhuga að nota sérstillingarmöguleikana til að breyta slíkum persónulegum gögnum.|
+|Flutningsbeiðni|Gagnaefni getur gert gagnaflutningsbeiðni. Flytja verður út persónugögn gagnaaðila úr kerfunum og gefa þau upp á skipulagðu, algengu sniði. Til að svara þessum beiðnum **er hægt að nota gagnaverndarforritið** til að flytja persónugögn út í Excel-skrá eða RapidStart grunnstillingarpakka. Með því að nota Excel er hægt að breyta persónulegum gögnum og vista þau á algengu, vélalesanlegu sniði, eins og .csv eða .xml. Fyrir RapidStart-grunnstillingapakka er hægt að grunnstilla aðalgagnatöflur og tengdar töflur sem innihalda persónuleg gögn. <br><br> **Til athugunar:** Þegar gögn eru flutt út er lágmarksnæmisstig tilgreint. Útflutningur mun innihalda lágmarksstigið og öll stigin þar fyrir ofan. Ef til dæmis gögn sem flokkast sem persónuleg eru flutt út inniheldur útflutningurinn einnig gögn sem flokkuð eru sem Viðkvæm. <br><br>Við útflutning gagna sem tengjast skráðum einstaklingi leitar **Hjálparforrit gagnaverndar** að beinum venslum milli skráðs einstaklings og gagna sem tengjast honum. Óbein vensl milli gagna sem tengjast skráðum einstaklingi og annarra gagna eru ekki flutt sjálfkrafa út af **Hjálparforriti gagnaverndar**. Til dæmis hefur tengiliðataflan beintengd gögn tengiliðasvara forstillingar og tafla tengiliðasvara forstillingar tengist enn fremur gögnum forstillingarspurninga. Ef þú vilt einnig flytja út forstillingarspurningar verður þú að bæta þessari töflu við handvirkt sem röð með viðeigandi síum úr grunnstillingarpakkanum sem **Hjálparforrit gagnaverndar** býr til.|
+|Beiðni um eyðingu|Skráður aðili getur óskað eftir því að þú eyðir persónulegum gögnum. Það eru nokkrar leiðir til að eyða persónulegum gögnum með því að nota sérstillingarmöguleikana, en ákvörðun og framkvæmd er á þína ábyrgð. Í sumum tilfellum gæti notandi valið að breyta gögnunum beint. Til dæmis má eyða tengilið og keyra síðan keyrsluna Eyða ógiltum samskiptum til að eyða samskiptum fyrir tengiliðinn. <br><br> **Til athugunar:** Ef tilgreind hefur verið dagsetning í reitnum **Leyfa eyðingu skjals fyrir** á síðunum **Sölugrunnur** eða **Innkaupagrunnur** gæti þurft að breyta dagsetningunni svo að hægt sé að eyða bókuðum sölu- og innkaupaskjölum með bókunardagsetningum á eða fyrir þá dagsetningu.|
+|Beiðnir um leiðréttingu|Skráður aðili getur óskað eftir því að ónákvæm persónuleg gögn verði leiðrétt. Hægt er gera það á nokkra vegu: Í sumum tilfellum er hægt að flytja út lista í Excel til að magnbreyta margar skrár á fljótlegan hátt og síðan flytja inn uppfærðu gögnin. Frekari upplýsingar eru í [Flytja út viðskiptagögn í Excel](about-export-data.md). Einnig er hægt að breyta reitum handvirkt sem innihalda persónuleg gögn, t.d. með því að breyta upplýsingum um viðskiptavin í viðskiptamannaspjaldinu. Hins vegar eru færslur á borð við almennar, viðskiptamanna- og skattbókarfærslur mikilvægar. Ef þú geymir persónuleg gögn í viðskiptafærsluskrám skaltu íhuga að nota sérstillingarmöguleikana til að breyta slíkum persónulegum gögnum.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Takmarka gagnavinnslu fyrir skráðan einstakling
+## Takmarka vinnslu gagna fyrir gagnaaðila
 
 Skráður aðili getur óskað eftir því að þú hættir tímabundið með vinnslu á persónulegum gögnum hans. Til að heiðra slíkar beiðnir er hægt að merkja færslur þeirra sem lokaðar vegna persónuverndar til að hætta að vinna úr gögnum þeirra. Þegar skrá er merkt sem lokuð er ekki hægt að búa til nýjar færslur sem nota þessa færslu. Til dæmis getur þú ekki búið til nýjan reikning fyrir viðskiptavini þegar annað hvort viðskiptavinurinn eða seljandi er lokaður. Til að merkja skráðan aðila sem læstan skal opna spjaldið fyrir skráða aðilann, t.d. spjald viðskiptavinar, lánardrottins eða tengiliðs og velja gátreitinn **Lokað fyrir vegna persónuverndar**. Þú gætir þurft að velja **Sýna fleiri** til að birta reitinn.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Meðhöndlun beiðna skráðra einstaklinga þegar prufuútgáfa er notuð
+## Meðhöndlun efnisbeiðna gagna þegar prufuútgáfa er notuð
 
-Ákveðnar tegundir persónuupplýsinga eru hluti af Microsoft 365 reikningi og aðeins stjórnendur geta flutt gögnin út. Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.
+Ákveðnar gerðir persónugagna eru hluti af reikningi Microsoft 365 og aðeins stjórnendur geta flutt gögnin út. Ferlið sem nær utan um beiðnir skráðs einstaklings fer eftir gerð [!INCLUDE[prod_short](includes/prod_short.md)] leigjandans.
 
-Ef þú ert með greidda áskrift að [!INCLUDE[prod_short](includes/prod_short.md)] verða notendur að hafa samband við leigjanda stjórnanda fyrirtækisins til að leggja fram beiðni um skráða einstaklinga. Stjórnendur hafa stjórnunarréttindi og tæki til að uppfylla beiðnir skráðra einstaklinga.
+Ef áskrift er greidd verða notendur að hafa samband við leigjanda fyrirtækisins til að gera beiðni um efnisþörf [!INCLUDE[prod_short](includes/prod_short.md)] gagna. Stjórnendur hafa stjórnunarréttindi og verkfæri til að uppfylla beiðnir um efnisþörf gagna.
 
-Ef þú skráðir þig í [!INCLUDE[prod_short](includes/prod_short.md)] af  [Prufunarsíðunni](https://trials.dynamics.com/) og þú ert enn að nota prufuútgáfuna geta notendur hlaðið niður og flutt út sín eigin gögn í  [Persónuverndarsíðu vinnu og skóla í Azure gáttinni](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade).
+Ef þú skráðir þig inn á [!INCLUDE[prod_short](includes/prod_short.md)]  [prufusíðuna og notandinn notar](https://trials.dynamics.com/) prufuútgáfuna enn þá geta notendur sótt og flutt út eigin gögn á síðunni [Vinnu- og skólavernd í Azure-gáttinni](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade).
 
-Á persónuverndarsíðu vinnu og skóla geturðu einnig lokað reikningnum þínum. Hins vegar mælum við með því að þú flytur út og eyðir öllum gögnum fyrst. Að eyða reikningnum þínum þýðir að þú missir aðgang að [!INCLUDE[prod_short](includes/prod_short.md)].
+Á persónuverndarsíðu vinnu og skóla geturðu einnig lokað reikningnum þínum. Hins vegar er mælt með því að öll gögn séu flutt út og þeim eytt fyrst. Ef reikningnum er eytt verður aðgangi [!INCLUDE[prod_short](includes/prod_short.md)] að því glatað.
 
 Þú getur samt merkt fólk sem útilokað vegna persónuverndar og útflutnings, breytt eða eytt færslum eins og lýst er annars staðar í þessari grein.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Flytja út gögn úr töflum sem ekki eru flokkaðar eftir skráðum einstaklingi
+## Útflutningur gagna úr töflum sem ekki eru flokkaðar eftir gögnum
 
-Ef þú verður að flytja út gögn sem eru ekki flokkuð á þann hátt að þau séu flutt sjálfkrafa út, eins og gögn úr töflunni prófílsvör, verður þú að grípa til eftirfarandi aðgerða:
+Ef flytja þarf út gögn sem ekki eru flokkuð á þann hátt að þau séu sjálfkrafa flutt út, t.d. gögn úr töflunni Svör forstillingar, þarf að framkvæma eftirfarandi aðgerðir:
 
-* Íhugaðu hvort þú verður virkilega að flytja út viðbótargögn sem eru ekki beintengd tengiliðnum.
-* Bættu töflunni og sambandinu handvirkt við Rapid Start pakkann og fluttu hana beint úr Rapid Start pakkanum. Við búum til hraðbyrjunarpakka fyrir þig, svo þú getir lagað hann við slíkar aðstæður.
+* Íhuga þarf hvort flytja þurfi viðbótargögn út sem ekki tengjast tengiliðnum beint.
+* Bætið töflunni og sambandinu handvirkt við hraðbyrjunarpakkann og flytjið hana út beint úr hraðræsingarpakkanum. Við myndum skjóta byrjunarpakka fyrir þig, svo að þú getir klipið hann í slíkum aðstæðum.
 
-## <a name="handling-data-about-minors"></a>Meðhöndlun gagna um ólögráða börn
+## Meðferð gagna um minnihlutahópa
 
 Ef tengiliðar er undir lögaldri samkvæmt lögum á þínu svæði getur þú bent á það með því að velja gátreitinn **Barn** á spjaldinu **Tengiliður**. Þegar þú gerir það verður gátreiturinn **Lokað fyrir vegna persónuverndar** valinn sjálfkrafa. Þegar þú færð samþykki foreldris eða forráðamanns getur þú valið gátreitinn **Samþykki foreldra fengið** til að opna aftur á tengiliðinn. Þó að þú getir unnið úr persónulegum gögnum fyrir ólögráða einstakling, getur þú ekki notað lýsingaraðgerðina í Microsoft Dynamics 365 Sales.
 
 > [!Note]
 > Breytingaskráin getur skráð upplýsingar eins og hvenær og af hverjum gátreiturinn **Samþykki foreldra fengið** var valinn. Stjórnandi getur sett það upp með því að nota leiðarvísinn **Uppsetning breytingaskrár** og einnig velja gátreitinn **Skrá breytingar á fengnu samþykki foreldris** á spjaldinu **Tengiliður**. Frekari upplýsingar eru í [Skráning breytinga](across-log-changes.md).  
 
-### <a name="see-also"></a>Sjá einnig .
+### Sjá einnig .
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Skráning breytinga](across-log-changes.md)  
-[Gagnabeiðnir](/microsoft-365/compliance/gdpr-data-subject-requests)  
+[Beiðnir um efni gagna](/microsoft-365/compliance/gdpr-data-subject-requests)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

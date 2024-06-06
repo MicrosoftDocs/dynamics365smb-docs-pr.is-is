@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Setja upp og vinna úr aðgerð úthýsingar
+# Setja upp og vinna úr aðgerð úthýsingar
 
 Í þessari grein förum við í gegnum skrefin til að nota sýnigögn Contoso Coffee í úthýsingu.
 
-## <a name="scenario"></a>Aðstæður
+## Aðstæður
 
 Þú ert framleiðslustjóri á Contoso Coffee. Vegna takmarkana á afkastagetu ætlar þú að nota úthýsingu til að framleiða vöruna **SP-SCM1009 Airpot**.
 
 Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009 Airpot, með leið - SP-SCM1009-SUB-2. Notaðu vinnublað undirverktakasamninga til að stofna innkaupapöntun fyrir framleiðsluna og síða ljúka aðgerðinni með því að taka á móti og reikningsfæra innkaupapöntunina.
 
-## <a name="steps"></a>Skref
+## Skref
 
 1. Stofnaðu nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunni SP-SCM1009, Airpot.
 
@@ -59,7 +59,7 @@ Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunn
 
 4. Taktu á móti og reikningsfærðu innkaupapöntunina.  
 
-    1. Veldu þá  ![ljósaperu sem opnast Segðu mér aðgerðina](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"). táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
+    1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 
     2. Á listanum **Innkaupapantanir** skal finna innkaupapöntunina úr lánardrottini 82000 undirverktaka.
 
@@ -73,6 +73,6 @@ Hér býrðu til nýja útgefna framleiðslupöntun fyrir 12 einingar af vörunn
 
 Úttak vörunnar SP-SCM1009 Airpot er nú skráð.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Kynning á contoso kaffi sýnigögnum](../contoso-coffee-intro.md)  
+[Kynning á Contoso Kaffi kynningargögnum](../contoso-coffee-intro.md)  

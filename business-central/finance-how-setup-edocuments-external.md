@@ -1,6 +1,6 @@
 ---
-title: Stilltu E-Documents tengið með ytri endapunktum
-description: Þessi grein útskýrir hvernig á að setja upp E-Documents virkni þegar það er tengt við ytri endapunkta.
+title: Stilla tengingu E-Skjala með ytri endastöðvum
+description: Þessi grein útskýrir hvernig setja á upp E-skjöl þegar hún er tengd ytri endastöðvum.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
@@ -11,84 +11,84 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Stilltu E-Documents tengið með ytri endapunktum
+# Stilla tengingu E-Skjala með ytri endastöðvum
 
-Þessi grein útskýrir hvernig á að setja upp E-Documents virkni þegar það er tengt við ytri endapunkta.
+Þessi grein útskýrir hvernig setja á upp E-skjöl þegar hún er tengd ytri endastöðvum.
 
-Áður en þú notar virknina sem lýst er í þessari grein skaltu setja upp **E-Documents Connector with External Endpoints** appið efst á alþjóðlegu **E- Document Core** app. Þetta app er hægt að nota fyrir sjálfgefna samþættingu við ytri (þriðju aðila) aðgangsstaði til að gera rafræn skjalaflæði sjálfvirkt. Vegna þess að þetta app táknar aðeins sum af völdum tengjunum ertu ekki takmörkuð við núverandi samþættingar í því. Flest tengin verða fáanleg á AppSource í framtíðinni.
+Áður en þú notar aðgerðina sem er lýst í þessari grein skal setja upp **E-Documents Connector með forritinu Ytri endastöðvar** efst í altæku **E-Document Core** forritinu. Þetta forrit er hægt að nota til sjálfgefinnar samþættingar við ytri (þriðja aðila) aðgangsstaði til að gera e-skjalaflæðið sjálfvirkt. Þar sem þetta forrit táknar aðeins einhverja af völdum tengjum er ekki takmarkað við fyrirliggjandi samþættingar við það. Flest tengi verða tiltæk á AppSource í framtíðinni.
 
-## <a name="set-up-the-connection"></a>Settu upp tenginguna
+## Setja upp tenginguna
 
-Til að hefja uppsetningu þína skaltu fylgja skrefunum í [E-skjala kjarnaforritinu](finance-how-setup-edocuments.md). Eftir að þú hefur lokið þessum skrefum skaltu fara aftur í þessa grein og ljúka eftirfarandi skrefum:
+Til að hefja uppsetninguna skal fylgja skrefunum í [kjarnaforriti E-skjals](finance-how-setup-edocuments.md). Þegar lokið hefur verið við þessi skref skal fara aftur í þessa grein og ljúka eftirfarandi skrefum:
 
-1. Veldu ![peru sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **E-Document Services** og veldu síðan tengda hlekkinn.
-2. Í reitnum **Þjónustusamþætting** velurðu einn af samþættingarkóðum sem eru í boði fyrir uppsetningu endapunktaþjónustu.
-3. Veldu **Setup Service Integration**.
-4. Á síðunni **E-Document External Connection Setup**  skaltu velja **Request Authorization Code**. Þér er vísað áfram á ytri þjónustuheimildarsíðuna og beðinn um innskráningarupplýsingar þínar.
-5. Afritaðu heimildarkóðann í **Sláðu inn heimildarkóða** reitinn.
-6. Veldu **Refresh Access Token** til að tryggja að þú getir endurnýjað táknið.
+1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **E-Document Services** og velja síðan viðeigandi tengil.
+2. Í reitnum **Þjónustuheildun** skal velja einn af samþættingarkótunum sem eru í boði fyrir þjónustuuppsetningu endastöðvarinnar.
+3. Velja skal **Uppsetning þjónustuheildunar**.
+4. Á síðunni **Uppsetning utanaðkomandi tengingar utanaðkomandi skjals skal velja** Kóti **beiðniheimildar**. Þú ert bein(ur) á vefsíðu ytri þjónustuheimildar og beðin(n) um innskráningarupplýsingar.
+5. Afrita heimildarkótann í reitinn **Færa inn heimildarkóta** .
+6. Valið er **Endurnýja aðgangstákn** til að ganga úr skugga um að hægt sé að endurnýja táknið.
 
     > [!NOTE]
-    > Þessi tenging krefst samskipta við utanaðkomandi þjónustuaðila sem gætu verið háð aukagreiðslu og krefst samninga við þá. Hafðu samband við þjónustuveitendur til að fá öll nauðsynleg skilríki.
+    > Þessi tenging krefst samskipta við utanaðkomandi þjónustuaðila sem gætu fallið undir viðbótargreiðslu og krafist samninga við þá. Til að fá öll nauðsynleg skilríki skal hafa samband við þjónustuveitendur.
 
-7. Á síðunni **E-Document External Connection Setup**  skaltu fylla út eftirfarandi reiti:
+7. Á síðunni **Uppsetning** utanaðkomandi tengingar utanaðkomandi skjals skal fylla út eftirfarandi reiti:
 
     | Heiti reits | Heimildasamstæða |
     |---|---|
-    | API-vefslóð skrár | Tilgreindu API vefslóð skrárinnar. |
-    | Vefslóð skráarhluta | Tilgreindu slóð skráarhluta. |
-    | API-vefslóð skjals | Tilgreindu API slóð skjalsins. |
-    | Kenni fyrirtækis | Tilgreindu auðkenni fyrirtækisins. |
-    | Sendingarhamur | Tilgreindu sendingarhaminn. Þú getur valið **Framleiðsla**, **Próf** eða **Vottun**. |
+    | API-vefslóð skrár | Tilgreina API-URL skráarinnar. |
+    | Vefslóð skráarhluta | Tilgreina URL skráarparts. |
+    | API-vefslóð skjals | Tilgreina API-URL skjalsins. |
+    | Kenni fyrirtækis | Tilgreina kenni fyrirtækis. |
+    | Sendingarhamur | Tilgreina skal sendingarham. Hægt er að velja **Framleiðsla**, **Prófun** eða **Vottun**. |
 
     > [!NOTE]
-    > Biðjið þjónustuveituna um allar fyrri upplýsingar til að koma á tengingu við aðgangsstað sinn.
+    > Biðja þjónustuveituna um allar fyrri upplýsingar til að koma á tengingu við aðgangsstað.
 
-## <a name="set-up-company-information"></a>Settu upp upplýsingar um fyrirtæki
+## Setja upp stofngögn
 
-Áður en þú byrjar að nota rafræn skjöl skaltu uppfæra **Fyrirtækisupplýsingar** síðuna þína með því að ljúka eftirfarandi skrefum:
+Áður en byrjað er að nota e-skjöl skal uppfæra **síðuna Stofngögn** með því að ljúka eftirfarandi skrefum:
 
-1. Veldu ![peru sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Fyrirtækisupplýsingar** og veldu síðan tengda hlekkinn.
-2. Auk þess að fylla út venjulega reiti verður þú einnig að fylla út eftirfarandi reiti:
+1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Stofngögn** og velja síðan viðeigandi tengil.
+2. Auk þess að fylla út venjulega reiti þarf einnig að fylla út eftirfarandi reiti:
 
     | Heiti reits | Heimildasamstæða |
     |---|---|
-    | SWIFT-kóði | Tilgreindu SWIFT kóða (alþjóðabankaauðkenniskóða) aðalbankans þíns. |
+    | SWIFT-kóði | Tilgreina SWIFT-kóða (alþjóðlegan bankakenniskóta) aðalbankans. |
     | Bankanúmer | Tilgreinið fjögurra stafa útibúsnúmer bankans. |
-    | VSK-númer. | Tilgreinið skráningarnúmer virðisaukaskatts (VSK) fyrirtækisins. |
+    | VSK-númer. | Tilgreina virðisaukaskattsnúmer fyrirtækisins (VSK). |
 
 3. Loka síðunni.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Settu upp viðskiptavini til að fá rafræn skjöl
+## Setja upp viðskiptamenn til að taka á móti tölvupóstskjölum
 
-Til að gera viðskiptavinum kleift að fá rafræn skjöl þín skaltu ljúka eftirfarandi skrefum:
+Til að gera viðskiptamönnum kleift að taka á móti e-skjölum skal ljúka eftirfarandi skrefum:
 
-1. Veldu ![peru sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Viðskiptavinir** og veldu síðan tengda hlekkinn.
-2. Opnaðu **viðskiptavina** kortið.
-3. Auk þess að fylla út venjulega reiti skal tilgreina viðskiptavin í reitnum **GLN**  í tengslum við sendingu rafrænna skjala.
-4. Merktu við **Notaðu GLN í rafrænum skjölum** reitinn til að gefa til kynna hvort Global Location Number (GLN) sé notað sem auðkennisnúmer aðila í rafrænum skjölum.
+1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Viðskiptamenn** og velja síðan viðeigandi tengil.
+2. Opna skal **viðskiptamannaspjaldið** .
+3. Auk þess að fylla út venjulega reiti í reitnum **GLN**, tilgreina viðskiptamanninn í tengslum við sendingu rafrænna skjala.
+4. Reiturinn **Nota GLN í rafræn skjölum** er merktur til að tilgreina hvort Altækt birgðageymslunúmer (GLN) sé notað sem kenninúmer aðila í rafrænum skjölum.
 5. Loka síðunni.
 
-## <a name="other-setup"></a>Önnur uppsetning
+## Önnur uppsetning
 
-Áður en þú byrjar að vinna með e-skjöl skaltu setja upp e-skjal **vinnuflæði** og **skjalasendingarsnið** til notaðu vinnuflæðið þitt. Eftir að þjónustutengingunni hefur verið komið á geturðu byrjað að nota rafræna skjalalausnina þína.
+Áður en byrjað er að vinna með tölvupóstskjöl skal setja upp verkflæði tölvupóstskjala **og** **skjalasendingarsnið** til að nota verkflæðin. Þegar þjónustutengingu hefur verið náð er hægt að byrja að nota e-skjalslausnina.
 
-## <a name="available-service-providers"></a>Tiltækir þjónustuaðilar
+## Tiltækir þjónustuaðilar
 
-Microsoft vill hvetja aðgangsstaðaveitendur til að bæta tengjum sínum ofan á **E-Document Core** ramma okkar.
+Microsoft vill hvetja aðgangsstaðaveitur til að bæta við tengjum sínum efst í E-Document Core **rammanum.** 
 
-Sem stendur er Pagero eini aðgangsstaðaveitan sem fellur undir þetta kerfi. Microsoft ber enga samningsbundna skuldbindingu við Pagero. Þess vegna verður þú að gera samning við þá til að fá öll nauðsynleg skilríki.
+Eins og er er Pagero eini aðgangsstaðarveitan sem kerfið nær yfir. Microsoft er ekki með samningsbundnar skuldbindingar við Pagero. Þess vegna þarf að gera samning við þá til að fá öll nauðsynleg skilríki.
 
-Við munum uppfæra þennan lista eftir því sem við fáum nýja þjónustuveitendur til að skiptast á rafrænum skjölum.
+Við munum uppfæra þennan lista þegar við fáum nýja aðgangsstaðarþjónustu fyrir tölvupóst.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Hvernig á að setja upp rafræn skjöl í Business Central](finance-how-setup-edocuments.md)  
-[Hvernig á að nota rafræn skjöl í Business Central](finance-how-use-edocuments.md)  
-[Hvernig á að framlengja rafræn skjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Hvernig á að setja upp tölvupóstskjöl í Business Central](finance-how-setup-edocuments.md)  
+[Hvernig á að nota e-skjöl í Business Central](finance-how-use-edocuments.md)  
+[Hvernig á að framlengja tölvupóstskjöl í Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
 [Fjármálastjórnun](finance.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
-[Skráðu innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  
+[Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

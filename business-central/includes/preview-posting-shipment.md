@@ -7,6 +7,6 @@ ms.service: dynamics-365-business-central
 ---
 
 > [!TIP]
-> Til að forðast mistök er notuð  **forskoðunarbókunaraðgerðin**  til að fara yfir færslurnar sem bókunin mun stofna. 
+> Til að forðast mistök skal nota aðgerðina **Forskoðunarbókun** til að skoða færslurnar sem bókunin stofnar. 
 > 
-> Eitt atriði til að huga að er ekki hægt að skoða vöruhúsamóttökur og afhendingar ef þær eru með línur sem innihalda magn sem á að afgreiða úr nokkrum upprunaskjölum.
+> Eitt sem þarf að hafa í huga er þó að ekki er hægt að forskoða vöruhúsamóttökur og afhendingar ef þær eru með línum sem innihalda magn til afgreiðslu úr mörgum upprunaskjölum.

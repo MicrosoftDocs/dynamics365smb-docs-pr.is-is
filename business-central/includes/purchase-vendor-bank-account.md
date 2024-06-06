@@ -16,4 +16,4 @@ ms.service: dynamics-365-business-central
 > Sumir reitir eru faldir þar til þú velur aðgerðina **Sýna fleiri**, yfirleitt vegna þess að þeir eru sjaldan notaðir. Öðrum verður að bæta við með sérstillingu. Frekari upplýsingar eru í [Sérstilling verksvæðis](../ui-personalization-user.md).
 
 > [!WARNING]
-> Sumir reitir í bankareikningi lánardrottins innihalda viðkvæm viðskiptagögn eins og **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Nánari upplýsingar um hvernig á að fylgjast með og vera tilkynnt um þegar einhver breytir gildi í þessum reitum eru  [í Monitor-viðkvæmum svæðum](../across-log-changes.md#monitor-sensitive-fields).
+> Sumir reitir í bankareikningi lánardrottins innihalda viðkvæm viðskiptagögn eins og **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Nánari upplýsingar um hvernig á að fylgjast með og tilkynna þegar einhver breytir gildi í þessum reitum [eru í Skjár viðkvæmir reitir](../across-log-changes.md#monitor-sensitive-fields).

@@ -1,6 +1,6 @@
 ---
 title: Tínsla og Afhending í einfaldar grunngerðir vöruhúss
-description: Í þessari grein er lýst ýmsum stigum margbreytileika í tínslu-og skipaferlum.
+description: Þessi grein lýsir ýmsum flækjustigum í tínslu- og afhendingarferlum.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,22 +10,22 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
+# Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
-Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
+Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru tíndar og afhentar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
-|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flóknarastig (Fræðast meira um [vöruhúsakerfisyfirlit](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Bóka tínslu og sendingu úr pöntunarlínu|||Engin sérstök vöruhúsaaðgerð.|  
-|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
-|U|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
-|D|Bókið tínsluna úr vöruhúsatínsluskjali og bókið sendinguna úr afhendingarskjali vöruhúss|Kveikt|Kveikt|Ítarlegt|  
+|A|Bóka tínsluna og afhendinguna úr pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
+|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: Pöntun-fyrir-pöntun.|  
+|U|Bóka tínslu og afhendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Bókuð móttaka/sending í mörgum pöntunum.|  
+|D|Tínslan er bókuð úr vöruhúsatínsluskjali og afhendingin bókuð úr vöruhúsaafhendingarskjali|Kveikt|Kveikt|Ítarlegt|  
 
-Frekari upplýsingar á útdragandi [Vöruhúsaklæðum](design-details-outbound-warehouse-flow.md).
+Nánari upplýsingar í [Vöruhúsaflæði úthólfs](design-details-outbound-warehouse-flow.md).
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna
 
 Í grunnvöruhúsi þar sem staðsetning er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **Birgðatínsla** til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl á útleið. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun með nauðsynlegum íhlutum.  
 
@@ -37,7 +37,7 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 - Stofna birgðatínslu byggða á útgefnu upprunaskjali.  
 - Skráir vöruhúsahreyfinguna frá vöruhúsinu og bókar á sama tíma söluafhendinguna fyrir upprunaskjal sölupöntunarinnar.  
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk
 
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
@@ -52,33 +52,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Ferill
+## Ferill
 
 Stjórnandi vöruhússins hjá CRONUS setur upp SUÐUR-vöruhús fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru 1928-S sem afgreiða á til viðskiptamanns 10000 úr SUÐUR vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem 1928-S er geymt.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>Uppsetning hólfakóða
+### Uppsetning hólfakóða
 
 Þegar staðsetningin hefur verið sett upp verður að bæta tveimur hólfum við.
 
-#### <a name="to-setup-the-bin-codes"></a>Til að setja upp hólfakóðana
+#### Til að setja upp hólfakóðana
 
 1. Veldu aðgerðina **Hólf**.
 2. Búðu til tvö hólf, með kóðunum *S-01-0001* og *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Að gera sig að vöruhúsastarfsmanni á staðsetningunni SUÐUR
+### Að gera sig að vöruhúsastarfsmanni á staðsetningunni SUÐUR
 
 Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem starfskraftur í vöruhúsi. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>Til að gera þig að starfsmanni vöruhúss
+#### Til að gera þig að starfsmanni vöruhúss
 
   1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
   2. Veldu reitinn **Notandakenni** og síðan eigin notandareikning á síðunni **Starfsmaður vöruhúss**.
   3. Í reitnum **Staðsetningarkóði** velur þú SUÐUR.  
   4. Veldu reitinn **Sjálfgefið** og síðan hnappinn **Já**.  
 
-### <a name="making-item-1928-s-available"></a>Gera hlut 1928-S tiltækan
+### Gera hlut 1928-S tiltækan
 
 Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þessum skrefum:  
 
@@ -90,16 +90,16 @@ Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þ
         |Auking|1928-S|SUÐUR|S-01-0001|20|  
         |Auking|1928-S|SUÐUR|S-01-0002|20|  
 
-        Sjálfgefið er að **Hólfakóði** á sölulínunni sé falinn og því þarf að kalla hann fram. Til að gera þetta þarftu að sérstilla síðuna. Nánari upplýsingar er að finna  [í til að ræsa sérsníða síðu í gegnum fylgiritið](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+        Sjálfgefið er að **Hólfakóði** á sölulínunni sé falinn og því þarf að kalla hann fram. Til að gera þetta þarftu að sérstilla síðuna. Nánari upplýsingar [eru í Til að byrja að sérstilla síðu með borðanum Sérstilling](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
   3. Veldu **Aðgerðir**, smelltu síðan á **Bókun** og smella síðan á **Bóka**.  
   4. Velja hnappinn **Já**.  
 
-## <a name="creating-the-sales-order"></a>Stofna sölupöntunina
+## Stofna sölupöntunina
 
 Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.  
 
-### <a name="to-create-the-sales-order"></a>Stofna sölupöntun
+### Stofna sölupöntun
 
 1. Veldu ![Ljósapera sem opnar þriðja eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -115,11 +115,11 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
     Haldið er áfram að taka til og senda seldar vörur.  
 
-## <a name="picking-and-shipping-items"></a>Tínsla og afhending vara
+## Tínsla og afhending vara
 
 Á síðunni **Birgðatínsla** er hægt að meðhöndla alla virkni vöruhúss á útleið fyrir tiltekið upprunaskjal, til dæmis sölupöntun. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>Til að tína og senda vörur
+### Til að tína og senda vörur
 
 1. Veldu ![Ljósapera sem opnar fjórða eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Birgðatínsla** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -136,7 +136,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
     30 Amsterdam Lamps eru nú skráðir sem teknir til úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

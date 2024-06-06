@@ -1,6 +1,6 @@
 ---
 title: Selja birgðavörur í flæðum samsetningar í pöntun
-description: Samsettar vörur eru settar saman fyrir sölupantanir með samsetningarpöntun.
+description: Samsetningarvörur í pöntun eru settar saman fyrir sölupantanir með samsetningarpöntun.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,51 +11,51 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Selja birgðavörur í flæðum samsetningar í pöntun
+# Selja birgðavörur í flæðum samsetningar í pöntun
 
- **Ef reiturinn Samsetningarregla**  á birgðaspjaldinu sem um er að ræða  **saman við pöntun** á sölupöntun er gert ráð fyrir að varan sé ekki í birgðum og hún verði að vera sett saman vegna sölupantana. Þegar vörunni er bætt í línu í sölupöntun  [!INCLUDE [prod_short](includes/prod_short.md)]  býr til samsetningarpöntun sem er tengd sölupöntuninni. Til að fræðast nánar um hvernig á að selja samsettar vörur er farið í að  [selja vörur saman til að panta](assembly-how-to-sell-items-assembled-to-order.md). Ef magn sölupöntunar er hins vegar þegar tiltækt í birgðum er hægt að lækka sendingarpöntunarmagnið með því að breyta  **reitunum magn til að setja saman í pöntunarsvæði**  á sölupöntunarlínunni.  
+Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Samsetning-til-pöntun** gerir sölupöntunarferlið ráð fyrir því að varan sé ekki í birgðum og verði að vera sett saman fyrir sölupantanir. Þegar vörunni er bætt við línu á sölupöntun [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar samsetningarpöntun sem tengist sölupöntuninni. Nánari upplýsingar um hvernig á að selja samsetningarvörur fyrir pöntun er farið í [Selja vörur sem settar eru saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md). Hins vegar, ef eitthvað af magni sölupöntunar er þegar tiltækt í birgðum er hægt að minnka samsetningarpöntunarmagnið með því að breyta reitnum **Magn til samsetningar í Pöntun** á sölupöntunarlínunni.  
 
-Það er tiltölulega sjaldgæft fyrir fyrirtæki að selja vörur í birgðum sem samsettar vörur. Vörur í samsetningum eru yfirleitt ekki staðlaðar. Þeir eru sérsniðnir að þörfum ákveðinna viðskiptavina. Hins vegar er hægt að hafa magn saman við pöntunarvörur í birgðum vegna skila eða afturköllunar pöntunar. Það magn skal taka til og selja áður en ný Bú eru sett saman.  
-
-> [!NOTE]  
-> Til að athuga hvort hvort samsettar vörur eru þegar tiltækar fyrir samsetningar pantana skal nota  **upplýsingakassa Sölulínuupplýsingar**  í sölupöntuninni.  
-
-Það er hægt að gera svipaða hluti þegar vörur eru seldar úr birgðum og eitthvert eða allt magn er ekki tiltækt. Hægt er að veita vantar magn með samsetningarpöntun. Til að fræðast meira um sölu birgða og samsetningarvöru er farið í að  [selja samsettar vörur og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+Það er tiltölulega sjaldgæft að fyrirtæki selji birgðavörur sem samsetningarvörur í pöntun. Vörur sem eru settar saman eftir pöntun eru yfirleitt ekki staðlaðar. Þær eru sérsniðnar til að uppfylla sérstakar kröfur viðskiptavina. Hins vegar gæti verið magn vöru í birgðum settar saman vegna afturkallana eða afturkallana pantana. Það magn skal tína og selja áður en nýtt er sett saman.  
 
 > [!NOTE]  
-> Það eru reglur sem gilda  **um reitinn Magn til sendingar**  á sölupöntunarlínum sem innihalda samsetninguna magn til pöntunar og birgðamagn. Til að fræðast nánar um reglurnar er farið í  [samsettri atburðarás](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
+> Til að kanna hvort samsetningarvörur í pöntun séu þegar tiltækar fyrir samsetningarpantanir er upplýsingakassinn **sölulínuupplýsinga** notaður í sölupöntuninni.  
 
-Í þessu ferli, er skipt út samsetninarpöntunarmagni við birgðamagn í sölupöntunarlínu. Eftirfarandi leiðbeiningar veita yfirlit:
+Hægt er að gera svipaða hluti þegar verið er að selja samsetningarvörur úr birgðum og sumt eða allt magnið er ekki tiltækt. Hægt er að gefa magnið sem vantar með samsetningarpöntun. Nánari upplýsingar um sölu birgða og samsetningarvara eru settar [saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) í Selja samsetningarvörur og Vörur í birgðum.  
 
-1. Ákvarða framboð.
-2. Draga úr því magni úr tengdu samsetningarröðinni.
-3. Taka birgðamagn frá til að ganga úr skugga um að það sé tekið til og afhent fyrir pöntunina.  
+> [!NOTE]  
+> Það eru reglur sem gilda um reitinn **Magn til afhendingar** í sölupöntunarlínum sem innihalda samsetningarmagn og birgðamagn. Nánari upplýsingar um reglurnar fást [í Samsetningaraðstæður](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Til að selja birgðavörur í flæðum samsetningar í pöntun
+Í þessu ferli, er skipt út samsetninarpöntunarmagni við birgðamagn í sölupöntunarlínu. Eftirfarandi skref gefa yfirlit:
+
+1. Ákvarða ráðstöfunarmagn.
+2. Minnkun þess magns úr tengdu samsetningarpöntuninni.
+3. Taka frá birgðamagn til að ganga úr skugga um að það sé tínt og afhent fyrir pöntunina.  
+
+## Til að selja birgðavörur í flæðum samsetningar í pöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
-2. Stofnið sölupöntun. Til að fræðast um stofnun sölupantana er farið að  [selja afurðir](sales-how-sell-products.md).  
-3. Í sölupöntunarlínu sem inniheldur saman pöntunarvöru í  **reitnum Magn**  er magnið fært inn.  
-4.  **Í upplýsingakassa Sölulínuupplýsinga**  skal ákvarða hvort eitthvað magn er tiltækt.  
+2. Stofnið sölupöntun. Til að fá upplýsingar um stofnun sölupantana er farið í [Selja vörur](sales-how-sell-products.md).  
+3. Magnið er fært inn í sölupöntunarlínu sem inniheldur vörusamsetningar fyrir pöntun í reitnum **Magn** .  
+4.  **Í upplýsingakassa sölulínu** er ákvarðað hvort eitthvað af öllu magni er til ráðstöfunar.  
 5. Í reitnum **Magn til samsetningar til pöntunar** er tiltækt magn dregið frá þannig að einungis ótiltækt magn er sett saman í pöntunina. Reiturinn **Frátekið magn** er minnkaður í samræmi við það til að gefa til kynna að tengillinn á pöntun fyrir pöntun, eða frátektin, á einungis við magn sem á að setja saman.  
 6. Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan aðgerðina **Taka frá**.  
 7. Á síðunni **Frátekning** skal velja birgðafærsluna eða línurnar sem hafa að geyma tiltækt magn á flipanum **Taka frá í gildandi línu** og velja svo **Í lagi** hnappinn.  
 
-     **Á sölupöntuninni**  er síðan  **Frátekið magn**  sýnir nú að fullt magn fyrir pöntunarlínuna er frátekið.  **Magn til að setja saman við pöntunarsvæði**  endurspeglar samt magnið sem á að setja saman.  
+    Á síðunni **Sölupöntun** sýnir reiturinn **Frátekið magn** nú að allt magnið fyrir pöntunarlínuna er frátekið. Reiturinn **Magn til samsetningar til pöntunar** sýnir samt magnið sem á að setja saman.  
 
-8. Sleppið sölupöntuninni til að gera vörurnar tiltækar fyrir tiltekt og til samsetningar á ótiltæknum vörum. Til að fræðast meira um þing er farið í að  [setja saman atriði](assembly-how-to-assemble-items.md).  
+8. Gefa út sölupöntunina til að gera vörurnar tiltækar fyrir tínslu og samsetningu ótilgreindra vara. Nánari upplýsingar um samsetningu vöru er farið í [Samsetningarvörur](assembly-how-to-assemble-items.md).  
 
 > [!CAUTION]  
->  **Reiturinn Hólfakóti**  í sölupöntuninni gæti innihaldið gildið úr  **svæðunum sameina-til-Hólfkóti**  eða  **kóti**  frá-samsetning hólfs á birgðageymsluspjaldinu. Ef það er gert  **gæti reiturinn Hólfakóti**  í sölupöntunarlínunni verið rangur fyrir þessa samsetningu samsetja og lagermagns í samsetningum. Það er góð hugmynd að tvöfalda í það að hólfið í  **reitnum Hólfakóti**  virki fyrir allt magn. Að öðrum kosti skal færa inn tvenns konar mismunandi magn í aðskildar sölupöntunarlínur.  
+> Reiturinn **Hólfkóti** á sölupöntuninni gæti innihaldið gildið úr reitunum **Hólfakóti samsetningar til afhendingar eða** Hólfakóti **frá**-samsetningar á birgðageymsluspjaldinu. Ef svo er **gæti reiturinn Hólfkóti** á sölupöntunarlínunni verið rangur fyrir þessa samsetningu magns samsetningar og magns sem sett er saman til á lager. Mælt er með því að tvísvara að hólfið í reitnum **Hólfkóti** virki fyrir allt magn. Að öðrum kosti skal færa inn tvenns konar mismunandi magn í aðskildar sölupöntunarlínur.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

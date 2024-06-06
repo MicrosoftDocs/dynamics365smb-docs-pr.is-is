@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Lokaðu opnum birgðabókarfærslum sem stafa af fastri notkun í vörubókinni
+# Loka opnum birgðafærslum sem eru afleiðingar fastrar jöfnunar í birgðabókinni
 
 Nota skal reitinn **Jafnað frá færslu** á síðunni **Birgðabók** til að stofna fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið. Til dæmis til að leiðrétta viðskipti á útleið eða til að vinna úr skilum þeirra.  
 
@@ -22,16 +22,16 @@ Hægt er að breyta og endurjafna jöfnunarfærslur við ákveðnar aðstæður 
 
 Eftirfarandi ferli sýnir hvernig eigi að loka slíkum færslum með því að framkvæma tvær leiðréttar bókanir í birgðabókina.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Til að loka opnum birgðahöfuðbókarfærslum sem verða til úr fastri jöfnun í birgðabókinni
+## Til að loka opnum birgðahöfuðbókarfærslum sem verða til úr fastri jöfnun í birgðabókinni  
 
 1. Nota skal reitinn **Jafnað frá færslu** til að bóka jákvæða leiðréttingu með samsvarandi magn. Þetta lokar upprunalegu neikvæðu leiðréttingarfærslunni með fastri jöfnun.  
 
     Reiturinn **Jafnað frá færslu** tilgreinir númer útleiðarfærslu birgðahöfuðbókar sem hefur kostnað sem sendur er í innleiðarfærslu birgðahöfuðbókar þegar innleiðarfærsla af gerðinni **Aukning** eða **Innkaup** er bókuð í birgðabókinni.  
 2. Nota skal reitinn **Jafnað frá færslu** til að bóka neikvæða leiðréttingu. Þetta lokar upprunalegu jákvæðu leiðréttingarfærslunni með fastri jöfnun.  
 
-    Reiturinn **Jafna færslu** tilgreinir ef magnið í birgðabókarlínunni á að jafnast við fylgiskjal sem þegar er bókað. Ef svo er skal slá inn færslunúmer birgðabókarfærslunnar sem færslubókarlínan á að nota á.
+    Reiturinn **Jafna færslu** tilgreinir ef magnið í birgðabókarlínunni á að jafnast við fylgiskjal sem þegar er bókað. Ef svo er skal færa inn færslunúmer birgðafærslunnar sem jafna á birgðabókarlínuna við.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)  
 [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)  

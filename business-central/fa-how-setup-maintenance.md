@@ -10,23 +10,23 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-fixed-asset-maintenance"></a>Uppsetning eignarviðhalds
+# Uppsetning eignarviðhalds
 Til að halda utan um viðhald eigna, þarf fyrst að setja upp nokkrar almennar viðhaldsupplýsingar, bókunarlykil viðhaldskostnaðar og viðhaldskóta fyrir tegundir vinnu, svo sem Venjubundin Þjónusta eða Viðgerð.
 
-## <a name="to-set-up-general-maintenance-information"></a>Uppsetning almennra viðhaldsupplýsinga:
+## Uppsetning almennra viðhaldsupplýsinga:
 Ef settir eru upp reitir fyrir viðhald er hægt að bóka viðhaldskostnað úr eignabók.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin fyrir hverja skilgreina á vátryggingasvið fyrir, og velja síðan **Breyta** aðgerð.
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Viðhald**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-maintenance-codes"></a>Uppsetning viðhaldskóta
+## Uppsetning viðhaldskóta
 Þegar viðhaldskostnaður er bókaður úr færslubók fyllt í reitinn **viðhaldskóði** til að skrá hvers konar viðhald hefur verið framkvæmt eins og venjubundin þjónusta eða viðgerð.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðhald** og velja síðan viðkomandi tengil.
 2. Á síðunni **Viðhald** skal setja upp kóða fyrir mismunandi tegundir viðhaldsvinnu.
 
-## <a name="to-set-up-maintenance-expense-accounts"></a>Uppsetning reikninga viðhaldskostnaðar
+## Uppsetning reikninga viðhaldskostnaðar
 Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer á síðuna **Eignabókunarflokkar**.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignabókunarflokkar** og velja síðan viðkomandi tengil.
@@ -35,7 +35,7 @@ Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer á 
 > [!NOTE]  
 >   Til að skilgreina að viðhaldskostnaði er úthlutað á deildir eða verkefni, eru settir upp úthlutunarlyklar. Frekari upplýsingar eru í [Setja upp almenna eiginleika eigna](fa-how-setup-general.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  

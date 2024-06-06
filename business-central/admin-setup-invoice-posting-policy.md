@@ -1,6 +1,6 @@
 ---
-title: Skilgreinið bókunarreglur reiknings fyrir notendur
-description: Notaðu reglur reikningabókar til að stjórna því hvort notandi geti bókað sölu-og innkaupareikninga.
+title: Skilgreina bókunarreglu reikninga fyrir notendur
+description: Nota bókunarreglur reikninga til að stjórna því hvort notandi getur bókað sölu- og innkaupareikninga.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,45 +11,45 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Skilgreinið bókunarreglur reiknings fyrir notendur
+# Skilgreina bókunarreglu reikninga fyrir notendur
 
-Fyrirtæki hafa oft einstaka ferla fyrir bókun sölu-og innkaupareikninga og sendinga. Til dæmis geta ferli verið breytileg eftir bókun fólks allt á innkaupapöntun, til margra starfsmanna. Hægt er að takmarka aðgang notenda frá bókun reikninga eða krefjast þess að reikningar séu bókaðir ásamt afhendingum eða innhreyfingum.
+Fyrirtæki hafa oft einstök ferli við bókun sölu- og innkaupareikninga og afhendingar. Vinnslur geta til dæmis verið breytilegar frá einum einstaklingi sem bókar allt á innkaupapöntun, á marga starfsmenn. Hægt er að takmarka notendur við bókun reikninga eða krefjast þess að reikningar séu bókaðir ásamt afhendingum eða móttökum.
 
-## <a name="to-specify-a-posting-policy"></a>Bókunarregla tilgreind
+## Bókunarregla tilgreind
 
- **Á síðunni Notandauppsetning**  eru í  **bókunarreglum**  sölureiknings og  **Innk. Reitirnir Bókunarregla**  reikninga, velja einn af eftirfarandi valkostum:
+Á síðunni **Notandauppsetning**, í **bókunarreglu** sölureiknings og **Innk.reikn. Reitirnir Bókunarregla** reikninga, velja einn af eftirfarandi valkostum:
 
-* **Leyfilegt**  (sjálfgefið)-Haltu núverandi hegðun, þar sem notandi getur valið bókunarmöguleika sem nota á, S.s. **Sendist**,  **reikning** og  **Sendist og reikning**. 
-* **Bönnuð**  -koma í veg fyrir að notandinn bóki reikninga. Viðskiptamiðað birtist Staðfestingargluggi sem býður aðeins upp á að senda  **eða**  taka  **við**  valkostum.
-* **Skylda**  -Leyfa notandanum að bóka reikninga ásamt innhreyfingum eða sendingum. Viðskiptamiðað birtist Staðfestingargluggi með  **skipinu og reikningum**  eða  **móttöku-og reikningakosti** .
+* **Leyfð** (sjálfgefið) - Halda gildandi hegðun þar sem notandi getur valið bókunarvalkostinn sem **á að nota, t.d. Afhenda**, **Reikningsfæra** og **Afhenda og reikningsfæra**. 
+* **Bannað** - Komið í veg fyrir að notandi bóki reikninga. Business Central birtir staðfestingarsvarglugga sem veitir aðeins valkostina **Afhenda** eða **Taka á móti** .
+* **Áskilið** - Leyfa notandanum að bóka reikninga ásamt móttökum eða afhendingum. Business Central birtir staðfestingarsvarglugga með valkostunum **Afhenda og reikningsfæra** eða **Móttaka og Reikningsfæra** .
 
-## <a name="effect-on-documents"></a>Áhrif á kjör
+## Áhrif á skjöl
 
-Eftirfarandi tafla lýsir því hvernig reikningsreglur reikninga hafa áhrif á skjöl.
+Eftirfarandi tafla lýsir því hvernig bókunarreglur reikninga hafa áhrif á fylgiskjöl.
 
 > [!NOTE]
-> Þegar sölu-og innkaupareikningar eru bókaðir og kreditreikningar eru ekki með neina bókunarvalkosti. Skjölin bóka alltaf efnislegar og fjárhagslegar færslur saman. Ekki er hægt að að hluta til að bóka reikninga og kreditreikninga.
+> Þegar sölu- og innkaupareikningar og kreditreikningar eru bókaðir eru engar bókunarvalkostir. Fylgiskjölin bóka alltaf efnisleg og fjárhagsleg viðskipti saman. Ekki er hægt að bóka reikninga og kreditreikninga að hluta.
 
-|Skjal | Valkostur 1: heimilið <br>Birtir röð valkosta| Valkostur 2: Bannið <br>Svargluggi staðfestingar | Valkostur 3: skyldur <br>Svargluggi staðfestingar|
+|Skjal | Valkostur 1: Leyfa <br>Birtir raðir valkosta| Valkostur 2: Bannað <br>Staðfestingarsvargluggi | Valkostur 3: Áskilið <br>Staðfestingarsvargluggi|
 |--|--|--|--|
-|Sölupöntun |-Skip <br>-Reikningur <br>-Senda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
-|Sölureikning|Engir Valkostir|Á að bóka reikninginn?|Á að bóka reikninginn?|
-|Sölukreditreikningur|Engir Valkostir|Á að bóka kreditreikninginn?|Á að bóka kreditreikninginn?|
-|Vöruskilapöntun sölu |-Móttaka <br>-Reikningur <br>-Móttaka og Reikningshald |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
-|Birgðatínslu |-Skip <br>-Senda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
-|Innkaupapöntun |-Móttaka <br>-Reikningur <br>-Móttaka og Reikningshald |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
-|Innkaupareikningi|Engir Valkostir|Á að bóka reikninginn?|Á að bóka reikninginn?|
-|Innkaupakreditreikningur|Engir Valkostir|Á að bóka kreditreikninginn?|Á að bóka kreditreikninginn?|
-|Vöruskilapantanir innkaupa |-Skip <br>-Reikningur <br>-Senda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
-|Birgðafrágangur |-Móttaka <br>-Móttaka og Reikningshald |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
-|Vöruhúsaafhending |-Skip <br>-Senda og reikningsfæra | Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
+|Sölupöntun |-Skip <br>-Reikning <br>- Afhenda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
+|Sölureikningur|Engir valkostir|Á að bóka reikninginn?|Á að bóka reikninginn?|
+|Sölukreditreikningur|Engir valkostir|Á að bóka kreditreikninginn?|Á að bóka kreditreikninginn?|
+|Vöruskilapöntun sölu |-Fá <br>-Reikning <br>- Móttaka og reikningur |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
+|Birgðatínsla |-Skip <br>- Afhenda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
+|Innkaupapöntun |-Fá <br>-Reikning <br>- Móttaka og reikningur |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
+|Innkaupareikningur|Engir valkostir|Á að bóka reikninginn?|Á að bóka reikninginn?|
+|Innkaupakreditreikningur|Engir valkostir|Á að bóka kreditreikninginn?|Á að bóka kreditreikninginn?|
+|Vöruskilapantanir innkaupa |-Skip <br>-Reikning <br>- Afhenda og reikningsfæra |Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
+|Birgðafrágangur |-Fá <br>- Móttaka og reikningur |Á að bóka móttökuna? |Á að bóka móttökuna og reikninginn?|
+|Vöruhúsaafhending |-Skip <br>- Afhenda og reikningsfæra | Á að bóka afhendinguna? |Á að bóka afhendinguna og reikninginn?|
 
    > [!Note]
-   > Stillingin hefur ekki áhrif á bókun í færslubókarlínum þar sem hægt er að velja  **reikning**  í  **reitnum Tegund**  fylgiskjals.
+   > Stillingin hefur ekki áhrif á bókun færslubókarlína þar sem hægt er að velja **Reikningur** í reitnum **Tegund** fylgiskjals.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skrá innkaup með innkaupareikningum og pöntunum](purchasing-how-record-purchases.md)  
-[Purchase Items for a Sale by Creating Purchase Invoices](purchasing-how-purchase-products-sale.md)
-[Getting Ready for Doing Business](ui-get-ready-business.md)  
+[Innkaupavörur til sölu með því að búa til innkaupareikninga](purchasing-how-purchase-products-sale.md)
+[til viðskipta](ui-get-ready-business.md)  

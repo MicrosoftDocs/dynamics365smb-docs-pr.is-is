@@ -7,4 +7,4 @@ ms.service: dynamics-365-business-central
 ---
 
 > [!TIP]
-> Til að forðast mistök er notuð  **forskoðunarbókunaraðgerðin**  til að fara yfir færslurnar sem bókunin mun stofna. Forskoðunin sýnir hins vegar ekki færslur fyrir birgðatínslu og frágang sem bókar ekki birgðalínur úr upprunaskjölum. Til dæmis línur sem hafa  **fjárhagsreikningagerð**  eða vörur af gerðinni  **þjónusta**.
+> Til að forðast mistök skal nota aðgerðina **Forskoðunarbókun** til að skoða færslurnar sem bókunin stofnar. Forskoðunin sýnir hins vegar ekki færslur fyrir birgðatínslur og frágang sem bókar óbirgðalínur úr upprunaskjölum. Til dæmis línur með **tegundina Fjárhagsreikningur** eða vörur af tegundinni **Þjónusta**.

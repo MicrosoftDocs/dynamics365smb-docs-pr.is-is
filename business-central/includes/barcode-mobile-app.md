@@ -6,6 +6,6 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Ef appið  [!INCLUDE [prod_short](prod_short.md)]  er sett upp  iOS  í appinu eða  Android  í fartækinu er hægt að nota myndavél tækisins til að skanna inn 1D eða 2D barkóða til að uppfæra upplýsingar í [!INCLUDE [prod_short](prod_short.md)]. 
+Ef þú setur farsímaforritið [!INCLUDE [prod_short](prod_short.md)] upp á farsímanum þínum iOS eða Android farsímanum getur þú notað myndavél tækisins til að skanna 1D eða 2D strikamerki til að uppfæra upplýsingar í [!INCLUDE [prod_short](prod_short.md)]. 
 
-Til að læra hvernig á að  [!INCLUDE [prod_short](prod_short.md)]  forrita Mobile appið, ferðu að  [fá Business Central í fartækinu](../install-mobile-app.md).
+Til að læra hvernig á að fá farsímaforritið [!INCLUDE [prod_short](prod_short.md)] skaltu fara í [Að fá Business Central í farsímanum þínum](../install-mobile-app.md).

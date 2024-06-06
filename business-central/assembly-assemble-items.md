@@ -1,6 +1,6 @@
 ---
 title: Samsetningardeild
-description: Lærðu að veita viðskiptavinum vörur með því að sameina íhluti í einföldum ferlum án þess að nota framleiðsluaðgerðir.
+description: Læra hvernig á að afgreiða vörur til viðskiptavina með því að sameina íhluti í einföldum ferlum án þess að nota framleiðsluaðgerðir.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,53 +11,53 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Samsetningardeild
+# Samsetningardeild
 
-Fyrirtæki geta útframboð vörur til viðskiptavina með því að sameina íhluti án þess að nota framleiðsluaðgerðir. Aðgerðir til að setja saman atriði samþætt við tengdar aðgerðir eins og Sala, áætlanagerð, frátektir og vöruhúsnæði.  
+Fyrirtæki geta útvegað viðskiptamönnum vörur með því að sameina íhluti án þess að nota framleiðsluaðgerðir. Aðgerðir til að samþætta vörur við tengdar aðgerðir eins og sölu, áætlanir, frátekningar og vöruvörur.  
 
-Samsetningarvara er seljanleg vara sem inniheldur SAMSETNINGARUPPSKRIFT. Til að fræðast meira um samsetningaruppskriftir er farið í  [vinnu með uppskriftum að samsetningu](assembly-how-work-assembly-boms.md).
+Samsetningarvara er seljanleg vara sem inniheldur samsetningaruppskrift. Nánari upplýsingar um samsetningaruppskriftir er farið í [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md).
 
-Samsetningarpantanir eru innanhússpantanir, rétt eins og framleiðslupantanir. Notið samsetningarskipanir til að stjórna samsetningarferlinu og til að tengja söluþarfir við vöruhúsaaðgerðir. Samsetningarskipanir fela í sér bæði úttak og notkun við bókun. Pöntunarhausar fyrir samsetningar eru Svipaðir og úttaksbókarlínur. Línur samsetningarlínu eru svipaðar og í notkunarbókarlínum.  
+Samsetningarpantanir eru innri pantanir, rétt eins og framleiðslupantanir. Nota samsetningarpantanir til að stjórna samsetningarferlinu og til að tengja söluþarfir við vöruhúsaaðgerðir. Samsetningarpantanir fela bæði í sér frálag og notkun við bókun. Samsetningarpöntunarhausar eru svipaðir afkastabókarlínum. Samsetningarpöntunarlínur eru svipaðar og notkunarbókarlínur.  
 
-Hægt er að nota bara Tímastillt birgðatækni og sérsníða afurðir til að mæta beiðnum viðskiptavina. Hægt er að stofna samsetningarskipanir sjálfvirkt og tengja þegar sölupöntunarlína er stofnuð. Tengillinn á milli sölueftirspurnar og framboðframboðs opnar mörg tækifæri þegar sölupantanir eru unnið saman:
+Hægt er að nota tímanlega birgðaáætlun og sérstilla vörur til að uppfylla beiðnir viðskiptamanna. Hægt er að stofna og tengja samsetningarpantanir sjálfkrafa þegar sölupöntunarlína er stofnuð. Tengillinn milli sölueftirspurnar og samsetningarbirgða opnast fyrir nokkur tækifæri þegar sölupantanir eru unnar:
 
-* Sérsníða samsetningarvörur á Flúðum.
-* Afhendingardagsetningar lofa í samræmi við framboð íhluta.
-* Bóka frálag og sendingu af Settu vörunni beint úr sölupöntunum þeirra.
+* Sérstilla samsetningarvörur á flugu.
+* Lofa afhendingardagsetningum eftir tiltækum íhlutum.
+* Bóka frálag og afhendingu samsettu vörunnar beint úr sölupöntunum sínum.
 
-Til að fræðast meira um sölusamsetningarvörur er farið í að  [selja vörur saman til pöntunar](assembly-how-to-sell-items-assembled-to-order.md).  
+Nánari upplýsingar um sölu samsetningarvara fást með því að fara í [Selja vörur sem settar eru saman í Pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
-Línur á sölupöntunum geta innihaldið vörur til tínslu úr lager og vörur til að setja saman fyrir pöntunina. Magn í samsetningum til pöntunar tekur forgang fram yfir birgðamagn í hlutaskipum. Til að fræðast meira um sölu á lager og samsetningarvörum er farið í  [samsettri atburðarás](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
+Í línum í sölupöntunum geta verið vörur til að tína úr birgðum og vörur til að setja saman fyrir pöntunina. Magnið saman til pöntunar hefur forgang yfir birgðamagni í hlutaafhendingu. Nánari upplýsingar um sölu birgða og samsetningarvara fást [í Samsetningaraðstæður](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
 
-Þegar magnið sem er sett saman við magn er tilbúið til sendingar getur vöruhúsastarfsmaður bókað birgðatínslu fyrir sölupöntunarlínurnar. Ef Birgðatínsla er til er tvennt til:
+Þegar magn til pöntunar er tilbúið til afhendingar getur starfsmaður í vöruhúsinu bókað birgðatínslu fyrir sölupöntunarlínurnar. Bókun birgðatínslu gerir ýmislegt:
 
-* Stofna birgðahreyfingu fyrir íhluti
-* Bóka samsetningarúttak og sölupöntunarsendinguna.
+* Stofna birgðahreyfingu fyrir íhlutina
+* Bóka samsetningarafköst og afhendingu sölupöntunarinnar.
 
-Til að fræðast meira um samsetningar-og pöntunarvörur og Birgðatínslur er farið í  [meðferð með því að setja saman vörur í birgðum með birgðatínslum](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+Nánari upplýsingar um vörur og birgðatínslur eru settar saman með því að [fara í Meðhöndlun á vörum í samsetningu á pöntun með birgðatínslum](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Fræðast um þing-vörur fyrir sölupantanir og geymslu.|[Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md)|
-|Nota staðsetningarspjöld og birgðauppsetninguna til að skilgreina hvernig vörur streyma til og frá samsetningu.|[Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
-|Vitna í sérsniðna samsetningarvöru og breyta svo tilboðinu í sölu þegar viðskiptavinurinn samþykkir það.|[Búa til tilboð með samsetningarpöntun](assembly-how-to-quote-an-assemble-to-order-sale.md)|
-|Sameina íhluti til að stofna vöru til að panta eða til á lager.|[Sameina vörur](assembly-how-to-assemble-items.md)|  
-|Selja samsetningarvörur sem eru ekki tiltækar með því að stofna tengda samsetningarpöntun til að fá magnið í fullu eða hluta af sölupöntuninni.|[Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md)|
-|Þegar samsettar vörur eru settar saman í birgðir, skal draga magnið frá samsetningarpöntuninni og taka hana frá í birgðum.|[Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
-|Þegar vörur eru ekki í birgðum skal nota samsetningarpöntun til að veita nokkurt eða allt magn.|[Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
-|Búa til vörur sérsniðnu samsetningar fyrir standandi sölupantanir áður en sölupantanir eru stofnaðar.|[Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)|
+|Fræðast um samsetningu vara í sölupöntunum og geymslu.|[Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md)|
+|Nota birgðageymsluspjöld og birgðagrunn til að skilgreina hvernig vörur flæða til og frá samsetningu.|[Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
+|Tilboð um sérsniðna samsetningarvöru og breyta svo tilboðinu í sölu þegar viðskiptamaðurinn samþykkir hana.|[Búa til tilboð með samsetningarpöntun](assembly-how-to-quote-an-assemble-to-order-sale.md)|
+|Sameina íhluti til að stofna vöru til pöntunar eða á lager.|[Sameina vörur](assembly-how-to-assemble-items.md)|  
+|Selja samsetningarvörur sem eru ekki tiltækar eins og er með því að búa til tengda samsetningarpöntun til að útvega fullt eða að hluta magn sölupöntunar.|[Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md)|
+|Þegar vörur sem eru settar saman eftir pöntun eru þegar í birgðum skal draga magnið frá samsetningarpöntuninni og taka það frá úr birgðum.|[Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
+|Þegar samsetningarvörur eru ekki í birgðum skal nota samsetningarpöntun til að útvega magn eða allt.|[Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Búa til sérsniðnar samsetningarvörur fyrir standandi sölupantanir áður en sölupantanirnar eru stofnaðar.|[Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)|
 |Afturkalla bókaða samsetningarpöntun, til dæmis vegna þess að pöntunin var bókuð með mistökum.|[Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)|
-|Lærðu að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
-|Fræðast um bókun samsetningar notkunar og úttaks og hvernig  [!INCLUDE [prod_short](includes/prod_short.md)]  dreifist kostnaður vöru og forða á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
+|Fræðast um hvernig á að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
+|Fræðast um bókun samsetningarnotkunar og frálags og hvernig [!INCLUDE [prod_short](includes/prod_short.md)] dreifir kostnaði vöru og forða í fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Design Details: Supply Planning](design-details-supply-planning.md)  
+[Upplýsingar um yfirlit](design-details-warehouse-management.md)
+[vöruhúsastjórnunar: Birgðaáætlun](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

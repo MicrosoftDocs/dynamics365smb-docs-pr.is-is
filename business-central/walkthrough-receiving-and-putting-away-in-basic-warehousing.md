@@ -1,6 +1,6 @@
 ---
 title: Kynning – Móttaka og frágangur í grunnstillingum vöruhúss
-description: Lærðu um mismunandi leiðir til að sjá um innferli fyrir móttöku og frágang.
+description: Fræðast um mismunandi leiðir til að meðhöndla ferla á innleið til móttöku og frágangs.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -9,98 +9,98 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
+# Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
 
-Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
+Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru mótteknar og gengið frá þeim með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
-|Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|Aðferð|Ferli á innleið|Krefjast móttöku|Krefjast frágangs|Flóknarastig (Fræðast meira um [vöruhúsakerfisyfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|B|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|N|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: Pöntun-fyrir-pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Bókuð móttaka/sending í mörgum pöntunum.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
-Frekari upplýsingar um vöruflæði á  [innleið](design-details-inbound-warehouse-flow.md).
+Nánari upplýsingar í Vöruhúsaflæði á [innleið](design-details-inbound-warehouse-flow.md).
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna  
 
-Í grunnvöruhúsaleiðunum þar sem birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttöku vinnslu skal nota  **síðuna birgðafrágangsfærslu**  til að skrá og bóka frágangs-og móttökuupplýsingar fyrir upprunaskjöl á innleið. Eftirfarandi skjöl eru upprunaskjöl á innleið:
+Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymsla er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota **síðuna Birgðafrágangur** til að skrá og bóka frágang og móttökuupplýsingar fyrir upprunaskjöl á innleið. Eftirfarandi skjöl eru upprunaskjöl á innleið:
 
 * Innkaupapöntun
 * Vöruskilapöntun sölu
 * Flutningspöntun á innleið
-* Framleiðslupöntun með úttak sem tilbúið er að ganga frá
+* Framleiðslupöntun með frálagi sem er tilbúið til frágangs
 
 > [!NOTE]
-> Þó svo að stillingarnar kalli  **á tiltekt**  og  **frágangssendingar** er samt hægt að bóka móttökur og afhendingar beint úr upprunaviðskiptaskjölum á birgðageymslum þar sem gátreitirnir eru valdir.  
+> Jafnvel þó stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs** er samt hægt að bóka móttökur og afhendingar beint úr upprunaviðskiptaskjölum í birgðageymslum þar sem þessir gátreitir eru valdir.  
 
 Þessi kynning fjallar um eftirfarandi verk:  
 
-* Setja upp staðsetningu SILFURS til frágangs birgða.  
-* Setja upp staðsetningu SILUNGS fyrir hólfaafgreiðslu.  
-* Skilgreinið sjálfgefið hólf fyrir vöru LS-81. (LS-75 er þegar uppsett í CRONUS.)  
-* Stofna innkaupapöntun fyrir lánardrottin 10000 fyrir 40 hátalara.  
-* Staðfestið að frágangshólfin séu forstillt af uppsetningunni.  
-* Sleppið innkaupapöntuninni fyrir vöruhúsameðhöndlun.  
-* Stofna birgðafrágang út frá útgefnu upprunaskjali.  
-* Staðfestið að frágangshólf séu fengin úr innkaupapöntuninni.  
-* Skrá vöruhúsahreyfinguna inn í vöruhúsið og bóka innkaupamóttöku fyrir upprunapöntunina.  
+* Setja upp staðsetningu SILVER fyrir birgðafrágang.  
+* Setja upp birgðageymsluna SILVER fyrir meðhöndlun hólfa.  
+* Skilgreina sjálfgefið hólf fyrir vöruna LS-81. (LS-75 er þegar uppsett í CRONUS.)  
+* Stofna innkaupapöntun fyrir lánardrottin 10000 fyrir 40 hástafi.  
+* Ganga þarf úr skugga um að frágangshólfin séu forstillt eftir uppsetningu.  
+* Innkaupapöntunin er gefin út fyrir vöruhúsastjórnun.  
+* Stofna birgðafrágang sem byggist á útgefnu upprunaskjali.  
+* Ganga þarf úr skugga um að frágangshólfin séu fengin úr innkaupapöntuninni.  
+* Skrá vöruhúsahreyfinguna í vöruhúsið og bóka innkaupamóttökuna fyrir upprunainnkaupapöntunina.  
 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk  
 
-Eftirtalin hlutverk notenda framkvæma verkefnin sem þessi gönguleið sýnir:  
+Eftirfarandi notendahlutverk framkvæma verkin sem þessi kynning sýnir:  
 
 * Yfirmaður vöruhúss  
 * Innkaupaaðili  
 * Starfsmaður í vöruhúsi  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði  
 
-Til að ljúka þessu gönguleið þarftu:  
+Til að ljúka þessari kynningu þarf:  
 
-* CRONUS Alþt hf. gögn  
-* Að vera starfsmaður vöruhúss á SILUNGSVEIÐI á staðnum. Ef þú vilt stilla þig upp skaltu fylgja þessum skrefum:  
+* CRONUS Gögn um Ísland hf.  
+* Að vera starfsmaður í vöruhúsi á SILVER- stað. Til að setja sig upp skal fylgja eftirfarandi skrefum:  
 
     1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
-    2.  **REITURINN kenni**  notanda er valinn og notandareikninginn á  **síðunni notendur** .  
-    3.  **Í reitnum Kóti birgðageymslu**  er valið  **silfur**.  
-    4.  **Veljið sjálfgefna**  gátreitinn.  
+    2. Reiturinn **Notandakenni** er valinn og notandareikningur valinn á síðunni **Notendur** .  
+    3. Í reitnum **Kóti** birgðageymslu skal velja **SILVER**.  
+    4. Gátreiturinn **Sjálfgefinn** er valinn.  
 
-## <a name="story"></a>Ferill
+## Ferill  
 
-Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapöntun fyrir 10 einingar af vöru LS-75 og 30 einingar af vöru LS-81 frá lánardrottni 10000 sem afhenda á til SILVER vöruhúss. Þegar sendingin kemur til vöruhúss, er John, starfsmaður vöruhússins, setur vörurnar í sjálfgefnu hólfin sem tilgreind eru fyrir vörurnar. Frágangurinn er bókaður, vörurnar eru bókaðar sem mótteknar í birgðir og tiltækar til sölu eða aðra eftirspurn.  
+Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapöntun fyrir 10 einingar af vöru LS-75 og 30 einingar af vöru LS-81 frá lánardrottni 10000 sem afhenda á til SILVER vöruhúss. Þegar afhending berst í vöruhúsið setur Jón starfsmaður vöruhússins frá vörunum í sjálfgefin hólf sem skilgreind eru fyrir vörurnar. Frágangurinn er bókaður, vörurnar eru bókaðar sem mótteknar í birgðir og tiltækar til sölu eða aðra eftirspurn.  
 
-## <a name="setting-up-the-location"></a>Staðsetningin sett upp
+## Uppsetning birgðageymslu  
 
-Stillingar á  **birgðageymsluspjaldinu**  Skilgreina vöruhúsaflæði fyrirtækisins.  
+Stillingar á síðunni **Birgðageymsluspjald** skilgreina vöruhúsaflæði fyrirtækisins.  
 
-### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar
+### Uppsetning staðsetningar  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. SILVER-staðsetningarspjaldið er opnað.  
-3. Kveikja á  **kröfu um frágang á skiptistað** .  
+3. Kveikja á krefjast **frágangsvíkkunar** .  
 
-    Setja upp sjálfgefið hólf fyrir þau tvö vörunúmer sem á að stjórna þar sem gengið er frá.  
+    Setja upp sjálfgefið hólf fyrir vörunúmerin tvö til að stjórna því hvar gengið er frá þeim.  
 
 4. Veldu aðgerðina **Hólf**.  
-5. Valin er fyrsta röðin, fyrir hólf  **S-01-0001** og síðan valið  **·**  efnisaðgerðin.  
+5. Fyrsta línan er valin fyrir hólfið **R-01-0001** og síðan aðgerðin **Innihald** valið.  
 
-    Tilkynning um  **innihald**  hólfs sem vara  **ls-75**  er þegar uppsett sem efni á hólmsheiði S-01-0001.  
+    Tilkynning á síðunni **Innihald** hólfs um að varan **LS-75** er þegar uppsett sem innihald í hólfi S-01-0001.  
 
 6. Valið er **Nýtt** aðgerð.  
 7. Veljið **Fast** og svo **Sjálfgefið**.  
-8. Í reitnum  **Vörunr.**  reit skal færa  **ls-81**.  
+8. Í reitnum Vörunr **.** LS-81 **er fært inn**.  
 
-## <a name="create-the-purchase-order"></a>Stofna innkaupapöntunina
+## Innkaupapöntunin búin til  
 
 Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.  
 
-### <a name="to-create-the-purchase-order"></a>Innkaupapöntunin stofnuð
+### Innkaupapöntunin stofnuð  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupapantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -112,19 +112,19 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
     |LS-81|SILVER|S-01-0001|30|  
 
     > [!NOTE]  
-    > Hólfakótinn er sjálfkrafa færður inn samkvæmt uppsetningunni sem var stofnuð í  [uppsetningu kaflans Birgðageymsla](#setting-up-the-location) .  
+    > Hólfakótinn er færður inn sjálfvirkt samkvæmt uppsetningunni sem stofnuð var í hlutanum [Uppsetning birgðageymslu](#setting-up-the-location) .  
 
-    Næsta skal tilkynna vöruhúsið að innkaupapöntunin er tilbúin fyrir vöruhúsameðhöndlun þegar sending berst.  
+    Næst skal tilkynna vöruhúsinu að innkaupapöntunin sé tilbúin til meðhöndlunar á vöruhúsi þegar afhending berst.  
 
 4. Valið er **Losa** aðgerð.  
 
     Afhending hátalara frá lánardrottni 10000 hefur borist til SILVER vöruhússins og starfsmaður gengur svo frá þeim.  
 
-## <a name="receive-and-put-the-items-away"></a>Taka við og setja vörurnar í burtu
+## Móttaka og ganga frá vörunum  
 
- **Notið síðuna birgðafrágangssíða**  til að hafa umsjón með öllum vöruhúsaaðgerðum á innleið fyrir tiltekið upprunaskjal, til dæmis innkaupapöntun.  
+Nota síðuna **Birgðafrágangur** til að stjórna öllum vöruhúsaaðgerðum á innleið fyrir tiltekið upprunaskjal, t.d. innkaupapöntun.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Tekið á móti og gengið frá vörunum
+### Tekið á móti og gengið frá vörunum  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðafrágangur** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -141,7 +141,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
     Frágangur hátalaranna 40 í hólf S-01-0001 er nú skráður og jákvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu innkaupamóttöku.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

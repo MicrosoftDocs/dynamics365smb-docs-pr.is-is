@@ -1,6 +1,6 @@
 ---
 ms.service: dynamics-365-business-central
 ---
-## <a name="ai-driven-features-in-this-app"></a>AÞ-aka aðgerðir í þessu app
+## AI-knúin eiginleikar í þessu forriti
 
-Þetta App inniheldur vaxandi lista af AI-drifnum eiginleikum. Til að fræðast um getu og áhrif tiltekinna eiginleika er valið Sérnafn af listanum.
+Í forritinu er vaxandi listi yfir Ódrifna eiginleika. Til að fá upplýsingar um getu og áhrif tiltekinna eiginleika er heiti eiginleika valið af listanum.

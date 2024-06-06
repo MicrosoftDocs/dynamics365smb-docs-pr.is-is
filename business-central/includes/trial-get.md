@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ---
 <!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
-Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Skrefin eru breytileg eftir landi/svæði og hvers kyns sértækri virkni sem þú hefur bætt við [!INCLUDE [prod_short](prod_short.md)].  
+Það tekur smástund að hlaða inn prufuútgáfunni, síðan geturðu byrjað að nota forritið. Gátlistinn **Hefjast handa** fer með þig í gegnum skrefin til að undirbúa þig undir viðskipti. Skrefin eru mismunandi eftir landi/svæði og hverri starfsgrein sem notandi hefur bætt við [!INCLUDE [prod_short](prod_short.md)].  
 
 Í [!INCLUDE[prod_short](prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn í sýnifyrirtækið færðu aðgang að „Hefjast handa“ spjaldinu með tengil á sýnikynningar. Nánari upplýsingar er að finna í greinunum [Að undirbúa sig fyrir viðskipti](../ui-get-ready-business.md) og [stuttir leiðarvísar](../quick-start-business-central.md).  
 

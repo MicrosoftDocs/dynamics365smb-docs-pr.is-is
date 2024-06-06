@@ -1,6 +1,6 @@
 ---
-title: Setja upp email prentara
-description: Lýsing á lýsingu
+title: Setja upp tölvupóstprentara
+description: Hvernig á að lýsingu
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -9,24 +9,24 @@ ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# <a name="set-up-email-printers"></a>Setja upp email prentara
+# Setja upp tölvupóstprentara
 
-Í þessari grein er útskýrt hvernig á að setja upp tölvupóstvirkja prentara í [!INCLUDE[prod_short](includes/prod_short.md)]. Með þessum prenturum  [!INCLUDE[prod_short](includes/prod_short.md)]  sendir prentverk til prentarans með netfangi prentarans.
+Þessi grein útskýrir hvernig setja á upp prentara með tölvupósti með tölvupósti [!INCLUDE[prod_short](includes/prod_short.md)]. Með þessum prenturum, [!INCLUDE[prod_short](includes/prod_short.md)]  sendir prentverk til prentarans með netfangi prentarans.
 
 > [!TIP]
-> Ef fræðast á um aðra prentmöguleika er farið í  [Yfirlit Prentarastjórnunar](admin-printer-setup-overview.md). 
+> Til að [fá upplýsingar um aðra prentaramöguleika er farið í Yfirlit prentarastjórnunar](admin-printer-setup-overview.md). 
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]2020 útgáfutímabil 1 eða nýrra
 - Viðbótin **Senda á tölvupóstsprentara** er uppsett
 
-    Þessi viðbót er uppsett sjálfgefið Frekari upplýsingar um uppsetningu á  [viðaukum í uppsetningu og fjarlægja viðaukaskrár í Viðskiptamiðinu](ui-extensions-install-uninstall.md).
+    Þessi viðbót er uppsett sjálfgefið Fræðast meira um uppsetningu viðbóta við [uppsetningu og fjarlægingu viðbóta í Business Central](ui-extensions-install-uninstall.md).
 - Tölvupóstvirkni er sett upp.
 
    Frekari upplýsingar eru á [Setja upp tölvupóst](admin-how-setup-email.md).
 
-## <a name="add-an-email-printer"></a>Bæta við tölvupóstprentara
+## Bæta við tölvupóstprentara
 
 Síðan **Prentarastjórnun** sýnir þér prentarana sem eru settir upp. Síðan veitir þér einnig aðgang að síðunni **Stillingar** fyrir hvern prentara fyrir sig til að breyta núverandi uppsetningu eða til að setja upp nýjan prentara.
 
@@ -37,22 +37,22 @@ Síðan **Prentarastjórnun** sýnir þér prentarana sem eru settir upp. Síða
     > [!NOTE]
     > Velja verður viðeigandi pappírsstærð handvirkt fyrir prentara þar sem enginn staðbundinn prentari eða notandastillingar geta verið geymdir.
     >
-    > Hafa skal í huga að framlenging Póstprentarans er stillt á  **a4**  pappírsstærð sjálfgefið, sem ekki hentar í Norður-Ameríku, td.
+    > Hafa skal í huga að póstprentaraviðbótin er sjálfgefin **á A4** pappírsstærð sem hentar ekki í Norður-Ameríku, til dæmis.
 
-## <a name="privacy-notice"></a>Tilkynning um persónuvernd
+## Tilkynning um persónuvernd
 
 Ef viðbót tölvupóstsprentara er notuð eru öll eða sum prentverk send á netfangið sem er skilgreint fyrir prentarann. Við mælum eindregið með því að einkvæmt tölvupóstskenni sé tengt við prenttæki með því að nota aðeins opinbera þjónustu sem framleiðandi vélbúnaðar veitir, svo sem HP ePrint, KonicaMinolta EveryonePrint eða Epson Email Print.
 
 Nauðsynlegt er að gera allar nauðsynlegar persónuverndarráðstafanir, þar á meðal að tryggja að prentlausnin fyrir tölvupóst hafi rétt skilgreindar heimildir, persónuverndarstillingar og varðveislureglur. Það er á ábyrgð notanda að gefa upp rétt, staðfest og starfhæft netfang. Frekari upplýsingar má finna á [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/privacystatement).
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
-[Uppsetning sjálfgefinna prentara](ui-specify-printer-selection-reports.md)
+[Setja upp sjálfgefna prentara](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Yfirlit um prentarastjórnun](admin-printer-setup-overview.md)  
-[Setja upp alhliða prentprentunarprentun](admin-printer-setup-universal-print.md)
-[fyrir skýrslu](ui-work-report.md#PrintReport)  
+[Yfirlit yfir prentarastjórnun](admin-printer-setup-overview.md)  
+[Uppsetning alhliða prentara](admin-printer-setup-universal-print.md)
+[prentunar með skýrslu](ui-work-report.md#PrintReport)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Keyra runuvinnslur](ui-how-run-batch-jobs.md)  

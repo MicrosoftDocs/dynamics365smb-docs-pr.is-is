@@ -2,6 +2,6 @@
 ms.service: dynamics-365-business-central
 ---
 > [!IMPORTANT]
-> Þessi eiginleiki er í forskoðun og  [Skilmálar](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)  um viðbótarforskoðunina eiga við. Forskoðunareiginleiki er eiginleiki sem er ekki tæmandi en er tiltækur áður en hann er formlega kominn í úttekt svo Viðskiptavinir geti fengið snemma aðgang og gefið svörun. Forskoðunaraðgerðir er ekki ætlað við notkun á framleiðslu og kunna að hafa takmarkaðar eða takmarkaðar aðgerðir.
+> Þessi eiginleiki er í forskoðun og [viðbótarforskoðunarskilmálarnir](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) eiga við. Forskoðunaraðgerð er eiginleiki sem er ekki lokið, en er gerður tiltækur áður en hann er opinberlega í útgáfu svo viðskiptavinir fái snemma aðgang og veitt svörun. Forskoðunaraðgerðir eru ekki ætlaðar til framleiðslunotkunar og geta haft takmarkaða eða takmarkaða virkni.
 >
-> Þessa getu fella AI tæknina frá Azure OpenAI. Frekari upplýsingar um  [Azure OpenAI](/legal/cognitive-services/openai/transparency-note).
+> Þessir möguleikar fella AI tækni úr Azure OpenAI. Fræðast meira um [Azure OpenAI](/legal/cognitive-services/openai/transparency-note).

@@ -7,4 +7,4 @@ ms.service: dynamics-365-business-central
 ---
 
 > [!TIP]
-> Til að forðast mistök er notuð  **forskoðunarbókunaraðgerðin**  til að fara yfir færslurnar sem bókunin mun stofna. 
+> Til að forðast mistök skal nota aðgerðina **Forskoðunarbókun** til að skoða færslurnar sem bókunin stofnar. 

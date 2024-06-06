@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-microsoft-pay-extension"></a>Microsoft Pay framlengingin
+# Viðbótin Microsoft Pay 
 
 > [!IMPORTANT]
 > Tekur gildi 8. febrúar 2020, breytingar á þjónustu Microsoft Pay hafa áhrif á Microsoft Pay-viðbótina í Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Vegna breytinganna munu greiðslutenglarnir **Greiða núna** sem Microsoft Pay viðbótin býr til fyrir reikninga í [!INCLUDE[prod_short](includes/prod_short.md)] ekki opnast í Microsoft Pay eftir 8. febrúar. Viðskiptavinir sem nota viðbótina ættu að breyta uppsetningu greiðsluþjónustunnar til að byrja að nota PayPal-viðbótina í staðinn.<br /></br>
@@ -33,9 +33,9 @@ Microsoft Pay Viðbótin veitir eftirfarandi ávinning:
 - Microsoft Pay tengilinn er hægt að innifela sjálfvirkt í hvert reikningsskjal eða innifalið af notanda.
 - Þar sem þessi virkni er uppbyggð sem viðbót, ertu með fulla stjórn á því að virkja hana þegar og ef þín viðskiptaferli þurfa á henni að halda.
 
-Að virkja greiðsluþjónustuviðbætur er ókeypis í [!INCLUDE[prod_short](includes/prod_short.md)], hins vegar þarftu að hafa samband við greiðsluþjónustuna til að fá reikning. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
+Ef þú gerir greiðsluþjónustuviðurkenningu ókeypis [!INCLUDE[prod_short](includes/prod_short.md)] þarftu hins vegar að hafa samband við greiðsluþjónustuna til að fá reikning. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

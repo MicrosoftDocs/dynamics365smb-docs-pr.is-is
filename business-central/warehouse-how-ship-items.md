@@ -1,6 +1,6 @@
 ---
 title: Senda vörur
-description: Í þessari grein er lýst hvernig á að senda vörur úr vöruhúsinu.
+description: Í þessari grein er því lýst hvernig á að senda vörur úr vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,117 +11,117 @@ ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Senda vörur með vöruhúsaafhendingu
+# Afhenda vörur með vöruhúsaafhendingu
 
-Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru tínsla og sendingarvara notuð með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
+Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru tíndar og afhentar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
-|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|Aðferð|Útleiðarferli|Krefjast tínslu|Krefjast afhendingar|Flóknarastig (Fræðast meira um [vöruhúsakerfisyfirlit](design-details-warehouse-management.md))|  
 |------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
-|A|Bóka tínslu og sendingu úr pöntunarlínu|||Engin sérstök vöruhúsaaðgerð.|  
-|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: pöntun-eftir pöntun.|  
-|U|Bóka tínslu og sendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
-|D|Bókið tínsluna úr vöruhúsatínsluskjali og bókið sendinguna úr afhendingarskjali vöruhúss|Kveikt|Kveikt|Ítarlegt|  
+|A|Bóka tínsluna og afhendinguna úr pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
+|Á|Bóka tínslu og afhendingu úr birgðatínsluskjali|Kveikt||Grunnur: Pöntun-fyrir-pöntun.|  
+|U|Bóka tínslu og afhendingu úr vöruhúsaafhendingarskjali||Kveikt|Grunnur: Bókuð móttaka/sending í mörgum pöntunum.|  
+|D|Tínslan er bókuð úr vöruhúsatínsluskjali og afhendingin bókuð úr vöruhúsaafhendingarskjali|Kveikt|Kveikt|Ítarlegt|  
 
-Til að fræðast meira um sendingarvörur er farið í Vöruhúsaflæði á  [útleið](design-details-outbound-warehouse-flow.md).
+Nánari upplýsingar um afhendingu vara eru notaðar í Vöruhúsaflæði [á útleið](design-details-outbound-warehouse-flow.md).
 
-Með þessari grein er átt við aðferðir C og D í töflunni. Í báðum aðferðum er byrjað á því að stofna afhendingarskjal úr upprunaskjali. Síðan er tilgreindar vörur teknar til fyrir afhendinguna.
+Þessi grein vísar til aðferða C og D í töflunni. Með báðum aðferðum er byrjað á því að stofna afhendingarskjal úr upprunaskjali viðskipta. Síðan er tilgreindar vörur teknar til fyrir afhendinguna.
 
-Þegar Birgðageymsla krefst vöruhúsasendinga er hægt að senda vörur á grundvelli upprunaskjala sem hafa verið losuð í vöruhúsið. Gefa út upprunaskjöl gerir vörurnar á þeim tilbúnar til reiðu í vöruhúsinu. Eftirfarandi eru dæmi um upprunaskjöl:
+Þegar birgðageymsla krefst vöruhúsaafhendinga er hægt að afhenda vörur á grundvelli upprunaskjala sem hafa verið gefin út í vöruhúsið. Ef upprunaskjölum er sleppt eru vörurnar tilbúnar til afgreiðslu í vöruhúsinu. Eftirfarandi eru dæmi um upprunaskjöl:
 
 * Sölupantanir
 * Vöruskilapantanir innkaupa
-* Flutningspöntunum
-* Þjónustupöntunum
+* Millifærslupantanir
+* Þjónustupantanir
 
-Hægt er að stofna vöruhúsaafhendingu á tvennan hátt:
+Hægt er að stofna vöruhúsaafhendingu á tvo vegu:
 
-* Á þrýstihátt, þegar vinna er unnin á pöntunargrunni.  **Velja afhendingaraðgerðina vöruhúsaafhendingu**  í upprunaskjalinu til að stofna vöruhúsaafhendingu fyrir skjalið.
-* Í togtísku, þar sem úttektaraðgerðin  **er notuð**  í upprunaskjalinu til að losa hana í vöruhúsið. Starfsmaður í vöruhúsi stofnar  **vöruhúsaafhendingu**  fyrir eitt eða mörg Útgefin upprunaskjöl. Eftirfarandi ferli lýsir því hvernig vöruhúsaafhending er stofnuð í togflutningtísku.
+* Á ýta tísku, þegar vinna er unnin á grundvelli pöntun fyrir hverja pöntun. Velja skal aðgerðina **Stofna vöruhúsaafhendingu** í upprunaskjalinu til að stofna vöruhúsaafhendingu fyrir skjalið.
+* Á toga í tísku þar sem aðgerðin **Gefa út** í upprunaskjalinu er notuð til að gefa hana út í vöruhúsið. Starfsmaður í vöruhúsi stofnar vöruhúsaafhendingu **fyrir** eitt eða mörg útgefin upprunaskjöl. Eftirfarandi ferli lýsir því hvernig vöruhúsaafhending er stofnuð á toga í tísku.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Vörur sendingar með vöruhúsaafhendingarskjali
+## Vörur afhendar með vöruhúsaafhendingarskjali
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsaafhendingar**, velja síðan viðkomandi tengil.  
 2. Velja **Nýtt**.  
-3. Í reitnum **númer** Er valin sú númeraröð sem á að nota til að stofna KENNI fyrir afhendinguna.  
-4.  **Í reitnum Kóti birgðageymslu**  er valinn birgðageymslan sem verið er að skipuleggjum. 
+3. Í reitnum **númer** Er valin númeraröð sem nota á til að stofna kenni fyrir afhendinguna.  
+4. Í reitnum **Kóti** birgðageymslu er valin sú birgðageymsla sem verið er að afhenda. 
 
-    Þegar upprunaskjalslínur eru sóttar eru sumar upplýsingarnar frá birgðageymslunni afritaðar í hverja línu.  
-5. Ef birgðageymslan krefst hólfa er reiturinn Hólfakóti  **fylltur út** . Hægt er að bæta við hólfakótanum fyrir það eftir uppsetningu [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar á  [svæði og hólfakóta](warehouse-how-ship-items.md#zone-and-bin-codes).  
-6. Hægt er að nálgast upprunaskjalið á tvennan hátt:
+    Þegar upprunaskjalslínur eru sóttar afritast sumar upplýsingarnar úr birgðageymslunni í hverja línu.  
+5. Ef birgðageymslan krefst hólfa er reiturinn **Hólfkóti fylltur** út. Hægt er að bæta við hólfakótanum fyrir notandann, allt eftir uppsetningunni [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar um [svæðis- og hólfakóta](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Hægt er að sækja upprunaskjalið á tvo vegu:
 
-    * Valið er **Sækja upprunaskjöl** aðgerð. Upprunaskjölin-á  **útleið**  opnast. Hér er hægt að velja eitt eða fleiri upprunaskjöl sem eru losuð í vöruhús sem þarfnast afhendingar.
-    * Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  **Síur til að fá Upprunadoktora.** síða opnast. Hægt er að velja afmörkun upprunaskjals og nota það. Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á  **síðu vöruhúsaafhendingar** .  [Frekari upplýsingar um notkun afmörkunar til að sækja upprunaskjöl](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
+    * Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl - Á útleið** opnast. Hér er hægt að velja eitt eða fleiri upprunaskjöl sem gefin eru út í vöruhús sem krefst afhendingar.
+    * Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  **Afmarkanirnar til að sækja upprunaskjöl.** síðan opnast. Hægt er að velja upprunaskjalsafmörkun og nota hana. Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á síðunni **Vöruhúsaafhending** . Nánari upplýsingar um hvernig afmarkanir [eru notaðar til að sækja upprunaskjöl](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
     > [!NOTE]
-    > Ef hjáskipun og hólf eru notuð fyrir hverja línu er hægt að fara yfir magn vara sem eru settar í hjáskipunarhólf.  [!INCLUDE [prod_short](includes/prod_short.md)] reiknar út magnið þegar reitirnir í afhendingunni eru uppfærðir. Ef þeir eru vörurnar í sendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar vörurnar og ljúka síðan sendingunni. Frekari upplýsingar eru á [Hjáskipa vörur](warehouse-how-to-cross-dock-items.md).
+    > Ef birgðageymslan notar hjáskipun og hólf fyrir hverja línu er hægt að fara yfir magn varanna sem settar eru í hjáskipunarhólfin. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið þegar reitirnir í afhendingunni eru uppfærðir. Ef það eru vörurnar í afhendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar vörurnar og ljúka síðan afhendingunni. Frekari upplýsingar eru á [Hjáskipa vörur](warehouse-how-to-cross-dock-items.md).
 
-7. Vöruhúsatiltekt er stofnuð. Ef birgðageymslan krefst tínslu er hægt að stofna tínsluaðgerðir fyrir vöruhúsaafhendingar á tvo vegu:
+7. Stofna vöruhúsatínslu. Ef birgðageymslan krefst tínslu er hægt að stofna tínsluaðgerðir fyrir vöruhúsaafhendingar á tvo vegu:
 
-    * Á þrýstihátt, þar sem þú notar  **aðgerðina stofna tínslu** . Velja línurnar sem á að velja og tilgreina upplýsingar um tínsluna. Til dæmis hvaða hólf á að taka af og setja í, og hve margar einingar á að afgreiða. Hólfin geta verið fyrirfram skilgreind fyrir vöruhúsastaðinn eða forðinn.
-    * Á togtísku, þar sem notuð  **er úttektaraðgerð** .  **Á síðunni tínsluvinnublað**  skal nota  **aðgerðina Sækja vöruhúsaskjöl**  til að fá úthlutaða tínslur. Þegar vöruhúsatínslan er fullskráð er línunum á  **tínsluvinnublaðinu**  eytt.  [Frekari upplýsingar um tínsluvörur fyrir vöruhúsaafhendingar](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+    * Á tísku þar sem aðgerðin **Stofna tínslu** er notuð. Valdar eru línurnar sem á að tína og upplýsingar um tínslurnar tilgreindar. Til dæmis hvaða hólf á að taka úr og setja í og hversu margar einingar á að meðhöndla. Hægt er að forskilgreina hólfin fyrir vöruhúsastaðinn eða forðann.
+    * Á toga í tísku, þar sem aðgerðin **Gefa út** er notuð. Á síðunni **Vinnublað** tínslu er aðgerðin **Sækja vöruhúsaskjöl** notuð til að fá úthlutaðar tínslur. Þegar vöruhúsatínslan er fullkomlega skráð eyðast línurnar á vinnublaði **tínslu**. Nánari upplýsingar um [tínsluvörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
     > [!TIP]
-    > Fyrir birgðageymslu sem þarfnast ekki tiltektar er hægt að prenta vöruhúsaafhendingu og nota hann sem tiltektarlista.
+    > Fyrir birgðageymslu sem ekki krefst tínslu er hægt að prenta vöruhúsaafhendingu og nota hana sem tínslulista.
 
-8. Tilgreinið magnið sem á að senda.  
+8. Tilgreina magnið sem á að afhenda.  
 
-    Fyrir birgðageymslu sem þarfnast tiltektar,  **er reiturinn Magn til sendingar**  uppfærður sjálfkrafa þegar Tínslan er skráð.  **Annars er reiturinn Magn til afhendingar**  fylltur út með útistandandi magni í hverri línu þegar afhendingarlína vöruhúss er stofnuð.
+    Í birgðageymslu sem krefst tínslu er reiturinn **Magn til afhendingar** uppfærður sjálfkrafa þegar tínslan er skráð. Annars er magnið sem eftir stendur í reitnum **Magn til afhendingar** fyllt út úr hverri línu þegar vöruhúsaafhendingarlína er stofnuð.
 
-    Hægt er að breyta magninu en ekki er hægt að senda fleiri vörur en númerið í  **reitinn Magn útistandandi**  í upprunaskjalslínunni eða  **reitnum magn tekið**  til ef tiltekt er þörf.
+    Hægt er að breyta magninu en ekki er hægt að afhenda fleiri vörur en talan í reitnum **Magn eftirstöðvanna** á upprunaskjalslínunni eða reitnum **Tínt** magn ef tínslu er krafist.
 
-    Til að stilla gildið í  **reitnum Magn til sendingar**  í öllum línum á núlli er valið  **Eyða magni til**  -aðgerða. Til dæmis er gagnlegt að stilla magnið á núll ef notaður er strikamerkjaskanni til að uppfæra Sendingarmagnið. Til að bæta við magninu sem er tiltækt fyrir sendingu er hægt að  **velja magn til að senda** .
+    Til að stilla gildið í reitnum **Magn til afhendingar** á öllum línum á núll skal velja aðgerðina **Eyða magni til afhendingar** . Til dæmis getur verið gagnlegt að stilla magnið á núll ef strikamerkisskannar er notaður til að uppfæra afhendingarmagnið. Til að bæta tiltæku magni við afhendingu skal velja aðgerðina **Sjálfg. magn til afhendingar** .
 
 9. Afhendingin er bókuð.
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
+## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 
-Í vöruhúsaafhendingu er hægt að nota  **afmarkanirnar til að sækja Upprundocs.** síða til að sækja útgefnar upprunaskjalslínur sem skilgreina hvaða vörur á að senda.
+Úr vöruhúsaafhendingu er hægt að nota **Afmarkanir til að sækja upprunaskjöl.** síðu til að sækja útgefnu upprunaskjalslínurnar sem skilgreina hvaða vörur á að afhenda.
 
-1. Í vöruhúsaafhendingunni skal velja  **notaðar afmarkanir til að sækja src. docs.** aðgerð. 
+1. Í vöruhúsaafhendingunni skal velja **Nota afmarkanir til að sækja uppr.skjól.** Aðgerð. 
 2. Til að setja upp nýja afmörkun er lýsandi kóti færður inn í reitinn **Kóti** og smellt á **Breyta** aðgerðina.
 
-    Upprunaskjalsíkort-á  **útleið**  opnast.
+    Síðan Upprunaskjal **- Síðan Afmörkun upprunaskjals - Útleið** opnast.
 
-3. Notið afmarkanir til að skilgreina gerð upprunaskjalslínurnar sem á að sækja. Til dæmis er hægt að velja gerðir upprunaskjala eins og sölu-eða millifærslupantanir.
+3. Afmarkanirnar eru notaðar til að skilgreina tegund upprunaskjalslína sem á að sækja. Til dæmis er hægt að velja tegundir upprunaskjala, t.d. sölu- eða millifærslupantanir.
 4. Veljið **Keyra**.  
 
-Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á  **síðu vöruhúsaafhendingar**  þar sem Afmarkanirnar eru stilltar.
+Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt **við síðuna Vöruhúsaafhending** þar sem afmarkanirnar eru settar.
 
-Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar á  **afmörkunum til að fá Upprunadoktor.** síðu og eru aðgengilegar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
+Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar í **afmörkunum til að sækja upprunaskjöl.** síðuna og eru tiltækar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
-## <a name="zone-and-bin-codes"></a>Svæði og hólfakóta
+## Svæðis- og hólfakótar
 
-Ef hólfum er skylt á staðnum er  [!INCLUDE [prod_short](includes/prod_short.md)]  stungið upp á svæði og hólfakóta á vöruhúsaafhendingarskjalinu.
+Ef hólf eru áskilin í birgðageymslunni er [!INCLUDE [prod_short](includes/prod_short.md)]  stungið upp á svæðis- og hólfakóta á vöruhúsaafhendingarskjalinu.
 
-* Fyrir ítarlegri afbrigði þar sem birgðageymslan notar beinan frágang og tínslu  [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfið sem er tilgreint í  **reitnum kóti**  afhendingarhólfs á  **birgðageymsluspjaldinu**.  **Ef kóti**  sendingarhólfs er ekki tilgreindur er reiturinn auður. Ef vöru-og afhendingarhólfið er  [!INCLUDE [prod_short](includes/prod_short.md)]  ekki í samræmi skilur afhendingarhólfið auð.
-* Í öðrum tilvikum þarf  [!INCLUDE [prod_short](includes/prod_short.md)]  alltaf að nota hólfið sem tilgreint er í  **reitnum**  **kóti**  afhendingarhólfs fyrst. Ef kóti sendingarhólfs er ekki tilgreindur  [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfakótinn úr upprunaskjalinu.
+* Fyrir ítarlegar grunnstillingar þar sem birgðageymsla notar beinan frágang og tínslu [!INCLUDE [prod_short](includes/prod_short.md)]  er hólfið sem tilgreint er í reitnum **Hólfakóti** afhendingar á **birgðageymsluspjaldinu** notað.  **Ef kóti** afhendingarhólfs er ekki tilgreindur er reiturinn auður. Ef varan og afhendingarhólfið stemma ekki er [!INCLUDE [prod_short](includes/prod_short.md)]  afhendingarhólfið skilið eftir autt.
+* Í öðrum tilvikum notar [!INCLUDE [prod_short](includes/prod_short.md)]  alltaf hólfið sem tilgreint er í reitnum **Hólfakóti** afhendingar á **birgðageymsluspjaldinu** fyrst. Ef kóti afhendingarhólfs er ekki tilgreindur [!INCLUDE [prod_short](includes/prod_short.md)]  er hólfakótinn notaður úr upprunaskjalinu.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu
+## Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu
 
-Í setja saman pöntunaraðstæður til að nota  **reitinn Magn til**  afhendingar í vöruhúsaafhendingarlínum til að skrá hversu margar einingar eru settar saman. Magnið er bókað sem samsetningarframleiðsla þegar vöruhúsaafhendingin er bókuð. Gildið í  **reitnum Magn til afhendingar**  er núll fyrir aðrar afhendingarlínur vöruhúss.
+Í samsetningartilvikum skal nota reitinn **Magn til afhendingar** á vöruhúsaafhendingarlínum til að skrá hversu margar einingar eru settar saman. Magnið er bókað samsetningarfrálag þegar vöruhúsaafhendingin er bókuð. Gildið í reitnum **Magn til afhendingar** er núll fyrir aðrar vöruhúsaafhendingarlínur.
 
-Þegar starfsmenn ljúka við að setja saman eitthvert eða allt magn af samsetningum sem á að panta skal skrá magnið  **í reitnum Magn til afhendingar**  í vöruhúsaafhendingarlínunni. Veljið  **síðan aðgerðina Bóka sending** . Samsetningarúttak er bókað, þar með talið þáttanotkun. Söluafhending fyrir magnið er bókuð fyrir sölupöntunina.
+Þegar starfsmenn ljúka samsetningu einhvers eða alls magns saman í pöntun skal skrá magnið í reitinn **Magn til afhendingar** á vöruhúsaafhendingarlínunni. Síðan er aðgerðin **Bóka afhendingu** valin. Samsetningarafköstin eru bókuð, þar á meðal íhlutanotkun. Söluafhending fyrir magnið er bókuð fyrir sölupöntunina.
 
 Í samsetningarpöntun má velja **Setja saman í p. vöruh. send. lína** til sjá vöruhúsaafhendingarlínuna.
 
-Eftir að vöruhúsaafhending hefur verið bókuð eru mismunandi svæði í sölupöntunarlínunni uppfærð til að sýna framvindu í vöruhúsinu. Eftirfarandi svæði eru einnig uppfærð til að sýna hversu mikið magn samsetningarpantana á eftir að setja saman og afhenda:
+Þegar vöruhúsaafhendingin hefur verið bókuð eru ýmsir reitir í sölupöntunarlínunni uppfærðir til að sýna framvindu í vöruhúsinu. Eftirfarandi svæði eru einnig uppfærð til að sýna hversu mikið magn samsetningarpantana á eftir að setja saman og afhenda:
 
 * **Útistandandi magn ATO vöruhúss**
 * **Útistandandi magn ATO vöruhúss (stofn)**
 
 > [!NOTE]
-> Í samsettri atburðarás þar sem hluti af magninu verður að vera settur saman og annað verður að senda úr birgðum eru stofnaðar tvær vöruhúsaafhendingarlínur. Ein er fyrir er fyrir samsetningarpöntunarmagn, og ein er fyrir birgðamagn.
+> Í samsetningaraðstæðum þar sem setja þarf saman hluta af magninu og senda þarf aðra úr birgðum eru tvær vöruhúsaafhendingarlínur stofnaðar. Ein er fyrir er fyrir samsetningarpöntunarmagn, og ein er fyrir birgðamagn.
 >
-> Magn í samsetningum er afgreitt eins og lýst er í þessari grein. Birgðamagn er afgreitt sem venjuleg vöruhúsaafhendingarlína. Til að fræðast meira um samsetningu atburðarásar er farið í  [skilning á að setja saman og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
+> Magnið sem sett er saman eftir pöntun er meðhöndlað eins og lýst er í þessari grein. Birgðamagnið er meðhöndlað sem venjuleg vöruhúsaafhendingarlína. Til að [fá nánari upplýsingar um samsetningaraðstæður er farið í Skilningur settur saman í Pöntun og settur saman til birgða](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Unnið með Microsoft Excel útlit
+# Unnið með Microsoft Excel útlit
 
 Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með þeim geturðu búið til skýrslur sem innihalda kunnuglega Excel-eiginleika til að draga saman, greina og kynna gögn eins og formúlur, PivotTable og PivotChart.
 
@@ -18,7 +18,7 @@ Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með 
 
 Þessi grein útskýrir nokkur mikilvæg atriði sem þú þarft að vita til að hefjast handa með Excel-útlit.
 
-## <a name="why-use-excel-layouts"></a>Af hverju að nota Excel-útlit?
+## Af hverju að nota Excel-útlit?
 
 Ávinningur þess að nota Excel-útlit:
 
@@ -31,14 +31,14 @@ Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með 
   - [Spá og greining](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Notaðu uppsettar innbætur og samþættingar forrits eins og Power Automate flæði eða OneDrive.
 
-## <a name="get-started"></a>Hafist handa
+## Hafist handa
 
 Í grundvallaratriðum eru tvö verk sem koma að uppsetningu Excel-útlits í skýrslu:
 
 1. Búðu til nýja Excel-útlitsskrá.
 2. Bættu nýja útlitinu við skýrsluna.
 
-## <a name="task-1-create-the-excel-layout-file"></a>Verk 1: Búa til Excel-útlitsskrá
+## Verk 1: Búa til Excel-útlitsskrá
 
 Þetta eru leiðirnar þrjár til að búa til Excel-útlitsskrá fyrir skýrslu.
 
@@ -57,13 +57,13 @@ Fylgdu þessum skrefum til að búa til Excel-útlit úr hvaða skýrslu sem er,
 
 Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi útlit sem útgangspunkt. Það eru tvær aðferðir til að fá afrit af útlitinu. Hægt er að flytja út núverandi útlit af síðunni **Skýrsluútlit** eða sækja útlitið af beiðnisíðu skýrslunnar. Báðar leiðir sækja Excel-útlitsskrána sem inniheldur öll vinnublöð fyrirliggjandi skráar. Munurinn er sá að þegar þú sækir hana af beiðnisíðunni inniheldur útlitið raunveruleg gögn. (Gögnin eru ekki nauðsynleg en þau hjálpa þegar útlitið er hannað.)
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
+#### Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Veldu Excel-útlitið af listanum og veldu svo aðgerðina **Flytja út útlit** efst á síðunni.
 3. Opnaðu skrána í Excel, gerðu breytingarnar og vistaðu síðan skrána.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
+#### Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Á síðunni **Skýrsluútlit** skal velja hvaða útlit sem er fyrir skýrsluna, síðan velja aðgerðina **Keyra skýrslu**.
@@ -76,7 +76,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a>Verk 2: Bæta Excel-útlitinu við skýrsluna
+## Verk 2: Bæta Excel-útlitinu við skýrsluna
 
 Þegar þú ert með Excel-útlitsskrána er næsta verk að bæta henni við sem nýtt útlit fyrir skýrsluna.
 
@@ -85,7 +85,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 3. Stilltu **Skýrslukenni** á *Skýrslu*.
 4. Færðu inn heiti í **Útlitsheiti**.
 5. Stilltu **Sniðsvalkosti** á **Excel**.
-6. Valið  **er í lagi** og skal þá gera einn af eftirtöldum skrefum til að senda útlitsskrána inn fyrir skýrsluna:
+6. Velja skal **Í lagi** og gera síðan eitt af eftirfarandi skrefum til að hlaða upp útlitsskránni fyrir skýrsluna:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
@@ -106,7 +106,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a>Skilningur á Excel-útlitum
+## Skilningur á Excel-útlitum
 
 Hafa þarf nokkur atriði í huga til að vita eða velta fyrir sér hvenær á að búa til eða gera breytingar á Excel-útliti. Excel-útlit verður að innihalda tvær einingar: **Gagnablað** og **Gagnatöflu**. Þessar einingar mynda grunn skýrslunnar með því að skilgreina viðskiptagögnin úr Business Central sem hægt er að vinna með. Hægt er að líta á **Gagnablaðið** sem eins konar samning milli útlits og viðskiptagagna. Þessi gögn verða notuð sem heimild útreikninga og myndrænna framsetninga sem á að kynna á öðrum vinnublöðum.
 
@@ -128,7 +128,7 @@ Gerðar eru ákveðnar kröfur um skipulag Excel-vinnubókar. Ef kröfurnar eru 
 - Ekki bæta við dálkum nema þeir séu í gagnasafni skýrslunnar.
 - Þú getur sett vinnublöðin í hvaða röð sem er, með **Gagnablaðinu** fyrst eða síðast.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  

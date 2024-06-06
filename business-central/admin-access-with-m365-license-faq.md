@@ -1,6 +1,6 @@
 ---
-title: Aðgangur með  Microsoft 365  LEYFUM FAQ
-description: Fáðu svör við algengum spurningum um aðgang rekstraraðila miðsvæðis með  Microsoft 365  leyfum.
+title: Aðgangur með Microsoft 365 leyfisfjárfyrirmælum
+description: Fá svör við algengum spurningum um aðgang að Business Central með Microsoft 365 leyfi.
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -9,159 +9,159 @@ ms.topic: faq
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
-# <a name="access-with-microsoft-365-licenses-faq"></a>Aðgangur með  Microsoft 365  LEYFUM FAQ
+# Aðgangur með Microsoft 365 leyfisfjárfyrirmælum
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-Notendur geta nálgast viðskiptaleg gögn miðlægt í  Microsoft Teams  með leyfi sínu Microsoft 365 . Í þessari grein svara Algengar spurningar frá stjórnendum, ráðgjafa og öðrum. Verktaki skal vísa í spurningar til hönnuða. Fyrir spurningar um samþættingu Viðskiptamiðanna við  Microsoft Teams er farið í  [TEYMUM FAQ](teams-faq.md).
+Notendur geta nálgast Business Central gögn þegar Microsoft Teams þeir nota leyfi sitt Microsoft 365 . Þessi grein svarar algengum spurningum frá stjórnendum, ráðgjöfum og öðrum. Forritarar ættu að vísa í algengar spurningar forritara. Fyrir spurningar um samþættingu Business Central við Microsoft Teams er farið í [Teymi algengar spurningar](teams-faq.md).
 
 ## [Heimildir](#tab/permissions) 
 
-### <a name="can-i-proactively-configure-different-starting-permissions-for-different-groups-of-users"></a>Get ég tekið þátt í að skilgreina mismunandi upphafsheimildir fyrir mismunandi flokka notenda?
+### Get ég grunnstillt mismunandi upphafsheimildir fyrir mismunandi hópa notenda?
 
-Ekki á þessum tíma. Miðbær Business leyfir aðeins að samskipa einum flokki heimilda sem er úthlutað til allra  Microsoft 365  notenda þegar þeir skrá sig inn á viðskipti miðlægt í fyrsta sinn.
+Ekki á þessum tíma. Business Central býður aðeins upp á að stilla einn hóp heimilda sem öllum notendum er úthlutað Microsoft 365 þegar þeir skrá sig inn í Business Central í fyrsta skipti.
 
-### <a name="can-i-proactively-configure-permissions-profiles-and-settings-for-individual-users-before-they-sign-in"></a>Get ég tekið þátt í að skilgreina heimildir, forstillingar og stillingar fyrir einstaka notendur áður en þeir skrá sig inn?
+### Get ég grunnstillt heimildir, forstillingar og stillingar einstakra notenda áður en þeir skrá sig inn?
 
-Já. Hægt er að ná því í gegnum öryggishópa. Með því að nota öryggisflokk í umhverfi er heildarsafn notenda skilgreint sem hefur aðgang að því umhverfi. Þessi öryggiaflokkur getur innihaldið notendur með miðlægt leyfi og notendur með  Microsoft 365  leyfi. Þegar næst er að uppfæra notendur úr  Microsoft 365  í  **listanum**  notendur  Microsoft 365  verða notendafærslur stofnaðar. Síðan er hægt að úthluta notendaflokkum, heimildum, forstillingum og öðrum stillingum áður en þeir hafa skráð sig inn.
+Já. Hægt er að ná því í gegnum öryggishópa. Með því að tengja öryggishóp við umhverfi er skilgreint heildarsafn notenda sem hafa aðgang að því umhverfi. Þessi öryggishópur getur innihaldið notendur með Business Central leyfi og notendur með Microsoft 365 leyfi. Þegar notendur á listanum Microsoft 365  **Notendur** eru uppfærðir Microsoft 365 næst verða notandafærslurnar stofnaðar. Síðan er hægt að úthluta notendaflokkum, heimildum, forstillingum og öðrum stillingum áður en þeir hafa skráð sig inn.
 
-### <a name="after-a-user-signs-in-can-i-change-which-objects-they-have-access-to"></a>Eftir að notandi skráir sig inn, get ég skipt um hvaða hluti þeir hafa aðgang að?
+### Eftir innskráningu notanda, get ég breytt hvaða hlutum þeir hafa aðgang að?
 
-Já. Þegar notandi hefur skráð sig inn í fyrsta sinn og notendaskrá þeirra hefur verið úthlutaður hafa stjórnendur stjórnað þeim notendum rétt eins og allir aðrir notendur viðkomandi starfrækslu. Til dæmis geta þær bætt við eða fjarlægt heimildir fyrir mismunandi hluti. Ef þeim heimildabreyta  Microsoft 365  sem tengjast leyfinu er breytt á síðunni um leyfistilleytingu hefur breytingin aðeins áhrif á næstu notendur sem skrá sig inn í fyrsta sinn.
+Já. Eftir að notandi hefur skráð sig inn í fyrsta skipti og notandafærslu þeirra er ráðstafað sjá stjórnendur um þá notendur rétt eins og allir aðrir Business Central-notendur. Þeir geta til dæmis bætt við eða fjarlægt heimildir fyrir mismunandi hluti. Ef heimildarmengunum sem úthlutað er á leyfið Microsoft 365 á síðunni Leyfisskilgreining hefur breytingin aðeins áhrif á næstu notendur sem skrá sig inn í fyrsta skipti.
 
-### <a name="how-do-i-prevent-access-to-sensitive-tables"></a>Hvernig er best að hindra aðgang að viðkvæmum töflum?
+### Hvernig hindra ég aðgang að viðkvæmum töflum?
 
-Business Central býður upp á öflugt og sveigjanlegt heimildalíkan þar sem stjórnendur geta skilgreint heimildasöfn sem veita aðgang að tilteknum hlutum, viðskiptaferlum eða öllu því hlutverki. Til að hindra aðgang að viðkvæmum töflum er hægt að búa til sérsniðin heimildasöfn sem útiloka heimild til viðkvæmra hluta. Fyrir frekari upplýsingar um undanskildar heimildir, sjá  [Create a heimildamengi](ui-define-granular-permissions.md).  
+Business Central býður upp á öflugt og sveigjanlegt heimildalíkan þar sem stjórnendur geta skilgreint heimildasafn sem veita aðgang að tilteknum hlutum, viðskiptaferlum eða öllum hlutverkum. Til að koma í veg fyrir aðgang að viðkvæmum töflum er hægt að búa til sérsniðin heimildarmeng sem útiloka heimild til viðkvæmra hluta. Nánari upplýsingar um heimildir án heimilda eru [í Create a permission set](ui-define-granular-permissions.md).  
 
-### <a name="instead-of-customizing-the-license-configuration-can-i-customize-a-user-group"></a>Í stað þess að sérsníða Leyfiskafbrigðið get ég sérsniðið notendaflokk?
+### Í stað þess að sérstilla leyfisskilgreininguna, get ég sérstillt notendahóp?
 
-Já. Ef leyfi er bætt við  Microsoft Teams  notendahóp innri notenda í aðalnotanda, hefur sömu nettóáhrif og bætt er við leyfið til  Microsoft 365  leyfisins, svo framarlega sem leyfið hefur  Microsoft 365  áfram verið kortsett fyrir þennan notendaflokk. Þessi nálgun hefur viðbættan ávinning sem heimildasöfn eru alltaf samstillt við meðlimi í hópnum þegar notendaflokksins er breytt.
+Já. Ef heimildum Microsoft Teams er bætt við notendaflokk innri notenda í Business Central, hefur það sama nettóáhrif og að bæta heimildum stillt Microsoft 365 á leyfið, svo lengi sem leyfið Microsoft 365 heldur áfram að varpa á þennan notendaflokk. Þessi nálgun hefur þann viðbætta fríðindi sem heimildasafn eru alltaf samstillt við meðlimi hópsins í hvert skipti sem notendahópnum er breytt.
 
-### <a name="when-a-business-central-user-shares-a-record-in-teams-do-they-grant-new-permissions"></a>Þegar Seðlabanki í miðborg deilir færslu í teymum, veita þeir nýjar heimildir?
+### Þegar Business Central notandi deilir færslu í Teymi veitir hann nýjar heimildir?
 
-Nr. Þessi aðgerð er ekki sú sama og að samnýta tengil í  SharePoint  skjali þar sem einstaklingurinn sem nýtir skjalið getur valið að veita heimild til annarra. Í miðborg Business geta aðeins kerfisstjórar samskipa og úthlutað heimildum. Þegar borið er saman við samnýtingu  SharePoint  skjala er það jafngildi þess að velja þann kost að "samnýta á fólk með fyrirliggjandi aðgangi".
+Nr. Þessi aðgerð er ekki sú sama og að deila tengli í SharePoint skjal þar sem aðilinn sem deilir skjalinu getur valið að veita öðrum heimild. Í Business Central geta aðeins kerfisstjórar stillt og úthlutað heimildum. Í samanburði við samnýtingu SharePoint skjala er það jafngildi þess að velja kost á að "Deila til fólks með fyrirliggjandi aðgang".
 
-### <a name="does-this-feature-support-row-level-security"></a>Styður þessi eiginleiki línustigið öryggi?
+### Styður þessi aðgerð öryggi á línustigi?
 
-Já. Jafnvel þótt einstaklingur fái aðgang að skrá í teymum með sitt  Microsoft 365  leyfi geta þeir fengið réttar töflu-og síðuhlutaheimildir, aðgangsheimildum á línustigi verður framfylgt ef það ' hefur verið útfært fyrir þá töflu.  
+Já. Jafnvel þó að einstaklingur sem hefur aðgang að færslu í Teymi með leyfi sitt Microsoft 365 geti haft réttu töfluna og síðuhlutaheimildir verður línustigsheimildum komið á framfæri ef hún hefur verið innleidd fyrir þá töflu.  
 
-### <a name="if-i-configure-permissions-that-include-write-access-will-users-be-able-to-write-in-teams"></a>Ef ég Skilgreini heimildir sem fela í sér skrifaðgang geta notendur skrifað í teymum?
+### Ef ég grunnstilli heimildir sem innihalda ritaðgang geta notendur skrifað í Teymi?
 
-Ef Viðskiptamiðlæg er skilgreind til að úthluta heimildarmengi sem felur í sér innsetningu, breytingu eða eyðingu á einum eða fleiri hlutum er notanda samt ekki hægt að skrifa í teymum þegar þeir hafa  Microsoft 365  aðeins leyfi. Miðlæg þjónusta Viðskiptamiðinu framfylgir lesaðgangi sama hvað á að setja inn, breyta eða eyða heimild sem úthlutað er.  
+Ef Business Central er grunnstillt til að úthluta heimildarsafni sem inniheldur innsetningu, breytingu eða eytt aðgangi að einum eða fleiri hlutum geta notendur með viðkomandi heimildarsafn samt ekki skrifað í Teymi þegar þeir hafa Microsoft 365 aðeins leyfi. Business Central þjónustan framfylgir ritvarnum aðgangi sama hvaða innsetningu, breytingu eða heimild er úthlutað.  
 
-Jafnvel þó að Viðskiptamiðlæg veiti þetta stig vernd mælum við samt eindregið með því að leyfi verði sett með skrifaðgangi. Standi svo í veg fyrir að mál komi niður á við þegar notendur breyta um hlutverk eða eignast ný leyfi.  
+Jafnvel þó Business Central veiti þessa vernd mælum við samt með því að þú komist hjá heimildarsamstæðum með ritaðgangi. Ef það er gert kemur það í veg fyrir að mál komi frekar niður á við þegar notendur skipta um hlutverk eða afla sér nýrra leyfia.  
 
-## [Uppsetning og samskipan](#tab/setup)
+## [Uppsetning og grunnstilling](#tab/setup)
 
-### <a name="why-is-the-setting-to-enable-access-not-available-for-my-environment"></a>Af hverju er stillingin til að virkja aðgang ekki tiltæka fyrir umhverfið mitt?
+### Hvers vegna er stillingin til að gera aðgang óvirkan fyrir umhverfið mitt?
 
-Aðgangur að virkjum með  Microsoft 365  leyfum er einungis til staðar fyrir Viðskiptamiðlumhverfi pallbíla útgáfa 21,1 eða nýrri. Þegar umhverfið er uppfært í þessa lágmarks útgáfu verður stillingin tiltæk sjálfkrafa. Til að athuga útgáfu á umhverfi þínu ferðu á síðuna umhverfisupplýsingar fyrir umhverfið í stjórnsýslumiðstöðinni okkar í Síðumúla. Eða skrá sig inn í umhverfið og fara  **á hjálp & stuðningssísíðu**  úr  **valmyndinni Hjálp** .
+Virkjun aðgangs með Microsoft 365 leyfi er aðeins í boði fyrir Business Central umhverfi verkvangsútgáfu 21.1 eða síðar. Þegar umhverfið er uppfært í þessa lágmarksútgáfu verður stillingin sjálfkrafa tiltæk. Til að athuga útgáfu umhverfisins er farið á upplýsingasíðu umhverfisins um umhverfið í stjórnunarmiðstöð Business Central. Einnig er hægt að skrá sig inn í umhverfið og fara á **hjálparsíðuna & stuðningur** á **hjálparvalmyndinni** .
 
-### <a name="can-i-access-business-central-on-premises-with-microsoft-365-licenses"></a>Get ég nálgast atvinnuhúsnæði miðsvæðis á húsnæði með  Microsoft 365  leyfum?
+### Get ég nálgast Business Central á húsnæði með Microsoft 365 leyfi?
 
-Nei, það er ekki stutt. Miðbær fyrirtækja birtir villu þegar notendur reyna að fá aðgang að aðalskrám innanhúss í teymum.
+Nei, hún er ekki studd. Business Central birtir villu þegar notendur reyna að fá aðgang að Business Central á húsnæðisfærslum í Teams.
 
-### <a name="what-is-the-employee-profile"></a>Hvað er Starfsmatsniðs?
+### Hvað er forstilling starfsmanns?
 
-Starfsmannasninið  **sem**  birtist í  **listasíðu forstillingar (hlutverk)**  var kynnt með uppfærslu 21,1. Það er sjálfgefna sniðið sem úthlutað er til notenda sem hafa aðgang að Viðskiptamiðinu með sínu  Microsoft 365  leyfi. Þessi forstilling er ætluð fólki innan stofnunar sem ekki hefur sértækt hlutverk í starfsemi miðbæjarins og þarf því aðeins að skoða gögn sem deilt var með þeim.
+Forstilling **starfsmanns** sem birtist á **listasíðunni Forstillingar (hlutverk)** var kynnt með Uppfæra 21.1. Það er sjálfgefna forstillingin sem er úthlutað á notendur sem fá aðgang að Business Central með leyfi sínu Microsoft 365 . Þessi forstilling er ætluð einstaklingum innan fyrirtækis sem ekki hefur sérstakt hlutverk í Business Central og þarf aðeins að skoða gögn sem var deilt með þeim.
 
-### <a name="what-is-the-teams-users-user-group"></a>Hvað er hópurinn notendaflokkur notenda?
+### Hver er notendaflokkur teymisnotendanna?
 
- **Microsoft Teams Hópurinn notendur**  innanhúss sem birtist á  **síðunni notendaflokkar**  var kynntur með uppfærslu 21,1. Þessi flokkur er sjálfgefinn Notendaflokkur sem tengist notendum sem hafa aðgang að Viðskiptamiðinu með leyfi þeirra Microsoft 365 . Notendahópurinn er ætlaður fólki innan sömu stofnunar þar sem Miðbær Viðskiptamiðsins er hýst sem samvinna í Microsoft Teams.  
+Hópur **Microsoft Teams innri notenda** sem birtist á síðunni **Notendaflokkar** var kynntur með Uppfæra 21.1. Þessi hópur er sjálfgefinn notendaflokkur sem er tengdur notendum sem fá aðgang að Business Central með leyfi sínu Microsoft 365 . Notendahópurinn er ætlaður fólki innan sömu samtaka þar sem Business Central er hýst sem vinnur með Microsoft Teams.  
 
-### <a name="do-users-that-only-have-a-microsoft-365-license-show-up-in-the-users-list-in-business-central"></a>Eru notendur sem aðeins hafa  Microsoft 365  leyfissvipingu í notendalistanum í Business miðlægu?
+### Birtast notendur sem aðeins hafa Microsoft 365 leyfi á notendalistanum í Business Central?
 
-Já. Ef öryggishópar eru notaðir í umhverfi munu þeir notendur birtast í listanum notendur eftir að Uppfærslunotendur  Microsoft 365  hafa notað aðgerðina  **úr listanum notendur** . Ef ekki er sótt um öryggishópa birtast notendafærslur á listanum notendur eftir fyrsta tímann sem þeir fá aðgang að aðalfærslu í starfsemi.
+Já. Ef öryggishópar eru notaðir í umhverfi birtast þeir notendur á listanum Notendur eftir að aðgerðin Uppfæra notendur Microsoft 365 hefur verið notuð úr listanum **Notendur** . Ef öryggishópar eru ekki notaðir birtast notendafærslur á listanum Notendur eftir fyrsta skipti sem þær fá aðgang að Business Central færslu.
 
-### <a name="does-this-feature-work-for-embed-isv-solutions"></a>Virkar þessi eiginleiki fyrir innstýringu á ÓHS lausnum?
+### Virkar þessi eiginleiki fyrir ígræddar ISV lausnir?
 
-Já. Notendur með aðeins  Microsoft 365  leyfi geta einnig nálgast færslur í umhverfi sem keyra undir *. bc.dynamics.com léni.
+Já. Notendur með aðeins Microsoft 365 leyfi geta einnig fengið aðgang að færslum í umhverfi sem keyra undir léninu *.bc.dynamics.com.
 
-## [Leyfi](#tab/license)
+## [Leyfisveitandi](#tab/license)
 
-### <a name="can-a-customer-use-this-feature-if-they-dont-have-business-central"></a>Getur viðskiptavinur notað þennan eiginleika ef þeir eru ekki miðsvæðis í viðskiptum?
+### Getur viðskiptavinur notað þessa aðgerð ef hann er ekki með Business Central?
 
-Aðgangur að Viðskiptamiðinu með  Microsoft 365  leyfi er ætlaður fyrir stofnanir sem nú þegar gerast áskrifandi að viðskiptamiðinu og reka eitt eða fleiri viðskiptaleg umhverfi með leyfi rekstraraðila miðlægu þjónustunotenda. Það veitir enga nýja virkni eða nýtir sér réttindi til  Microsoft 365  viðskiptavina sem ekki hafa aðaláætlun fyrirtækja.
+Aðgangur að Business Central með Microsoft 365 leyfi er ætlaður fyrir stofnanir sem þegar gerast áskrifandi að Business Central og starfrækja eitt eða fleiri Business Central umhverfi með leyfi frá Business Central notendum. Hann veitir enga nýja virkni eða notar réttindi fyrir Microsoft 365 viðskiptamenn sem eru ekki með Business Central áætlun.
 
-### <a name="how-does-this-help-me-manage-subscription-costs-in-my-organization"></a>Hvernig hjálpar þetta mér að stjórna áskriftarkostnaði í fyrirtækinu mínu?
+### Hvernig hjálpar þetta mér að stýra áskriftarkostnaði innan fyrirtækisins?
 
-Til að hámarka framleiðni og straumlínurekstur sinn, SMBs oft innkaup  Dynamics 365 Business Central  saman við Microsoft 365. Í hvaða tilvikum fá flestir úthlutað  Microsoft 365  leyfi, en aðeins tiltekin hlutverk eða fólk fær miðlægt leyfi rekstraraðila. Viðskiptamiðlæg veitir leyfishafa sveigjanleika þannig að Viðskiptavinir borgi aðeins fyrir það sem þeir þurfa:
+Til að hámarka framleiðni og streyma aðgerðum sínum kaupir Dynamics 365 Business Central SMB oft saman við Microsoft 365. Í því tilviki fá Microsoft 365 flestir leyfi, en aðeins tiltekin hlutverk eða fólk fær Business Central leyfi. Business Central veitir sveigjanleika leyfis þannig að viðskiptavinir greiði aðeins fyrir það sem þeir þurfa:
 
-- Notendur sem þurfa fullan aðgang að Viðskiptamiðinu eru gjarnan með úthlutaðan Aðalfrumnot viðskipta eða miðlægu Premium starfsleyfi. 
-- Notendum sem þurfa á takmörkuðum skrifaðgangi að skipa er yfirleitt úthlutað miðlæg starfsleyfi miðlægu teymis.
-- Allir aðrir starfsmenn yfir skipulaginu sem aðeins þurfa að stundum lesa viðskipdata sem er miðlað með þeim, geta gert það ef þeir eru  Microsoft 365  með leyfi. Þeir þurfa ekki að fá úthlutað Hópaðildaleyfi. Aðrir leyfisveitingarmöguleikar eru fyrir hendi. Nánari upplýsingar má sækja og lesa leiðbeiningar  [um](https://go.microsoft.com/fwlink/?LinkId=866544) leyfisveitingu fyrir Dynamics 365.
+- Notendum sem þarfnast fulls aðgangs að Business Central er yfirleitt úthlutað Business Central Essentials eða Business Central Premium leyfi. 
+- Notendum sem krefjast takmarkaðs skrifaðgangs er yfirleitt úthlutað Meðlimur Business Central Team.
+- Allir aðrir starfsmenn innan fyrirtækisins sem þurfa aðeins stundum að lesa viðskiptagögn sem er deilt með þeim, geta gert það ef þeir hafa Microsoft 365 leyfi. Það þarf ekki að úthluta þeim teymisfélagaleyfi. Aðrir leyfisvalkostir eru í boði. Nánari upplýsingar má finna í handbókinni [Dynamics](https://go.microsoft.com/fwlink/?LinkId=866544) 365 um leyfisveitingar og nánari upplýsingar.
 
-### <a name="is-this-100-free-of-charge"></a>Er þetta 100% án endurgjalds?
+### Er þetta 100% án endurgjalds?
  
-Nr. Aðgangur að Viðskiptamiðlægum gögnum í  Microsoft Teams  krefst þess að hver notandi hafi annaðhvort aðalleyfi eða  Microsoft 365  leyfi frá lista yfir studd áform.
+Nr. Aðgangur að Business Central gögnum í Microsoft Teams krefst þess að hver notandi fái annaðhvort Business Central leyfi eða Microsoft 365 leyfi af listanum yfir studdar áætlanir.
 
-### <a name="does-this-work-with-microsoft-365-trials-and-business-central-trials"></a>Virkar þetta með  Microsoft 365  rannsóknum og Aðalrannsóknum fyrirtækja?
+### Virkar þetta með Microsoft 365 prufur og Business Central réttarhöld?
 
-Já. Ef notandi hefur fengið  Microsoft 365  leyfi frá prufuútgáfu af studdu áætlun, geta þeir einnig haft aðgang að miðlægum færslum fyrirtækja í teymum. Það er síðan mögulegt fyrir viðskiptavini að reyna framleiðsölur og viðskiptaforrit sem vinna saman og leyfa söluaðilum og ráðgjafarfyrirtækjum að sýna þessa eiginleika auðveldlega. Til dæmis geta samstarfsaðilar ráðstafað eigin  Microsoft Entra  leigjendum út frá  [https://aka.ms/CDX](https://aka.ms/CDX)  því hafa  Microsoft 365  rannsóknir og rekstur miðlægu rannsóknir fyrir því að sýna viðskiptamiðað.
+Já. Ef notandi fær Microsoft 365 leyfi frá prufuútgáfu af studdri áætlun getur hann einnig fengið aðgang að Business Central færslum í Teams. Þá er mögulegt fyrir viðskiptamenn að prófa framleiðni og viðskiptaforrit Microsoft sem vinna saman og gera sölumönnum og ráðgjöfum samstarfsaðila kleift að sýna þessa aðgerð auðveldlega. Til dæmis geta samstarfsaðilar ráðstafað eigin Microsoft Entra leigjendum sem [https://aka.ms/CDX](https://aka.ms/CDX) innihalda Microsoft 365 prufur og Business Central réttarhöld til að sýna Business Central.
 
-### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft-365-license-whats-that"></a>Listi yfir leyfi í starfsemi miðsvæðis sýnir  Microsoft 365  leyfi. Hvað er það?
+### Listi yfir leyfi í Business Central sýnir Microsoft 365 leyfi. Hvað er þetta?
 
- **Síðan Leyfisskilgreiningar**  í viðskiptamiðinu eru birtar mismunandi tegundir leyfa sem geta veitt aðgang að þjónustu miðsvæðis í viðskiptum. Í útgáfu 21 bætist  Microsoft 365  Microsoft við þennan lista sem nýr farvegur til aðgangs að Viðskiptamiðinu. Þessi listi yfir leyfi gefur ekki til að fyrirtækið hafi keypt áskriftir að neinu af þessum leyfum eða fyrirtækið hefur virkjað aðgang í gegnum þessi leyfi.
+Síðan **Leyfisskilgreining** í Business Central birtir mismunandi gerðir af leyfi sem veitir aðgang að Business Central þjónustunni. Í útgáfu 21 bætti Microsoft 365 Microsoft við þennan lista sem nýja leið til að fá aðgang að Business Central. Þessi listi yfir leyfi gefur ekki í skyn að fyrirtækið hafi keypt áskrift að einhverju af þessum leyfum eða fyrirtækið hefur veitt aðgang að þessum leyfum.
 
-### <a name="do-i-need-to-acquire-a-new-type-of-microsoft-365-license-for-this-feature-to-work"></a>Þarf ég að öðlast nýja tegund  Microsoft 365  leyfis fyrir þennan eiginleika til að virka?
+### Þarf ég að fá nýja tegund af Microsoft 365 leyfi fyrir þessa aðgerð til að vinna?  
 
-Microsoft hefur ekki stofnað ný leyfi eða nýjar áætlanir hafa vald á þessum eiginleika. Þessi eiginleiki treystir alfarið á fyrirliggjandi  Microsoft 365  áætlanir og leyfi. Ef þú ert þegar áskrifandi að einum af þeim sem studdu  Microsoft 365  áætlanirnar þá hefur þú nú þegar þessa nýju notkun rétt. Að öðrum kosti, ef áskrifandi er ekki í dag er hægt að  Microsoft 365  skrá sig fyrir  Microsoft 365  viðskiptakaupauka eða svipuðum áætlunum hér. 
+Microsoft hefur ekki búið til ný leyfi eða nýjar áætlanir til að knýja þessa aðgerð. Þessi aðgerð tengist eingöngu fyrirliggjandi Microsoft 365 áætlunum og leyfum. Ef þú ert þegar áskrifandi að einni af studdu Microsoft 365 áætlununum þá hefur þú þegar þessa nýju notkun rétta. Annars, ef þú gerast ekki áskrifandi að Microsoft 365 dagnum í dag getur þú skráð þig hér á Microsoft 365 slóð viðskiptaiðgjalds eða svipaðra áætlana. 
 
-### <a name="how-do-i-find-out-which-users-have-only-a-microsoft-365-license"></a>Hvernig finn ég út hvaða notendur hafa aðeins  Microsoft 365  leyfi?
+### Hvernig kemst ég að því hvaða notendur hafa aðeins Microsoft 365 leyfi?
 
-Til eru margar leiðir.  Microsoft 365 Í stjórnendamiðstöð er farið  **í lista virk notenda**  og vísað  **í dálkinn leyfi** . Í Business Central er farið  **í notendalistann**, valið hvaða notendur sem er og skoðað  **upplýsingakassa leyfis** .  
+Það eru margar leiðir.  Microsoft 365 Í stjórnunarstöðinni er farið á **listann Virkir notendur** og vísað í dálkinn **Leyfi** . Í Business Central er farið á **notendalistann**, einhver af notendunum valinn og skoðað **upplýsingakassann** Leyfi.  
 
-### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft-365-license"></a>Hvernig sía ég notendalistann í viðskiptafræði miðlægt til að sjá notendur sem aðeins eru  Microsoft 365  með leyfi?
+### Hvernig afmarka ég notendalistann í Business Central til að sjá notendur sem hafa aðeins Microsoft 365 leyfi?
 
-Þetta verk er eins og er ekki hægt að nota við afmörkun eða Yfirlit. Hins vegar er hægt að velja notanda á listanum og skoða upplýsingakassa sem verður aðeins  Microsoft 365 með ef notandinn er  Microsoft 365  aðeins með leyfi.
+Ekki er hægt að nota afmörkunar- eða listayfirlit á þessu verki. Hins vegar er hægt að velja notanda á listanum og skoða leyfisreitinn sem nær aðeins Microsoft 365 til, ef notandinn hefur Microsoft 365 aðeins leyfi.
 
-### <a name="what-about-users-that-have-both-a-microsoft-365-license-and-a-business-central-license"></a>Hvað með notendur sem hafa bæði  Microsoft 365  leyfi og miðlægt leyfi fyrirtækja?
+### Hvað með notendur sem hafa bæði Microsoft 365 leyfi og Business Central leyfi?
 
-Þegar mörgum leyfum er úthlutað til notanda, vinnur leyfishafi yfir leyfi til að nota aðgang að aðalfyrirtæki. Í þessu tilfelli nefnir Seðlabanki fyrirtæki notandann rétt til fleiri notendaleyfis. Þannig að notendur geta lesið og skrifað aðalfærslur í teymum og fengið aðgang að vefsíðu aðalvefbiðlara í vafra, rétt eins og hver önnur starfsemi aðalleyfisveitanda. Ef tilteknum skilgreindum heimildum hefur verið samskipað fyrir  Microsoft 365  leyfið fær notandinn skilgreinda heimildina sem sett er saman við það leyfi sem sett er frá Aðalleyfi rekstraraðila eða sem þegar hefur verið úthlutað til notandans.
+Þegar mörgum leyfum er úthlutað á notanda, vinna meiri leyfisnotkunarheimildir yfir minni notkunarheimildum þegar farið er í Business Central. Í þessu tilviki á Business Central leyfi notandanum að fá meiri notandaréttindi. Þannig geta notendur lesið og skrifað Business Central færslur í Teams og opnað Business Central vefbiðlarann í vafranum, rétt eins og allir aðrir Business Central leyfishafar. Ef tiltekin heimildarsamsetning hefur verið grunnstillt fyrir Microsoft 365 leyfið fær notandinn grunnstillt heimildasafn ásamt heimildarmengunum úr Business Central leyfinu eða sem þegar hefur verið úthlutað til notandans.
 
-### <a name="is-this-licensing-related-to-the-business-central-team-member-license"></a>Er leyfisveiting tengd starfsemi miðlægu teymis starfsleyfi?
+### Er þessi leyfisveiting tengd meðlimur Business Central Team?
 
-Það eru engin tengsl á milli meðlim Miðlæguteymis og aðgangs að viðskiptamiðinu í  Microsoft Teams  notkun  Microsoft 365  leyfa. Þó svo  Microsoft Teams  og fylgigögn hennar vísa fólki í lið sem  *hópmeðlimum* þá er það sameiginlega hugtak fyrir hóp  Microsoft Teams  notenda. Það vísar því ekki til Aðalleyfis rekstraraðila.
+Engin tengsl eru á milli leyfis business Central Team og aðgangs að Business Central með Microsoft Teams  Microsoft 365 leyfi. Þó svo Microsoft Teams að heimildir þess vísa til fólks í teymi sem *teymismeðlimi* er það sameiginlegt hugtak fyrir hóp Microsoft Teams notenda. Það vísar ekki til Business Central leyfis.
 
-### <a name="does-business-central-enforce-any-of-the-constraints"></a>Hefur seðlabankinn framfylgt einhverju af hömlunum?
+### Framfylgir Business Central einhverjum hömlunum?
 
-Já, allar vettvangskorðingar og lágmarkskröfur, þ.m.t. leyfisveitingar, eru knúnir inn á Aðalvettvang fyrirtækja. Þetta fylgja notendum með tiltekin villuskilaboð til að auðvelda þeim að leysa uppsetningu þeirra og koma í veg fyrir misnotkun. Til dæmis, ef notandi sem aðeins er  Microsoft 365  með leyfistilraunir til að fá aðgang að aðalvefbiðlara Viðskiptamiðis í vafranum verður aðgangi hafnað og villuskilaboð birt. 
+Já, allar hömlur á verkvangnum og lágmarkskröfur, þ.m.t. leyfisskilyrði, er framfylgt af Business Central verkvangnum. Með þessu eru notendur með tiltekin villuboð til að aðstoða þá við að ræða uppsetningu þeirra og koma í veg fyrir misnotkun. Ef notandi sem hefur aðeins Microsoft 365 leyfistilraunir til að fá aðgang að Business Central vefbiðlara í vafranum er aðgangi hafnað og villuboð birtast leiðsagnarforrit. 
 
 ## [Notkun](#tab/usage)
  
-### <a name="can-i-access-records-on-teams-for-ios-and-teams-for-android"></a>Get ég nálgast færslur á teymum fyrir  iOS  og teyma Android?
+### Get ég fengið aðgang að færslum í Teymi fyrir iOS og Teymi fyrir Android? 
 
-Eins og er þá er ekki hægt að nálgast viðskipti miðlægt í teymum farsíma með því að nota einungis  Microsoft 365  leyfi. Microsoft vinnur að því að virkja þessa getu bráðlega. 
+Eins og er er ekki hægt að fá aðgang að Business Central gögnum í teymunum fyrir farsíma með því að nota aðeins Microsoft 365 leyfi. Microsoft vinnur að því að gera þennan möguleika virkan bráðlega. 
 
-### <a name="how-do-users-change-their-personal-settings-in-my-settings"></a>Hvernig breyta notendur persónulegum stillingum sínum í stillingum mínum?
+### Hvernig breyta notendur persónulegum stillingum sínum í Mínar stillingar? 
 
-Þegar notandi sækir viðskipti miðlægt í fyrsta sinn með því að nota aðeins leyfið sitt  Microsoft 365 , eru notandastillingar þeirra eins og tungumál, tímabelti og svæðisstillingar sjálfkrafa settar á grundvelli stýrikerfis-eða vafrastillinga. Kerfisstjórar geta breytt þessum stillingum miðlægt fyrir hvern notanda. 
+Þegar notandi fer inn á Business Central í fyrsta skipti notar aðeins leyfi sitt Microsoft 365 eru notendastillingar þeirra, svo sem tungumál, tímasvæði og svæðisstillingar stilltar sjálfkrafa á grundvelli stýrikerfis eða vafrastillinga. Kerfisstjórar geta breytt þessum stillingum í Business Central fyrir hvern notanda. 
 
-### <a name="what-determines-the-choice-of-language-when-you-sign-in-for-the-first-time"></a>Hvað ákvarðar val tungumálsins við innskráningu í fyrsta sinn?
+### Hvað ræður vali á tungumáli þegar notandi skráir sig inn í fyrsta skipti? 
 
-Tungumálið þar sem þú upplifir Viðskiptamiðað er stilltur út frá ýmsum þáttum, þar á meðal teymum biðlara þar sem þú hefur aðgang að Aðalsafni í fyrsta sinn. Fyrir teyma skjáborðs-app, teyma  iOS  og teyma fyrir  Android er stýrikerfi notað. Fyrir teyma fyrir vefinn er vafamál vafrans beitt. Í öllum tilfellum er teymisvinna ekki talin með. 
+Tungumálið sem Business Central er notað á er byggt á ýmsum þáttum, þar á meðal teams biðlaranum sem þú náðir í í Business Central í fyrsta skipti. Fyrir teymisforrit, Teymi fyrir iOS og Teymi fyrir Android er tungumál stýrikerfisins notað. Fyrir teymi á vefnum er vaframálið notað. Í öllum tilvikum er tungumálið Teymi ekki talið. 
 
-### <a name="why-cant-i-activate-some-of-the-colored-links-in-tabs-and-card-details"></a>Hvers vegna get ég ekki virkjað einhverja litaða tengla í flipum og kortaupplýsingum?
+### Af hverju get ég ekki virkjað nokkra af lituðu tenglunum í flipum og kortaupplýsingum?
 
-Actionable tenglar á miðlægu síður fyrirtækja eru oft sýndir sem Feitletraðir Tenglar sem hægt er að virkja til að fara annars staðar eða keyra einhvern rekstur. Á tæknilegu stigi eru þessir tenglar yfirleitt útfærðir sem gildi svæðis án texta sem kveikja einhverja kóða og þar sem val á stíl endurspeglar oft ástand. Þegar notendur fá aðgang að vefsíðum fyrirtækja með leyfi þeirra  Microsoft 365  eru Tenglarnir stílfærir eins og ef þeir eru actionanlegir. En þau er ekki hægt að virkja þar sem slíkt leyfi býður ekki upp á notkun réttinda til að keyra aðgerðir.  
+Aðgerðanlegir tenglar á Business Central síðum eru oft sýndir sem feitletraðar tenglar sem hægt er að virkja til að fara annars staðar eða keyra einhverja aðgerð. Á tæknilegu stigi eru þessir tenglar yfirleitt innleiddir sem reitagildi sem hafa enga fyrirsögn sem kallar fram einhvern kóta og þar sem val á stíl endurspeglar oft stöðu. Þegar notendur fá aðgang að Business Central síðum með leyfi sínu Microsoft 365 eru tenglarnir stílaðir eins og þeir séu aðgerðalausir. En ekki er hægt að virkja þá vegna þess að þetta leyfi býður ekki upp á notkunarheimildir til að keyra aðgerðir.  
 
-### <a name="why-cant-i-activate-page-notification-actions"></a>Af hverju er ekki hægt að virkja síðutilkynningaraðgerðir?
+### Hvers vegna get ég ekki virkjað tilkynningaaðgerðir á síðunni?
 
-Contextual-tilkynningar sem sýndar eru á síðum fylgja oft Gantt tenglar. Þegar notendur fá aðgang að Aðalsíðum fyrirtækja með leyfi sínu  Microsoft 365  eru þessir tenglar birtir en ekki er hægt að virkja þá því þetta leyfi býður ekki upp á að nota réttindi til að keyra aðgerðir. Á tæknistigi eru þessir tenglar útfærðir sem aðgerðir.
+Samhengistilkynningar sem birtast á síðum fylgja oft aðgerðanlegum tenglum. Þegar notendur fá aðgang að Business Central síðum með leyfi sínu Microsoft 365 eru þessir tenglar birtir en ekki hægt að virkja þar sem þetta leyfi býður ekki upp á notkunarheimildir til að keyra aðgerðir. Á tæknilegu stigi eru þessir tenglar innleiddir sem aðgerðir.
 
-### <a name="can-microsoft-365-users-remove-tabs"></a>Geta  Microsoft 365  notendur fjarlægt flipa?
+### Geta Microsoft 365 notendur fjarlægt flipa?
 
-Já. Hver sem er á spjallinu eða rás getur fjarlægt flipa sem aðrir búa yfir. Ef flipi er fjarlægður skal ekki fjarlægja eða hafa áhrif á gögn í Aðalviðskiptum en Flipinn verður fjarlægður fyrir alla notendur Spjalls eða rása.
+Já. Allir í spjallinu eða rásinni geta fjarlægt flipa sem aðrir búa til. Fjarlæging flipa fjarlægir ekki eða hefur áhrif á gögn í Business Central en flipinn verður fjarlægður fyrir alla notendur á spjallinu eða rásinni.
 
-### <a name="if-i-cant-filter-will-i-still-see-a-filtered-list-that-was-created-by-others"></a>Ef ég get ekki afmarkað, mun ég enn sjá afmarkaðan lista sem var búinn til af öðrum?
+### Ef ég get ekki afmarkað, sé ég samt afmarkaðan lista sem var búinn til af öðrum?
 
-Notendur sem fá aðgang að miðborg með leyfi sínu  Microsoft 365  hafa ekki notkunina réttindi til að sía með afmörkunarúðanum eða nota yfirlitslista. En, ef annar notandi hefur búið til flipa með síaða listasíðu,  Microsoft 365  munu notendur einnig skoða þær síur sem beitt er á flipanum.
+Notendur sem fá aðgang að Business Central með leyfi sínu Microsoft 365 hafa ekki notkunarheimildir til að afmarka með því að nota afmörkunarsvæðið eða nota listayfirlit. En ef annar notandi hefur stofnað flipa með afmarkaðri listasíðu Microsoft 365  mun notendur einnig skoða þær afmarkanir sem notaðar eru á flipann.
 
 ---
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Yfirlit yfir miðlægu aðgengi fyrirtækja með  Microsoft 365  leyfum](admin-access-with-m365-license.md#minimum-requirements)  
+[Yfirlit yfir Business Central Access með Microsoft 365 leyfum](admin-access-with-m365-license.md#minimum-requirements)  
 [Setja upp aðgang með Microsoft 365-leyfum](admin-access-with-m365-license-setup.md)  

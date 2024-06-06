@@ -9,11 +9,11 @@ ms.date: 09/17/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
+# Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
 
 Þessi grein veitir leiðbeiningar fyrir notendur birgðakostnaðarvirkni í [!INCLUDE[prod_short](includes/prod_short.md)] og þá sérstaklega hvernig runuvinnslan **Leiðréttur kostnaður - birgðafærslur** ber kennsl á og úthlutar bókunardagsetningu fyrir virðisfærslurnar sem runuvinnslan er að búa til.
 
-## <a name="how-posting-dates-are-assigned"></a>Hvernig bókunardagsetningum er úthlutað
+## Hvernig bókunardagsetningum er úthlutað
 
 Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** úthlutar bókunardagsetningu fyrir virðisfærsluna sem hún kemur til með að búa til í eftirfarandi skrefum:  
 
@@ -25,7 +25,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** úthlutar bókunardagset
 
 Við skulum yfirfara þetta ferli betur með dæmi. Gerum ráð fyrir að við séum með birgðafærslu fyrir sölu. Þessi hlutur var sendur 5. september 2020 og reikningsfærður daginn eftir.  
 
-#### <a name="item-ledger-entry"></a>Birgðafærsla
+#### Birgðafærsla
 
 |Færslunr.  |Vörunr.  |Bókunardagsetning  |Tegund færslu  | Nr. fylgiskjals |Kóti birgðageymslu   |Magn  |Kostnaðarupphæð (raunverul.)  |Reikningsfært magn  |Eftirstöðvar (magn)  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -39,8 +39,8 @@ Hér fyrir neðan eru tengdar virðisfærslur:
 
 |Færslunr.  |Vörunr.  |Bókunardagsetning  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  |Birgðafærsla nr.  |Kóti birgðageymslu   |Magn birgðafærslu  |Reikningsfært magn  |Kostnaðarupphæð (raunverul.)  |Kostnaðarupphæð (væntanl.)  |LEIÐRÉTT  |Jafna færslu  |Upprunakóði  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------|---------|---------|---------|---------|
-|379     |  A       |    2020-09-05     |    Sala     | Beinn kostnaður   | 102033        |319     | Blátt        | -1       |0         |  0       |     -10   |Nr   |0    |Sölur          |
-|381     |  A       |    2020-09-06     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |-1        |-10       |    10     | Nr  |0      |       Sölur   |
+|379     |  A       |    2020-09-05     |    Sala     | Beinn kostnaður   | 102033        |319     | Blátt        | -1       |0         |  0       |     -10   |Nr.   |0    |Sölur          |
+|381     |  A       |    2020-09-06     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |-1        |-10       |    10     | Nr.  |0      |       Sölur   |
 |391     |  A       |    2020-09-10     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |0         |-1        |    0     |Já   |    181   | BIRGLEIÐR   |
 
 Til að úthluta bókunardagsetningu fyrir **Færslunr. 391** voru eftirfarandi skref gerð:
@@ -51,7 +51,7 @@ Til að úthluta bókunardagsetningu fyrir **Færslunr. 391** voru eftirfarandi 
 
 Við skulum endurskoða ofangreinda sölu með því að bæta við uppsetningu á leyfilegu dagsetningabili bókunar.  
   
-#### <a name="inventory-periods"></a>Birgðatímabil
+#### Birgðatímabil
 
 |Lokadagsetning  |Name  |Lokað  |
 |---------|---------|---------|
@@ -70,7 +70,7 @@ Við skulum endurskoða ofangreinda sölu með því að bæta við uppsetningu 
 
 Fyrsta leyfilega bókunardagsetningin er fyrsti dagurinn á fyrsta opna tímabilinu, sem er 1. september 2020.  
 
-#### <a name="general-ledger-setup"></a>Uppsetning fjárhags
+#### Uppsetning fjárhags
 
 |Svæði|Gildi:  |
 |---------|---------|
@@ -88,23 +88,23 @@ Upphaflega úthlutaða bókunardagsetningin var 6. september eins og sýnt er í
 
 |Færslunr.  |Vörunr.  |Bókunardagsetning  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  |Birgðafærsla nr.  |Kóti birgðageymslu   |Magn birgðafærslu  |Reikningsfært magn  |Kostnaðarupphæð (raunverul.)  |Kostnaðarupphæð (væntanl.)  |LEIÐRÉTT  |Jafna færslu  |Upprunakóði  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|379     |  A       |    2020-09-05     |    Sala     | Beinn kostnaður   | 102033        |319     | Blátt        | -1       |0         |  0       |     -10   |Nr   |0    |Sölur          |
-|381     |  A       |    2020-09-06     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |-1        |-10       |    10     | Nr  |0      |       Sölur   |
+|379     |  A       |    2020-09-05     |    Sala     | Beinn kostnaður   | 102033        |319     | Blátt        | -1       |0         |  0       |     -10   |Nr.   |0    |Sölur          |
+|381     |  A       |    2020-09-06     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |-1        |-10       |    10     | Nr.  |0      |       Sölur   |
 |391     |  A       |    **10-09-2020**     |    Sala     | Beinn kostnaður   | 103022        |319     | Blátt        |  0       |0         |-1        |    0     |Já   |    181   | BIRGLEIÐR   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Algeng vandamál með runuvinnsluna „Leiðrétta kostnað - Birgðafærslur“
+## Algeng vandamál með runuvinnsluna „Leiðrétta kostnað - Birgðafærslur“
 
 Tvær aðstæður eru fyrir hendi sem þjónustudeildin lendir nógu oft í til að skrifa eigin greinar um lausn á vandamálinu.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
+### Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
 
 Ef þú færð upp þessa villu þarftu að leiðrétta dagsetningarnar þar sem notandinn má bóka færslur. Frekari upplýsingar má finna í [Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga“](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Bókunardagsetning á leiðréttingarvirðisfærslum á móti bókunardagsetningu við innfærslu sem veldur leiðréttingu, eins og endurmati eða kostnaðarauka
+### Bókunardagsetning á leiðréttingarvirðisfærslum á móti bókunardagsetningu við innfærslu sem veldur leiðréttingu, eins og endurmati eða kostnaðarauka
 
 Frekari upplýsingar er að finna í [Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  

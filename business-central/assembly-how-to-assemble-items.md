@@ -1,6 +1,6 @@
 ---
 title: Sameina vörur
-description: Læri um saman-til-röð og setja saman verkferla í viðskiptum miðsvæðis.
+description: Fræðast um samsetningu eftir pöntunum og samsetningu birgðaferla í Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,45 +11,45 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Sameina vörur
+# Sameina vörur
 
- **Ef reiturinn Áfyllingarkerfi**  á birgðaspjaldinu inniheldur  **samsetningu** er sjálfgefna aðferðin við að útvega vöruna að setja hana saman samkvæmt samsetningaruppskrift og hugsanlega með tilteknum forða. Frekari upplýsingar í  [vinnu með uppskriftum samsetningar](assembly-how-work-assembly-boms.md). Frekari upplýsingar um uppsetningu samsetningarvöru í  [skilningi setja saman við pöntun og setja saman við birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
+Ef reiturinn **Áfyllingarkerfið** á birgðaspjaldinu inniheldur **samsetningu** er sjálfgefin aðferð við að útvega vöruna til að setja hana saman í samræmi við samsetningaruppskrift og hugsanlega af tilteknum forða. Nánari upplýsingar um [vinnu í samsetningaruppskriftum](assembly-how-work-assembly-boms.md). Nánari upplýsingar um hvernig samsetningarvara er sett upp í Skilningur settur [saman í pöntun og settur saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-Hægt er að setja upp samsetningarvörur fyrir tvö samsetningarferli.
+Hægt er að setja upp samsetningarvörur fyrir tvær samsetningarvinnslur.
 
 |Ferli  |Heimildasamstæða  |
 |---------|---------|
-|Setja saman á lager     | Hlutir sem þú hefur safnað saman og lager fyrir síðari sölu. T.d. pökkum fyrir komandi söluherferð. Vörurnar eru ekki tengdar sölupöntun, a.m.k. ekki enn sem komið er. Yfirleitt eru þessi atriði ekki sérsniðin að beiðnum viðskiptavina.        |
-|Setja saman til að panta     | Vörur sem þú vilt ekki eiga á lager. Til dæmis, þar sem þeir eru sérsniðnir eftir pöntunum viðskiptavina eða til að minnka kostnað á lagerbirgðum. |
+|Setja saman á lager     | Vörur sem settar eru saman og settar saman í framtíðarsölu. Til dæmis pössum fyrir komandi söluherferð. Vörurnar tengjast ekki sölupöntun, að minnsta kosti ekki ennþá. Þessar vörur eru yfirleitt ekki sérsniðnar fyrir beiðnir viðskiptamanna.        |
+|Setja saman í pöntun     | Vörur sem ekki á að setja á lager. Til dæmis vegna þess að þær eru sérsniðnar á grundvelli pantana viðskiptamanna eða til að draga úr kostnaði við lagerbirgðir. |
   
-Í þessari grein er lýst stöðluðum stillingum til að setja saman við birgðir. Það gætu verið aðrar leiðir sem henta þínu fyrirtæki. Lærðu meira á að  [selja birgðavörur í saman-til-Pöntunarstreymi](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)  og  [selja samsettar vörur og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Þessi grein lýsir stöðluðum stillingum fyrir samsetningu lagerbirgða. Það gætu verið aðrar leiðir sem henta fyrirtækinu betur. Nánari upplýsingar um [selja birgðir í flæði](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) samsetningar í pöntun og [selja samsetningarvörur og vörur í birgðum saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Frekari upplýsingar á  [afgreiðslunum setja saman við vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+> Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Fræðast meira um [samsetningarvörur í pöntun með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Vara sett saman til Hlutabréfakaup
+## Til að setja vöru saman á lager
 
-Fylgið leiðbeiningum í þessu ferli til að setja vöru á lager. Til að fræðast um að setja saman til að panta er farið í að  [selja vörur saman til að panta](assembly-how-to-sell-items-assembled-to-order.md).
+Fylgja skal skrefunum í þessu ferli til að setja vöru saman í birgðir. Til að fræðast um samsetningu pöntunar er farið í [Selja vörur sem settar eru saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Samsetningarpantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð. Síðan **Ný samsetningarpöntun** opnast.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Í reitnum  **Vörunr.** skal velja þá vöru sem setja á saman. Hægt er að velja vörur sem settar eru upp fyrir samsetningu og hafa samsetningaruppskrift, eða vörur án samsetningaruppskriftar. Hið síðara er gagnlegt fyrir óáætlaðar samsetningar eða aðstæður þegar nota á endurflokkun og rekja kostnað.  
+4. Í reitnum Vörunr **.** er valin varan sem á að setja saman. Hægt er að velja vörur sem eru settar upp fyrir samsetningar og hafa samsetningaruppskrift eða vörur án samsetningaruppskrifta. Hið síðarnefnda er gagnlegt fyrir óáætlaðar samsetningar eða aðstæður þegar nota á endurflokkunar- og rakningarkostnað vöru.  
 5. Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
 
     > [!NOTE]  
-    >  Ef einn eða fleiri þættir eru ekki tiltækir til að uppfylla magn á gjalddaga  **opnast síðan ráðstöfunarsíða**  samsetningar. Síðan sýnir hversu mörg samsetningaratriði er hægt að setja saman út frá þáttframboðum. Lærðu meira á  [Skoða framboð vara](inventory-how-availability-overview.md). Þegar síðunni er lokað er samsetningarröðin stofnuð með ráðstöfunarviðvörunum í línunum fyrir viðkomandi íhluti.  
+    >  Ef einn eða fleiri íhlutir eru ekki tiltækir til að uppfylla magn á skiladegi **opnast síðan Samsetning til ráðstöfunar** . Síðan sýnir hversu margar samsetningarvörur er hægt að setja saman út frá ráðstöfunarmagni íhluta. Nánari upplýsingar um [tiltækar vörur](inventory-how-availability-overview.md) eru skoðaðar. Þegar síðunni er lokað er samsetningarpöntunin stofnuð með til ráðstöfunarviðvaranir í línunum fyrir viðkomandi íhluti.  
 
-    Línurnar innihalda efni samsetningaruppskriftarinnar og tilgreinda magnið.  
+    Í línunum er innihald samsetningaruppskriftarinnar og það magn sem tiltekið er.  
 
     > [!NOTE]  
-    >   **Ef síðan Samsetningarráðstöfunarsíða**  opnast þegar fyllt er í haus samsetningarpöntunar, inniheldur  **hver lína samsetningarlínu er Já**  í reitnum  **gagn. Viðvörunarsvæði**  með hlekk á ítarlegar ráðstöfunarupplýsingar. <!--check whether this field help is useful For more information, see Check Availability.--> Hægt er að leysa úr íhlutandi úthreyfingu með því að:
+    >   **Ef síðan Samsetning til ráðstöfunar** opnast þegar samsetningarpöntunarhausinn var fylltur út er **Já í hverri samsetningarpöntunarlínu sem hefur áhrif á Já** í reitnum **Til ráðstöfunar. Viðvörunarreitur** með tengil á nákvæmar ráðstöfunarupplýsingar. <!--check whether this field help is useful For more information, see Check Availability.--> Hægt er að leysa úthreyfingu á íhlutum til ráðstöfunar með því að:
 
-    > * Upphafsdagsetningin frestað.
-    > * Skipta út íhlut með annarri vöru.
-    > * Val á tiltækan staðgengilsheiti ef hún er skilgreind.  
+    > * Upphafsdagsetningu frestað.
+    > * Skipt um íhlut með annarri vöru.
+    > * Tiltæk staðgengill valinn ef hún er skilgreind.  
 
-6.  **Í svæðinu Magn til að setja saman**  við skal slá inn hversu margar einingar samsetningarvörunnar á að bóka sem úttak næst þegar samsetningarpöntunin er bókuð. Þetta magn getur verið lægra en gildið í svæðinu **Magn** til að spegla hlutafrálagsbókun.  
+6. Í reitinn **Magn til samsetningar** er fært inn hversu margar einingar af samsetningarvörunni á að bóka sem frálag næst þegar samsetningarpöntunin er bókuð. Þetta magn getur verið lægra en gildið í svæðinu **Magn** til að spegla hlutafrálagsbókun.  
 
     > [!NOTE]  
     >  Til að tryggja að bókun íhlutanotkunar passi við frálagsbókun samsetningarvörunnar eru magnreitirnir í samsetningarpöntunarlínunum sjálfkrafa lagaðir að gildinu sem fært er inn í reitinn **Magn til að setja saman**.  
@@ -57,16 +57,16 @@ Fylgið leiðbeiningum í þessu ferli til að setja vöru á lager. Til að fr�
 8. Þegar komið er að því að bóka að hluta eða í heild er valin aðgerðin **Bóka**.  
 
     > [!NOTE]  
-    >  Ef viðvaranir eru enn til staðar í samsetningarpöntunarlínunum er ekki hægt að bóka pöntunina. Boð birtast um íhlut eða íhluti sem ekki eru í birgðum.  
+    >  Ef viðvaranir eru enn til staðar í samsetningarpöntunarlínunum er ekki hægt að bóka pöntunina. Skilaboð sýna íhlutina eða íhlutina sem eru ekki í birgðum.  
 
 Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymslukótans og hugsanlegs hólfakóta sem eru skilgreindir í samsetningarpöntuninni. Fyrir samsetningarpantanir sem voru stofnaðar handvirkt er hægt að afrita staðsetninguna úr uppsetningarreitnum **Sjálfgefin staðsetning fyrir pantanir**. Fyrir sameiningarpöntunarflæði, er hægt að afrita kóta birgðageymslu úr sölupöntunarlínunni.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

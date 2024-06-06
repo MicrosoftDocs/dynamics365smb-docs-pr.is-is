@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="validate-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
+# Staðfesta VSK-skráningarnúmer
 
-Mikilvægt er að VSK-númer sem notandi hefur fyrir viðskiptamenn, lánardrottna og tengiliði séu gild, Ef notað  [!INCLUDE [prod_short](includes/prod_short.md)]  er í landi/svæði sem NOTAR VSK. Til dæmis geta fyrirtæki stundum breytt skattskuldastöðu sinni og í sumum löndum/svæðum gætu skattyfirvöld beðið þig um að gefa skýrslur, svo sem  **EC-Sölulistaskýrsluna**, lista yfir VSK-númer sem þú notar þegar þú átt viðskipti.
+Mikilvægt er að VSK-númerin sem til eru fyrir viðskiptamenn, lánardrottna og tengiliði séu gild ef notað [!INCLUDE [prod_short](includes/prod_short.md)] er í landi/svæði sem notar VSK. Til dæmis gætu fyrirtæki stundum breytt skattskuldarstöðu sinni og í sumum löndum/svæðum gætu skattayfirvöld beðið um að gefa skýrslur, t.d **. ESB-sölulista, á lista yfir** VSK-númerin sem notuð eru í viðskiptum.
 
 Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE [prod_short](includes/prod_short.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer og aðrar fyrirtækjaupplýsingar fyrir viðskiptamenn, lánardrottna og tengiliði. Þjónustan í [!INCLUDE [prod_short](includes/prod_short.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustutengingin er án endurgjalds og viðbótarskráningar er ekki krafist.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Skilgreina þjónustuna til að staðfesta skráningu VSK-númera sjálfkrafa
+## Skilgreina þjónustuna til að staðfesta skráningu VSK-númera sjálfkrafa
 
 Til að virkja **Sannprófa VSK-skráningarnúmer innan ESB** skal opna færsluna á síðunni **Þjónustutenging**. Ef reiturinn **Endastöð þjónustu** er ekki þegar fylltur út skal nota aðgerðina **Stilla sjálfgefna endastöð**. Því næst skal stilla reitinn **Virkjað** og þá er allt klárt.  
 
@@ -38,9 +38,9 @@ Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, 
 > [!IMPORTANT]
 > Það er á þína ábyrgð að kanna hvort gögnin séu gildi. Af og til er gögnum með villum skilað af VIES sannprófunarþjónustu fyrir VSK-númer. Ef sannprófun tekst ekki, skal sannprófa VSK-númerin á [vefsvæðinu](https://ec.europa.eu/taxation_customs/vies/), prenta út niðurstöðuna eða vista hana á samnýtt svæði og síðan bæta tenglinum við færsluna fyrir viðskiptamanninn, lánardrottin eða tengiliðinn. Frekari upplýsingar er að finna í [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md).
 
-## <a name="validation-templates"></a>Sniðmát fyrir villuleit
+## Sniðmát fyrir villuleit
 
-Hægt er að nota VIES-þjónustu til að athuga einnig aðrar upplýsingar um fyrirtæki, á borð við heimilisfang sem og skráningu VSK-númers.  **Á síðunni VSK-reg. nr. Villuleitarsniðmát**, Stofnið færslu fyrir hvert land/svæði sem óskað er að fá nánari villuleit fyrir og Tilgreinið svo upplýsingarnar sem á að villuprófa sjálfvirkt.  
+Hægt er að nota VIES-þjónustu til að athuga einnig aðrar upplýsingar um fyrirtæki, á borð við heimilisfang sem og skráningu VSK-númers. Í reitnum **VSK-fyrirgr.nr. Síðunni Prófunarsniðmát**, stofna færslu fyrir hvert land/svæði sem á að fá frekari staðfestingu á og tilgreina síðan þær upplýsingar sem staðfesta á sjálfkrafa.  
 
 Bætið til dæmis við færslu fyrir Spán þar sem ætlunin er að fá staðfestingu á nafni, götu, borg og póstnúmeri og síðan annarri færslu fyrir Þýskaland þar sem ætlunin er að fá aðeins staðfestingu á póstnúmeri, sem dæmi. Því næst á síðunni **Uppsetning sannprófunarþjónustu fyrir VSK-númer innan ESB** skal tilgreina sjálfgefið sniðmát.  
 
@@ -49,7 +49,7 @@ Bætið til dæmis við færslu fyrir Spán þar sem ætlunin er að fá staðfe
 
 Næst þegar VSK-númer er tilgreint mun þjónustan staðfesta númerið og bæta við frekari gögnum eftir því hvað kemur fram í staðfestingarsniðmátunum. Ef tilgreind gildi eru mismunandi frá gildunum sem þjónustan skilar, koma upplýsingarnar fram á síðunni **Upplýsingar um staðfestingu** þar sem hægt er að samþykkja eða endurstilla gildin.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Setja upp virðisaukaskatt](finance-setup-vat.md)  
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  

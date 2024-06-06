@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar-afgreiðslur skipulagsfulltrúa
-description: Í þessari grein er lýst hugmyndum og meginreglum í framboðseiginleikum framboðs í Viðskiptamiðinu.
+title: Upplýsingar um hönnun - framboðsáætlun
+description: Þessi grein lýsir hugtökum og reglum í framboðsáætlunaraðgerðum í Business Central.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,18 +10,18 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Hönnunarupplýsingar: framboðsáætlun
+# Hönnunarupplýsingar: framboðsáætlun
 
-Í þessum kafla er fjallað ítarlega um tæknilega innsýn í hugmyndafræði og meginreglur í áætlunaraðgerðum framboðins í [!INCLUDE[prod_short](includes/prod_short.md)].  
+Þessi hluti veitir nákvæma tæknilega innsýn í hugtökin og meginreglurnar í framboðsáætluninni í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Greinarnar útskýra hvernig áætlanakerfið virkar:
+Greinarnar útskýra hvernig áætlunarkerfið virkar:
 
-* Hvernig reiknilössunum er breytt til að mæta skipulagskröfum í ólíku umhverfi
-* Kynnist hugmyndafræði miðlægu lausnarlausna
-* Lýsir rökum aðalvélstjóra, sem er framboðsjöfnunarsæti
-* Útskýra hvernig á að nota endurpöntunarstefnur í birgðaáætlanagerð  
+* Hvernig á að stilla reiknireglur til að uppfylla áætlunarþarfir í mismunandi umhverfi
+* Kynnir hugtök miðlægra lausna
+* Lýsir rökfræði miðstýringar, sem er framboðsjöfnun
+* Útskýra hvernig á að nota endurpöntunarstefnu í birgðaáætlun  
 
-## <a name="in-this-section"></a>Í þessum hluta
+## Í þessum hluta  
 
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
@@ -29,7 +29,7 @@ Greinarnar útskýra hvernig áætlanakerfið virkar:
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
-[Hönnunarupplýsingar: áætlun með eða án staðsetningar](production-planning-with-without-locations.md)  
+[Hönnunarupplýsingar: Áætlanir með eða án birgðageymslna](production-planning-with-without-locations.md)  
 [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

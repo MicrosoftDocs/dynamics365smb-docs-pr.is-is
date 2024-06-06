@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna
+# Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna
 
 Í þessari grein er bókunardagsetning fyrir virðisfærslu leiðréttingar borin saman við bókunardagsetningu færslunnar veldur því að runuvinnslan Leiðrétta kostnað - Birgðafærslur er keyrð, sérstakleag í aðstæðum endurmats og kostnaðarauka.
 
 Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** vinnur úr gögnunum þínum eftir því hverjar aðstæðurnar eru og stillingunni á [!INCLUDE[prod_short](includes/prod_short.md)]. Í þessum hluta lýsum við tveimur aðskildum ferlum og fyrir hvorn þeirra sýnum við áhrifin sem runuvinnslan Leiðrétta kostnað - Birgðafærslur hefur á gögnin.
 
-## <a name="revaluation-scenario"></a>Aðstæður endurmats
+## Aðstæður endurmats
 
-### <a name="prerequisites"></a>Frumskilyrði
+### Frumskilyrði  
 
 Sláið inn eftirfarandi gildi:
 
@@ -44,7 +44,7 @@ Sláið inn eftirfarandi gildi:
 
 - Bókun leyfð til = tómt  
 
-### <a name="to-test-the-scenario"></a>Að prófa aðstæðurnar
+### Að prófa aðstæðurnar
 
 Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref.
 
@@ -108,8 +108,8 @@ Eftirfarandi **Birgðahöfuðbók** og **Virðisfærslur** hafa verið bókaðar
 
 |Færslunúmer  |Vörunr.  |Bókunardagsetning  |Birgðafærsla nr.  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  |Magn vörunúmersfærslu  |Kostnaðarupphæð (raunverul.)  |Kostnaður bókaður í fjárhag  |LEIÐRÉTT  |Á við um færslu  |Upprunakóði  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|376     |PRÓFUN|   2020-12-15    |317         |Innkaup         |Beinn kostnaður         |T00001         |100%         |1000,00          |1000,00    |Nr         |0         |ITEMNL         |
-|379     |PRÓFUN   |**15-12-2020**    |317         |Innkaup         |Endurmat         |T04002         |0         |3000,00         |3000,00         |Nr         |0         |REVALINL         |
+|376     |PRÓFUN|   2020-12-15    |317         |Innkaup         |Beinn kostnaður         |T00001         |100%         |1000,00          |1000,00    |Nr.         |0         |ITEMNL         |
+|379     |PRÓFUN   |**15-12-2020**    |317         |Innkaup         |Endurmat         |T04002         |0         |3000,00         |3000,00         |Nr.         |0         |REVALINL         |
 
 **Birgðabókafærsla - neikvæð leiðrétting, skref 3**  
 
@@ -121,7 +121,7 @@ Eftirfarandi **Birgðahöfuðbók** og **Virðisfærslur** hafa verið bókaðar
 
 |Færslunúmer  |Vörunr.  |Bókunardagsetning  |Birgðafærsla nr.  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  |Magn vörunúmersfærslu  |Kostnaðarupphæð (raunverul.)  |Kostnaður bókaður í fjárhag  |LEIÐRÉTT  |Á við um færslu  |Upprunakóði  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|377     |PRÓFUN|   2020-12-20    |318         |Minnkun         |Beinn kostnaður         |T00002         |-2         |-20          |-20    |Nr         |0         |ITEMNL         |
+|377     |PRÓFUN|   2020-12-20    |318         |Minnkun         |Beinn kostnaður         |T00002         |-2         |-20          |-20    |Nr.         |0         |ITEMNL         |
 |380     |PRÓFUN   |**01-01-2021**    |318         |Minnkun         |Beinn kostnaður         |T04002         |0         |-60         |-60         |Já         |377         |INVTADAMT         |
 
 **Birgðabókafærsla - neikvæð leiðrétting, skref 4**  
@@ -134,7 +134,7 @@ Eftirfarandi **Birgðahöfuðbók** og **Virðisfærslur** hafa verið bókaðar
 
 |Færslunúmer  |Vörunr.  |Bókunardagsetning  |Birgðafærsla nr.  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  |Magn vörunúmersfærslu  |Kostnaðarupphæð (raunverul.)  |Kostnaður bókaður í fjárhag  |LEIÐRÉTT  |Á við um færslu  |Upprunakóði  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|378     |PRÓFUN|   2021-01-15    |319         |Minnkun         |Beinn kostnaður         |T00003         |-3         |-30          |-30    |Nr         |0         |ITEMNL         |
+|378     |PRÓFUN|   2021-01-15    |319         |Minnkun         |Beinn kostnaður         |T00003         |-3         |-30          |-30    |Nr.         |0         |ITEMNL         |
 |381     |PRÓFUN   |**01-15-2021**    |319         |Minnkun         |Beinn kostnaður         |T04003         |0         |-90         |-90         |Já         |378         |INVTADAMT         |
 
 Runuvinnslan **Leiðréttur kostnaður - Birgðafærslur** hefur borið kennsl á breytingar á kostnaði og leiðrétti neikvæðu leiðréttingarnar.  
@@ -149,15 +149,15 @@ Leiðréttingin sem gerð var fyrir neikvæðu leiðréttinguna í skrefi 3 veld
 
 Til að ná leiðréttingu í desember á neikvæðu leiðréttingunni í 3. skrefi þarf fjárhagsgrunnurinn, Bókun leyfð frá reit, að tilgreina dagsetningu í desember.  
 
-### <a name="conclusion"></a>Niðurstaða
+### Niðurstaða
 
 Í ljósi reynslunnar sem fengist hefur í þessum aðstæðum, þegar reynt er að finna út hentugustu uppsetninguna fyrir leyfilegt dagsetningabil bókunar fyrir fyrirtæki, er sniðugt að hafa eftirfarandi í huga. Svo lengi sem þú heimilar bókun breytinga á birgðaverðmæti á tímabili, desember í þessu tilviki, ætti uppsetningin sem fyrirtækið notar fyrir dagsetningabil sem er leyfilegt að bóka að vera í takt við þessa ákvörðun. Bókun leyfð frá í fjárhagsgrunni, þar sem fram kemur 1. desember, myndi leyfa að áframsenda endurmatið sem gert var í desember á færslur á útleið, sem verða fyrir áhrifum, á sama tímabilinu.  
 
 Notendahópar sem ekki mega bóka í desember en í janúar, sem fjárhagsgrunnur átti líklega að takmarka í þessum aðstæðum, ætti frekar að staðsetja í notandauppsetningu.  
 
-## <a name="item-charge-scenario"></a>Aðstæður kostnaðarauka
+## Aðstæður kostnaðarauka  
 
-### <a name="prerequisites-1"></a>Frumskilyrði
+### Frumskilyrði  
 
 Sláið inn eftirfarandi gildi:
 
@@ -183,7 +183,7 @@ Sláið inn eftirfarandi gildi:
 
 - Bókun leyfð til = tómt  
 
-### <a name="to-test-the-scenario-1"></a>Að prófa aðstæðurnar
+### Að prófa aðstæðurnar  
 
 Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref:
 
@@ -315,9 +315,9 @@ Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref:
 
 |Færslunr. |Vörunr.  |Bókunardagsetning  |Birgðafærsla nr.  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  | Nr. kostnaðarauka vöru    |  Magn birgðafærslu   |Kostnaðarupphæð (raunverul.)     |Kostnaður bókaður í fjárhag |LEIÐRÉTT |Jafna færslu |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |GJALD   |2020-12-15    |324         |Innkaup         |Beinn kostnaður         |108029         |            |1         |100%    |100%         |Nr         |0         |
-|399      |GJALD   |2021-01-02    |324         |Innkaup         |Beinn kostnaður         |108030         |JBFREIGHT   |0         |3         |3         |Nr         |0         |
-|401      |GJALD   |**30-12-2020**    |324         |Innkaup         |Beinn kostnaður         |108031         |JBFREIGHT   |0         |2         |2         |Nr         |0         |
+|397      |GJALD   |2020-12-15    |324         |Innkaup         |Beinn kostnaður         |108029         |            |1         |100%    |100%         |Nr.         |0         |
+|399      |GJALD   |2021-01-02    |324         |Innkaup         |Beinn kostnaður         |108030         |JBFREIGHT   |0         |3         |3         |Nr.         |0         |
+|401      |GJALD   |**30-12-2020**    |324         |Innkaup         |Beinn kostnaður         |108031         |JBFREIGHT   |0         |2         |2         |Nr.         |0         |
 
 **Staða á sölu birgðafærslu vöru**:  
   
@@ -329,7 +329,7 @@ Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref:
 
 |Færslunr. |Vörunr.  |Bókunardagsetning  |Birgðafærsla nr.  |Birgðafærslutegund  |Tegund færslu  |Nr. fylgiskjals  | Nr. kostnaðarauka vöru    |  Magn birgðafærslu   |Kostnaðarupphæð (raunverul.)     |Kostnaður bókaður í fjárhag |LEIÐRÉTT |Jafna færslu |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |GJALD   |2020-12-16        |325         |Sala         |Beinn kostnaður         |103024         |            |-1         |-100       |-100         |Nr         |0         |
+|398      |GJALD   |2020-12-16        |325         |Sala         |Beinn kostnaður         |103024         |            |-1         |-100       |-100         |Nr.         |0         |
 |400      |GJALD   |2021-01-01        |325         |Sala         |Beinn kostnaður         |103024         |            |0          |-3         |-3         |Já         |398         |
 |402      |GJALD   |**01-01-2021**    |325         |Sala         |Beinn kostnaður         |103024         |            |0          |-2         |-2         |Já         |398         |
 
@@ -345,11 +345,11 @@ Að fjárhagsgrunnurinn skyldi gefa upp Leyfa bókun frá og með 1. janúar var
 
 **Niðurstaða:**  
 
-Það er áskorun að fá skýrslu birgðavirðis til að sýna magn = 0 á meðan gildið <> 0. Í þessu tilfelli er það líka erfiðara að tjá ákjósanlegustu stillingar með því að hafa innkaupareikninga sem koma á sama degi en taka til mismunandi tímabila eða jafnvel reikningsára. Að færast yfir á nýtt reikningsár krefst yfirleitt einhverrar skipulagningar og sem hluti af því þarf að íhuga nánar ferli leiðréttingarkostnaðar - birgðafærslna, gera sér grein fyrir kostnaði seldra vara.  
+Það er áskorun að fá skýrsluna Birgðir - Verðmætamat til að sýna magn = 0 á meðan gildið <> 0. Í þessu tilfelli er það líka erfiðara að tjá ákjósanlegustu stillingar með því að hafa innkaupareikninga sem koma á sama degi en taka til mismunandi tímabila eða jafnvel reikningsára. Að færast yfir á nýtt reikningsár krefst yfirleitt einhverrar skipulagningar og sem hluti af því þarf að íhuga nánar ferli leiðréttingarkostnaðar - birgðafærslna, gera sér grein fyrir kostnaði seldra vara.  
 
 Í þessari atburðarás getur einn möguleiki verið að hafa fjárhagsgrunninn, reitinn Bókun leyfð frá, gefa upp dagsetningu í desember fyrir nokkra daga í viðbót og fresta bókun á fyrsta kostnaðaraukanum svo allir kostnaðir fyrir fyrra tímabil/fjárhagsár verði viðurkenndir fyrir tímabilið sem þeir tilheyra í fyrstu, keyra síðan runuvinnslu Leiðrétts kostnaðar - Birgðafærslna og í kjölfarið færa leyfða bókunardagsetningu yfir á nýtt tímabil\/fjárhagsársins. Fyrsti kostnaðaraukinn með bókunardagsetninguna 2. janúar getur þá verið bókaður.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

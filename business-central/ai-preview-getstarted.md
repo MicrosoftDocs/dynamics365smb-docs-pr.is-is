@@ -1,6 +1,6 @@
 ---
-title: Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
-description: Útskýrir hvernig á að fá Viðskiptamiðað umhverfi með nýja AI getu til að mynda texta tillögur fyrir vöru/vörulýsingar.
+title: Hafist er handa með Business Central forskoðunarútgáfu fyrir Copilot
+description: Útskýrir hvernig á að fá Business Central umhverfi með nýja AI getu til að búa til textatillögur að vöru-/vörulýsingum.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -9,24 +9,24 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Byrjaðu með forskot á Aðalforskoðunarútgáfu fyrir Copilot
+# Hafist er handa með Business Central forskoðunarútgáfu fyrir Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Hægt er að reyna markaðseftirlit með AI-tilbúinni vöru með Copilot hvort sem um er að ræða Aðalviðskiptavin eða hugsanlegan viðskiptavin, þ.e. einhvern sem hefur bara áhuga á að kanna viðskipti miðlægt og reyna út á nýja getu. Til að byrja þarftu að fá aðgang að miðlægu netútgáfu Business sem styður nýja getu. Ljúkið við kaflann hér að neðan sem á við þig.
+Þú getur prófað al-powered markaðssetningartexta með Copilot hvort sem þú ert núverandi Business Central viðskiptavinur eða hugsanlegur viðskiptamaður, það er, einhver sem hefur bara áhuga á að skoða Business Central og reyna nýja getu. Til að byrja þarftu aðgang að Business Central netútgáfu sem styður nýja getu. Fyllið út hlutann fyrir neðan sem á við um þig.
 
-## <a name="your-organization-already-uses-business-central"></a>Fyrirtækið notar nú þegar miðsvæðis í viðskiptum
+## Fyrirtækið þitt notar nú þegar Business Central
 
-Sem viðskiptamaður eða samstarfsaðili þarf admin að fá aðgang að Aðalstjórnun fyrirtækja til að setja upp umhverfi sem keyrir forskoðunarútgáfuna sem felur í sér Copilot. Þegar umhverfið er upp og í gangi geta notendur prófað sig út úr nýju aðgerðinni.
+Sem núverandi viðskiptavinur eða samstarfsaðili þarftu að fá aðgang að stjórnunarmiðstöð Business Central til að setja upp umhverfi sem keyrir forskoðunarútgáfuna sem inniheldur Copilot. Þegar umhverfið er í gangi geta notendur prófað nýja eiginleikann.
 
-Ef þú ert umhverfisstjórnun skaltu ljúka eftirfarandi skrefum:
+Ef þú ert umhverfisstjórnun skal ljúka eftirfarandi skrefum:
 
-1. Skráðu þig inn á Aðalmóttökustöð Viðskiptaráðs.
-2. Velja  **umhverfi** > **nýtt**.
-3.  **Í svæðinu stofna umhverfissvæði**  skal tilgreina heiti fyrir nýtt umhverfi í  **reitnum Heiti**  umhverfis.
-4. Stilla  **gerð**  umhverfis á  **sandkassa**  eða  **framleiðslu**.
-5. Stilla land  **á hvaða land/svæði sem er á listanum en hafa skal í huga að í forskoðuninni er aðeins hægt að setja**  upp markaðstexta frá Copilot á ensku.
-6.  **Í reitnum útgáfa**  er valið útgáfa 22 eða nýrri af listanum.
+1. Skráðu þig inn í stjórnunarmiðstöð Business Central.
+2. Valið **er Umhverfi nýtt** > **·**.
+3. Á svæðinu **Stofna umhverfi** er tilgreint heiti fyrir nýja umhverfið í reitnum **Heiti** umhverfis.
+4. Stilla **tegund** umhverfis á **Sandkassi** eða **Framleiðsla**.
+5. Stilla **land** á hvaða land/svæði sem er á listanum en hafa ber í huga að í forskoðuninni er AI-mynda markaðssetningartextinn frá Copilot aðeins á ensku.
+6. Í reitnum **Útgáfa er valin útgáfa** 22 eða nýrri af listanum.
 
    <!--
    > [!IMPORTANT]
@@ -34,30 +34,30 @@ Ef þú ert umhverfisstjórnun skaltu ljúka eftirfarandi skrefum:
    -->
 7. Velja **Stofna**.  
 
-Fyrir frekari upplýsingar um hvernig á að búa til umhverfi skal fara að búa til  [umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Nánari upplýsingar um hvernig á að stofna umhverfi eru í [Stofna umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Ef þú hefur forskoða sandkassa sem keyra á  **22.0.54157.54311 (Preview-Copilot Edition)**, skaltu hafa í huga að þetta umhverfi er aðeins aðgengilegt til og með til 01 Maí 2023. Eftir þessa dagsetningu þarftu að ráðstafa nýju umhverfi eða uppfæra eitthvað af öðru umhverfi þínu í útgáfu 22,0 eða seinna til að halda áfram að reyna forskoðun á markaðstexta AI-vara.
+> Ef þú ert með forskoðunarsandkassa sem keyra á **22.0.54157.54311 (Forskoðun - Copilot útgáfa)**, hafðu í huga að þessi umhverfi eru aðeins tiltæk til 01. maí 2023. Eftir þessa dagsetningu þarftu að ráðstafa nýju umhverfi eða uppfæra eitthvað af öðru umhverfi þínu í útgáfu 22.0 eða nýrri til að halda áfram að reyna forskoðun á markaðssetningartexta AI-knúinna vöru.
 
-## <a name="your-organization-doesnt-use-business-central"></a>Fyrirtækið notar ekki miðlægu viðskipta-
+## Fyrirtækið þitt notar ekki Business Central
 
-Ef þú ert ekki Aðalviðskiptavinur Viðskiptamiðanna skráir þú þig í ókeypis prufutíma til að prófa nýja legu getu. Skráning í próftíma er einföld. Þú munt leiðbeina í gegnum fáein skref þar sem þú munt þurfa að afla einhverra upplýsinga, eins og netfangið þitt, símanúmer og nafn. Til að fá réttarhöldin skal ljúka eftirfarandi skrefum:
+Ef þú ert ekki Business Central viðskiptavinur skaltu skrá þig fyrir ókeypis prufu til að prófa nýja AI getu. Einfalt er að skrá sig í réttarhöldin. Þú munt hafa leiðsögn í nokkrum skrefum þar sem þú þarft að veita nokkrar upplýsingar, eins og netfangið þitt, símanúmer og nafn. Til að fá réttarhöldin skal ljúka eftirfarandi skrefum:
 
-1. Fara á  [þennan prufuvef](https://go.microsoft.com/fwlink/?linkid=2227167)  til að byrja á undirskriftarferlinu.
-2. Fylgið leiðbeiningunum á skjánum.
+1. Farðu á [þessa prufusíðu](https://go.microsoft.com/fwlink/?linkid=2227167) til að byrja með skráningarferlið.
+2. Leiðbeiningunum á skjánum er fylgt.
 
-   Þú ert beðinn um að gefa upplýsingar eins og netfang þitt, nafn og símanúmer. Nákvæm reynsla getur verið breytileg eftir því hvaða upplýsingar eru gefnar. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Netfang þitt er notað í vinnu-eða skólnetfanginu þínu. Við munum koma á framfæri prufu þinni á reikningi fyrirtækisins. Ekki má nota netföng sem neytandi póstþjónusta eða fjarskiptaveitur veita, svo sem outlook.com, hotmail.com, gmail.com, og aðrir.
+   Þú ert beðin(n) um að veita upplýsingar eins og netfang, nafn og símanúmer. Nákvæm upplifun getur verið mismunandi eftir upplýsingunum sem notandi veitir. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Notaðu vinnu- eða skólapóstfangið þitt fyrir netfangið þitt. Viđ stofnum réttarhöldin á reikningi fyrirtækisins. Þú getur ekki notað netföng sem veitt eru af neytendum með tölvupóstþjónustu eða fjarskiptaþjónustu, svo sem outlook.com, hotmail.com, gmail.com, og öðrum.
    
    <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
       > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
-3.  **Þegar farið er inn á skref staðfestingarteymisins**  Ertu tilbúinn að hefja réttarhöldin.
+3. Þegar þú ferð í **upplýsingaskref staðfestingar** er þú tilbúinn að hefja réttarhöldin.
 
-   - Til að fara beint í Business Central velurðu  **sleppa & fara í  Dynamics 365 Business Central** > **gang**.
-   - Þú hefur einnig möguleika á að bjóða öðrum í fyrirtækinu upp á fría prufu líka. Bara slá inn, netföng hvers einstaklings, velja  **síðan senda fundarboð**. Valið  **er byrja**  til að fara í aðalviðskipti.  
+   - Til að fara beint í Business Central skal velja **Sleppa & fara til Að Dynamics 365 Business Central** > **byrja**.
+   - Þú hefur einnig kost á að bjóða öðrum í fyrirtæki þínu til ókeypis prufu einnig. Sláðu bara inn, netföng hvers einstaklings og veldu **svo Senda fundarboð**. Veljið **Hafist handa** við að fara í Business Central.  
 
-   Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/). Það getur tekið nokkrar mínútur að fá prufann tilbúna fyrst þegar þú skráir þig inn.
+   Farið verður með þig í prufuútgáfuna á [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/). Það getur tekið nokkrar mínútur að fá prufutímann tilbúna í fyrsta skipti sem þú skráir þig inn.
 
 <!--
 1. On the **Let's get you started** step, enter your work or school email address, then select **Next**.
@@ -86,31 +86,31 @@ Ef þú ert ekki Aðalviðskiptavinur Viðskiptamiðanna skráir þú þig í ó
    10. When you get a prompt that your account is successfully created, select **Sign in**.
 -->
 
-4. Þegar þú ert skráð (ur) inn Sérðu heimasíðu Viðskiptaráðs, sem nefnist hlutverkamiðstöðin, sem lítur svipað út og eftirfarandi mynd:
+4. Þegar þú hefur verið skráð(ur) inn sérðu heimasíðu Business Central sem nefnist mitt hlutverk, sem lítur svipað út og eftirfarandi mynd:
 
-   [![Sýnir miðstöð Viðskiptamiðstöðvarinnar og gátlista fyrir Copilot](media/copilot-checklist.png)](media/copilot-checklist.png#lightbox)
+   [![Sýnir mitt hlutverk Business Central og gátlistann fyrir Copilot](media/copilot-checklist.png)](media/copilot-checklist.png#lightbox)
 
-5. Til að fá leiðsögn Kynning á því að búa til markaðseftirlit með AI-knúin með Copilot, undir  **gátlista**  þinni nálægt efst á síðunni, velurðu  **Stofna með copilot** > **byrja Tour**. Fylgdu síðan leiðbeiningunum á skjánum.
+5. Til að fá kynningu með leiðsögn um að búa til AI-powered markaðssetningartexta með Copilot, undir **Gátlistinn þinn næst efst** á síðunni, veldu **Create with Copilot** > **Start tour**. Leiðbeiningunum er síðan fylgt.
 
    > [!TIP]
-   > Ef þú sérð  **ekki gátlistann** skaltu velja  **hnappinn Sýna sýniaferðir** .
+   > Ef þú sérð **ekki Gátlistann** þinn skaltu velja hnappinn **Sýna kynningarferðir** fyrst.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
-Nota verður Copilot sem gefið er upp áður en þú eða aðrir geti notað Copilot. Til að virkja AI getu verður kerfisstjóri að hafa samþykki fyrir skilmálum og skilyrðum  [Forskoðun](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)  og  [Microsoft persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839)  fyrir hönd fyrirtækisins.
+Eiginleikar Copilot bjóða upp á verða að vera virkir áður en þú eða einhver annar getur notað Copilot. Til að gera ÓB-möguleikana virka þarf stjórnandi að hafa samþykki á skilmálum og skilyrðum forskoðunarinnar [og](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) [yfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft um persónuvernd fyrir hönd fyrirtækisins.
 
 > [!NOTE]
-> Ef þú ert að nota prufu þá ertu Stjórnandinn. Ef þú hefur boðið öðrum í fyrirtækinu þínu að prufa meðan undirritað er, þá fær fólk ekki að nota Copilot fyrr en þú samþykkir skilmálana.
+> Ef þú notar réttarhöld þá ert þú stjórnandinn. Ef þú hefur boðið öðrum í samtökunum að réttarhöldin við skráningu munu þeir ekki geta notað Copilot fyrr en þú samþykkir skilmálana.
 
-Tvær leiðir eru til samþykkis sem admin:
+Tvær leiðir eru til að samþykkja sem stjórnandi:
 
-- Auðveldasta leiðin er að nota Copilot. Í fyrsta sinn sem þú notar Copilot sem admin, þú ert beðinn um að endurskoða skilmálana og skilyrðin, Vertu þá sammála eða ósammála. Til að læra hvernig nota á Copilot er farið í að  [Bæta markaðstexta á vörur](item-marketing-text.md).  
+- Auðveldast er að nota Copilot. Í fyrsta skipti sem Copilot er notað sem stjórnandi er beðið um að fara yfir skilmálana og skilyrðin, eru síðan sammála eða ósammála. Til að læra hvernig á að nota Copilot er farið í [Bæta markaðstexta við vörur](item-marketing-text.md).  
 
-- Hin leiðin er að nota  **stöðusíðu Persónuverndartilkynninga í Viðskiptamiðstöðar**  -og samþykkja að  **Azure openai**  Samþættingin sé fyrir alla notendur. Til að fá frekari upplýsingar er farið í  [samþykki á skilmálum og skilyrðum](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
+- Hin leiðin er að nota síðuna **Staða** persónuverndartilkynninga í Business Central og samþykkja **Azure OpenAI** samþættingu allra notenda. Til að fræðast meira er farið í [Samþykki samkvæmt skilmálum og skilyrðum](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Yfirlit um markaðssetningu á AI-knúinn vöru með Copilot](ai-overview.md)  
-[Skilgreina markaðstexta með AI-knúinn vöru með Copilot sem admin](enable-ai.md)  
-[Stofna markaðstexta fyrir vörur með Copilot](item-marketing-text.md)  
-[FAQ markaðstexta vöru (Forskoðun) með hjálp Copilot](ai-faq.md)  
+[Yfirlit yfir AI-powered markaðssetningartexta vöru með Copilot](ai-overview.md)  
+[Grunnstilla AI-knúinn markaðssetningartexta vöru með Copilot sem admin](enable-ai.md)  
+[Búa til markaðssetningartexta fyrir vörur með Copilot](item-marketing-text.md)  
+[AI-knúinn markaðssetningartexti vöru (forskoðun) með eignaútgáfu copilot](ai-faq.md)  

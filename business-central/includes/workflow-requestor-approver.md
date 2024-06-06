@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Þegar notendur eru settir upp fyrir samþykktarverkflæði er mikilvægt að sami notandi sé ekki bæði meðumsækjendur eða samþykkjandi í notendaflokki verkflæðis. Þegar notandi er bæði meðverkandi og samþykkjandi, vinnur samþykki fyrir þá sem hér segir:
+Þegar notendur eru settir upp fyrir samþykktarverkflæði er mikilvægt að sami notandi sé ekki bæði beiðni og samþykkjandi í notendaflokki verkflæðis. Þegar notandi er bæði beiðandi og samþykkjandi vinna samþykktir fyrir hann eins og hér segir:
 
-* Beiðnir þeirra eru alltaf samþykktar sjálfkrafa.
-* Ef margar samþykkjendur eru til staðar geta aðeins samþykkjendur með hærra raðnúmer í flokknum verkflæði breytt stöðu beiðni sem samþykkt. Samþykkjendur með lægra raðnúmer geta samþykkt beiðnir, samþykki hans hefur hins vegar ekki áhrif á stöðu beiðninnar.
+* Beiðnir þeirra eru alltaf samþykktar sjálfvirkt.
+* Ef margir samþykkjendur eru til staðar geta aðeins samþykkjendur með hærra raðnúmer í notendaflokki verkflæðis breytt stöðu beiðni í Samþykkt. Samþykkjendur með lægra raðnúmer geta samþykkt beiðnir en samþykktir þeirra hafa ekki áhrif á stöðu beiðni.

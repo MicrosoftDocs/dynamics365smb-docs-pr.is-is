@@ -11,4 +11,4 @@ ms.service: dynamics-365-business-central
 |**Samskipti**|Færðu inn grunnupplýsingar um tengiliði fyrirtækisins, t.d. símanúmer og netfang.|  
 |**Greiðslur**| Fylltu út viðeigandi bankaupplýsingar til að tryggja að viðskiptamenn þínir geti greitt þér.|  
 |**Sending**|Fylltu út viðeigandi sendingarupplýsingar svo þú getir sent og tekið á móti vörum frá og til fyrirtækisins.|  
-|**Skattur**|Eftir því hvaða land/svæði fyrirtækið er skráð í gæti það séð Skattfastflipa. Ef hann er í boði skal fylla út reitina.|  
+|**Skattur**|Eftir því hvaða landi/svæði viðskiptin eru skráð í er hægt að skoða flýtiflipann SKATTur. Ef hann er í boði skal fylla út reitina.|  

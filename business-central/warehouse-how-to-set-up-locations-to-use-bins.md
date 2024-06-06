@@ -10,52 +10,52 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Setja upp birgðageymslur til að þær noti hólf
+# Setja upp birgðageymslur til að þær noti hólf
 
-Hólar standa fyrir grunnvöruhúsaleiðunum og eru þær notaðar til að leggja til hvar á að setja vörur. Þegar búið er að stofna hólfin eru þau skilgreind sem efni þeirra eða þeim þjónað sem fljótandi hólf án tiltekins innihalds.
+Hólf tákna grunnvöruhúsasamsetninguna og þau eru notuð til að leggja til hvar setja eigi vörur. Þegar hólfin hafa verið stofnuð skilgreinast innihald þeirra eða láta þau þjóna sem fljótandi hólf án tiltekins innihalds.
 
-Ef nota á hólfaðgerðina í birgðageymslu er kveikt á  **hólfi sem er skylda**  á  **birgðageymsluspjaldinu** . Þegar búið er að kveikja á víxl er svæði fyrir  **hólfakóta**  og  **svæðiskóða**  tiltækt á eftirfarandi skjölum:
+Til að nota hólfaaðgerðina í birgðageymslu er kveikt á hólfinu **áskilin** vífæri á **birgðageymsluspjaldinu** . Þegar kveikt hefur verið á VÍV eru reitirnir **Hólfkóti** og **Svæðiskóti** tiltækir á eftirfarandi skjölum:
 
-* Móttökuhaus vöruhúss
-* Móttökulínur vöruhúss
-* Vöruhúsafrágangslínur
-* Haus vöruhúsaafhendingar
-* Afhendingarlínur vöruhúss
-* Vöruhúsafrágangslínur
+* Vöruhúsamóttökuhaus
+* Vöruhúsamóttökulínur
+* Frágangslínur vöruhúss
+* Vöruhúsaafhendingarhaus
+* Vöruhúsaafhendingarlínur
+* Frágangslínur vöruhúss
 
-Næsta skref er að hanna vöruflæðið á staðnum með því að tilgreina hólfakóta í uppsetningarsvæðum sem tákna mismunandi flæði.  
+Næsta skref er að hanna vöruflæðið í birgðageymslunni með því að tilgreina hólfakóta í uppsetningarreitum sem tákna mismunandi flæði.  
 
 > [!NOTE]  
 > Stofna verður hólfakóta áður en hægt er að tilgreina þá fyrir birgðageymsluna. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Til að setja upp birgðageymslur til að þær noti hólf
+## Til að setja upp birgðageymslur til að þær noti hólf
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2. Veljið birgðageymsluna þar sem á að nota hólf.  
 3. Veldu aðgerðina **Breyta**.  
-4.  **Á flipanum Vöruhús**  er gátreiturinn Hólfáskilinn  **valinn** .  
-5. Ef ekki er notaður beinn frágangur og tínsla í birgðageymslunni er valin aðferðin  **sem nota á til að úthluta sjálfgefnu hólfi á vöru, í**  reitnum sjálfgefið val [!INCLUDE [prod_short](includes/prod_short.md)] .  
+4. Á flýtiflipanum **Vöruhús** er gátreiturinn Hólf áskilið **valinn**.  
+5. Ef ekki er notaður beinn frágangur og tínsla er valin aðferðin sem **nota á til að úthluta vöru sjálfgefnu hólfi í** reitnum Sjálfgefið hólfaval [!INCLUDE [prod_short](includes/prod_short.md)] .  
 6. Opna spjaldið fyrir birgðageymsluna sem setja á upp hólf fyrir.
-7.  **Á flipanum hólf**  eru hólfin valin sem nota á sem sjálfgildi fyrir kvittanir, afhendingar, inn-, út-og opin vinnugólfhólf.  
+7. Á flýtiflipanum **Hólf** eru valin hólf sem á að nota sem sjálfgildi fyrir móttökur, afhendingar, á innleið, útleið og opin vinnusalarhólf.  
 
-    Hólfakóðar sem tilgreindir eru birtast sjálfkrafa á hausum og í línum ýmissa vöruhúsaskjala. Sjálfgefnu hólfin skilgreina allar upphafs- og lokastaðsetningar vara í vöruhúsinu.  
-8. Ef notaður er beinn frágangur og tínsla er hólf fyrir vöruhúsaleiðréttingar valið. Hólfakótinn í  **reitnum kóti**  leiðréttingarhólfs skilgreinir sýndarhólfið þar sem skrá á misræmi í birgðum:
+    Hólfakótarnir sem eru tilgreindir birtast sjálfkrafa á hausum og línum ýmissa vöruhúsaskjala. Sjálfgefnu hólfin skilgreina allar upphafs- og lokastaðsetningar vara í vöruhúsinu.  
+8. Ef notaður er beinn frágangur og tínsla skal velja hólf fyrir vöruhúsaleiðréttingar. Hólfakótinn í reitnum **Kóti** leiðréttingarhólfs skilgreinir sýndarhólfið sem skrá á misræmi í birgðum:
 
-    * Þegar mismunur er skráður í birgðabókarbók vöruhúss
-    * Mismunur reiknaður þegar efnislegar birgðir vöruhúss eru skráðar  
-9. Valfrjálst: Reitirnir á flipanum hólfstefna  **eru**  fylltir út. Mikilvægustu reitirnir eru **Hólfageturegla**, **Leyfa einingaskipti** og **Kóti frágangssniðmáts**.  
-10. Á flýtiflipanum **Vöruhús** skal fylla út reitina **Afgr.tími vara á útl. úr vöruh.**, **Afgr.tími vara á innl. úr vöruh.** og **Kóti grunndagatals**. Til að fá frekari upplýsingar er farið í að  [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md).
+    * Þegar mismunur kemur upp sem skráður er í birgðabók vöruhúss
+    * Mismunur reiknaður þegar raunbirgðir vöruhúss eru skráðar  
+9. Valfrjálst: Fyllt er í reitina á flýtiflipanum **Hólfareglur** . Mikilvægustu reitirnir eru **Hólfageturegla**, **Leyfa einingaskipti** og **Kóti frágangssniðmáts**.  
+10. Á flýtiflipanum **Vöruhús** skal fylla út reitina **Afgr.tími vara á útl. úr vöruh.**, **Afgr.tími vara á innl. úr vöruh.** og **Kóti grunndagatals**. Nánari upplýsingar eru í [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Reiturinn notkunarhólf er fylltur út
+## Notkunarhólfið fyllt út
 
-Eftirfarandi Flæðirit sýnir hvernig  **reiturinn Kóti hólfakóta**  í framleiðslupöntunaríhlutalínum er fylltur út eftir uppsetningu birgðageymslunnar.
+Eftirfarandi flæðirit sýnir hvernig **reiturinn Hólfkóti** í íhlutalínum framleiðslupöntunar er fylltur út samkvæmt uppsetningu birgðageymslu.
 
-:::image type="content" source="media/binflow.png" alt-text="Reiturinn Kóti hólfs í framleiðslupöntunaríhlutalínum.":::
+:::image type="content" source="media/binflow.png" alt-text="Reiturinn Hólfkóti í framleiðslupöntunaríhlutalínum.":::
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
+[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+[Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

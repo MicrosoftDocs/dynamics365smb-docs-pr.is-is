@@ -1,5 +1,5 @@
 ---
 ms.service: dynamics-365-business-central
 ---
-- Skráin er dregin af skrárexplorer í tækinu í svargluggann.
--  **Veldu smella hér til að fletta**  í tengli, finna skrána og velja  **síðan opna**  hnappinn.
+- Dragðu skrána úr skráavafranum í tækinu yfir í svargluggann.
+-  **Smellt er hér til að fletta í** tengil, finna skrána og velja svo hnappinn **Opna** .

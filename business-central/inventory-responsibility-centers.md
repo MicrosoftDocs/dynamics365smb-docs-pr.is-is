@@ -10,32 +10,32 @@ ms.date: 03/09/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
+# Vinna með ábyrgðarstöðvar
 
-Ábyrgðarstöðvar bjóða upp á eiginleika sem felst í umsjón með stjórnunarmiðstöðvum. Ábyrgðarstöð getur verið kostnaðarstöð, framlegðarstöð, fjárfestingarstöð eða önnur stöð skilgreind út frá stjórnsýslu fyrirtækisins. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Til dæmis geta fyrirtæki sett upp skoðanir sem Notendavæn er í sölu-og innkaupaskjölum sem tengjast tiltekinni Ábyrgðarstöð.  
+Ábyrgðarstöðvar bjóða upp á eiginleika sem felst í umsjón með stjórnunarmiðstöðvum. Ábyrgðarstöð getur verið kostnaðarstöð, framlegðarstöð, fjárfestingarstöð eða önnur stöð skilgreind út frá stjórnsýslu fyrirtækisins. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Til dæmis geta fyrirtæki sett upp notendasértæk yfirlit yfir sölu- og innkaupaskjöl sem tengjast tiltekinni ábyrgðarstöð.  
 
-Notkun margra birgðageymslna ásamt ábyrgðarstöðum veitir möguleika á að stýra rekstri fyrirtækja á sveigjanlegan og bestan hátt.
+Með því að nota margar birgðageymslur ásamt ábyrgðarstöðvum er hægt að stjórna viðskiptaaðgerðum á sveigjanlegan og bestan hátt.
 
-Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á mörgum stöðum í einum gagnagrunni. Tvö hugtök – birgðageymslur og birgðahaldseiningar – eru hornsteinar þessarar eindar. Birgðageymsla er skilgreind sem staður sem sér um raunstaðsetningu og magn vöru. Hugtakið er nægilega vítt til að taka til staðsetninga eins og verksmiðja eða framleiðslustaða sem og dreifingastöðva, vöruhúsa, sýningasala og þjónustubifreiða. Birgðahaldseining er skilgreind sem vara á tilteknum stað og/eða sem afbrigði. Með birgðahaldseiningum geta fyrirtæki á mörgum stöðum bætt við áfyllingarupplýsingum, aðsetri og einhverjum upplýsingum um fjárhagslegar bókanir á staðsetningarstiginu. Þar af leiðandi geta þær til dæmis samafbrigða sömu vöru á hverjum stað og pöntunarvörur á grundvelli áfyllingarupplýsinga sem eiga við um birgðageymsluna.  
+Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á mörgum stöðum í einum gagnagrunni. Tvö hugtök – birgðageymslur og birgðahaldseiningar – eru hornsteinar þessarar eindar. Birgðageymsla er skilgreind sem staður sem sér um raunstaðsetningu og magn vöru. Hugtakið er nægilega vítt til að taka til staðsetninga eins og verksmiðja eða framleiðslustaða sem og dreifingastöðva, vöruhúsa, sýningasala og þjónustubifreiða. Birgðahaldseining er skilgreind sem vara á tilteknum stað og/eða sem afbrigði. Með því að nota birgðahaldseiningar geta fyrirtæki með margar birgðageymslur bætt við áfyllingarupplýsingum, aðsetrum og upplýsingum um fjárhagslegar bókanir á birgðageymslustiginu. Þar af leiðandi geta þau útfyllt afbrigði sömu vöru fyrir hverja birgðageymslu og pantað vörur á grundvelli birgðageymslutengdra áfyllingarupplýsinga.  
 
-## <a name="to-set-up-a-responsibility-center"></a>Uppsetning ábyrgðarstöðva
+## Uppsetning ábyrgðarstöðva
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Ábyrgðarstöðvar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Ef ábyrgðarstöðvar eru notaðar til að stjórna fyrirtækinu getur verið gagnlegt að hafa sjálfgefna Ábyrgðarstöð.
+    Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gagnlegt að hafa sjálfgefna ábyrgðarstöð.
 4. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 5. Í **Ábyrgðastöð** reitnum er kóði ábyrgðarstöðvar færður inn.
 
-Kótinn er notaður í öllum innkaupa-, sölu-eða þjónustuskjölum ef notandi, Viðskiptamaður eða lánardrottinn hefur enga sjálfgefna Ábyrgðarstöð. Í sölu-, innkaupa-eða þjónustuskjölum er hægt að færa inn aðra ábyrgðarstöð en sjálfgefna.
+Þessi kóti er notaður fyrir öll innkaupa-, sölu- eða þjónustuskjöl ef notandi, viðskiptamaður eða lánardrottinn hefur enga sjálfgefna ábyrgðarstöð. Á sölu-, innkaupa- eða þjónustuskjölum er hægt að færa inn aðra ábyrgðarstöð en sjálfgildið.
 
 > [!NOTE]  
 > Þegar ábyrgðarstöðvarkóti er settur á fylgiskjal hefur það áhrif á aðsetur, víddir og verð á fylgiskjalinu.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Að úthluta ábyrgðarstöðvum til notenda:
+## Að úthluta ábyrgðarstöðvum til notenda:
 
-Hægt er að setja upp notendur þannig að það  [!INCLUDE [prod_short](includes/prod_short.md)]  sækir aðeins skjöl sem tengjast tilteknu vinnusvæðum þeirra. Notendur eru venjulega tengdir einni ábyrgðarstöð og vinna aðeins með skjöl sem tengjast sértækum kerfishlutum í þeirri tilteknu ábyrgðarstöð.  
+Hægt er að setja upp notendur þannig að [!INCLUDE [prod_short](includes/prod_short.md)] þeir sæki aðeins skjöl sem eiga við tiltekin vinnusvæði þeirra. Notendur eru venjulega tengdir einni ábyrgðarstöð og vinna aðeins með skjöl sem tengjast sértækum kerfishlutum í þeirri tilteknu ábyrgðarstöð.  
 
 Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þremur grunnsvæðum: Innkaup, sala og þjónustustjórnun.  
 
@@ -48,13 +48,13 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 > [!NOTE]  
 > Notendur geta aðeins skoðað þessi bókuðu skjöl sem tengjast ábyrgðarstöð þeirra. Hins vegar er hægt að skoða allar fjárhagsfærslur og fletta að öðrum bókuðum skjölum úr fjárhagsfærslunum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

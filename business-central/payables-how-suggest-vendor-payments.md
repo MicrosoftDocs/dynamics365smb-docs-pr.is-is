@@ -1,6 +1,6 @@
 ---
 title: Greiðslutillögur til lánardr.
-description: Notaðu runuvinnuna Stinga upp á greiðslur lánardrottna til að búa til greiðslulínur fyrir lánardrottna þína á grundvelli gjalddaga og greiðsluafsláttar.
+description: 'Keyrslan Greiðslutillögur til lánardr. er notuð til að stofna greiðslulínur fyrir lánardrottna, byggt á gjalddögum og greiðsluafslætti.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
@@ -11,47 +11,47 @@ ms.date: 12/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
+# Greiðslutillögur til lánardr.
 
-Á síðunni **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Byggt á stillingum þínum, [!INCLUDE [prod_short](includes/prod_short.md)] leggur til línur fyrir:
+Á síðunni **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Á grundvelli stillinganna eru [!INCLUDE [prod_short](includes/prod_short.md)]  tillögur um línur fyrir:
 
-- Greiðslur sem eru á gjalddaga fljótlega.
-- Greiðslur þar sem greiðsluafsláttur er í boði.
+- Greiðslur sem eru í gjalddaga fljótlega.
+- Greiðslur þar sem greiðsluafsláttur er tiltækur.
 
-Til að njóta góðs af greiðslutillögum verður þú að forgangsraða söluaðilum þínum. Til að læra meira um að forgangsraða söluaðilum skaltu fara í [Forgangsraða söluaðilum](purchasing-how-prioritize-vendors.md).  
+Til að njóta góðs af greiðslutillögum þarf að forgangsraða lánardrottnum. Frekari upplýsingar um forgangsröðun lánardrottna er farið í [Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md).  
 
 > [!NOTE]  
-> Runuvinnan útilokar færslur lánardrottinsbókhalds sem eru **í bið** eða sem eru þegar notaðar og hafa gildi í **Á við auðkenni** reitur.  
+> Keyrslan undanskilur lánardrottnafærslur sem eru **í bið** eða sem þegar hafa verið jafnaðar og hafa gildi í reitnum **Kenni** jöfnunar.  
 
 > [!IMPORTANT]  
 > Ef nýta á greiðsluafslátt og tiltæk upphæð hefur verið færð inn, verður upphæðin notuð fyrir:  
 >
-> * Forgangsraðar gjaldfallnar lánardrottnafærslur fyrst, í forgangsröð.
-> * Tímasettar færslur lánardrottins sem eru ekki settar í forgang.  
-> * Opna lánardrottnafærslur sem uppfylla skilyrði fyrir greiðsluafslætti. Færslunum er raðað eftir númeri lánardrottins.  
+> * Forgangsraðað gjaldfallnar lánardrottnafærslur fyrst í forgangsröð.
+> * Gjaldfallnar lánardrottnafærslur sem ekki hefur verið forgangsraðað.  
+> * Opna lánardrottnafærslur sem eru gjaldföllnar fyrir greiðsluafslátt. Færslunum er raðað eftir númeri lánardrottins.  
 
-## <a name="use-the-suggest-vendor-payments-action"></a>Notaðu aðgerðina Stinga upp á greiðslum lánardrottna
+## Nota aðgerðina Greiðslutillögur til lánardr.
 
-1. Veldu ![peruna sem opnar Segðu mér eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, sláðu inn **Greiðsludagbækur** og veldu síðan tengda hlekkinn.  
-2. Opnaðu færslubókina og veldu síðan aðgerðina **Stinga upp á greiðslum lánardrottins** .  
+1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **greiðslubækur** og velja síðan viðeigandi tengil.  
+2. Færslubókin er opnuð og aðgerðin **Greiðslutillögur til lánardr** . valinn.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Veldu  **OK** hnappinn.  
+4. Hnappurinn Í lagi **er** valinn.  
 
-## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Settu gjalddaga inn sem bókunardagsetningu á greiðslubókarlínum
+## Gjalddaginn er settur inn sem bókunardagsetning í greiðslubókarlínum
 
-Þegar þú notar lotuvinnuna **Stinga upp á greiðslum lánardrottna**  til að búa til greiðslulínur fyrir lánardrottna þína, geturðu fyllt út tvo sérstaka reiti til að tryggja að útbúnar línur noti gjalddaga til að reikna út færsludagur. Þessir reitir eru **Reikna Bókunardagsetning úr Gjalddaga jöfnunar** og **frávik gjalddaga jöfnunar**.  
+Þegar keyrslan Greiðslutillögur **til lánardr. er notuð** til að stofna greiðslulínur fyrir lánardrottna er hægt að fylla út tvo sérstaka reiti til að tryggja að myndaðar línur noti gjalddagann til að reikna bókunardagsetninguna. Þessir reitir eru **Reikna Bókunardagsetning úr Gjalddaga jöfnunar** og **frávik gjalddaga jöfnunar**.  
 
 > [!IMPORTANT]  
-> Þú getur ekki notað reitinn **Reiknið út bókunardagsetningu frá gjalddaga gilda fyrir skjöl** ásamt  **Finndu greiðsluafslátt** reiturinn eða **Samantekt á söluaðila** reitinn. Ef bókunardagsetningin er byggð á gjalddaga gætu sumir greiðsluafsláttir ekki reiknast rétt vegna þess að bókunardagsetningin er eftir greiðsluafsláttinn.  
+> Ekki er hægt að nota reitinn **Reikna bókunardagsetningu úr Jöfnunargjalddagi** ásamt reitunum **Finna greiðsluafslætti** eða í reitnum **Leggja saman eftir lánardrottni** . Ef bókunardagsetningin er byggð á gjalddaga er hugsanlegt að einhver greiðsluafsláttur reikni ekki rétt þar sem bókunardagsetningin er eftir dagsetningu greiðsluafsláttarins.  
 
-Einnig, ef útreiknuð bókunardagsetning er í fortíðinni, þá er bókunardagsetningin færð upp á vinnudagsetningu og viðvörun birtist.  
+Ef reiknað bókunardagsetning er einnig liðin er bókunardagsetningin færð upp á vinnudagsetninguna og viðvörun birtist.  
 
-Þú getur líka búið til greiðslulínur handvirkt með því að nota gjalddaga til að reikna út bókunardagsetningu. Þegar lánardrottnafærslur hafa verið jafnaðar er hægt að nota **Reikna út bókunardagsetningu** til að uppfæra bókunardagsetningu á færslubókarlínunni með gjalddaga tengds innkaupareiknings. Til að læra meira um þetta handvirka ferli, farðu í [Beita innkaupafærslum handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+Einnig er hægt að stofna greiðslulínur handvirkt með því að nota gjalddagann til að reikna bókunardagsetninguna. Þegar lánardrottnafærslur hafa verið jafnaðar er hægt að nota **Reikna út bókunardagsetningu** til að uppfæra bókunardagsetningu á færslubókarlínunni með gjalddaga tengds innkaupareiknings. Nánari upplýsingar um þetta handvirka ferli eru notaðar handvirkt [til að](payables-how-apply-purchase-transactions-manually.md) sækja innkaup.  
 
 > [!NOTE]  
-> Ef innkaupareikningur er tímabær er bókunardagsetningin stillt á vinnudagsetningu og leturgerð á línunni breytist í rautt.  
+> Ef innkaupareikningurinn er gjaldfallinn er bókunardagsetningin stillt á vinnudagsetninguna og leturgerð línunnar breytist í rautt.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Stjórna skuldum](payables-manage-payables.md)  
 - [Framkvæma greiðslur](payables-make-payments.md)  

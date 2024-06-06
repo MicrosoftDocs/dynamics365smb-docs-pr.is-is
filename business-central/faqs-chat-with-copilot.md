@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: 'copilot, AI, chat'
 ---
-# <a name="responsible-ai-faq-for-chat-with-copilot-preview"></a>Ábyrg algengar spurningar fyrir spjall við copilot (forskoðun)
+# Ábyrg algengar spurningar fyrir spjall við copilot (forskoðun)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 Þessar algengu spurningar (FAQ) lýsa algengum áhrifum spjalls við Copilot í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú hefur áhuga á almennum spurningum um notkun eiginleikans skaltu fara [í algengar spurningar í spjalli við Copilot](chat-with-copilot-faq.md).
 
-## <a name="what-is-chat-with-copilot"></a>Hvað er Spjall við copilot?
+## Hvað er Spjall við copilot?
 
 Microsoft Copilot er AI-powered aðstoðarmaður sem hjálpar neista sköpunarkrafti, uppörva framleiðni og útrýma leiðinlegum verkefnum. Þú getur spjallað við Copilot í Business Central til að svara spurningum og fundið viðskiptagögn með því að tjá það sem þú ert að leita að á náttúrulegu tungumáli.
 
@@ -24,11 +24,11 @@ Spjall við Copilot, einnig kallað spjall, er gagnvirkur eiginleiki sem svarar 
 
 Notendur spyrja spurninga á náttúrulegu tungumáli, eins og "Hvernig skila ég vörum til viðskiptavina minna beint frá lánardrottnum mínum?" Eða "Erum við með skrifstofustóla á lager fyrir $600?" Til að svara gefur Copilot svör á náttúrulegu tungumáli. Svörin geta innihaldið venjulegan texta, tengla á færslur eða síður í [!INCLUDE[prod_short](includes/prod_short.md)] og tengla til að [!INCLUDE[prod_short](includes/prod_short.md)] hjálpa greinum með Microsoft Learn.
 
-## <a name="what-are-capabilities-of-chat-with-copilot"></a>Hvað er hægt að spjalla við Copilot?
+## Hvað er hægt að spjalla við Copilot?
 
 Hægt er að spjalla við Copilot til að fá svör við eftirfarandi spurningaflokkum:
 
-### <a name="explain-and-guide"></a>Útskýra og fylgja
+### Útskýra og fylgja
 
 Notendur geta beðið Copilot að útskýra sérstakt hugtak sem tengist [!INCLUDE[prod_short](includes/prod_short.md)], eins og hvað eru víddir, eða veitt leiðbeiningar um hvernig eigi að ljúka verki, eins og hvernig á að bóka sölupöntun. Copilot leitar í opinberum [!INCLUDE[prod_short](includes/prod_short.md)] fylgiskjölum sem Microsoft hefur gefið út og gefur út svar sem byggir á heimildum.
 
@@ -36,7 +36,7 @@ Notendur geta beðið Copilot að útskýra sérstakt hugtak sem tengist [!INCLU
 
 - Copilot grípur ekki til aðgerða, býr til ný gögn eða breytir stillingum. Það tekur einfaldlega saman allar málsgreinar sem finnast um Microsoft Learn spurninguna eða spjallið í spjallinu.
 
-### <a name="find-business-data-and-related-pages"></a>Finna viðskiptagögn og tengdar síður
+### Finna viðskiptagögn og tengdar síður
 
 Notendur geta beðið Copilot að finna síður með nafni eða beðið um færslur sem byggðar eru á reitum og hömlum. Ef Copilot finnur samsvörun svarar það með tengli á viðeigandi færslu eða síðu, sem notandinn getur valið að opna.
 
@@ -46,16 +46,16 @@ Notendur geta beðið Copilot að finna síður með nafni eða beðið um færs
 
 - Copilot grípur ekki til aðgerða, býr til ný gögn eða breytir stillingum. Hún tekur aðeins saman þær færslur sem bárust frá gagnaleitinni. [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-## <a name="what-is-the-intended-use-of-chat-with-copilot"></a>Hver er tilætluð notkun Spjalls við Copilot?
+## Hver er tilætluð notkun Spjalls við Copilot?
 
 Spjall er hannað til að nota fyrirtækjanotkun og svara spurningum sem tengjast [!INCLUDE[prod_short](includes/prod_short.md)] og þeim viðskiptagögnum sem hann inniheldur. Eiginleikinn styrkir fólk til að leysa algeng verk eins og að finna færslur eða fá leiðbeiningar með því að tjá sig með eigin orðum, auðvelda og aðgengilegra að vinna með [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="how-was-chat-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvernig var Spjall við Copilot metið? Hvaða mælieiningar eru notaðar til að mæla afköst?
+## Hvernig var Spjall við Copilot metið? Hvaða mælieiningar eru notaðar til að mæla afköst?
 
 - Aðgerðin gekkst undir umfangsmikla prófun þar sem fjölmargir enskir textar sem ná yfir margs konar efnisatriði og tjáningarstíla voru gefnir Copilot. Niðurstaðan var metin gegn nákvæmni, vægi og öryggi.
 - Eiginleikinn er byggður upp samkvæmt staðlinum Ábyrgur AI-staðall Microsoft. [Fræðast meira um ábyrgt ÓM frá Microsoft](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Hvernig fylgist Microsoft með gæðum myndaðs efnis?
+## Hvernig fylgist Microsoft með gæðum myndaðs efnis?
 
 Microsoft hefur mismunandi kerfi til að tryggja að efni sem Copilot myndar sé í hæsta gæðaráði, finni fyrir misnotkun og tryggi öryggi fyrir viðskiptavini okkar og gögn þeirra.
 
@@ -66,7 +66,7 @@ Notendur geta veitt endurgjöf við öllum svörum copilot og gefið skýrslu um
 - Ef óviðeigandi myndað efni kemur upp skal tilkynna það til Microsoft með því að nota þetta svarglugga: [Tilkynna misnotkun](https://go.microsoft.com/fwlink/?linkid=2249810).
 - Microsoft gæti slökkva á copilot-knúnum aðgerðum fyrir tilgreinda viðskiptamenn ef misnotkun á virkninni finnst.
 
-## <a name="what-are-the-limitations-of-chat-with-copilot-how-can-users-minimize-the-impact-of-the-chat-with-copilot-limitations-when-using-the-system"></a>Hvaða takmarkanir eru á spjall við Copilot? Hvernig geta notendur minnkað áhrif spjallsins með takmörkunum copilot þegar kerfið er notað?
+## Hvaða takmarkanir eru á spjall við Copilot? Hvernig geta notendur minnkað áhrif spjallsins með takmörkunum copilot þegar kerfið er notað?
 
 - Almennar takmarkanir AI
 
@@ -88,17 +88,17 @@ Notendur geta veitt endurgjöf við öllum svörum copilot og gefið skýrslu um
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
-## <a name="what-data-does-chat-with-copilot-collect-and-how-is-it-used"></a>Hvaða gögnum spjall við Copilot safnar og hvernig það er notað
+## Hvaða gögnum spjall við Copilot safnar og hvernig það er notað
 
 Microsoft notar ekki gögn fyrirtækisins, þ.m.t. textann sem sendur er til Copilot, til að þjálfa grunngerðir notenda til hagsbóta fyrir aðra. Stjórnendur fyrirtækisins hafa fulla stjórn á því að stjórna þessum gögnum sem eru hluti af Azure-áskrift þeirra. Þar sem stjórnendur eða aðrir innan fyrirtækisins gætu haft aðgang að þessum gögnum samkvæmt ákvörðun vinnuveitanda er mælt með því að notendur færi ekki inn viðkvæm gögn, svo sem aðgangsorð eða önnur leyndarmál.
 
-## <a name="what-does-chat-with-copilot-offer-for-security"></a>Hvað býður Spjall við Copilot um öryggi
+## Hvað býður Spjall við Copilot um öryggi
 
 Spjall er hannað til að vera öruggt og keyrt undir auðkenni notandans, erfa allar öryggisheimildir og aðrar takmarkanir og starfa aldrei utan [!INCLUDE[prod_short](includes/prod_short.md)] öryggis á vettvangi. Það þýðir að Copilot hefur aðeins aðgang að gögnum sem notandinn hefur aðgang að.
 
 Fyrir notendur með SUPER heimild getur spjall auðveldara að finna ótryggð gögn sem yfirleitt er erfiðara að komast til fyrir aðra notendur. Fyrirtæki sem ekki nota öryggislíkan beita [!INCLUDE[prod_short](includes/prod_short.md)] til að takmarka hvaða töflur og hlutir sem hver notandi eða hlutverk notanda hefur aðgang að, gætu verið í aukinni hættu þegar spjall er notað. Þess vegna er mælt með því að fyrirtækið innleiði [!INCLUDE[prod_short](includes/prod_short.md)] öryggislíkanið eða slökkvi á spjalli.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Spjalla við Copilot (forskoðun)](chat-with-copilot.md)
 

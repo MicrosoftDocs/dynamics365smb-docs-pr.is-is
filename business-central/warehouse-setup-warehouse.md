@@ -9,9 +9,9 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
+# Vöruhúsastjórnun sett upp
 
-Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöruhúss. Þetta felur í sér að skilgreina hvernig mismunandi vörur eru meðhöndlaðar á mismunandi vöruhúsastöðum, svo sem hversu mikið hólfstýring er og umfang verkflæðis sem krafist er á milli vöruhúsaaðgerða.  
+Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöruhúss. Þetta felur í sér skilgreiningu á því hvernig mismunandi vörur eru meðhöndlaðar í mismunandi vöruhúsum, eins og stig hólfastýringar og umfang nauðsynlegs verkflæðis milli vöruhúsaaðgerða.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
@@ -34,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)  

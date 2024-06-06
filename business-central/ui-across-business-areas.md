@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Almenn viðskiptavirkni
+# Almenn viðskiptavirkni
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
 
@@ -35,7 +35,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 |Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|  
 |Yfirfara niðurstöður bókunar áður en bókað er.|[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)|
 |Breyta völdum reitum fyrir bókuð sölu- eða innkaupaskjöl.|[Breyta bókuðum skjölum](across-edit-posted-document.md)|
-|Lærðu að finna skjöl og færslur sem tengjast innbyrðis á grundvelli fylgihluta skjals, tengiliða eða vöruupplýsinga. | [Finna tengdar færslur fyrir skjöl](ui-find-entries.md) |
+|Fræðast um hvernig finna má skjöl og færslur sem tengjast hvert öðru út frá hluta skjals, tengiliðar eða vöruupplýsinga. | [Finna tengdar færslur fyrir skjöl](ui-find-entries.md) |
 |Áttaðu þig á tiltækri stöðu fyrir tiboðs-,pantana- og kreditreikningsskjöl, t.d. **Opin** og **Útgefin** | [Stöðureitur á skjölum](ui-document-status.md) |
 |Lærðu að vinna með Færslubækur, sem eru notaðar til að bóka fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og eignareikninga. |[Vinna í færslubókum](ui-work-general-journals.md) |
 | tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. |[Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport) |
@@ -45,7 +45,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp skilgreiningar gagnaskipta svo þú getir sent og tekið á móti rafrænum skjölum. |[Rafræn gagnaskipti](across-data-exchange.md) |
 | Notaðu kort á netinu til að finna staðsetningar og leiðbeiningar á viðskiptamenn, lánardrottna og aðsetur almennt. | [Nota kortaþjónustu til að finna staðsetningar og leiðsagnir](across-online-maps.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stjórnun](admin-setup-and-administration.md)  

@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
+# Stofna fyrirframgreiðslureikninga
 
 Ef þú þarf að fá viðskiptamenn til að greiða fyrir sendingu pöntunar geturðu notað eiginleika fyrirframgreiðslu. Sama gildir ef lánardrottinn þinn krefst þess að þú greiðir áður en hann sendir pöntun til þín.  
 
-Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Sjálfgefin fyrirframgreiðsluprósenta vöru í pöntuninni, eða fyrir viðskiptavin eða lánardrottinn, verður tekin með í fyrirframgreiðslureikninginn. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
+Hægt er að hefja fyrirframgreiðsluferlið þegar búið er að stofna sölu- eða innkaupapöntun. Sjálfgefna fyrirframgreiðsluprósentan fyrir vöru í pöntuninni eða fyrir viðskiptamanninn eða lánardrottininn er tekin með í fyrirframgreiðslureikningnum. Einnig er hægt að tilgreina fyrirframgreiðsluprósentuna fyrir allt skjalið.
 
 Þegar búið er að stofna sölu- eða innkaupapöntun er hægt að stofna fyrirframgreiðslureikning fyrir hana. Notið sjálfgefnar prósentur fyrir hverja sölu- og innkaupalínu eða leiðréttið upphæðina. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 
 Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir sölupöntun. Skrefin eru svipuð fyrir innkaupapöntun.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Stofnun fyrirframgreiðslureiknings
+## Stofnun fyrirframgreiðslureiknings
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofna nýja sölupöntun fyrir viðeigandi viðskiptavin. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
@@ -37,12 +37,12 @@ Eftirfarandi ferli sýnir hvernig skal gefa út fyrirframgreiðslureikning fyrir
     Gjalddagi fyrirframgreiðslunnar er sjálfkrafa reiknaður út frá gildinu í reitnum **Greiðsluskilmálakóði fyrirframgr.**.
 
     > [!NOTE]
-    > Þegar sumar línur á reikningi krefjast 100% fyrirframgreiðslu og aðrar línur liggja ekki fyrir og VSK á fyrirframgreiðslureikningnum gæti slétta upphæðin orsakað villu þegar Fyrirframgreiðslureikningur er stofnaður. Villan kemur til vegna þess að upphæð fyrirframgreiðslureikningsins er hærri en upphæðirnar á fylgiskjalslínunum. Til að leysa vandann skal breyta upphæðum á einni eða öllum línunum sem þurfa 100% fyrirframgreiðslu. Breytingin endurreiknar upphæð sléttunar VSK og notar uppsafnaðan sléttunarmismun í síðustu Breyttu línu.
+    > Þegar sumar línur á reikningi þurfa 100% fyrirframgreiðslu og aðrar línur ekki og VSK er á fyrirframgreiðslureikningnum gæti sléttuðu upphæðin valdið villu þegar fyrirframgreiðslureikningur er stofnaður. Villan kemur upp vegna þess að upphæð fyrirframgreiðslureikningsins er hærri en upphæðirnar í fylgiskjalslínunum. Til að laga vandann skal breyta upphæðunum í einni eða öllum línunum sem krefjast 100% fyrirframgreiðslu. Breytingin endurreiknar sléttun VSK-upphæða og notar uppsafnaðan sléttunarmismun í síðustu breyttu línunni.
     >
-    > Tvær leiðir til að leysa vandann eru:
+    > Tvær leiðir til að laga vandamálið eru:
     >
-    > * Stofnið sérstakan VSK-vörubókunarflokk og VSK-bókunaruppsetningu með sérstöku VSK-auðkenni og Notið það fyrir vörurnar eða línurnar sem þurfa 100% fyrirframgreiðslu. Sléttun er gerð fyrir hvert VSK-kenni svo aðskildar sléttun verði gerðar fyrir vörur sem eru tengdar VSK-vörubókunarflokknum.
-    > * Nota skal sérstakan reikning fyrir þær vörur eða línur sem það gerir og þarfnast ekki 100% fyrirframgreiðslna.
+    > * Stofna sérstakan VSK-vörubókunarflokk og VSK-bókunargrunn með sérstöku VSK-kenni og nota það fyrir vörur eða línur sem krefjast 100% fyrirframgreiðslu. Sléttun er gerð fyrir hvert VSK-kenni svo að sérstök sléttun fer fram fyrir vörur sem úthlutað er á VSK-vörubókunarflokkinn.
+    > * Nota skal sérstakan reikning fyrir vörurnar eða línurnar sem þarfnast ekki 100% fyrirframgreiðslu.
 
 3. Sölulínurnar eru fylltar út.  
 
@@ -71,11 +71,11 @@ Hægt er að gefa út aðra fyrirframgreiðslureikninga fyrir pöntunina. Til a�
 
  Þegar hægt er að bóka restina af reikningnum er hann bókaður eins og hver annar reikningur og fyrirframgreiðsluupphæðin er sjálfvirkt dregin frá þeirri upphæð sem greiða á.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
+## Uppfæra stöðu fyrirframgreiddra pantana og reikninga sjálfkrafa
 
 Þú getur flýtt fyrir pöntunar- og reikningsvinnslu með því að setja upp verkraðarfærslur sem uppfæra stöðu þessara skjala sjálfkrafa. Þegar fyrirframgreiðslureikningur er greiddur geta verkraðarfærslurnar sjálfkrafa breytt stöðu skjalsins úr **Bíður fyrirframgreiðslu** í **Útgefið**. Þegar þú setur upp verkraðarfærslurnar eru kóðaeiningarnar sem þú þarft að nota **384 Uppf. fyrirfgr. á sölu í bið** og **384 Uppf. fyrirfgr. á innkaupum í bið**. Mælt er með því að keyra færslurnar reglulega, t.d. á mínútu fresti. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

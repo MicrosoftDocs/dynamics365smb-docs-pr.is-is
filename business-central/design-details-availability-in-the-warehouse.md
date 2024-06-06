@@ -1,6 +1,6 @@
 ---
-title: Hönnun lýsingar-framboð í vöruhúsi
-description: Fræðast um mismunandi þætti sem hafa áhrif á vöruframboð í vöruhúsinu.
+title: Upplýsingar um hönnun - Til ráðstöfunar í vöruhúsinu
+description: Fræðast um þá þætti sem hafa áhrif á tiltækni vöru í vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -9,47 +9,47 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
+# Hönnunarupplýsingar: Framboð á lager
 
-Leggðu ofan á vöruframboð til að tryggja að pantanir á útleið flæði á skilvirkan hátt og að afhendingartímar þínir séu ákjósanlegir.  
+Halda skal ofan á vörur til ráðstöfunar til að tryggja að pantanir á útleið flæði á skilvirkan hátt og að afhendingartímar séu ákjósanlegir.  
 
-Til ráðstöfunar geta verið mismunandi, allt eftir nokkrum þáttum. Fr dæmi:
+Ráðstöfunarmagn getur verið mismunandi eftir mörgum þáttum. Fr.dæmi:
 
-* Úthlutanir á hólstigi þegar vöruhúsaaðgerðir eins og tínslur og hreyfingar gerast.
-* Þegar takmarkanir á birgðafrátekningu eru settar saman til samræmis við það.
+* Úthlutanir á hólfastigi þegar vöruhúsaaðgerðir eins og tínslur og hreyfingar gerast.
+* Þegar birgðafrátekningarkerfið bætir takmarkanir á að samræmast.
 
-Áður en magni er úthlutað á tínslur fyrir streymi  [!INCLUDE [prod_short](includes/prod_short.md)]  á útleið sannprófar að öll skilyrði séu uppfyllt.
+Áður en magni er úthlutað til tínslu fyrir flæði [!INCLUDE [prod_short](includes/prod_short.md)]  á útleið er staðfest að öllum skilyrðum sé uppfyllt.
 
-Þegar skilyrði eru ekki uppfyllt eru villuskilaboð sýnd. Eitt dæmigert boð er hið almenna "ekkert að höndla." skilaboð. Hægt er að sýna boðin af mörgum mismunandi ástæðum á útleið og á innleið þar sem fylgiskjalslína inniheldur  **reitinn Magn til afgreiðslu** .
+Þegar skilyrðum er ekki uppfyllt birtast villuboð. Dæmigerð skilaboð eru almenn "Ekkert til að meðhöndla." skilaboð. Skilaboðin er hægt að birta af mörgum mismunandi ástæðum í flæði á útleið og innleið þar sem í fylgiskjalslínu er **reiturinn Magn til afgreiðslu** .
 
-## <a name="bin-content-and-reservations"></a>Innihald og frátekningar hólfs
+## Innihald hólfs og frátekningar  
 
-Vörumagn er bæði til vöruhúsafærslur og sem birgðafærslur í birgðum. Þessar tvennskonar færslur innihalda mismunandi upplýsingar um hvaðan vörur eru og hvort þær séu tiltækar. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðafærslur skilgreina ráðstöfunarmagn vöru með frátekningu á skjölum á útleið.  
+Vörumagn er bæði til sem vöruhúsafærslur og birgðafærslur í birgðum. Þessar tvær tegundir færslna innihalda ólíkar upplýsingar um hvar vörurnar eru og hvort þær eru tiltækar. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðafærslur skilgreina ráðstöfunarmagn vöru með því að taka frá fyrir fylgiskjöl á útleið.  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] reiknar út magnið sem er tiltækt til tínslu þegar innihald hólfs er leitt með frátekningum.  
+[!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið sem er tiltækt til tínslu þegar innihald hólfs er parað með frátekningum.  
 
-## <a name="quantity-available-to-pick"></a>Tiltækt magn til tínslu
+## Tiltækt magn til tínslu  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] tekur frá vörur fyrir sölupantanir sem bíða afhendingar svo að þær séu ekki teknar til annarra sölupantana sem senda fyrr. [!INCLUDE [prod_short](includes/prod_short.md)] dregur úr magni þeirra vara sem þegar er unnið með, sem hér segir:
+[!INCLUDE [prod_short](includes/prod_short.md)] Tekur vörur frá fyrir afhendingu sölupöntunar í undirbúningi svo að þær séu ekki tíndar fyrir aðrar sölupantanir sem afhendast fyrr. [!INCLUDE [prod_short](includes/prod_short.md)] dregur frá magn vara sem þegar er verið að vinna, á eftirfarandi hátt:
 
-* Magn sem er frátekið fyrir önnur skjöl á útleið.
-* Magn á fyrirliggjandi tínsluskjölum.
-* Magn tekið til en ekki enn afhent eða notað.  
+* Magn frátekið fyrir önnur skjöl á útleið.
+* Magn í tínsluskjölum sem fyrir eru.
+* Magn sem hefur verið tínt en ekki enn afhent eða notað.  
 
-Niðurstaðan er reiknuð út breytilegt og birt í  **reitnum Magn til tínslu**  á  **síðunni tínsluvinnublað** . Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Eftirfarandi eru dæmi um útleiðarskjöl:
+Útkoman er reiknuð kviklega og birt í reitnum **Tiltækt magn til tínslu** á síðunni **Vinnublað** tínslu. Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Eftirfarandi eru dæmi um skjöl á útleið:
 
 * Sölupantanir
-* Framleiðslugeyslu
+* Framleiðslunotkun
 * Millifærslur á útleið
 
-Útkoman er tiltæk í þessum skjölum í reitunum magn eins og  **í reitnum Magn til afgreiðslu** .  
+Niðurstaðan er tiltæk í þessum skjölum í magnreitunum, t.d. reitnum **Magn til afgreiðslu** .  
 
 > [!NOTE]  
-> Til að forgangsraða frátekningum, er magnið sem á að taka frá dregið frá því magni sem tiltækt er til tínslu. Til dæmis, ef magnið sem er tiltækt í tínsluhólfum er 5 einingar en 100 einingar eru í frágangshólfum þegar fleiri en 5 einingar eru fráleitar í annarri pöntun birtast villuskilaboð þar sem viðbótarmagnið verður að vera tiltækt í tínsluhólfum.  
+> Fyrir forgang frátekninga er magnið sem á að taka frá dregið frá tiltæku magni sem hægt er að tína. Til dæmis ef tiltækt magn í tínsluhólfum er 5 einingar en 100 einingar eru í frágangshólfum þegar fleiri en 5 einingar eru teknar frá fyrir aðra pöntun birtast villuboð þar sem viðbótarmagn verður að vera tiltækt í tínsluhólfum.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Magnið sem er tiltækt til tínslu er reiknað
+### Reiknar tiltækt magn til tínslu  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið sem er tiltækt til að velja á eftirfarandi hátt:  
+[!INCLUDE [prod_short](includes/prod_short.md)] reiknar tiltækt magn til tínslu á eftirfarandi hátt:  
 
 magn tiltækt í tínslu = magn í tínsluhólfum - magn í tínslu og hreyfingar – (frátekið magn í tínsluhólfum + frátekið magn í tínslu og hreyfingu)  
 
@@ -57,11 +57,11 @@ Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.
 
 ![Tiltækt í tínslu, með skörun í frátekningu.](media/design_details_warehouse_management_availability_2.png "Tiltækt í tínslu, með pöntunarskörun")  
 
-## <a name="quantity-available-to-reserve"></a>Tiltækt magn til frátekingar
+## Tiltækt magn til frátekninga
 
-Þar sem hugtökin innihald hólfs og frátekt eru tiltæk er magn varanna sem eiga að taka frá frátekið að vera samræmt úthlutun á vöruhússkjölum á útleið.  
+Þar sem hugtökin um innihald hólfa og frátekningu á hólfum verða magn vara sem tiltækar eru til frátekningar að samræmast úthlutunum á vöruhúsaskjöl á útleið.  
 
-Hægt er að taka frá allar birgðavörur, nema vörur sem Úrvinnsla á útleið hefur ræst. Magnið sem er tiltækt til frátekingar er skilgreint sem magnið á öllum skjölum og hólfstegundum. Eftirfarandi magn á útleið eru undantekningar:  
+Hægt er að taka frá allar birgðavörur, nema vörur sem vinnsla á útleið hefur hafist fyrir. Magnið sem er tiltækt til að taka frá er skilgreint sem magn í öllum skjölum og hólfategundum. Eftirfarandi magn á útleið eru undantekningar:  
 
 * Magn í óskráðum tínsluskjölum  
 * Magn í afhendingarhólfum  
@@ -72,15 +72,15 @@ Hægt er að taka frá allar birgðavörur, nema vörur sem Úrvinnsla á útlei
 
 Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **Frátekning**.  
 
-Í frátekningarlínu er magnið sem ekki er hægt að taka frá þar sem því er úthlutað í vöruhúsinu birt í  **reitnum Magn úthlutað í vöruhúsi**  á  **frátekningarsíðunni** .  
+Í frátekningarlínu er magnið sem ekki er hægt að taka frá vegna þess að því er úthlutað í vöruhúsinu birt í reitnum **Úthlutað magn í vöruhúsi** á **frátekningarsíðunni** .  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Athuga hvort vörur séu tiltækar til tínslu
+## Kanna hvort vörur séu tiltækar til tínslu
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Reiknað út tiltækt magn til frátekingar
+### Útreikningur á tiltæku magni til að taka frá
 
-[!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið sem er tiltækt til að taka frá sem hér segir:  
+[!INCLUDE [prod_short](includes/prod_short.md)] reiknar tiltækt magn til að taka frá á eftirfarandi hátt:  
 
 magn tiltækt í frátekningu = heildarmagn í birgðum - magn í tínslu og hreyfingu fyrir upprunaskjöl - frátekið magn - magn í hólfum á útleið  
 
@@ -88,10 +88,10 @@ Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.
 
 ![Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi.](media/design_details_warehouse_management_availability_3.png "Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi")  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[View the Availability of Items](inventory-how-availability-overview.md)
-[Pick for Production, Assembly, or Jobs in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+[Skoða tiltækileika vöru](inventory-how-availability-overview.md)
+[Tínsla fyrir framleiðslu, samsetningu eða verk í ítarlegri vöruhúsagrunnstillingu](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

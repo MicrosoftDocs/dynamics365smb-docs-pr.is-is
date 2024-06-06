@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 22.](../media/ui-search/search_small.png "Leitastækkunargler") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 22.](../media/ui-search/search_small.png "Leita að stækkunargleri") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Vörur** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt vörusniðmát er fyrir hendi, opnast nýtt birgðaspjald með suma af reitunum útfyllta með upplýsingum úr sniðmátinu.

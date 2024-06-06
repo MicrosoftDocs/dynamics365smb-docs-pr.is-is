@@ -5,15 +5,15 @@ ms.date: 11/01/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-Tillögur um markaðstexta eru aðeins studdar á eftirfarandi tungumálum og stöðum:
+Tillögur um markaðssetningartexta eru aðeins studdar á eftirfarandi tungumálum og staðbundnum:
 
-|Tungumál|Staðsetningar|
+|Tungumál|Staður|
 |-|-|
-|Íslenska|en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA|
+|Íslenska|en-AU, en-CA, en-GB, en-IE, en-Í-NZ, en-PH, en-SG, en-US, en-ZA|
 |Franska|fr-FR, fr-BE, Fr-CA, fr-CH|
 |Þýska|de-DE, de-AT, de-CH|
-|Spænska |es-ES, es-MS, es-CO, es-PE|
+|Spænska |ES- ES, ES-MS, es-CO, es-PE|
 |Danska|da-DK|
 |Hollenska|nl-NL, nl-BE|
-|Ítalska|það-IT, það-CH|
+|Ítalska|it-IT, it-CH|
 |Japanska|ja-JP|

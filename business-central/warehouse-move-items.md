@@ -1,6 +1,6 @@
 ---
 title: Færa atriði
-description: Fræðast um flutning á vörum milli hólfa í vöruhúsinu.
+description: Fræðast um hvernig vörur eru færðar milli hólfa í vöruhúsinu.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,33 +10,33 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Færa vörur
+# Færa vörur
 
-Hægt er að færa vörur í vöruhúsinu á mismunandi hátt eftir því hvernig vöruhúsið hefur verið samskipað. Flækjan getur verið breytileg:
+Hægt er að færa vörur í vöruhúsinu með mismunandi hætti eftir því hvernig vöruhúsið hefur verið grunnstillt. Flókið getur verið mismunandi:
 
-* Lítil vöruhús gætu notað afbrigði grunnvöruhúsa til að afgreiða pantanir hver fyrir sig, í einu eða mörgum skrefum.
-* Stór vöruhús gætu notað ítarlegri skilgreiningar þar sem öll vöruhúsaaðgerðir eru samræmdar með beinu verkflæði. Frekari upplýsingar um  [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
+* Lítil vöruhús gætu notað grunnskilgreiningar vöruhúsa til að meðhöndla pantanir sérstaklega, í einu eða mörgum skrefum.
+* Stór vöruhús gætu notað ítarlegar grunnstillingar þar sem allar vöruhúsaaðgerðir eru samræmdar með stýrðu verkflæði. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-Vörur gæti þurft að flytja á milli hólfa, t.d. vegna innri aðgerða:
+Hugsanlega þarf að færa vörur milli hólfa, til dæmis vegna innri aðgerða:
 
-* Íhlutir í framleiðslupöntun afhendast eða séu búnir að ganga frá vörum.
-* Vöruhúsastjórnandi vill hagræða plássi.
-* Óskipulögðum hreyfingum til og frá aðgerðum.
-* Að uppfylltum tínsluhólfum eða vinnusalarhólfum.
+* Framleiðslupöntun þarf íhluti afhenta eða frágengnar vörur eru frágengnar.
+* Yfirmaður vöruhúss vill fínstilla rými.
+* Óáætlaðar hreyfingar til og frá aðgerðum.
+* Fylla á tínsluhólf eða vinnusalarhólf.
 * Uppfæra innihald hólfs.
 
-Talningar, leiðréttingar og endurflokkun geta falið í sér vöruhúsaverk sem þarf að framkvæma á vöruhúsafærslum áður en hægt er að samstilla þau við birgðafærslurnar. Frekari upplýsingar um  [talningu, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).  
+Talning, leiðrétting og endurflokkun vara getur falið í sér vöruhúsaverkhluta sem þarf að framkvæma í vöruhúsafærslum áður en hægt er að samstilla þær við birgðafærslur. Nánari upplýsingar um [talningu, leiðréttingu og endurflokkun birgða](inventory-how-count-adjust-reclassify.md).  
 
  Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Flutningur atriða milli birgðageymslna|[Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)|
+|Flutningur á vörum milli birgðageymslna|[Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)|
 |Færa vörur milli hólfa í einfaldri vöruhúsagrunnstillingu hvenær sem er án upprunaskjala.|[Færa vörur í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Nota vöruhúsahreyfingablaðið, innanhússtínslu og frágang til að flytja vörur í ítarlegar vöruhúsaskilgreiningar með beinar tínslu og frágang.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
+|Nota vinnublað vöruhúsahreyfinga, innanhússtínslu og frágang til að færa vörur í ítarlegri vöruhúsaskilgreiningu með beinni tínslu og frágangi.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum og hugsanlega færa þau á milli.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  

@@ -1,6 +1,6 @@
 ---
 title: Flytja vörur á milli birgðageymslna
-description: 'Frekari upplýsingar um hvernig á að flytja birgðir frá einum stað eða vöruhúsi til annars, annað hvort með endurflokkunarbók eða flutningspöntunum.'
+description: 'Fræðast um hvernig á að færa birgðir frá einum stað eða vöruhúsi til annars, annaðhvort með endurflokkunarbókinni eða millifærslupöntunum.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,49 +11,49 @@ ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
+# Flytja birgðir milli birgðageymslna
 
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.
 
 > [!NOTE]
-> Til að flytja vörur þarf að setja upp staðsetningar og flutningsleiðir. Til að fræðast meira um uppsetningu staðsetningar er farið í  [Setja upp staðsetningar](inventory-how-setup-locations.md). Ekki er hægt að nota flutningspantanir fyrir  *auða*  staði.
+> Til að flytja vörur verður að setja upp birgðageymslur og flutningsleiðir. Nánari upplýsingar um uppsetningu birgðageymslna eru í [Setja upp birgðageymslur](inventory-how-setup-locations.md). Ekki er hægt að nota millifærslupantanir fyrir *auðar* birgðageymslur.
 
-## <a name="transfer-orders"></a>Flutningspöntunum
+## Millifærslupantanir
 
-Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangastað. Hægt er að:
+Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á móti millifærslu á innleið. Hægt er að:
 
 * Rekja magn í flutningi
-* Skilgreinið dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir dagsetningarútreikninga og áætlanagerð. Til að fræðast meira um áætlanagerð er farið í  [um áætlunaraðgerðir](production-about-planning-functionality.md).
-* Nota mismunandi vöruhúsaaðgerðir fyrir inn-og útleiðarstaði.
-* Með sumum takmörkunum er hægt að nota flutningspantanir fyrir beinan flutning.
+* Skilgreina dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir útreikning dagsetninga og áætlunar. Nánari upplýsingar um áætlanir eru í [Um áætlunaraðgerðir](production-about-planning-functionality.md).
+* Nota mismunandi vöruhúsaaðgerðir fyrir birgðageymslur á innleið og útleið.
+* Með nokkrum takmörkunum er hægt að nota millifærslupantanir fyrir beina millifærslu.
 
-## <a name="item-reclassification-journals"></a>Endurflokkunarbækur vöru
+## Endurflokkunarbækur birgða
 
-* Einfaldur, Beinn flutningur á vörum milli birgðageymslna.
-* Flytja vörur milli hólfa. Frekari upplýsingar um flutning vara milli hólfa er að  [flytja Óáætlaðar vörur í Grunnvöruhúsafbrigðum](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
-* Breyta lotu eða raðnúmeri á nýja lotu eða raðnúmeri. Til að fræðast meira um raðnúmer og lotunúmer er farið í  [endurflokka rað-eða lotunúmer](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
-* Chang gildistíma til nýju dagsetningarinnar.
-* Endurflokka vörur úr  *auða*  birgðageymslu í raunverulega staðsetningu.
+* Einfaldur, beinn flutningur á vörum milli birgðageymslna.
+* Vörur færðar milli hólfa. Nánari upplýsingar um flutning á vörum milli hólfa [eru færðar á Vörur óáætlaðar í Grunngrunnstilling vöruhúss](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+* Breyta lotu- eða raðnúmeri í nýtt lotu- eða raðnúmer. Nánari upplýsingar um endurflokkun rað- og lotunúmera fást með því að [fara í Endurflokka rað- eða lotunúmer](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+* Fyrningardagsetningu er breytt í nýja dagsetningu.
+* Endurflokka vörur frá auðri *birgðageymslu* í raunverulega birgðageymslu.
 * Vöruhúsaaðgerðum er ekki stjórnað. Vöruhúsafærslur verða stofnaðar.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Vörur fluttar með flutningspöntun
+## Vörur fluttar með flutningspöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningspantanir** og velja síðan viðkomandi tengil.
 2. Fyllt er út í reiti eftir því sem á við á síðunni **Flutningspöntun**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Ef Millisendingarkóti, Kóti flutningsfyrirtækisins og  **Flutningsþjónusta** eru fylltir út  **í valnum leiðanna** **.**  **síðu** þegar Flutningsleiðin er sett upp eru samsvarandi svæði í millisendingarpöntuninni sjálfkrafa fyllt út.
+    >   Hafi verið fyllt í reitina **Millifærslukóti**, **Flutningsaðilakóti** og **Flutningsþjónusta** í skilgreiningu flutningsleiðarinnar **.** síðu þegar flutningsleiðin er sett upp eru samsvarandi reitir í millifærslupöntuninni fylltir út sjálfkrafa.
 
     Þegar fyllt er út í reitinn **Flutningsþjónusta** reiknar kerfið út móttökudagsetningu fyrir flutt-til birgðageymslu með því að bæta flutningstíma flutningsþjónustunnar við afhendingardagsetninguna.
 
-3. Nokkrar leiðir eru til að fylla út línurnar:
+3. Hægt er að fylla út línurnar á marga vegu:
 
     |Valkostur  |Heimildasamstæða  |
     |---------|---------|
-    |Með íhlutun notanda     |  **Á vöruflipanum línur**  er fyllt út lína fyrir vöru eða aðgerðin velja atriði  **notuð**  til að velja margar vörur.        |
-    |Sjálfvirk aðferð     | * Velja  **aðgerðina Sækja innihald**  hólfs til að velja vörur úr tilteknu hólfi á staðnum.<br><br>* Velja skal  **Sækja móttökulínur**  til að velja vörur sem eru nýkomnar í sendist-frá birgðageymslunni.        |
+    |Með íhlutun notanda     | Á flýtiflipanum **Línur** er fyllt út í línu fyrir vöru eða aðgerðin **Velja vörur** notuð til að velja margar vörur.        |
+    |Sjálfvirk aðferð     | * Veljið aðgerðina **Sækja innihald** hólfs til að velja fyrirliggjandi vörur úr tilteknu hólfi í birgðageymslunni.<br><br>* Velja skal **Sækja móttökulínur** til að velja vörur sem eru komnar í sendist-frá birgðageymsluna.        |
 
-    Nú er hægt að senda vörurnar.
+    Nú er hægt að afhenda vörurnar.
 4. Veldu aðgerðina **Bóka** veldu **Senda** valkostinn og veldu síðan **Í lagi** hnappinn.
 
     Atriðin eru nú í flutningi milli tilgreindra staða, í samræmi við tilgreint flutningsleið.
@@ -61,47 +61,47 @@ Hægt er að senda sendingu út frá einum stað og fá heimflutning á áfangas
     Sem starfsmaður vörugeymslu við flutninginn frá staðsetninginni skaltu halda áfram að fá vörurnar. Flutningspöntunarlínurnar eru þær sömu og við sendingu og er ekki hægt að breyta þeim.
 5. Veldu aðgerðina **Bóka**, veldu **Móttaka** valkostinn og veldu síðan **Í lagi** hnappinn.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bóka margar flutningspantanir í runu
+### Bóka margar millifærslupantanir í keyrslu
 
-Eftirfarandi ferli skýrir hvernig á að bóka flutningspantanir í runu.
+Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrslu.
 
 1. 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningspantanir** og velja síðan viðkomandi tengil.  
-2.  **Á síðunni flutningspantanir**  eru valdar pantanirnar sem á að bóka.
-3. Í reitnum **númer** Skal opna samhengisvalmyndina og velja  **Velja meira**.
-4. Veljið gátreitinn fyrir línurnar fyrir hverja pöntun sem á að bóka.
-5.  **Veljið bókunaraðgerðina**  og veljið  **síðan bóka runu**.
-6.  **Reitirnir á eftir flutningspöntun**  eru fylltir út eftir þörfum.
+2. Á síðunni **Millifærslupantanir** eru valdar pantanirnar sem á að bóka.
+3. Í reitnum **númer** Skal opna samhengisvalmyndina og velja **Velja meira**.
+4. Velja skal gátreitinn fyrir línurnar fyrir hverja pöntun sem á að bóka.
+5. Velja skal bókunaraðgerðina **og** velja **svo Fjöldabóka**.
+6. Á síðunni **Fjöldabóka millifærslupöntun** skal fylla út reitina eins og þörf krefur.
 
    > [!TIP]
-    > Fyrir flutningspantanir sem nota millisendingarstaði er hægt að velja annað hvort  **sendingar**  eða  **móttöku**. Endurtakið þetta skref ef þið þurfið að gera hvort tveggja. Fyrir pantanir þar sem  **kveikt er á beinni bókun**  virka báðir Valkostir á sama hátt og bóka pöntunina alveg.
+    > Fyrir millifærslupantanir sem nota millifærslustað er hægt að velja Annaðhvort Afhenda **eða** **Móttaka**. Þetta er endurtekið ef þörf er á að gera bæði. Fyrir pantanir þar sem **bein bókun** er virkjuð virka báðir valkostir á sama hátt og bóka pöntunina að fullu.
 
-7. Veldu  **í lagi**.
-8. Til að skoða hugsanleg vandamál skaltu opna  **Villuskilaboðadagskrá**  síðunnar.
+7. Valið er **Í lagi**.
+8. Til að skoða hugsanleg vandamál er síðan Villuboðadagbók **opnuð** .
 
     > [!NOTE]
-    > Bókun margra skjala gæti tekið nokkurn tíma og útilokað aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+    > Bókun á mörgum skjölum gæti tekið nokkurn tíma og lokað á aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Áætla færslu í Verkröð til að bóka mörg skjöl í runu
+### Tímasetja verkraðarfærslu til að bóka mörg skjöl í keyrslu
 
-Einnig er hægt að nota verkraðarinn til að áætla að bókun gerist í einu sem er hentugt fyrir fyrirtækið. Það gæti til dæmis verið skynsamlegt fyrir fyrirtæki að keyra tilteknar venjur þegar mest er um gagnafærslu dagsins.
+Einnig er hægt að nota verkröðina til að tímasetja bókun á þeim tíma sem hentar fyrirtækinu. Það gæti til dæmis verið vit í því að reka ákveðnar venjur þegar mest af gagnafærslunni fer fram á daginn.
 
-Eftirfarandi ferli sýnir hvernig á að setja upp  **skýrsluna runubókun flutningspantanir**  til að bóka sjálfkrafa beinar flutningspantanir á 4 PM á virkum dögum. Þessi tími er bara dæmi. Skrefin eru hin sömu fyrir önnur skjöl.  
+Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka millifærslupantanir** til að bóka sjálfkrafa beinar millifærslupantanir klukkan 18:00 á virkum dögum. Sá tími er bara dæmi. Skrefin eru eins fyrir önnur skjöl.  
 
-1.  **Leitaðu að síðunni Vinnsluraðarfærslur**  og veldu síðan tengda tengilinn.  
+1. Leita að síðunni **Verkraðarfærslur** og velja síðan viðeigandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 3. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Skýrsla**.  
-4.  **Í HLUTAKENNI til keyrslu**  er valið  **5707, runubókun-millifærslupantanir**.
-5. Gátreiturinn skýrslubeiðsíðuhafi  **er**  valinn.
-6.  **Á beiðnisíðu keyrslna flutningspantanir**  er valið valkostinn sendist  **, sía í**  beinan flutning  **og síðan valið** í  **lagi**.
+4. Í reitnum **Hlutakenni í keyrslu** skal velja **5707, Fjöldabóka millifærslupantanir**.
+5. Gátreiturinn **Skýrslubeiðnisíða** er valinn.
+6. Á síðunni Fjöldabóka millifærslupantanir **skal velja valkostinn** Afhenda **, afmarka við** beina millifærslu **og velja** svo Í lagi **.**
 
    > [!IMPORTANT]
-   > Mikilvægt er að setja afmarkanir. Annars,  [!INCLUDE [prod_short](includes/prod_short.md)]  munum eftir öllum skjölum, þó þau séu ekki tilbúin. Íhuga skal að setja afmörkun á  **reitinn Staða**  fyrir gildið  **Útgefin** og afmörkun á  **reitnum Bókunardags**  . fyrir gildið  **... í dag**. Frekari upplýsingar um afmarkanir er að fara til að  [raða, leita og sía](/dynamics365/business-central/ui-enter-criteria-filters).
+   > Mikilvægt er að setja afmarkanir. Annars bókar [!INCLUDE [prod_short](includes/prod_short.md)]  það öll skjöl, jafnvel þótt þau séu ekki tilbúin. Íhuga skal að setja afmörkun í reitinn **Staða** fyrir gildið **Útgefið** og afmörkun á reitnum **Bókunardags** . fyrir gildið **. í dag**. Nánari upplýsingar um afmarkanir eru í [Röðun, Leit og Afmörkun](/dynamics365/business-central/ui-enter-criteria-filters).
 
-7. Velja skal alla gátreiti  **sem keyra á á mánudögum**  til  **keyrslu á föstudögum**.
-8.  **Í reitinn Upphafstími**  er FÆRT  **4 PM**.
+7. Velja alla gátreiti frá **Keyra á mánudögum** til **Hlaupa á föstudögum**.
+8. Í reitinn **Upphafstími** er slegið inn **4**.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Til að flytja vörur með vöruendurflokkunarbók
+## Til að flytja vörur með vöruendurflokkunarbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -114,19 +114,19 @@ Eftirfarandi ferli sýnir hvernig á að setja upp  **skýrsluna runubókun flut
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="undo-a-transfer-shipment"></a>Afturkalla flutningsendingu
+## Afturkalla millifærsluafhendingu
 
-Ef mistök finnast í magni í bókaðri flutningspöntun, svo framarlega sem sendingin berst ekki er auðvelt að leiðrétta magnið.  **Á síðunni Póstsendingarsending**  er búið að  **leiðrétta afhendingarlínur**, eins og hér segir:
+Ef mistök finnast í magni í bókuðum millifærslupöntunum ef afhendingin berst ekki er auðvelt að leiðrétta magnið. Á síðunni **Veggspjald - Millifærsluafhending** stofnar aðgerðin **Afturkalla afhendingu** leiðréttingarlínur, eins og hér segir:
 
-* Gildið í  **reitnum Magn afhent**  er lækkað með magninu sem hefur verið afturkallað.
-* Gildið í  **reitnum Magn til sendingar**  hækkar eftir því magni sem hefur verið afturkallað.
-*  **Gátreiturinn leiðrétting**  er valinn fyrir línurnar.
+* Gildið í reitnum **Afhent** magn er minnkað um það magn sem hefur verið afturkallað.
+* Gildið í reitnum **Magn til afhendingar** eykst um það magn sem hefur verið afturkallað.
+* Gátreiturinn **Leiðrétting** er valinn fyrir línurnar.
 
-Ef magnið var sent í vöruhúsaafhendingu er leiðréttingarlína stofnuð í bókuðu vöruhúsaafhendinguna.
+Ef magnið var afhent í vöruhúsaafhendingu er leiðréttingarlína stofnuð í bókuðu vöruhúsaafhendingunni.
 
-Til að ljúka leiðréttingu þarf að opna millifærslapöntunina, færa inn rétt magn og bóka pöntunina. Ef vöruhúsaafhending er notuð til að senda pöntunina, Stofnið og bókið nýja vöruhúsaafhendingu.
+Til að ljúka leiðréttingunni er millifærslupöntunin opnuð aftur, rétt magn fært inn og pöntunin síðan bókuð. Ef vöruhúsaafhending er notuð til að afhenda pöntunina skal stofna og bóka nýja vöruhúsaafhendingu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  

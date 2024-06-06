@@ -1,6 +1,6 @@
 ---
 title: Fara yfir fjárhagsreikninga
-description: Hægt er að rekja framvindu þegar upphæðir í fjárhagslykli eru yfirfara.
+description: Þú getur rakið framvinduna þegar þú skoðar upphæðir í fjárhagsreikningum.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
@@ -11,51 +11,51 @@ ms.search.form: '22207,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="review-amounts-in-general-ledger-accounts"></a>Fara yfir upphæðir í fjárhagslykli
+# Fara yfir upphæðir í fjárhagsreikningum
 
-Þú gætir átt almenna fjárhagslykla sem þú átt oft að fylgjast með. Eða ætla mætti að flýta endurskoðunarferlinu í lok mánaðarins. Til að auðvelda þér að fylgjast með því sem þú hefur gert, og til að flýta fyrir dómum, skaltu nota  **aðgerðina yfirfara færslur**  á  **bókhaldslykli**  eða  **síðu fjárhagsreikningsins**  fyrir hvern lykil. 
+Hugsanlega eru fjárhagsreikningar sem notandi hefur oft auga með. Einnig gæti þurft að flýta endurskoðunarferlinu í lok mánaðar. Til að fá aðstoð við að fylgjast með því sem þú hefur gert og til að flýta dómum skal nota aðgerðina **Fara yfir færslur** á síðunni **Bókhaldslykill** eða **Fjárhagsspjald** fyrir hvern reikning. 
 
-## <a name="set-up-accounts-for-reviews"></a>Setja upp lykla fyrir Umsagnir
+## Setja upp reikninga fyrir umsagnir
 
- **Á kortasíðu**  fjárhagsreikningsins fyrir hvern reikning er tilgreint hvernig eigi að leyfa Umsagnir í  **reitnum endurskoðunarstefna** .
+Á síðunni **Fjárhagsspjald** fyrir hvern reikning skal tilgreina hvernig hægt er að skoða umsagnir í reitnum Endurskoða **stefnu** .
 
-|Fara yfir reglu  |Description  |
+|Fara yfir reglu  |Heimildasamstæða  |
 |---------|---------|
-|Engin     | Ekki er hægt að merkja færslur fyrir lykilinn sem yfirfarnar. Til dæmis er þessi valkostur notaður fyrir lykla, svo sem skuldir, útistandandi og bankareikninga þar sem aðrar leiðir eru til að endurskoða upphæðir þeirra.        |
-|Leyfa yfirferð     | Ekki þarf að taka með færslur í yfirferð og upphæðir í debet-og kreditfærslum þurfa ekki að vera í jafnvægi. Þú fjarlægir umsögn, t.d. ef þú hefur gert mistök.        |
-|Leyfa yfirferð og að jafna stöðu     | Heildarupphæð debet-og kreditfærslna í endurskoðunni verður að samsvara.  **Debet**  -og  **kreditreitir**  Sýna þær upphæðir og  **reiturinn Staða**  sýnir heildina. Þessi stilling lætur einnig fjarlægja umsögn. Þegar endurskoðun er fjarlægð úr einni eða fleiri færslum verða debet-og kreditfærslur samt að vera jafnaðar.        |
+|Engin     | Ekki er hægt að merkja færslur reikningsins sem yfirfarið. Þessi valkostur er til dæmis notaður fyrir reikninga eins og safnreikninga, útistandandi reikninga og bankareikninga þar sem aðrar leiðir eru til að fara yfir upphæðir þeirra.        |
+|Leyfa yfirferð     | Ekki þarf að taka færslur með í endurskoðun og upphæðir debet- og kreditfærslna þurfa ekki að jafna. Þú fjarlægir endurskoðun, til dæmis ef þú hefur gert mistök.        |
+|Leyfa yfirferð og að jafna stöðu     | Heildarupphæðir debet- og kreditfærslna í endurskoðuninni verða að samsvara. Reitirnir Debet **og** Kredit **sýna upphæðirnar og í reitnum** Staða er samtalan **.**  Með þessari stillingu er einnig hægt að fjarlægja yfirferð. Þegar endurskoðun er fjarlægð úr einni eða fleiri færslum verða debet- og kreditfærslurnar enn að stemma.        |
 
-## <a name="mark-entries-as-reviewed"></a>Merkja færslur sem yfirfarnar
+## Merkja færslur sem endurskoðaðar
 
-Færslurnar sem þú skoðar eru valdar og Notaðu  **svo aðgerðina sem valin er sem yfirfara**  aðgerð. Í hvert sinn sem ein eða fleiri færslur eru merkt sem yfirfarið færslurnar er sama númerið í  **dálknum yfirfara kenni** . Umsögn auðkennis er handhæg leið til að halda utan um þær færslur sem skoðaðar voru á sama tíma. [!INCLUDE [prod_short](includes/prod_short.md)] skráir einnig notandann hver sá um skoðunin og hvenær þeir gerðu það.
+Veldu færslurnar sem þú hefur skoðað og notaðu **svo Setja valið sem yfirfarið** aðgerð. Í hvert sinn sem ein eða fleiri færslur eru merktar sem yfirfarnar fá færslurnar sama númer í dálknum **Yfirfarið kenni** . Kenni endurskoðunar er hentug leið til að fylgjast með færslunum sem voru endurskoðaðar samtímis. [!INCLUDE [prod_short](includes/prod_short.md)] skráir einnig notandann sem sá um endurskoðunina og hvenær hann gerði það.
 
-Ef þú merkir færslur sem skoðaðar en sérð eftir því að nota  **valið sem ekki er yfirfarið** .
+Ef færslur eru merktar sem yfirfarnar, en sé eftir því að gera það skal nota aðgerðina **Setja valið sem ekki yfirfarið** .
 
-* Ef endurskoðun leyfilega stefnu er úthlutuð reikningnum Endurstillir aðgerðin Endurskoðunin auðkenni á 0 og fjarlægir einstaklinginn og dagsetningu og tíma endurskoðunarinnar. 
-* Ef endurskoðun heimiluð og samsvörun stöðu er úthlutuð, þarf kredit-og debet að vera enn í jafnvægi. Til dæmis, ef ein færslan í endurskoðun er mistök er hægt að velja aðra færslu með réttu gildi. Skiptifærslan þarf ekki að hafa sama yfirfarið auðkenni.
+* Ef endurskoðaðri stefnu er úthlutað á reikninginn, endurstillir aðgerðin endurskoðað kenni á 0 og fjarlægir einstakling og dagsetningu og tíma endurskoðunar. 
+* Ef reglunni Yfirfara leyfða stöðu og samsvörun er úthlutað verður kredit- og debetið enn að stemma. Ef ein af færslunum í endurskoðuninni er til dæmis mistök er hægt að velja aðra færslu með réttu gildi. Skiptifærslan þarf ekki að hafa sama kennið yfirfarið.
 
 > [!TIP]
-> Fljótleg leið til að velja margar færslur er að halda niðri CTRL eða Shift á meðan þú velur færslurnar. CTRL leyfir að velja sérstakar færslur og Shift velur allar færslur á milli fyrstu og síðustu færslna sem valdar eru.
+> Fljótleg leið til að velja margar færslur er að halda niðri Ctrl eða Vakt á meðan færslurnar eru valin. Ctrl gerir kleift að velja tilteknar færslur og Vakt velur allar færslur milli fyrstu og síðustu færslnanna sem valdar eru.
 
-## <a name="review-accounts-that-have-old-entries"></a>Fara yfir reikninga sem eru með gamlar færslur
+## Fara yfir reikninga með gömlum færslum
 
-Þú gætir verið með færslur frá fyrri tímabilum sem þú hefur þegar yfirfarið eða þarft bara ekki að skoða. Þú vilt bara byrja að skoða færslur frá t.d. byrjun árs eða bókhaldstímabili. Hægt er að skilja færslurnar eftir eins og er. Hins vegar ef ætlunin er að greina gögn í Excel eða með því að nota greiningarham skal merkja færslurnar sem endurskoðaðar. Ef fræðast á um greiningu færslna er farið í  [greina færslur](#analyze-entries). Ef merkja á færslurnar sem yfirfarnar skal bæta við síu á síurúðunni til að birta aðeins þær færslur og velja  **síðan valið Mark færslur sem yfirfara**  aðgerðina.
+Hugsanlega eru færslur frá liðnu tímabili sem þegar er búið að endurskoða eða þarfnast ekki endurskoðunar. Notandi vill bara byrja að endurskoða færslur frá, til dæmis upphaf árs eða reikningstímabils. Hægt er að láta færslurnar eins og er. Eigi hinsvegar að greina gögn í Excel eða með því að nota greiningarham er færslurnar merktar sem yfirfarnar. Farið er í Greiningarfærslur til að [fræðast meira um greiningu færslna](#analyze-entries). Til að merkja færslurnar sem yfirfarnar er afmörkun bætt við á afmörkunarsvæðinu til að birta aðeins þær færslur og velja **svo Merkja valdar færslur sem yfirfarnar** aðgerð.
 
-## <a name="filter-entries"></a>Sía færslur
+## Afmarka færslur
 
-Til að fá skýrari mynd eru nokkrar leiðir til að afmarka færslur á  **síðunni yfirfara**  fjárhagsfærslur.
+Til að fá skýrari mynd eru nokkrar leiðir til að afmarka færslur á síðunni **Skoða fjárhagsfærslur** .
 
-*  **Nota sýninguna Sýna endurskoðaðar færslur**  og  **hylja endurskoðaðar færslur**  til að sýna aðeins færslurnar sem þú ert með eða hafa ekki yfirfarið. Til að hreinsa afmarkanirnar er aðgerðin Sýna allar færslur  **notaðar** .
-* Nota síurúðuna. Til dæmis er hægt að sía eftir lykilnúmeri eða eldri færslur og merkja þær allar sem endurskoðaðar, af bókunardagsetningu.
+* Nota aðgerðina **Sýna skoðaðar færslur** og **Fela yfirfarnar** færslur til að sýna aðeins þær færslur sem notandi hefur eða hefur ekki yfirfarið. Til að hreinsa afmarkanirnar skal nota aðgerðina **Sýna allar færslur** .
+* Nota skal afmörkunarsvæðið. Til dæmis er hægt að afmarka eftir reikningsnúmeri eða, ef um er að ræða eldri færslur og merkja þær allar sem yfirfarnar, með bókunardagsetningu.
 
-## <a name="analyze-entries"></a>Greina færslur
+## Greina færslur
 
-Nokkrar leiðir eru til að greina þær fjárhagsfærslur sem þú gagnrýnir.
+Það eru nokkrar leiðir til að greina fjárhagsfærslurnar sem hafa verið endurskoðaðar.
 
-* Kveikja skal greiningarham, til dæmis, til að flokka færslur eftir endurskoðandi auðkenni sínu. Til að fræðast meira um greiningarham er farið í að  [greina gögn listasíðunnar sem nota greiningarham](analysis-mode.md).
+* Kveikja á greiningarstillingu, til dæmis til að flokka færslur eftir kenni þeirra. Nánari upplýsingar um greiningarstillingu er farið í [Greiningarsíðugögn með greiningarstillingu](analysis-mode.md).
 * Flytja færslurnar út í Excel.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
-[Skilningur á fjárhag og bókhaldslyklum](finance-general-ledger.md)  
+[Öðlast skilning á fjárhagi og bókhaldslykli](finance-general-ledger.md)  
 [Setja upp eða breyta bókhaldslyklum](finance-setup-chart-accounts.md)  

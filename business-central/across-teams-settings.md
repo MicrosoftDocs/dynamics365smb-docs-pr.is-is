@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Breyta fyrirtæki og aðrar stillingar í Teams
+# Breyta fyrirtæki og aðrar stillingar í Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -22,11 +22,11 @@ Til eru tvær leiðir til að opna síðuna **Stillingar**: 1) úr skrifglugga s
 
     ![Stillingar fyrir Business Central úr skipanareit.](media/teams-settings-message-box.png)
 
-2. Úr skipunarkassanum efst, leita að  **@Business  miðbæ**, velja  **... (Fleiri Valkostir)**, veljið  **síðan Settings**.
+2. Úr skipanakassanum efst, leitaðu **@Business að Miðlægu**, veldu **... (Fleiri valkostir)**, síðan er valið **Stillingar**.
 
    ![Stillingar fyrir Business Central úr skrifglugga.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

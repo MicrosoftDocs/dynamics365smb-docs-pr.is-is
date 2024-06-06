@@ -7,4 +7,4 @@ ms.service: dynamics-365-business-central
 ---
 
 > [!NOTE]
-> Þegar þú afritar fyrirtæki sem notar SMTP-póstreikning til að senda tölvupóst er lykilorðið fyrir reikninginn ekki innifalið. Þú munt þurfa að færa lykilorðið á SMTP-Reikningssíða inn í nýja fyrirtækið.
+> Þegar þú afritar fyrirtæki sem notar SMTP tölvupóstreikning til að senda tölvupóst, er lykilorðið fyrir reikninginn ekki innifalið. Þú þarft að færa aðgangsorðið aftur inn á síðuna SMTP reikningur í nýja fyrirtækinu.

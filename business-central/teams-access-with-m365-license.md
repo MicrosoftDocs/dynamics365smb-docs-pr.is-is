@@ -1,6 +1,6 @@
 ---
-title: Aðgangur að gögnum í teymum án Aðalleyfis rekstraraðila
-description: 'Lærðu hvernig notendur geta fengið aðgang að Business miðlægu gögn í  Microsoft Teams  spjalli og rásum, með aðeins  Microsoft 365  leyfi en ekkert aðalleyfi fyrirtækja.'
+title: Aðgangur að gögnum í Teymi án Business Central Leyfi
+description: 'Læra hvernig notendur geta fengið aðgang að Business Central gögnum í Microsoft Teams spjall og rásum, með aðeins Microsoft 365 leyfi, en ekkert Business Central leyfi.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -11,18 +11,18 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="access-data-in-teams-without-business-central-license"></a>Aðgangur að gögnum í teymum án Aðalleyfis rekstraraðila
+# Aðgangur að gögnum í Teymi án Business Central Leyfi
 
-[!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað leyfi sem gerir þeim kleift að skoða, breyta og vinna úr  Dynamics 365 Business Central  viðskipagögnum sínum innan teyma. Þessir notendur geta unnið saman að gögnum með því að samnýta færslur í spjall eða rásir eða bætt við flipum sem sýna færslur. Hins vegar geta verið aðrir starfsmenn þvert á skipulagið sem ekki hafa fengið miðlægt leyfi en gætu gagnast með því að geta skoðað gögn í teymum. Fyrir þessa notendur  [!INCLUDE[prod_short](includes/prod_short.md)]  býður takmarkaður aðgangur í gegnum aðeins leyfin sín Microsoft 365 .  
+[!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað Dynamics 365 Business Central leyfi sem gerir þeim kleift að skoða, breyta og bregðast við viðskiptagögnum sínum innan Teymis. Þessir notendur geta unnið með gögnum með því að deila færslum í spjall eða rásir eða bæta við flipum sem sýna færslur. Hins vegar geta verið aðrir starfsmenn innan fyrirtækisins sem hafa ekki Business Central leyfi en gætu haft gagn af því að geta skoðað gögn í Teams. Fyrir þessa notendur [!INCLUDE[prod_short](includes/prod_short.md)]  býður hann takmarkaðan aðgang með leyfum sínum Microsoft 365 eingöngu.  
 
-Kerfisstjóri getur samskipað umhverfi til að virkja aðgang með  Microsoft 365  leyfum. Síðan er hægt að velja nákvæmlega hvaða töflur og aðrir hlutir þessi flokkur notanda mun hafa aðgang að. Þegar búið  Microsoft 365  er að samskipa þurfa starfsmenn sem eru með leyfi en enginn aðalleyfishafi í viðskiptum, að skoða miðlægu færslur fyrirtækja sem eru samnýtt með þeim í  Microsoft Teams  spjalli og rásum.
+Sem kerfisstjóri er hægt að grunnstilla umhverfi til að veita aðgang að Microsoft 365 leyfum. Síðan er hægt að velja nákvæmlega hvaða töflur og aðrir hlutir þessi flokkur notanda fær aðgang að. Þegar grunnstillt hafa starfsmenn sem hafa Microsoft 365 leyfi, en ekkert Business Central leyfi, getur skoðað Business Central færslur sem eru deilt með þeim í Microsoft Teams spjalli og rásum.
 
-Til að fræðast meira um aðgang með  Microsoft 365  leyfum er farið í miðborg Business aðgangur með  [leyfi  Microsoft 365  og](admin-access-with-m365-license.md)  aðgangur  [að  Microsoft 365  leyfum FAQ](admin-access-with-m365-license-faq.md).
+Til að fræðast meira um aðgang með Microsoft 365 leyfi skal fara í [Business Central Access með Microsoft 365 leyfi](admin-access-with-m365-license.md) og [aðgangi með Microsoft 365 eignaspurnum](admin-access-with-m365-license-faq.md) leyfi.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
-[Setja upp miðlægu aðgengi fyrir fyrirtæki í teymum með  Microsoft 365  leyfi](admin-access-with-m365-license-setup.md)  
+[Setja upp Business Central aðgang í teymum með Microsoft 365 leyfi](admin-access-with-m365-license-setup.md)  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Úrræðaleita aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-troubleshooting.md)  

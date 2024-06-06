@@ -11,15 +11,15 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-"></a>Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
+# Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Í þessari grein er að finna yfirlit yfir það sem hægt er að gera sem stjórnandi til að stýra Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>Eftir Microsoft Teams
+## Eftir Microsoft Teams
 
-### <a name="minimum-requirements"></a>Lágmarkskröfur
+### Lágmarkskröfur
 
 Í þessum hluta er lýst lágmarkskröfum til að eiginleikar [!INCLUDE [prod_short](includes/prod_short.md)]-forritsins virki í Teams.
 
@@ -42,7 +42,7 @@ ms.service: dynamics-365-business-central
 
     Það verður að vera kveikt á reglustillingunni **Leyfa forskoðanir vefslóða**. Annars verður ekki hægt að búa til spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-tengla sem límdir eru í samtal í Teams. Frekari upplýsingar um þessa stillingur er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the--app-optional"></a>Að stjórna [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu (valfrjálst)
+### Að stjórna [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu (valfrjálst)
 
 Sem stjórnandi í Teams er hægt að stjórna öllum forritum fyrir fyrirtækið, þ.m.t. [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu. Hægt er að samþykkja eða setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir fyrirtækið þitt, útiloka notanda frá því að setja upp forritið og fleira.
 
@@ -51,9 +51,9 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 - [Stjórna forritunum í Microsoft Teams stjórnendamiðstöðinni](/MicrosoftTeams/manage-apps)
 - [Stjórna uppsetningarreglum forrits í Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-"></a>Eftir [!INCLUDE [prod_short](includes/prod_short.md)]
+## Eftir [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements-1"></a>Lágmarkskröfur
+### Lágmarkskröfur
 
 - útgáfa [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -75,14 +75,14 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
     
     Frekari upplýsingar um heimildir er að finna í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Setja upp Business Central-forritið með miðlægri innleiðingu
+## Setja upp Business Central-forritið með miðlægri innleiðingu
 
 Í Microsoft Teams stjórnendamiðstöðinni eru uppsetningarreglur Teams skilgreindar fyrir fyrirtækið. Í stjórnendamiðstöð Teams getur þú notað eiginleika miðlægrar innleiðingar til að setja sjálfkrafa upp Business Central-forritið í Teams fyrir alla notendur í fyrirtækinu, tilteknum hópum eða einstaka notendum.
 
 > [!NOTE]
 > Til að setja upp miðlæga innleiðingu verður Teams-reikningurinn þinn að vera með hlutverkið **Stjórnandi Teams Service** eða **Altækur stjórnandi**.
 
-1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Eða veljið  [hér](https://businesscentral.dynamics.com/?page=1833)  til að opna beint síðuna.
+1. Í Business Central skal velja ![Stækkunargler sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") fara í **Miðlæg innleiðing Teams** og velja síðan viðkomandi tengil. Einnig er hægt að velja [hér](https://businesscentral.dynamics.com/?page=1833) til að opna síðuna beint.
 2. Lestu upplýsingarnar í **Setja upp Business Central-forritið fyrir Teams**, veldu síðan **Næsta**.
 3. Opnaðu [Stjórnendamiðstöð Teams](https://go.microsoft.com/fwlink/?linkid=2163970) og ljúktu eftirfarandi skrefum.
     1. Farðu í **Forrit Teams** > **Reglur uppsetningar**.
@@ -91,26 +91,26 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
     4. Veljið **Bæta við**.
 
        Business Central ætti nú að birtast undir **Uppsett forrit** fyrir regluna.
-    5. Samskipa fleiri stillingum eftir þörfum og velja  **síðan Save**.
+    5. Grunnstilla fleiri stillingar eftir þörfum og velja **svo Vista**.
 
     Frekari upplýsingar um reglur uppsetningar í Teams er að finna í [Stjórna uppsetningarreglum forrits í Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) í fylgigögnum Teams.
-4. Fara aftur til  **teyma App miðlægt innleiðing**  í viðskiptafræði miðlægt og valið  **gert**.
+4. Farðu aftur í **Teams App Centralized Deployment** í Business Central og veldu **Done**.
 
 > [!IMPORTANT]
 > Það getur tekið allt að sólarhring að setja upp reglu uppsetningar fyrir forritið og innleiða forritið hjá notendum.
 
-## <a name="managing-privacy-and-compliance"></a>Umsjón með persónuvernd og reglufylgni
+## Umsjón með persónuvernd og reglufylgni 
 
 Microsoft Teams býður upp á víðtæka stjórnun fyrir reglufylgni og umsjón með viðkvæmum eða persónugreinanlegum gögnum&mdash;þar á meðal gögnum sem bætt er við spjall og rásir af [!INCLUDE [prod_short](includes/prod_short.md)]-forritinu.
 
-### <a name="understanding-where--cards-are-stored"></a>Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd
+### Að skilja hvar [!INCLUDE [prod_short](includes/prod_short.md)]-spjöld eru geymd
 
 Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu afritaðir í Teams. Þessar upplýsingar heyra undir reglur Teams fyrir fyrirtækið þitt, svo sem reglur um gagnavarðveislu. Þegar upplýsingar spjalds birtast eru engin gögn í uppplýsingaglugganum geymd í Teams. Gögnin eru áfram geymd í [!INCLUDE [prod_short](includes/prod_short.md)] og verða aðeins sótt af Teams þegar notandinn velur að skoða upplýsingarnar. 
 
 - Frekari upplýsingar um hvar Teams geymir þessi gögn er að finna í [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Frekari upplýsingar um varðveislureglur í Teams er að finna í [Varðveislureglur í Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Takmörkun á deilingu spjalda
+### Takmörkun á deilingu spjalda 
 
 Þú kemur í veg fyrir að ákveðnir notendur eða hópar sendi spjöld á spjall eða rásir með því að setja upp reglu um skilaboð sem slekkur á stillingunni **Forskoðun vefslóða**. Frekari upplýsingar um þessa stillingur er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -118,7 +118,7 @@ Einnig er hægt að nota upplýsingatálma til að koma í veg fyrir að einstak
 
 Eiginleika gagnatapsvarnar í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega fyrir spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Bregðast við gagnabeiðnum
+### Bregðast við gagnabeiðnum
 
 Hægt er að leyfa teymismeðlimum og eigendum hópa að eyða skilaboðum sem innihalda viðkvæm spjöld með því að setja upp skilaboðareglur eins og: **Eigendur geta eytt sendum skilaboðum** og **Notendur geta eytt sendum skilaboð**. Frekari upplýsingar er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -126,26 +126,26 @@ Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðst�
 
 Þar sem gögn spjalds í Teams er afrit af gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] er einnig hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)]-eiginleika til að flytja út gögn viðskiptamanna ef þess er óskað. Frekari upplýsingar um persónuvernd í [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Algengar spurningar um persónuvernd fyrir viðskiptamenn Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="show-or-hide-record-data-on-cards"></a>Sýna eða fela færslugögn á kortum
+## Sýna eða fela færslugögn á spjöldum
 
-Þegar skrá er samnýtt með öðrum í teymum spjall eða rás er spjald með reitum sem geymir gögn um færsluna birt. Allir viðtakendur geta skoðað þessi gögn (eða skráð yfirlit) að sjálfgefnu óháð leyfi þeirra eða aðgangsheimildir í Viðskiptamiðinu. Ef þú ert admin þá getur þú notað  **Spjaldstillingarnar**  aðstoðar-leiðbeiningar til að fela færsluyfirlitið frá því að birtast á kortum í teymum. Felur færslusamantektina fjarlægir öll svæði og myndir en heldur áfram að sýna  **hnappinn upplýsingar**  og aðrar upplýsingar sem ekki eru á skrá á spjaldinu.
+Þegar færslu er deilt með öðrum á teymisspjalli eða rás birtist spjald með reitum sem innihalda gögn um færsluna. Allir viðtakendur geta sjálfgefið skoðað þessi gögn (eða færsluyfirlit) óháð leyfi þeirra eða heimildum í Business Central. Ef þú ert stjórnandi getur þú notað leiðsagnarforritið **Card Settings** með hjálp til að fela færsluyfirlitið frá því að birtast á spjöldum í Teymum. Ef færsluyfirlitið er falið fjarlægir það alla reiti og myndir en birtir hnappinn **Upplýsingar og aðrar upplýsingar sem ekki eru skráðar** á spjaldið.
 
-|Skrá samantekt á|Samantekt færslu|
+|Færsluyfirlit á|Færsluyfirlit óvirkt|
 |-|-|
-|![Mynd sem sýnir spjald í teymum þegar kveikt er á færslunni summery.](media/card-settings-example-on.png)|![Mynd sem sýnir spjald í teymum þegar slökkt er á færslunni summery.](media/card-settings-example-off.png)|
+|![Mynd sem sýnir spjald í Teams þegar kveikt er á færslunni í sumar.](media/card-settings-example-on.png)|![Mynd sem sýnir spjald í Teams þegar slökkt er á færslunni í sumar.](media/card-settings-example-off.png)|
 
-Stillingum er samskipað fyrir hvert umhverfi. Svo þegar þú kveikir á plötusamantektinni á eða við það hefur það áhrif á öll fyrirtæki í umhverfinu.
+Stillingin er stillt á hvert umhverfi. Þegar færsluyfirlitið er kveikt eða slökkt hefur það áhrif á öll fyrirtæki í umhverfinu.
 
-1. Í viðskiptafræði miðsvæðis, opið umhverfi sem á að breyta.
+1. Í Business Central er umhverfið opnað sem á að breyta.
 
    > [!TIP]
-   > Til að skipta um umhverfi velurðu  <kbd>CTRL</kbd>+<kbd>O</kbd>.
-2.  ![Veldu stækkunarglerið sem opnar aðgerðina segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið, Sláðu inn  **stillingar** korts og veldu svo tengda tengilinn. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
-3. Lestu upplýsingarnar á  **Kortastillingum**, Veldu  **svo Next**  þegar tilbúnar.
-4.  **Á síðunni Sýnileiki**  gagna er kveikt á  **yfirlitrofi**  Sýna skrá til að birta gögn á spilunum eða slökkva á gögnunum.
-5. Veldu  **Next**  og fylgdu leiðbeiningunum til að ljúka við Uppsetningarleiðbeiningarnar.
+   > Til að skipta um umhverfi er Ctrl <kbd>O</kbd>+<kbd>valið</kbd>.
+2.  ![Veldu Stækkunarglerið sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **spjaldstillingar** og velja síðan viðeigandi tengil. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Upplýsingarnar um **spjaldstillingarnar** eru lesnar og Næst **valið þegar það er** tilbúið.
+4. Á síðunni **Gagnasýni** skal kveikja á rofanum **Sýna færsluyfirlit** til að birta gögn á spjöldunum eða slökkva á þeim til að fela gögnin.
+5. Valið er **Áfram** og leiðbeiningum fylgt til að ljúka leiðsagnarforritinu um uppsetningu.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

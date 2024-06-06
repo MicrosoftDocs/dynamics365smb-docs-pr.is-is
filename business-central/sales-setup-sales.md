@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Uppsetning sölu
+# Uppsetning sölu
 
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
 
@@ -32,9 +32,9 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Skilgreindu mismunandi inco-skilmála sem þú býður viðskiptamönnum upp á eða þá sem lánardrottnar þínir bjóða þér.|[Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)|
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
-|Tilgreinið hvort notendum sé heimilt að bóka sölureikninga og hvort þeir verði að bóka þá ásamt sendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
+|Tilgreina skal hvort notendum er heimilt að bóka sölureikninga og hvort þeir verði að bóka þá ásamt afhendingu. |[Skilgreina bókunarreglu reiknings fyrir notendur](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

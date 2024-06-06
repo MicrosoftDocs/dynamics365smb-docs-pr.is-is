@@ -10,7 +10,7 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
+# Tína vörur fyrir vöruhúsaafhendingu
 
 Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru tíndar og afhentar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
 
@@ -39,11 +39,11 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 >  
 > Nánari upplýsingar um tínslu íhluta fyrir samsetningarpantanir, þar á meðal aðstæður þar sem samsetningarvörur tengjast ekki söluafhendingu, er farið [í Tína fyrir framleiðslu, samsetningu eða Verk í ítarlegri vöruhúsagrunnstillingu](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kanna hvort vörur séu tiltækar til tínslu
+## Kanna hvort vörur séu tiltækar til tínslu
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Tínsluskjöl stofnuð með tínsluvinnublaðinu
+## Tínsluskjöl stofnuð með tínsluvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað tínslu** og velja síðan viðkomandi tengil.  
 
@@ -93,7 +93,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 8. Velja **Í lagi**. [!INCLUDE [prod_short](includes/prod_short.md)] tínslan er stofnuð eftir því sem valið er.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Vörur tíndar fyrir vöruhúsaafhendingu
+## Vörur tíndar fyrir vöruhúsaafhendingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsatínslur** og velja síðan viðkomandi tengil.  
 
@@ -123,7 +123,7 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni. Tínslur eru hluti 
 
 Nú er hægt að koma vörunum í afhendingarbryggjuna og bóka afhendinguna, þar á meðal viðkomandi upprunaskjal, á síðunni **Vöruhúsaafhending** . Nánari upplýsingar um [afhenda vörur](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 - [Stjórna birgðum](inventory-manage-inventory.md)  

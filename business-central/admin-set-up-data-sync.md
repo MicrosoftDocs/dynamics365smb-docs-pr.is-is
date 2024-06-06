@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data"></a>Tilbúinn til að samstilla aðalgögn
+# Tilbúinn til að samstilla aðalgögn
 
 Þegar tvö eða fleiri fyrirtæki nota nokkur af sömu aðalgögnum er hægt að samstilla gögnin frekar en að bæta þeim handvirkt við hvert fyrirtæki. Samstilling gagna er til dæmis gagnleg þegar verið er að setja upp ný dótturfyrirtæki.
 
@@ -25,14 +25,14 @@ Aðalgögn innihalda stillingar og upplýsingar sem ekki eru viðskiptalegar um 
 
 Samstilling er sett upp í dótturfyrirtækjunum. Með því að nota togalíkan eru dótturfyrirtæki að draga gögnin frá upprunafyrirtækinu sem þau þurfa að eiga viðskipti við. Þegar búið er að setja upp samstillingu og samstilla gögn í fyrsta skipti eru öll stillt. Verkraðarfærslur uppfæra paraðar færslur í dótturfyrirtækjunum þegar einhver breytir gögnum í upprunafyrirtækinu.
 
-## <a name="uni-directional-synchronization-only"></a>Eingöngu samstilling í stefnu
+## Eingöngu samstilling í stefnu
 
 Aðeins er hægt að samstilla gögn frá upprunafyrirtækinu við dótturfyrirtækin á toga í tísku. Dótturfyrirtæki geta ekki ýtt gögnum til upprunafyrirtækisins.
 
 > [!NOTE]
 > Þó það sé mögulegt er ekki mælt með því að sett sé upp tvístefnusamstilling. Það er að samstilla gögn frá upprunafyrirtækinu við dótturfyrirtækin og frá dótturfyrirtækjum til upprunafyrirtækisins. Samstilling gagna í báðar áttir getur leitt til árekstra eða óumbeðinna skrifara.
 
-## <a name="before-you-start"></a>Verður að byrja fyrir
+## Verður að byrja fyrir
 
 Eftirfarandi eru þarfir til að setja upp samstillingu.
 
@@ -42,7 +42,7 @@ Eftirfarandi eru þarfir til að setja upp samstillingu.
 > [!NOTE]
 > Meðlimur teymismeðlims og innri kerfisstjóra er hægt að opna en ekki breyta færslum svo ekki sé hægt að nota þær til að setja upp samstillinguna. Úthlutuð stjórnunarskírteini leyfir ekki tímasetningu bakgrunnsverka, svo ekki er hægt að ljúka uppsetningunni.
 
-## <a name="specify-the-source-company"></a>Tilgreina upprunafyrirtækið
+## Tilgreina upprunafyrirtækið
 
 Fyrstu skrefin eru að tilgreina fyrirtækið sem verður gagnagjafinn og gera samstillingu virka. Dótturfyrirtæki draga gögn frá upprunafyrirtækinu.
 
@@ -56,7 +56,7 @@ Fyrstu skrefin eru að tilgreina fyrirtækið sem verður gagnagjafinn og gera s
 
 Næsta skref er að virkja töflur og reiti fyrir samstillingu.
 
-## <a name="enable-or-disable-tables-and-fields"></a>Gera töflur og svæði virk eða óvirk
+## Gera töflur og svæði virk eða óvirk
 
 Til að spara tíma birtir [!INCLUDE [prod_short](includes/prod_short.md)]  listi yfir töflur sem fyrirtæki samstilla oft. Töflurnar eru sjálfgefið virkar fyrir samstillingu. Hægt er að breyta, gera þær óvirkar eða eyða þeim eftir hentugleika. Sem aukatímasparnaður eru sumir reitir í töflunum þegar óvirkir þar sem þeir eiga líklega ekki við um dótturfyrirtækið.
 
@@ -78,7 +78,7 @@ Til að spara tíma birtir [!INCLUDE [prod_short](includes/prod_short.md)]  list
 > [!TIP]
 > Fljótleg leið til að gera marga reiti virka eða óvirka samtímis er að velja þá á listanum og nota annaðhvort **aðgerðirnar Gera virka** eða **óvirka** .
 
-### <a name="use-match-based-coupling"></a>Nota samsvörunarmiðaða jöfnun
+### Nota samsvörunarmiðaða jöfnun
 
 Hægt er að tilgreina gögnin sem á að samstilla fyrir töflu með því að samsvara færslum sem byggjast á skilyrðum. Á síðunni **Aðalgagnastjórnunargrunnur** skal velja aðgerðina **Samsvörun afsláttar** til að opna **síðuna Velja afsláttarskilyrði** . Hægt er að skilgreina eftirfarandi skilyrði fyrir samsvörun:
 
@@ -87,7 +87,7 @@ Hægt er að tilgreina gögnin sem á að samstilla fyrir töflu með því að 
 * Reitirnir sem nota á til að passa við færslur og hvort samsvörunin sé háð hástöfum.
 * Forgangsraða röðinni þar sem leitað er að færslum með því að tilgreina samsvörunarforgang. [!INCLUDE [prod_short](includes/prod_short.md)] leitar að samsvörun í hækkandi röð eftir samsvörunarforgangi. Autt gildi er forgangur 0 sem er mesti forgangurinn. Reitir með 0 forgang eru fyrst teknir til greina.
 
-## <a name="synchronize-for-the-first-time"></a>Samstilla í fyrsta skipti
+## Samstilla í fyrsta skipti
 
 Þegar notandi er tilbúinn skal velja aðgerðina Hefja samstillingu **á síðunni** Uppsetning aðalgagnastjórnunar **.**  Á síðunni **Samstilling** aðalgagna er valin sú tegund samstillingar sem á að nota fyrir hverja töflu.
 
@@ -106,9 +106,9 @@ Hægt er að tilgreina gögnin sem á að samstilla fyrir töflu með því að 
 
 Til að fá aðgang að upplýsingum, svo sem fjölda færslna sem er sett inn eða þeim breytt, skal velja gildið í dálknum **Staða** verks til að opna **síðuna Skoða - Samstillingarsamstillingarverk** . Fyrir færslur sem settar voru inn er hægt að velja númerið í dálknum **Sett inn** til að fá aðgang að nánari upplýsingum um nýju færslurnar.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Bæta við eða eyða töflum af lista samstillingartöflu
+## Bæta við eða eyða töflum af lista samstillingartöflu
 
-### <a name="add-a-table"></a>Bæta við töflu
+### Bæta við töflu
 
 > [!IMPORTANT]
 > Þó svo að töflur með færslugögnum séu tiltækar á listanum, svo sem töflur með færslum, ætti ekki að velja þær. Samstilling virkar aðeins fyrir töflur sem innihalda gögn sem ekki eru í færslum.
@@ -117,7 +117,7 @@ Til að fá aðgang að upplýsingum, svo sem fjölda færslna sem er sett inn e
 1. Velja skal **Nýtt** og velja svo töfluna sem á að bæta við.
 1. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table"></a>Eyða töflu
+### Eyða töflu
 
 > [!NOTE]
 > Ef færslu er eytt í upprunafyrirtækinu er henni ekki heldur eytt í dótturfyrirtækinu. Þetta hjálpar til við að koma í veg fyrir óæskilegt gagnatap. Dótturfyrirtækið getur ákveðið að eyða töflunni ef það vill.
@@ -125,10 +125,10 @@ Til að fá aðgang að upplýsingum, svo sem fjölda færslna sem er sett inn e
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **samstillingartöflur** og velja síðan viðeigandi tengil.
 1. Velja skal aðgerðina **Eyða**.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Nota út- og innflutning til að samnýta samstillingaruppsetningu
+## Nota út- og innflutning til að samnýta samstillingaruppsetningu
 
 Ef verið er að setja upp nokkur dótturfyrirtæki sem nota sömu eða svipaðar samstillingarstillingar þá er til tímasparnaður. Setja upp eitt dótturfyrirtæki og flytja uppsetningu þess út í .xml skrá. Skráin inniheldur alla uppsetninguna, þar á meðal töflu- og reitavörpun og afmörkunarskilyrði. Síðan er hægt að flytja skrána inn í næsta dótturfyrirtæki. Til að flytja uppsetningu inn eða út er á síðunni Aðalgagnastjórnunargrunnur **notaðu** aðgerðirnar Flytja inn **eða** út **.** 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna samstillingu aðalgagna](admin-sync-master-data.md)

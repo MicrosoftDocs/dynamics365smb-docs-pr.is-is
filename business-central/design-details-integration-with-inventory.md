@@ -9,11 +9,11 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-integration-with-inventory"></a>Hönnunarupplýsingar: Sameining með birgðum
+# Hönnunarupplýsingar: Sameining með birgðum
 
-Vöruhúsastjórnun og birgðaaðgerðir eru samskipti við eitt annað í efnislegum birgðum og í birgðum eða leiðréttingu vöruhúss.  
+Vöruhúsakerfi og birgðaaðgerðir hafa samskipti við aðra í raunbirgðum og birgða- eða vöruhúsaleiðréttingum.  
 
-## <a name="physical-inventory"></a>Efnislegar birgðir
+## Raunbirgðir  
 
 Síðan **Vöruh. - raunbirgðabók** er notaður með glugganum **Raunbirgðabók** fyrir allar ítarlegar staðsetningar vöruhúss. Birgðir á hólfastigi eru reiknaðar úr og útprentaður listi afhendur starfsmanni vöruhúss. Listinn sýnir hvaða vörur í hvaða hólfum þarf að telja.  
   
@@ -29,7 +29,7 @@ Ef talið magn er minna en magnið á færslubókarlínunni er hreyfing fyrir þ
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a>Vöruhúsaleiðréttingar í birgðahöfuðbók
+## Vöruhúsaleiðréttingar í birgðahöfuðbók  
 
 Síðan **birgðabók** og aðgerðin **Reikna vöruhúsaleiðréttingu** er notuð til að jafna birgðir í birgðabók samkvæmt leiðréttingu sem hefur verið gerð á birgðamagni í vöruhúsahólfi. Til að búa til tengil á milli birgða og vöruhúss, verður þú að skilgreina aðlögun sjálfgefið hólf á staðsetningu.  
   
@@ -38,11 +38,11 @@ Sjálfgefið leiðréttingarhólf skráir vörur í vöruhús þegar birgðaaukn
 > [!NOTE]  
 > Birgðaútreikningar innihalda ekki leiðréttingarhólfið.  
   
-Ef stilla á hólfainnihaldinu er notuð vöruhúsabók þar sem hægt er að færa inn vörunúmer, svæðiskóta, hólfakóta og magn til að leiðrétta.  
+Til að leiðrétta innihald hólfs er birgðabók vöruhúss notuð þar sem hægt er að færa inn vörunúmer, svæðiskóta, hólfakóta og magn til leiðréttingar.  
   
 Ef jákvætt magn er slegið inn og línan bókuð aukast birgðir sem geymdar eru í hólfinu og magnið í sjálfgefna leiðréttingarhólfinu minnkar að sama skapi.  
   
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)  
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)  

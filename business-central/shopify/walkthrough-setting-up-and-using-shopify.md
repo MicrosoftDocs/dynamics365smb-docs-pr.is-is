@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Kynning: Uppsetning og notkun Shopify Connector
+# Kynning: Uppsetning og notkun Shopify Connector
 
 Þessi hluti sýnir nokkur dæmigerð atburðarás og tekur notandann í gegnum skrefin til að prófa eða þjálfa notendur á vinnuflæði samþættra [!INCLUDE[prod_short](../includes/prod_short.md)] og verslunarinnar Shopify .
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Þú verður að vera með:
 
@@ -25,13 +25,13 @@ ms.author: bholtorf
 
 Fræðast meira um hvernig á að búa til Shopify prufur og ráðlagðar stillingar í [Stofna og setja upp Shopify reikning](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Þú verður að vera með [!INCLUDE[prod_short](../includes/prod_short.md)] reikning. 
 
 Til dæmis er hægt að búa til prufureikning eða hefja prufu. Nánari upplýsingar um [útbúa sýningaumhverfi og Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment)  [skráðu þig fyrir réttarhöldunum](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Tengja Business Central við verkstæðið Shopify
+## Tengja Business Central við verkstæðið Shopify 
 
 Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
 
@@ -62,13 +62,13 @@ Grunnstilla birgðageymsluvörpun:
 3. Fært er inn **í** Birgðageymsluafmörkun `''|EAST|MAIN`.
 4. Valið er *Áætluð staða til ráðstöfunar í dag* í reitnum **Birgðaútreikningur** til að virkja samstillingu birgða fyrir tiltekna Shopify birgðageymslu.
 
-## <a name="walkthrough-start-selling-products-online"></a>Kynning: Byrjaðu að selja vörur á netinu
+## Kynning: Byrjaðu að selja vörur á netinu
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður
 
 Segjum að þú viljir reyna Shopify að netverslun án þess að eyða miklum tíma í [!INCLUDE[prod_short](../includes/prod_short.md)] uppsetningu, sérstaklega vegna þess að þú ert þegar með vörurnar þínar rétt. Eftir að þú opnar netverslun þína Shopify færðu strax nýja viðskiptavini sem eru ánægðir með verslunina þína og kaup reynslu sína. Þeir ákveða því að gefa ráð við skoðun.
 
-### <a name="steps"></a>Skref
+### Skref
 
 Í [!INCLUDE[prod_short](../includes/prod_short.md)] skal fylgja eftirfarandi skrefum:
 
@@ -117,7 +117,7 @@ Innflutt pöntun er tilbúin til vinnslu.
 2. Takið eftir að nýr viðskiptamaður og sölupantanir eru stofnaðar.
 3. Skoða aðgerðirnar **Áhætta** og **Flutningskostnaður** .
 4.  **Sölupöntun er valin** til að opna **gluggann Sölupöntun** . Sölupöntun er eftirspurn sem hægt er að ná yfir samsetningu, framleiðslu eða með því að kaupa með hjálp áætlunarvélarinnar. Hann styður einnig ýmsa meðhöndlunarferli vöruhúsa með fullkomnum aðskilnaði á skyldum.
-6. Fært er inn **í reitinn** Umboðsmaður `DHL`. Enduropna pöntun ef þörf krefur með því að **velja Enduropna** aðgerð.
+6. Fært er inn í reitinn **Umboðsmaður**  `DHL`. Enduropna pöntun ef þörf krefur með því að **velja Enduropna** aðgerð.
 7. Í reitinn **Leitarnr.** sendingar er fært inn `123456789`.
 8. Velja skal **Bóka**, halda kostinum **Afhenda og reikningsfæra** og velja **síðan Í lagi**.
 
@@ -128,13 +128,13 @@ Nú eru efnisleg og fjárhagsleg gögn skráð inn [!INCLUDE[prod_short](../incl
 
 Í **Shopify Stjórnanda** er bent á að pöntunin er merkt sem *Uppfyllt*. Einnig er hægt að skoða afhendingarupplýsingar og skoða rakningarslóðina þar. Ef samstilltar pantanir eru keyrðar **aftur Shopify** verður pöntunin geymd í báðum kerfum.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Kynning: Bæta viðskiptamönnum við nýja netverslun
+## Kynning: Bæta viðskiptamönnum við nýja netverslun
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður
 
 Eftir árangursríka gangsetningu á nýju netversluninni þinni, viltu að núverandi viðskiptavinir heimsækja hana og byrja að setja pantanir. Allt eftir Shopify áætlun og vinnslu er hægt að prófa B2B og DTC flæði.
 
-### <a name="dtc-steps"></a>DTC-þrep
+### DTC-þrep
 
 Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
 
@@ -146,7 +146,7 @@ Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
 
 Í **Shopify Admin** er bent á að viðskiptavinurinn var fluttur inn. Viðskiptamennirnir eru opnaðir og takið eftir að fyrstu og eftirheiti viðskiptamannsins koma úr reitnum **Nafn** tengiliðar í spjaldi **viðskiptamanns**. Heiti fyrirtækisins má finna á sjálfgefnu aðsetri sem tengt er viðskiptamanninum. Ef hefðbundnir viðskiptamannareikningar eru notaðir *er* hægt að velja **Senda reikningaboð** til að bjóða viðskiptamanninum. Með *nýjum viðskiptavinareikningum* er lykilorð ekki krafist fyrir viðskiptamenn til að skrá sig inn, þess í stað Shopify gerir viðskiptavinum þínum kleift að skrá sig inn með 6 stafa sannprófunarkóða sem sendur er með tölvupósti. 
 
-### <a name="b2b-steps"></a>B2B-þrep
+### B2B-þrep
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -160,13 +160,13 @@ Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
 
 Í **Shopify Admin** er bent á að bæði fyrirtækið og viðskiptamaðurinn voru flutt inn. Opnið viðskiptamennina og takið eftir staðreyndareitnum Fyrirtæki með tengil á Fyrirtæki, staðsetningu og úthlutaðar heimildir. Velja **[...]** í reitnum ** Copmany staðreynd, veljið **svo Senda B2B aðgangspóst** til að bjóða viðskiptavininum.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Kynning: Fínjöfnun vörustjórnunar
+## Kynning: Fínjöfnun vörustjórnunar
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður 
 
 Notandi vill bæta við sveigjanleika og stjórna ferlinu í kringum stjórnun vara. Bæta á vörulýsingar og bæta við fleiri skrefum áður en vörur verða tiltækar öllum viðskiptavinum.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
 Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
 
@@ -182,7 +182,7 @@ Undirbúa gögn.
 7. Veljið aðgerðina **Markaðssetningartexti** og notaðu **Uppkast með Copilot**  til að fá skapandi og þátttökutexta. Ef tillaga um markaðssetningartexta er ekki virk skal slá inn: '**Einfalt stílhrein hönnun** blandast við nokkurn ensemble. *Fáanlegt í tveimur útgáfum.*'. 
 8. Aðgerðin **Söluverð er** valin og nýju verði bætt við eins og sýnt er í eftirfarandi töflu:
 
-   |Línurit|Tegund sölu|kóði sölu|Gerð|kóði|Afbrigðiskóði<br>(reitnum bætt við með sérstillingu)|Einingarverð|
+   |Línurit|Tegund sölu|Kóði sölu|Gerð|Kóði|Afbrigðiskóði<br>(reitnum bætt við með sérstillingu)|Einingarverð|
    |------|------------|------------|------------|----------------|------------|------------|
    |1|Verðflokkur viðskiptamanns|SHOPIFY|Atriði|1896-S|NAUÐSYNLEGT|700|
    |2|Verðflokkur viðskiptamanns|SHOPIFY|Atriði|1896-S|AUKAGJALD|1000|
@@ -232,7 +232,7 @@ Keyra samstillinguna.
 
 Vörum er bætt við. Takið eftir að staðan er stillt á *Drög* og því eru vörur ekki sýnilegar í Shopify netversluninni.
 
-1. Línan með vöru *1920-S, ANTWERP conference Table* er valin. Færið **inn** í SEO-titilinn `Rectangular meeting table Antwerp, 10 seats, black`.
+1. Línan með vöru *1920-S, ANTWERP conference Table er valin*. Færið **inn** í SEO-titilinn `Rectangular meeting table Antwerp, 10 seats, black`.
 2. Valið er *Virkt* í reitnum **Staða** .
 3. Línan með vöru *1906-S, ATHENS, Mobile Stedestal* er valin og Eyða valið. **·**
 
@@ -251,7 +251,7 @@ Takið eftir að Birgðir fyrir ANTWERP-ráðstefnutöfluna eru 100 því við g
 
 Í netversluninni **Shopify** er vörulistinn opnaður og varan á ATHENS-skrifborðinu *fundin* . Takið eftir að mismunandi valkostir eru tiltækir. Verð eru mismunandi fyrir mismunandi valkosti. Veita afsláttarupplýsingar.
 
-### <a name="additional-steps-for-b2b"></a>Viðbótarskref fyrir B2B
+### Viðbótarskref fyrir B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -263,7 +263,7 @@ Hægt er að grunnstilla tengilinn til að stofna og úthluta vörulista fyrir �
 2. Búa til vörulista fyrir tilteknar vörur. Gefa í titilinn 'B2B'. 
 3. Veldu **Stjórna** og stjórnaðu vörum **og verðlagningu**.
 4. Velja skal Útilokaða *afmörkun, finna* ATHERN-skrifborð *og velja* Taka með í vörulista **.**
-5. Viðskiptamenn **eru valdir**  **og síðan** Fyrirtæki á hliðarstikunni í stjórnunarstikunni **Shopify**.
+5. Viðskiptamenn eru valdir **og** síðan **Fyrirtæki á hliðarstikunni í stjórnunarstikunni**  **Shopify .**
 6. Veldu *School of Fine Art* og veldu **[...]** og bæta síðan **við vörulistum** og bæta við *B2B-vörulista* sem stofnaður var fyrr.
 
 Eftirfarandi [!INCLUDE[prod_short](../includes/prod_short.md)] er gert í:
@@ -296,7 +296,7 @@ Undirbúa gögn.
 
 Í netversluninni **Shopify** er vörulistinn opnaður og varan á ATHENS-skrifborðinu *fundin* . Athugasemdaverð eru upplýsingar um afslátt.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Kynning: Skoða og panta samstillingu fyrir einstaka kaupanda og fulltrúa fyrirtækisins
+## Kynning: Skoða og panta samstillingu fyrir einstaka kaupanda og fulltrúa fyrirtækisins
 Þetta er framhald kynningarinnar [: Byrjaðu að selja vörur á netinu](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Einnig er hægt að reyna með eigin gögnum – til dæmis í verslun eða Shopify sandkassa.
 
 Einstakur kaupandi
@@ -319,7 +319,7 @@ Fulltrúi fyrirtækis
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
 1. Í **Shopify Stjórnunarklasa**
-2. Viðskiptamenn **eru valdir**  **og síðan** Fyrirtæki á hliðarstikunni í stjórnunarstikunni **Shopify**.
+2. Viðskiptamenn eru valdir **og** síðan **Fyrirtæki á hliðarstikunni í stjórnunarstikunni**  **Shopify .**
 3. Opnunarskóli *fínnar listafærslu* .
 4. Velja **[...]** í reitnum **Shcool of Fine Art** faxt og svo **Breyta greiðsluskilmálum** og velja *Gjaldfallið að uppfyllingu*.
 5. Velja **[...]** í faxt-reitnum **Viðskiptamenn** og bæta svo **við viðskiptamanni** og bæta við einum með tölvupósti sem þú skráðir þig inn í verslunina áðan.
@@ -328,7 +328,7 @@ Fulltrúi fyrirtækis
 8. Skoða vörulista ætti að vera hægt að sjá aðeins vöru sem bætt er *við B2B-vörulistann* með sérstöku verði í smásölu.
 9. Veljið nauðsynlegt afbrigði og veljið **Kaupa það núna** og haldið áfram að útrita.
 10. Takið eftir að reikningur, Afhenda, greiðsluháttur er útfylltur.
-11. Reiturinn Innkaupapöntunarnúmer **sem á við er** fylltur út `PO-12345`.
+11. Reiturinn Innkaupapöntunarnúmer **sem á við**  er `PO-12345` fylltur út.
 12. Veljið **Senda pöntun**.
  
 Í [!INCLUDE[prod_short](../includes/prod_short.md)] skal gera næstu skref:
@@ -344,19 +344,19 @@ Innflutt pöntun er tilbúin til vinnslu.
 3. Í pöntuninni sem lögð er fram fyrir hönd fyrirtækis er hægt að **sjá gildi í** reitnum Númer **innkaupapöntunar sem einnig er flutt í númer utanaðkomandi skjals.** reitur stofnaðs söluskjals.
 4. Vegna þess að við grunnstilltum B2B Fyrirtæki til að sjá um Shopify  **greiðslur utan fjárhagsstöðu** er stillt á *Í undirbúningi*. Þegar greitt hefur verið skal velja **Mark sem greitt** aðgerð. Fjárhagsstaðan verður uppfærð í Shopify. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Kynning: Flytja inn vörur, viðskiptamenn, fyrirtæki frá Shopify
+## Kynning: Flytja inn vörur, viðskiptamenn, fyrirtæki frá Shopify
 
-### <a name="scenario-3"></a>Aðstæður
+### Aðstæður 
 
 Netverslun hefur þegar heppnast og ætlunin er að byrja að nota [!INCLUDE[prod_short](../includes/prod_short.md)] viðskiptastjórnunarhugbúnað. Flytja á inn eins mikið af gögnum og Shopify mögulegt er. 
 
-### <a name="steps-2"></a>Skref
+### Skref
 
 Þetta er framhald kynningarinnar [: Byrjaðu að selja vörur á netinu](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) og [Kynning: Bættu viðskiptavinum þínum við nýju netverslunina](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store) þína. Einnig er hægt að reyna með eigin gögnum – til dæmis í verslun eða Shopify sandkassa.
 
 Í [!INCLUDE[prod_short](../includes/prod_short.md)] skal fylgja skrefunum sem skráð eru næst.
 
-#### <a name="prepare-data"></a>Undirbúa gögn
+#### Undirbúa gögn
 
 1. Skipta yfir í ókeypis 30 daga prufu án sýnigagna. Nánari upplýsingar eru [í Bæta eigin gögnum við tóma réttarhöld](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Shopify Verslanir** og velja síðan viðeigandi tengil.
@@ -379,7 +379,7 @@ Grunnstilla verkstæðið Shopify eins og lýst er hér:
 10. Allir viðskiptamenn *í* fyrirtækjainnflutningi eru valdir **úr Shopify**.
 11.  **Gera vífæringu fyrirtækja sjálfvirkt stofnað óþekkt fyrirtæki** .
 
-#### <a name="run-the-synchronization"></a>Keyra samstillingu
+#### Keyra samstillingu
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Shopify Verslanir** og velja viðeigandi tengil.
 2.  *Velja skal DEMO2-verkstæðið* sem samstilla á gögn fyrir til að opna **Shopify síðuna Verkstæðisspjald** .
@@ -388,7 +388,7 @@ Grunnstilla verkstæðið Shopify eins og lýst er hér:
 5. Samstilla viðskiptamenn **er valið**.
 6. Velja **Samstilla fyrirtæki**
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
 * Shopify Vörur eru fluttar inn. Til að staðfesta skal velja Ljósálgina ![sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Shopify Vörur** og velja viðeigandi tengil.
 * Vörur með myndum eru búnar til. Til að staðfesta skal velja Ljósálgina ![sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Vöru** og velja viðeigandi tengil.
@@ -397,6 +397,6 @@ Grunnstilla verkstæðið Shopify eins og lýst er hér:
 * Viðskiptamenn eru stofnaðir. Til að staðfesta skal velja Ljósálgina ![sem opnar Tell Me eiginleikann.](../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **viðskiptamenn** og velja viðeigandi tengil.
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hafist handa í tengilinu Shopify](get-started.md)  

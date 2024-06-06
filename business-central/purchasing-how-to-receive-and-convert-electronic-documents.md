@@ -10,7 +10,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Móttaka og umbreyta rafrænum skjölum
+# Móttaka og umbreyta rafrænum skjölum
 
 > [!NOTE]
 > Efni þessa greinar á aðeins við um útgáfur Dynamics 365 Business Central sem voru gefnar út fyrir 2023 útgáfubylgju 2. Í 2023 útgáfubylgju 2 er ný virkni fyrir E-skjöl innifalin. Nánari upplýsingar eru í [Setja upp tölvupóstskjöl](finance-how-setup-edocuments.md). 
@@ -37,7 +37,7 @@ Annaðhvort er hægt að hefja umbreytingu rafrænna skjala handvirkt, eins og l
 
 Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi og breyta honum í staðlaðan innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Aðferðin er sú sama og þegar reikningi lánardrottins er breytt í færslubókarlínu.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
+### Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Skjöl á innleið** og velja síðan viðkomandi tengil.  
 
@@ -55,7 +55,7 @@ Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi
 
     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)], verða sýndar á flýtiflipanum **Villuboð**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skjöl á innleið](across-income-documents.md)  

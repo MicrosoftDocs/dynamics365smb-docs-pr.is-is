@@ -1,6 +1,6 @@
 ---
 title: Móttaka vara
-description: Þessi grein er yfirlit yfir mismunandi leiðir til að taka á móti vörum í vöruhúsi með vöruhúsamóttöku.
+description: Þessi hluti er yfirlit yfir mismunandi leiðir til að taka á móti vörum í vöruhúsi með vöruhúsamóttöku.
 author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
@@ -9,92 +9,92 @@ ms.devlang: al
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Taka við vörum með vöruhúsamóttökum
+# Taka á móti vörum með vöruhúsamóttökum
 
-Í  [!INCLUDE[prod_short](includes/prod_short.md)] eru vörur afhentar og þær síðan notaðar með einni af fjórum aðferðum, eins og lýst er í eftirfarandi töflu.
+Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru mótteknar og gengið frá þeim með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
-|Aðferð|Ferli á innleið|Krefjast kvittana|Krefjandi frágangur|Flókið stig (frekari upplýsingar um  [Vöruhúsakerfi-Yfirlit](design-details-warehouse-management.md))|  
+|Aðferð|Ferli á innleið|Krefjast móttöku|Krefjast frágangs|Flóknarastig (Fræðast meira um [vöruhúsakerfisyfirlit](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Bóka móttöku og frágang frá pöntunarlínunni|||Engin sérstök vöruhúsaaðgerð.|  
-|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: pöntun-eftir pöntun.|  
-|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Samstæða móttöku/skipa bóka fyrir margar pantanir.|  
+|Á|Bóka móttöku og frágang frá birgðafrágangsskjali||Kveikt|Grunnur: Pöntun-fyrir-pöntun.|  
+|U|Bóka móttöku og frágang frá vöruhúsamóttökuskjali|Kveikt||Grunnur: Bókuð móttaka/sending í mörgum pöntunum.|  
 |D|Bóka móttöku frá vöruhúsamóttökuskjali og bóka frágang frá vöruhúsafrágangsskjali|Kveikt|Kveikt|Ítarlegt|  
 
-Frekari upplýsingar um hvernig á að afgreiða vörur á innleið er að fara í  [Vöruhúsaflæði á innleið](design-details-inbound-warehouse-flow.md).
+Nánari upplýsingar um hvernig meðhöndla á vörur á innleið eru í [Vöruhúsaflæði á innleið](design-details-inbound-warehouse-flow.md).
 
-Með eftirfarandi grein er átt við aðferðir C og D í fyrri töflunni.
+Eftirfarandi grein vísar til aðferða C og D í fyrri töflu.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Taka á móti vörum með vöruhúsamóttöku
+## Taka á móti vörum með vöruhúsamóttöku
 
-Þegar vörur koma í vöruhús sem sett er upp til að vinna vöruhúsamóttökur verður að sækja línurnar af útgefnu upprunaskjalinu sem kveikti kvittunina. Ef hólf eru notuð er annað hvort hægt að samþykkja sjálfgefið hólf eða tilgreina hólf til að setja vörurnar í. Það síðarnefnda gæti verið nauðsynlegt þegar vara er afhent í fyrsta skipti. Því næst Færðu inn magn varanna sem þú fékkst, og bókið móttökunina.  
+Þegar vörur berast í vöruhús sem er sett upp til að vinna vöruhúsamóttökur verður að sækja línur útgefna upprunaskjalsins sem ræsti móttökuna. Ef hólf eru notuð er annaðhvort hægt að samþykkja sjálfgefna hólfið eða tilgreina hólfið sem setja á vörurnar í. Hið síðarnefnda getur verið nauðsynlegt þegar vara berst í fyrsta skipti. Síðan skal færa inn magn varanna sem tekið hefur verið á móti og bóka móttökuna.  
 
 Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
-* Á þrýstihátt, þegar vinna er unnin á pöntunargrunni.  **Veljið móttökuaðgerðina Móttaka**  vöruhúss í upprunaskjalinu, svo sem innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun til að stofna vöruhúsamóttöku fyrir eitt upprunaskjal.
-* Í togtísku, þar sem úttektaraðgerðin  **er notuð**  í upprunaskjalinu, til dæmis innkaupapöntun, Söluvöruskilapöntun eða flutningspöntun til að losa skjalið við vöruhúsið. Starfsmaður í vöruhúsi stofnar  **vöruhúsamóttöku**  fyrir eitt eða mörg Útgefin upprunaskjöl. Eftirfarandi ferli er lýst hvernig á að stofna vöruhúsamóttöku í togtísku. Eftirfarandi ferli lýsir því hvernig vöruhúsamóttaka er stofnuð í togflutningtísku.
+* Á ýta tísku, þegar vinna er unnin á grundvelli pöntun fyrir hverja pöntun. Velja skal aðgerðina **Stofna vöruhúsamóttöku** í upprunaskjalinu, svo sem Innkaupapöntun, Vöruskilapöntun sölu eða Millifærslupöntun til að stofna vöruhúsamóttöku fyrir eitt upprunaskjal.
+* Á toga í tísku þar sem aðgerðin **Gefa út** er notuð í upprunaskjalinu, svo sem innkaupapöntun, söluvöruskilapöntun eða millifærslupöntun til að gefa skjalið út í vöruhúsið. Starfsmaður í vöruhúsi stofnar vöruhúsamóttöku **fyrir** eitt eða mörg útgefin upprunaskjöl. Eftirfarandi ferli lýsir því hvernig vöruhúsamóttaka er stofnuð á toga í tísku. Eftirfarandi ferli lýsir því hvernig vöruhúsamóttaka er stofnuð á toga í tísku.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruhúsamóttökur**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
 
-     **Reiturinn birgðageymslukóti**  er  **fylltur út á flipanum Almennt** . Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.
+    Reiturinn **Kóti** birgðageymslu á flýtiflipanum **Almennt er fylltur** út. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.
 
-    Fyrir birgðageymslu þar sem krafist er hólfa er reiturinn Hólfakóti  **fylltur út** . Hægt er að bæta við kóta hólfakóta eftir uppsetningu [!INCLUDE[prod_short](includes/prod_short.md)] . Frekari upplýsingar á  [svæði og hólfakóta](warehouse-how-receive-items.md#zone-and-bin-codes).  
+    Í birgðageymslu þar sem krafist er hólfa er reiturinn **Hólfkóti fylltur** út. Allt eftir uppsetningunni [!INCLUDE[prod_short](includes/prod_short.md)]  er hægt að bæta við hólfakótanum fyrir notandann. Nánari upplýsingar um [svæðis- og hólfakóta](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
-3. Hægt er að nálgast upprunaskjal á tvennan hátt:
+3. Hægt er að sækja upprunaskjal á tvo vegu:
 
-    1. Valið er **Sækja upprunaskjöl** aðgerð.  **Upprunaskjölin-innsend**  síða opnast. Hér er hægt að velja eitt eða fleiri upprunaskjöl sem eru losuð í vöruhús sem útheimta móttöku.
-    2. Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  **Síur til að fá Upprunadobbin.-opnar innsíða** . Hér er hægt að velja afmörkun upprunaskjals og keyra það. Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á  **móttökusíðu vöruhúsamóttöku** .  [Frekari upplýsingar um notkun afmörkunar til að sækja upprunaskjöl](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
+    1. Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl - Á innleið** opnast. Hér er hægt að velja eitt eða fleiri upprunaskjöl sem gefin eru út í vöruhús sem þarfnast móttöku.
+    2. Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina. Síðan **Afmarkanir til að sækja upprunaskjöl - Á innleið** opnast. Hér er hægt að velja Upprunaskjalsafmörkun og keyra hana. Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við síðuna **Vöruhúsamóttaka** . Nánari upplýsingar um hvernig afmarkanir [eru notaðar til að sækja upprunaskjöl](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
 
-4. Stillið magnið sem á að taka á móti.
+4. Stilla magnið sem á að taka á móti.
 
-     **Í reitnum Magn til móttöku**  er útistandandi magn í hverri línu en hægt er að breyta magninu eftir þörfum. 
+     **Í reitnum Magn til móttöku** er útistandandi magn fyrir hverja línu, en hægt er að breyta magninu eftir þörfum. 
 
-    Til að stilla gildið í  **reitnum Magn til móttöku**  í öllum línum á núlli er valið  **Eyða magni til að taka**  við aðgerðinni. Til dæmis er gagnlegt að stilla magnið á núll ef notaður er strikamerkjaskanni til að uppfæra móttekið magn. Ef bæta á útistandandi magni úr upprunaskjalinu aftur er valið  **Magn í <% til Að taka**  við aðgerðinni.  
+    Til að stilla gildið í reitnum **Magn til móttöku** á öllum línum á núll skal velja aðgerðina **Eyða magni til móttöku** . Til dæmis getur verið gagnlegt að stilla magnið á núll ef strikamerkisskanni er notaður til að uppfæra magnið sem var móttekið. Til að bæta útistandandi magni úr upprunaskjalinu aftur skal velja aðgerðina **Sjálfg. magn til móttöku** .  
 
-    Í innhreyfingarskjali vöruhúss þar sem móttekið magn er hærra en pantað er fært inn magnið sem fékkst raunverulega móttekið í  **reitnum Magn til móttöku** . Ef Hækkunin er innan vikmarka sem tilgreind eru í úthlutuðu magni yfir-kvittunarkóða,  **uppfærist reiturinn yfir-innhreyfingar magn**  til að sýna magnið með því að farið er yfir gildið í  **reitnum Magn** . Ef Hækkunin er yfir vikmörkin er ekki leyfilegt að fá yfir-kvittunina.
+    Á vöruhúsamóttökuskjali þar sem móttekið magn er hærra en pantað er fært inn magnið sem var móttekið í reitinn **Magn til móttöku** . Ef aukningin er innan vikmarkanna sem tilgreind eru með úthlutaðum ofmóttökukóta **uppfærist reiturinn Magn** yfirmóttöku til að sýna magnið sem farið er fram úr gildinu í reitnum **Magn** . Ef hækkunin er yfir vikmörkunum er ofmóttakan ekki leyfð.
 
-5. Bóka vöruhúsamóttökuna. Magnsvæðin eru uppfærð á upprunaskjölunum, og vörunum er bætt við birgðir.  
+5. Bóka vöruhúsamóttökuna. Magnreitirnir eru uppfærðir á upprunaskjölunum og vörunum er bætt við birgðir.  
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
     > [!TIP]
-    > Ef vöruhúsafrágangur er notaður, sem vísar til aðferðar D í töflunni í upphafi þessarar greinar, er tekið á móti vörunum en ekki hægt að tína þær fyrr en búið er að ganga frá þeim. Til að fræðast meira um frágang vara er farið í að  [ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    > Ef vöruhúsafrágangur er notaður, sem vísar til aðferðar D í töflunni í upphafi þessarar greinar, eru vörurnar mótteknar en ekki hægt að tína þær fyrr en gengið hefur verið frá þeim. Nánari upplýsingar um frágang á vörum eru notaðar til að [ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
     >
-    > Annars skal íhuga að  **nota Post og prenta**  aðgerð. Aðgerðin bókar móttökunina og prentar hana út sem frágangsleiðbeiningar sem sýna hvar á að setja vöruna.
+    > Að öðrum kosti skal íhuga aðgerðina **Bóka og prenta** . Aðgerðin bókar móttökuna og prentar hana sem frágangsleiðbeiningar sem sýna hvar á að setja vöruna.
 
     > [!NOTE]  
-    > Ef hjáskipun er notuð í vöruhúsinu er hægt að athuga hvort hægt sé að hjáskipunarvörum án þess að leggja þær. Frekari upplýsingar um hjáskipun er að fara í  [hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
+    > Ef hjáskipun er notuð í vöruhúsinu er hægt að athuga hvort hægt sé að hjáskipa vörum án þess að ganga frá þeim. Nánari upplýsingar um hjáskipun fást með því að fara í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
+## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 
-Í vöruhúsamóttöku er hægt að nota  **afmarkanirnar til að sækja Upprundocs.** síða til að sækja útgefnar upprunaskjalslínur sem tilgreina vörur sem á að taka á móti.
+Úr vöruhúsamóttöku er hægt að nota **Afmarkanir til að sækja upprunaskjöl.** síðu til að sækja útgefnu upprunaskjalslínurnar sem tilgreina vörurnar sem á að taka á móti.
 
-1. Í vöruhúsamóttöku eru  **notaðar afmarkanir til að sækja src. docs.** aðgerð.
+1. Í vöruhúsamóttökunni **skal velja Nota afmarkanir til að sækja uppr.skjól.** Aðgerð.
 2. Til að setja upp nýja afmörkun er lýsandi kóti færður inn í reitinn **Kóti** og smellt á **Breyta** aðgerðina.
 
-     **Upprunaskjalsíkortið-innsend**  síða birtist.
+    Síðan Upprunaskjalsafmörkunarspjald **- Síðan Á innleið** birtist.
 
-3. Notið afmarkanir til að skilgreina gerð upprunaskjalslínurnar sem á að sækja. Til dæmis er hægt að velja gerðir upprunaskjala, eins og innkaupa-eða millifærslupantanir.
+3. Afmarkanirnar eru notaðar til að skilgreina tegund upprunaskjalslína sem á að sækja. Til dæmis er hægt að velja tegundir upprunaskjala, t.d. innkaupa- eða millifærslupantanir.
 4. Veljið **Keyra**.  
 
-Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við á  **síðu vöruhúsamóttöku**  þar sem afmarkanirnar voru virkjaðar.
+Öllum útgefnum upprunaskjalslínum sem uppfylla afmörkunarskilyrðin er bætt við **síðuna Vöruhúsamóttaka** þar sem afmarkanirnar voru gerðar virkar.
 
-Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar á  **afmörkunum til að fá Upprunadoktor.** blaðsíðu og eru þær aðgengilegar næst þegar þörf er á þeim. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
+Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar í **afmörkunum til að sækja upprunaskjöl.** og þær eru tiltækar næst þegar þörf krefur. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
-## <a name="zone-and-bin-codes"></a>Svæði og hólfakóta
+## Svæðis- og hólfakótar
 
-Ef taka á á móti vörum með vöruhúsaflokkakóða en klassóta hólfsins í  **reitnum Hólfakóti**  í fylgiskjalshausnum er reiturinn Kóti hólfs  **hreinsaður**  í hausnum áður en upprunaskjalslínur eru sóttar fyrir vörurnar.  
+Ef taka á við vörum með aðra vöruhúsaflokkskóta en flokkskóta hólfsins í reitnum **Hólfkóti** á fylgiskjalshausnum er reiturinn Hólfkóti **á hausnum hreinsaður** áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
 <!-- TBD, table with comparison of various options-->
 
-Ef hólfum er skylt að eiga stað er svæði og hólfakóta bætt við innhreyfingarskjöl vöruhúss sem hér segir:
+Ef hólf eru áskilin fyrir birgðageymslu er svæðis- og hólfakótum bætt við vöruhúsamóttökuskjöl á eftirfarandi hátt:
 
-* Fyrir ítarlegar skilgreiningar sem nota beinan frágang og tínslu er  [!INCLUDE [prod_short](includes/prod_short.md)]  Kóti móttökuhólfs notaður af  **birgðageymsluspjaldinu**  fyrir birgðageymsluna. Ef kóti móttökuhólfs er ekki tilgreindur er ekkert hólf tilgreint. Ef vara og móttökuhólf stemma ekki við er kóti móttökuhólfs auður.
-* Í öðrum afbrigðum er kóti móttökuhólfs ekki tilgreindur  [!INCLUDE [prod_short](includes/prod_short.md)]  með því að nota hólfakótann úr upprunaskjalinu.
+* Fyrir ítarlegar grunnstillingar sem nota beinan frágang og tínslu [!INCLUDE [prod_short](includes/prod_short.md)]  er kóti móttökuhólfsins notaður á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna. Ef móttökuhólfskóti er ekki tilgreindur er ekkert hólf tilgreint. Ef vöru- og móttökuhólfin eru ekki eins er kóti móttökuhólfsins auður.
+* Í öðrum skilgreiningum, ef kóti móttökuhólfs er ekki tilgreindur, [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfakótinn úr upprunaskjalinu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Inventory](inventory-manage-inventory.md)  
+[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
+[Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Uppsetning birgða
+# Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
 
 Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangakeðjuna með því að skipulegga birgðirnar á mismunandi stöðum. Síðan er hægt að kaupa, geyma eða selja vörur í mismunandi birgðageymslum og flytja birgðir milli þeirra.
 
-Þegar birgðir hafa verið settar upp er hægt að stjórna ýmsum birgðaferlum. Sjá  [Manage birgða](inventory-manage-inventory.md)  -og  [vöruhúsastjórnun fyrir frekari upplýsingar](design-details-warehouse-management.md).
+Þegar birgðir hafa verið settar upp er hægt að stjórna ýmsum birgðaferlum. Nánari upplýsingar eru í [Vinna með yfirlit yfir birgðir](inventory-manage-inventory.md) og [vöruhúsakerfi](design-details-warehouse-management.md).
 
 | Til | Sjá |
 | --- | --- |
@@ -31,13 +31,13 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  
 [Stjórna sölu](sales-manage-sales.md)    
-[Warehouse Management Overview](design-details-warehouse-management.md)
-[Work with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Yfirlitsvinna vöruhúsastjórnunar](design-details-warehouse-management.md)
+[með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 

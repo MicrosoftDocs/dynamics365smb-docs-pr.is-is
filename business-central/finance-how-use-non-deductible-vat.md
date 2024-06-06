@@ -11,11 +11,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="use-non-deductible-vat"></a>Nota ekki frádráttarbæran virðisaukaskatt
+# Nota ekki frádráttarbæran virðisaukaskatt
 
 Í greininni er útskýrt hvernig nýta og tilkynna ófrádráttarbæran virðisaukaskatt.
 
-## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Stofna innkaupareikning með ófrádráttarbæran virðisaukaskatt
+## Stofna innkaupareikning með ófrádráttarbæran virðisaukaskatt
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningur** og velja síðan viðkomandi tengil.
 2. Veljið  **nýtt**  til að stofna innkaupareikning og Færið inn viðeigandi upplýsingar í reikningshausinn.
@@ -26,7 +26,7 @@ ms.custom: bap-template
 
 5. Bóka skal reikninginn.
 
-## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Stofna innkaupapöntun með ófrádráttarbæran virðisaukaskatt
+## Stofna innkaupapöntun með ófrádráttarbæran virðisaukaskatt
 
 1. Veldu þá  ![ljósaperu sem opnast Segðu mér lögun 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Færið inn  **innkaupapantanir**  og veljið síðan tengda tengilinn.
 2. Veljið  **nýtt**  til að stofna innkaupapöntun og Færið inn viðeigandi upplýsingar í fylgiskjalshausinn.
@@ -37,7 +37,7 @@ ms.custom: bap-template
 
 5. Innkaupapöntunin er bókuð.
 
-## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Leiðrétta slétta VSK-upphæðir fyrir bókun skjals
+## Leiðrétta slétta VSK-upphæðir fyrir bókun skjals
 
 Ef VSK-upphæðir eru ekki sléttaðar með sama hætti í umhverfi þínu og í ytra bókhaldskerfinu (upprunalegu reikningsskjalinu) er hægt að leiðrétta VSK-upphæðina áður en skjalið er bókað. Ef gera á leiðréttingu er þessum skrefum fylgt áður en skjalið er bókað.
 
@@ -60,7 +60,7 @@ Hægt er að leiðrétta gildi  **VSK-upphæðar**  og  **ófrádráttarbærra V
 > [!IMPORTANT]
 > Ekki má nota ófrádráttarbæran virðisaukaskatt á reikninga fyrirframgreiðslunnar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)
 

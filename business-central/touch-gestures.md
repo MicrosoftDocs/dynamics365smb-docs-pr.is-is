@@ -10,18 +10,18 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Snerti- og pennabendingar fyrir spjaldtölvur og síma
+# Snerti- og pennabendingar fyrir spjaldtölvur og síma 
 
 Þessi grein inniheldur yfirlit yfir nokkrar bendingar sem þú getur notað þegar þú ert að vinna með [!INCLUDE[prod_short](includes/prod_short.md)] í spjaldtölvu eða síma.
 
 |Eiginleikasvæði|Hvað viltu gera|Hreyfiskipun|Stuðningur við spjaldtölvu|Símaþjónusta|
 |------------|----------------------|-------|--------------|-------------|
 |Myndrit|Skoða ábendingu fyrir sjónræna einingu grafs, eins og súlurit eða skífurit.|Haltu fingri á einingu|Já|Já|
-|Listar|Flettu lárétt um lista til að færa dálka inn og út|Strjúktu til vinstri eða hægri á listanum|Já|Nr|
+|Listar|Flettu lárétt um lista til að færa dálka inn og út|Strjúktu til vinstri eða hægri á listanum|Já|Nr.|
 ||Opna valmyndina á reit|Haltu fingri á reit|Já|Já|
-||Veldu aðgerð á reit eða opnaðu valmynd með því að strjúka |Strjúktu til vinstri eða hægri á reitnum|Nr|Já|
-|Power BI skýrslur|Virkja skýrslu á síðunni **Power BI Skýrsluval** |Strjúktu til vinstri á skýrslureitnum|Nr|Já|
-||Óvirkja skýrslu á síðunni **Power BI Skýrsluval** |Strjúktu til hægri á skýrslureitnum|Nr|Já|
+||Veldu aðgerð á reit eða opnaðu valmynd með því að strjúka |Strjúktu til vinstri eða hægri á reitnum|Nr.|Já|
+|Power BI skýrslur|Virkja skýrslu á síðunni **Power BI Skýrsluval** |Strjúktu til vinstri á skýrslureitnum|Nr.|Já|
+||Óvirkja skýrslu á síðunni **Power BI Skýrsluval** |Strjúktu til hægri á skýrslureitnum|Nr.|Já|
 
 <!-- ## Charts
 
@@ -29,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)  
 [Aðstoðareiginleikar](ui-accessibility.md)  

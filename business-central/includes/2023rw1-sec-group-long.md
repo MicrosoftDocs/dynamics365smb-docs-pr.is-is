@@ -7,8 +7,8 @@ ms.service: dynamics-365-business-central
 ---
 
 > [!NOTE]
-> Öryggisflokkar eru nýir á netinu og útgáfa innanhúss á  [!INCLUDE [prod_short](prod_short.md)]  í 2023 út bylgju 1. Þeir auðvelda stjórnendum að stjórna notendaleyfi með því að leyfa þeim að flokka notendur eftir deild, starfshlutfalli og svo framvegis. Stjórnendur úthluta þeim heimildum til flokksins sem meðlimir hans þurfa að sinna störfum sínum.
+> Öryggishópar eru nýir á netinu og innanhússútgáfurnar [!INCLUDE [prod_short](prod_short.md)] á árið 2023 gefa út bylgju 1. Þeir auðvelda stjórnendum að hafa umsjón með notendaheimildum með því að gera þeim kleift að flokka notendur eftir deild, starfshlutfalli o.s.frv. Stjórnendur úthluta þeim heimildum sem meðlimir þess þurfa að vinna verk sín.
 >
-> Öryggisflokkar eru Svipaðir þeim notendaflokkum sem nú eru tiltækir. Hins vegar eiga notendaflokkar aðeins við [!INCLUDE [prod_short](prod_short.md)]. Öryggisflokkar byggja á hópum í  Microsoft 365  admin Center eða Azure gáttinni. Sem hagur stjórnenda því þeir geta notað öryggishópa sína með öðrum Dynamics 365 apps. Til dæmis, ef sölumenn nota  [!INCLUDE [prod_short](prod_short.md)]  og  SharePoint þurfa stjórnendur ekki að afþakka hópinn og meðlimi hans.
+> Öryggisflokkar eru eins og notendaflokkarnir sem eru tiltækir. Hins vegar eiga notendaflokkar aðeins við [!INCLUDE [prod_short](prod_short.md)]. Öryggishópar eru byggðir á hópum í Microsoft 365 stjórnunarmiðstöð eða Azure portal. Það gagnast stjórnendum vegna þess að þeir geta notað öryggishópa sína með öðrum Dynamics 365-forritum. Til dæmis, ef sölumenn nota [!INCLUDE [prod_short](prod_short.md)] og SharePoint stjórnendur þurfa ekki að endurstýra hópnum og meðlimum þess.
 >
-> Til að fræðast meira um öryggishópa er farið í  [Stjórnaðgang að Central-hópum með öryggisflokkum](../ui-security-groups.md).
+> Nánari upplýsingar um öryggishópa fást með því að [fara í Control Access to Business Central með öryggishópum](../ui-security-groups.md).

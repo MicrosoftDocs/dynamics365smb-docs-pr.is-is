@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="project-management"></a>Verkefnastjórnun
+# Verkefnastjórnun
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að framkvæma algeng verk verkefnastjórnunar, t.d. að grunnstilla verkefni og tímasetja forða ásamt því að veita þær upplýsingar sem þarf til að vinna með áætlanir og fylgjast með framvindu. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verkefni heldur einnig yfir úthlutun starfsmanna, véla og annars forða sem notaður er í öllum verkefnum.
 
@@ -21,7 +21,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-| Stofna verk, úthluta verkhlutum og undirbúa verkáætlunarlínur. |[Stofna verk](projects-how-create-jobs.md) |
+| Stofna verk, úthluta verkhlutum og undirbúa verkáætlunarlínur. |[Stofna verkefni](projects-how-create-jobs.md) |
 | Úthluta forða á verkefni og stýra forðaverði. |[Nota forða fyrir verkefni](projects-how-use-resources.md) |
 | Stofna vinnuskýrslu með samþættum verkhluta og áætlunarlínum og bóka vinnuskýrslulínur í verkbók. |[Nota vinnuskýrslur fyrir verk](projects-how-use-time-sheets.md) |
 | Áætlun um forða sem nota skal í verkefnum og bera raunverulega vörunotkun og forðanotkun saman við áætlaða notkun til að auka gæði og kostnaðarskilvirkni síðari verkefna. |[Vinna með verkáætlanir](projects-how-manage-budgets.md) |
@@ -31,11 +31,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Bóka notkun á efni, forða og öðrum útgjöldum verks í vinnslu (VÍV) til að fylgjast með fjárhagslegu virði þess og viðhalda réttum ársreikningum jafnvel þótt verkkostnaður sé bókaður áður en verkið er reikningsfært. |[Fylgjast með framvindu og afköstum verkefnis](projects-how-monitor-progress-performance.md) |
 | Skrá verkkostnað vegna forðanotkunar, efnis og verktengdra innkaupa áfangastaðar og reikningsfæra viðskiptamanninn, annaðhvort þegar verkinu er lokið eða samkvæmt reikningsfærsluáætlun. |[Reikningsverk](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Hafist handa með verkefni
+## Hafist handa með verkefni
 
 Verkefnastjórnun er nógu flókin í sjálfu sér og það að læra hvernig á að stofna verkefni og stjórna verkefnum í vinnslu í nýju verkfæri getur verið annar fylgikvilli. Til að hjálpa til við að byrja með verkefnastjórnun í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að sjá [myndband um stofnun verkefna](https://www.youtube.com/watch?v=VqaPWr7BWmw) á rásinni [!INCLUDE[prod_short](includes/prod_short.md)] YouTube .  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Myndband: Hvernig á að stofna verkefni í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

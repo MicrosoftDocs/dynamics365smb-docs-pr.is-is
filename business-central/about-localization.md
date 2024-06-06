@@ -1,6 +1,6 @@
 ---
 title: Staðbundin virkni og regla um staðfæringu
-description: Lærðu um staðbundið framboð og samræmi við reglur í Business Central fyrir lönd/svæði þar sem Microsoft býður upp á staðbundna virkni.
+description: Fræðast um staðbundið til ráðstöfunar og reglugerðir í Business Central í þeim löndum/svæðum þar sem Microsoft veitir staðbundna virkni.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -11,15 +11,15 @@ ms.date: 09/05/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="what-is-local-functionality-in-"></a>Í hverju felst staðbundin virkni [!INCLUDE[prod_long](includes/prod_long.md)]?
+# Í hvað er staðbundnar aðgerðir [!INCLUDE[prod_long](includes/prod_long.md)]?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin/svæðin þar sem Microsoft býður upp á samræmi við reglur og aðra staðbundna virkni.  
+[!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta má sjá lýsingar á virkni sem á við löndin/svæðin þar sem Microsoft sér um reglufylgni og aðrar staðbundnar aðgerðir.  
 
-Til að fá lista yfir þá markaði sem nú eru studdir, farðu í [Aðgengi á landi/svæði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Til að fá lista yfir þá markaði sem þegar eru studdir er farið í [Lands-/svæðisbundið til ráðstöfunar og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Staðbundin virkni
+## Staðbundin virkni
 
-Eftirfarandi tafla veitir tengla á greinar þar sem þú getur lært um staðbundna virkni fyrir hvert land/svæði.
+Í eftirfarandi töflu eru tenglar á greinar þar sem hægt er að fræðast um staðbundna virkni hvers lands/svæðis.
 
 | Svæði | Land | Meiri upplýsingar |
 | --- | --- |--- |
@@ -48,16 +48,16 @@ Eftirfarandi tafla veitir tengla á greinar þar sem þú getur lært um staðbu
 |        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Önnur lönd/svæði
+### Önnur lönd/svæði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
-[Búðu til umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+[Stofna umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)  
 [Yfirlit yfir reglufylgni](compliance/compliance-overview.md)  
-[Land/svæði framboð og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Lands-/svæðisbundið til ráðstöfunar og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Þróun á staðfærslulausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
 

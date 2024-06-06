@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="get-the-business-central-desktop-app"></a>Sækja Business Central skjáborðsforritið
+# Sækja Business Central skjáborðsforritið
 
 Ef þú ert með Windows (PC) eða macOS tölvu getur þú sett upp [!INCLUDE [prod_short](includes/prod_short.md)] forrit á skjáborðinu. Forritið vinnur með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu og á staðnum.
 
-## <a name="why-use-the-app"></a>Hvers vegna að nota forritið?
+## Hvers vegna að nota forritið?
 
 Forritið [!INCLUDE [prod_short](includes/prod_short.md)] líkist vefbiðlaranum, en það veitir nokkra kosti eins og:
 
@@ -25,11 +25,11 @@ Forritið [!INCLUDE [prod_short](includes/prod_short.md)] líkist vefbiðlaranum
 
      Þegar forritið er opnað fyrir tiltekið umhverfi er heiti umhverfisins haft með í titlinum á glugganum. Þegar unnið er í mörgum [!INCLUDE[prod_short](includes/prod_short.md)] umhverfum er hver forritsgluggi sérstaklega sýndur. Heitið auðveldar að sjá hvaða gluggi tengist hvaða umhverfi.
 
-## <a name="install-the-app-for--online"></a>Setja upp forritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)] netið
+## Setja upp forritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)] netið
 
 Það eru tvær leiðir til að setja upp forritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu. Þú getur sett það upp beint úr vafranum eða úr Microsoft Store. Þetta er sama forritið burtséð frá aðferðinni sem þú notar. Munurinn er sá að með því að setja upp í vafranum geturðu sett forritið upp fyrir hvert umhverfi þegar það eru fleiri en eitt.
 
-### <a name="from-microsoft-store"></a>Frá Microsoft Store
+### Frá Microsoft Store
 
 1. Opna [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Veldu **Sækja** > **uppsetningu**. 
@@ -37,7 +37,7 @@ Forritið [!INCLUDE [prod_short](includes/prod_short.md)] líkist vefbiðlaranum
 
 Næst þegar þú vilt opna forritið skaltu leita að því í **Upphafsvalmyndinni**.
 
-### <a name="from-the-browser"></a>Úr vafra
+### Úr vafra
 
 1. Opnaðu [!INCLUDE[prod_short](includes/prod_short.md)] vefbiðlarann í annaðhvort Microsoft Edge eða Google Chrome.
 
@@ -57,13 +57,13 @@ Næst þegar þú vilt opna forritið skaltu leita að því í **Upphafsvalmynd
 
 Þegar forrit er uppsett birtist það í **Upphafsvalmyndinni**. Ef þú hefur valið tiltekið umhverfi fyrir forritið er heiti umhverfisins bætt við forritsheitið í **Upphafsvalmyndinni**.
 
-## <a name="install-the-app-for--on-premises"></a>Setja upp forritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)] húsnæði
+## Setja upp forritið fyrir [!INCLUDE [prod_short](includes/prod_short.md)] húsnæði
 
 Uppsetning skjáborðsforritsins þegar þú notar [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum fer beint í vafrann eins og [lýst er hér að ofan](#from-the-browser). Ef þú ert aðeins með einn leigjanda skaltu opna [!INCLUDE [prod_short](includes/prod_short.md)] í vafranum þínum og velja annaðhvort ![Tákn til að setja upp forrit í Edge.](media/ui-edge-install-app-icon.png) **Forrit tiltækt. Setja upp Business Central** eða ![Tákn fyrir uppsetningu forrits í Chrome.](media/ui-chrome-install-app-icon.png) **Settu upp Business Central** eins og sýnt er hér að ofan.
 
 Munurinn er þegar þú ert með marga leigjendur. Ólíkt [!INCLUDE[prod_short](includes/prod_short.md)] á netinu þar sem þú getur sett forritið upp fyrir mismunandi umhverfi, þá geturðu aðeins sett forritið upp fyrir einn leigjanda. Þannig að áður en þú setur forritið upp þegar þú ert með marga leigjendur skaltu ganga úr skugga um að skipta yfir í réttan leigjanda. Þegar forritið er uppsett og þú opnar það mun það opnast í leigjandanum.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Algengar spurningar um farsímaforrit](ui-mobile-faq.yml)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
+# Yfirlit yfir reglufylgni
 
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -20,9 +20,9 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Læri um samræmi frá sjónarhóli hugbúnaðar, s.s. gagnanæði, alþjóðleg Reikningsskilastaðlar og fleira.|[Reglufylgni forrits](compliance-application-compliance.md)|  
+|Fræðast um samræmi frá sjónarhorni forrits, svo sem persónuvernd gagna, alþjóðlega reikningsskilastaðla og fleira.|[Reglufylgni forrits](compliance-application-compliance.md)|  
 |Kynntu þér reglufylgni á þjónustustigi og aðferðirnar sem eru notaðar á verkvangi til að tryggja Business Central bestu reglufylgniþjónustu í sínum flokki.|[Reglufylgni þjónustu](compliance-service-compliance.md)|  
-|Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar Vottanir og lands-/svæðisbundnar Vottanir.|[Vottanir](compliance-certifications.md)|  
+|Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér er að finna upplýsingar um almennar vottanir og sérstakar vottanir á landi/svæði.|[Vottanir](compliance-certifications.md)|  
 |Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

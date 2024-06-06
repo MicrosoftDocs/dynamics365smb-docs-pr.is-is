@@ -9,13 +9,13 @@ ms.date: 11/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
+# Setja upp skilgreiningar gagnaskipta
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skiptast á gögnum í tilteknum töflum með gögnum á ytri skrám. Til að senda og taka á móti rafrænum skjölum skal til dæmis flytja inn og út bankagögn eða önnur gögn eins og launaskrá og vörulistaatriði. Frekari upplýsingar í [Rafræn gagnaskipti](across-data-exchange.md).  
 
 Til að búa til gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtiflipanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum [Að lýsa sniði lína og dálka í skránni](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Frekari upplýsingar í [Nota XML-skemu til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaskilgreining**. Til að uppfæra gengi gjaldmiðla er hins vegar fljótlegra að nota þjónustu fyrir gengi gjaldmiðils. Lærðu meira á [Uppfærðu gengi gjaldmiðla](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
+Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaskilgreining**. Til að uppfæra gengi gjaldmiðla er hins vegar fljótlegra að nota þjónustu fyrir gengi gjaldmiðils. Fræðast meira um uppfærslu gengis [gjaldmiðla](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
 > [!NOTE]  
 > Ef skráin sem verið er að umbreyta er á XML-sniði ætti að túlka hugtakið *„dálkur“* í þessari grein sem *„XML-einingu sem inniheldur gögn“*.  
@@ -26,14 +26,14 @@ Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaski
 * Flyttu út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra.
 * Flyttu inn XML-skrá fyrir núverandi gagnaskiptaskilgreiningu.
 
-## <a name="create-a-data-exchange-definition"></a>Stofna gagnaskiptaskilgreiningu
+## Stofna gagnaskiptaskilgreiningu
 
 Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:  
 
 1. Á síðunni **Skilgreining gagnaskipta** skal lýsa sniði lína og dálka í skránni. Frekari upplýsingar er að finna í hlutanum [Að lýsa sniði lína og dálka á skránni](#formatlinescolumns).  
 2. Á síðunni **Vörpun gagnaskipta** skal varpa dálkum í gagnaskránni á reiti í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í hlutanum [Að varpa dálkum í gagnaskránni í reiti í [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
+### <a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -108,12 +108,12 @@ Næsta skref í því að stofna skilgreiningu gagnaskipta er að ákveða hvað
 > [!NOTE]  
 > Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[prod_short](includes/prod_short.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti á síðunni **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í einu viðskiptaforriti er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í öðru er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú skiptist á gögnum. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Frekari upplýsingar er að finna í [Reglur umbreytinga](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-Þú getur líka flokkað eftir hvaða reit sem er, notað lykilvísitöluna til að flokka niðurstöður og nýju umbreytingargerðirnar **Núnmundun** og **Reitaleit**.
+Einnig er hægt að flokka eftir hvaða reit sem er, nota lykillykilinn til að raða niðurstöðum og nýju umbreytingartegundunum **Sléttun** og **Uppfletting reita**.
 
 1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Síðan **Vörpun gagnaskipta** opnast.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
@@ -163,7 +163,7 @@ Næsta skref í því að stofna skilgreiningu gagnaskipta er að ákveða hvað
      |**Kenni reits**|Tilgreinið númer reitsins í ytri skránni sem notað er fyrir flokkun og þessi reitur verður að vera stilltur af notanda.|
      |**Texti reits**|Tilgreinið skýringartexta reitsins í ytri skránni sem er notuð fyrir flokkun.|
 
-## <a name="transformation-rules"></a>Umbreytingarreglur
+## Umbreytingarreglur
 
 Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota umbreytingarreglur fyrir skilgreiningar gagnaskipta til að gildin verði þau sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
 
@@ -188,7 +188,7 @@ Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota um
 > [!NOTE]  
 > Frekari upplýsingar um dagsetningar- og tímasnið er að finna í [Strengir staðlaðs dagsetningar- og tímasniðs](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Ábending til þróunaraðila: Dæmi um sérstillta valkosti
+### Ábending til þróunaraðila: Dæmi um sérstillta valkosti
 
 Eftirfarandi dæmi sýnir hvernig á að innleiða eigin umbreytingarkóða.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Þegar búið er að skilgreina reglurnar er hægt að prófa þær. Á flýtiflipanum **Prófun** skal slá inn dæmi um gildi sem á að umbreyta og síðan athuga niðurstöðurnar með því að velja **Uppfæra**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Flytja út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra
+## Flytja út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra
 
 Þegar stofnuð hefur verið skilgreining gagngaskipta fyrir tiltekna gagnaskrá er hægt að flytja skilgreiningu gagnaskiptanna út sem XML-skrá sem hægt er að flytja inn. Þessu verki er lýst í eftirfarandi ferli.  
 
@@ -217,14 +217,14 @@ codeunit 60100 "Hello World"
 
     Ef skilgreining gagnaskipta hefur þegar verið stofnuð þarftu bara að flytja inn XML skrá í gagnaskiptarammann. Þessu verki er lýst í eftirfarandi ferli.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Flytja inn fyrirliggjandi gagnaskiptaskilgreiningu
+## Flytja inn fyrirliggjandi gagnaskiptaskilgreiningu
 
 1. Vista xml skrá sem sýnir skilgreiningu gagnaskipta á viðeigandi staðsetningu.  
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 3. Velja skal aðgerðina **Skilgreining gagnaskipta í innflutningi**.  
 4. Veljið skrána sem var vistuð í skrefi 1.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

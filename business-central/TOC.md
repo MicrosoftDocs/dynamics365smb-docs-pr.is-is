@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Afskriftaaðferðir](fa-depreciation-methods.md)
 ### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
 ### [Komast yfir eignir](fa-how-acquire.md)
+### [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
 ### [Umsjón eigna](fa-how-maintain.md)
 ### [Tryggja eignir](fa-how-insure.md)
 ### [Flytja, skipta upp eða sameina eignir](fa-how-trans-split-combine.md)
 ### [Endurmeta eignir](fa-how-revalue.md)
-### [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
 ### [Afskrá eða innkalla eignir](fa-how-dispose-retire.md)
 ### [Úrræðaleit fyrir eignafærslur](fa-troubleshooting-fa-ledger-entries.md)
 

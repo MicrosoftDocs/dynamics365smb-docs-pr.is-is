@@ -1,6 +1,6 @@
 ---
-title: Upplýsingar um hönnun-fært í áætlanagerð
-description: Lærðu að nota flutningspantanir sem upprunaframboð þegar birgðastig eru áætlanað.
+title: Upplýsingar um hönnun - Millifærslur í áætlun
+description: Fræðast um notkun millifærslupantana sem framboðsuppruna þegar birgðastig eru áætluð.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,137 +10,137 @@ ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
+# Hönnunarupplýsingar: Flutningur í áætlun
 
-Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Ef um er að ræða aðstæður með fleiri vöruhúsum gæti verið að um flutninga sé að ræða. Framboð til GRÆNNAR staðsetningar flyst úr GULU, framboð til GULU er flutt úr rauðu o. sfrv. Í upphafi keðjunnar eru Áfyllingarkerfi  **framl. pöntunar**  eða  **innkaupa**.  
+Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús gæti verið til flutningakeðja. Framboð til birgðageymslunnar GRÆNT er flutt frá GULU, framboð til GULUR er flutt frá RAUÐU, og svo framvegis. Í upphafi keðjunnar er áfyllingarkerfi **Framl.pöntun eða**  **Innkaup**.  
 
 ![Dæmi um flutningsflæði.](media/nav_app_supply_planning_7_transfers1.png "Dæmi um flutningsflæði")  
 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-Ef borið er saman við eftirfarandi aðstæður er ljóst að skipulagsverkefnin í seinni tíð geta orðið flókin:
+Ef eftirfarandi aðstæður eru bornar saman er ljóst að áætlanagerðin í seinni tíð getur orðið flókin:
 
-* Framboðstilskipun beint frammi fyrir kröfupöntun
-* Sölupöntun er gefin í gegnum keðju af be-flutningum
+* Framboðspöntun stendur beint frammi fyrir eftirspurnarpöntun
+* Sölupöntun fæst með keðju birgðahaldseiningaflutninga
 
-Ef þörf er á breytingum gæti það valdið rifa áhrifum í gegnum keðjuna. Allar flutningspantanir, auk innkaupa-og framleiðslupöntunarinnar í öfugum enda keðjunnar, verða að vera uppfærðar til endurstöðu eftirspurnar og framboðs.  
+Ef eftirspurnin breytist gæti það valdið gátum í gegnum keðjuna. Allar millifærslupantanir, að viðbættum innkaupa- og framleiðslupöntunum í gagnstæðum enda keðjunnar, þarf að uppfæra til að jafna eftirspurn og framboð aftur.  
 
 ![Dæmi um stöðu framboðs- og eftirspurnar í flutningi.](media/nav_app_supply_planning_7_transfers2.png "Dæmi um stöðu framboðs- og eftirspurnar í flutningi")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Af hverju er verið að flytja sérstakt mál?
+## Hvers vegna er um að ræða sérstakt tilfelli?  
 
-Flutningspantanir eru svipaðar og í öðrum pöntunum, til dæmis innkaupa-og framleiðslupantanir. Þó á bak við atriðið að þeir séu ólíkir.  
+Millifærslupantanir eru svipaðar og aðrar pantanir, t.d. innkaupa- og framleiðslupantanir. Á bak við atriðið eru þeir hins vegar ólíkir.  
 
-Einn munur er á því að Millifærslulína táknar bæði eftirspurn og framboð. Eftirspurnarhlutinn sem afhentur er er eftirspurn. Innsendinn hluti sem berast á nýja staðnum er framboð á þeim stað.  
+Einn munur er sá að millifærslulína táknar bæði eftirspurn og framboð. Sá hluti á útleið sem afhentur er eftirspurn. Sá innleiðarhluti sem móttekinn er á nýja staðnum er framboð á þeim stað.  
 
 ![Innihald flutningspöntunarsíðu.](media/nav_app_supply_planning_7_transfers3.png "Innihald flutningspöntunarsíðu")  
 
-Þegar  [!INCLUDE [prod_short](includes/prod_short.md)]  breytist framboðhlið flutnings þarf að gera sams konar breytingu á eftirspurnarhlið.  
+Þegar [!INCLUDE [prod_short](includes/prod_short.md)] birgðahlið millifærslu er breytt verður að gera svipaðar breytingar á eftirspurnarhliðinni.  
 
-## <a name="transfers-are-dependent-demand"></a>Flutningar eru háðar eftirspurn
+## Flutningar eru háð eftirspurn  
 
-Tengsl eftirspurnar og framboðs eru svipuð íhlutum í framleiðslupöntunarlínum. Munurinn er sá að íhlutir á framleiðslupöntunarlínunum eru á næsta stigi áætlunar og hafa aðra vöru með. Tveir hlutar flutnings eru á sama stigi vegna sömu vöru.  
+Eftirspurn og framboðstengsl líkjast íhlutum í framleiðslupöntunarlínum. Mismunurinn er sá að íhlutir í framleiðslupöntunarlínum eru á næsta áætlunarstigi og hafa aðra vöru. Tveir hlutar millifærslunnar eru á sama stigi fyrir sömu vöru.  
 
-Mikilvæg líking er að íhlutir og flutningar séu háðar eftirspurn. Krafa úr flutningslínu er lýsingarlega útleikin eftir framboðshlið flutnings. Ef framboð breytist þá hefur eftirspurnin bein áhrif.
+Mikilvægt líkt er að íhlutir og millifærslur séu ósjálfstæð eftirspurn. Eftirspurn úr millifærslulínu ræðst af framboðshlið millifærslunnar. Ef framboðið breytist hefur eftirspurnin bein áhrif á eftirspurnina.
 
-Ef Sveigjanleiki áætlunar er enginn þarf að meðhöndla flutningslínu sem sjálfstæða eftirspurn í áætlanagerð.  
+Ekki ætti að meðhöndla millifærslulínu sem sjálfstæða eftirspurn í áætlun nema um sveigjanleika áætlunarinnar sé að ræða.  
 
-Í skipulagsferlinu skal einungis taka tillit til flutningskröfunnar eftir að áætlanakerfi hefur unnið á framboðshliðinni. Áður en sú vinnsla gerist er raunveruleg eftirspurn ekki þekkt. Röð breytinganna er mikilvæg fyrir flutningspantanir.  
+Í áætlunarferlinu ætti aðeins að taka tillit til millifærslueftirspurnar þegar áætlunarkerfið hefur unnið framboðshliðina. Áður en sú vinnsla gerist er ekki vitað um raunverulega eftirspurn. Röð breytinga skiptir miklu fyrir millifærslupantanir.  
 
-## <a name="planning-sequence"></a>Áætlunarraðar
+## Áætlunarröð  
 
-Eftirfarandi mynd sýnir dæmi um flutning á streng.  
+Eftirfarandi mynd sýnir dæmi um flutningastreng.  
 
 ![Dæmi um einfalt flutningsflæði.](media/nav_app_supply_planning_7_transfers4.png "Dæmi um einfaldan flutningsflæði")  
 
 Í þessu dæmi, viðskiptamaður pantar vöru á græna staðsetningu. Birgðageymslan GRÆNT fær tilföng með millifærslu frá miðlæga vöruhúsinu RAUTT. Aðalvöruhús RED fæst með millifærslu frá framleiðslu á staðsetningu blár.  
 
-Í þessu dæmi byrjar áætlanakerfið á eftirspurn viðskiptavina og vinnur þannig aftur í gegnum keðjuna. Kröfur og vistir eru unnar fyrir eina staðsetningu í einu.  
+Í þessu dæmi byrjar áætlunarkerfið á eftirspurn viðskiptamannsins og vinnur leiðina aftur í gegnum keðjuna. Eftirspurn og birgðir eru unnin í einni birgðageymslu í einu.  
 
 ![Framboðsáætlun með flutningi.](media/nav_app_supply_planning_7_transfers5.png "Framboðsáætlun með flutningi")  
 
-## <a name="transfer-level-code"></a>Flutningsstigskóði
+## Flutningsstigskóði  
 
-Flutningstigskóti be ákvarðar röðina sem áætlunarkerfið vinnur birgðageymslur fyrir.  
+Flutningsstigskóti birgðahaldseiningarinnar ákvarðar í hvaða röð áætlunarkerfið vinnur birgðageymslur.  
 
-Kóti flutningsstigs er innri reitur. Reiturinn er reiknaður út og geymdur á BIRGÐASPJALDINU þegar BIRGÐAHALDSEINING er stofnuð eða henni breytt. Útreikningurinn keyrir yfir alla SKUs fyrir gefna samsetningu vöru og vöruafbrigða. Útreikningarnir nota birgðageymslukótann og sendist-frá-kótanum til að ákvarða leiðina til að nota fyrir SKUs. Útreikningur tryggir að allar kröfur séu unnar.  
+Kóti flutningsstigsins er innri reitur. Reiturinn er reiknaður og geymdur í birgðahaldseiningunni þegar birgðahaldseiningin er stofnuð eða því breytt. Útreikningarnir eru keyrðir í öllum birgðaeiningum fyrir tiltekna samsetningu vöru og vöruafbrigðis. Útreikningurinn notar birgðageymslukótann og sendist-frá kótann til að ákvarða leiðina sem á að nota fyrir birgðaeiningarnar. Útreikningurinn tryggir að allar eftirspurn sé unnin.  
 
-Flutningsstigskótinn verður 0 fyrir SKUs með innkaupa-eða framl. Pöntunaráfyllingarkerfi pöntunar og verður-1 fyrir fyrsta flutningastig,-2 fyrir seinni o. s. frv. Í dæminu sem lýst er í fyrri hlutanum myndi stigin vera-1 fyrir RAUÐU og-2 fyrir grænt, eins og sést á eftirfarandi mynd.  
+Flutningsstigskótinn verður 0 fyrir birgðahaldseiningar með Innkaupa- eða Framl.pöntunaráfyllingarkerfi, og verður -1 fyrir fyrsta flutningsstigið, -2 fyrir það annað, og svo framvegis. Í dæminu sem lýst er í fyrri hlutanum yrðu stigin -1 fyrir RAUTT og -2 fyrir GRÆNT, eins og sýnt er í eftirfarandi mynd.  
 
 ![Innihald síðu birgðahaldseiningaspjalds.](media/nav_app_supply_planning_7_transfers6.gif "Innihald síðu birgðahaldseiningaspjalds")  
 
-Við uppfærslu á BIRGÐAHALDSKERFI skynjar áætlanakerfið hvort Áfyllingarkerfi fyrir SKUs eru með hringlaga tilvísunum.  
+Þegar birgðahaldseining er uppfærð finnur áætlunarkerfið hvort áfyllingarkerfi fyrir birgðahaldseiningar eru með hringvirkar tilvísanir.  
 
-## <a name="planning-transfers-without-sku"></a>Áætlunarflutningar án SKÚTU
+## Áætlunarflutningar án birgðahaldseininga  
 
-Fyrir minni ítarlegar vöruhúsauppsetningar er hægt að nota staðsetningar og gera handvirka flutninga milli birgðageymslna þó að ekki sé hægt að nota SKUs. Til dæmis gæti flutningurinn forað sölupöntun á þeirri birgðageymslu. Áætlanakerfið bregst við breytingum á eftirspurninni.  
+Fyrir minna ítarlegri vöruhúsauppsetningar er hægt að nota birgðageymslur og færa handvirkar millifærslur milli birgðageymslna, jafnvel þótt ekki séu notaðar birgðahaldseiningar. Til dæmis gæti flutningurinn náð til sölupöntunar í þeirri birgðageymslu. Áætlunarkerfið bregst við breytingum á eftirspurninni.  
 
-Fyrir handvirka flutninga greinir áætlanakerfið flutningspantanir og áætlar síðan pöntunina sem á að vinna birgðageymslur fyrir. Fyrir innan er áætlanakerfið notað tímabundið SKUs sem er með flutningstigskóta.  
+Fyrir handvirkar millifærslur greinir áætlunarkerfið millifærslupantanir og áætlar svo í hvaða röð á að vinna birgðageymslurnar. Í innri vinnslu notar áætlunarkerfið bráðabirgða birgðahaldseiningar sem hafa flutningsstigskóta.  
 
 ![Flutningsstigskóði.](media/nav_app_supply_planning_7_transfers7.png "Flutningsstigskóði")  
 
-Ef nokkrir flutningar eru á stað skilgreinir fyrsta flutningspöntunin áætlunarstefnuna. Hætt er við flutningum í gagnstæða átt.  
+Ef nokkrar millifærslur eru til birgðageymslu skilgreinir fyrsta millifærslupöntunin áætlunarstefnuna. Hætt er við flutning í gagnstæða átt.  
 
-## <a name="changing-quantity-with-reservations"></a>Breyta magni með frátekningum
+## Breyta magni með frátekningum  
 
-Þegar magni er breytt í framboði tekur áætlanakerfið frátekningu mið af því. Frátekið magn táknar því neðri mörk fyrir hversu mikið á að draga framboðið.  
+Þegar magni er breytt í birgðum tekur áætlunarkerfið frátekningar með í reikninginn. Frátekið magn stendur fyrir neðri mörkin fyrir hversu mikið þarf að minnka framboðið.  
 
-Þegar magninu í flutningspöntunarlínu er breytt þarf að hafa neðri mörkin í huga. Neðri mörkin eru hæsta frátekna magn á út-og millifærslulínum á útleið.
+Þegar magninu er breytt í millifærslupöntunarlínu skal hafa neðri mörkin í huga. Neðri mörkin er hæsta frátekna magnið í millifærslulínum á útleið og innleið.
 
-Til dæmis eru flutningspöntunarlínur úr 117 stykkjum teknar frá fyrir eftirtaldar línur:
+Til dæmis er millifærslupöntunarlína með 117 stykkjum tekin frá fyrir eftirfarandi línur:
 
-* Til sölu vörulína af 46
-* Í innkaupalínu 24
+* Sölulína 46
+* Innkaupalína 24
 
-Jafnvel þó að innkomin hlið hafi hugsanlega umframframboð þá er ekki hægt að stytta flutningslínuna um 46.  
+Jafnvel þó að umframbirgðir á innleið sé umframbirgðir er ekki hægt að minnka millifærslulínuna undir 46.  
 
 ![Frátekningar í flutningsáætlun.](media/nav_app_supply_planning_7_transfers8.png "Frátekning í flutningsáætlun")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Breyta magni í flutningskeðju
+## Magni breytt í millifærslukeðju  
 
-Hér er dæmi um það sem gerist þegar magni er breytt í flutningabreytingu.
+Hér er dæmi um hvað gerist þegar magni er breytt í millifærslubreytingu.
 
-Byrjunarpunktinum er jafnað með flutningskeðju með því að útvega sölupöntun 27 á staðnum RED. Tað er samsvarandi innkaupapöntun á staðnum bls. Báðir flutningar fara í gegnum staðsetningarbleikjuna. Í honum eru tvær flutningspantanir, BLÁBLEIK og BLEIK með RAUÐU.  
+Upphafspunkturinn er jafnvægisstaða með millifærslukeðju sem útvegar sölupöntun 27 á staðnum RAUTT. Það er samsvarandi innkaupapöntun í birgðageymslunni BLÁTT. Báðar millifærslur fara í gegnum staðsetningu BLEIKT. Um er að ræða tvær millifærslupantanir, BLÁBLEIKT og BLEIKT-RAUTT.  
 
 ![Breyting á magni í flutningsáætlun 1.](media/nav_app_supply_planning_7_transfers9.png "Breyting á magni í flutningsáætlun 1")  
 
-Nú kýs skipuleggjandi BLEIKU staðsetningarinnar að taka frá fyrir kaupin.  
+Skipuleggjandi í birgðageymslunni BLEIKT kýs að taka frá fyrir innkaupin.  
 
 ![Breyting á magni í flutningsáætlun 2.](media/nav_app_supply_planning_7_transfers10.png "Breyting á magni í flutningsáætlun 2")  
 
-Úttektin þýðir yfirleitt að áætlanakerfið hunsar innkaupapöntun og flutningseftirspurn. Það er ekkert vandamál lengi í jafnvægi. En hvað gerist þegar RAUÐ staðsetning breytist röðin úr 27 í 22?  
+Frátekning þýðir yfirleitt að áætlunarkerfið hunsar innkaupapöntunina og millifærslueftirspurnina. Það er ekki vandamál á meðan innistæða er. En hvað gerist þegar staðsetningin RAUTT breytist úr 27 í 22?  
 
 ![Breyting á magni í flutningsáætlun 3.](media/nav_app_supply_planning_7_transfers11.png "Breyting á magni í flutningsáætlun 3")  
 
-Þegar áætlanakerfið er keyrt aftur ætti það að losa sig við umfram framboð. Hins vegar lásu kaupin og flutningurinn í magninu 27.  
+Þegar áætlanakerfið er keyrt aftur ætti það að losa sig við umfram framboð. Hins vegar læsir frátekningin innkaupunum og millifærslunni í magnið 27.  
 
 ![Breyting á magni í flutningsáætlun 4.](media/nav_app_supply_planning_7_transfers12.png "Breyting á magni í flutningsáætlun 4")  
 
-BLEIKTRAUTT pöntunin hefur verið minnkuð niður í 22. Innsendinn hluti BLÁBLEIKU flutningins er ekki frátekinn en útleiðarhlutinn er. Úttektin þýðir að ekki er hægt að minnka magnið niður 27.  
+BLEIKTRAUTT pöntunin hefur verið minnkuð niður í 22. Innleiðarhluti millifærslunnar BLÁTT-BLEIKT er ekki frátekinn en útleiðarhlutinn er. Frátekningin merkir að ekki er hægt að minnka magnið undir 27.  
 
-## <a name="lead-time-calculation"></a>Útreikningur afgreiðslutíma
+## Útreikningur afhendingartíma  
 
-Við útreikning á gjalddögum millifærslapönta er tekið mið af mismunandi tegundum afgreiðslutíma.  
+Þegar skiladagsetning millifærslupöntunar er reiknuð er tekið tillit til ýmiss konar afhendingartíma.  
 
-Eftirtaldir afhendingartímar eru virkir við skipulagningu flutningspöntunarinnar:  
+Eftirfarandi afhendingartímar eru virkir þegar millifærslupöntun er áætluð:  
 
-* Afgreiðslutími á útleið í vöruhúsi  
-* Endingartími  
-* Afgreiðslutími á innleið í vöruhúsi  
+* Afgreiðslutími á vörum út úr vöruhúsi  
+* Afhendingartími  
+* Afgreiðslutími á vörum inn í vöruhús  
 
-Eftirfarandi reitir eru notaðir í áætlunarlínunni til að veita upplýsingar um útreikninginn:  
+Í áætlunarlínunni eru eftirfarandi reitir notaðir til að veita upplýsingar um útreikninginn:  
 
-* Sendingardagsetning afhendingar  
-* Upphafsdagsetningunni  
+* Flutningsdagsetning afhendingar  
+* Upphafsdagsetning  
 * Lokadagsetning  
-* Gjalddagi  
+* Eindagi  
 
-Afhendingardagsetning flutningslínu er sýnd í  **reitnum flutningsdagsetning**  afhendingar. Móttökudagsetning flutningslínu er sýnd í  **reitnum Gjalddagi** .  
+Afhendingardagsetning millifærslulínunnar er sýnd í reitnum **Millifærsluafhendingardags** . Móttökudagsetning millifærslulínunnar er sýnd í reitnum **Gjalddagi** .  
 
-Upphafs-og lokadagsetningar lýsa raunverulegu flutningstímabili.  
+Upphafs- og lokadagsetningar lýsa sjálfu flutningstímabilinu.  
 
-Eftirfarandi mynd sýnir túlkun Upphafsdags-tíma-og lokadagsetningar á áætlunarlínum fyrir flutningspantanir.  
+Eftirfarandi mynd sýnir túlkun upphafsdagsetningar- og lokadagsetningar-tíma á áætlunarlínum fyrir millifærslupantanir.  
 
 ![Miðlæg dagsetning-tími í flutningsáætlun.](media/nav_app_supply_planning_7_transfers13.png "Miðlæg dagsetning-tími í flutningsáætlun")  
 
@@ -150,9 +150,9 @@ Dæmið sýnir eftirfarandi útreikninga:
 * Upphafsdagsetning + Afhendingartími = Lokadagsetning  
 * Lokadagsetning + Afgreiðslutími inn í vöruhús = Móttökudagsetning  
 
-## <a name="safety-lead-time"></a>Öryggisforskot
+## Öryggisforskot  
 
- **Reiturinn sjálfgefið öryggisforskot**  á  **síðunni Uppsetning**  framleiðslu og tengd  **tímasvæði**  öryggisleiða á  **birgðaspjaldinu**  eru ekki teknir með í útreikningum millisendingarpöntunar. Öryggisafhendingartími hefur hins vegar áhrif á heildaráætlunina. Öryggisafhendingartími hefur áhrif á áfyllingarpöntunina (innkaup eða framleiðslu) við upphaf flutningskeðjunnar. Það er punkturinn þar sem vörurnar voru settar á þann stað þaðan sem þær verða fluttar.  
+Reiturinn **Sjálfgefinn öryggisforskot** á síðunni **Uppsetning** framleiðslu og tengdur **öryggisforskot** á síðunni **Birgðaspjald** eru ekki teknir með í útreikningum á millifærslupöntunum. Hins vegar hefur öryggisforskot áhrif á heildaráætlunina. Öryggisforskotið hefur áhrif á áfyllingarpöntun (innkaup eða framleiðslu) í upphafi millifærslukeðjunnar. Þá eru vörurnar settar í birgðageymsluna sem þær verða fluttar frá.  
 
 ![Einingar flutningsgjalddaga.](media/nav_app_supply_planning_7_transfers14.png "Einingar flutningsgjalddaga")  
 
@@ -160,36 +160,36 @@ Dæmið sýnir eftirfarandi útreikninga:
 
 Í innkaupapöntunarlínunni Ráðgerð móttökudagsetning + Öryggisforskot + Afgreiðslutími vara á innleið í vöruhús Áætluð móttökudagsetning.  
 
-## <a name="reschedule"></a>Endurtímasetja
+## Enduráætla  
 
-Þegar Flutningslína er endurtímasett finnur kerfið útleiðarhlutann og breytir dagsetningu-tíma.
+Þegar millifærslulína er endurtímasett finnur áætlunarkerfið útleiðarhlutann og breytir dagsetningunni-tíminn.
 
 > [!NOTE]
-> Ef afhendingartími er skilgreindur þá skal vera bil á milli afhendingarinnar og kvittunar. Afhendingartími getur samanstaðið af fleiri einingum eins og flutningstíma og afgreiðslutíma vöruhúss. Í tímalínu færist áætlanakerfið aftur í tímann á meðan það stemmir einingarnar.  
+> Ef afhendingartími er skilgreindur verður bil milli afhendingar og móttöku. Í afgreiðslutíma geta verið fleiri einingar, svo sem flutningstími og afgreiðslutími í vöruhúsi. Á tímalínu færist áætlunarkerfið aftur í tímann á meðan það stemmir einingarnar.  
 
 ![Breyting á gjalddaga í flutningsáætlun.](media/nav_app_supply_planning_7_transfers15.png "Breyting á gjalddaga í flutningsáætlun")  
 
-Þegar gjalddögum er breytt í millisendingarlínu verður afhendingartími að vera reiknaður út til að uppfæra hlið flutnings.  
+Þegar gjalddaga er breytt í millifærslulínu verður að reikna út afhendingartímann til að uppfæra útleiðarhlið millifærslunnar.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Rað-og lotunúmer í flutningskeðjum
+## Rað- og lotunúmer í millifærslukeðjum  
 
-Ef eftirspurnin notar rað-eða lotunúmer og keyrð er áætlunarvélin, mun hún búa til flutningspantanir. Nánari upplýsingar um þetta hugtak eru í Eigindir vöru. Hins vegar, ef rað-eða lotunúmer eru fjarlægð úr eftirspurninni, eru flutningspantanir enn notaðar rað-eða lotunúmerunum og áætlun hunsar þær (ekki eytt).  
+Ef eftirspurnin notar rað- eða lotunúmer og áætlunarvélin er keyrð stofnar hún millifærslupantanir. Nánari upplýsingar um þetta hugtak eru í Eigindir vöru. Ef hins vegar rað- eða lotunúmer eru fjarlægð af eftirspurninni þá nota millifærslupantanirnar samt rað- eða lotunúmerin og áætlunin þá hunsa þau (ekki eytt).  
 
-## <a name="order-to-order-links"></a>Tenglar á milli pantana
+## Tenglar á milli pantana  
 
-Í þessu dæmi er bláa skvísan  **sett upp með endurpöntunarstefnu pöntunar** . Hinir BLEIKU og RAUÐU SKUs hafa loið  **-fyrir-Lot**  endurpöntunarstefnuna. Sölupöntun er stofnuð fyrir 27 á staðnum RAUÐAR leiðir í keðju flutninga. Síðasti flutningurinn er á staðnum BLÁR og hann er tekinn frá með bindingum. Í þessu dæmi eru frátekningar ekki harðar frátekningar stofnaðar af skipuleggjanda á BLEIKA stað. Áætlanakerfið stofnar bindingar. Veigamesti munurinn er að áætlunarkerfið getur breytt því síðarnefnda.  
+Í þessu dæmi er BLÁTT birgðahaldseining sett upp með **pöntunar** endurpöntunarstefnu. BLEIKI og RAUÐU SKUs eru með endurpöntunarstefnuna **Lota fyrir lotu** . Stofnun sölupöntunar fyrir 27 á staðnum RAUTT leiðir til millifærslukeðju. Síðasta flutningurinn er í birgðageymslunni BLÁTT og hann er tekinn frá með bindingu. Í þessu dæmi eru frátekningarnar ekki erfiðar frátekningar sem skipuleggjandi býr til á BLEIKum stað. Áætlunarkerfið stofnar bindingarnar. Veigamesti munurinn er að áætlunarkerfið getur breytt því síðarnefnda.  
 
 ![Pöntun-til-pöntunar tenglar í flutningsáætlun.](media/nav_app_supply_planning_7_transfers16.png "Pöntun-til-pöntunar tenglar í flutningsáætlun")  
 
-Ef eftirspurninni er breytt úr 27 í 22 þá mun áætlanakerfið lækka magnið í gegnum keðjuna. Bindingartekning er einnig minni.  
+Ef eftirspurninni er breytt úr 27 í 22 lækkar áætlunarkerfið magnið um keðjuna. Bindandi frátekning er einnig lækkuð.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)   
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
-[Hönnunarupplýsingar: áætlun með eða án staðsetningar](production-planning-with-without-locations.md)   
-[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
+[Hönnunarupplýsingar: Áætlanir með eða án birgðageymslna](production-planning-with-without-locations.md)   
+[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis](design-details-central-concepts-of-the-planning-system.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
 

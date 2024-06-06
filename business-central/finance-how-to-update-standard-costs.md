@@ -9,7 +9,7 @@ ms.date: 10/11/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="update-standard-costs"></a>Uppfæra staðlaðan kostnað
+# Uppfæra staðlaðan kostnað
 Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja kostnaðinn saman við yfirvöruna. Ferlið samanstendur yfirleitt af fjórum eftirtöldum skrefum:  
 
 1.  Uppfærslu kostnaðar á íhluta- og afkastagetustigunum. Frekari upplýsingar, sjá **Leggja til staðlaðan vörukostnað** runuvinnslu.  
@@ -19,11 +19,11 @@ Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja
 
 Í [Um útreikning staðlaðs kostnaðar](finance-about-calculating-standard-cost.md) er fjallað nánar um þetta efni.
   
-## <a name="to-update-standard-costs"></a>að uppfæra staðlað kostnaðarverð
+## að uppfæra staðlað kostnaðarverð
 
-1.  Keyrslan **Leiðr. kostnað - Birgðafærslur** er keyrð Til að ræsa keyrsluna skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðrétta kostnað - Birgðafærslur** og velja síðan viðkomandi tengil. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Fara yfir niðurstöðurnar og gera breytingar eftir þörfum.  
-2.  Keyrslan **Bóka birgðakostnað á fjárhag** er keyrð Til að ræsa keyrsluna skaltu velja þá  ![ljósaperu sem opnar aðgerðina segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Fara yfir niðurstöðurnar og gera breytingar eftir þörfum.  
-3.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teiknið, Vinnublað  **staðlaðs kostnaðarverðs, skal færa inn** eina eða fleiri af eftirfarandi aðgerðum:
+1.  Keyrslan **Leiðr. kostnað - Birgðafærslur** er keyrð Keyrslan er ræst með ![því að velja Ljósálgina sem opnar eiginleikann Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðrétta kostnað - Birgðafærslur** og velja síðan viðkomandi tengil. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Niðurstöðurnar eru skoðaðar og breytingar gerðar eftir þörfum.  
+2.  Keyrslan **Bóka birgðakostnað á fjárhag** er keyrð Keyrslan er ræst með ![því að velja Ljósálgina sem opnar eiginleikann Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Niðurstöðurnar eru skoðaðar og breytingar gerðar eftir þörfum.  
+3.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Vinnublað** staðlaðs kostnaðarverðs og nota síðan eina eða fleiri af eftirfarandi aðgerðum:
 
     1.  Keyrslan **Leggja til staðlaðan vörukostnað** er keyrð.  
     2.  Niðurstöðurnar eru skoðaðar og breytingar eru gerðar eftir þörfum.  
@@ -34,7 +34,7 @@ Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja
     7.  Keyrslan **Innleiða breytingu á stöðluðu kostnaðarverði** er keyrð.  
 4.  Skoða og birta skal síðuna **Endurmatsbók** sem hefur verið fyllt með færslum úr fyrri skrefum í þessu ferli.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
  [Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)   
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
