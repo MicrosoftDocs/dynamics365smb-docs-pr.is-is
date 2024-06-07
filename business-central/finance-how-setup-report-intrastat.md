@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Uppsetning Intrastat-skýrslugerðar
+# Uppsetning Intrastat-skýrslugerðar
 
 Öll fyrirtæki í löndum innan Evrópusambandsins (ESB) þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Intrastat er kerfið sem er notað til að safna saman viðskiptatölfræði um vörur í þessum löndum/svæðum. Nota Intrastat-skýrsluna til að ljúka reglubundnum Intrastat-skýrslum með því að safna, skrá og tilkynna viðskipti með vörur samkvæmt staðbundnum lögum.
 
@@ -27,7 +27,7 @@ Intrastat-skýrslugerð er byggð á grunnreglum ESB sem eiga við um öll lönd
 >
 > Lesa Intrastat-uppsetningu og notkunargrein fyrri útgáfu, [Setja upp og skýrslu Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Gera nýju Intrastat upplifunina virka
+## Gera nýju Intrastat upplifunina virka
 
 Í 2022 útgáfubylgju 2 [!INCLUDE[prod_short](includes/prod_short.md)]  felur í sér endurhannaða Intrastat-upplifun sem býður upp á aukna eiginleika. Ef nýja Intrastat-aðgerðin er ekki virk í umhverfi notanda getur stjórnandi gert hana virka á síðunni **Aðgerðastjórnun** .
 
@@ -44,11 +44,11 @@ Intrastat-skýrslugerð er byggð á grunnreglum ESB sem eiga við um öll lönd
     > [!NOTE]
     > Það fer eftir staðsetningu fyrirtækisins hvort nægilegt er að gera eiginleikann sem var lýst virkan. Í löndum/svæðum sem hafa sérstakar aðgerðir við Intrastat-skýrslugerð skal gera forritinu/svæðis-/svæðis intrastat kleift til viðbótar við kjarnaviðbótina.
 
-## <a name="intrastat-configuration"></a>Uppsetning Intrastat
+## Uppsetning Intrastat
 
 Áður en hægt er að nota Intrastat skýrslur þarf að setja upp nokkrar stillingar.
 
-### <a name="intrastat-reporting-setup"></a>Uppsetning Intrastat-skýrslugerðar
+### Uppsetning Intrastat-skýrslugerðar
 
 Nota skal síðuna **Uppsetning** Intrastat-skýrslu til að virkja og stilla sjálfgefna hegðun fyrir Intrastat-skýrslugerð. Hægt er að tilgreina hvort gera þurfi Intrastat skýrslu um afhendingu (afgreiðslur), móttökur (komur) eða hvort tveggja, eftir þröskuldum sem reglugerðir viðkomandi lands kveða á um. Einnig er hægt að stilla sjálfgefnar tegundir viðskipta fyrir venjuleg og skilaskjöl sem notuð eru við færsluskýrslugerð.
 
@@ -92,7 +92,7 @@ Fylgja skal eftirfarandi skrefum til að setja upp Intrastat-skýrslugerð.
 
 6. Á flýtiflipanum **Númeraröð** er fært inn gildi í reitinn **Intrastatnr.röð** .
 
-### <a name="set-up-a-reporting-file"></a>Setja upp skýrsluskrá
+### Setja upp skýrsluskrá
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **skilgreiningar** gagnaskipta og velja síðan viðeigandi tengil.
 2. Valið er **Nýr** og á flýtiflipanum **Almennt** eru færðar inn upplýsingar um skilgreiningu gagnaskipta, tegund gagnaskrár, dálkskiltákn, tengd codeunit XMLport og aðra reiti eftir þörfum.
@@ -115,7 +115,7 @@ Fylgja skal eftirfarandi skrefum til að setja upp Intrastat-skýrslugerð.
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] Fylgir fyrirframskilgreindri skilgreiningu gagnaskipta fyrir Intrastat fyrir öll staðfærð lönd/svæði. Nánari upplýsingar um hvernig á að stofna nýja skilgreiningu gagnaskipta eru [í Setja upp skilgreiningar á gagnaskiptum](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Stilltu áskilda reiti með gátlistanum fyrir Intrastat-skýrsluna
+### Stilltu áskilda reiti með gátlistanum fyrir Intrastat-skýrsluna
 
 Í sumum löndum/svæðum krefjast yfirvöld þess að Intrastat-skýrslur innihaldi t.d. afhendingarmáta fyrir innkaup eða önnur gildi þegar sala er yfir ákveðnum þröskuldi.
 
@@ -139,7 +139,7 @@ Til að setja áskilda reiti eða gildi á síðunni **Intrastat-skýrsla** skal
 >
 > Farið er varlega þegar villuleitarreglur eru settar upp þar sem þær geta verið mismunandi milli landa/svæða.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Nota sérstillta kóðaeiningar í Intrastat-skýrslum
+## Nota sérstillta kóðaeiningar í Intrastat-skýrslum
 
 Ef breyta á því hvernig Intrastat virkar og sjálfgefna grunnstillingin nægir ekki er hægt að sérstilla kerfið með því að framlengja staðlaða eiginleika. Ef þörf er á að breyta hegðun Intrastat frekar er hægt að þróa eigin kóðaeiningar. Þegar codeunit eru stofnuð þarf að gera viðbótarbreytingar til að nota þau. Til að grunnstilla kerfið til að nota eigin hluti skal fylgja þessum skrefum.
 
@@ -155,7 +155,7 @@ Ef breyta á því hvernig Intrastat virkar og sjálfgefna grunnstillingin nægi
 > [!IMPORTANT]
 > Þessi lína verður að vera auð ef notaðar eru hefðbundnar kóðaeiningar. Þú ættir aðeins að búa til línu og stilla hana ef þú hefur búið til sérsniðnar kóðaeiningar.
 
-## <a name="other-intrastat-configurations"></a>Aðrar Intrastat stillingar
+## Aðrar Intrastat stillingar
 
 Á viðskiptamanna- og lánardrottnaspjöldum er reiturinn **Tegund** Intrastat-félaga sem hefur sömu gildi og reiturinn **Tegund** félaga: 
 
@@ -193,21 +193,21 @@ Einnig er hægt að setja upp:
 * **Komu-/brottfararstaðir**: Tilgreina skal birgðageymslurnar þar sem vörur eru sendar eða mótteknar eða frá öðrum löndum/svæðum. Flugstöðin er dæmi um komu-brottfararstað. Komu/brottfararstaði er hægt að færa inn í sölu- og innkaupskjöl á flýtiflipanum **Erlend viðskipti**. Þessar upplýsingar eru afritaðar úr birgðafærslum þegar Intrastatbók er stofnuð.
 * **Viðbótarmælieining**: Magn vara til Intrastat-skýrslugerðar getur verið annað hvort nettóþyngd (í kílógrömmum) eða viðbótareining. Ef þörf er á viðbótareiningum verður að stilla þær fyrir vörur og eignir.
 
-#### <a name="set-up-transport-methods"></a>Settu upp flutningsmáta
+#### Settu upp flutningsmáta
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **flutningsmáta** og velja síðan viðeigandi tengil.
 2. Upplýsingarnar í reitnum eru fylltar út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Uppsetning eðliskóða viðskipta
+#### Uppsetning eðliskóða viðskipta
 
 1. Velja Skal Aðgerðina ![Lightbulb sem opnar Tell Me.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **tegundir** viðskipta og velja síðan viðeigandi tengil.
 2. Upplýsingarnar í reitnum eru fylltar út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Aðrar tengdar stillingar
+### Aðrar tengdar stillingar
 
 Áður en aðgerðin Intrastat-skýrslugerð er notuð þarf að skilgreina reiti á vöru-, eigna-, viðskiptamanna- og lánardrottnaspjöldum.
 
-#### <a name="item-cards"></a>Birgðaspjöld
+#### Birgðaspjöld
 
 Fylgið þessum skrefum til að setja upp allar nauðsynlegar upplýsingar sem tengjast Intrastat á birgðaspjöldum.
 
@@ -223,7 +223,7 @@ Fylgið þessum skrefum til að setja upp allar nauðsynlegar upplýsingar sem t
 > [!NOTE]
 > Þegar tollflokki er bætt við mælieiningu sem skilgreind er fyrir vöruna er [!INCLUDE [prod_short](includes/prod_short.md)]  reiturinn Viðbótarmælieining **sjálfkrafa fylltur** út samkvæmt grunnstillingu tollflokks. Hægt er að breyta gildinu í reitnum **Viðbótarmælieining** eftir þörfum.
 
-#### <a name="set-up-fixed-assets-for-intrastat"></a>Setja upp eignir fyrir Intrastat
+#### Setja upp eignir fyrir Intrastat
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Eignir** og velja síðan viðeigandi tengil.
 2. Veldu eignina sem á að stilla.
@@ -232,7 +232,7 @@ Fylgið þessum skrefum til að setja upp allar nauðsynlegar upplýsingar sem t
 > [!NOTE]
 > Þú getur notað mismunandi mælieiningar sem viðbótarmælieiningar. Óháð því hvaða **Mælieiningarkóða** sem þú velur, verður **Magn** hans í Intrastat-skýrslum alltaf 1.
 
-#### <a name="set-up-vendors-for-intrastat"></a>Setja upp lánardrottna fyrir Intrastat
+#### Setja upp lánardrottna fyrir Intrastat
 
 Áður en hægt er að taka lánardrottin með í Intrastat-skýrslugerð skal færa upplýsingar þeirra inn á **síðuna Lánardrottnaspjald** . Til dæmis má tilgreina **gildi lands-/svæðiskóta** og **VSK-númer.** Gildi.
 
@@ -241,7 +241,7 @@ Fylgið þessum skrefum til að setja upp allar nauðsynlegar upplýsingar sem t
 3. Á flýtiflipanum **Intrastat**, í reitunum **Tegund sjálfgefinnar millifærslu**, **Sjálfg. millif.tegund - Vöruskil** og **Sjálfgefinn flutningsmáti** er sett sjálfgefið gildi fyrir hvern reit.
 4. Á flýtiflipanum **Greiðslur** í reitnum **Tegund** Intrastat-félaga er tilgreint hvort lánardrottinn sé einstaklingur eða fyrirtæki.
 
-#### <a name="set-up-customers-for-intrastat"></a>Setja upp viðskiptamenn fyrir Intrastat
+#### Setja upp viðskiptamenn fyrir Intrastat
 
 Áður en hægt er að taka viðskiptamann með í Intrastat-skýrslugerð skal færa upplýsingar þeirra inn á síðuna **Viðskiptamannaspjald** . Til dæmis þarf að tilgreina **gildi lands-/svæðiskóta** og **VSK-númer.** Gildi.
 
@@ -250,22 +250,22 @@ Fylgið þessum skrefum til að setja upp allar nauðsynlegar upplýsingar sem t
 3. Á flýtiflipanum **Intrastat**, í reitunum **Tegund sjálfgefinnar millifærslu**, **Sjálfgefin millifærslutegund - Vöruskil** og **Sjálfgefinn flutningsmáti** er sjálfgefið gildi stillt fyrir hvern reit.
 4. Á flýtiflipanum **Greiðslur** í reitnum **Tegund** Intrastat-félaga er tilgreint hvort lánardrottinn sé einstaklingur eða fyrirtæki.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Útiloka vörur og eignir frá Intrastat-skýrslugerð
+#### Útiloka vörur og eignir frá Intrastat-skýrslugerð
 
 Ef ástæða er til að útiloka tiltekna vöru eða eign úr Intrastat-skýrslugerð skal breyta valkostinum á spjaldinu sem merkir **reitinn Sleppa úr Intrastat-skýrslu** . Þessi reitur er notaður á **birgðasniðmátsspjaldinu** til að búa til fleiri vörur án Intrastat-skýrslugerðar. 
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Útiloka vöru frá Intrastat-skýrslugerð
+##### Útiloka vöru frá Intrastat-skýrslugerð
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Vörur** og velja síðan viðeigandi tengil.
 2. Varan sem á að grunnstilla er valin og á flýtiflipanum **Kostnaður & bókun** skal velja **gátreitinn Sleppa úr Intrastat-skýrslu** .
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Útiloka eign frá Intrastat-skýrslugerð
+##### Útiloka eign frá Intrastat-skýrslugerð
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Eignir** og velja síðan viðeigandi tengil.
 2. Veldu eignina sem á að stilla.
 3. Á flýtiflipanum **Intrastat** er gátreiturinn **Sleppa úr Intrastat-skýrslu** valinn.
 
-#### <a name="set-up-tariff-numbers"></a>Setja upp tollflokka
+#### Setja upp tollflokka
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Tollflokkar** og velja síðan viðeigandi tengil.  
 2. Á síðunni **Tollflokkar** eru færðar inn upplýsingar í reitina sem lýst er í eftirfarandi töflu.
@@ -283,11 +283,11 @@ Ef ástæða er til að útiloka tiltekna vöru eða eign úr Intrastat-skýrslu
 > 
 > Þegar tollflokki sem hefur skilgreint **mælieiningargildi** við vöruna er [!INCLUDE [prod_short](includes/prod_short.md)]  sjálfkrafa bætt við nýja mælieiningu við **gildi mælieiningar** vörunnar. Gildið **Magn á mælieiningu** er byggt á reitnum **Sléttunarnákvæmni magns** .
 
-## <a name="enter-countryregion-intrastat-settings"></a>Færa inn Intrastat-stillingar fyrir land/svæði
+## Færa inn Intrastat-stillingar fyrir land/svæði
 
 Intrastatskilyrði eru svipuð í öllum aðildarríkjum ESB, þó að mikilvægar undantekningar séu gerðar. Fræðilega ættu reglurnar gilda á sama hátt í öllum aðildarríkjum. Hins vegar er munur á innleiðingu því sum aðildarríki bjóða upp á leiðbeiningar um hvernig beita skuli meginreglunum í tilteknum aðstæðum (til dæmis viðskiptasýni og vöruskilum). Þessar leiðbeiningar geta skilað mismunandi niðurstöðum í ýmsum aðstæðum. Þess vegna verða upplýsingarnar sem lönd/svæði færa inn geta verið mismunandi, eins og skráarsniðið sem þær verða að nota við skýrslugerð.
 
-### <a name="austria"></a>Austurríki
+### Austurríki
 
 Intrastat-skýrslugerð í Austurríki krefst tveggja mismunandi skráa fyrir móttökur og afhendingar. Til að staðfesta að uppsetningin sé rétt skal fylgja þessum skrefum.
 
@@ -299,11 +299,11 @@ Vinnsla Intrastat-skýrslna er sú sama og altæki eiginleikinn.
 
 <!-- ### Belgium-->
 
-### <a name="czech-republic"></a>Tékkland
+### Tékkland
 
 Nýja Intrastat-skýrslan fyrir Tékkland verður tiltæk árið 2023 útgáfubylgju 1. Í millitíðinni skal halda áfram að nota aðgerðina **Intrastatbók** .
 
-### <a name="finland"></a>Finnlandi
+### Finnlandi
 
 Í Finnlandi eru nokkrar viðbótarskref til að setja upp Intrastat. Intrastat-skýrslugerð í Finnlandi krefst tveggja mismunandi skráa fyrir móttökur og afhendingar. Einnig sést að tvö aðskilin gagnaskilgreind **kótagildi** eru skilgreind.
 
@@ -321,13 +321,13 @@ Vinnsla Intrastat-skýrslna er sú sama og altæki eiginleikinn.
 
 <!-- ### Germany-->
 
-### <a name="italy"></a>Ítalíu
+### Ítalíu
 
 Ný Intrastat-skýrslureynsla fyrir Ítalíu verður tiltæk í febrúar 2023. Í millitíðinni skal halda áfram að nota aðgerðina **Intrastatbók** .
 
 <!-- ### France-->
 
-### <a name="sweden"></a>Svíþjóð
+### Svíþjóð
 
 Intrastat-skýrslugerð í Svíþjóð krefst tveggja mismunandi skráa fyrir móttökur og afhendingar. Til að staðfesta að uppsetningin sé rétt skal fylgja þessum skrefum.
 
@@ -338,7 +338,7 @@ Vinnsla Intrastat-skýrslna er sú sama og í altækum aðgerðum.
 
 <!-- ### United Kingdom-->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Intrastat-skýrslugerð í Business Central](finance-how-report-intrastat.md)  
 [Fjármálastjórnun](finance.md)  

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-order-status-and-repair-status"></a>Þjónustupöntunarstaða og viðgerðarstaða
+# Þjónustupöntunarstaða og viðgerðarstaða
 
 Reitirnir **Staða** á síðunni **Þjónustupöntun** og þjónustuvöruviðgerðarstaðan sem vísað er til í reitnum **Viðgerðarstöðukóti** á síðunni **Þjónustupöntun** hafa ákveðið samband í Þjónustukerfi. Þjónustupöntunarstaðan sýnir viðgerðarstöðu allra þjónustuvara í þjónustupöntuninni.  
 
@@ -26,7 +26,7 @@ Reitirnir **Staða** á síðunni **Þjónustupöntun** og þjónustuvöruviðge
 > [!NOTE]
 > Áður en hægt er að búa til þjónustupantanir þarf að setja upp viðgerðarstöðu og forgang þjónustustöðu. Frekari upplýsingar eru í [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md).
 
-## <a name="specifying-service-order-status-for-repair-status"></a>Þjónustupöntunarstaða tilgreind fyrir viðgerðarstöðu
+## Þjónustupöntunarstaða tilgreind fyrir viðgerðarstöðu
 
 Hver viðgerðarstaða er tengt tiltekinni þjónustupöntunarstöðu. Valkostirnir fyrir þjónustupöntunarstöðuna eru eftirfarandi:
 
@@ -47,23 +47,23 @@ Valkostirnir fyrir viðgerðarstöðu eru eftirfarandi:
 * **Íhlutur móttekin**
 * **Lokið**  
 
-### <a name="pending"></a>Í undirbúningi
+### Í undirbúningi
 
 Þjónustupöntunarstaðan **Í undirbúningi** gefur til kynna að þjónustan geti hafist eða haldið áfram hvenær sem er. Því er hægt að tengja viðgerðarstöðuvalkostina **Byrjun**, **Verki vísað**, **Hluta þjónustu lokið** og **Varahlutur móttekinn** við þjónustupöntunarstöðuna.  
 
-### <a name="in-process"></a>Í vinnslu
+### Í vinnslu
 
 Þjónustupöntunarstaðan **Í vinnslu** gefur til kynna að þjónustan sé í vinnslu. Því er hægt að tengja viðgerðarstöðuvalkostina **Í vinnslu** og **Varahlutur pantaður** við þjónustupöntunarstöðuna. Ef staðan **Varahlutur pantaður** er tengd við þjónustupöntunarstöðuna **Í vinnslu** verður einnig að tengja stöðuna **Varahlutur móttekinn** við þessa þjónustupöntunarstöðu.  
 
-### <a name="on-hold"></a>Bið
+### Bið
 
 Þjónustupöntunarstaðan **Bið** gefur til kynna að þjónustan sé um stundarsakir í bið þar sem beðið sé eftir viðbrögðum frá viðskiptavini eða varahlutum áður en þjónustan getur hafist. Því er hægt að tengja viðgerðarstöðuvalkostina **Tilboði lokið**, **Varahlutur pantaður** og **Beðið eftir viðskiptavini** við þjónustupöntunarstöðuna.  
 
-### <a name="finished"></a>Lokið
+### Lokið
 
 Þjónustupöntunarstaðan **Lokið** gefur til kynna að þjónustunni sé lokið. Því er viðgerðarstaðan **Lokið** tengd við þessa stöðu.  
 
-## <a name="assigning-priority-to-service-order-status"></a>Þjónustupöntunarstöðu úthlutað forgangi
+## Þjónustupöntunarstöðu úthlutað forgangi
 
 Þegar viðgerðarstöðu þjónustuvöru er breytt eru þjónustupöntunarstöðurnar tengdar við viðgerðarstöður allra þjónustuvaranna í pöntuninni. Ef þjónustuvaran tengist einni eða fleiri þjónustupöntunarstöðuvalkostum er þjónustupöntunarstöðuvalkosturinn valinn sem gefur mesta forgangsröð.  
 
@@ -71,7 +71,7 @@ Valkostirnir fyrir viðgerðarstöðu eru eftirfarandi:
 
 Þegar ný þjónustupöntun er stofnuð og vörum er bætt við hana er reiturinn **Forgangur** í þjónustupöntunarhausnum uppfærður út frá forgangsröðunum á þjónustuvörunum.  
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Dæmigerð úthlutun forgangsraðar gæti verið sem hér segir:  
 
@@ -82,7 +82,7 @@ Dæmigerð úthlutun forgangsraðar gæti verið sem hér segir:
 
 Ef ein þjónustuvara er til dæmis með viðgerðarstöðuna **Byrjun** tengda við þjónustupöntunarstöðuna **Í undirbúningi**, önnur er með viðgerðarstöðuna **Í vinnslu**, tengda við þjónustupöntunarstöðuna **Í vinnslu** og sú þriðja er með viðgerðarstöðuna **Varahlutur pantaður**, tengda við þjónustupöntunarstöðuna **Bið**, verður útkoman staðan **Í vinnslu** þar sem hún er með mestan forgang.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  

@@ -26,11 +26,11 @@ Upplýsingarnar varða einnig aðra þætti sem hafa áhrif á ráðstöfunarmag
 > [!NOTE]
 > Þessi möguleiki krefst þess að kveikt sé á **vífærinu Beinn frágangur og tínsla** fyrir birgðageymslurnar sem notaðar eru í tínsluferlinu.
 
-### <a name="set-up-previews"></a>Setja upp forskoðun
+### Setja upp forskoðun
 
 Til að fá upplýsingar um hvað er verið að tína og hvað ekki skal kveikja á **Sýna samantekt (beinn frágangur og tínsla)** víxla á beiðnisíðunum **Vöruhús - Stofna fylgiskjal** eða **Vöruhúsaafhendingu - Stofna tínslubeiðnisíður** .
 
-### <a name="determine-the-quantity-you-can-pick"></a>Ákveða magnið sem hægt er að tína
+### Ákveða magnið sem hægt er að tína
 
 Í línum á síðunni **Stofna yfirlit vöruhúsatínslu sýnir reiturinn** Magn til afgreiðslu (stofn) **hvaða og hversu margar vörur** reyndu að tína. [!INCLUDE [prod_short](prod_short.md)]  Upplýsingakassinn **samantektar** veitir nánari upplýsingar.
 
@@ -57,7 +57,7 @@ Eftirfarandi mynd sýnir hámarksmagn sem tekið er til tínslu.
 |Á     |Hólf með innihald tegundarinnar Tína með lokaðri hreyfingu á útleið         |
 |O     |Önnur hólf         |
 
-### <a name="reservations"></a>Bókanir
+### Bókanir
 
 Ef tekið er frá fyrir vöruna sem verið er að tína heldur útreikningurinn áfram. Hugmyndin er sú að frátekin eftirspurn hafi meiri forgang en ekki var tekin frá, sem þýðir að tínsla fyrir ófrátekna eftirspurn ætti ekki að koma í veg fyrir að tínt sé fyrir frátekna eftirspurn síðar.
 
@@ -92,7 +92,7 @@ Eftirfarandi sökkli sýnir úthlutun á hæfilegu magni fyrir frátekna sýking
 
 Þó að nægt tiltækt magn sé í vöruhúsi til að fullnægja tínslunni að fullu leiðir það til þess að fráteknu heildarmagni er úthlutað á móti magninu í sérstökum eða lokuðum hólfum, sem hindrar tínslu á þessari eftirspurn. Þar sem frátekin eftirspurn hefur meiri forgang minnkar [!INCLUDE [prod_short](prod_short.md)]  magnið sem á að tína til að koma í veg fyrir neikvæð áhrif, svo sem vanhæfni til tínslu, á frátekna eftirspurn.
 
-### <a name="other-details"></a>Aðrar upplýsingar
+### Aðrar upplýsingar
 
 Ef vörur krefjast vörurakningar er einnig hægt að finna magnið í lokuðum lotum eða raðnúmerum sem veldur eftirfarandi lækkun:
 

@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="batch-post-production-consumption"></a>Fjöldabóka framleiðslunotkun
+# Fjöldabóka framleiðslunotkun
 
 Ef birgðaskráningaraðferðin er Handvirkt **skal** nota notkunarbók til að bóka íhlutina handvirkt.  
 
@@ -18,7 +18,7 @@ Ef birgðaskráningaraðferðin er Handvirkt **skal** nota notkunarbók til að 
 
 Einnig er hægt að setja [!INCLUDE[prod_short](includes/prod_short.md)] upp þannig að það bóki sjálfvirkt (*flæða*) íhluti þegar byrjar eða endar framleiðslupantanir. Nánari upplýsingar eru í [Leyfa flæði íhluta samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Bóka notkun fyrir eina eða fleiri framleiðslupantanalínur
+## Bóka notkun fyrir eina eða fleiri framleiðslupantanalínur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notkunarbók** og velja síðan viðkomandi tengil.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og notkunargögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -32,7 +32,7 @@ Einnig er hægt að setja [!INCLUDE[prod_short](includes/prod_short.md)] upp þa
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Framleiðsla](production-manage-manufacturing.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

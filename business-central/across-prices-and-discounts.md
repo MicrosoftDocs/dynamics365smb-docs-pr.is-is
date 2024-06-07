@@ -11,14 +11,14 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-prices-and-discounts"></a>Setja upp verð og afslætti
+# Setja upp verð og afslætti
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 gáfum við út einfaldaðri ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota þessa útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** á síðunni **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Stjórnunarstefnur fyrir verð og afslætti fyrir innkaup og sölu á vörum og þjónustu eru mikilvæg verkfæri fyrir farsæl viðskipti. Þegar búið er að setja upp vörur og þjónustu sem fyrirtækið kaupir og selur er hægt að skilgreina hvað greitt eða rukkað er fyrir það og þessum upphæðum verður sjálfkrafa bætt við sölu- og innkaupaskjöl. 
 
-## <a name="setting-up-prices-and-discounts"></a>Uppsetning verðs og afsláttar
+## Uppsetning verðs og afsláttar
 
 Áður en verðlistar eru stofnaðir verður að skilgreina stefnur verðlagningar og afslátta í síðunum **Uppsetning sölugrunns** og **Uppsetning innkaupagrunns**.
 
@@ -34,11 +34,11 @@ Af því að söluverð og afsláttur á sölulínur byggist á samsetningu vör
 > [!TIP]  
 > Ef aldrei á að selja vöru með afslætti skal skilja afsláttarreitinn á vörusíðunni eftir auðan og ekki hafa með vöruna í neinum uppsetningum línuafslátta.
 
-## <a name="about-price-lists"></a>Um verðlista
+## Um verðlista
 
 Verðlistar eru sveigjanlegir og gera þér kleift að tilgreina viðskiptafélagann eða verkþáttinn sem hann á við um. Til dæmis er hægt að setja upp einn verðlista sem á við um alla lánardrottna og viðskiptamenn eða bjóða upp á sérverð eða afslætti fyrir hvern viðskiptafélaga sem byggir t.a.m. á lágmarksmagni í innkaupa- eða sölupöntunum eða ákveðinni samsetningu viðskiptamanns, vöru, lágmarksmagns, mælieiningu eða tímabila. Verð og afslættir sem eru skilgreind eru notuð sjálfkrafa í innkaupa- og söluskjölum. 
 
-## <a name="set-up-prices"></a>Setja upp verð
+## Setja upp verð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. 
 
@@ -68,7 +68,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
+## Sölulínuafsláttur stofnaður fyrir viðskiptamann
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. 
 
@@ -98,7 +98,7 @@ Til að yfirfara verðlista og verð sem gilda fyrir tiltekna viðskiptamenn eð
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Vinna með reikningsafslátt og þjónustugjöld
+## Vinna með reikningsafslátt og þjónustugjöld
 
 Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há. Á síðunni **Reikningsafsláttur** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -115,7 +115,7 @@ Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að te
 > [!TIP]  
 > Áður en þessar upplýsingar eru færðar inn er góð hugmynd að undirbúa afsláttarformið fyrst þannig að það sé auðveldara að sjá hvaða viðskiptamenn á að tengja við sömu reikningsafsláttarsíðuna. Frekari upplýsingar um afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Að setja upp reikningsafslátt fyrir viðskiptamann
+### Að setja upp reikningsafslátt fyrir viðskiptamann
 
 Eftir að ákveðið hefur verið hvaða viðskiptamenn geti fengið reikningsafslátt er færður inn reikningsafsláttarkóði á viðskiptamannaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
@@ -136,7 +136,7 @@ Næsta skref er að setja upp nýja skilmála fyrir sölureikningsafslætti.
 
 Reikningsafsláttur er nú settur upp og úthlutað á umræddan viðskiptamann. Þegar valinn er kóði viðskiptamannsins í reitnum **Reikningsafsl.kóði** á öðrum viðskiptamannaspjöldum er sama reikningsafslætti úthlutað þeim viðskiptamönnum.
 
-## <a name="to-copy-sales-prices"></a>Til að afrita söluverð
+## Til að afrita söluverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. 
 
@@ -167,7 +167,7 @@ Staða verðlistans verður að vera **Drög**.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
+## Til að magnuppfæra vöruverð
 
 Þessi skref eru mismunandi eftir því hvort stjórnandinn hafi kveikt á eiginleikauppfærslunni **Ný upplifun söluverðlagningar**. 
 
@@ -195,11 +195,11 @@ Til að uppfæra verð fyrir margar vörur þarf að búa til nýjam verðlista 
 
 ---
 
-## <a name="calculating-the-best-price"></a>Útreikningur á besta verðinu
+## Útreikningur á besta verðinu
 
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur. Frekari upplýsingar er að finna í [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

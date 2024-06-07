@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum með VSK-upphæðum
+# Umbreyta þjónustusamningum með VSK-upphæðum
 
 Þar sem breytingaverkfæri VSK-hlutfalls getur ekki umbreytt þjónustusamningum verður að umbreyta þessum samningum handvirkt. Þessi grein lýsir ýmsum öðrum aðferðum sem hægt er að nota við umbreytingu þjónustusamninga.  
 
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 > [!NOTE]  
 > Í þessu dæmi þarf að breyta þarf vinnudagsetningunni í 01.01.2017.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Til að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning
+## Til að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Umsjón með samningi** og velja síðan viðkomandi tengil.  
 2. Undir **Listar**, skal velja **Þjónustusamningar**.  
@@ -35,14 +35,14 @@ ms.service: dynamics-365-business-central
 > [!NOTE]  
 > Ekki breyta óbókaða þjónustureikningnum. Þar sem þjónustufærslur eru stofnaðar við stofnun reikningsins, munu breytingar á óbókaða reikningnum ekki breyta þjónustufærslum sem þegar hafa verið stofnaðar. Hins vegar verða VSK-færslur stofnaðar við bókun reikningsins. Þetta leyfir þér að breyta almenna bókunarflokknum og GSP vörubókunarflokknum á óbókaða þjónustureikningnum.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Til að setja upp kreditreikning fyrir VSK-mun
+### Til að setja upp kreditreikning fyrir VSK-mun 
  
 Eftirfarandi ferli lýsir því hvernig eigi að stofna kreditreikning sem inniheldur einvörðungu VSK-mismun fyrir það tímabil sem þegar hefur verið reikningsfært og byrjar **01.07.2017**. Í þessu dæmi er vsk-upphæðin aðeins bókuð í fjármálastjórnunarhluta, ekki þjónustustjórnunarhlutanum. VSK-færslurnar sem eru tengdar þjónustufærslunni verða ekki leiðréttar.  
 
 1. Búa til nýjar fjárhagsreikninga fyrir VSK-mismuninn. Þessi reikningur er notaður við beina bókun VSK-leiðréttingar.  
 2. Bæta nýrri línu við VSK-bókunargrunninn.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Til að stofna gildislokadagsetningar samnings í samningslínum
+## Til að stofna gildislokadagsetningar samnings í samningslínum  
 
 Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með því að vinna með fyrningardagsetningar samninga í þjónustusamningslínum.  
 
@@ -50,7 +50,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með þv�
 2. Velja aðgerðina **Stofna kreditreikn.** til að stofna kreditreikning sjálfkrafa fyrir júlí 2017 til desember 2017.  
 3. Þar sem samningurinn er útrunninn er, verður að stofna nýjan samning fyrir tímabilið með nýjum VSK-taxta fyrir 1. júlí, 2017 til 31. desember 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Nýr kreditreikningur stofnaður.
+### Nýr kreditreikningur stofnaður.  
 
 Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning með keyrslunni **Sækja fyrirfr.gr, samn.færslur**. Færslum sem ekki á að leiðrétta frá janúar 2017 til júní 2017 verður eytt.  
 
@@ -61,7 +61,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 5. Velja aðgerðina **Sækja fyrirfr.gr, samn.færslur**.  
 6. Þegar umreikninginum er lokið, verða VSK og þjónustufjárhagsfærslur réttar.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 
 [Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fjármál](finance.md)  

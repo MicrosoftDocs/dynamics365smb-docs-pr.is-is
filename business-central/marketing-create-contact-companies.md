@@ -10,7 +10,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-contacts"></a>Stofna tengiliði
+# Stofna tengiliði
 
 Þegar komið er á viðskiptatengslum við einhvern í öðru fyrirtæki skal bæta viðkomandi við sem tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)]. Því næst skaltu bæta við upplýsingum um viðkomandi eða fyrirtæki hans sem geta reynst gagnlegar fyrir komandi samskipti. Á síðunni **Tengiliðaspjald** er hægt að stofna eftirfarandi gerðir tengiliða:
 
@@ -23,7 +23,7 @@ Hægt er að breyta gildinu seinna í reitnum **Gerð**. Að öðrum kosti skal 
 
 Þegar tengilið er umbreytt í viðskiptamann, lánardrottin eða starfsmann verður tengiliðurinn eða tengiliðafyrirtækið nafn viðskiptamannsins. Færslan fyrir tengiliðinn er geymd og hægt er að tengja tengiliðinn og viðskiptamanninn þannig að gögn þeirra samstillist áfram.
 
-## <a name="to-create-a-contact-manually"></a>Að búa til tengilið handvirkt
+## Að búa til tengilið handvirkt
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir**, velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -32,7 +32,7 @@ Hægt er að breyta gildinu seinna í reitnum **Gerð**. Að öðrum kosti skal 
    Hafi númeraröð fyrir tengiliði verið í boði á síðunni **Tengslastjórnunargrunnur** er hægt að velja <kbd>Færslulykill</kbd> til að setja inn næsta tiltæka tengiliðanúmer.
 4. Önnur svæði eru fyllt út eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Tengiliðir stofnaðir úr viðskiptamanni, lánadrottni eða bankareikning:
+## Tengiliðir stofnaðir úr viðskiptamanni, lánadrottni eða bankareikning:
 
 Ef þú ert með fyrirliggjandi viðskiptamenn, lánardrottna og bankareikninga sem þú vilt búa tengiliðaspjöld fyrir, geturðu notað runuvinnsluna **Stofna tengiliði úr**. Þegar tengiliður er stofnaður á þennan hátt eru tengiliðaupplýsingarnar samstilltar eftir á við upplýsingar um viðeigandi viðskiptamann, lánadrottin eða bankareikning. Frekari upplýsingar eru í [Samstilla tengiliði við viðskiptamenn, lánardrottna, starfsmenn og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -51,7 +51,7 @@ Kerfið úthlutar nýju tengiliðunum næstu tengiliðanúmerunum í númerarö�
 > [!TIP]  
 > Einnig er hægt að gera þetta á hinn veginn, með því að stofna viðskiptavin, lánardrottin, starfsmann eða bankareikning úr tengilið. Frekari upplýsingar eru í hlutanum [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið
+## Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið
 
 Ef þú ert með viðskiptamann, lánardrottin, starfsmann eða bankareikning fyrir fyrirtækið sem þú vilt stofna tengilið fyrir, er hægt að nota aðgerðina **Stofna sem**. Þegar tengiliður er stofnaður á þennan hátt eru tengslaupplýsingar samstilltar í framhaldinu við viðeigandi viðskiptamann, lánardrottin eða bankareikningsupplýsingar. Frekari upplýsingar eru í [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -65,7 +65,7 @@ Ef þú ert með viðskiptamann, lánardrottin, starfsmann eða bankareikning fy
 
 Tengslaupplýsingarnar eru fluttar úr tengiliðaspjaldinu yfir í nýtt spjald viðskiptamanns, lánardrottins, starfsmanns eða bankareiknings. Hugsanlega þarf að bæta við tilteknum upplýsingum við hvert spjald, svo sem um reikningsfærslu og greiðsluupplýsingar. Sjá t.d. [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Til að tengja tengilið við viðskiptamann, lánardrottin, starfsmann eða bankareikning sem þegar er til
+## Til að tengja tengilið við viðskiptamann, lánardrottin, starfsmann eða bankareikning sem þegar er til
 
 Hafir þú tengilið og annaðhvort viðskiptamann, lánardrottin, starfsmann eða bankareikning fyrir sama fyrirtækið er hægt að tengja einingarnar tvær til að samstilla gögn.
 
@@ -75,7 +75,7 @@ Hafir þú tengilið og annaðhvort viðskiptamann, lánardrottin, starfsmann e�
 4. Í reitnum **Gildandi aðalreitir** skal tilgreina reitina sem á að forgangsraða ef misræmi er á upplýsingum í reitum sem eru sameiginlegir bæði fyrirliggjandi tengilið annars vegar og viðskiptamanni, lánardrottni, starfsmanni eða bankareikningi hins vegar. Þannig að ef kóði sölumanns er mismunandi á milli tengiliðar og viðskiptamanns er hægt að velja að halda þeim sem er í tengiliðaspjaldinu með því að velja **Tengiliður**.
 5. Velja **Í lagi**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Að fjarlægja tengil milli tengiliðar og fyrirliggjandi viðskiptamanns, lánardrottins, starfsmanns eða bankareiknings
+## Að fjarlægja tengil milli tengiliðar og fyrirliggjandi viðskiptamanns, lánardrottins, starfsmanns eða bankareiknings
 
 Ef þú tengdir óvart tengilið við viðskipamann, lánardrottin, starfsmann eða bankareikning skaltu fjarlægja tengilinn milli eininganna þannig að gögnin samstillist ekki lengur.
 
@@ -87,7 +87,7 @@ Ef þú tengdir óvart tengilið við viðskipamann, lánardrottin, starfsmann e
 > [!NOTE]  
 > Ekki skal nota gluggann **Viðskiptatengsl** til að breyta tengslum sem fyrir eru. Þess í stað skal fjarlægja tengslin og nota aðgerðina **Tengja v. fyrirliggjandi**. Frekari upplýsingar er að finna í hlutanum [Að tengja tengilið við viðskiptamann, lánardrottin, starfsmann eða bankareikning sem þegar er til](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Samstilla tengiliði við viðskiptamenn, lánardrottna, starfsmenn og bankareikninga
+## Samstilla tengiliði við viðskiptamenn, lánardrottna, starfsmenn og bankareikninga
 
 Ef einhverjir tengiliðir eru einnig viðskiptamenn, lánardrottnar eða bankareikningar er hægt að samstilla þá við gögn úr tengiliðnum með eftirfarandi ávinningi:
 
@@ -107,12 +107,12 @@ Ef einhverjir tengiliðir eru einnig viðskiptamenn, lánardrottnar eða bankare
 * Þegar stofnaðir eru viðskiptamenn, lánardrottnar, starfsmenn eða bankareikningar úr tengiliðum. Frekari upplýsingar eru í hlutanum [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * Þegar þú tengir tengiliði við fyrirliggjandi viðskiptamenn, lánardrottna, starfsmenn og bankareikninga úr tengiliðaspjaldinu. Frekari upplýsingar er að finna í hlutanum [Að tengja tengilið við viðskiptamann, lánardrottin, starfsmann eða bankareikning sem þegar er til](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Til að skoða hvaða viðskiptavin, lánardrottin, starfsmann eða bankareikning tengiliður er tengdur við
+## Til að skoða hvaða viðskiptavin, lánardrottin, starfsmann eða bankareikning tengiliður er tengdur við
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tengiliðir** og velja síðan viðkomandi tengil.
 2. Veldu línuna fyrir tengilið, veldu aðgerðina **Tengdar upplýsingar** og veldu  síðan aðgerðina **Viðskiptamaður/Lánardrottinn/Bankareikningur/Starfsmaður**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með tengiliði](marketing-contacts.md)  
 [Uppsetning tengiliða](marketing-setup-contacts.md)  

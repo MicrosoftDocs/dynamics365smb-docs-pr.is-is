@@ -10,20 +10,20 @@ ms.date: 03/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook
+# Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook
 
 Hægt er að setja upp samstillingu tengiliðar þannig að tengiliðir þínir í [!INCLUDE[prod_short](includes/prod_short.md)] séu með sömu upplýsingar og tengiliðir þínir í Microsoft Outlook. Ef þú ert til dæmis sölumaður gætirðu unnið í Outlook og [!INCLUDE[prod_short](includes/prod_short.md)] á sama tíma. Ef tengiliðirnir eru þeir sömu á báðum stöðum er vinnan þín einfaldari.  
 
 Tengiliðirnir sem verið er að samstilla eru sjálfgefið geymdir í möppu **Business Central** í eftirlæti á möppusvæðinu í Outlook. Mappa Business Central getur auðveldað þér að greina hvaða tengiliði þú ert að samstilla. Hægt er að stilla síur til að samstilla aðeins tiltekna tengiliði úr [!INCLUDE[prod_short](includes/prod_short.md)] í Outlook. Þegar þú hefur sett upp samstillingu er hægt að samstilla handvirkt eða gera ferlið sjálfvirkt til að samstilla samkvæmt áætlun.  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - Þú notandasnið í [!INCLUDE[prod_short](includes/prod_short.md)] verður að tilgreina tölvupóstreikninginn þinn Microsoft 365 .
 
   Þú getur athugað þessa stillingu í hlutanum **Microsoft 365 Sannvottun** í notandaforstillingu þinni í listanum **Notendur**.
 - Með [!INCLUDE[prod_short](includes/prod_short.md)] hefur verið sett upp samstilling tengiliða eins og lýst er í [Setja upp samstillingu tengiliða við Outlook fyrir Business Central innanhúss](admin-contact-sync-setup-onprem.md)
 
-## <a name="set-up-synchronization"></a>Uppsetning samstillingar
+## Uppsetning samstillingar
 
 Þú setur upp hvernig þú vilt samstilla tengiliði með Outlook á síðunni **Uppsetning Exchange-samstillingar** í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -33,7 +33,7 @@ Sérhver samstarfsfélagi þinn getur einnig sett upp eigin Exchange-samstilling
 
 Eftir að samstilling hefur verið sett upp er hægt að samstilla breytingar á tengiliðnum handvirkt eða gera ferlið sjálfvirkt með því að setja upp verkraðarfærslu. Nánari upplýsingar um sjálfvirkni er að finna í næsta hluta í þessari grein.
 
-### <a name="automate-synchronization"></a>Sjálfvirkni samstillingar
+### Sjálfvirkni samstillingar
 
 Hægt er að búa til verkraðarfærslu sem mun samstilla tengiliði samkvæmt tímaáætlun sem þú skilgreinir. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md). 
 
@@ -44,7 +44,7 @@ Eftirfarandi tafla sýnir stillingarnar á síðunni **Spjald verkraðarfærslu*
 |Gerð hlutar sem á að keyra|Codeunit|
 |Auðkenni hlutar í keyrslu|6700|
 
-## <a name="synchronize-contacts"></a>Samstilla tengiliði
+## Samstilla tengiliði
 
 Ef þú hefur reynslu af því að vinna með tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)] verður það lítið mál að samstilla handvirkt úr listanum **Tengiliðir** hvenær sem það hentar þér. Tengiliði er hægt að samstilla á tvo vegu:
 
@@ -61,7 +61,7 @@ Ef þú hefur reynslu af því að vinna með tengiliði í [!INCLUDE[prod_short
 > [!NOTE]
 > Ef þú eyðir tengilið í Outlook, en en heldur honum í [!INCLUDE[prod_short](includes/prod_short.md)], verður tengiliðurinn búinn til aftur í Outlook í næsta skipti sem þú samstillir. 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Fjármál](finance.md)  

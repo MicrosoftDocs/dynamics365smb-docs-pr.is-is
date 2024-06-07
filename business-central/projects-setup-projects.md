@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-project-management"></a>Uppsetning verkefnastjórnunar
+# Uppsetning verkefnastjórnunar
 
 Áður en hægt er að nota [!INCLUDE[prod_short](includes/prod_short.md)] til að stjórna verkefnum þarf að setja upp forða, vinnuskýrslur og verkefni.
 
@@ -26,7 +26,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Að gera forða kleift að skrá tímanotkun fyrir einstakling eða vél og gera stjórnanda kleift að skoða notkun og úthlutun. |[Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md) |
 | Stofna verkspjöld og undirbúa verkhluta. Setja upp verð fyrir verkvörur og verkforða og skilgreina bókunarflokka verka. |[Uppsetning verkefna](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna verkum](projects-manage-projects.md)  
 [Myndband: Hvernig á að stofna verkefni í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

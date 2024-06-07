@@ -9,7 +9,7 @@ ms.date: 11/23/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Rafræn reikningsfærsluskilyrði: Útgáfa reikninga í einriti
+# Rafræn reikningsfærsluskilyrði: Útgáfa reikninga í einriti
 
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur prentast oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  
 
@@ -17,7 +17,7 @@ Með þessari aðgerð er hægt að senda skilmála um notkun reikninga í einri
 
 Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kreditreikningur) þar sem fram kemur að reikningarnir séu búnir til í bókhalds- og áætlunarkerfi sem samræmist reglugerð nr. 598/1999.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning sölu](../../sales-setup-sales.md)  
 

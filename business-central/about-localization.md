@@ -11,13 +11,13 @@ ms.date: 09/05/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="what-is-local-functionality-in-"></a>Í hvað er staðbundnar aðgerðir [!INCLUDE[prod_long](includes/prod_long.md)]?
+# Í hvað er staðbundnar aðgerðir [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta má sjá lýsingar á virkni sem á við löndin/svæðin þar sem Microsoft sér um reglufylgni og aðrar staðbundnar aðgerðir.  
 
 Til að fá lista yfir þá markaði sem þegar eru studdir er farið í [Lands-/svæðisbundið til ráðstöfunar og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Staðbundin virkni
+## Staðbundin virkni
 
 Í eftirfarandi töflu eru tenglar á greinar þar sem hægt er að fræðast um staðbundna virkni hvers lands/svæðis.
 
@@ -48,11 +48,11 @@ Til að fá lista yfir þá markaði sem þegar eru studdir er farið í [Lands-
 |        | Indland | [Staðbundnar aðgerðir fyrir Indland](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Önnur lönd/svæði
+### Önnur lönd/svæði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stofna umhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Undirbúðu þig undir viðskiptin](ui-get-ready-business.md)  

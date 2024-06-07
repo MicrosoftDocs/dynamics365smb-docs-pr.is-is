@@ -8,7 +8,7 @@ ms.date: 08/03/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Opna og deila skrám Business Central í Microsoft OneDrive
+# Opna og deila skrám Business Central í Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] auðveldar geymslu, umsjón og deilingu skráa með öðrum í gegnum OneDrive fyrir Business. Á flestum síðum með tiltækar skrár eins og skýrsluinnhólf eða þegar skrár eru hengdar við færslur finnurðu aðgerðirnar **Opna í OneDrive** og **Deila**.
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Opna í OneDrive og deilingaraðgerðirnar fyrir fylgiskjöl":::
 
 
-## <a name="open-in-onedrive"></a>Opna í OneDrive
+## Opna í OneDrive
 
 Aðgerðin **Opna í OneDrive** afritar skrána í OneDrive og opnar síðan skrána í forriti eins og Microsoft Excel á netinu, Microsoft Word á netinu eða Microsoft PowerPoint á netinu. 
 
@@ -31,7 +31,7 @@ Með því að nota netútgáfur af þessum forritum geturðu skrifað athugasem
 
 Fyrir aðrar vinsælar skráargerðir á borð við PDF, textaskrár og myndir býður OneDrive upp á skráarskoðun sem er með eiginleika fyrir prentun, deilingu og fleira. Ef ekki er hægt að skoða skrá í OneDrive þarf mögulega að hlaða henni niður.
 
-## <a name="share"></a>Deila
+## Deila
 
 Aðgerðin **Deila** afritar skrána í OneDrive þannig að þú getir séð með hverjum þú hefur deilt henni ásamt því að deila skránni með öðru fólki. Þegar aðgerðin **Deila** er valin opnast eftirfarandi síða.
 
@@ -53,7 +53,7 @@ Deilingareiginleikinn í Business Central er byggður á OneDrive. Frekari uppl�
 > [!NOTE]
 > Aðgerðin **Deila** er ekki í boði í Business Central-forritinu fyrir fartæki.
 
-## <a name="first-time-sign-in-from-business-central"></a>Innskráning í fyrsta sinn frá Business Central
+## Innskráning í fyrsta sinn frá Business Central
 
 Þegar þú notar aðgerðina **Opna í OneDrive** eða **Deila** í fyrsta skipti gerir [!INCLUDE[prod_short](includes/prod_short.md)] eftirfarandi hluti:
 
@@ -64,7 +64,7 @@ Deilingareiginleikinn í Business Central er byggður á OneDrive. Frekari uppl�
 
 Síðan í næsta skipti sem þú notar aðgerðina **Opna í OneDrive** eða **Deila** mun [!INCLUDE[prod_short](includes/prod_short.md)] aðeins afrita og opna skrána. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Umsjón með mörgum afritum af skrá
+## Umsjón með mörgum afritum af skrá
 
 Þegar valið er **Opna í OneDrive** eða **Deila** er skráin afrituð úr [!INCLUDE[prod_short](includes/prod_short.md)] í möppuna þína í OneDrive. Ef þú breytir skránni í OneDrive verður sú skrá frábrugðin [!INCLUDE[prod_short](includes/prod_short.md)] skránni. Til að uppfæra [!INCLUDE[prod_short](includes/prod_short.md)] með nýjustu skráarútgáfunni skal fjarlægja núverandi skrá úr [!INCLUDE[prod_short](includes/prod_short.md)] og hlaða upp nýjasta afritinu.
 
@@ -82,7 +82,7 @@ Ef skrá með sama heiti er þegar til í OneDrive færðu eftirfarandi valmögu
 
   Þessi valkostur heldur núverandi skrá óbreyttri og vistar skrána sem þú valdir úr Business Central undir öðru heiti. Nýja heitið er svipað núverandi heiti, nema með númeri viðskeytis eins og „Atriði (2).xlsx“.
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Um Business Central-möppuna þína á OneDrive
+## Um Business Central-möppuna þína á OneDrive
 
 Mappan og efni hennar eru lokuð þar til þú ákveður að deila því með öðrum. Þú gætir t.d. ákveðið að deila efni með einum eða fleiri samstarfsmönnum þínum eða jafnvel fólki utan fyrirtækisins. 
 
@@ -93,7 +93,7 @@ Mappan og efni hennar eru lokuð þar til þú ákveður að deila því með ö
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Business Central og OneDrive samþætting](across-onedrive-overview.md)  
 [Stjórnun OneDrive samþættingar við Business Central](admin-onedrive-integration.md)  

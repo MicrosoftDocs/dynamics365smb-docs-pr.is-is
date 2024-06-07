@@ -9,7 +9,7 @@ ms.search.form: null
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-notifications"></a>Stjórna tilkynningum
+# Stjórna tilkynningum
 
 [!INCLUDE[prod_short](includes/prod_short.md)]getur hjálpað til við vinnuna með því að tilkynna um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Þessar tilkynningum eru sýndar sem óágengar ábendingar í tengslum við verkið sem þú ert að vinna, og þú getur valið að hunsa tilkynninguna eða séð frekari upplýsingar um málið.  
 
@@ -17,7 +17,7 @@ Ef valið er að sjá upplýsingar um tilkynningu er hægt að gera eitthvað ti
 
 Tilkynningar geta hjálpað óreyndum notendum við að ljúka við verkefni þar sem þeir þekkja ekki til og draga ekki úr framleiðni notenda með meiri reynslu.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Til að kveikja eða slökkva á tilkynningum og stjórna því hvenær þær eru sendar
+## Til að kveikja eða slökkva á tilkynningum og stjórna því hvenær þær eru sendar
 
 Þegar byrjað er a nota [!INCLUDE[prod_short](includes/prod_short.md)] er kveikt á öllum tilkynningum. Hægt er að slökkva eða kveikja á þeim, t.d. ef einhver tilvik eða staða á ekki að birtast.  
 
@@ -30,7 +30,7 @@ Kveikt eða slökkt á tilkynningum og skilyrði gilda aðeins um þig.
 3. Á síðunni sem birtist skaltu kveikja eða slökkva á tilkynningu með því að velja eða hreinsa reitinn **Kveikt**.  
 4. Til að tilgreina skilyrði þess að tilkynning sé send skal velja tengilinn **Skoða upplýsingar afmörkunar** og fylla síðan inn reitina.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

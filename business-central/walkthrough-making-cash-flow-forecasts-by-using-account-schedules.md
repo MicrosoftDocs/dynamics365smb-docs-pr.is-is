@@ -9,11 +9,11 @@ ms.date: 08/18/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Kynning: Að gera sjóðstreymisspár með fjárhagsskýrslum
+# Kynning: Að gera sjóðstreymisspár með fjárhagsskýrslum
 
 Í þessari kynningu er lýst hvernig hægt er að nota fjárhagsskýrslur til að búa til sjóðstreymisspár. Fjárhagsskýrslur framkvæma útreikninga sem ekki er hægt að framkvæma beint í myndriti yfir sjóðstreymisreikninga. Í fjárhagsskýrslum er hægt að setja upp millisamtölur fyrir sjóðstreymismóttökur og heildarútborganir. Þessar millisamtölur er hægt að hafa með í nýjum samtölum sem síðan er hægt að nota til að gera sjóðstreymisspár.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna
 
 Þessi kynning fjallar um eftirfarandi verk:  
 
@@ -23,28 +23,28 @@ ms.service: dynamics-365-business-central
 - Úthlutun dálkskilgreiningar á fjárhagsskýrslu.  
 - Sjóðstreymisspá skoðuð og prentuð.  
 
-### <a name="prerequisites"></a>Frumskilyrði
+### Frumskilyrði
 
 Til að ljúka þessari kynningu þarf:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Vinnublað sjóðstreymis með skráðum línum  
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk
 
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
 
 - Eftirlitsmaður  
 
-## <a name="story"></a>Ferill
+## Ferill
 
 Ken er fjármálastjóri á CRONUS sem gerir mánaðarlega sjóðstreymisspár. Ken inniheldur fjármál, sölu, innkaup og eignir í spánum og birtir CFO Sara fyrir viðskiptainnsýn.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Setja upp nýtt heiti fjárhagsskýrslu
+## Setja upp nýtt heiti fjárhagsskýrslu
 
 Heiti fjárhagsskýrslunnar er nafnið sem þú gefur sjóðstreymisspánni sem inniheldur röð af skilgreindum línum og dálkskilgreiningu.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Setja upp nýtt heiti fjárhagsskýrslu
+### Setja upp nýtt heiti fjárhagsskýrslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagsskýrslur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsskýrslur** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti fjárhagsskýrslu sjóðstreymis.  
@@ -52,11 +52,11 @@ Heiti fjárhagsskýrslunnar er nafnið sem þú gefur sjóðstreymisspánni sem 
 4. Í reitnum **Lýsing** færið inn **Lýsing fyrir sjóðstremisspá**.  
 5. Skildu reitina **Línuskilgreining** og **Dálkskilgreining** eftir auða.
 
-## <a name="setting-up-row-definition-lines"></a>Setja upp línuskilgreiningar
+## Setja upp línuskilgreiningar
 
 Eftir að heiti fjárhagsskýrslu er sett upp skilgreinir Ken hverja línu í fjárhagsskýrslu sjóðstreymis. Ken skilgreinir línur sem á að sýna í skýrslum auk lína sem eru eingöngu fyrir útreikninga.  
 
-### <a name="set-up-row-definition-lines"></a>Setja upp línuskilgreiningar
+### Setja upp línuskilgreiningar  
 
 1. Á síðunni **Fjárhagsskýrslur** skaltu velja nýju fjárhagsskýrsluna **Spá** sem þú bjóst til, síðan velja aðgerðina **Breyta línuskilgreiningu**.  
 2. Á síðunni **Línuskilgreining** skal færa inn hverja línu eins og sýnt er í eftirfarandi töflu.  
@@ -92,7 +92,7 @@ Eftir að heiti fjárhagsskýrslu er sett upp skilgreinir Ken hverja línu í fj
     > [!NOTE]
     > Línunúmer R10 er notað til að ná yfir niðurstöðutölur fyrir útistandandi reikninga. Línunúmer R20 er notað ef reikna á samtölu allra inngreiðsla. Línunúmer R30 er notað til að ná yfir niðurstöðutölur fyrir gjaldfallnar greiðslur. Línunúmer R40 er notað ef reikna á samtölu allra útborgana. Línunúmer R50 er notað ef ná á samtölu umframmagns reiðufés. Línunúmer R60 er notað til að ná yfir lausafé. Línunúmer R70 er notað til að reikna áætlað sjóðstreymi.
 
-## <a name="setting-up-a-new-column-definition"></a>Setja upp nýja dálkskilgreiningu
+## Setja upp nýja dálkskilgreiningu
 
 Áður en sjóðsstreymisspáin er prentuð þarf Ken að búa til dálkaskilgreiningu fyrir tölulegar upplýsingar. Í dálkunum skilgreinir Ken upplýsingarnar sem þarf til að nota úr línunum.
 
@@ -101,7 +101,7 @@ Eftir að heiti fjárhagsskýrslu er sett upp skilgreinir Ken hverja línu í fj
 - Þriðji dálkurinn hefur númerið *C30* með heitinu **Allt árið** og inniheldur breytingar á innistæðum fyrir allt reikningsárið.  
 - Að lokum úthlutar Ken dálkskilgreiningunni sem sjálfgefnum valkosti fyrir fjárhagsskýrsluna **Spá** .  
 
-### <a name="set-up-a-new-column-definition"></a>Setja upp nýja dálkskilgreiningu
+### Setja upp nýja dálkskilgreiningu
 
 1. Á síðunni **Fjárhagsskýrslur** skaltu velja nýju fjárhagsskýrsluheitið **Spá** sem þú bjóst til. Á flipanum **Heim** í flokknum **Vinna** skal velja **Breyta dálkskilgreiningu**.
 
@@ -117,22 +117,22 @@ Eftir að heiti fjárhagsskýrslu er sett upp skilgreinir Ken hverja línu í fj
     |C20|Upphæð til dags|Staða til dags.|Færslur|Nettóupphæð|Alltaf|  
     |C30|Allt reikningsárið|Allt reikningsárið|Færslur|Nettóupphæð|Alltaf|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Að úthluta dálkskilgreiningu á fjárhagsskýrsluheiti
+## Að úthluta dálkskilgreiningu á fjárhagsskýrsluheiti
 
 Ken er nú tilbúinn til að úthluta dálkskilgreiningu á fjárhagsskýrsluheitið.  
 
-### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Úthluta dálkskilgreiningu á fjárhagsskýrsluheiti
+### Úthluta dálkskilgreiningu á fjárhagsskýrsluheiti
 
 1. Á síðunni **Fjárhagsskýrslur** skaltu velja fjárhagsskýrsluna **Spá**, síðan velja aðgerðina **Breyta dálkskilgreiningu**.  
 2. Í reitnum **Heiti** skaltu velja dálkskilgreininguna **Sjóðstreymi** til að úthluta sem sjálfgefna dálkskilgreiningu.  
 
-## <a name="view-and-print-the-cash-flow-forecast"></a>Skoða og prenta sjóðstreymisspána
+## Skoða og prenta sjóðstreymisspána
 
 1. Á síðunni **Fjárhagsskýrslur** skal velja fjárhagsskýrsluna **Spá** til að skoða sjóðsstreymisspána.  
 2. Á síðunni **Fjárhagsskýrsla** er hægt að velja upphæð og síðan skoða sjóðstreymisspáfærslur sem mynda upphæðina. Að auki er hægt að sjá formúluna sem notuð er til að reikna út þá upphæð. Einnig er hægt að afmarka upphæðir eftir dagsetningu og vídd.  
 3. Veldu hnappinn **Prenta** til þess að prenta sjóðstreymisspá.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með fjárhagsskýrslur](bi-how-work-account-schedule.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  

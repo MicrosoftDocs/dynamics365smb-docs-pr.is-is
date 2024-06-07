@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta eftir frálagi aðgerðar
+# Birgðaskráning íhluta eftir frálagi aðgerðar
 Hægt er að skilgreina mismunandi losunarleiðir til að gera skráningu á notkun íhluta sjálfvirka. 
 
 Þessi aðgerð er gagnleg af eftirfarandi ástæðum:  
@@ -29,14 +29,14 @@ Hægt er að skilgreina mismunandi losunarleiðir til að gera skráningu á not
 
     Þegar hægt er að birgðaskrá aðgerð sjálfvirkt er hægt að gera allt ferli skráningar notkunar og frálags sjálfvirkt. Ókosturinn við að nota sjálfvirka birgðaskráningu er að hugsanlega er ekki verið að skrá úrkastið rétt eða jafnvel meðvitað um úrkast.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Sjálfvirk bókun notkunar (birgðaskráning)
+## Sjálfvirk bókun notkunar (birgðaskráning)  
 
 - Framvirk birgðaskráning allrar pöntunarinnar  
 - Framvirk birgðaskráning eftir aðgerð  
 - Bakskráning eftir aðgerð  
 - Bakskráning allrar pöntunarinnar  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Sjálfvirk skýrslugerð - Framvirk birgðaskráning allrar pöntunarinnar
+### Sjálfvirk skýrslugerð - Framvirk birgðaskráning allrar pöntunarinnar  
 Ef framleiðslupöntunin er birgðaskráð framvirkt í upphafi verks er hegðun forritsins svipuð handvirkri notkun. Meginmunurinn er sá að notkunin gerist sjálfvirkt.  
 
 - Allt innihald framleiðsluuppskriftarinnar er notað og dregið af birgðaskrá á þeirri stundu sem útgefna framleiðslupöntunin er endurnýjuð.  
@@ -51,7 +51,7 @@ Framvirk birgðaskráning heillar pöntunar hentar fyrir framleiðsluumhverfi me
 -   Lítinn fjölda af aðgerðum  
 -   Mikla notkun íhluta í fyrstu aðgerðum  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Sjálfvirk skýrslugerð - Framvirk birgðaskráning eftir aðgerð
+### Sjálfvirk skýrslugerð - Framvirk birgðaskráning eftir aðgerð  
 Birgðaskráning eftir aðgerð gerir það mögulegt að draga frá birgðum á meðan á tiltekinni aðgerð í leið yfirvörunnar stendur. Efni er tengt leiðinni með leiðartengilskótum sem samsvara þeim leiðartengilskótum sem eru notaðir fyrir íhluti í framleiðsluuppskriftinni.  
 
 Birgðaskráningin á sér stað þegar aðgerðin sem hefur sama leiðartengilskóta er hafin. Hafin þýðir að einhver virkni er skráð í frálagsbókina fyrir þá aðgerð. Og sú virkni gæti verið einfaldlega það að uppsetningartími er færður inn.  
@@ -62,7 +62,7 @@ Best er að beita þessari tækni þegar margar aðgerðir eru fyrir hendi og ek
 
 Hægt er að nota efni á meðan á aðgerðum stendur með því að nota leiðartengilskóta. Suma íhluti er ekki hægt að nota fyrr en í lokasamsetningaraðgerðum og ekki ætti að taka þá úr birgðum fyrr en á þeim tíma.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Sjálfvirk skýrslugerð - Bakskráning eftir aðgerð
+### Sjálfvirk skýrslugerð - Bakskráning eftir aðgerð  
 Bakskráning eftir aðgerð skráir notkun eftir að aðgerðin er bókuð í frálagsbókina.  
 
 Kosturinn við þessa aðferð er að fjöldi þeirra aðalhluta sem búið er að nota í aðgerðinni er þekktur.  
@@ -71,7 +71,7 @@ Efni í framleiðsluuppskriftinni er tengt við leiðarfærslurnar með leiðart
 
 Magnið í birgðaskráningunni stendur fyrir magnið fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með fjölda þeirra yfirvara sem voru bókaðar sem frálagsmagn í þeirri aðgerð. Þetta gæti verið frábrugðið því magni sem búist var við.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Sjálfvirk skýrslugerð - Bakskráning allrar pöntunarinnar
+### Sjálfvirk skýrslugerð - Bakskráning allrar pöntunarinnar  
 Þessi skýrslugerðaraðferð tekur ekki tillit til leiðartengilskóta.  
 
 Engir íhlutir eru valdir þar til stöðu útgefnu framleiðslupöntunarinnar er breytt í *Lokið*. Magnið í birgðaskráningunni er það magn fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með þeim fjölda yfirvara sem voru fullunnar og settar í birgðir.  
@@ -82,7 +82,7 @@ Afturvirk birgðaskráning á allri framleiðslupöntuninni krefst sömu uppsetn
 
 Til dæmis ef framleiðslupöntun um að framleiða 800 metra krefst 8 kg af íhlut, og ef 200 metrar eru bókaðir sem frálag, bókast 2 kg sjálfkrafa sem notkun. Þessu er hægt að ná með því að sameina afturvirka losunaraðferð og kóða leiðartengla þannig að magnið sem er losað fyrir hverja aðgerð er í hlutfalli við raunverulegt frálag lokinnar aðgerðar. Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið**. Ef einnig eru skilgreindir leiðartengilskótar, þá gerist útreikningur og bókun þegar hverri aðgerð er lokið og magnið sem var notað í aðgerðinni er bókað. Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Til að birgðaskrá íhluti samkvæmt frálagi aðgerðar
+## Til að birgðaskrá íhluti samkvæmt frálagi aðgerðar
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2.  Veldu aðgerðina **Breyta**.  
@@ -100,7 +100,7 @@ Til dæmis ef framleiðslupöntun um að framleiða 800 metra krefst 8 kg af íh
 
 Notkunin bókast sjálfkrafa þegar frálag er skráð. Frekari upplýsingar, sjá [Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Flæðiaðferðir
+## Flæðiaðferðir
 
 Eftirfarandi tafla lýsir tiltækri losunaraðferð sem hægt er að tilgreina í spjaldinu **Vara** og spjaldinu **Birgðahaldseining**.
 
@@ -112,7 +112,7 @@ Eftirfarandi tafla lýsir tiltækri losunaraðferð sem hægt er að tilgreina �
 |Tínsla + Áfram|Sama og framvirk söfnunaraðferð, nema hún virkar aðeins fyrir birgðageymslur sem nota annaðhvort ítarlega vöruhúsagrunnstillingu eða grunnstillingu vöruhúss með áskilin hólf.<br><br> Notkun er reiknuð og bókuð úr hólfinu sem skilgreint er í reitnum **Hólfkóði til framleiðslu** á birgðageymslu eða vélastöð eftir að íhluturinn hefur verið tíndur úr vöruhúsinu.<br><br> **Ábending** <br>Ef íhlutur er settur upp með Tínslu + Framvirk birgðaskráningaraðferð getur hann ekki haft leiðartengilskóta við aðgerð sem er sett upp með framvirkri birgðaskráningaraðferð. Íhluturinn yrði þá sjálfkrafa skráður þegar aðgerð hefst, sem gerir kerfinu ókleift til að biðja um tínsluaðgerð.|
 |Tínsla + Aftur á bak|Sama og fyrir afturvirka söfnunaraðferð, nema hún virkar aðeins fyrir birgðageymslur nota annaðhvort ítarlega vöruhúsagrunnstillingu eða grunnstillingu vöruhúss með áskilin hólf.<br><br> Notkun er reiknuð og bókuð úr hólfinu sem skilgreint er í reitnum **Hólfkóði til framleiðslu** á birgðageymslu eða vélastöð eftir að íhluturinn hefur verið tíndur úr vöruhúsinu.|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

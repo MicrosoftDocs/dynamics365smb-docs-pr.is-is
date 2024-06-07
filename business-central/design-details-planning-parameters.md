@@ -9,7 +9,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
+# Hönnunarupplýsingar: áætlunarfæribreyta
 
 Þessi grein lýsir áætlunarfæribreytunum sem hægt er að nota í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,11 +24,11 @@ Hvernig áætlunarkerfið stýrir birgðaframboði ræðst af ýmsum stillingum 
 |Breyta framboðspöntununum|Lágmarksmagn pöntunar<br /><br /> Hámarksmagn pöntunar<br /><br /> Fjöldapanta|
 |Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> - Til-til-lager<br />- Eftir pöntun|
 
-## <a name="define-whether-the-item-is-planned"></a>Skilgreina hvort varan er áætluð
+## Skilgreina hvort varan er áætluð  
 
 Ef taka á vöru eða birgðahaldseiningu með í áætlunarferlinu verður að úthluta henni endurpöntunarstefnu. Annars þarf að áætla hana handvirkt, til dæmis með aðgerðinni Pantanaáætlun.  
 
-## <a name="define-when-to-reorder"></a>Skilgreina hvenær á að endurpanta
+## Skilgreina hvenær á að endurpanta  
 
 Endurpöntunartillögur eru almennt gefin út aðeins þegar spáð tiltækt magn hefur farið niður fyrir tiltekið magn. Endurpöntunarmarkið skilgreinir magnið. Annars er það núll. Núll má leiðrétta með því að færa inn öryggisbirgðamagn. Ef öryggisforskot er skilgreint verður tillagan afhent á tímabilinu á undan tilskildum skiladegi.  
 
@@ -41,7 +41,7 @@ Reiturinn **Tímarammi** er notaður í endurpöntunarmarksstefnu (**Fast endurp
 
 Reitirnir **Endurtímasetningartímabil**, **Lotusöfnunartímabil** og **Hömlunartímabil** gegna einnig hlutverki þegar endurpanta á. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Skilgreina hve mikið á að endurpanta
+## Skilgreina hve mikið á að endurpanta
 
 Ef áætlunarkerfið finnur að þörf er á endurpöntun ákvarðar endurpöntunarstefnan hvenær og hversu mikið, í pöntun.  
 
@@ -53,7 +53,7 @@ Ef áætlunarkerfið finnur að þörf er á endurpöntun ákvarðar endurpöntu
 4. Ef meiri brúttóeftirspurn er komin á gjalddaga fyrir lokadagsetningu pöntunartillögunnar sem er tímasett framvirkt og þessi eftirspurn færir áætlaðar birgðir sem nú eru áætlaðar fyrir neðan öryggisbirgðamagnið er pöntunarmagnið aukið til að lækka lækkunina. Ráðlögð birgðapöntun er því næst áætluð aftur á bak frá skiladegi vergrar eftirspurnar sem hefði farið út fyrir magn öryggisbirgða.  
 5. Ef reiturinn **Tímarauður** er ekki fylltur út er aðeins brúttóeftirspurn á sama gjalddaga bætt við.  
 
-### <a name="reordering-policies"></a>Endurpöntunarstefnur
+### Endurpöntunarstefnur  
 
 Eftirfarandi endurpöntunarstefnur hafa áhrif á magnið sem er endurpantað. Nánari upplýsingar um endurpöntunarstefnur fást [í Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnu](design-details-handling-reordering-policies.md).  
 
@@ -64,7 +64,7 @@ Eftirfarandi endurpöntunarstefnur hafa áhrif á magnið sem er endurpantað. N
 |**Röð**|Pöntunarmagnið verður reiknað út þannig að það svari öllu eftirspurnartilvikum og framboð-eftirspurn gögn verða áfram tengd þar til kemur að framkvæmd. Engar áætlunarfæribreytur eru teknar til greina.|  
 |**Lotu-fyrir-lotu**|Magnið er reiknað út þannig að það samsvari samtölu eftirspurnarinnar sem verður gjaldfallin í tímarammanum.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a>Fínstilling hvenær og hversu mikið aá endurpanta
+## Fínstilling hvenær og hversu mikið aá endurpanta  
 
 Skipuleggjandi getur fínstillt áætlunarfæribreytur til að takmarka endurtímasetningartillögur, safnað saman eftirspurn (kvikt endurpöntunarmagn) eða til að forðast óverulegar áætlunaraðgerðir. Eftirfarandi reitir hjálpa til við að fínstilla hvenær og hversu mikið á að endurpanta.  
 
@@ -101,13 +101,13 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 **Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** á síðunni **Uppsetning framleiðslu** notað.  
 
-## <a name="modify-the-supply-orders"></a>Breyta framboðspöntununum
+## Breyta framboðspöntununum  
 
 Þegar magn pöntunartillögu hefur verið reiknað út er hægt að lempa hana með einum eða fleiri breytum. Til dæmis er hámarkspöntunarmagn stærra eða jafnstórt og lágmarkspöntunarmagn, sem er stærra en eða jafnt og fjöldapöntunin.  
 
 Magnið er minnkað ef það fer fyrir hámarks pöntunarmagn. Þá er það aukið ef það er fyrir neðan lágmarkspöntunarmagni. Að lokum er talan sléttuð upp svo hún passi við tilgreinda fjöldapöntun. Allt eftirstandandi magn notar sömu leiðréttingu þar til heildareftirspurn hefur verið umbreytt í pöntunartillögur.  
 
-## <a name="delimit-the-item"></a>Afmarka vöruna
+## Afmarka vöruna  
 
 Reiturinn **Framleiðslustefna** á **birgðaspjaldssíðunni** skilgreinir hvaða aðrar pantanir útreikningur MRP leggur til.  
 
@@ -115,7 +115,7 @@ Ef valkosturinn **Eftir lager** er notaður varðar pantanirnar aðeins vöruna.
 
 Ef valkosturinn **Eftir pöntun** er notaður greinir áætlunarkerfið framleiðsluuppskrift vörunnar og stofnar tengdar pöntunartillögur fyrir þær lægri stigs vörur sem einnig eru skilgreindar sem eftir pöntun. Þetta heldur áfram eins lengi og það eru vörur til að framleiða eftir pöntun í lækkandi uppskriftarstrúktúr.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Nota lágstigskóta til að stjórna afleiddri eftirspurn
+## Nota lágstigskóta til að stjórna afleiddri eftirspurn
 
 Nota lágstigskóta til að búa til afleidda eftirspurn eftir íhlutum í gegnum til lægri stiga uppskriftarinnar. Nánari upplýsingar um lágstigskóta eru í [Forgangur vöru / Lágstigskóti](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,7 +131,7 @@ Hægt er að tengja lágstigskóta hverjum hlut í vöru sem gerð er úr mörgu
 > [!NOTE]
 > Þótt kveikt sé á reitnum **Kvikur lágstigskóti** er valinn breytast lágstigskótar íhlutavara ekki kvikar ef yfiruppskrift er eytt eða stillt á óvottuð. Í þessu tilviki gæti verið erfitt að bæta nýjum vörum við lok samsetningar framleiðslunnar þar sem farið gæti verið yfir hámarksfjölda lágstigskóta. Þess vegna er hægt að keyra **keyrsluna Reikna lágstigskóta** oft til að viðhalda uppbyggingunni fyrir stórar vörusamsetningar sem ná hámarkskóta.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-with-statistical-accounts"></a>Greina gögn með tölfræðilegum reikningum
+# Greina gögn með tölfræðilegum reikningum
 
 Nota tölfræðilega reikninga til viðbótarupplýsinga í fjárhagsskýrslum. Með tölfræðilegum reikningum er hægt að bæta við mælieiningum sem byggðar eru á gögnum sem ekki tengjast viðskiptum. Gögnum sem ekki eru í færslum er bætt við eins og einingum sem byggja á tölum, svo sem:
 
@@ -27,12 +27,12 @@ Með tilliti til þess hvernig þeir vinna eru tölfræðilegir reikningar líki
 
 Nokkur lykilmunur er á milli tölfræðireikninga og bókunarreikninga. Tölfræðilegir reikningar eru aðskildar einingar og eru ekki taldar með í prófjöfnunarskýrslum. Einnig þarf ekki að jafna debet- og kreditupphæðir þegar upplýsingareikningsbækur eru notaðar til að bóka færslur á upplýsingareikning. Upphæðin er bókuð.
 
-## <a name="set-up-a-statistical-account"></a>Setja upp tölfræðilegan reikning
+## Setja upp tölfræðilegan reikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **upplýsingareikninga** og velja síðan viðeigandi tengil.
 1. Í flýtiflipanum **Almennt** skal fylla út reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a>Bóka upphæðir á tölfræðilegan reikning
+## Bóka upphæðir á tölfræðilegan reikning
 
 1. Til að bóka upphæðirnar sem á að rekja er aðgerðin Upplýsingareikningabók valin á **síðunni Upplýsingareikningar**  **.** 
 1. Í reitinn **Bókunardagsetning** er færð inn lokadagsetning bókunartímabilsins sem bóka á upphæðir fyrir.
@@ -42,11 +42,11 @@ Nokkur lykilmunur er á milli tölfræðireikninga og bókunarreikninga. Tölfr�
 1. Í reitinn **Upphæð** er upphæðin sem á að bóka færð inn. 
 1. Valfrjálst: Eigi að taka upplýsingareikninginn með í ítarlegri greiningum þarf að tilgreina víddir í reitunum **Deildarkóti og** Kóti **viðskiptamannahóps**. Til að fræðast meira um víddir er farið í [Greining gagna eftir víddum](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a>Sannprófa upphæðir talnagagnalykla
+## Sannprófa upphæðir talnagagnalykla
 
 Á síðunni **Upplýsingareikningar** er aðgerðin **Staða** upplýsingareikninga notuð til að sannreyna að skráðar upphæðir séu réttar fyrir hvert tímabil.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a>Taka talnagagnareikning með í fjárhagsskýrslu
+## Taka talnagagnareikning með í fjárhagsskýrslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") veldu táknið, sláðu inn **Fjárhagsskýrslur** og veldu síðan viðkomandi tengil.
 1. Stofna nýja fjárhagsskýrslu á einn af eftirfarandi háttum:
@@ -62,7 +62,7 @@ Nokkur lykilmunur er á milli tölfræðireikninga og bókunarreikninga. Tölfr�
 1. Í reitnum **Tegund** línu er valið hvort skoða eigi stöðuna á bókunardagsetningunni eða byrjun bókunartímabilsins eða sýna breytingu á upphæðinni á tímabilinu.
 1. Eftirstandandi reitir eru fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Viðskiptagreind fjármála](bi.md)  
 [Fjárhagsskýrslur og greiningar í Business Central](finance-reports.md)

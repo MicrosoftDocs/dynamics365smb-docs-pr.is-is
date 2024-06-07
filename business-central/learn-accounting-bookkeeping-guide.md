@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Bókhald og bókhald
+# Bókhald og bókhald
 
 Bókhald er gagnrýnin aðgerð í hvers kyns bókhalds- og áætlunarlausnum sem og hjá flestum fyrirtækjum. Bókhald stendur fyrir skráningu og skráningu fjárhagslegra viðskipta fyrirtækis og sækja síðan, mæla, taka saman og birta niðurstöðurnar með því að nota mismunandi skýrslur sem oft eru nauðsynlegar í staðbundnum lögum. Meginmarkmið þessarar vinnslu er að hjálpa stjórnendum að skilja fjárhag rekstrarins og mæla niðurstöður efnahagsaðgerða fyrirtækisins.
 
@@ -99,7 +99,7 @@ Eftirfarandi tafla lýsir röð verka og veitir tengla á greinar sem ná yfir �
 | Leyfa alþjóðlega fjármálaskýrslugerð að alþjóðlegum bókhaldsfyrirtækjum með því að nota staðalinn EXtensible Business Reporting Language (XBRL). | [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md) |
 | Breyta aðgangi gagnagrunnsins á skýrslum, síðum af gerðinni API og fyrirspurnir til að draga úr álagi og auka afköst. | [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Sala](sales-manage-sales.md)  

@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
+# Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gerir kleift að setja saman vörur á eftirfarandi hátt:
 
 * Setja saman í pöntun  
 * Setja saman á lager  
 
-## <a name="assemble-to-order"></a>Setja saman í pöntun
+## Setja saman í pöntun
 
 Nota skal samsetningarferlið fyrir vörur sem ekki á að koma á lager. Til dæmis af eftirfarandi ástæðum:
 
@@ -44,7 +44,7 @@ Eftirfarandi listi lýsir nokkrum af ávinningi ferlisins saman í pöntun:
 
 Til að tilgreina að vara sé sett saman eftir pöntun skal velja **Setja saman í**  pöntun í **reitnum Samsetningarstefna** á **síðunni Birgðaspjald** fyrir vöruna.  
 
-## <a name="assemble-to-stock"></a>Setja saman á lager
+## Setja saman á lager
 
 Nota skal samsetningarferli til birgða fyrir vörur sem settar eru saman og geyma til sölu í framtíðinni. Samsetning vara á lager eru staðlaðar vörur, svo sem pakkað pökk, sem sérsníða ekki. Einnig er hægt að nota þessar vörur sem millivöruíhluti. Vörurnar eru tíndar og unnar sem einstakar vörur og eru meðhöndlaðar sem tilbúnar framleiðsluvörur. Nánari upplýsingar um samsetningarvörur er farið í [Samsetningarvörur](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ Nota skal samsetningarferli til birgða fyrir vörur sem settar eru saman og gey
 
 Til að tilgreina að vara sé sett saman til birgða skal velja **Setja saman til birgðir**  í **reitinn Samsetningarstefna** á **birgðaspjaldssíðu** fyrir vöruna.  
 
-## <a name="combination-scenarios"></a>Samsetningaraðstæður
+## Samsetningaraðstæður
 
 Þegar magn saman til pöntunar og birgðamagn er sameinað í sölupöntun þarf fyrst að afhenda magn saman til pöntunar.  
 
@@ -97,7 +97,7 @@ Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgil
 * Lágmarksmagnið sem færa má inn er 1. Setja verður saman að minnsta kosti eina einingu til að hægt sé að selja einingarnar fjórar, þannig að þær þrjár sem eftir eru séu tiltækar í birgðum.  
 * Hámarksmagn sem hægt er að færa inn er 4. Þessi takmörkun tryggir að ekki er sett saman meira af vörunni en þörf krefur vegna sölunnar.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
