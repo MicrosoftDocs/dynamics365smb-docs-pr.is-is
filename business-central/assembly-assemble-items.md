@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# Samsetningardeild
+# <a name="assembly-management"></a>Samsetningardeild
 
 Fyrirtæki geta útvegað viðskiptamönnum vörur með því að sameina íhluti án þess að nota framleiðsluaðgerðir. Aðgerðir til að samþætta vörur við tengdar aðgerðir eins og sölu, áætlanir, frátekningar og vöruvörur.  
 
@@ -52,7 +52,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Fræðast um hvernig á að vinna með samsetningaruppskriftir og hvernig þær eru frábrugðnar framleiðsluuppskriftum.|[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)|
 |Fræðast um bókun samsetningarnotkunar og frálags og hvernig [!INCLUDE [prod_short](includes/prod_short.md)] dreifir kostnaði vöru og forða í fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  

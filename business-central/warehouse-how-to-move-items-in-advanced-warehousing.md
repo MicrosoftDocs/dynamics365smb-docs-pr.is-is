@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# Færa vörur í ítarlegri vöruhússkilgreiningu sem nota beinan frágang og tínslu
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Færa vörur í ítarlegri vöruhússkilgreiningu sem nota beinan frágang og tínslu
 
 Hægt er að færa vörur milli hólfa án eftirspurnar úr upprunaskjali. Til dæmis væri hægt að gera það sem hluta af eftirfarandi aðgerðum:
 
@@ -37,9 +37,9 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 * Frágangur notar frágangssniðmát
 * Tínsla notar hólfaflokkun og ráðstöfunarmagn
 
-## Vinnublað vöruhúsahreyfingar
+## <a name="warehouse-movement-worksheet"></a>Vinnublað vöruhúsahreyfingar
 
-### Til að færa vörur með vöruhúsahreyfingarvinnublaðinu
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Til að færa vörur með vöruhúsahreyfingarvinnublaðinu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað hreyfingar** og velja síðan viðkomandi tengil.  
 2. Reitirnir í vinnublaðslínunum eru fylltir út handvirkt eða ein af eftirfarandi aðgerðum notuð til að fylla sjálfkrafa í línurnar:
@@ -56,7 +56,7 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 
 3. Veljið aðgerðina **Stofna hreyfingu** til að stofna hreyfinguna. Þegar flutningi er lokið er hægt að skrá hana.  
 
-### Vöruhúsahreyfingin skráð
+### <a name="to-register-the-warehouse-movement"></a>Vöruhúsahreyfingin skráð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Hreyfingar** og velja síðan viðkomandi tengil.  
 2. Opna hreyfingaskjalið sem á að skrá.  
@@ -72,9 +72,9 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 > [!NOTE]  
 > Í birgðageymslum sem nota beinan frágang og tínslu er ekki hægt að færa vörur handvirkt í hólf af tegundinni **RECEIVE** vegna þess að þær eru ekki enn taldar tiltækar birgðir. Ganga þarf frá vörunum í þessum hólfum áður en þær eru tiltækar til hreyfinga.
 
-## Innanhússtínsla  
+## <a name="internal-pick"></a>Innanhússtínsla
 
-### Að búa til Innahússtínslur  
+### <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innanhússtínsla** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
@@ -83,7 +83,7 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 5. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja aðgerðina **Gefa út** og stofna vöruhúsatínslur á síðunni **Vinnublað** tínslu. Nánari upplýsingar um tínsluvinnublöð eru í [Stofna tínsluskjöl í magni með tínsluvinnublaðinu](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Þegar tínslunni er lokið er hægt að skrá hana.  
 
-### Vöruhúsatínsla skráð
+### <a name="to-register-the-warehouse-pick"></a>Vöruhúsatínsla skráð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 
@@ -95,9 +95,9 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 
 4. Þegar vörurnar hafa verið tíndar og settar á afhendingarsvæðið eða í afhendingarhólfið skal velja aðgerðina **Skrá tínslu** .  
 
-## Innanhússfrágangur  
+## <a name="internal-put-away"></a>Innanhússfrágangur
 
-### Stofna innanhússfrágang  
+### <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Innanhússfrágang í vöruhúsi** og velja síðan viðeigandi tengil.  
 2. Valið er aðgerðin **Nýtt**.
@@ -111,7 +111,7 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 6. Veldu aðgerðina **Stofna frágang**. Vöruhúsafrágangsleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss. Einnig er hægt að velja aðgerðina **Gefa út** til að stofna vöruhúsafrágang með síðunni **Frágangsvinnublað** . Nánari upplýsingar um vinnublöð frágangs eru í [Stofna frágangsskjöl í magni með frágangsvinnublaðinu](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Þegar fráganginum er lokið er hægt að skrá hann.  
 
-### Vöruhúsafrágangur skráður
+### <a name="to-register-the-warehouse-put-away"></a>Vöruhúsafrágangur skráður
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Frágangur** og velja síðan viðkomandi tengil.
 2. Vöruhúsafrágangurinn sem er tilbúinn til afgreiðslu er opnaður.  
@@ -134,7 +134,7 @@ Síðurnar **Vinnublað**  hreyfingar, **Innanhússtínsla** vöruhúss og  **In
 
 5. Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
-## Til að skrá hreyfingu sem þegar hefur gerst
+## <a name="to-register-a-movement-that-has-already-happened"></a>Til að skrá hreyfingu sem þegar hefur gerst
 
 Ef skrá þarf þá staðreynd að vörur hafa þegar verið fluttar í önnur hólf án frágangs, tínslu eða hreyfingar er hægt að nota vöruh **. Síðan Endurflokkunarbók** til að skrá hreyfinguna.
 
@@ -142,7 +142,7 @@ Ef skrá þarf þá staðreynd að vörur hafa þegar verið fluttar í önnur h
 2. Reitirnir **Vörunr.**, **, Frá-svæðiskóti**, **Kóti frá-hólfs**, **Til-svæðiskóti**, and **Kóti til-hólfse** eru fylltir út.  
 3. Velja aðgerðina **Skrá**.  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

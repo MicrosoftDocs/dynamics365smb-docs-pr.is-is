@@ -9,7 +9,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
 
 Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa skilgreiningu gagnaskipta.  
 
@@ -23,7 +23,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 - Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
 
-## Til að hlaða XML-skemaskrá
+## <a name="to-load-an-xml-schema-file"></a>Til að hlaða XML-skemaskrá
 
 1. Ganga úr skugga um að viðeigandi XML-skemaskrá sé í boði. Skráarendingin er .xsd.  
 
@@ -47,7 +47,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
     > [!NOTE]  
     >  Tré hlaðins XML-skema er sjálfkrafa samanfallið. Hver hnútur er stækkaður með því að velja **+** hnappinn á hnútinu. Til að auka alla hnúða er valið **Stækka Allt** á borðanum.  
 
-### Að velja eða hreinsa hnúta á XML-skema  
+### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Að velja eða hreinsa hnúta á XML-skema
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **XML-skemaskoðun** og velja síðan viðkomandi tengil.  
 
@@ -85,7 +85,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
      Reiturinn **Val** tilgreinir að hnúturinn hefur tvo eða fleiri systkinahnúta sem valkosti.  
 
-### Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **XML-skema** og velja síðan viðkomandi tengil.  
 
@@ -103,7 +103,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 > [!NOTE]
 > Í 2019 útgáfutímabili 1 og fyrri útgáfum var hægt að búa til XMLport sem byggðist á skemanu og síðan flutt inn í lausnina. Þetta er ekki lengur stutt.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)  
 [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

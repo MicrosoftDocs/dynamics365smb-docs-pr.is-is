@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Tilfalengin greining á gögnum um eignir
+# <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Tilfalengin greining á gögnum um eignir
 
 Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina eignagögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Sum dæmi eru "Heildareignir" "Afskriftir með tímanum" eða annað sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -21,7 +21,7 @@ Eftirfarandi listasíður eru notaðar til að hefja greiningu á ferlum eigna:
 - [Eignafærslur](https://businesscentral.dynamics.com/?page=5604)
 - [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20)
 
-## Tilfalengdar greiningaraðstæður eigna
+## <a name="fixed-assets-ad-hoc-analysis-scenarios"></a>Tilfalengdar greiningaraðstæður eigna
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -37,7 +37,7 @@ Eftirfarandi hlutar gefa dæmi um aðstæður eigna í [!INCLUDE [prod_short](in
 | [Virði eignar breytist með tímanum](#example-asset-value-changes-over-time) | Rekja virði eignar breytist með tímanum. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Eignabókunartegund**, **Eignabókunardags.** og **Upphæð** |
 |[Eignaafskriftir með tímanum](#example-fixed-asset-depreciations-over-time) | Rekja afskriftir með tímanum, bæði á öllum eignum og einni eign. | [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) | **Afskriftabók**, **Eignanr.**, **Eignabókunarár**, **Eignabókunarmánuður**, **Upphæð** og **Eignabókunartegund** |
 
-### Dæmi: núgildandi virði eigna
+### <a name="example-fixed-assets-current-value"></a>Dæmi: núgildandi virði eigna
 
 Til að rekja virði einnar eða fleiri eigna skal fylgja eftirfarandi skrefum:
 
@@ -52,7 +52,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Dæmi um hvernig á að gera gagnagreiningu á síðunni Eignafærslur til að sjá virði eignar." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Dæmi: eignavirði breytist með tímanum
+### <a name="example-asset-value-changes-over-time"></a>Dæmi: eignavirði breytist með tímanum
 
 Til að rekja breytingar á virði eigna með tímanum skal fylgja eftirfarandi skrefum:
 
@@ -68,7 +68,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Dæmi um hvernig á að gera gagnagreiningu á síðunni Eignafærslur til að sjá virðisbreytingar eigna með tímanum." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
-### Dæmi: eignaafskriftir með tímanum
+### <a name="example-fixed-asset-depreciations-over-time"></a>Dæmi: eignaafskriftir með tímanum
 
 Til að rekja afskriftir fyrir eina eða fleiri eignir skal fylgja eftirfarandi skrefum:
 
@@ -85,17 +85,17 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Dæmi um hvernig á að gera greiningu á gögnum á síðunni Eignafærslur til að sjá afskriftir með tímanum." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-## Gagnagrunnur fyrir tilfalvarna greiningu á eignum
+## <a name="data-foundation-for-ad-hoc-analysis-on-fixed-assets"></a>Gagnagrunnur fyrir tilfalvarna greiningu á eignum
 
 Þegar eignabækur eru bókaðar [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar notandi færslur í **töflunni Eignafærsla** . Þess vegna er tilfalvarleg greining á eignum gjarnan gerð á síðunni [Eignafærslur](https://businesscentral.dynamics.com/?page=5604) .
 
-## Stuðlar
+## <a name="contributors"></a>Stuðlar
 
 *Microsoft viðheldur þessari grein. Varahlutir dæmisins voru upphaflega skrifaðir af eftirfarandi þátttakanda.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] ráðgjafi
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  
 [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)  

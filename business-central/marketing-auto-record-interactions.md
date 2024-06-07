@@ -9,7 +9,7 @@ ms.date: 12/12/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Skráning samskipta við tengiliði sjálfvirkt
+# <a name="recording-interactions-with-contacts-automatically"></a>Skráning samskipta við tengiliði sjálfvirkt
 Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, forsíður, tölvupóst og símtöl, eins og:
 
 * Prenta sölu- eða innkaupatilboð, pantanir, reikninga, kreditreikninga, forsíður.
@@ -21,7 +21,7 @@ Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu
 Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota síðuna **Uppsetning samskiptasniðmáts**.  
 Til að opna síðuna **Uppsetning samskiptasniðmáts** skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samskiptasniðmáts** og velja síðan viðkomandi tengil.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

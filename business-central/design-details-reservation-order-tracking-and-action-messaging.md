@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Hönnunarupplýsingar: frátekning, pöntunarrakning og aðgerðaboð
+# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Hönnunarupplýsingar: frátekning, pöntunarrakning og aðgerðaboð
 
 Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.  
 
@@ -27,13 +27,13 @@ Frátekningarkerfið vinnur með áætlanakerfinu með því að búa til aðger
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Frátekning  
+## <a name="reservation"></a>Frátekning
 
  Frátekning er fastur tengill sem tengir sérstaka eftirspurn og sérstakt framboð. Þessi tengill hefur beint áhrif á síðari birgðafærslu og tryggir rétta notkun vörufærsla vegna kostnaðar. Frátekning hnekkir sjálfgefinni aðferð kostnaðarútreiknings fyrir vöru. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning](design-details-item-tracking.md).  
 
  Síðan **Frátekning** er aðgengileg af öllum pöntunarlínum af gerðinni eftirspurn og framboð. Á þessari síðu getur notandinn skilgreint hvaða eftirspurn eða framboð færslu til að búa til frátekningartengil á. Frátekning samanstendur af færslupörum með sama færslunúmer. Ein færsla er með neikvætt formerki og vísar á eftirspurn. Hin færslan er með jákvæðu merki og vísar á framboðið. Þessar færslur eru vistaðar í töflunni **Frátekningarfærsla** með stöðugildinu **Frátekning**. Notandinn getur skoðað allar frátekningarnar á síðunni **Frátekningarfærslur**.  
 
-### Mótbókun í frátekningum  
+### <a name="offsetting-in-reservations"></a>Mótbókun í frátekningum
 
  Frátekningar eru gerðar gegn tiltæku vörumagni. Vara til ráðstöfunar er reiknuð út í undirstöðuatriðum á eftirfarandi hátt:  
 
@@ -56,7 +56,7 @@ Frátekningarkerfið vinnur með áætlanakerfinu með því að búa til aðger
 
  Nánari upplýsingar eru í [Upplýsingar um hönnun: Til ráðstöfunar í vöruhúsi](design-details-availability-in-the-warehouse.md).  
 
-### Handvirk frátekning  
+### <a name="manual-reservation"></a>Handvirk frátekning
 
 Þegar notandi býr viljandi til frátekningu fær notandinn fullt eignarhald og ábyrgð á þessum vörum. Þetta þýðir að notandinn þarf einnig handvirkt breyta eða hætta við frátekningu. Slíkar handvirkar breytingar geta valdið sjálfvirka breytingu á frátekningum  
 
@@ -72,7 +72,7 @@ Eftirfarandi tafla sýnir hvenær og hvaða breytingar gætu átt sér stað:
 > [!NOTE]  
 > Aðgerðin fyrir bindingu á eftir áætlun getur einnig breytt fyrirvörum án þess að notandi sé upplýstur, með þvi´að endurraða ótilgreindum fyrirvörum rað- eða lotunúmera. Nánari upplýsingar eru í [Hönnunarupplýsingar: Vörurakning og frátekningar](design-details-item-tracking-and-reservations.md).  
 
-### Sjálfvirk frátekning  
+### <a name="automatic-reservations"></a>Sjálfvirk frátekning
 
  Birgðaspjaldið má stilla þannig að það sé alltaf með sjálfkrafa frátekt úr eftirspurn, svo sem sölupantanir. Þá er gerð frátekning á birgðum, innkaupapöntunum og samsetningarpöntunum og framleiðslupöntunum. Viðvörun er birt ef framboð er ónógt.  
 
@@ -94,7 +94,7 @@ Sjálfvirkar frátekningar sem eru búnar til á áætlunarkeyrslu eru meðhönd
 
 - Þær eru innfaldar og hugsanlega breytt í síðari áætlunarkeyrslum, borið saman við handvirkt fráteknar vörur.  
 
-## Rakning pöntunar  
+## <a name="order-tracking"></a>Rakning pöntunar
 
 Pöntunarrakning hjálpar til við viðhalda gildri framboðsáætlun með því að bjóða upp á yfirlit yfir mótbókun á milli eftirspurnar og framboðs í pöntunarnetinu. Pöntunarrakningarfærslan er undirstaða fyrir gangvirk aðgerðaboð og tilögur um áætlanalínur á meðan áætlun er í keyrslu.  
 
@@ -104,7 +104,7 @@ Pöntunarrakning hjálpar til við viðhalda gildri framboðsáætlun með því
 > [!NOTE]  
 > Pöntunarrakningarregla og aðgerðin Sækja aðgerðaboð eru ekki samþættar við Vinnslu. Það þýðir að eftirspurn sem tengist verki er ekki rakin sjálfkrafa. Þar sem hún er ekki rakin gæti það valdið því að notkun fyrirliggjandi áfyllingar með verkupplýsingum er rakin til annarrar eftirspurnar, til dæmis sölupöntunar. Einnig getur komið upp sú aðstaða þar sem upplýsingar um tiltækar birgðir eru ekki samstilltar.  
 
-### Pöntunarnetið  
+### <a name="the-order-network"></a>Pöntunarnetið
 
 Pöntunarrakningarkerfið er byggt á þeirri meginreglu að pöntunarnetið verði alltaf að vera í jafnvægi, þar sem öll eftirspurn sem skráð er í kerfið samsvari framboði, og öfugt. Kerfið nær þessu með því að bera kennsl á röklæga tengla milli allra eftirspurnar og birgðafærslna í pöntunarnetinu.  
 
@@ -112,7 +112,7 @@ Pöntunarrakningarkerfið er byggt á þeirri meginreglu að pöntunarnetið ver
 
 Til að auka gagnsæi útreikninga í áætlanakerfi sýnir síðan **Óraktar áætlunareiningar** órekið magn sem lýsir mismun á magni milli þekktan eftirspurn og leiðbeinandi framboð. Hver lína á síðunni vísar til orsakar af umframmagni, svo sem **Standandi pöntun**, **Öryggisbirgðastig**, **Fast endurpöntunarmagn**, **Lágmarks pöntunarmagn**, **Sléttun** eða **Hömlur**.  
 
-### Mótfærslu í pöntunarrakningu  
+### <a name="offsetting-in-order-tracking"></a>Mótfærslu í pöntunarrakningu
 
 Ólíkt frátekningum, sem getur aðeins verið gert gegn fyrirliggjandi vörumagni, er pantanarakning möguleg fyrir allar pöntunarnetseiningar sem eru hluti af netpantanaútreikningi áætlanakerfisins. Nettókröfur eru reiknaðar út með eftirfarandi hætti:  
 
@@ -121,7 +121,7 @@ Til að auka gagnsæi útreikninga í áætlanakerfi sýnir síðan **Óraktar �
 > [!NOTE]  
 > Eftirspurn sem er tengt við spár eða skipulags þáttum er ekki raktir eftir pöntun.  
 
-### Dæmi: Rakning pöntunar í sölu, framleiðslu og millifærslum  
+### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Dæmi: Rakning pöntunar í sölu, framleiðslu og millifærslum
 
 Eftirfarandi atburðarás sýnir hvaða pöntunarrakningarfærslur eru búnar til í töflunni **Frátekningarfærsla** vegna ýmissa breytinga í pöntunarneti.  
 
@@ -141,14 +141,14 @@ Eftirfarandi pöntunarrakningarfærslur eru til staðar í töflunni **Frátekni
 
  ![Fysta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### Færslunúmer 8 og 9  
+### <a name="entry-numbers-8-and-9"></a>Færslunúmer 8 og 9
 
 Fyrir íhlutaþörf fyrir LOTA annarsvegar og LOTB hinsvegar eru tenglar pöntunarrakningar stofnaðir úr eftirspurninni í töflu 5407, **Framl.pöntunaríhlutur**, til framboðsins í töflu 32, **Birgðafærsla**. **Pöntunarstaða** reitur inniheldur **Rakning** til að sýna að þessar færslur eru breytilegir pöntunarrakningartenglar á milli framboðs og eftirspurnar.  
 
 > [!NOTE]  
 > Reiturinn**lotunr.** er auður á eftirspurnarlínum vegna þess að ekki eru tilgreind lotunúmer í íhlutalínum losaðrar framleiðslupöntunar.  
 
-### Færslunúmer 10  
+### <a name="entry-number-10"></a>Færslunúmer 10
 
 Úr sölueftirspurn í töflu 37, **Sölulína**, er pöntunarrakningartengill stofnaður fyrir framboðið í töflu 5406, **Framl.pöntunarlína**. **pöntunarstaða** reitur inniheldur **frátekningu** og **binding** reitur inniheldur **pöntun-í-pöntun**. Þetta er vegna þess að útgefin framleiðslupöntun var stofnuð sérstaklega fyrir sölupöntunina og verður að vera tengd, öfugt við pöntunarrakningartenglum með frátekningarstöðuna **Rakning**, sem eru stofnaðir og breytt gagnvirkt. Nánari upplýsingar eru í hlutanum „Sjálfvirkar frátekningar“ í þessu efnisatriði.  
 
@@ -161,13 +161,13 @@ Fyrir íhlutaþörf fyrir LOTA annarsvegar og LOTB hinsvegar eru tenglar pöntun
 
  ![Annað dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### Færslunúmer 8 og 9  
+### <a name="entry-numbers-8-and-9-1"></a>Færslunúmer 8 og 9
 
 Pöntunarrakningarfærslum fyrir tvær lotur íhlutarins sem endurspegla eftirspurn í töflu 5407 er breytt úr frátekningarstöðunni **Raknings** í **Umframbirgðir**. Ástæðan er að birgðirnar sem greiðslan var tengd við áður, í töflu 32, hafa verið notaðar af sendingu á millifærslupöntuninni.  
 
 Raunverulegur afgangur, eins og í þessu tilfelli, endurspeglar umframframboð eða eftirspurn sem helst órakin. Það er til marks um ójafnvægi í pöntunarneti, sem mun búa til aðgerðaboð af áætlanakerfinu  nema það sé leyst virk.  
 
-### Færslunúmer 12 til 16  
+### <a name="entry-numbers-12-to-16"></a>Færslunúmer 12 til 16
 
 Vegna þess að tvær lotur af íhlutanum eru bókaðar á flutningspöntunina sem sendar en ekki mótteknar, eru allar tengdar jákvæðar pöntunarrakningngarfærslur af gerðinni frátekning **Afgangur**, sem gefur til kynna að þeir eru ekki úthlutað neinum kröfum. Fyrur hvert lotunúmer gentist ein færsla töflu 5741, **Millifærslulína**, og ein færsla tengist birgðafærslunni í flutningsstaðsetningunni þar sem vörurnar eru núna.  
 
@@ -185,13 +185,13 @@ Eftirfarandi röð pöntunarrakningarfærslna til staðar í töflunni **Frátek
 
  ![Fyrsta dæmi um pöntunarrakningarfærslur í frátekningarfærslutöflu.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### Færslunúmer 21 og 22  
+### <a name="entry-numbers-21-and-22"></a>Færslunúmer 21 og 22
 
 Þar sem íhluturinn þarf að hafa verið breytt í AUSTUR staðsetningu og framboðið er tiltækt sem birgðahöfuðbókarfærslur á AUSTUR staðsetningu eru allar pöntunarrakningarfærslur fyrir tvö lotunúmer nú að fullu raktar, gefið til kynna með frátekningarstöðu **Rakning**.  
 
 Reiturinn **lotunr.** er nú útfylltur í pöntunarrakningarfærslunni fyrir töflu 5407 vegna þess að lotunúmerunum var úthlutað á íhlutalínur framleiðslupöntunar.  
 
-## Aðgerðaboð  
+## <a name="action-messaging"></a>Aðgerðaboð
 
 Þegar pöntunarrakningarkerfi greinir ójafnvægi í pöntunarnetinu stofnar það sjálfkrafa aðgerðaboð til að tilkynna notanda um það. Aðgerðaboð eru kerfismynduð köll fyrir notanda aðgerðar sem tilgreina upplýsingar um ójafnvægi og tillögur um hvernig á að endurheimta jafnvægi í pöntunarneti. Þær birtast sem áætlunarlínur á síðunni **Áætlunarvinnublað** þegar **Sækja aðgerðaboð** er valið. Að auki eru aðgerðaskilaboð birt á áætlanagerðarlínur sem eru búnir til með áætlunarkeyrslu til að endurspegla tillögur skipulagningu kerfisins snýst um hvernig á að endurheimta jafnvægi við pantanakerfið. Í báðum tilvikum eru tillögur keyrðar á pöntunarnet, þegar þú velur **Framkvæma aðgerðaboð**  
 
@@ -219,11 +219,11 @@ Opin eftirspurn fer í gegnum listann og mótfærir tiltækt framboð við hvern
 
 Ef minnkun í eftirspurnarmagni á sér stað reynir pöntunarrakningarkerfið að leysa úr ójafnvæginu með því að gera fyrrnefndar athuganir í öfugri röð. Þetta þýðir að eldri aðgerðaboð gætu verið breytt eða jafnvel eytt, ef nauðsyn krefur. Pöntunarrakningarkerfið sýnir notandanum alltaf hreina útkomu útreikninga sinna.  
 
-## Rakning og áætlun pöntunar  
+## <a name="order-tracking-and-planning"></a>Rakning og áætlun pöntunar
 
 Þegar áætlanakerfi er keyrt eyðir það öllum fyrirliggjandi rakningarfærslum og aðgerðaboðafærslum og endurstofnar þær sem tillgöur að áætlunarlínum í samræmi við framboð/eftirspurn pör og forgangsverkefni. Þegar áætlunarkeyrslu er lokið er pöntunarkerfið í jafnvægi.  
 
-### Áætlunarkerfi samanborið við rakningu pöntunar og aðgerðaboð  
+### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Áætlunarkerfi samanborið við rakningu pöntunar og aðgerðaboð
 
  Eftirfarandi samanburður sýnir muninn á aðferðum sem eru notaðar við skipulagningu kerfisins til að búa til áætlanagerðarlínutillögur og þeim aðferðum sem eru notaðar með pöntunarrakningarkerfinu til að búa til pöntunarrakningarfærslur og aðgerðaskilaboð.  
 
@@ -237,7 +237,7 @@ Ef minnkun í eftirspurnarmagni á sér stað reynir pöntunarrakningarkerfið a
 
 - Áætlanakerfið býr til tengla í notandavirkjaðri runustillingu þegar það jafnar eftirspurn og framboð, en pantanarakning býr tenglana til sjálfkrafa og gagnvirkt um leið og notandinn færir inn pantanir.  
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)

@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Dálkaskilgreiningar í fjárhagsskýrslugerð
+# <a name="column-definitions-in-financial-reporting"></a>Dálkaskilgreiningar í fjárhagsskýrslugerð
 
 Nota dálkaskilgreiningar til að tilgreina dálkana sem á að hafa með í skýrslu. Til dæmis er hægt að hanna skýrsluuppsetningu til að bera saman breytingu og stöðu fyrir sama tímabil á þessu ári og síðasta ári. Hægt er að hafa allt að 15 dálka í dálkskilgreiningu. Til dæmis eru margir dálkar gagnlegir til að birta áætlanir í 12 mánuði með dálki sem sýnir samtöluna.
 
-## Stofna eða breyta dálkaskilgreiningu
+## <a name="create-or-edit-a-column-definition"></a>Stofna eða breyta dálkaskilgreiningu
 
 Til að stofna eða breyta dálkaskilgreiningu skal fylgja þessum skrefum.
 
@@ -28,7 +28,7 @@ Til að stofna eða breyta dálkaskilgreiningu skal fylgja þessum skrefum.
 1. Velja **Í lagi**.
 1. Opnaðu síðuna **Fjárhagsskýrsla** öðru hverju til að staðfesta að nýja dálkskilgreiningin virki eins og til er ætlast.
 
-## Innbyggðar dálkaskilgreiningar
+## <a name="built-in-column-definitions"></a>Innbyggðar dálkaskilgreiningar
 
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir sýnidálksskilgreiningar sem geta hjálpað til við að byrja að setja upp fjárhagsskýrslur sem uppfylla þarfir notanda.
 
@@ -41,7 +41,7 @@ Til að stofna eða breyta dálkaskilgreiningu skal fylgja þessum skrefum.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## Dæmi: Stofna dálkaskilgreiningu til að reikna prósentur
+## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Dæmi: Stofna dálkaskilgreiningu til að reikna prósentur
 
 Hugsanlega þarf að vera dálkur í fjárhagsskýrslu til að reikna prósentur af samtölu. Ef til dæmis eru línur sem skipta sölu eftir víddum er hægt að dálkur vísa til prósentu heildarsölu í hverri línu.
 
@@ -58,7 +58,7 @@ Hugsanlega þarf að vera dálkur í fjárhagsskýrslu til að reikna prósentur
     1. Í reitnum **Formúla** er færð inn formúla fyrir upphæðina sem reikna á prósentuhlutfall fyrir, með prósentutákni (%) þar fyrir aftan. Til dæmis ef dálkur N inniheldur nettóbreytinguna, er fært inn **N%**.  
 1. Skref 4 til 7 eru endurtekin fyrir hvern flokk línu sem skipta á niður eftir prósentum.
 
-## Samanburður á reikningstímabilum með reiknireglum tímabils
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Samanburður á reikningstímabilum með reiknireglum tímabils
 
 Fjárhagsskýrslan þín getur borið saman niðurstöður mismunandi reikningstímabila, svo sem síðastliðins mánaðar samanborið við sama mánuð á síðasta ári. Til að gera þetta skal opna síðuna **Dálkaskilgreining** og sérstilla hana með því að bæta reitnum **Formúla samanburðartímabils** við sem dálki. Frekari upplýsingar er að finna á [Sérstilling verksvæðis](ui-personalization-user.md). Hægt er að stilla þennan reit á reiknireglu tímabils.  
 
@@ -94,7 +94,7 @@ Frekari upplýsingar í [Vinna með dagsetningar og tíma í dagatali](ui-enter-
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## Skilgreiningar fjárhagsskýrsludálks í inn- eða útflutningi
+## <a name="import-or-export-financial-report-column-definitions"></a>Skilgreiningar fjárhagsskýrsludálks í inn- eða útflutningi
 
 Ef byrjað er á útgáfubylgju 1 2024 (útgáfa 24.1) er hægt að flytja inn og út fjárhagsskýrsludálksskilgreiningar sem RapidStart grunnstillingarpakka. Til dæmis eru grunnstillingarpakkar gagnlegir til að deila upplýsingum með öðrum fyrirtækjum. Pakkinn er búinn til í .rapidstart-skrá, sem þjappar innihaldinu saman.
 
@@ -106,7 +106,7 @@ Til að flytja inn eða flytja út skilgreiningar fjárhagsskýrsludálka skal f
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Dálkaskilgreiningar** og velja síðan viðeigandi tengil.
 1. Velja skal línuskilgreininguna og velja svo aðgerðina **Flytja inn dálkaskilgreiningu** eða **Flytja út dálkaskilgreiningu** eftir því hvað á að gera.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Línuskilgreiningar í fjárhagsskýrslugerð](bi-row-definitions.md)  
 [Undirbúa fjárhagsskýrslur](bi-how-work-account-schedule.md)  

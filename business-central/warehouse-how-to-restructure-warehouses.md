@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Endurskipulagning vöruhúsa
+# <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  
 
 - Skipta þarf í hólfakóta sem styðja notkun sjálfvirkar gagnatöku, til dæmis með handtölvum.  
@@ -19,7 +19,7 @@ Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og h
 
 Ef vöruhúsið er sett upp fyrir hólf en ekki beinan frágang og tínslu skal endurskipuleggja vöruhúsið með því að búa til nú hólf sem nota á í framtíðinni.  
 
-## Til að endurskipuleggja einfalt vöruhús sem notar aðeins hólf  
+## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Til að endurskipuleggja einfalt vöruhús sem notar aðeins hólf
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Á flýtiflipanum **Vöruhús** skal stilla reitinn **Sjálfgefið hólfaval** á **Síðast notaða hólf**.  
 3.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
@@ -34,7 +34,7 @@ Ef vöruhúsið er sett upp fyrir hólf en ekki beinan frágang og tínslu skal 
 
 Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vörurnar eru nú nýju hólfin í færslubókarlínunum.  
 
-## Til að endurskipuleggja ítarvöruhús sem notar stýrðan frágang og tínslu  
+## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Til að endurskipuleggja ítarvöruhús sem notar stýrðan frágang og tínslu
 
 1.  Nýju hólfin sem nota á í framtíðinni eru stofnuð. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 2.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
@@ -51,7 +51,7 @@ Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vör
 
 Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokkaðar sem utanflæðishólf. Utanflæðishólf hafa engan af aðgerðareitunum á síðunni **Hólfategundir** valinn og eru því ekki tekin með í vöruflæðinu. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
-## Hólfi eytt:  
+## <a name="to-delete-a-bin"></a>Hólfi eytt:
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að eyða hólfum. Velja aðgerðina **Hólf**.  
@@ -62,7 +62,7 @@ Ef valinn er hnappurinn **Já** er hólfinu eytt en hólfakótinn helst sá sami
 
 Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu einnig endurnefndar þ.m.t. færslur sem innihalda hólfainnihald, aðgerðalínur vöruhúsa, skráðar aðgerðalínur vöruhúsa, vinnublaðalínur vöruhúsa, móttökulínur vöruhúsa, bókaðar móttökulínur vöruhúsa, afhendingarlínur vöruhúsa, bókaðar afhendingarlínur vöruhúsa og vöruhúsafærslur er hægt að gera það á síðunni **Hólf**.  
 
-## Hólf endurnefnt og hólfkóta breytt í öllum færslum  
+## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Hólf endurnefnt og hólfkóta breytt í öllum færslum
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að endurnefna hólf eða breyta hólfakóta og veljið síðan **Hólf** aðgerðina.  
@@ -74,7 +74,7 @@ Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu ein
 >   
 >  Ef verið er að endurnefna móttökuhólf eða afhendingarhólf verða allar bókaðar móttökur eða afhendingar sem tengjast viðkomandi hólfi endurnefndar.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Senda áminningar um útistandandi skuldir
+# <a name="send-reminders-of-outstanding-balances"></a>Senda áminningar um útistandandi skuldir
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Setja upp marga vexti fyrir seinkaða greiðslu](finance-how-to-set-up-multiple-interest-rates.md)  

@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Samsetningarskýrslur og greiningar í Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Samsetningarskýrslur og greiningar í Business Central
 
 Samsetningarskýrslugerð í [!INCLUDE [prod_short](includes/prod_short.md)] gerir starfsmönnum í framleiðslu og rekstri kleift að fá innsýn í og tölfræði um núverandi og fyrri samsetningaraðgerðir.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

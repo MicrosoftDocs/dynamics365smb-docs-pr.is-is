@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Grunnstilling þjónustukerfisferlis
+# <a name="configure-service-management-processes"></a>Grunnstilling þjónustukerfisferlis
 
 Eftirfarandi eru nokkur dæmi um stillingarnar sem hægt er að nota í þjónustukerfisferlum:  
   
@@ -21,12 +21,12 @@ Eftirfarandi eru nokkur dæmi um stillingarnar sem hægt er að nota í þjónus
 * Stillingar á samningum, svo sem hámarksfjöldi daga sem hægt er að nota fyrir samningsbundnar þjónustupantanir, hvort nota eigi ástæðukóta þegar hætt er við samning, staðaltexta fyrir lýsingar og samningsgildi.  
 * Talnaraðirnar sem á að nota fyrir þjónustutengd skjöl og vörur.  
 
-## Að færa inn almennar og áskildar stillingar
+## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning þjónustustjórnunar** og svo velja viðeigandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Setja upp bókunarreglur þjónustureikninga fyrir notendur
+## <a name="set-up-service-invoice-posting-policies-for-users"></a>Setja upp bókunarreglur þjónustureikninga fyrir notendur
 
 Fyrirtæki hafa oft einstaka vinnslu fyrir reikninga og afhendingar. Vinnslur geta til dæmis verið breytilegar frá einum einstaklingi sem bókar allt í þjónustupöntun á marga starfsmenn, hver vinnur með sínar eigin síður.
 
@@ -55,7 +55,7 @@ Eftirfarandi tafla lýsir áhrifum ólíkra skjala.
 > [!NOTE]
 > Þegar þjónustureikningar og kreditreikningar eru bókaðir eru engar bókunarvalkostir. Fylgiskjölin bóka alltaf efnisleg og fjárhagsleg viðskipti saman. Ekki er hægt að bóka þjónustureikninga og kreditreikninga að hluta.
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
 [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  

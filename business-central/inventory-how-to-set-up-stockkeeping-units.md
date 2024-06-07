@@ -11,14 +11,14 @@ ms.search.forms: '5704, 5700, 5702, 5701'
 ms.service: dynamics-365-business-central
 ---
 
-# Setja upp birgðahaldseiningar
+# <a name="set-up-stockkeeping-units"></a>Setja upp birgðahaldseiningar
 
 Nota birgðahaldseiningar (birgðahaldseiningar) til að skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða afbrigði. Með þeim er hægt að bæta við mismunandi upplýsingum um vöru fyrir tiltekna birgðageymslu, til dæmis:
 
 * Vöruhús eða dreifingarmiðstöð
 * Afbrigði, svo sem mismunandi hillunúmer og mismunandi áfyllingarupplýsingar, fyrir sömu vöruna  
 
-## Uppsetning birgðaeininga  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Uppsetning birgðaeininga
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðahaldseiningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -35,7 +35,7 @@ Ef búa á til nokkrar birgðaeiningar fyrir vöru er keyrslan **Stofna birgðah
 > Ef birgðahaldseiningin fæst með framleiðslu **er reiturinn Staðlað kostnaðarverð** ekki notaður við reikningsfærslu og leiðréttingu raunkostnaðar framleiddu vörunnar. Þess í stað er [!INCLUDE [prod_short](includes/prod_short.md)]  gildið í reitnum **Staðlað kostnaðarverð** á birgðaspjaldinu notað og frávik reiknuð saman við kostnaðarhlutdeild þeirrar vöru.<br><br>
 > Þótt hægt sé að úthluta framleiðsluuppskriftum og leiðum á birgðahaldseiningar eru samantekt kostnaðarverðs og tengdir útreikningar á kostnaðarhlutdeild ekki tiltækir í birgðahaldseiningum. Nánari upplýsingar um staðlað kostnaðarverð er farið í [Um útreikning á stöðluðu kostnaðarverði](finance-about-calculating-standard-cost.md)
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

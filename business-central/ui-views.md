@@ -9,7 +9,7 @@ ms.date: 11/02/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vista og sérstilla listayfirlit
+# <a name="save-and-personalize-list-views"></a>Vista og sérstilla listayfirlit
 
 Þegar afmörkun er sett á lista og afmörkunin á að haldast síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -17,7 +17,7 @@ Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Til að vista yfirlit
+## <a name="to-save-a-view"></a>Til að vista yfirlit
 
 1. Opnaðu hvaða listasíðu sem er.
 2. Veldu ![Afmörkunarsvæðistákn.](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") Efst á listanum eða valið <kbd>Vakt</kbd>+<kbd>F3</kbd> til að opna afmörkunarsvæðið.
@@ -33,16 +33,16 @@ Ef þú gefur henni ekki nafn þá heitir **það Allt (afrit)**.
 > [!TIP]
 > Sérðu ekki táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit")? Frekari upplýsingar eru í [Hvers vegna sé ég ekki tákn til að vista](/dynamics365/business-central/ui-views-faq#save).
 
-## Til að endurnefna eða fjarlægja yfirlit
+## <a name="to-rename-or-remove-a-view"></a>Til að endurnefna eða fjarlægja yfirlit
 
 1. Fyrir yfirlitið sem sýnir listann eins og er skal velja táknið ![Sýna fleiri valkosti.](media/show-more-options-icon.png "Sýna fleiri valkosti") til að sjá hvaða valkostir eru í boði.
 2. Velja skal annaðhvort **Endurnefna** eða **Fjarlægja** aðgerðina.
 
-## Stjórnun margra yfirlita
+## <a name="managing-many-views"></a>Stjórnun margra yfirlita
 
 Eftir því sem fjöldi yfirlita á síðu stækkar gæti þurft meiri stjórn á því hvernig yfirlit birtast á afmörkunarsvæðinu. Þú getur notað borðann **Sérstilling** til að fela óæskileg yfirlit eða endurraðað yfirlitum þínum til að fá fullkomna röðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Sérstilling verksvæðis](ui-personalization-user.md)    

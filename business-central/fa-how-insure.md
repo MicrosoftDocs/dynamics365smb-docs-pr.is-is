@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tryggja eignir
+# <a name="insure-fixed-assets"></a>Tryggja eignir
 
 Nota síðuna **Vátryggingarspjald** til að setja upp vátryggingarskilmála til að ná yfir eina eða fleiri eignir. Hægt er að úthluta einni eign einni vátryggingu eða mörgum eignum á eina vátryggingu.
 
@@ -26,7 +26,7 @@ Nota síðuna **Vátryggingarspjald** til að setja upp vátryggingarskilmála t
 
 Þegar eign hefur verið tengd vátryggingu er **Já**  í reitnum **Vátrygging** á eignaspjaldinu. Þegar eign er selt er slökkt á víxlnum sjálfkrafa.
 
-## Stofna eða Breyting á vátryggingaspjöldum:
+## <a name="to-create-or-modify-an-insurance-card"></a>Stofna eða Breyting á vátryggingaspjöldum:
 
 Þegar upplýsingar um breytingar á tryggingarupphæð berast verður að færa nýju upplýsingarnar inn á síðuna **Vátryggingarspjald** til að tryggja að greining vátryggingasviðs sé rétt.  
 
@@ -34,7 +34,7 @@ Nota síðuna **Vátryggingarspjald** til að setja upp vátryggingarskilmála t
 2. Veljið aðgerðina **Nýtt** til að Búa til nýtt kort fyrir vátryggingarskírteini. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Einnig geturðu valið vátryggingarskírteini sem þú vilt breyta og veldu svo aðgerðina **Breyta**.
 
-## Til að Tengja eign við vátryggingarskírteini með því að bóka úr vátryggingabók.
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Til að Tengja eign við vátryggingarskírteini með því að bóka úr vátryggingabók.
 
 Þú úthlutar eign á vátryggingarskírteini með því að bóka í vátryggingasviðsbók.  
 
@@ -48,7 +48,7 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
     > [!NOTE]  
     > Færslurnar í vátryggingabók eru aðeins bókaðir í vátryggingasviðshöfuðbókina.  
 
-## Uppfæra tryggingarvirði eignar
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Uppfæra tryggingarvirði eignar
 
 Í eftirfarandi dæmi er sýnt hvernig hægt er að nota keyrsluna **Endurmat vátrygginga** til að uppfæra verðmæti eigna sem eru tryggðar.  
 
@@ -63,19 +63,19 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
 4. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í reitnum Leit skal færa inn **Vátryggingabók** og velja síðan viðkomandi tengil.  
 5. Opnaðu viðeigandi Vátryggingabók, endurskoðaðu stofnuð gildi og bókaðu þau síðan í vátryggingasviðshöfuðbókina.  
 
-## Eftirlit með vátryggingasviði
+## <a name="to-monitor-insurance-coverage"></a>Eftirlit með vátryggingasviði
 
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir sérhæfðar skýrslu- og tölfræðisíður til að greina vátryggingarskilmála, og hvort eignir þínar eru oftryggðar eða vantryggðar.  
 
-### Yfirlit yfir vátryggingarskírteini
+### <a name="overview-of-insurance-policies"></a>Yfirlit yfir vátryggingarskírteini
 
 Til að fá yfirlit yfir vátryggingarskilmála þína skaltu forskoða eða prenta **Vátrygging - Listi** skýrsluna. Skýrslan sýnir alla skilmálana og mikilvægustu reitina af vátryggingarspjöldunum.  
 
-### Vátryggingasvið
+### <a name="insurance-coverage"></a>Vátryggingasvið
 
 Ef skoða á hvaða eignir eru vátryggðar eða hvaða vátryggingar gilda fyrir hverja eign er hægt að prenta eða forskoða skýrsluna **Vátrygging - Tryggt heildarv.**.  
 
-#### Of-/vantrygging
+#### <a name="overunder-coverage"></a>Of-/vantrygging
 
 Hægt er að kanna hvort eignir séu yfir- eða vantryggingar með eftirfarandi hætti:  
 
@@ -84,18 +84,18 @@ Hægt er að kanna hvort eignir séu yfir- eða vantryggingar með eftirfarandi 
 * **Yfir-/undir Vátryggingasvið** skýrslu.  
 * **Tryggingagreining** skýrslan  
 
-### Ótrúlegar eignir
+### <a name="uninsured-fixed-assets"></a>Ótrúlegar eignir
 
 Ef ganga á úr skugga um hvort gleymst hafi að úthluta eign á vátryggingu er hægt að prenta eða forskoða skýrsluna **Vátrygging - Ótengdar eignir** . Þessi skýrsla sýnir eignir þar sem upphæðir eru ekki bókaðar í vátryggingasviðsbókina.  
 
-## Skoðun vátryggingasviðsfærslna:
+## <a name="to-view-insurance-coverage-ledger-entries"></a>Skoðun vátryggingasviðsfærslna:
 
 Hægt er að skoða færslurnar sem gerðar hafa verið í vátryggingasviðsbókinni.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Trygging** og velja síðan viðkomandi tengil.  
 2. Valin er viðeigandi vátryggingarskírteini og veldu svo **vátryggingasviðsfærslur** aðgerðina.  
 
-## Skoðun á vátryggðu heildarvirði eigna:
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Skoðun á vátryggðu heildarvirði eigna:
 
 Fylkissíða sýnir vátryggingargildin sem eru skráð fyrir hverja vátryggingu fyrir hverja eign sem verður til við bókaðar vátryggingatengdar upphæðir.  
 
@@ -105,7 +105,7 @@ Fylkissíða sýnir vátryggingargildin sem eru skráð fyrir hverja vátrygging
 4. Veljið aðgerðina **Sýna fylki**.  
 5. Til að skoða undirliggjandi vátryggingasviðsfærslur, velja gildi í fylkinu.  
 
-## Leiðrétting á vátryggingarsviðsfærslum
+## <a name="to-correct-insurance-coverage-entries"></a>Leiðrétting á vátryggingarsviðsfærslum
 
 Ef eign var tengd röngu vátryggingarskilmálunum er hægt að leiðrétta hana með því að búa til tvær endurflokkunarfærslur í vátryggingabókinni.  
 
@@ -116,7 +116,7 @@ Ef eign var tengd röngu vátryggingarskilmálunum er hægt að leiðrétta hana
 
 Eignin er fjarlægð úr röngu vátryggingarskilmálunum í annarri línu. Eigninni er úthlutað á rétta vátryggingu í fyrstu línu færslubókarinnar.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

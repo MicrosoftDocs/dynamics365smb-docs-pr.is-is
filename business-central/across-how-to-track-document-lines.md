@@ -9,10 +9,10 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rekja skjalalínur
+# <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  
 
-## Rekja skjöl sem tengjast sölupöntunarlínu
+## <a name="to-track-documents-related-to-a-sales-order-line"></a>Rekja skjöl sem tengjast sölupöntunarlínu
 Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin eru svipuð fyrir innkaupapöntun og standandi pöntunarlínur.
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
@@ -23,7 +23,7 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

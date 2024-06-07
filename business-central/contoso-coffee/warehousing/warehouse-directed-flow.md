@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Kynning á flæði á inn- og útleið í ítarlegri vöruhúsaskilgreiningu
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Kynning á flæði á inn- og útleið í ítarlegri vöruhúsaskilgreiningu
 
 Þessi kynning sýnir hvernig ljúka á inn- og útleiðarflæði í ítarlegri: Beinn frágangur og tínsla. Nánari upplýsingar eru í [Yfirlit um mismunandi skilgreiningarvalkosti](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Frumskilyrði  
+## <a name="prerequisites"></a>Frumskilyrði
 Til að ljúka þessari kynningu þarf að gera notanda að vöruhúsastarfsmanni í birgðageymslunni WHITE *með* eftirfarandi skrefum:  
 1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 1.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Starfsmenn vöruhúss** og velja síðan viðkomandi tengil.  
 2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
@@ -23,10 +23,10 @@ Til að ljúka þessari kynningu þarf að gera notanda að vöruhúsastarfsmann
 4. Gera sjálfgefna **ví6** virka.
 
 
-## Aðstæður  
+## <a name="scenario"></a>Aðstæður
 Ellen, yfirmaður vöruhússins notar hjáskipun og áfyllingu hólfa til að flýta móttöku- og afhendingartíma.  
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Stofna vöruhúsaafhendingu.  
 
@@ -135,7 +135,7 @@ Ellen, yfirmaður vöruhússins notar hjáskipun og áfyllingu hólfa til að fl
     4. Valkosturinn Afhenda **er** staðfestur.
 
 
-## Niðurstöður
+## <a name="results"></a>Niðurstöður
 - Bókuð vöruhúsamóttaka **er** stofnuð
 - skráði **vöruhúsafrágangurinn** er stofnaður    
 -  **bókuð innkaupamóttaka** er stofnuð    
@@ -149,7 +149,7 @@ Ellen, yfirmaður vöruhússins notar hjáskipun og áfyllingu hólfa til að fl
 
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Taka á móti vörum](../../warehouse-how-receive-items.md) 
 [Hönnunarupplýsingar:  vöruhúsaflæði inn](../../design-details-inbound-warehouse-flow.md) 
 [Senda vörur](../../warehouse-how-ship-items.md) 

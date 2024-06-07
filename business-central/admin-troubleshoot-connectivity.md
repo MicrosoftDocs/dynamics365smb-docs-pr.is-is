@@ -11,7 +11,7 @@ ROBOTS: NOINDEX
 ms.service: dynamics-365-business-central
 ---
 
-# Úrræðaleit vegna tengingar fyrir Business Central
+# <a name="troubleshoot-connectivity-for-business-central"></a>Úrræðaleit vegna tengingar fyrir Business Central
 
 > **Á VIÐ UM:** [!INCLUDE[prod_short](includes/prod_short.md)] á netinu
 >
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 > [!NOTE]
 > Síðan **Úrræðaleita tengigetu** prófar ekki afköst eða áreiðanleika netkerfisins, eins og hraða tengingarinnar. Það staðfestir aðeins tengigetu við mismunandi tilföng.
 
-## Hefja athugun á tengigetu 
+## <a name="start-the-connectivity-check"></a>Hefja athugun á tengigetu
 
 1. Opnaðu netvafra.
 2. Í veffanginu skal færa inn vefslóðina sem er notuð til að opna Business Central og bættu við `/connectivity` í lokin. 
@@ -51,7 +51,7 @@ ms.service: dynamics-365-business-central
 
 Í eftirfarandi köflum eru athuganir sem eru keyrðar útskýrðar og gefnar nokkrar ábendingar til að laga vandamálin.
 
-## Grunntenging við internetið
+## <a name="basic-internet-connectivity"></a>Grunntenging við internetið
 
 Athugar hvort þú sért með tengingu við internetið með því að staðfesta hvort þú hafir aðgang að þekktu almennu léni eins og www.bing.com.
 
@@ -60,7 +60,7 @@ Athugar hvort þú sért með tengingu við internetið með því að staðfest
 |Vafrinn þinn styður ekki þessa prófun|Opnaðu síðuna í studdum vafra og reyndu aftur. Listi yfir studda vafra er að finna í [Lágmarkskröfur fyrir notkun Business Central - Vafrar](product-requirements.md#browsers)|
 |Ekki tókst að senda ping-skipun á þjóninn á eftirfarandi vefslóð: {url}|Athugaðu stillingar eldveggsins.|
 
-## Hleðsla á CDN-úrræðum
+## <a name="cdn-content-delivery-network-resources-loading"></a>Hleðsla á CDN-úrræðum
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notar Azure-efnisbirtingarnet (CDN) til að bjóða upp á úrræði sem þarf til að keyra Business Central-vefbiðlarann. Þessi athugun staðfestir að nauðsynleg úrræði séu til staðar og aðgengileg með því að senda ping-skipun á tilvik Business Central í CDN.
 
@@ -69,7 +69,7 @@ Athugar hvort þú sért með tengingu við internetið með því að staðfest
 |Vafrinn þinn styður ekki þessa prófun|Sjá athugunina **Grunntenging við internetið**.|
 |Ekki tókst að senda ping-skipun á þjóninn á eftirfarandi vefslóð: {url}|Athugaðu stillingar eldveggsins.|
 
-## Sannvottun notanda
+## <a name="user-authentication"></a>Sannvottun notanda
 
 Athugar hvort gildandi notandi skráir sig inn með gildum Business Central reikningi.
 
@@ -77,7 +77,7 @@ Athugar hvort gildandi notandi skráir sig inn með gildum Business Central reik
 |-------|-------------|
 |Enginn notandi er auðkenndur eins og er|Skráðu þig inn í Business Central með gildu notandanafni og aðgangsorði.|
 
-## Uppgötvun um umhverfi Business Central
+## <a name="business-central-environments-discovery"></a>Uppgötvun um umhverfi Business Central
 
 Athuganir á umhverfum Business Central sem eru tiltækar sannvottuðum notanda, staðfestir síðan hvort hægt sé að auðkenna notandann í umhverfinu.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -88,7 +88,7 @@ Athuganir á umhverfum Business Central sem eru tiltækar sannvottuðum notanda,
 |Ekki tókst að sækja tiltæk umhverfi fyrir reikninginn.|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 |Rangt notandanafn eða aðgangsorð eða notandi er ekki með gildan reikning.| Ganga þarf úr skugga um að notandi skrái sig inn með réttu notandanafni og aðgangsorði.|
 
-## Tengigeta hugbúnaðarþjónustu
+## <a name="application-service-connectivity"></a>Tengigeta hugbúnaðarþjónustu
 
 Gengur úr skugga um að sannvottaður notandi geti tengst við uppgötvað umhverfi, sem hefst yfirleitt á vinnsluumhverfinu.
 
@@ -99,7 +99,7 @@ Gengur úr skugga um að sannvottaður notandi geti tengst við uppgötvað umhv
 |Ekkert klasaaðsetur til að framkvæma þessa athugun fyrir|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 |Endastöð útgáfu er ekki til|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 
-## Tengigeta vefþjóns
+## <a name="web-server-connectivity"></a>Tengigeta vefþjóns
 
 Athugar hvort sannvottaður notandi getur komið á tengslum við vefþjóninn.
 
@@ -110,7 +110,7 @@ Athugar hvort sannvottaður notandi getur komið á tengslum við vefþjóninn.
 |Ekkert klasaaðsetur til að framkvæma þessa athugun fyrir|Skoða lista yfir tiltæk umhverfi í stjórnendamiðstöð Business Central.|
 |Ekki tókst að koma á tengingu við vefþjóninn|Hreinsa skyndiminnið og endurhlaða síðuna.|
 
-## Ástand þjónustu
+## <a name="service-health-status"></a>Ástand þjónustu
 
 Gefur skýrslur um þjónustuheilbrigðisstöðu Business Central með því að athuga með lýsandi faraldur.
 
@@ -119,7 +119,7 @@ Gefur skýrslur um þjónustuheilbrigðisstöðu Business Central með því að
 |Enginn sannvottaður notandi til að framkvæma þessa athugun|Sjá **Athugun á sannvottun notanda**.|
 |Því miður, Business Central er ekki til bráðabirgða. Reyna skal aftur síðar.|Reyna skal aftur síðar.|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Yfirlit yfir verkefni til að setja upp Business Central](setup.md)  
