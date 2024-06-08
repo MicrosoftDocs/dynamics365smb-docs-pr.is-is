@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
+# Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Önnur nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem þarf að tilkynna um í móðurfyrirtækjum. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki.  
 
@@ -36,11 +36,11 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
 > [!TIP]
 > Sameining fjárhagsgagna getur skipt máli fyrir ferli milli fyrirtækja. Nánari upplýsingar um aðgerðir milli fyrirtækja eru notaðar til að [vinna með færslur](intercompany-manage.md) milli fyrirtækja.
 
-## <a name="consolidate-data"></a>Gögnum steypt saman
+## Gögnum steypt saman
 
 Áður en steypa er saman er ágætt að prófa gögnin áður en það er flutt til samsteypufyrirtækis. [!INCLUDE[prod_short](includes/prod_short.md)] athugar muninn á upplýsingunum í fyrirtækiseiningunum og samstæðufyrirtækinu. Til dæmis hvort munur er á reikningsnúmerum og víddarkóðum. Leiðrétta allar villur sem finnast áður en skýrslan er keyrð. Hægt er að prófa gagnagrunninn eða skrána ef verið er að flytja inn gögn úr XML-skrá.
 
-### <a name="test-the-data-before-you-consolidate"></a>Prófa gögnin áður en þú sameinar
+### Prófa gögnin áður en þú sameinar
 
 1. Samsteypufyrirtækið er opnað.  
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptaeiningar** og velja síðan viðkomandi tengil.  
@@ -49,7 +49,7 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
     * Til að framkvæma prófun á skrá, skal velja **Prófa skrá** aðgerðina, slá inn nafn skrárinnar sem á að prófa og velja síðan **Prenta**.  
     * Til að framkvæma prófun á gagnagrunni, skal velja **Prófa gagngrunn**.  
 
-### <a name="run-the-consolidation"></a>Keyra samstæðu
+### Keyra samstæðu
 
 Þegar gögn hafa verið prófuð er hægt að flytja það til samsteypufyrirtækis. Leiðsagnarforrit með hjálp hjálpar þér í gegnum ferlið.
 
@@ -60,7 +60,7 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
 2. Á síðunni Fyrirtækiseiningar **skal velja aðgerðina Sameina**  **.**   
 3. Fylltu út nauðsynlega reiti.  
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Nota skýrsluna Samstæða - Prófjöfnuður
+## Nota skýrsluna Samstæða - Prófjöfnuður
 
 Skýrslan **Samstæða - Prófjöfnuður** getur gefið yfirsýn yfir almenna fjárhagslega heilsu fyrirtækisins. Skýrslan sameinar fjárhagsfærslur frá hverju fyrirtæki í nýju fyrirtæki sem stofnað er fyrir samsteypugögnin. Samsteypufyrirtækið er bara geymir fyrir samsteypugögnin og hefur engin viðskiptagögn í beinni. Fyrirtækin sem þú setur inn í samstæðufyrirtækið verða að **Viðskiptaeiningum** í skýrslunni. Ef fyrirtækiseiningar eru fjórar eða færri er einnig hægt að nota skýrsluna **Samstæða - Prófjöfnuður (4).** .  
 
@@ -71,7 +71,7 @@ Skýrslan sýnir línu fyrir hvern reikning og fylgir uppbyggingu bókhaldslykil
 * Útilokanir, gerðar í bókhaldi samsteypufyrirtækis. Útilokanir sýna alltaf tímabil sem samsvarar reikningsári samsteypufyrirtækis.
 * Samtala samsteypufyrirtækis eftir útilokanir sýna annaðhvort sem hreyfingu eða stöðu til dags.
 
-## <a name="eliminate-repeated-transactions"></a>Taka út endurteknar færslur
+## Taka út endurteknar færslur
 
 Þegar fyrirtækin hafa verið sameinuð þarf að finna og losa allar færslur sem skráðar eru oftar en einu sinni á milli fyrirtækja. Að vinna með samstæðulosanir er handvirkt ferli.  
 
@@ -96,7 +96,7 @@ Lína er búin til fyrir hvern reikning í kjölfar uppbyggingar bókhaldslykils
 * Bókunartexti afritaður eftir færslubók.
 * Samtala samsteypufyrirtækis eftir útilokanir, ef þær eru bókaðar.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
+## Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
 
 Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni er hægt að gera handvirka skráamiðaða millifærslu eða gera ferlið sjálfvirkt með því að nota API. Til að fræðast meira um API er farið í [Notkun API okkar til að deila gögnum sjálfkrafa í umhverfinu](#use-our-api-to-automatically-share-data-across-environments).
 
@@ -116,11 +116,11 @@ Gögnin eru flutt út í skrá áður en þau eru tekin með í samsteypuna. Fly
 3. Víddargildið sem flutt er út fyrir færsluna verður víddargildi samsteypufyrirtækisins sem er tilgreint í reitnum **Kóti** samstæðu fyrir það víddargildi. Hafi víddargildi samsteypufyrirtækis ekki verið fært inn í reitinn **Sameinaður kóti** fyrir víddargildið verður víddargildið sjálft flutt út í línuna.  
 4. Auk þess innihalda XML-skrárnar gengi gjaldmiðils innan samsteyputímabilsins. Þessi gengi eru innifalin í aðskildum hluta í upphafi skrárinnar.  
 
-## <a name="use-our-api-to-automatically-share-data-across-environments"></a>Notaðu API okkar til að deila gögnum sjálfkrafa í umhverfi
+## Notaðu API okkar til að deila gögnum sjálfkrafa í umhverfi
 
 [!INCLUDE [prod_short](includes/prod_short.md)] veitir API sem gerir kleift að gera samnýtingu fjárhagslegra gagna frá fyrirtækiseiningum sjálfvirka til samsteypufyrirtækis. API er ókeypis í notkun og auðvelt að setja upp. Við skulum jafnvel deila gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] umhverfinu. Til dæmis gæti þurft að deila umhverfinu þegar fyrirtækiseiningar eru ekki í sömu Azure-landfræði. Nánari upplýsingar um notkun API eru notaðar til að gera samsteypuferlið sjálfvirkt með því að fara í [Setja upp samsteypufyrirtæki](finance-consolidated-company-reporting-setup.md#busunit).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  

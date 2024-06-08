@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Innkaupaskýrslur og greiningar
+# Innkaupaskýrslur og greiningar
 
 Innkaupaskýrslugerð gefur innsýn í innkaup og viðskiptafræðinga og tölfræði um núverandi og eldri innkaupaaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa nokkrum lykilverkefnum við greiningu á ástandi innkaupa:
 
@@ -26,7 +26,7 @@ Eftirfarandi greinar lýsa nokkrum lykilverkefnum við greiningu á ástandi inn
 - [Reikna út dagsetningar fyrir innkaup](purchasing-date-calculation-for-purchases.md)
 - [Skoða fjárhagsfærslur innkaupa](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## <a name="explore-purchase-reports-with-report-explorer"></a>Skoða innkaupaskýrslur með skýrsluvafra
+## Skoða innkaupaskýrslur með skýrsluvafra
 
 Til að fá yfirlit yfir þær skýrslur sem tiltækar eru til innkaupa skal velja **Allar skýrslur** á heimasíðunni. Þessi aðgerð opnar Hlutverkavafrann sem er afmarkaður við aðgerðirnar í valkostinum **Skýrsla & Greining** . Undir hausnum **Innkaup** skal velja **Skoða**.
 
@@ -34,7 +34,7 @@ Til að fá yfirlit yfir þær skýrslur sem tiltækar eru til innkaupa skal vel
 
 Nánari upplýsingar eru í [Finna skýrslur með hlutverkavafranum](ui-role-explorer.md). 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstök greining á innkaupagögnum](ad-hoc-analysis-purchasing.md)  
 [Yfirlit yfir innkaup greiningar](purchasing-analytics-overview.md)   

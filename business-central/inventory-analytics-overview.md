@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="inventory-analytics"></a>Birgðagreining
+# Birgðagreining
 
 Fyrirtæki safna fjölda gagna við daglegar aðgerðir sem styðja viðskiptaupplýsingar (BI) fyrir birgðastjóra:
 
@@ -31,7 +31,7 @@ Hver þessara eiginleika hefur sína kosti og galla, allt eftir tegund greininga
 
 Þessi grein kynnir hvernig hægt er að nota þessar greiningaraðgerðir til að fá innsýn í birgðir.
 
-## <a name="analytics-needs-in-inventory"></a>Greiningarþarfir í birgðum
+## Greiningarþarfir í birgðum
 
 Þegar hugsað er um greiningarþarfir í birgðastjórnun getur það hjálpað til við að nota starfsmannalíkan sem lýsir mismunandi greiningarþörfum á háu stigi.
 
@@ -48,14 +48,14 @@ Starfsfólk í mismunandi hlutverkum hefur mismunandi þarfir þegar kemur að g
 |Starfsmaður í vöruhúsi   | Sundurliðuð gögn     | Innbyggðar rekstrarskýrslur, gögn um verk á skjá |
 
 <!-- 
-## <a name="inventory-kpis"></a>Inventory KPIs
+## Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Nota fjárhagsskýrslugerð til að framleiða ársreikninga og afkastatengdar birgðir
+## Nota fjárhagsskýrslugerð til að framleiða ársreikninga og afkastatengdar birgðir
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Sérstaklega fyrir birgðastjórnun er hægt að setja upp fjárhagsskýrslur á fjárhagsreikningum sem notaðir eru til að rekja birgðabókanir.
 
@@ -63,13 +63,13 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd eru gögn sem bæt
 
 Frekari upplýsingar um fjárhagsskýrslur er farið [í Undirbúning fjárhagsskýrslna með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Fjárhagsskýrslur þvert á fyrirtækiseiningar eða lögaðila (tengdar birgðum)
+## Fjárhagsskýrslur þvert á fyrirtækiseiningar eða lögaðila (tengdar birgðum)
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Aðrir nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem gefa skýrslu til móðurfyrirtækja. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki. Sérstaklega er hægt að sameina fjárhagsfærslur fyrir birgðareikninga til að geta rakið söluafkastagetu í fyrirtækiseiningum eða lögaðilum.
 
 Nánari upplýsingar eru í [Sameiningu fyrirtækis](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-inventory-data"></a>Tilfalengd greining á birgðagögnum
+## Tilfalengd greining á birgðagögnum
 
 Stundum þarf bara að athuga hvort tölurnar eru rétt settar upp eða staðfesta tölu á fljótlegan hátt. Eftirfarandi eiginleikar eru frábærir fyrir tilfalengdar greiningar:
 
@@ -89,7 +89,7 @@ Eiginleikinn Gagnagreining gerir kleift að opna næstum hvaða listasíðu sem 
 
 Nánari upplýsingar um hvernig á að gera tilfallanda greiningu á birgðagögnum er farið í Tilfallandsgreiningu [á birgðagögnum](ad-hoc-analysis-inventory.md).
 
-## <a name="built-in-reports-for-inventory"></a>Innbyggðar skýrslur fyrir birgðir
+## Innbyggðar skýrslur fyrir birgðir
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa birgðafyrirtækjum að gefa skýrslu um gögn sín.
 
@@ -104,7 +104,7 @@ Til að fá yfirlit yfir tiltækar skýrslur skal velja **Allar skýrslur** á h
 
 Nánari upplýsingar um skýrslur sem eiga við birgðir er farið [í Innbyggðar birgðir og vöruhúsaskýrslur](inventory-WMS-reports.md).
 
-## <a name="on-screen-inventory-analytics"></a>Greiningar á birgðum á skjánum
+## Greiningar á birgðum á skjánum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] hefur nokkrar síður sem gefa birgðayfirlitum og verkhlutum kleift að vinna. Hér eru nokkur dæmi til að koma þér í gang:
 
@@ -120,7 +120,7 @@ Nánari upplýsingar um skýrslur sem eiga við birgðir er farið [í Innbyggð
 - [Reikna út afhendingardagsetningar fyrir sölupantanir](sales-date-calculation-for-sales.md)
 - [Finna sendingar](sales-how-track-packages.md)
 
-### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sýna birgðatengdar fjárhagsfærslur og stöður á síðunni Bókhaldslykill
+### Sýna birgðatengdar fjárhagsfærslur og stöður á síðunni Bókhaldslykill
 
 Síðan **Bókhaldslykill** sýnir alla fjárhagsreikninga með samanlögðu númeri sem bókuð eru í fjárhaginn. Á þessari síðu er hægt að gera hluti eins og:  
 
@@ -134,7 +134,7 @@ Sérstaklega fyrir birgðastjórnun er hægt að búa til yfirlit á síðunni B
 
 Nánari upplýsingar eru í [Skilja bókhaldslykilinn](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-inventory-data-by-dimensions"></a>Greina birgðagögn eftir víddum
+### Greina birgðagögn eftir víddum
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
@@ -142,7 +142,7 @@ Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær
 
 Nánari upplýsingar eru notaðar til að greina [gögn eftir víddum](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsteypufyrirtæki](finance-consolidated-company-reporting.md)   
 [Undirbúa fjárhagsskýrslur með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  

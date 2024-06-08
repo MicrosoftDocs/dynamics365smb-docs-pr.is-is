@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selja vörur sem eru settar saman í pöntun og birgðavörur saman
+# Selja vörur sem eru settar saman í pöntun og birgðavörur saman
 
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Samsetning til birgða** gerir sölupöntunarvinnslan ráð fyrir því að varan sé þegar sett saman og hægt sé að taka hana úr birgðum ef hún er tiltæk. Þess vegna er samsetningarpöntun ekki sjálfkrafa stofnuð og tengd við sölupöntunarlínuna. Hins vegar, ef eitthvað eða allt magn er ekki tiltækt er hægt að stofna samsetningarpöntun fyrir eftirstandandi magn. Það er gert með því að fylla út reitinn **Magn til samsetningar í pöntun** í sölupöntunarlínunni. Með þessari stillingu er hægt að setja vöruna saman til pöntunar þótt hún sé sett saman á lager.  
 
@@ -23,7 +23,7 @@ Sveigjanleiki er svipaður þegar selt er samsetning-fyrir-pöntun vörur og eit
 > [!NOTE]  
 > Eftirfarandi ferli fylgir ekki sölupöntunarskrefunum sem þarf að fylgja áður en samsetningarpöntun er stofnuð fyrir ekki tiltækt magn.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Til að selja vörur sem eru settar saman í pöntun og birgðavörur saman
+## Til að selja vörur sem eru settar saman í pöntun og birgðavörur saman
 
 1. Á sölupöntunarlínu fyrir vöru sem er sett saman á lager er fært inn magn í reitinn **Magn** sem er yfir birgðum. Síðan **Kanna ráðstöfunargetu** birtist. Nánari upplýsingar um vörur til ráðstöfunar eru skoðaðar með því að skoða [vörur](inventory-how-availability-overview.md) til ráðstöfunar.
 2. Í reitinn **Magn til samsetningar til pöntunar** er fært inn gildið úr reitnum **Heildarmagn** .  
@@ -33,7 +33,7 @@ Sveigjanleiki er svipaður þegar selt er samsetning-fyrir-pöntun vörur og eit
 > [!CAUTION]  
 > Reiturinn **Hólfkóti** á sölupöntuninni gæti innihaldið gildið úr reitunum **Hólfakóti samsetningar til afhendingar eða** Hólfakóti **frá**-samsetningar á birgðageymsluspjaldinu. Ef svo er **gæti reiturinn Hólfkóti** á sölupöntunarlínunni verið rangur fyrir þessa samsetningu samsetningar-í-pöntun og samsetningar til birgðamagns. Mælt er með því að tvísvara að hólfið í reitnum **Hólfkóti** virki fyrir allt magn. Að öðrum kosti skal færa inn tvenns konar mismunandi magn í aðskildar sölupöntunarlínur.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

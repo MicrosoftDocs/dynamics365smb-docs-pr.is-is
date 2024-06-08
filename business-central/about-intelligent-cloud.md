@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Greind innsýn og skýjaflutningur (aðeins innanhúss)
+# Greind innsýn og skýjaflutningur (aðeins innanhúss)
 
 Ef þú notar [!INCLUDE[prod_short](includes/prod_short.md)] netið fæst fullur aðgangur að aðstæðum sem byggja á greindum skýjum. Til dæmis, helstu afkastavísar (afkastavísar) sem byggja á námi á vélum eða þegar gögnin eru skoðuð í Power BI.  
 
 Ef notað [!INCLUDE [prod_short](includes/prod_short.md)] er á staðnum fæst ekki aðgangur að sömu innsýn. Ef þú vilt njóta góðs af aðstæðum á netinu þarftu að flytja þig yfir í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
+## Snjöll innsýn í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu skoðuð
 
 Fyrir umhverfi innanhúss sem gögn voru flutt [!INCLUDE[prod_short](includes/prod_short.md)] á netið **sýnir greindur Cloud Insights-síða** í netumhverfinu fjórar lykilatriði sem vekja áhuga flestra fyrirtækja:
 
@@ -34,7 +34,7 @@ Við hliðina á KPI-töflunum færðu innsýn í hugsanlega áhyggjuefni, þ.m.
 
 Síðan tengist einnig Power BI fyrir enn meiri innsýn. Annars er hægt að tengjast við Azure AI til að fá jafnvel enn betri snjalla innsýn. Frekari upplýsingar eru í [Spá um sölu og birgðir viðbótina](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Velkomin(n) í Business Central](welcome.md)  
 [Viðbætur skýjaflutnings](ui-extensions-data-replication.md)  

@@ -9,7 +9,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="use-reports-in-daily-work"></a>Nota skýrslur í daglegu starfi
+# Nota skýrslur í daglegu starfi
 
 Skýrsla í [!INCLUDE[prod_short](includes/prod_short.md)] ssafnar saman upplýsingum byggðum á sérstöku safni af skilyrðum. Hún flokkar og birtir upplýsingarnar á sniði sem er auðvelt að lesa og sem hægt er að prenta eða vista sem skrá.  
 
@@ -24,7 +24,7 @@ Skýrsla í [!INCLUDE[prod_short](includes/prod_short.md)] ssafnar saman upplýs
 | Kynntu þér hvernig á að breyta sjálfgefnu útliti fyrir skýrslu. | [Breyta sjálfgefnu skýrsluútliti](ui-how-change-layout-currently-used-report.md) |
 | Skoðaðu og greindu gögn úr gagnasafni skýrslu í Microsoft Excel. | [Vista gagnasafn skýrslu í Excel úr beiðnisíðunni](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skýrsluyfirlit](reports-available-reports.md)  
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)  

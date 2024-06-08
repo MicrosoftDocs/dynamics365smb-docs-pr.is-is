@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Kynning á Contoso Coffee Warehousing
+# Kynning á Contoso Coffee Warehousing
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. Contoso-kaffiforritin **fyrir** Business Central bæta við kynningugögnum sem hægt er að nota til að læra hvernig á að nota vöruvörugetu í Business Central. Hægt er að grunnstilla vöruhúsaaðgerðir á ýmsa vegu, sjá [Yfirlit yfir mismunandi valkosti grunnstillingar](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Forritið veitir þrjár staðsetningar sem eru bjartsýni fyrir mismunandi aðs
 
   Þessi birgðageymsla notar Ítarlegt vöruhús með beinum frágangi og tínslum sem gerir ítarlegri reglur kleift að færa vörur um vöruhúsið.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Uppsetning Contoso Coffee Warehousing gagna
+## Uppsetning Contoso Coffee Warehousing gagna
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -50,7 +50,7 @@ Forritið veitir þrjár staðsetningar sem eru bjartsýni fyrir mismunandi aðs
 > [!IMPORTANT]
 > Ef aðstæður eru keyrðar gæti verið ráðlegt að staðfesta að notandanum hafi verið bætt við fyrir tilteknar birgðageymslur. Nánari upplýsingar eru [í Setja upp vöruhúsastarfsmenn](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 The Contoso Coffee warehousing kynningargögnin sem nú styðja við eftirfarandi aðstæður til prófunar og þjálfunar:
 
@@ -60,7 +60,7 @@ The Contoso Coffee warehousing kynningargögnin sem nú styðja við eftirfarand
 
 Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](../../inventory-setup-inventory.md) 
 [Hvernig á að setja upp birgðageymslur](../../inventory-how-setup-locations.md) 

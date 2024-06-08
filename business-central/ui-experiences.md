@@ -11,7 +11,7 @@ ms.date: 03/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
+# Breyta því hvaða eiginleikar eru sýndir
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
 
@@ -36,11 +36,11 @@ Upplifanir sem hægt er að velja í [!INCLUDE[prod_short](includes/prod_short.m
 
 Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi getur sérstillt eigin upplifun enn frekar með því að breyta útliti og efni á síðu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjun iðgjaldaaðgerða eftir að áætlun hefur verið uppfærð
+## Virkjun iðgjaldaaðgerða eftir að áætlun hefur verið uppfærð
 
 Áætlunum er úthlutað til notenda í stjórnendamiðstöðinni Microsoft 365 í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar eru í [Bæta við notendum og úthluta leyfum á sama tíma](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
+### Til að uppfæra breytingar á áætlunum í flokkum notenda
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -50,18 +50,18 @@ Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi ge
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 3. Á síðunni **Notendur** skal velja **Uppfæra notendur úr Microsoft 365** aðgerð.
 
-### <a name="to-select-the-premium-experience"></a>Til að velja úrvalsupplifunina
+### Til að velja úrvalsupplifunina
 
 Nú er hægt að halda áfram til að velja nýju upplifunina.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Upplýsingar um fyrirtæki** og velja síðan viðkomandi tengil.
 2. Á síðunni **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
 
-## <a name="help-assumes-the-premium-experience"></a>Hjálp gerir ráð fyrir upplifun iðgjalda
+## Hjálp gerir ráð fyrir upplifun iðgjalda
 
 Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Sérstilla Business Central](ui-customizing-overview.md)  

@@ -12,7 +12,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ---
 
-# <a name="audit-file-export"></a>Útflutningur endurskoðunarskráar
+# Útflutningur endurskoðunarskráar
 
 Útflutningur á upplýsingum um bókhald úr kerfinu er sameiginleg beiðni hjá einhverjum sveitarstjórnum eða endurskoðendum. Útflutningur sniða og nauðsynlegra upplýsinga getur verið mismunandi. Færslur fyrir útflutning eru yfirleitt fjárhagsfærslur (fjárhagsfærslur eða virðisauka-eða virðisaukandi færslur). Hins vegar er stundum krafist annarra upplýsinga.
 
@@ -21,7 +21,7 @@ ms.reviewer: bholtorf
 > [!NOTE]
 > Eins er hægt að velja SIE (Svíþjóð), FEC (France) og SAF-T snið sem viðbót við App. Félagar geta einnig þróað sérsniðið Form. Fjöldi tiltækan sniða eykst með tímanum.
 
-## <a name="set-up-audit-file-export"></a>Setja upp útflutning endurskoðunarskráa
+## Setja upp útflutning endurskoðunarskráa
 
 1. Velja skal hnappinn leitarhnappur  ![stækkunargler sem opnast aðgerðin segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn  **uppsetningu útflutningskráruppsetningar** og velja síðan tengda tengilinn.
 2.  **Á uppsetningarsíðu**  endurskoðunarskráa er eftirfarandi þrepum fylgt:
@@ -42,7 +42,7 @@ ms.reviewer: bholtorf
     2.  **Í reitnum Heiti**  endurskoðunarskrár er tilgreint sjálfgefið skrárheiti eða sniðmát skrárheitsins fyrir þá endurskoðunarskrá sem á að flytja út.
     3.  **Veljið Skjalasafn í zip**  -gátreit til að skrá sjálfkrafa útfluttar skrár.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Kveða á um vörpun fjárhagsreikningsins fyrir útflutning endurskoðunarskráa
+## Kveða á um vörpun fjárhagsreikningsins fyrir útflutning endurskoðunarskráa
 
 Flest snið sem stjórnvöld þurfa fyrir fjárhagsreikninga krefjast ákveðins staðlaðs bókhaldslykils. Því eftir að fjárhagsreikningar hafa verið samskipaðar verður útflytjandi skráin byggð á vörpun. Hægt er að nota fleiri varpanir í kerfinu.
 
@@ -67,7 +67,7 @@ Fylgið þessum skrefum til að veita vörpun fjárhagsreikningsins til útflutn
     1. Til að búa til línur á  **vörpunarsíðu**  fjárhagsreikningsins, samkvæmt fyrirliggjandi bókhaldslykli, skal velja  **frumstillt fyrir vörpun**. Til að afrita vörpun fjárhagsreikningsins úr öðrum vörpakóta er valið  **Afrita úr annarri vörpun**. Þegar búið er að stofna línur verða allir fjárhagsreikningar sem hafa bókfærðar færslur merktir með grænum.
     2. Til að merkja aðeins fjárhagsreikninga sem eru með færslur er valið  **að uppfæra Fjárhagsfærsluaðgengi**.  **Ef valkosturinn taka með aðsenda**  er virkjaður eru allar bókaðar fjárhagsfærslur taldar til útreiknings. Annars teljast aðeins fjárhagsfærslur af skýrslutímabilinu.
 
-## <a name="export-the-audit-file"></a>Flytja út endurskoðunarskrána
+## Flytja út endurskoðunarskrána
 
 1. Velja skal hnappinn leitarhnappur  ![stækkunargler sem opnar aðgerðina segja mér upp.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn  **útflutningsskjöl** í endurskoðunarskrá og velja síðan tengda tengilinn.
 2.  **Á síðu útflutningsskjala**  endurskoðunarskráa er valið  **nýtt**.
@@ -95,7 +95,7 @@ Fylgið þessum skrefum til að veita vörpun fjárhagsreikningsins til útflutn
 > [!IMPORTANT]
 > Ef þú ert með margar færslur í útflutningi mælum við ekki með því að þær séu útflutt í gildandi lotu vegna hugsanlegra afkastamáta. Þess í stað mælum við með að þú beitir þér samhliða vinnslu þar sem ekki eru Vinnudagar eða tímar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 [Fjármálastjórnun](finance.md)  
 [Skilningur á fjárhag og bókhaldslyklum](finance-general-ledger.md)  
 [Vinna með víddir](finance-dimensions.md)  

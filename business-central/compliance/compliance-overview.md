@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
+# Yfirlit yfir reglufylgni
 
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

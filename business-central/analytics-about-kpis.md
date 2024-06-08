@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Nota lykilstærðir (afkastavísa) til að uppfylla viðskiptamarkmið
+# Nota lykilstærðir (afkastavísa) til að uppfylla viðskiptamarkmið
 
 Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirkt notandi uppfyllir markmiðin. Hugsaðu um KPI sem árangursmat fyrirtækisins, leið til að mæla hvort þú ert að skila markmiðum þínum eða ekki.
 
-## <a name="why-kpis-matter"></a>Hvers vegna afkastastarf skiptir máli
+## Hvers vegna afkastastarf skiptir máli
 
 Það að auðkenna og rekja afkastakstur gerir þér kleift að vita hvort fyrirtækið þitt er á réttri slóð - eða ef þú ættir að breyta námskeiðinu til að forðast að tapa verðmætum tíma og peningum. Þegar það er notað á réttan hátt eru afkastað verkfæri sem hjálpa þér að:
 
@@ -25,7 +25,7 @@ Lykilafkastavísir (afkastavísir) er mælanleg gildi sem sýnir hversu skilvirk
 - Hvetja liđsfélaga.
 - Taktu betri ákvarðanir, hraðar.
 
-## <a name="get-started-identifying-your-kpis"></a>Hafist handa við að auðkenna afköst
+## Hafist handa við að auðkenna afköst
 
 Hvernig byrjar þú að bera kennsl á afköst sem skipta fyrirtæki þínu máli? Byrja á því að skýra stjórnunarmarkmið – sameiginlega eða eftir deild.
 
@@ -35,7 +35,7 @@ Næst skal auðkenna KPI-mörkin sem þú vinnur að og hvernig þau verða mæl
 
 Talaðu við teymið þitt og hvetja til opinna samskipta um afkastagetu og markmið þeirra. Eru þær of árásargjörn? Of auđvelt? Skotmark ætti að vera ögrandi, en ef þeir eru of langsóttir eða treysta eingöngu á mælikvarða sem liðið þitt stjórnar ekki, þá væri skynsamlegt að endurskoða. Þú munt einnig vilja skoða aðgerðir og aðferðir sem fyrirtækið mun nota til að ná þessum markmiðum. Að lokum skaltu taka tíma til að meta hvar þú ert í dag - þetta verður upphafspunktur PÁT.
 
-## <a name="get-to-know-the-different-types-of-kpis"></a>Fáðu að vita mismunandi tegundir afkastastæðna
+## Fáðu að vita mismunandi tegundir afkastastæðna
 
 Auðkenning á afkastavísa sem þú ættir að rekja verður auðveldari þegar þú hefur betri skilning á þeim tegundum afkastavísa sem algengast er að mæla framvindu.
 
@@ -47,7 +47,7 @@ Auðkenning á afkastavísa sem þú ættir að rekja verður auðveldari þegar
 
 Fyrir hvert afkastakstur sem valið er að rekja skal úthluta eiganda og koma sér saman um rakningartíðni. Hvað sem afkastast er ákveðið að rekja, nota KPI verkvang eða tól er lykillinn til að vinna með teyminu þínu við KPI skilgreiningar. Með því að skilgreina hvert afkastavísi sameiginlegt, safna síðan samhengisgögnum og sameina þau í staka sýn gerir notandi virkar aðgerðir með spot-on og rauntíma.
 
-## <a name="kpi-reporting"></a>KPI skýrslugerð
+## KPI skýrslugerð
 
 KPI-skýrslur taka upplýsingarnar sem settar eru fram á KPI-mælaborðinu á nýtt stig. Þau fara dýpra inn í gögnin til að draga fram nákvæmari innsýn og greiningu.
 
@@ -68,7 +68,7 @@ Viðbótaratriði við stofnun KPI-skýrslna eru m.a.:
 - Birtir aðeins viðeigandi afkastavísa þannig að þú yfirfærir ekki skýrsluna með afkastavísum sem varpa ekki aftur í skýrslugerðina - markmið.
 - Gættu þess að skýrslugerðin sé skýr, auðskiljanleg og hagkvæm fyrir áhorfendur sem hægt er að nota.
 
-## <a name="tools-for-implementing-kpis"></a>Verkfæri til að innleiða afkastap
+## Verkfæri til að innleiða afkastap
 
 Eftirfarandi tafla tengir í greinar um notkun viðskiptaupplýsinga og skýrslugerðarverkfæra með [!INCLUDE[prod_short](includes/prod_short.md)] gögnum til að innleiða afkastatengsl.
 
@@ -79,7 +79,7 @@ Eftirfarandi tafla tengir í greinar um notkun viðskiptaupplýsinga og skýrslu
 | [Greina ársreikninga með Microsoft Excel](finance-analyze-excel.md) |
 | Samþætta ytri verkfæri viðskiptagreindar með [!INCLUDE[prod_short](includes/prod_short.md)].| [Ytri verkfæri viðskiptagreindar](reports-external-analysis.md) |
 
-## <a name="kpi-best-practices"></a>KPI bestu venjur
+## KPI bestu venjur
 
 Til að hjálpa þér að virkja kraft KPIs, höfum við sett saman nokkrar ábendingar til að koma þér í gang.
 
@@ -96,7 +96,7 @@ Eftirlit afkastasts:
 - Ákveða ráðgátu til að fylgjast með og starfa á afkastaþarfir. Eru KPI-mælaborð fylgst með daglega eða vikulega? Koma aðgerðir aðeins eftir skýrslugerð eða eru hagsmunaaðilar og/eða teymismeðlimir styrktir til að aðlaga aðferðir á leiðinni?
 - Passaðu að þú hafir einfalda gagnavörn til enda fyrir gagnamælaborð, með stýringum til að deila utan fyrirtækisins.
 
-## <a name="common-kpi-mistakes"></a>Algengar afkastavísarafrek
+## Algengar afkastavísarafrek
 
 Forðast skal þessi algengu afkastavísamistök:
 
@@ -106,7 +106,7 @@ Forðast skal þessi algengu afkastavísamistök:
 - Rakning afkastaksturs án eigenda. Ábyrgð skiptir máli, ekki bara fyrir niðurstöðurnar heldur einnig fyrir ferlið. Hver afkastalgreining ætti að bera ábyrgð á eftirliti, skýrslugerð, greiningu og aðgerðum.
 - Tekst ekki að grípa til aðgerða í afkastakstrinum þínum. Hvort sem þú ert að mæta markmiðum þínum eða að falla á eftir, þá eru afkastað verkfæri til að hjálpa þér að taka betri ákvarðanir. Svo ekki fylgjast bara með í sakir rekja – grípa til aðgerða.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greiningaryfirlit](reports-bi-reporting.md)  
 [Notkun fjárhagsskýrslna til að búa til ársreikninga og afkastalsreikninga](bi.md)  

@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Sjálfbærniuppsetning
+# Sjálfbærniuppsetning
 
 Áður en einingin Sjálfbærni getur unnið rétt þarf að setja upp nokkur grunneftirlit og leiðbeiningar sem tengjast allri virkninni.
 
@@ -52,7 +52,7 @@ Til að setja upp eininguna Sjálfbærni skal fylgja skrefunum:
     | **Útblástur sléttunarnákvæmni** | Tilgreina stærð bilsins sem er notað við sléttun útblástursupphæða þegar skýrslur eru gerðar til yfirvalda. |
     | **Tegund útblásturssléttunar** | Tilgreina hvernig kerfið sléttar losunarupphæðir þegar skýrslur eru gerðar til yfirvalda. Eftirfarandi valkostir eru í boði: **Næst**, **Upp** og **Niður**. |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármál](finance.md)  
 [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)  

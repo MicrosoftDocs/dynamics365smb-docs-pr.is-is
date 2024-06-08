@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="acquire-fixed-assets"></a>Komast yfir eignir
+# Komast yfir eignir
 
 Nota síðuna **Eignaspjald** til að færa inn upplýsingar um eign. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Setja verður upp og úthluta hverri eign afskriftabók áður en hægt er að eignast hana.
 
@@ -19,7 +19,7 @@ Nota síðuna **Eignaspjald** til að færa inn upplýsingar um eign. Hægt er a
 
 Nota endurmat til að leiðrétta gildi fyrir almennar verðbreytingar. Keyrslan **Endurmat eigna er** notuð til að reikna stofnkostnað og endurnýjunarkostnað.
 
-## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Bæta eign við eignalistann
+## Bæta eign við eignalistann
 
 Áður en hægt er að eignast eign verður að bæta henni við eignalistann. Nokkrar leiðir eru til að bæta eignum við listann:
 
@@ -30,7 +30,7 @@ Nota endurmat til að leiðrétta gildi fyrir almennar verðbreytingar. Keyrslan
 
 Þegar eignum hefur verið bætt við listann er næsta skref að eignast þær þannig að hægt sé að nota þær í viðskiptum. Fræðast meira um [eign](#acquire-fixed-assets).
 
-### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Bæta við eign á síðunni Eignaspjald
+### Bæta við eign á síðunni Eignaspjald
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.  
 2. Velja sem **Nýtt** aðgerð og síðan fyllt út í reitina á **Almenna** Flýtiflipanum eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Nota endurmat til að leiðrétta gildi fyrir almennar verðbreytingar. Keyrslan
 
     Þegar fyllt hefur verið í þá reiti **sem þarf er hægt að eignast eignina.** Tilkynningin birtist efst á síðunni. Ef notandi er tilbúinn að eignast eignina núna skal velja Aðgerðin **Kaup** . Fylgdu skrefunum á síðunni **Aðstoð við eignakaup** til að ljúka kaupunum. Ef notandi er ekki tilbúinn er alltaf hægt að eignast eignina síðar.
 
-### <a name="use-edit-in-excel-to-add-assets"></a>Nota Breyta í Excel til að bæta við eignum
+### Nota Breyta í Excel til að bæta við eignum
 
 Ef bæta á við fjölda eigna er Ritfærsla í Excel frábært verkfæri til að nota. Verkfærið sækir núverandi eignalista á vinnublaði sem inniheldur flesta reiti sem tiltækir eru á eignaspjaldssíðunni. Hægt er að fylla út suma eða alla reiti í línu fyrir hverja eign og birta breytingarnar þannig að þeim verði bætt við [!INCLUDE [prod_short](includes/prod_short.md)] listann. Ef ekki er hægt að fylla út allan nauðsynlegan reit er það í lagi. Hægt er að uppfæra þær þegar [!INCLUDE [prod_short](includes/prod_short.md)] þær eru tilbúnar.
 
@@ -55,7 +55,7 @@ Ef bæta á við fjölda eigna er Ritfærsla í Excel frábært verkfæri til a�
 
 4. Til að uppfæra [!INCLUDE [prod_short](includes/prod_short.md)] skal velja **Microsoft Dynamics** Útgáfa **á svæðinu**.
 
-### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Bæta við eign úr innkaupapöntun eða reikningi
+### Bæta við eign úr innkaupapöntun eða reikningi
 
 Eftirfarandi skref útskýra hvernig á að bæta eign við innkaupapöntun. Skrefin eru svipuð fyrir innkaupareikning.
 
@@ -66,7 +66,7 @@ Eftirfarandi skref útskýra hvernig á að bæta eign við innkaupapöntun. Skr
 5. Í reitnum **númer** Annaðhvort skal velja fyrirliggjandi eign til að bæta við kostnaði eða velja **Nýtt** til að bæta nýrri eign við.
 6. Þegar upplýsingar um nýju eignina og innkaupapöntunina hafa verið færðar inn skal velja **Bóka**.
 
-## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Eignast með því að nota eignafjárhagsbók
+## Eignast með því að nota eignafjárhagsbók
 
 Eftirfarandi ferli lýsir því hvernig á að eignast með því að stofna og bóka nauðsynlegar eignafjárhagsbókarlínur. Hægt er að einnig að stofna og bóka færslubókarlínurnar handvirkt. Nánari upplýsingar eru notaðar í Eignafjárhagsbók með því að [nota eignafjárhagsbók](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ Eftirfarandi ferli lýsir því hvernig á að eignast með því að stofna og 
 
 Þegar lokið er **valið** **er fyllt út í reitinn Bókfært virði** á **eignaspjaldinu**, sem gefur til kynna að eignin hafi verið keypt á tilgreindum stofnkostnaði.  
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Eignakaup bókuð handvirkt með eignafjárhagsbók
+## Eignakaup bókuð handvirkt með eignafjárhagsbók
 
 Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því að stofna og bóka línur á síðunni **Fjárhagsbók eigna**. Einnig er hægt að eignast eign sjálfkrafa á síðunni **Eignaspjald** með því að velja aðgerðina **Kaup eigna** . Nánari upplýsingar er farið í [Eignaeign](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 > [!TIP]  
 > Ef fært er í reitinn Vátryggingarnúmer er fært inn í reitinn **Vátryggingarnúmer.**  [!INCLUDE[prod_short](includes/prod_short.md)] einnig bókar stofnkostnað eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar eru notaðar með því að [fara í Tryggingareignir](fa-how-insure.md).
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Uppsetning íhlutalista fyrir aðaleignir:
+## Uppsetning íhlutalista fyrir aðaleignir:
 
 Hægt er að flokka eignir í aðaleignir og íhluti þeirra. Til dæmis gæti verið til framleiðsluvél sem samanstendur af nokkrum hlutum sem á að flokka með þessum hætti.  
 
@@ -108,7 +108,7 @@ Setja verður upp aðaleign og alla íhluti hennar sem einstakar eignir. Þegar 
 6. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning eignar** og velja síðan viðkomandi tengil.
 7. Kveikja á því **að Leyfa bókun á aðaleignir** .
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Ógilding bókunar kaupverðs fyrir eina eign
+## Ógilding bókunar kaupverðs fyrir eina eign
 
 Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færsluna með keyrslunni **Afturkalla eignafærslur** og bóka síðan rétta stofnkostnaðarfærslu. Röngu færslurnar eru fluttar á síðuna **Rangar eignafærslur.**
 
@@ -124,7 +124,7 @@ Ef kaup eru til dæmis bókuð með rangri dagsetningu þarf að leiðrétta han
 5. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 6. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
+## Bóka hrakvirði með kaupverði.
 
 Hrakvirði er afgangsvirði eignar þegar ekki er lengur hægt að nota hana. Hægt er að bóka hrakvirðið um leið og stofnkostnaður er bókaður. Nánari upplýsingar eru notaðar með því að fara í [Afskrift eða Afskrifa eignir](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 > [!NOTE]
 > Ef hrakvirði er til fyrir eign er það virði notað við afskriftabókun í stað gildsins í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftabækur** . Nánari upplýsingar eru notaðar með því að [fara í Bókfært lokavirði](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  

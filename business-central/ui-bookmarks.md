@@ -11,31 +11,31 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Síða eða skýrsla bókamerkt í Mitt hlutverk
+# Síða eða skýrsla bókamerkt í Mitt hlutverk
 Með bókamerkjatákni er hægt að bæta aðgerð sem opnar síðu úr yfirlitsvalmyndinni í Mitt hlutverk. Þetta gerir þér kleift að nálgast eftirlætisefnið eða viðskiptaverkefnin þín á fljótlegan hátt. Hægt er að bæta við bókamerkinu frá marksíðunni eða skýrslu, sem merkir að skjárinn sem tengja á í Mitt hlutverk opnast.
 
 Táknið fyrir bókamerki er sýnt efst í hægra horninu á síðu og einnig í glugga **Viðmótsleitar** þar sem hægt er að bæta bókamerki við margar síður eða skýrslur. Ef bókamerki er þegar til fyrir síðuna, þá er teiknið dimmt og verkfæratáknið segir „bókamerkt“.
 
-## <a name="to-bookmark-the-target-page"></a>Til að bókamerkja marksíðu
+## Til að bókamerkja marksíðu
 1. Opnaðu hvaða síðu sem er sem þú vilt fá tengil fyrir í Mitt hlutverk.
 2. Veldu ![Bókamerkið.](media/ui_bookmark_icon.png "Bókamerki")  
 
 Aðgerð sem er nefnd eftir síðunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
-## <a name="to-bookmark-the-target-report"></a>Til að bókamerkja markskýrslu
+## Til að bókamerkja markskýrslu
 1. Opnaðu hvaða síðu skýrslubeiðna sem er sem þú vilt fá aðgerð fyrir Mitt hlutverk.
 2. Veldu ![Bókamerkið.](media/ui_bookmark_icon.png "Bókamerki")  
 
 Aðgerð sem er nefnd eftir skýrslunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Til að bókamerkja síðu eða skýrslu úr glugganum „Viðmótsleit“
+## Til að bókamerkja síðu eða skýrslu úr glugganum „Viðmótsleit“
 1. Opnaðu **Viðmótsleit** glugga og Sláðu inn, til dæmis **sölupantanirnar**.
 2. Haltu músarbendlinum yfir leitarniðurstöðunni fyrir síðuna **Sölupantanir** eða skýrslu og veldu svo ![Bókamerkið.](media/ui_bookmark_icon.png "Bókamerki")  
 
 Aðgerð sem er nefnd eftir síðunni eða skýrslunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
 
-## <a name="frequently-asked-questions"></a>Algengar spurningar
+## Algengar spurningar  
 
 - **Get ég endurskipulagt bókamerkin mín?**  
 Já. Hægt er að sérsníða Mitt hlutverk og færa aðgerðir inn í nákvæmari röð eða færa þær inn fyrirliggjandi flokka eða undirflokka.  
@@ -75,7 +75,7 @@ Fj. Sem stendur er ekki hægt að bæta við aðgerðum til að opna XMLports ú
 - **Af hverju get ég ekki bætt við texta á síðu rétt eftir að hún hefur verið opnuð með bókamerkinu?**<br> Þegar síða er bókamerkt mun síðan alltaf opnast í skoðunarstillingu frá bókamerkinu&mdash;jafnvel þótt hún hafi verið í breytingastillingu þegar hún var bókamerkt. Með því að velja táknið **Gera breytingar á síðunni** ![Birtist blýantstáknið til að breyta síðunni.](media/edit-pencil.png) þá er hægt að bæta við texta í reitina sem hægt er að breyta.
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  

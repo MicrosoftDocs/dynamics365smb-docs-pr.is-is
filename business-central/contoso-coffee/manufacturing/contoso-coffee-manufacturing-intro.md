@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Kynning á Contoso Kaffi Framleiðsla
+# Kynning á Contoso Kaffi Framleiðsla
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. **Contoso Coffee** forritin fyrir Business Central bæta við sýnigögnum sem hægt er að nota til að komast að því hvernig á að nota framleiðslumöguleikana í Business Central.  
 
@@ -36,7 +36,7 @@ Framleiðsluaðgerðir í öllum tilvikum nota *aðalstaðinn* .
 > [!IMPORTANT]
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur má finna í hlutanum [Setja upp Contoso-kaffigögn](#set-up-contoso-coffee-manufacturing-data) .
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Uppsetning Contoso-kaffiframleiðslugagna
+## Uppsetning Contoso-kaffiframleiðslugagna
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,7 +47,7 @@ Framleiðsluaðgerðir í öllum tilvikum nota *aðalstaðinn* .
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## <a name="scenarios"></a>Dæmi
+## Dæmi
 
 The Contoso Kaffi framleiðslu kynningu gögn nú styður eftirfarandi aðstæður til prófunar og þjálfun:
 
@@ -65,7 +65,7 @@ Lestu skrefin fyrir hverjar aðstæður í viðkomandi grein.
 > [!IMPORTANT]
 > Þessar kynningar krefjast þess að upplifun notanda sé stillt á *Premium* á síðunni **Fyrirtækjaupplýsingar**.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðslu](../../production-manage-manufacturing.md)  
 [Framleiðsluskýrslur og greiningar í Business Central](../../production-reports.md)  

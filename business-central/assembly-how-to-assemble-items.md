@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Sameina vörur
+# Sameina vörur
 
 Ef reiturinn **Áfyllingarkerfið** á birgðaspjaldinu inniheldur **samsetningu** er sjálfgefin aðferð við að útvega vöruna til að setja hana saman í samræmi við samsetningaruppskrift og hugsanlega af tilteknum forða. Nánari upplýsingar um [vinnu í samsetningaruppskriftum](assembly-how-work-assembly-boms.md). Nánari upplýsingar um hvernig samsetningarvara er sett upp í Skilningur settur [saman í pöntun og settur saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ Hægt er að setja upp samsetningarvörur fyrir tvær samsetningarvinnslur.
 > [!NOTE]  
 > Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Fræðast meira um [samsetningarvörur í pöntun með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Til að setja vöru saman á lager
+## Til að setja vöru saman á lager
 
 Fylgja skal skrefunum í þessu ferli til að setja vöru saman í birgðir. Til að fræðast um samsetningu pöntunar er farið í [Selja vörur sem settar eru saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,7 +61,7 @@ Fylgja skal skrefunum í þessu ferli til að setja vöru saman í birgðir. Til
 
 Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymslukótans og hugsanlegs hólfakóta sem eru skilgreindir í samsetningarpöntuninni. Fyrir samsetningarpantanir sem voru stofnaðar handvirkt er hægt að afrita staðsetninguna úr uppsetningarreitnum **Sjálfgefin staðsetning fyrir pantanir**. Fyrir sameiningarpöntunarflæði, er hægt að afrita kóta birgðageymslu úr sölupöntunarlínunni.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

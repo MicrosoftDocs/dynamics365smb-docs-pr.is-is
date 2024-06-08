@@ -8,14 +8,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Greiða innkaupareikninga tímanlega
+# Greiða innkaupareikninga tímanlega
 
 Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka greiðsluna um leið og reikningurinn er bókaður.  
 
 > [!NOTE]  
 > Ef oft eru greiddir innkaupareikningar með peningum, ávísun eða bankamillifærslu er gagnlegt að setja upp sérstaka greiðsluaðferð með mótreikningi og færa þessa aðferð í reitinn  **Greiðsluaðferð** á lánardrottnaspjaldinu. Mótreikningsnúmerið er sett sjálfkrafa í reikningshausinn í hvert sinn sem búinn er til nýr reikningur. Frekari upplýsingar er að finna í [Greiðslumátar skilgreindir](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Innkaupareikningar gerðir skjótt upp
+## Innkaupareikningar gerðir skjótt upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -26,7 +26,7 @@ Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka gr
 >
 > Þessi sérstilling er aðeins nauðsynleg ef ekki eru tilgreindir mótreikningar á greiðslumátunum eins og lýst er að ofan.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
