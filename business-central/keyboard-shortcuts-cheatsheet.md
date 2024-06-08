@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Flýtivísun lyklaborðs - PC eingöngu
+# <a name="keyboard-quick-reference---pc-only"></a>Flýtivísun lyklaborðs - PC eingöngu
 
-#### Almennt
+#### <a name="general"></a>Almennt
 
 |Þessir lyklar eru valdir|Til að gera þetta|  
 |-|-|
@@ -40,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Flipinn Vakt</kbd>/<kbd>á flipa</kbd>+<kbd></kbd>|Færa áherslu á næstu/fyrri einingu|
 |<kbd>F6</kbd>/<kbd>vakt</kbd>+<kbd>F6</kbd>|Fara yfir í næsta flýtiflipa/hluta|
 
-#### Færsluleit & velja línur
+#### <a name="navigate--select-rows"></a>Færsluleit & velja línur
 
 |Þessir lyklar eru valdir|Til að gera þetta|
 |-|-|
@@ -54,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Vaktasíða</kbd>+<kbd>upp niður</kbd>/<kbd></kbd>|Velja sýnilegar raðir fyrir ofan/neðan|
 |<kbd>Ctrl-færslulykill</kbd>+<kbd></kbd>|Setja áherslu utan listans|
 
-#### Afrita &líma
+#### <a name="copy--paste"></a>Afrita &líma
 
 |Þessir lyklar eru valdir|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Afrita/líma raðir|
 |<kbd>F8</kbd>|Afrita reit hér að ofan í núverandi röð|
 
-#### Leita, afmarka, &raða
+#### <a name="search-filter--sort"></a>Leita, afmarka, &raða
 
 |Þessir lyklar eru valdir|Til að gera þetta|
 |-|-|
@@ -72,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Vakt</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Bættu við síu á völdum reit|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vakt</kbd>+<kbd>F3</kbd>|Endurstilla afmarkanir|
 
-#### Flýtifærsla
+#### <a name="quick-entry"></a>Flýtifærsla
 
 |Þessir lyklar eru valdir|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift-færslulykill</kbd>+<kbd></kbd>|Fara í næsta reit flýtifærslu utan lista|
 |<kbd>Færa inn</kbd>/<kbd>vaktarlykil</kbd>+<kbd></kbd>|Fara í næsta/fyrri reit flýtifærslu|
 
-##### Forskoðun skýrslu
+##### <a name="report-preview"></a>Forskoðun skýrslu
 
 |Þessir lyklar eru valdir|Til að gera þetta|
 |-|-|
 |<kbd>Ctrl-heimaenda</kbd>+<kbd></kbd>/<kbd></kbd>|Fara á fyrstu/síðustu síðu|
 
-#### Talnaborð
+#### <a name="numeric-keypad"></a>Talnaborð
 
 |Þessir lyklar eru valdir|Til að gera þetta|  
 |-|-|

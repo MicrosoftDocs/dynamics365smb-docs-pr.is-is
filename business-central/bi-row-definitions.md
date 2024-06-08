@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Línuskilgreiningar í fjárhagsskýrslugerð
+# <a name="row-definitions-in-financial-reporting"></a>Línuskilgreiningar í fjárhagsskýrslugerð
 
 Línuskilgreiningar í fjárhagsskýrslum eru staður fyrir útreikninga sem ekki er hægt að gera beint í bókhaldslyklinum. Til dæmis er hægt að búa til millisamtölur fyrir reikningsflokka og setja þær inn í aðrar samtölur Einnig er hægt að reikna milliskref sem ekki eru sýnd í lokaskýrslunni.
 
-## Stofna eða breyta línuskilgreiningu
+## <a name="create-or-edit-a-row-definition"></a>Stofna eða breyta línuskilgreiningu
 
 Til að stofna eða breyta línuskilgreiningu skal fylgja eftirfarandi skrefum:
 
@@ -29,7 +29,7 @@ Til að stofna eða breyta línuskilgreiningu skal fylgja eftirfarandi skrefum:
 > [!NOTE]
 > Dálkarnir sem eru skilgreindir í hverri línu í línuskilgreiningunni tákna dálka þrjá og upp á síðunni **Fjárhagsskýrsla** . Fyrstu tveir dálkarnir, **Dálkanr.** og **Lýsing**, eru fastar.  
 
-## Innbyggðar línuskilgreiningar
+## <a name="built-in-row-definitions"></a>Innbyggðar línuskilgreiningar
 
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir sýnidæmisskilgreiningar sem geta hjálpað til við að byrja að setja upp fjárhagsskýrslur sem uppfylla þarfir notanda.
 
@@ -45,7 +45,7 @@ Til að stofna eða breyta línuskilgreiningu skal fylgja eftirfarandi skrefum:
 > [!NOTE]
 > Sýnishornaskýrslurnar í [!INCLUDE[prod_short](includes/prod_short.md)] eru ekki tilbúnar til notkunar úr kassanum. Eftir því hvernig fjárhagsreikningar, víddir, fjárhagsreikningaflokkar og áætlanir eru settar upp skal leiðrétta sýnilínu- og dálkskilgreiningar og fjárhagsskýrslur sem nota þær til samræmis við uppsetninguna.
 
-## Nota flokka fjárhagsreikninga til að breyta útliti ársreikninga
+## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Nota flokka fjárhagsreikninga til að breyta útliti ársreikninga
 
 Hægt er að nota lykiltegundir fjárhagsreikninga til að breyta sniði fjárhagsskýrslna. T.d. þegar reikningaflokkar hafa verið settir upp á síðunni **Flokkar** fjárhagsreikninga, er hægt að velja aðgerðina **Mynda fjárhagsskýrslu** og uppfæra undirliggjandi fjárhagsskýrslur fyrir almennar fjárhagsskýrslur. Næst þegar keyrð er önnur þessara skýrslna, svo sem **Stöðuyfirlitsskýrsla**, nýjar samtölur og undirfærslur er bætt við.
 
@@ -56,7 +56,7 @@ Annar ávinningur af því að nota fjárhagsreikningaflokka yfir hráa fjárhag
 >
 > Þú ættir að stofna og skipuleggja eigin lægri flokka fjárhagsreikninga frá grunni, í stigveldi ef þörf er á, frekar en að reyna að endurraða þeim sem fyrir eru. Til dæmis er hægt að endurhanna **Skuldir** til að innihalda nýtt **Eigið fé** og síðan **Skammtímaskuldir** og **Langtímaskuldir**. Nánari upplýsingar um [vörpun fjárhagsreikninga í lykilflokka](finance-general-ledger.md#account-categories).
 
-## Bestu venjur til að vinna með línuskilgreiningar
+## <a name="best-practices-for-working-with-row-definitions"></a>Bestu venjur til að vinna með línuskilgreiningar
 
 Línuskilgreiningar eru ekki útgáfaðar. Þegar línuskilgreiningu er breytt er gömlu útgáfunni skipt út þegar breytingin er vistuð í gagnagrunninum. Eftirfarandi listi inniheldur nokkrar bestu venjur til að vinna með línuskilgreiningar:
 
@@ -64,7 +64,7 @@ Línuskilgreiningar eru ekki útgáfaðar. Þegar línuskilgreiningu er breytt e
 - Áður en línuskilgreiningu er breytt skal íhuga að taka afrit af henni sem öryggisafrit, ef breytingin virkar ekki eins og búist er við. Annaðhvort er hægt að afrita skilgreininguna (gefa henni gott heiti) eða flytja hana út. Nánari upplýsingar eru í [Flytja inn eða út línuskilgreiningar](#import-or-export-financial-reporting-row-definitions).
 - Ef þörf er á fersku eintaki af skilgreiningu sem [!INCLUDE[prod_short](includes/prod_short.md)] útvegar er auðvelt að fá það til að stofna nýtt fyrirtæki sem inniheldur aðeins uppsetningargögn. Síðan skal flytja skilgreininguna út og flytja hana inn í fyrirtækinu þar sem skilgreiningin þarfnast endurnýjunar.
 
-## Línuskilgreiningar fyrir inn- eða útflutning fjárhagsskýrslugerðar
+## <a name="import-or-export-financial-reporting-row-definitions"></a>Línuskilgreiningar fyrir inn- eða útflutning fjárhagsskýrslugerðar
 
 Hægt er að flytja inn og út fjárhagslínuskilgreiningar sem RapidStart skilgreiningarpakka. Til dæmis eru grunnstillingarpakkar gagnlegir til að deila upplýsingum með öðrum fyrirtækjum. Pakkinn er búinn til í .rapidstart-skrá, sem þjappar innihaldinu saman.
 
@@ -76,7 +76,7 @@ Til að flytja inn og út línuskilgreiningar fjárhagsskýrslu skal fylgja efti
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 4.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **línuskilgreiningar** og velja síðan viðeigandi tengil.
 1. Veljið línuskilgreininguna og veljið svo aðgerðina **Flytja inn** línuskilgreiningu eða **Útflutningslínuskilgreiningu** eftir því hvað á að gera.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Dálkaskilgreiningar í fjárhagsskýrslugerð](bi-column-definitions.md)  
 [Undirbúa fjárhagsskýrslur](bi-how-work-account-schedule.md)  

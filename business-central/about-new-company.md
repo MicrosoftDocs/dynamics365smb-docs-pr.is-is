@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-"></a>Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[prod_short](includes/prod_short.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja, þú opnar einfaldlega **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)] allt eftir þörfum þíns fyrirtækis.  
 
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Val á réttu sniðmáti
+## <a name="choose-the-right-template"></a>Val á réttu sniðmáti
 
 Ef ákveðið er að bæta fyrirtæki við er hægt að [!INCLUDE[prod_short](includes/prod_short.md)] nota leiðsagnarforritið **Stofna nýtt fyrirtæki** með aðstoð til að hefjast handa. Uppsetningarleiðbeiningarnar eru aðgengilegar á síðunni **Fyrirtæki** og frá uppflettingu í reitnum **Fyrirtæki** á síðunni **Mínar** stillingar.  
 
@@ -45,7 +45,7 @@ Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla
 
 Stjórnandi þinn getur fengið frekari upplýsingar um prufuútgáfur og áskriftir [hér](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Afrita fyrirtæki
+## <a name="copy-a-company"></a>Afrita fyrirtæki
 
 Á síðunni **Fyrirtæki** er hægt að nota aðgerðina **Afrita** til að stofna annað fyrirtæki út frá efni fyrirliggjandi fyrirtækis. Afritun fyrirtækis er til dæmis gagnleg þegar prófa á fyrirtæki án þess að trufla framleiðslugögn.
 
@@ -56,7 +56,7 @@ Stjórnandi þinn getur fengið frekari upplýsingar um prufuútgáfur og áskri
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## Setja upp fyrirtæki
+## <a name="set-up-the-company"></a>Setja upp fyrirtæki
 
 Þegar skráð er inn í nýtt fyrirtæki hjálpar uppsetningarleiðsagnarforritið Uppsetning fyrirtækis **með** aðstoð við að hefjast handa. Leiðarvísirinn biður um upplýsingar um fyrirtækið, svo sem aðsetur, bankaupplýsingar og aðferð kostnaðarútreiknings birgða. Þessar upplýsingar eru grunnur margra svæða svo [!INCLUDE[prod_short](includes/prod_short.md)] ekki þurfi að setja þær upp handvirkt.  
 
@@ -64,24 +64,24 @@ Til dæmis inniheldur [!INCLUDE [prod_short](includes/prod_short.md)] heimilisfa
 
 Þegar grunnatriðin eru til staðar er hægt að setja upp eftirstandandi kjarnasvæði. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Nánari upplýsingar um það eru í [Setja upp [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Fyrirtæki og umhverfi
+## <a name="companies-and-environments"></a>Fyrirtæki og umhverfi
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md). Frekari upplýsingar um umhverfi er að finna í [Að skilja tölvukerfi Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (eingöngu á ensku).  
 
-## Heiti fyrirtækis breytt
+## <a name="changing-a-companys-name"></a>Heiti fyrirtækis breytt
 
 Þegar fyrirtæki hefur verið stofnað er ekki hægt að breyta heiti þess. Þó er hægt að breyta **heiti** þess Birtingar, sem er texti sem kemur fram í fyrirtækinu í öllu kerfinu.  
 
 > [!TIP]
 > Hægt er að endurnefna fyrirtæki ef [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er notað.
 
-## Bæta við Contoso Coffee
+## <a name="add-contoso-coffee"></a>Bæta við Contoso Coffee
 
 Forrit Contoso Coffee býður upp á sýnigögn til að hjálpa þér að kanna ítarlega möguleika [!INCLUDE [prod_short](includes/prod_short.md)]. Finndu forritið í AppSource og settu það upp í tómu fyrirtæki, t.d. fyrirtæki í sandkassaumhverfi. Frekari upplýsingar er að finna í [Kynning á sýnigögnum Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

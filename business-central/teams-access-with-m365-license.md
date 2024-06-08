@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# Aðgangur að gögnum í Teymi án Business Central Leyfi
+# <a name="access-data-in-teams-without-business-central-license"></a>Aðgangur að gögnum í Teymi án Business Central Leyfi
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað Dynamics 365 Business Central leyfi sem gerir þeim kleift að skoða, breyta og bregðast við viðskiptagögnum sínum innan Teymis. Þessir notendur geta unnið með gögnum með því að deila færslum í spjall eða rásir eða bæta við flipum sem sýna færslur. Hins vegar geta verið aðrir starfsmenn innan fyrirtækisins sem hafa ekki Business Central leyfi en gætu haft gagn af því að geta skoðað gögn í Teams. Fyrir þessa notendur [!INCLUDE[prod_short](includes/prod_short.md)]  býður hann takmarkaðan aðgang með leyfum sínum Microsoft 365 eingöngu.  
 
@@ -19,10 +19,10 @@ Sem kerfisstjóri er hægt að grunnstilla umhverfi til að veita aðgang að Mi
 
 Til að fræðast meira um aðgang með Microsoft 365 leyfi skal fara í [Business Central Access með Microsoft 365 leyfi](admin-access-with-m365-license.md) og [aðgangi með Microsoft 365 eignaspurnum](admin-access-with-m365-license-faq.md) leyfi.
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 [Setja upp Business Central aðgang í teymum með Microsoft 365 leyfi](admin-access-with-m365-license-setup.md)  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Úrræðaleita aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-troubleshooting.md)  

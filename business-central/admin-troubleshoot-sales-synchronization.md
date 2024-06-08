@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Úrræðaleit vegna samstillingarvillna
+# <a name="troubleshoot-synchronization-errors"></a>Úrræðaleit vegna samstillingarvillna
 
 Margir hreyfanlegir hlutir taka þátt í samþættingu [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[prod_short](includes/cds_long_md.md)] og stundum fer eitthvað úrskeiðis. Í þessari grein er bent á nokkrar af dæmigerðum villum sem upp koma og gefur nokkra punkta fyrir hvernig á að lagfæra þær.
 
@@ -33,7 +33,7 @@ Eftirfarandi eru nokkur verkfæri á síðunni Samstillingarvillur samþættinga
 * Aðgerðin **Eyða færslum eldri en 7 daga** og **Eyða öllum færslum** hreinsa listann. Þessar aðgerðir eru yfirleitt notaðar eftir að leyst hefur verið úr orsök villu sem hefur áhrif á margar færslur. Sýndu samt aðgát. Þessar aðgerðir gætu eytt villum sem skipta enn máli.
 * Aðgerðin **Sýna villu í kallstafla** sýnir upplýsingar sem geta hjálpað til við að skilja rót vandans. Ef ekki er hægt að leysa úr villunni á eigin spýtum og ákveðið er að senda inn þjónustubeiðni skal hafa upplýsingarnar með í þjónustubeiðninni.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samþætting við Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  

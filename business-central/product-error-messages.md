@@ -9,11 +9,11 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
 ---
-# Viðvaranir og villuboð
+# <a name="warnings-and-error-messages"></a>Viðvaranir og villuboð
 
 Á vinnudeginum birtist hugsanlega tilkynningar um [!INCLUDE [prod_short](includes/prod_short.md)] að eitthvað hafi farið úrskeiðis eða að ekki væri hægt að bóka eitthvað, til dæmis. Í mörgum tilfellum auðvelda tilkynningar að leysa málið, eða draga til baka breytingar sem voru gerðar. Í öðrum tilvikum er hugsanlegt að ekki séu til upplýsingar sem þarf að aflæsa. Í þessari grein er að finna ábendingar um hvernig skuli halda áfram.  
 
-## Notendaaðstoð í vörunni
+## <a name="in-product-user-assistance"></a>Notendaaðstoð í vörunni
 
 Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt kennsluábendingum fyrir mikilvægar síðar, myndatexta og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
 
@@ -21,15 +21,15 @@ Ef notandi er með spurningu um reit eða annan þætti í notandaviðmótinu sk
 
 Frekari upplýsingar er að finna í [Dynamics 365 Business Central Líkan notendaaðstoðar](/dynamics365/business-central/dev-itpro/user-assistance) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Hjálpar- og stuðningssíða
+## <a name="help-and-support-page"></a>Hjálpar- og stuðningssíða
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)], veitir valmyndaratriði hjálpar (spurningamerkið efst í hægra horninu) þér aðgang að síðunni **Hjálp og stuðningur** þar sem þú getur fundið tengla á úrræði sem geta hjálpað þér að finna svör við spurningum þínum. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-## Hjálpa öðrum
+## <a name="help-others"></a>Hjálpa öðrum
 
 Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með því að leita að villuboðum á síðunni **Dagbók** villuboða eða í stjórnunarmiðstöðinni. Í mörgum tilfellum er viðvörunin eða villuboðið um uppsetningu eða skort á heimild og svipuð mál sem yfirnotandi eða stjórnandi getur auðvelda hjálpað til við. Í öðrum tilvikum gæti þurft að skoða síður til að finna orsökina. Frekari upplýsingar er að finna í [Finna tæknilegar upplýsingar](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) í stjórnunarefninu fyrir [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## Deila upplýsingum um villu til fljótlegri aðstoðar
+## <a name="share-error-details-for-faster-assistance"></a>Deila upplýsingum um villu til fljótlegri aðstoðar
 
 Til að sigrast á hindrunum og lágmarka niður í miðbæ, beita sérþekkingu samstarfsfólks eða efnisþekkingu sérfræðinga. Þegar villa lokar á notanda er auðvelt að samnýta upplýsingarnar um villuna þegar notandi fær aðstoð.
 
@@ -47,7 +47,7 @@ Auk þess að afrita upplýsingar um villu er einnig hægt að velja að deila u
 * Afrita upplýsingar um villuna.
 * Opna sjálfgefna ritilinn þinn með tölvupósti þar sem þú getur límt villuupplýsingarnar sem þú afritaðir og tilgreint hvern þú vilt biðja um hjálp. [!INCLUDE [prod_short](includes/prod_short.md)] bætir við tengli á síðuna þar sem þú upplifðir.
 
-## Hjálpa sjálfum þér
+## <a name="help-yourself"></a>Hjálpa sjálfum þér
 
 Villuboð bjóða upp á upplýsingar og aðgerðir sem auðvelda skilning, fara í og leysa villur sem koma úr verkvangnum.
 
@@ -59,14 +59,14 @@ Eftirfarandi myndskeið sýnir hvernig nota á aðgerðanleg villuboð til að a
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
 
-### Ábending fyrir forritara
+### <a name="tip-for-developers"></a>Ábending fyrir forritara
 
 Ef þú ert forritari, þegar þú kallar á [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method) aðferð, en ekki fara í |`ErrorInfo` hlutur, [!INCLUDE [prod_short](includes/prod_short.md)]  býr sjálfkrafa til tengilinn við síðu þar sem notandi getur leiðrétt málið. [!INCLUDE [prod_short](includes/prod_short.md)] fær fyrst uppflettingar- eða köfunarsíðuna fyrir færsluna og finnur svo spjaldsíðuna eða uppflettisíðuna og bætir yfirlitstengil við það spjaldsíðu. [!INCLUDE [prod_short](includes/prod_short.md)] bætir ekki við tengli í eftirfarandi aðstæðum:
 
 * Ef villan er á síðunni sem er opin.
 * Ef notandinn hefur ekki heimild til að breyta undirliggjandi færslu.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Algengar spurningar](across-faq.yml)  

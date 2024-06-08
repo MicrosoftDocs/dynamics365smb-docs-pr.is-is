@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# Setja upp alhliða prentara
+# <a name="set-up-universal-print-printers"></a>Setja upp alhliða prentara
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 1. Í Microsoft Azure skal setja upp Universal Prenta og bæta við prenturunum sem á að nota í Business Central í prenthlut. Farið í [þennan hluta](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. Bæta [!INCLUDE[prod_short](includes/prod_short.md)] skal við prenturum úr prenthlutum í Alhliða prentun.  [Farðu í þennan hluta](#add-printers-in-business-central-online) fyrir netið eða [hér](#add-printers-in-business-central-on-premises) á staðnum.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Studdir prentarar
 
@@ -57,7 +57,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
     Til að skrá forrit og stilla réttar heimildir skal fylgja þeim skrefum sem lýst er í [Skrá forrit í Microsoft Entra kenni](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## Setja upp alhliða prentun og prentara í Microsoft Azure
+## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Setja upp alhliða prentun og prentara í Microsoft Azure
 
 Áður en hægt er að hefja umsjón með Universal Prenta prentara í Business Central eru nokkur verk til að fá Universal Prenta upp og keyra í Azure með þeim prenturum sem á að nota.
 
@@ -110,7 +110,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
 Nú er hægt að bæta prenturunum við [!INCLUDE[prod_short](includes/prod_short.md)], setja upp sjálfgefna prentara fyrir skýrslur og prenta.  
 
-## Bæta við prenturum í Business Central á netinu
+## <a name="add-printers-in-business-central-online"></a>Bæta við prenturum í Business Central á netinu
 
 Þegar prentarar hafa verið settir upp og samnýttir í Alhliða prentun er hægt að bæta þeim við til [!INCLUDE[prod_short](includes/prod_short.md)] notkunar. Til eru tvær leiðir til að bæta við prenturum skýjaprentunar. Hægt er að bæta öllum prenturum við í einu eða einum í einu.
 
@@ -133,7 +133,7 @@ Með því að bæta við prenturum fyrir sig er sami alhliða prentari settur u
 
 Eftir að prentara hefur verið bætt við er hægt að skoða og breyta stillingum hans úr síðunni **Prentarastjórnun**. Veldu prentarann og veldu síðan **Breyta stillingum prentara**.
 
-## Bæta við prenturum í Business Central innanhúss
+## <a name="add-printers-in-business-central-on-premises"></a>Bæta við prenturum í Business Central innanhúss
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -149,7 +149,7 @@ Eftir að prentara hefur verið bætt við er hægt að skoða og breyta stillin
 > Ef um er að ræða stjórnanda er mælt með því að þessu verki ljúki á undan öðrum notendum. Síðan skal láta notendur vita sem þurfa að nota Universal Prenta prentara hvernig á að gera það. Ef Azure skráða forritið fyrir Universal Print krefst stjórnunarsamþykktar fyrir API-heimildir er auðveldara að veita samþykki fyrir hönd fyrirtækisins. Hægt er að veita stjórna samþykki frá Azure Portal eða þegar keyrð eru skrefin sem fylgja. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### Tengjast alhliða prentun í fyrsta skipti
+### <a name="connect-to-universal-print-for-the-first-time"></a>Tengjast alhliða prentun í fyrsta skipti
 
 Ljúka skal þessum skrefum til að tengjast alhliða prentþjónustu í fyrsta skipti.
 
@@ -175,11 +175,11 @@ Eftir að prentara hefur verið bætt við er hægt að skoða og breyta stillin
 
 Þegar innskráningu er lokið er hægt að nota alhliða prentara til að prenta skýrslur og önnur prentverk. Nánari upplýsingar eru í [Prentun skýrslu](ui-work-report.md#PrintReport). Ef bæta á við, fjarlægja eða breyta prenturum er farið aftur á **síðuna Prentstjórnun** og Alhliða prentun **valin**.
 
-## Algeng vandamál og úrlausnir
+## <a name="common-problems-and-resolutions"></a>Algeng vandamál og úrlausnir
 
 Í þessum hluta fræðast um algeng vandamál sem notendur geta upplifað þegar reynt er að setja upp eða nota Alhliða prentara.
 
-### Notandi hefur ekki aðgang að prentaranum \<your-printer\>.
+### <a name="you-dont-have-access-to-the-printer-your-printer"></a>Notandi hefur ekki aðgang að prentaranum \<your-printer\>.
 
 Ef notandi fær þessi skilaboð þegar hann reynir að prenta skjal á altækan prentara stafar það hugsanlega af eftirfarandi:
 
@@ -188,17 +188,17 @@ Ef notandi fær þessi skilaboð þegar hann reynir að prenta skjal á altækan
 - (Á staðnum) Azure-forritaskráningin sem notuð er fyrir Universal Print virkar ekki eða hefur nýlega breyst síðan síðast var notandinn skráður inn.
 - (Á staðnum) Notandinn hefur ekki enn skráð sig inn í Azure skráð forrit fyrir universal Prentaraforrit og samþykki í fyrsta skipti.
 
-## Villa varð við að sækja prentara sem samnýttir voru.
+## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Villa varð við að sækja prentara sem samnýttir voru.
 
 Ef notandi fær þessi skilaboð þegar hann reynir að bæta við alhliða prentara á **síðunni Prentarastjórnun** er það yfirleitt vegna þess að hann hefur ekki enn skráð sig inn í Azure skráð forrit fyrir universal Prentaraforrit og samþykki í fyrsta skipti. 
 <!--
-### Troubleshooting
+### <a name="troubleshooting"></a>Troubleshooting
 
-#### You don't see the a printer in the 
+#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
 
 The printer is not shared in Universal Print.
 
-### You get an error when tryong to add all or a single printer
+### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -206,7 +206,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## Could not upload the document to print job 50.
+## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -215,10 +215,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 [Setja upp sjálfgefna prentara](ui-specify-printer-selection-reports.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit prentara](admin-printer-setup-overview.md)  
 [Setja upp tölvupóstprentara](admin-printer-setup-email.md)

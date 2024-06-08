@@ -10,7 +10,7 @@ ms.date: 09/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tilgreina hvenær og hvernig tilkynningar um verkflæði berast
+# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Tilgreina hvenær og hvernig tilkynningar um verkflæði berast
 
 Þegar notendur samþykktar eru settir upp í verkflæðum þar sem einhver á að samþykkja breytingar, t.d. þegar nýjar færslur eru stofnaðar eða þegar einhver biður um samþykki, verður að tilgreina hvernig og hvenær eigi að tilkynna samþykktarnotanda. Til dæmis er hægt að tilgreina að notandi fái samstundis tölvupóst þegar einhver stofnar nýjan viðskiptamann. Einnig er hægt að tímasetja þær tilkynningar sem á að halda og afhenda þær síðan saman, til dæmis vikulega eða mánaðarlega.
 
@@ -24,11 +24,11 @@ Einnig er hægt að breyta tilkynningauppsetningu með því að **velja Breyta 
 > [!NOTE]
 > Ef þú vilt nota tölvupóst sem tilkynningaraðferð verður þú að setja upp tölvupóst fyrir bæði sendanda og móttakanda [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar má finna á [Setja upp tölvupóst](admin-how-setup-email.md).
 
-## Skref í verkflæðum
+## <a name="steps-in-workflows"></a>Skref í verkflæðum
 
 Mörg verkflæðisskref samþykktar snýst um að tilkynna notendum að atburður sem þeir verða að bregðast við hafi átt sér stað. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 2, sem er samþykkjandi. Í næsta skrefi verkflæðis getur tilvik verið að Notandi 2 samþykki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 3 til að hefja ferli með samþykktri færslu. Í verkflæðisskrefum sem taka til samþykkta er hver tilkynning bundin samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
-## Tilgreina hvenær og hvernig notendur fá tilkynningar um samþykktir  
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Tilgreina hvenær og hvernig notendur fá tilkynningar um samþykktir
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning samþykktarnotanda**, velja síðan viðkomandi tengil.  
 2. Velja skal línuna fyrir notandann sem setja á upp kjörstillingar tilkynninga fyrir og svo skal velja aðgerðina **Tilkynningagrunnur** .  
@@ -57,7 +57,7 @@ Mörg verkflæðisskref samþykktar snýst um að tilkynna notendum að atburðu
    |**Mánaðardagur**|Tilgreinið hvort notandinn fær tilkynningar á fyrsta, síðasta eða tilteknum degi mánaðarins.|
    |**Dagsetning mánaðarlegrar tilkynningar**|Tilgreinið á hvaða degi mánaðarins notandinn fær tilkynningar þegar gildið í **Mánaðardagur** reitnum er **Sérsniðið**.|
 
-## Breyta hvenær og hvernig notandi fær tilkynningar
+## <a name="change-when-and-how-you-receive-notifications"></a>Breyta hvenær og hvernig notandi fær tilkynningar
 
 1. Í einni af tilkynningunum sem þú hefur fengið, annaðhvort sem tölvupóst eða athugasemd, skal velja **Breyta tilkynningastillingum**.  
 2. Á síðunni **Tilkynningargrunnur** verkflæðis skal breyta kjörstillingum tilkynninga eins og lýst er í skrefum 3-5 hér á undan.
@@ -65,7 +65,7 @@ Mörg verkflæðisskref samþykktar snýst um að tilkynna notendum að atburðu
    2. Velja skal hvort fá eigi tilkynningu með tölvupósti eða athugasemd í reitnum  **Tilkynningaraðferð** .
    3. Tilkynningaáætlun **er** valin til að breyta tíðni og endurtekningum sem sendar eru tilkynningar í.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  

@@ -9,7 +9,7 @@ ms.date: 05/25/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Undirbúðu þig fyrir viðskiptin
+# <a name="get-ready-for-doing-business"></a>Undirbúðu þig fyrir viðskiptin
 
 Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,7 +22,7 @@ Einnig er hægt að opna listann yfir uppsetningarleiðbeiningar með hjálp me�
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Hefjast handa
+## <a name="get-started"></a>Hefjast handa
 
 Þegar þú skráir þig inn í fyrsta skipti eða setur af stað nýtt fyrirtæki fer gátlistinn **Hefjast handa** með þér í gegnum skrefin til að búa þig undir viðskiptin. Skrefin eru mismunandi eftir landi/svæði og hverri sértækri starfsgrein sem bætt hefur verið við fyrirtækið [!INCLUDE [prod_short](includes/prod_short.md)]. Frá og með 2021 útgáfutímabili 2, þegar þú skráir þig fyrst inn í CRONUS sýnifyrirtækið, er heimasíðan fínstillt fyrir fyrstu upplifun þína. Ef þú vilt frekar sjá fleiri tengla á fleiri síður er nóg að skipta yfir í hlutverk viðskiptastjóra. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
@@ -37,13 +37,13 @@ Ef svæði er ekki hluti af uppsetningu með hjálp skal velja táknið ![Sprock
 
 Þegar búið er að keyra uppsetningaleiðbeiningar með hjálp eru þær merktar sem **Lokið**.  
 
-## Fróðlegar ábendingar og leiðsagnir
+## <a name="teaching-tips-and-tours"></a>Fróðlegar ábendingar og leiðsagnir
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur leiðsagnir í vörum og fróðlegar ábendingar sem geta auðveldað þér að koma þér af stað. Í núverandi útgáfu eru leiðsagnir fyrir skrefin í listanum **Hefjast handa** og nokkrar af mest notuðu síðunum í sýnifyrirtækinu, t.d. spjaldasíðan **Sölureikningur**.  
 
 Fróðlegar ábendingar eru stutt skilaboð sem tilkynna, minna á eða fræða þig um nýja mikilvæga möguleika sem ræsast sjálfkrafa þegar síða er opnuð. Til þess að sjá til dæmis fróðlega ábendingu fyrir spjaldið **Sölureikningur** skal velja tengilinn efst í vinstra horni síðunnar þar sem stendur *Sölureikningur*. Þetta kveikir á skýringartexta með stuttri lýsingu á síðunni og hvað hægt er að gera þar. Ef leiðsögn er til fyrir síðuna mun tengill bjóða þér að fara í gegnum leiðsögnina. Tengillinn *Frekari upplýsingar* fer með þig í vöruhjálp síðunnar.
 
-## Heimasíður fyrir ákveðin hlutverk
+## <a name="role-specific-home-pages"></a>Heimasíður fyrir ákveðin hlutverk
 
 Það fer eftir hlutverkinu hvernig yfirlit fyrirtækisins lítur út á heimasíðunni. Efst sérðu yfirlitsstiku sem veitir þér auðveldan aðgang að viðskiptamönnum, lánardrottnum, vörum og svo framvegis. Í miðjunni finnurðu **aðgerðir** gluggareitina. **Aðgerðir** sýna gildandi gögn og má smella á það eða ýta til að fá einfaldan aðgang að völdum skjölum.
 
@@ -54,11 +54,11 @@ Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að s
 > [!TIP]  
 > Þú getur farið aftur á heimasíðuna með því að velja nafn fyrirtækisins í efra vinstra horninu.
 
-## Fyrirtækið
+## <a name="company-information"></a>Fyrirtækið
 
 Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsingum um núverandi fyrirtæki, mikið af þessu var forútfyllt hafirðu klárað **Setja upp fyrirtæki** aðstoðina með hjálp þegar þú skráðir þig í [!INCLUDE[prod_short](includes/prod_short.md)]. Viljirðu breyta lógói fyrirtækis, samskiptaupplýsingum, bankastillingum, eða skattaupplýsingum, geturðu gert það af þessari síðu.  
 
-## Bæta við notendum og heimildum
+## <a name="adding-users-and-permissions"></a>Bæta við notendum og heimildum
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -66,11 +66,11 @@ Notendum er bætt í Microsoft 365 stjórnunarmiðstöð. Nánari upplýsingar e
 
 Þegar notendur eru stofnaðir í Microsoft 365 er hægt að flytja þá inn á **síðuna Notendur** með því að nota aðgerðina **Sækja uppfærslur. Office 365**  Síðan er hægt að úthluta notendum heimildum og skipuleggja þær í notendahópum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
-## Hjálp fyrir afurð
+## <a name="product-help"></a>Hjálp fyrir afurð
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-### Setja upp fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Setja upp fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Greinarnar [byrja strax](quick-start-business-central.md) geta hjálpað þér að taka fyrstu skrefin í uppsetningu [!INCLUDE [prod_short](includes/prod_short.md)] fyrir fyrirtækið þitt. Í [!INCLUDE [prod_short](includes/prod_short.md)] sýnir síðan **Uppsetning með hjálp** leiðbeiningar um uppsetningu sem geta hjálpað þér. Það fer eftir hlutverkinu þínu og landi eða svæði hvaða uppsetningarleiðbeiningar með hjálp sjást í eftirfarandi töflu:
 
@@ -92,11 +92,11 @@ Greinarnar [byrja strax](quick-start-business-central.md) geta hjálpað þér a
 
 **Uppsetning með hjálp** síðan getur innihaldið aðrar færslur. Þegar farið er í gegnum uppsetningu verður uppsetningin merkt sem **Lokið**. Þú getur sett upp önnur svæði fyrirtækisins með því að nota handvirka uppsetningu. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Næstu skref
+## <a name="next-steps"></a>Næstu skref
 
 Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Aðgerðir** á þinni heimasíðu til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna. Skoðaðu [Stutta leiðarvísa](quick-start-business-central.md) til að koma þér í gegnum fyrstu skrefin.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stuttir leiðarvísar Business Central](quick-start-business-central.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

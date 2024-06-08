@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Kynning á Contoso Kaffiverkum og verkefnastjórnun
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Kynning á Contoso Kaffiverkum og verkefnastjórnun
 
 Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytendur og fyrirtæki. Contoso-kaffiforritin **fyrir** Business Central bæta við kynningargögnum sem hægt er að nota til að læra hvernig á að nota getu verka og verkefnastjórnunar í Business Central.
 
@@ -22,7 +22,7 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 > Áður en þú keyrir einhverjar aðstæður fyrir Contoso Coffee skaltu bóka allar birgðabókarlínur með opnunarstöðum. Nánari kröfur má finna í hlutanum [Setja upp Contoso-kaffigögn](#set-up-contoso-coffee-jobs-and-project-management-data) .
 >
 > 
-## Uppsetning Contoso-kaffiverka og verkefnastjórnunargagna
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Uppsetning Contoso-kaffiverka og verkefnastjórnunargagna
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,4 +47,4 @@ Contoso Coffee er skáldað fyrirtæki sem framleiðir kaffivélar fyrir neytend
 
 Þegar allt er til reiðu skaltu velja aðgerðina **Búa til sýnigögn**. Það tekur nokkrar mínútur að bæta gögnunum við undirliggjandi gagnagrunn en eftir það er allt til reiðu til að keyra ýmsar aðstæður.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .

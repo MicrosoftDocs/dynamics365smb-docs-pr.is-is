@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Greiningar í innkaupum
+# <a name="analytics-in-purchasing"></a>Greiningar í innkaupum
 
 Fyrirtæki safna fjölda gagna við daglegar aðgerðir sem styðja viðskiptaupplýsingar (BI) fyrir innkaupastjóra:
 
@@ -30,7 +30,7 @@ Hver þessara eiginleika hefur kosti og galla, allt eftir tegund gagnagreiningar
 
 Þessi grein kynnir hvernig hægt er að nota þessar greiningaraðgerðir til að fá innsýn í innkaup.
 
-## Greiningarþarfir í innkaupum
+## <a name="analytics-needs-in-purchasing"></a>Greiningarþarfir í innkaupum
 
 Þegar hugsað er um greiningarþarfir í innkaupum getur það hjálpað til við að nota líkan sem lýsir mismunandi greiningarþörfum á háu stigi.
 
@@ -47,14 +47,14 @@ Starfsfólk í mismunandi hlutverkum hefur mismunandi þarfir þegar kemur að g
 |Innkaupastjóri / Innkaupaaðili | Sundurliðuð gögn     | Innbyggðar rekstrarskýrslur <br> Gögn um verk á skjá |
 
 <!-- 
-## Purchasing KPIs
+## <a name="purchasing-kpis"></a>Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengsl (tengd innkaupum)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Nota fjárhagsskýrslugerð til að búa til ársreikninga og afkastatengsl (tengd innkaupum)
 
 Eiginleikinn **Ársskýrslur** veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum og bera saman fjárhagsfærslur og áætlunarfærslur. Sérstaklega er hægt að setja upp fjárhagsskýrslur á fjárhagsreikningum sem notaðir eru til að rekja innkaupabókanir.
 
@@ -62,13 +62,13 @@ Víddir gegna mikilvægu hlutverki í viðskiptagreind. Vídd er gögn sem þú 
 
 Frekari upplýsingar um fjárhagsskýrslur er farið [í Undirbúning fjárhagsskýrslna með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md).
 
-## Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila (tengd innkaupum)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Fjármálaskýrsla þvert á fyrirtækiseiningar eða lögaðila (tengd innkaupum)
 
 Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Aðrir nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem gefa skýrslu til móðurfyrirtækja. [!INCLUDE [prod_short](includes/prod_short.md)] gefur endurskoðendum verkfæri sem hjálpa þeim að flytja fjárhagsfærslur frá tveimur eða fleiri fyrirtækjum (dótturfyrirtækjum) í samsteypufyrirtæki. Sérstaklega til innkaupastjórnunar gæti þurft að sameina fjárhagsfærslur fyrir innkaupareikninga til að rekja sölukrafa í fyrirtækiseiningum eða lögaðilum.
 
 Nánari upplýsingar eru í [Sameiningu fyrirtækis](finance-consolidated-company-reporting.md).
 
-## Tilfallandi greining á innkaupum gagna
+## <a name="ad-hoc-analysis-of-purchasing-data"></a>Tilfallandi greining á innkaupum gagna
 
 Stundum þarf bara að athuga hvort tölurnar eru rétt settar upp eða staðfesta tölu á fljótlegan hátt. Eftirfarandi eiginleikar eru frábærir fyrir tilfalengdar greiningar:
 
@@ -88,7 +88,7 @@ Eiginleikinn **Gagnagreining** gerir kleift að opna næstum hvaða listasíðu 
 
 Nánari upplýsingar um hvernig gera á tilfallandi greiningu á innkaupagögnum er farið í [Tilfallandi greiningu á innkaupagögnum](ad-hoc-analysis-purchasing.md).
 
-## Innbyggðar skýrslur um innkaup
+## <a name="built-in-reports-for-purchasing"></a>Innbyggðar skýrslur um innkaup
 
 [!INCLUDE [prod_short](includes/prod_short.md)] þar á meðal eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa við innkaup fyrirtækja að gefa skýrslu um gögn sín.
 
@@ -103,7 +103,7 @@ Til að fá yfirlit yfir tiltækar skýrslur skal velja **Allar skýrslur** efst
 
 Nánari upplýsingar um skýrslur sem varða innkaup er farið [í Innbyggðar innkaupaskýrslur](purchase-reports.md).
 
-## Greiningar á skjánum
+## <a name="on-screen-purchasing-analytics"></a>Greiningar á skjánum
 
 [!INCLUDE [prod_short](includes/prod_short.md)] á nokkrum síðum sem gefa innkaup yfirlit og verkhluta. Hér er dæmi um að þú hafir hafist handa:
 
@@ -112,7 +112,7 @@ Nánari upplýsingar um skýrslur sem varða innkaup er farið [í Innbyggðar i
 - [Skoða fjárhagsfærslur innkaupa](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 
-### Sýna innkaupatengdar fjárhagsfærslur og stöður af síðunni Bókhaldslykill
+### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Sýna innkaupatengdar fjárhagsfærslur og stöður af síðunni Bókhaldslykill
 
 Síðan Bókhaldslykill sýnir alla fjárhagsreikninga með samanlögðu númeri sem bókuð eru í fjárhaginn. Á þessari síðu er hægt að gera hluti eins og:  
 
@@ -126,7 +126,7 @@ Hægt er að búa til yfirlit sérstaklega fyrir innkaup á síðunni Bókhaldsl
 
 Nánari upplýsingar eru í [Skilja bókhaldslykilinn](finance-general-ledger.md#the-chart-of-accounts).
 
-### Greina gögn eftir víddum (tengd innkaupum)
+### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Greina gögn eftir víddum (tengd innkaupum)
 
 Víddir eru gildi sem flokka færslur svo hægt sé að rekja og greina þær í fylgiskjölum, t.d. innkaupapöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá.  
 
@@ -134,7 +134,7 @@ Víddir eru gildi sem flokka færslur svo hægt sé að rekja og greina þær í
 
 Nánari upplýsingar eru notaðar til að greina [gögn eftir víddum](bi-how-analyze-data-dimension.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sameining fyrirtækja](finance-consolidated-company-reporting.md)  
 [Undirbúa fjárhagsskýrslur með fjárhagsgögnum og reikningsflokkum](bi-how-work-account-schedule.md)  

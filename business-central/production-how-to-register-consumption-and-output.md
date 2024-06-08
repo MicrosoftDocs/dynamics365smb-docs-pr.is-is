@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 
 Þetta verk er framkvæmt á síðunni **Framleiðslubók** . Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 > [!NOTE]  
 > Íhlutir án leiðartengilskóta er skráðir fyrst í bókina.  
 
-## Notkun og frálag skráð  
+## <a name="to-register-consumption-and-output"></a>Notkun og frálag skráð
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losaðar framleiðslupantanir** og velja síðan viðkomandi tengil.  
 2. Opna skal útgefna framleiðslupöntunarlínu sem er tilbúin til skráningar, og svo á flýtiflipanum **Línur** skal velja **Lína**, aðgerðina og svo **Framleiðslubók** aðgerðina.  
@@ -60,7 +60,7 @@ ms.service: dynamics-365-business-central
 > [!WARNING]  
 > Tveir notendur geta ekki notað síðuna **Framleiðslubók** á sama tíma. Þetta merkir að ef notandi 2 opnar síðuna og færir inn gögn þegar notandi 1 er þegar að vinna á síðunni gæti notandi 2 tapað gögnum þegar notandi 1 lokar síðunni.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 
 [Framleiðsla](production-manage-manufacturing.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

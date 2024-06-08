@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Greina gögn í listum með hjálp frá Copilot (forskoðun)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Greina gögn í listum með hjálp frá Copilot (forskoðun)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -18,7 +18,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Um greiningaraðstoð
+## <a name="about-analysis-assist"></a>Um greiningaraðstoð
 
 Greiningaraðstoð er Copilot fyrir [greiningarhaminn](analysis-mode.md) á listasíðum í Business Central. Greiningarstillingin býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Til að greina gögn í greiningarstillingunni er búinn *til greiningarflipi* þar sem gögnum er umbreytt til að birta uppsöfnun og samantektir. Til dæmis er reitum raðað í línum og dálkum, afmarkanir tilgreindar, raðað dálkum og velt á reitum. Með greiningaraðstoð, í stað þess að gera þetta verk handvirkt, verður mikið af sama&mdash; eða minnsta byrjun&mdash; með því að nota orð. Með því að tjá uppbygginguna sem óskað er eftir á náttúrumáli, eins og "raða eftir magni frá minnstu til stærstu" eða "sýna meðalinnkaupsverð á hvern flokk", notar greiningaraðstoðin ÓM til að búa til tillöguútlit á greiningarflipa.
 
@@ -27,7 +27,7 @@ Greiningaraðstoð er Copilot fyrir [greiningarhaminn](analysis-mode.md) á list
 
  However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
 --> 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Greiningaraðstoð er virk og notandi hefur heimild til að nota hana. Stjórnandi framkvæmir yfirleitt þennan verkhluta. [Fræðast meira um grunnstillingu stjórnunargetu og afkastagetu](enable-ai.md) Stjórnunargetu.
 - Birtingartungumálið í Business Central er stillt á eitt af eftirfarandi enskum heimamönnum: en-AU, en-CA, en-GB, en-IE, en-Í-NZ, en-PH, en-SG, en-US, en-ZA. [Fræðast meira um að breyta tungumálinu](ui-change-basic-settings.md#language).
@@ -37,7 +37,7 @@ Greiningaraðstoð er Copilot fyrir [greiningarhaminn](analysis-mode.md) á list
 > [!NOTE]
 > You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
 
-## Hefjast handa
+## <a name="get-started"></a>Hefjast handa
 
 1. Opna skal listasíðuna sem á að greina.
 
@@ -69,7 +69,7 @@ Greiningaraðstoð er Copilot fyrir [greiningarhaminn](analysis-mode.md) á list
 
 1. Ef vista á greiningarflipann er hann **valinn**. Ef ekki á að vista það skal velja **Fleygja**.
 
-## Hvetja ráðleggingar og dæmi
+## <a name="prompt-tips-and-examples"></a>Hvetja ráðleggingar og dæmi
 
 Nauðsynlegt er að búa til skilvirkar kvaðningar fyrir Copilot til að fá nákvæmar og viðeigandi greiningartillögur. Einnig eru leiðir til að draga úr texta sem bætt er við með kvaðningum til að hraðar verði slegið inn þegar það er slegið inn. Hér eru nokkrar ábendingar og leiðbeiningar sem fylgt er í nokkrum dæmum:
 
@@ -81,7 +81,7 @@ Nauðsynlegt er að búa til skilvirkar kvaðningar fyrir Copilot til að fá n�
 - Algengar skammstafanir eru viðunandi.
 - Bréfmálið skiptir ekki máli.
 
-### Dæmi
+### <a name="examples"></a>Dæmi
 
 Eftirfarandi kvaðningardæmi nota greiningaraðstoð við **vörulistann** . Á vörusíðunni eru þrír samanteknir reitir fyrir greiningu: **Tiltækt magn,Kostn.verð,Ein.verð** **·** **·**.
 
@@ -97,7 +97,7 @@ Hvetja: `Show total quantity per type per UoM`
 
 Þessi kvaðning býr til veltitöflu í reitnum Tiltækt magn á grunnmælieiningu **á** tegund **·** . **·**
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Ábyrg algengar spurningar fyrir greiningaraðstoð](faqs-analysis-assist.md)  
 [Greining á tilfalöngum gögnum](reports-adhoc-analysis.md)  

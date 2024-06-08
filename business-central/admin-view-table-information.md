@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Skoða upplýsingar um málatöflu
+# <a name="viewing-table-information"></a>Skoða upplýsingar um málatöflu
 
 Síðan **8700 Töfluupplýsingar** gefur upplýsingar um færslufjölda í öllum kerfis- og viðskiptatöflum í [!INCLUDE[prod_short](includes/prod_short.md)] og hversu mikið af gögnum hver tafla inniheldur.
 
 Þessar upplýsingar eru gagnlegar til að leysa úr vandamálum við úrræðaleit, þar sem þær sýna dreifingu á gagnamagni á milli taflna.
 
-## Skoða töfluupplýsingar
+## <a name="view-table-information"></a>Skoða töfluupplýsingar
 
 Til að opna þessa síðu skaltu velja ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Upplýsingar um töflu** og velja síðan viðkomandi tengil.
 
@@ -41,7 +41,7 @@ Eftirfarandi tafla lýsir upplýsingunum sem eru veittar fyrir hverja töflu:
 > Síðan **Töfluupplýsingar** sýnir stærðir gagna og atriðaskrár og samtala töflustærða passar ekki við heildarafkastagetuna sem er notuð, þar sem hún birtir gagnastærðina, ekki raunverulega stærð sem er ekki raunverulega úthlutuð. Úthlutað rými er alltaf stærra en notað rými til að komast hjá því að þurfa að úthluta plássi í hverju innsetningu, sem myndi takmarka afköst verulega
 
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Eftirlit með síðum](across-inspect-page.md)  
 [Afkastagreinar fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

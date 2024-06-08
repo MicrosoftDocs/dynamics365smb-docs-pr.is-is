@@ -11,13 +11,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Staðfesta VSK-skráningarnúmer
+# <a name="validate-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
 
 Mikilvægt er að VSK-númerin sem til eru fyrir viðskiptamenn, lánardrottna og tengiliði séu gild ef notað [!INCLUDE [prod_short](includes/prod_short.md)] er í landi/svæði sem notar VSK. Til dæmis gætu fyrirtæki stundum breytt skattskuldarstöðu sinni og í sumum löndum/svæðum gætu skattayfirvöld beðið um að gefa skýrslur, t.d **. ESB-sölulista, á lista yfir** VSK-númerin sem notuð eru í viðskiptum.
 
 Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE [prod_short](includes/prod_short.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer og aðrar fyrirtækjaupplýsingar fyrir viðskiptamenn, lánardrottna og tengiliði. Þjónustan í [!INCLUDE [prod_short](includes/prod_short.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustutengingin er án endurgjalds og viðbótarskráningar er ekki krafist.
 
-## Skilgreina þjónustuna til að staðfesta skráningu VSK-númera sjálfkrafa
+## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Skilgreina þjónustuna til að staðfesta skráningu VSK-númera sjálfkrafa
 
 Til að virkja **Sannprófa VSK-skráningarnúmer innan ESB** skal opna færsluna á síðunni **Þjónustutenging**. Ef reiturinn **Endastöð þjónustu** er ekki þegar fylltur út skal nota aðgerðina **Stilla sjálfgefna endastöð**. Því næst skal stilla reitinn **Virkjað** og þá er allt klárt.  
 
@@ -38,7 +38,7 @@ Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, 
 > [!IMPORTANT]
 > Það er á þína ábyrgð að kanna hvort gögnin séu gildi. Af og til er gögnum með villum skilað af VIES sannprófunarþjónustu fyrir VSK-númer. Ef sannprófun tekst ekki, skal sannprófa VSK-númerin á [vefsvæðinu](https://ec.europa.eu/taxation_customs/vies/), prenta út niðurstöðuna eða vista hana á samnýtt svæði og síðan bæta tenglinum við færsluna fyrir viðskiptamanninn, lánardrottin eða tengiliðinn. Frekari upplýsingar er að finna í [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md).
 
-## Sniðmát fyrir villuleit
+## <a name="validation-templates"></a>Sniðmát fyrir villuleit
 
 Hægt er að nota VIES-þjónustu til að athuga einnig aðrar upplýsingar um fyrirtæki, á borð við heimilisfang sem og skráningu VSK-númers. Í reitnum **VSK-fyrirgr.nr. Síðunni Prófunarsniðmát**, stofna færslu fyrir hvert land/svæði sem á að fá frekari staðfestingu á og tilgreina síðan þær upplýsingar sem staðfesta á sjálfkrafa.  
 
@@ -49,7 +49,7 @@ Bætið til dæmis við færslu fyrir Spán þar sem ætlunin er að fá staðfe
 
 Næst þegar VSK-númer er tilgreint mun þjónustan staðfesta númerið og bæta við frekari gögnum eftir því hvað kemur fram í staðfestingarsniðmátunum. Ef tilgreind gildi eru mismunandi frá gildunum sem þjónustan skilar, koma upplýsingarnar fram á síðunni **Upplýsingar um staðfestingu** þar sem hægt er að samþykkja eða endurstilla gildin.  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Setja upp virðisaukaskatt](finance-setup-vat.md)  
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  

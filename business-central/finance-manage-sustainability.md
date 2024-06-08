@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Yfirlit yfir sjálfbærnistjórnun
+# <a name="sustainability-management-overview"></a>Yfirlit yfir sjálfbærnistjórnun
 
 > [!IMPORTANT]
 > Þessi aðgerð verður fáanleg í Business Central frá **2024 útgáfubylgju 1**. Allir tilvísunartenglar verða virkjaðir eftir að þeir eru tiltækir.
@@ -42,7 +42,7 @@ Til að byrja með sjálfbærnistjórnun skal nota eftirfarandi greinar.
 | [Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md) | Í þessari grein eru upplýsingar um hvernig rétt er að setja upp bókhaldslykil sjálfbærnireikninga (CoSA), reikningsflokka og undirflokka og hvernig greina skal upplýsingar í sjálfbærnibókarfærslum. |
 | [Skrá sjálfbærnifærslur](finance-sustainability-journal.md) | Nota þessa grein til að læra hvernig á að vinna með allar tegundir sjálfbærnibóka. |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sjálfbærni](finance-sustainability-setup.md)  
 [Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md)  
