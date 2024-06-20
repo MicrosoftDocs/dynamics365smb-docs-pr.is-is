@@ -12,19 +12,19 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Algengar spurningar fyrir sölulínutillögur með afrita (forskoðun)
+# Algengar spurningar fyrir sölulínutillögur með afrita (forskoðun)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Algengar spurningar (FAQ) lýsa algengum áhrifum aðgerða sölulínutillögunnar í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>Hvað er sölulínutillögur með afrita?
+## Hvað er sölulínutillögur með afrita?
 
 Sölulínutillaga með Copilot getur aðstoðað við stofnun lína í söluskjölum, svo sem sölutilboðum, pöntunum og reikningum sem byggjast á skipulögðu ílagi eða náttúrulegu tungumáli. Eiginleikinn er ekki almennt spjall, heldur mjög sértæk og samþætt reynsla sem hægt er að nota á söluskjölum. Þessi eiginleiki býður upp á tvær aðskildar hæfni sem hjálpa til við að finna gögn um einstakar vörur eða öll skjölin.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Hvað eru möguleikar á sölulínutillögum með Copilot?
+## Hvað eru möguleikar á sölulínutillögum með Copilot?
 
 * Finna afurðir
 
@@ -34,7 +34,7 @@ Sölulínutillaga með Copilot getur aðstoðað við stofnun lína í söluskj�
 
   Notandi endurtekur oft fyrri pöntun eða notar hana að minnsta kosti sem upphafspunkt. En það gæti verið erfiður að finna rétta pöntun í bunka af pöntunum. Sumt af pöntunarkenninu gæti munað, sem getur verið fyrirtækið sem úthlutaði númeri eða tilvísunarnúmeri frá viðskiptamanni. Ef hægt er að nota kvaðningar eins og *Þörf á síðasta reikningi frá apríl* ætti að hjálpa þér að finna pöntun hraðar.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Hver er tilætluð notkun sölulínutillögu með Copilot?
+## Hver er tilætluð notkun sölulínutillögu með Copilot?
 
 * Finna afurðir
 
@@ -59,13 +59,13 @@ Sölulínutillaga með Copilot getur aðstoðað við stofnun lína í söluskj�
   * *Sækja vörur úr pöntun 103031*
   * *Þurfa vörur frá síðasta reikningi í ágúst*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvernig voru sölulínutillögur með Copilot metnar? Hvaða mælieiningar eru notaðar til að mæla afköst?
+## Hvernig voru sölulínutillögur með Copilot metnar? Hvaða mælieiningar eru notaðar til að mæla afköst?
 
 Aðgerðin gekkst undir umfangsmikla prófun þar sem fjölmargar kvaðningar á bandarískri ensku standa fyrir bæði dæmigerða notkun og notkun slæmra leikara. Prófun var byggð á [!INCLUDE [prod_short](includes/prod_short.md)] gögnum um sýni og stór merktur vörulisti tiltækur sem opinn uppruni.
 
 Þessi eiginleiki er byggður upp samkvæmt staðlinum Ábyrgur AI-staðall Microsoft. [Fræðast meira um ábyrgt ÓM frá Microsoft](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Hverjar eru takmarkanir á sölulínutillögum með Copilot? Hvernig geta notendur minnkað áhrif sölulínutillögunnar með takmörkunum Copilot þegar kerfið er notað?
+## Hverjar eru takmarkanir á sölulínutillögum með Copilot? Hvernig geta notendur minnkað áhrif sölulínutillögunnar með takmörkunum Copilot þegar kerfið er notað?
 
 * Finna afurðir
   
@@ -86,11 +86,11 @@ Hvernig vörur þínar geta haft áhrif á frálag. Til dæmis getur það dregi
 |**Birgðir**     |  *Nei.<br>*Lýsing<br>* Lýsing 2<br>* Leitarlýsing<br>* GTIN<br>* Vörunúmer lánardrottins       |
 |**Vöruafbrigði**     | *Kóða<br>*Lýsing<br>* Lýsing 2          |
 |**Vörutilvísun**     | * Tilvísun nr.<br>*Lýsing<br>* Lýsing 2        |
-|**Eigindir vöru**     | *Heiti<br>*Gildi        |
+|**Eigindir vöru**     | *Nafn<br>*Virði        |
 |**Vöruflokkur**     |  *Kóða<br>*Lýsing<br>* Yfirflokkur - 1 stig           |
 |**Birgðatexti**     | *Tungumál<br>*Lýsing<br>* Lýsing 2          |
 |**Vörukenni**     |  *Kóða       |
-|**Lengd textalína**     |  *Texta      |
+|**Lengd textalína**     |  *Texti      |
 
 * Finna skjöl eftir tilvísun
 
@@ -113,34 +113,40 @@ Hvernig vörur þínar geta haft áhrif á frálag. Til dæmis getur það dregi
 
   Copilot skilar ekki öllum línum af tegundinni Vara. Aðeins vörunúmer, afbrigðiskótar og magn eru flutt. Magni úr upprunaskjalinu er breytt í **Sölumælieining**.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>Í hvaða landafræði og tungumáli eru Sölulínur tillögur tiltækar?
+## Í hvaða landafræði og tungumáli eru Sölulínur tillögur tiltækar?
 
-Að undanskildum Kanada er þessi eiginleiki tiltækur fyrir öll staðfæring á umhverfis-/svæðum og á öllum studdum tungumálum. Vegna stuðnings við takmarkaðan tungumála verður aðgerðin ekki í upphafi tiltæk kanadískum viðskiptavinum vegna reglubundinnar málsmeðferðar. Til að þessi möguleiki sé tiltækur fyrir umhverfi viðskiptamanna sem staðsett er í löndum/svæðum þar sem Azure OpenAI þjónusta er ekki virk verða stjórnendur fyrst að hafa samþykki til að leyfa gögnum sínum að færast yfir mörk [!INCLUDE [prod_short](includes/prod_short.md)] til að tengjast Azure-þjónustu OpenAI .  
+- Tiltæk landfræði
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Hvaða rekstrarþættir og stillingar leyfa skilvirka og ábyrga notkun eiginleikans?
+   Þessi Copilot eiginleiki er fáanlegur í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Hins vegar, fyrir umhverfi viðskiptamanna sem staðsett er í löndum/svæðum þar sem Azure OpenAI þjónusta er ekki virk verða stjórnendur fyrst að hafa samþykki til að leyfa gögnum sínum að færast yfir mörk [!INCLUDE [prod_short](includes/prod_short.md)] til að tengjast Azure OpenAI þjónustu. Fræðast meira um [hreyfingu copilot gagna í landfræði](ai-copilot-data-movement.md).
+
+- Tiltæk tungumál
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## Hvaða rekstrarþættir og stillingar leyfa skilvirka og ábyrga notkun eiginleikans?
 
 Ónýtar tillögur gætu stundum verið rangar eða ófullnægjandi. Þú ættir alltaf að fara yfir nákvæmni tillagna Copilot áður en þú velur hvort þær skuli geymdar. Tillögur Copilot eru ekki vistaðar í gagnagrunninum [!INCLUDE [prod_short](includes/prod_short.md)] fyrr en þú velur hnappinn **Halda honum** og loka glugganum Copilot. Hægt er að breyta og leiðrétta allar tillögur áður en kosið er að halda þeim eða eftir að þær hafa verið settar inn í söluskjal.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Hvað er búist við af stjórnendum og notendum þegar sölulínur eru notaðar?
+### Hvað er búist við af stjórnendum og notendum þegar sölulínur eru notaðar?
 
 Hver notandi velur hvort nota **eigi Sölulínur tillögur** eða ekki. Jafnvel þótt stjórnendur og tiltækir eiginleikar séu virkir er hægt að nota hana alltaf, stundum eða aldrei.  
 
-Stjórnendur taka heildarákvörðun um það hvort nota eigi Copilot getu í [!INCLUDE [prod_short](includes/prod_short.md)]. Ef stjórnendur leyfa Copilot ættu þeir að vera viss um að veita viðeigandi notendum aðgang.   
+Stjórnendur taka heildarákvörðun um það hvort nota eigi Copilot getu í [!INCLUDE [prod_short](includes/prod_short.md)]. Ef stjórnendur leyfa Copilot ættu þeir að vera viss um að veita viðeigandi notendum aðgang.
 
-> Takið eftir, 100.000
+> [!NOTE]
 > - Við styðjum ekki þessa aðgerð innanhúss [!INCLUDE [prod_short](includes/prod_short.md)] eða í einkaskýi.
 > - Félagi getur ekki framlengt þessa aðgerð. Það þýðir að forritarar félaga geta ekki breytt, skipt um eða framlengt hann.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Er Afrita eini leiðin til að stofna sölulínur?
+## Er Afrita eini leiðin til að stofna sölulínur?  
 
 Notkun Copilot er valfrjáls. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á ónýtar leiðir til að setja inn sölulínur eða afrita skjöl. Fyrirtæki geta notað báðar aðferðir samtímis.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvernig gef ég ábendingar um innihald myndaðs efnis?
+## Hvernig gef ég ábendingar um innihald myndaðs efnis?  
 
 Í hvert sinn sem Copilot leggur fram tillögur er hægt að senda ábendingar til Microsoft beint í glugganum Copilot með því að nota hnappana Like og Dislike. Svörun þín er nafnlaus og við notum þessi gögn til að bæta gæði þjónustunnar.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Leggja til línur í sölupöntunum með Afrita](sales-suggest-sales-lines-with-copilot.md)  
+[Leggja til línur á sölupöntunum með Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  
 [Algengar algengar spurningar fyrir Dynamics 365 Business Central](responsible-ai-overview.md)  

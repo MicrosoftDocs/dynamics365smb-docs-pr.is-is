@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Starfsmenn í vöruhúsi geta sent og tekið á móti vörum sem ekki eru í birgðum ásamt efnislegum vörum á sölu- og innkaupapöntunum. Vörur sem ekki eru í birgðum eru óáþreifanlegar, t.d. vátrygging eða aukakostnaður.

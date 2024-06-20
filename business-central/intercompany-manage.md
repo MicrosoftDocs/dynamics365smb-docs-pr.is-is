@@ -3,28 +3,28 @@ title: Vinna með millifyrirtækjafærslur
 description: Með milli-fyrirtækjavirkninni getur einfaldað fyrirtækjaferli og færslur á milli dótturfyrirtækja innan sama fyrirtækis.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
+# Vinna með millifyrirtækjafærslur
 
 Fyrirtæki með fleiri en einn lögaðila með aðskildar bókhaldsaðgerðir geta haft gagn af færslum milli fyrirtækja. Það er til dæmis gagnlegt fyrir fyrirtæki sem hafa dótturfyrirtæki á mörgum alþjóðlegum mörkuðum eða svæðum. Einnig gæti fyrirtæki verið með nokkur fyrirtæki en skortir sambærilegan fjölda bókhalds- og stjórnunarteyma. Færslur milli fyrirtækja einfaldar og straumlínuviðskiptaferli og færslur milli fyrirtækja í samstarfi milli fyrirtækja.
 
-Þegar tilgreind hafa verið tengsl viðskiptamanns og lánardrottins fyrir færslur milli fyrirtækja færa félagar inn upplýsingar einu sinni í sölu- og innkaupaskjöl. Samsvarandi fylgiskjal er stofnað hjá öðrum félaganum sem tengist færslunni. Vörpun bókhaldslykils og vídda tryggir að upplýsingarnar birtist á réttum stöðum.  
+Þegar búið er að tilgreina tengsl viðskiptamanns og lánardrottins fyrir færslur milli fyrirtækja færa félagar inn upplýsingar einu sinni í sölu- og innkaupaskjöl. Samsvarandi fylgiskjal er stofnað hjá öðrum félaganum sem tengist færslunni. Vörpun bókhaldslykils og vídda tryggir að upplýsingarnar birtist á réttum stöðum.  
 
 Fjórir meginkostir eru fyrir aðgerðir milli fyrirtækja:  
 
 * Tímasparnaður og einfaldari færslur auka afköst  
 * Lágmarks mistök með einu sinni innslátt upplýsinga og sjálfvirkra uppfærslna í kerfinu  
-* Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
-* Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
+* Gegnsæ slóð endurskoðunar og fullur sýnileiki inn í viðskiptastarf og færslusagnir  
+* Skilvirk viðskipti við tengd fyrirtæki og dótturfyrirtæki  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Straumlína flæði viðskiptaaðgerða
+## Straumlína flæði viðskiptaaðgerða  
 
 Færslur milli fyrirtækja gera kleift að dreifa sölu- og innkaupaskjölum og færslubókarfærslum á allar skrifstofur í gervihnöttum, söluskrifstofum eða dótturfyrirtækjum. Dreifing færslna sparar tíma og eykur skilvirkni alls staðar í fyrirtækinu með því að minnka gagnafærslu. Það sker úr um nauðsyn þess að senda, taka á móti, prenta og geyma sölu- og innkaupaskjöl.  
 
@@ -34,7 +34,7 @@ Færslur milli fyrirtækja gera kleift að dreifa sölu- og innkaupaskjölum og 
 
 Milli-fyrirtækja einbeitir sér að sölu- og innkaupaskjölum og færslubókarlínum og leyfir færslur milli margra [!INCLUDE [prod_short](includes/prod_short.md)] gagnagrunna. Dæmi:
 
-* Í mismunandi löndum/svæðum
+* Mismunandi lönd/svæði
 * Margir gjaldmiðlar
 * Mismunandi bókhaldslyklar
 * Mismunandi víddir
@@ -69,7 +69,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 |Nota færslur milli fyrirtækja til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  

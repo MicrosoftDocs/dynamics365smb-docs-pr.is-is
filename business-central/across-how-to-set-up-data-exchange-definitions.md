@@ -1,21 +1,23 @@
 ---
-title: Skilgreina hvernig rafræn gagnaskipti fara fram
+title: Skilgreina hvernig skipst er á gögnum rafrænt
 description: 'Skilgreindu hvernig Business Central skiptir á gögnum með ytri skrám eins og rafrænum skjölum, bankagögnum, vörulistaatriðum og fleiru.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
-ms.date: 11/03/2022
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
+# Setja upp skilgreiningar gagnaskipta
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skiptast á gögnum í tilteknum töflum með gögnum á ytri skrám. Til að senda og taka á móti rafrænum skjölum skal til dæmis flytja inn og út bankagögn eða önnur gögn eins og launaskrá og vörulistaatriði. Frekari upplýsingar í [Rafræn gagnaskipti](across-data-exchange.md).  
 
 Til að búa til gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtiflipanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum [Að lýsa sniði lína og dálka í skránni](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Frekari upplýsingar í [Nota XML-skemu til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaskilgreining**. Til að uppfæra gengi gjaldmiðla er hins vegar fljótlegra að nota þjónustu fyrir gengi gjaldmiðils. Fræðast meira um uppfærslu gengis [gjaldmiðla](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
+Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaskilgreining**. Hins vegar, til að uppfæra gengi gjaldmiðla, er fljótlegra að nota gengisþjónustu fyrir gengi gjaldmiðla. Fræðast meira um uppfærslu gengis [gjaldmiðla](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
 > [!NOTE]  
 > Ef skráin sem verið er að umbreyta er á XML-sniði ætti að túlka hugtakið *„dálkur“* í þessari grein sem *„XML-einingu sem inniheldur gögn“*.  
@@ -26,14 +28,14 @@ Venjulega eru gagnaskiptaskilgreiningar settar upp á síðunni **Gagnaskiptaski
 * Flyttu út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra.
 * Flyttu inn XML-skrá fyrir núverandi gagnaskiptaskilgreiningu.
 
-## <a name="create-a-data-exchange-definition"></a>Stofna gagnaskiptaskilgreiningu
+## Stofna gagnaskiptaskilgreiningu
 
 Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:  
 
 1. Á síðunni **Skilgreining gagnaskipta** skal lýsa sniði lína og dálka í skránni. Frekari upplýsingar er að finna í hlutanum [Að lýsa sniði lína og dálka á skránni](#formatlinescolumns).  
 2. Á síðunni **Vörpun gagnaskipta** skal varpa dálkum í gagnaskránni á reiti í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í hlutanum [Að varpa dálkum í gagnaskránni í reiti í [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
+### <a name=formatlinescolumns></a>Að lýsa sniði lína og dálka í skrá
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -46,9 +48,9 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Skráargerð**|Tilgreindu hvaða gerð skráar gagnaskiptaskilgreiningin er notuð fyrir. Þú getur valið á milli fjögurra skráargerða:<br /><br /> -   **XML**: Lagskiptir efnisstrengir og breytingarmerkingar inni í merkjum sem skilgreina virkni þeirra.<br />-   **Breytilegur texti**: Skráargerð þar sem færslur hafa breytilega lengd og eru aðskilin með tákni, svo sem kommu eða semí\-kommu, einnig þekkt sem *afmörkuð skrá*.<br />-   **Fastur texti**: Færslur eru af sömu lengd, nota talnaborðsstafi og hver færsla er í eigin línu, einnig þekkt sem *skrá með fastri breidd*.<br />- **Json**: Lagskiptir strengir af efni í JavaScript.|  
     |**Tegund**|Tilgreinið hvaða tegund af starfsemi skilgreining gagnaskipta er notað fyrir, t.d. **Útflutningur greiðslna**.|  
     |**Meðhöndlunarkóðaeining gagna**|Tilgreinið kóðaeiningu sem flytur gögn inn og út úr töflum í [!INCLUDE[prod_short](includes/prod_short.md)]|  
-    |**Kóðaeining staðfestingar**|Tilgreinið kóðaeiningu sem er notuð til að sannprófa gögn gegn fyrirfram skilgreindum viðskiptareglum.|  
-    |**Les/skrifar kóðaeiningu**|Tilgreinið kóðaeiningu sem vinnur innflutt gögn fyrir vörpun og útflutt gögn eftir vörpun.|  
-    |**Les/skrifar XMLport**|Tilgreindu XMLport sem innflutt gagnaskrá eða þjónusta fer í gegnum fyrir vörpun og sem flutt gögn fara út um þegar þau eru skrifuð á gagnaskrá eða þjónustu eftir vörpun.|  
+    |**Kóðaeining staðfestingar**|Tilgreina það codeunit sem er notað til að sannprófa gögn gegn fyrirfram skilgreindum viðskiptareglum.|  
+    |**Les/skrifar kóðaeiningu**|Tilgreina codeunit sem vinnur innflutt gögn fyrir vörpun og útflutt gögn síðar.|  
+    |**Les/skrifar XMLport**| XMLport Tilgreina hvaða innflutt gagnaskrá eða þjónusta færir inn fyrir vörpun og hvaða útflutt gögn eru skrifuð í gagnaskrá eða þjónustu síðar.|  
     |**Meðhöndlunarkóðaeining ytri gagna**|Tilgreinið kóðaeiningu sem flytur ytri gögn inn og út af Gagnaskiptaramma.|  
     |**Kóðaeining athugasemdar frá notanda**|Tilgreinir kóðaeiningu sem framkvæmir ýmsa hreinsun eftir vörpun, t.d. að merkja línurnar sem fluttar út og eyða tímabundunum færslum.|  
     |**Skráarkóðun**|Tilgreinið kóðun skráar. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
@@ -74,12 +76,12 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Heiti**|Færið inn heiti sem lýsir línunni í skránni.|  
     |**Dálkafjöldi**|Tilgreinið hversu marga dálka línan í gagnaskránni hefur. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
     |**Gagnalínumerki**|Tilgreinið stöðu á viðkomandi XML-skema einingarinnar sem sýnir aðalfærslu gagnaskrárinnar. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
-    |**Nafnbil**|Tilgreinið nafnbil sem er væntanlegt í skránni, til að virkja nafnbils staðfestingu. Þennan reit má hafa auðan ef ekki á að virkja fullgildingu nafnabils.|  
+    |**Nafnbil**|Tilgreina nafnbilið sem búist er við í skránni til að gera prófun nafnbils virka. Reiturinn er hafður auður ef ekki á að gera prófun nafnbils virka.|  
     |**Yfirkóði**|Tilgreinið yfireiningu línunnar sem er sýnd í reitnum **Kóði** þar sem uppsetning gagnaskipta er fyrir skrár með yfir- og undirfærslum, t.d. skjalahaus og línum.
 
 5. Endurtakið skref 4 til að búa til línu fyrir hver skráargögn sem á að flytja út.  
 
-     Haldið áfram og á flýtiflipanum **Dálkskilgreiningar** skal lýsa línusniði í gagnaskrá með því að fylla út reitina eins og lýst er í eftirfarandi töflu. Hægt er að nota skipulagsskrá, t.d. .xsd-skrá, fyrir gagnaskrá til að fylla út í flýtiflipann með viðeigandi einingum. Frekari upplýsingar í [Nota XML-skemu til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+     Haldið er áfram að lýsa sniði dálka í gagnaskránni með því að fylla út reitina á flýtiflipanum **Dálkskilgreiningar** eins og lýst er í töflunni í skrefi 8. Hægt er að nota skipulagsskrá, svo sem .xsd skrá, fyrir gagnaskrána til að áfylla flýtiflipann með viðeigandi einingum. Frekari upplýsingar í [Nota XML-skemu til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 6. Veljið aðgerðina **Sækja skráaskipan** á flýtiflipanum **Dálkskilgreiningar**.  
 7. Á síðunni **Sækja skráaskipan** skal velja tengda skráaskipan og svo velja hnappinn **Í lagi**. Línur í flýtiflipanum **Dálkskilgreiningar** eru fylltar út í samræmi við skipulag gagnaskrárinnar.  
@@ -91,11 +93,11 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Heiti**|Tilgreinið heiti dálksins.<br /><br /> Fyrir XML-skrár skal tilgreina kóðann sem merkir gögnin sem á að skipta um.|  
     |**Tegund gagna**|Tilgreinið hvort gögn til að skipta eru af taginu **Texti**, **Dagsetning** eða **Tugakerfi**|  
     |**Gagnasnið**|Tilgreinið snið gagnanna ef einhver er. Til dæmis **MM-dd-áááá** ef gagnagerðin er  **Dagsetning**. **Athugið:**  Til að flytja út, tilgreinið gagnasnið í samræmi við [!INCLUDE[prod_short](includes/prod_short.md)]. Til að flytja inn skal tilgreina gagnasnið í samræmi við .NET rammann. Frekari upplýsingar er að finna í [Strengir staðlaðs dagsetningar- og tímasniðs](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
-    |**Menning gagnasniðs**|Tilgreinið svæðisbundið gagnasnið, ef það er til staðar. Til dæmis **en-US** ef gagnagerðin er **Tugastafur** til að tryggja að komma sé notuð sem skiltákn milli þúsunda, .000, samkvæmt bandaríska kerfinu. Frekari upplýsingar er að finna í [Strengir staðlaðs dagsetningar- og tímasniðs](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
+    |**Menning gagnasniðs**|Tilgreinið svæðisbundið gagnasnið, ef það er til staðar. Til dæmis, **en-US** ef gagnategundin er **Aukastafur** til að ganga úr skugga um að komma sé notuð sem 0.000 skiltákn, samkvæmt bandarísku sniði. Frekari upplýsingar er að finna í [Strengir staðlaðs dagsetningar- og tímasniðs](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
     |**Lengd**|Tilgreinið lengd línu af fastri vídd sem inniheldur dálkinn ef gagnaskráin er af gerðinni **Fastur texti**|  
     |**Lýsing**|Tilgreinir lýsingu á dálknum í upplýsingarskyni.|  
     |**Slóð**|Tilgreinið stöðu einingar í tengdum XML skema.|  
-    |**Auðkenni neikvæðs formerkis**|Færið inn virðið sem notað er í gagnaskránni til að auðkenna neikvæðar upphæðir, í gagnaskránum sem ekki mega innihalda mínusmerki. Þetta kennimerki er notað til að breyta auðkenndu upphæðunum í mínusmerki við innflutning. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
+    |**Auðkenni neikvæðs formerkis**|Færa skal inn gildið sem notað er í gagnaskránni til að auðkenna neikvæðar upphæðir í gagnaskrám sem ekki geta verið með neikvæðum merkjum. Þetta kennimerki er notað til að breyta auðkenndu upphæðunum í mínusmerki við innflutning. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
     |**Fasti**|Tilgreinið hvaða gögn sem þú vilt flytja í þessum dálki, ss viðbótarupplýsingar um greiðslugerð. **Athugið**: Þessi reitur er aðeins gildur fyrir útflutning.|  
     |**Fylling texta nauðsynleg**|Tilgreinið að gögnin verða að innihalda textafyllingu.|  
     |**Fyllingarstafur**|Tilgreinið fyllingarstaf textans.|  
@@ -108,12 +110,12 @@ Næsta skref í því að stofna skilgreiningu gagnaskipta er að ákveða hvað
 > [!NOTE]  
 > Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[prod_short](includes/prod_short.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti á síðunni **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í einu viðskiptaforriti er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í öðru er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú skiptist á gögnum. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Frekari upplýsingar er að finna í [Reglur umbreytinga](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-Einnig er hægt að flokka eftir hvaða reit sem er, nota lykillykilinn til að raða niðurstöðum og nýju umbreytingartegundunum **Sléttun** og **Uppfletting reita**.
+Einnig er hægt að flokka eftir hvaða reit sem er, nota lykillykilinn til að raða niðurstöðum og nýju umbreytingartegundunum **Sléttun** og **Uppfletting** reita.
 
 1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Síðan **Vörpun gagnaskipta** opnast.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
@@ -121,25 +123,25 @@ Einnig er hægt að flokka eftir hvaða reit sem er, nota lykillykilinn til að 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Töflukenni**|Tilgreinið töflu sem geymir reitina til eða frá sem gögn er skipst á samkvæmt vörpun.|  
-    |**Notist sem millitafla**|Tilgreinið hvort taflan sem var valin í **Tafla Kenni** reitnum er millitafla þar sem innflutt gögn eru geymd áður en þeim er varpað á marktöfluna.<br /><br /> Venjulega er notuð millitafla þar sem gagnaskiptaskilgreiningar eru notaðar til að flytja inn og umbreyta rafrænum skjölum, t.d. reikningum lánardrottins í innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar í [Rafræn gagnaskipti](across-data-exchange.md).|  
+    |**Notist sem millitafla**|Tilgreina skal hvort taflan sem valin er í reitnum **Kenni** töflu er millitafla þar sem innflutt gögn eru geymd áður en þeim er varpað á marktöfluna.<br/><br/> Millitafla er yfirleitt notuð þegar skilgreining gagnaskipta flytur inn og breytir rafrænum skjölum í [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis skjöl eins og lánardrottnareikninga inn á innkaupareikninga. Frekari upplýsingar í [Rafræn gagnaskipti](across-data-exchange.md).|  
     |**Heiti**|Sláðu inn heiti fyrir vörpunaruppsetninguna.|  
-    |**Lykilvísir**|Tilgreinið lykilvísi til að raða upprunafærslum fyrir útflutning.|
+    |**Lykilvísir**|Tilgreina lykillykilinn til að raða upprunafærslum fyrir útflutning.|
     |**Kóðaeining forvörpunar**|Tilgreinið kóðaeining sem undirbúa vörpun á milli reita í [!INCLUDE[prod_short](includes/prod_short.md)] og ytri gögn.|  
     |**Vörpunarkóðaeining**|Tilgreinið kóðaeiningu sem er notað til að kortleggja tilgreind dálka eða XML-gagnastök í reiti í ​​[!INCLUDE[prod_short](includes/prod_short.md)]|  
-    |**Kóðaeining eftirávörpunar**|Tilgreinið kóðaeiningu sem lýkur vörpun á milli reita í [!INCLUDE[prod_short](includes/prod_short.md)] og ytri gagna. **Athugið:** Þegar eiginleiki AMC Banking 365 Fundamentals viðbótarinnar er notaður umreiknar kóðaeiningin útflutt gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] yfir í almennt snið sem er tilbúið til útflutnings. Til að flytja inn breytir kóðaeiningin ytri gögnum í snið sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)].|
+    |**Kóðaeining eftirávörpunar**|Tilgreinið kóðaeiningu sem lýkur vörpun á milli reita í [!INCLUDE[prod_short](includes/prod_short.md)] og ytri gagna. **Athugið:**  Þegar viðbótaaðgerðin AMC Banking 365 Fundamentals er notuð breytir codeunit útfluttum gögnum úr [!INCLUDE[prod_short](includes/prod_short.md)] í almennt snið sem er tilbúið til útflutnings. Til að flytja inn breytir kóðaeiningin ytri gögnum í snið sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)].|
 3. Á flýtiflipanum **Reitavörpun** skal tilgreina hvaða dálkum á að varpa í hvaða reiti í [!INCLUDE[prod_short](includes/prod_short.md)] með því að fylla út reitina eins og því er lýst í eftirfarandi töflum, eftir því hvort reiturinn **Notist sem millitafla** var virkur eða ekki.  
    * Með slökkt á **Notist sem millitafla**:
 
      |Svæði|Lýsing|  
      |--------------------------------- |---------------------------------------|  
      |**Dálknr.**|Tilgreinið hvaða dálk í gagnaskrá sem þú vilt skilgreina kort vörpun fyrir.<br /><br /> Aðeins er hægt að velja dálka sem eru kynntir af línum í flýtiflipanum **Dálkskilgreiningar** á síðunni **Skilgreiningar gagnaskipta**.|
-     |**Texti kóða**|Tilgreinið skýringartexta dálksins í ytri skrá sem varpað er í reitinn í reitnum **Auðkenni marktöflu** þegar notuð er millitafla fyrir gagnainnflutning.|
+     |**Texti kóða**|Tilgreina fyrirsögn dálksins í ytri skránni sem er varpað á reitinn í reitnum **Kenni** marktöflu þegar notuð er millitafla fyrir gagnainnflutning.|
      |**Kenni reits**|Tilgreinið hvaða reit dálkurinn í **Dálkur nr.** reitnum tengist.<br /><br /> Aðeins er hægt að velja úr reitum sem eru til í töflunni sem tilgreind var í reitnum **Töflukenni** á flýtiflipanum **Almennt**.|
-     |**Texti reits**|Tilgreinið skýringartexta reitsins í ytri skrá sem varpað er í reitinn í reitnum **Auðkenni marktöflu** þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Valfrjálst**|Tilgreinið hvort vörpun á að sleppa ef reitur er tómur. Ef þessi valkostur er ekki valinn kemur upp útflutningsvilla ef reiturinn er auður.|  
-     |**Umbreytingarregla**|Tilgreinið reglu sem umbreytir innfluttum texta í stutt gildi áður en hægt er varpa því í tiltekinn reit. Þegar gildi er valið í þessum reit er sama gildið slegið inn í reitinn **Umbreytingarregla** í töflunni **Biðminni vörpunar gagnaskiptareits** og öfugt. Frekari upplýsingar um tiltækar umbreytingarreglur sem hægt er að nota er að finna í næsta hluta.|
-     |**Skrifa yfir gildi**|Tilgreinið að skrifað verði yfir núverandi gildi með nýju.|
-     |**Forgangur**|Tilgreinið röðina sem vinna þarf úr reitarvörpunum. Fyrst verður unnið úr reitavörpuninni með hæsta forgangsnúmerið.|
+     |**Texti reits**|Tilgreina fyrirsögn reitsins í ytri skránni sem er varpað á reitinn í reitnum **Kenni** marktöflu þegar millitafla er notuð fyrir gagnainnflutning.|
+     |**Valfrjálst**|Tilgreinið hvort vörpun á að sleppa ef reitur er tómur. Ef þessi kostur er ekki valinn kemur útflutningsvilla ef reiturinn er auður.|  
+     |**Umbreytingarregla**|Tilgreinið reglu sem umbreytir innfluttum texta í stutt gildi áður en hægt er varpa því í tiltekinn reit. Þegar gildi er valið í þessum reit er sama gildið slegið inn í reitinn **Umbreytingarregla** í töflunni **Biðminni vörpunar gagnaskiptareits** og öfugt. Farið er í Reglur um umbreytingu til að [fá nánari upplýsingar um notkun umbreytingarreglna](#transformation-rules).|
+     |**Skrifa yfir gildi**|Tilgreina að nýja gildið geti skrifað yfir gildandi gildi.|
+     |**Forgangur**|Tilgreinið röðina sem vinna þarf úr reitarvörpunum. Fyrst er unnið með reitavörpun með hæsta forgangsnúmerið.|
      |**Margfaldari**|Tilgreinið margfeldi sem á að nota á talnagögn, þar á meðal neikvæð gildi.|
 
    * Með kveikt á **Notist sem millitafla**:
@@ -147,25 +149,25 @@ Einnig er hægt að flokka eftir hvaða reit sem er, nota lykillykilinn til að 
      |Svæði|Lýsing|  
      |---------------------------------|---------------------------------------|  
      |**Dálknr.**|Tilgreinið hvaða dálk í gagnaskrá sem þú vilt skilgreina kort vörpun fyrir.<br /><br /> Aðeins er hægt að velja dálka sem eru kynntir af línum í flýtiflipanum **Dálkskilgreiningar** á síðunni **Skilgreiningar gagnaskipta**.|
-     |**Texti kóða**|Tilgreinið skýringartexta dálksins í ytri skrá sem varpað er í reitinn í reitnum **Auðkenni marktöflu** þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Auðkenni marktöflu**|Tilgreinir töflu sem gildi í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Töflutexti**|Tilgreinir heiti töflunnar í reitnum **Auðkenni marktöflu**, sem er taflan sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Auðkenni markreits**|Tilgreinir reit í marktöflu sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Texti reits**|Tilgreinir heiti reits í marktöflu sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|
-     |**Aðeins sannprófa**|Tilgreinið að vörpun frá einingu í reit er ekki notuð til að umbreyta gögnum heldur aðeins til að sannprófa gögn.|
-     |**Umbreytingarregla**|Tilgreinið reglu sem umbreytir innfluttum texta í stutt gildi áður en hægt er varpa því í tiltekinn reit. Þegar gildi er valið í þessum reit er sama gildið slegið inn í reitinn **Umbreytingarregla** í töflunni **Biðminni vörpunar gagnaskiptareits** og öfugt. Frekari upplýsingar um tiltækar umbreytingarreglur sem hægt er að nota er að finna í næsta hluta.|
-     |**Forgangur**|Tilgreinið röðina sem vinna þarf úr reitarvörpunum. Fyrst verður unnið úr reitavörpuninni með hæsta forgangsnúmerið.|
+     |**Texti kóða**|Tilgreina fyrirsögn dálksins í ytri skránni sem er varpað á reitinn í reitnum **Kenni** marktöflu þegar notuð er millitafla fyrir gagnainnflutning.|
+     |**Auðkenni marktöflu**|Tilgreina töfluna sem gildinu í reitnum **Dálkatitill** er varpað í þegar millitafla er notuð fyrir gagnainnflutning.|
+     |**Töflutexti**|Tilgreina heiti töflunnar í reitnum **Kenni** marktöflu sem er taflan sem gildið í reitnum **Dálktitit** er varpað á þegar millitafla er notuð við innflutning gagna.|
+     |**Auðkenni markreits**|Tilgreina skal reitinn í marktöflunni sem gildinu í reitnum **Texti** dálks er varpað á þegar notuð er millitafla fyrir gagnainnflutning.|
+     |**Texti reits**|Tilgreina heiti reitsins í marktöflunni sem gildinu í reitnum **Texti** dálks er varpað á þegar millitafla er notuð fyrir gagnainnflutning.|
+     |**Aðeins sannprófa**|Tilgreina að einingavörpun er ekki notuð til að umbreyta gögnum heldur aðeins til að staðfesta gögn.|
+     |**Umbreytingarregla**|Tilgreinið reglu sem umbreytir innfluttum texta í stutt gildi áður en hægt er varpa því í tiltekinn reit. Þegar gildi er valið í þessum reit er sama gildið slegið inn í reitinn **Umbreytingarregla** í töflunni **Biðminni vörpunar gagnaskiptareits** og öfugt. Nánari upplýsingar um breytingareglur eru í [Reglur um umbreytingu](#transformation-rules).|
+     |**Forgangur**|Tilgreinið röðina sem vinna þarf úr reitarvörpunum. Fyrst er unnið með reitavörpun með hæsta forgangsnúmerið.|
 
 4. Á flýtiflipanum **Reitarflokkun** skal tilgreina reglur sem á að nota til að flokka reitina þegar skráin er búin til með því að fylla út reitina eins og lýst er í eftirfarandi töflu.  
 
-     |Svæði|Lýsing|  
+     |Svæði|Heimildasamstæða|  
      |--------------------------------- |---------------------------------------|  
-     |**Kenni reits**|Tilgreinið númer reitsins í ytri skránni sem notað er fyrir flokkun og þessi reitur verður að vera stilltur af notanda.|
+     |**Kenni reits**|Tilgreina númer reitsins í ytri skránni sem er notuð til að flokka og að notandinn verði að stilla þennan reit.|
      |**Texti reits**|Tilgreinið skýringartexta reitsins í ytri skránni sem er notuð fyrir flokkun.|
 
-## <a name="transformation-rules"></a>Umbreytingarreglur
+## Umbreytingarreglur
 
-Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota umbreytingarreglur fyrir skilgreiningar gagnaskipta til að gildin verði þau sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
+Ef gildin í reitunum sem verið er að varpa eru mismunandi verður að nota reglur um umbreytingu fyrir skilgreiningar gagnaskipta til að þær verði þær sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
 
 |Valkostur|Description|
 |---------|---------|
@@ -176,19 +178,19 @@ Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota um
 |**Undirstrengur**|Umbreyta tilteknum hluta gildis. Til að tilgreina hvar eigi að hefja umbreytingu skal velja annaðhvort **Upphafsstaða** eða **Upphafstexti**. Upphafsstaða er tala sem táknar fyrsta stafinn sem á að umbreyta. Upphafstexti er bókstafurinn á undan stafnum sem á að skipta út. Ef ætlunin er að byrja á fyrsta stafnum í gildinu skal nota upphafsstöðu í staðinn. Til að tilgreina hvar eigi að stöðva umbreytinguna er annaðhvort valið **Lengd**, sem er fjöldi stafa sem á að skipta út, eða **Endatexti**, sem er sá stafur sem strax á eftir síðasta stafnum sem á að umbreyta.|
 |**Skipta um**|Finna skal gildi og skipta því út fyrir annað gildi. Þetta umbreyting er gagnleg til að skipta út einföldum gildum, t.d. tilteknu orði.|
 |**Regluleg segð - Skipta út**|Nota skal reglubundna segð sem hluta af aðgerð til að finna og skipta út. Þetta umbreyting er gagnleg til að skipta út mörgum eða flóknari gildum.|
-|**Fjarlægja stafi sem ekki eru bók-/tölustafir**|Eyddu stöfum sem eru ekki bókstafir eða tölustafir, t.d. tákn eða sérstafir.|
+|**Fjarlægja stafi sem ekki eru bók-/tölustafir**|Eyða stöfum sem ekki eru bókstafir eða tölustafir, t.d. tákn eða sérstafir.|
 |**Dagsetningarsnið**|Tilgreina hvernig á að birta dagsetningar. Til dæmis er hægt að umbreyta DD-MM-ÁÁÁÁ í ÁÁÁÁ-MM-DD.|
 |**Tugatölusnið**|Skilgreina reglur fyrir staðsetningu tugabrota og sléttunarnákvæmni.|
 |**Samsvörun í reglulegum segðum**|Nota skal reglulega segð til að finna eitt eða fleiri gildi. Þessi regla er svipuð og valkostirnir **Undirstrengur** og **Regluleg segð**.|
-|**Endurmat**|Þessi umbreytingarregla er ítarlegur valkostur sem krefst aðstoðar frá þróunaraðila. Það virkjar samþættingartilvik sem hægt er að gerast áskrifandi að ef áhugi er fyrir því að nota eigin umbreytingarkóða. Ef þú ert þróunaraðili og vilt nota þennan valkost skaltu skoða hlutann hér fyrir neðan.|
+|**Endurmat**|Þessi umbreytingarregla er ítarlegur valkostur sem krefst aðstoðar frá þróunaraðila. Það virkjar samþættingartilvik sem hægt er að gerast áskrifandi að ef áhugi er fyrir því að nota eigin umbreytingarkóða. Ef þú ert forritari og vilt nota þennan valkost skaltu fara ábending [fyrir forritara: Dæmi um sérsniðna valkostinn](#tip-for-developers-example-of-the-custom-option).|
 |**Dag- og tímasetningasnið**|Skilgreinið hvernig á að birta núverandi dagsetningu og tíma dags.|
-|**Uppfletting í svæðum**|Notið reiti úr mismunandi töflum. Til að nota þetta þarf að fylgja nokkrum reglum. Notið fyrst **Töflukenni** til að tilgreina auðkenni töflunnar sem inniheldur færsluna fyrir reitaruppflettingu. Í reitnum **Auðkenni upprunareits** skal síðan tilgreina auðkenni reitsins sem inniheldur færsluna fyrir reitaruppflettingu. Að lokum skal í reitnum **Auðkenni markreits** tilgreina auðkenni reitsins til að finna færsluna fyrir reitaruppflettingu. Einnig er hægt að nota reitinn **Regla reitaruppflettingar** til að tilgreina gerð reitaruppflettingar. Fyrir reitinn **Markgildi** er gildið úr **Auðkenni markreits** notað, jafnvel þótt það sé autt. Fyrir reitinn **Upprunalegt ef markgildi er autt** er upprunalegt gildi notað ef markgildið er autt.|
-|**Sléttun**|Sléttið gildið í þessum reit með nokkrum viðbótarreglum. Fyrst skal tilgreina sléttunarnákvæmni í reitnum **Nákvæmni**. Síðan skal tilgreina sléttunarstefnu í reitnum **Stefna**.|
+|**Uppfletting í svæðum**|Notið reiti úr mismunandi töflum. Til að nota hana þarf að fara eftir nokkrum reglum. Notið fyrst **Töflukenni** til að tilgreina auðkenni töflunnar sem inniheldur færsluna fyrir reitaruppflettingu. Í reitnum **Auðkenni upprunareits** skal síðan tilgreina auðkenni reitsins sem inniheldur færsluna fyrir reitaruppflettingu. Að lokum skal í reitnum **Auðkenni markreits** tilgreina auðkenni reitsins til að finna færsluna fyrir reitaruppflettingu. Einnig er hægt að nota reitinn **Regla reitaruppflettingar** til að tilgreina gerð reitaruppflettingar. Fyrir reitinn **Markgildi** er gildið úr **Auðkenni markreits** notað, jafnvel þótt það sé autt. Fyrir reitinn **Upprunalegt ef markgildi er autt** er upprunalegt gildi notað ef markgildið er autt.|
+|**Sléttun**|Slétta gildið í þessum reit með því að nota nokkrar viðbótarreglur. Fyrst skal tilgreina sléttunarnákvæmni í reitnum **Nákvæmni**. Síðan skal tilgreina sléttunarstefnu í reitnum **Stefna**.|
 
 > [!NOTE]  
 > Frekari upplýsingar um dagsetningar- og tímasnið er að finna í [Strengir staðlaðs dagsetningar- og tímasniðs](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Ábending til þróunaraðila: Dæmi um sérstillta valkosti
+### Ábending til þróunaraðila: Dæmi um sérstillta valkosti
 
 Eftirfarandi dæmi sýnir hvernig á að innleiða eigin umbreytingarkóða.
 
@@ -206,25 +208,25 @@ codeunit 60100 "Hello World"
 
 Þegar búið er að skilgreina reglurnar er hægt að prófa þær. Á flýtiflipanum **Prófun** skal slá inn dæmi um gildi sem á að umbreyta og síðan athuga niðurstöðurnar með því að velja **Uppfæra**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Flytja út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra
+## Flytja út gagnaskiptaskilgreiningu sem XML-skrá til afnota fyrir aðra
 
-Þegar stofnuð hefur verið skilgreining gagngaskipta fyrir tiltekna gagnaskrá er hægt að flytja skilgreiningu gagnaskiptanna út sem XML-skrá sem hægt er að flytja inn. Þessu verki er lýst í eftirfarandi ferli.  
+Þegar búið er að stofna skilgreiningu gagnaskipta fyrir tiltekna gagnaskrá er hægt að flytja gagnaskiptaskilgreininguna út sem XML-skrá sem hægt er að flytja inn. Þessu verki er lýst í eftirfarandi ferli.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 2. Velja gagnaskiptiskilgreininguna sem á að flytja út.  
 3. Velja skal aðgerðina **Skilgreining gagnaskipta í útflutningi**.  
 4. Vista xml skrá sem sýnir skilgreiningu gagnaskipta á viðeigandi staðsetningu.  
 
-    Ef skilgreining gagnaskipta hefur þegar verið stofnuð þarftu bara að flytja inn XML skrá í gagnaskiptarammann. Þessu verki er lýst í eftirfarandi ferli.  
+    Ef skilgreining gagnaskipta var stofnuð þarf bara að flytja XML-skrána inn í Data Exchange Framework. Þessu verki er lýst í eftirfarandi ferli.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Flytja inn fyrirliggjandi gagnaskiptaskilgreiningu
+## Flytja inn fyrirliggjandi gagnaskiptaskilgreiningu
 
 1. Vista xml skrá sem sýnir skilgreiningu gagnaskipta á viðeigandi staðsetningu.  
 2. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaskiptaskilgreiningar** og veldu síðan viðkomandi tengil.  
 3. Velja skal aðgerðina **Skilgreining gagnaskipta í innflutningi**.  
 4. Veljið skrána sem var vistuð í skrefi 1.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

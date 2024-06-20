@@ -1,46 +1,46 @@
 ---
 title: Skrá útgjöld og tekjur beint í fjárhag
-description: Fyrir fyrirtækjaaðgerðir sem ekki eru táknaðar með skjali er hægt að búa til færslur sem tengjast aðgerðunum með því að bóka færslubókarlínu á síðunni Fjárhagur.
+description: Hægt er að stofna færslur á síðunni Færslubók fyrir viðskiptaaðgerðir sem ekki koma við sögu í skjali.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
-ms.date: 06/16/2021
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bóka færslu beint í Fjárhag
+# Bóka færslur beint í fjárhag
 
 Nota færslubækur til bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga.  
 
-Hefðbundin notkun færslubókarinnar er að bóka starfsmannaútgjöld, þar sem þeir nota eigin peninga í viðskiptaerindum, fyrir seinni tíma endurgreiðslu. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
+Dæmigerð notkun færslubókarinnar er að bóka útgjöld starfsmanna við viðskiptaaðgerðir vegna endurgreiðslu. Nánari upplýsingar eru [í Skrá og endurgreiða starfsmannakostnað](finance-how-record-reimburse-employee-expenses.md).
 
-Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga. Bókun með almennri færslubók stofnar alltaf færslur á fjárhagsreikningum. Slíkt á við jafnvel í tilvikum þegar færslubókarlína er bókuð á reikning viðskiptamanns, vegna þess að færsla er bókuð í safnreikning færslubókar með bókunarflokki. Hægt er að sérsníða þína útgáfu af færslubók með því að setja upp bókakeyrslu eða sniðmát. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga. Bókun á færslubók stofnar færslur á fjárhagsreikningum. Færslur eru stofnaðar jafnvel þótt færslubókarlína sé bókuð á viðskiptamannareikning, þar sem færsla er bókuð á fjárhagsreikning með bókunarflokki. Hægt er að sérsníða þína útgáfu af færslubók með því að setja upp bókakeyrslu eða sniðmát. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
-Ólíkt því sem gerist þegar færslur eru bókaðar með fylgiskjölum, sem krefst kreditreikningsferlis, getur þú réttilega bakfært færslur sem eru bókaðar með fjárhagnum. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
+Færslur sem bókaðar eru með fylgiskjölum þurfa kreditreikningsferli. Hins vegar er hægt að bakfæra færslur sem bókaðar eru með færslubókinni. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Að bóka færslu beint í fjárhagsreikning
+## Að bóka færslu beint í fjárhagsreikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
-2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
-3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+2. Færslubókarkeyrslan er opnuð. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
-4. Endurtakið skref 3 fyrir allar aðskildar færslur sem þú vilt bóka.
+4. Skref 3 er endurtekið fyrir allar færslur sem á að bóka.
 
     > [!TIP]  
-    > Ef þú vilt færa inn fleiri færslulínur fyrir ofan eina mótreikningslínu, til dæmis fyrir einn bankareikning, skaltu velja gátreitinn **Leggja til afstemmingarupphæð** á línunni fyrir þína keyrslu á síðunni **færslubókakeyrslur**. Þá verður reiturinn **Upphæð** á mótreikningslínunni sjálfkrafa fylltur út með gildinu sem er nauðsynlegt til að jafna skjalið.
+    > Ef færa á inn margar færslulínur á undan efnahagsreikningslínu, til dæmis fyrir einn bankareikning, skal velja **gátreitinn Leggja til mótupphæð** í línunni fyrir keyrsluna á síðunni **Færslubókarkeyrslur** . Reiturinn **Upphæð** í efnahagsreikningslínunni er sjálfkrafa útfylltur með gildinu sem þarf til að jafna færslurnar.
 5. Veljið **Bóka** aðgerðina til að skrá færslurnar á tilteknu fjárhagsreikningana.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

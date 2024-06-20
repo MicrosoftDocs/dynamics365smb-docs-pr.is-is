@@ -1,12 +1,14 @@
 ---
 title: Velkomin(n) í Microsoft Dynamics 365 Business Central
-description: 'Fáðu upplýsingar um valkosti og aðstæður í Business Central sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til.'
+description: 'Fræðast um getu og vinnuaðstæður í Business Central sem hjálpa fyrirtækjum að stýra viðskiptum sínum, þar á meðal um fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og fleira.'
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -15,7 +17,7 @@ ms.service: dynamics-365-business-central
 Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir þú þig inn á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Annars skaltu [sækja yfirlitið](https://dynamics.microsoft.com/business-central/overview/), [fara í gegnum leiðsögnina](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [finna út hvernig á að hefja ókeypis prufuútgáfu](trial-signup.md). Kíktu á [stutta leiðarvísa](quick-start-business-central.md) til að hjálpa þér að skilja betur [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um innleiðingu í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í [Búðu þig undir að stunda viðskipti](ui-get-ready-business.md).  
 
 > [!TIP]
-> Komstu hingað af [!INCLUDE [prod_short](includes/prod_short.md)]? Ef þú ert ekki viss um hvar á að finna það sem þú ert að leita að er hægt að **sía eftir titlum** í yfirlitssvæðinu til vinstri eða nota reitinn **Leita** efst í vafraglugganum.  
+> Komstu hingað af [!INCLUDE [prod_short](includes/prod_short.md)]? Ef þú ert ekki viss um hvar þú leitar að því sem þú leitar að er hægt að **afmarka eftir titlum á yfirlitssvæðinu** vinstra megin eða nota **reitinn Leita** efst í vafraglugganum.  
 >
 > Einnig er hægt að nota leitareiginleikana í [!INCLUDE [prod_short](includes/prod_short.md)] til að finna viðeigandi fylgiskjöl. Frekari upplýsingar er að finna í [Finna síður og upplýsingar með „Segðu mér“](ui-search.md).
 
@@ -69,25 +71,41 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Stjórnunar- og AI-efni
+
+- [Yfirlit](copilot-overview.md)
+- Lögun
+  - [Greina gögn á listum með Copilot](analysis-assist.md)
+  - [Afstemma bankareikninga með Copilot](bank-reconciliation-with-copilot.md)
+  - [Spjalla við Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Yfirlit yfir tillögur að markaðstexta](ai-overview.md)
+  - [Leggja til línur á sölupöntunum með Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Tengja rafræn við innkaupapöntunarlínur með Copilot](map-edocuments-with-copilot.md)
+- Stjórnun
+  - [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)
+  - [Algengar algengar spurningar](responsible-ai-overview.md)
+- Þróun
+  - [Lengja copilot í Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Microsoft Learn þjálfun
 
 Finndu ókeypis rafrænt námsefni fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í [Microsoft Learn þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndbandasafninu okkar. Frekari upplýsingar er að finna á [Skoðaðu myndbandasafnið okkar](across-videos.md).  
+Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndbandasafninu okkar. Til að fræðast meira skaltu fara í Myndbandssafnið [okkar](across-videos.md).  
 
-## Samfélagstilföng
+## Samfélagsforði
 
 - [Samfélagsumræðuforrit Microsoft Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central á Dynamics 365 blogginu](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365 útgáfuáætlanir](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central leiðarvísir](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partner Network \(krefst aðildarreiknings Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Central Útgáfuáætlun](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partner Network \(krefst aðildarreiknings Microsoft Partner Network\)](https://mspartner.microsoft.com)  
 
 ## Fá tilkynningu um breytingar með RSS-straumi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## Sjá einnig
+## Sjá einnig .
 
 [Dynamics 365 Business Central þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Stuttar leiðbeiningar Business Central](quick-start-business-central.md)  
@@ -104,8 +122,8 @@ Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndba
 [Nýjung og breytt](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Helstu uppfærslur og minni uppfærslur Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365 fylgigögn](/dynamics365/)  
-[Dynamics 365 Business Central á microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central á microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Dynamics 365 Business Central Skoða getu](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

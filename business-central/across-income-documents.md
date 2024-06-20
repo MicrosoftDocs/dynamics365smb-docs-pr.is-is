@@ -1,25 +1,26 @@
 ---
-title: Vinna með skjöl á innleið
+title: Vinna með innsend skjöl
 description: 'Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="incoming-documents"></a>Fylgiskjöl á innleið
+# Skjöl á innleið
 
 Ytri viðskiptaskjöl geta komið inn í fyrirtækið þitt sem tölvupóstviðhengi eða pappírseintök sem þú skannar á skrá. Þessi sviðsmynd er dæmigerð fyrir innkaup, þar sem slíkar skrár fyrir skjal á innleið standa fyrir greiðslukvittanir eða lítil innkaup.
 
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
-## <a name="usage-scenario"></a>Notkunarsvið
+## Notkunarsvið
 
 Þú getur skráð skrár eða pappírseintök sem þú hefur fengið frá viðskiptafélögum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og búið til skjalaskrá. Til dæmis innkaupa- eða söluskjal, kreditreikning eða færslubókarlínu.
 
-Hladdu upp mótteknum skrám – eða notaðu myndavél tækisins til að taka mynd – og stofnaðu færslur sem standa fyrir ytri skjölin. Valfrjálst með PDF-skjölum eða myndaskrám geturðu látið ytri OCR-þjónustu (stafakennsl) búa til rafræn skjöl sem hægt er að umbreyta í færslur í [!INCLUDE[prod_short](includes/prod_short.md)].
+Hladdu upp mótteknum skrám – eða notaðu myndavél tækisins til að taka mynd – og stofnaðu færslur sem standa fyrir ytri skjölin. Valfrjálst, með PDF- eða myndskrám, getur þú fengið ytri sjónræna stafaviðurkenningu (OCR) mynda rafræn skjöl sem síðan er hægt að breyta í færslur inni [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > OCR-eiginleikinn er í boði ytri veitu. Veljið uppfærslupakka sem er viðeigandi fyrir fyrirtækið og/eða landið/svæðið. Finndu þjónustu sem er samhæf [!INCLUDE[prod_short](includes/prod_short.md)] og upplýsingar um eiginleika í boði á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
@@ -29,11 +30,11 @@ Hladdu upp mótteknum skrám – eða notaðu myndavél tækisins til að taka m
 > [!TIP]
 > Búðu til færslur fyrir skjal á innleið í [!INCLUDE[prod_short](includes/prod_short.md)] beint úr tölvupóstum sem lánardrottnar senda með Outlook-innbótinni. Nánari upplýsingar, sjá [Nota Business Central sem viðskiptainnboxið þitt í Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Eiginleikar skjals á innleið
+## Eiginleikar skjals á innleið
 
 Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 
-* Skrá ytri skjöl innan [!INCLUDE[prod_short](includes/prod_short.md)] með því að stofna línur á síðunni **skjöl á innleið** með öðrum hvorum eftirfarandi hætti:
+* Skrá ytri skjöl [!INCLUDE[prod_short](includes/prod_short.md)] með því að stofna línur á síðunni **Skjöl** á innleið á eftirfarandi hátt:
   * Handvirkt, annaðhvort úr tölvu eða farsíma, með einni af eftirfarandi leiðum:
     * Notaðu hnappinn **Búa til úr skrá**, hladdu upp skrá og fylltu svo út viðeigandi reiti á síðunni **Skjal á innleið**.
     * Notaðu hnappinn **Nýtt**, fylltu út í viðeigandi reiti á síðunni **Skjal á innleið** og hengdu handvirkt tengda skrá við.
@@ -45,7 +46,7 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 * Skoða skjal á innleið og viðhengi þeirra úr hvaða innkaupa eða söluskjali eða færslu eða finna allar fjárhagsfærslur án færslna fyrir skjöl á innleið af síðunni **bókhaldslykill**.
 
 > [!NOTE]
-> Skrár sem hengdar eru við spjöld eða skjöl í flipanum **Viðhengi** eru ekki hafðar með á síðunni **Skjöl á innleið**. Frekari upplýsingar er að finna í [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md).
+> Skrár sem tengjast spjöldum og skjölum á **flipanum Viðhengi** eru ekki teknar með á síðunni **Skjöl** á innleið. Frekari upplýsingar er að finna í [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md).
 
 | Til | Sjá |
 | --- | --- |
@@ -56,7 +57,7 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 | Af síðunum **Bókhaldslyklar** og **Fjárhagsfærslur** er hægt að nota leitaraðgerð til að finna fjárhagsfærslur fyrir bókuð skjöl sem hafa ekki færslur fyrir skjöl á innleið og tengjast miðlægt við fyrirliggjandi færslur eða stofna nýjar með viðhengdum skrám. |[Finna bókuð fylgiskjöl án færslu skjals á innleið](across-how-find-posted-documents-without-income-document-records.md) |
 | Fáðu betri yfirsýn með því að stilla færslur fyrir skjöl á innleið á *Unnið* og fjarlægja þær úr sjálfgefna yfirlitinu. |[Vinna með margar færslur skjala á innleið](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Breyting á bókuðum skjölum](across-edit-posted-document.md)  

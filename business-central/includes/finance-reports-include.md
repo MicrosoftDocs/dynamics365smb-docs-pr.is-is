@@ -1,17 +1,18 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Eftirfarandi tafla lýsir nokkrum helstu fjárhagsskýrslum.
 
-| Skýrsla | Lýsing | KENNI | 
+| Skýrsla | Lýsing | KENNI |
 |--|--|--|
 | [Prófjöfnuður](https://businesscentral.dynamics.com?report=6) | Sýnir bókhaldslykla samkvæmt stöðum og hreyfingum. Hægt er að velja að skoða prófjöfnuð fyrir valdar víddir eða nota skýrsluna í lok reikningstímabils eða reikningsárs. | 6 |
-| [Prófjöfnuður eftir tímabili](https://businesscentral.dynamics.com?report=38) | Sýnir upphafsstöðu fjárhagsreikningsins, hreyfingar á völdu tímabili (mánuði, fjórðungi eða ári) og lokastöðuna. <br>Ábending: Hægt að nota til að sýna hagnað og tap með samtölu fyrir hvern mánuð.| 38 |
+| [Prófjöfnuður eftir tímabili](https://businesscentral.dynamics.com?report=38) | Sýnir upphafsstöðu fjárhagsreikningsins, hreyfingar á völdu tímabili (mánuði, fjórðungi eða ári) og lokastöðuna. <br>Ábending: Skýrslan getur birt hagnað og tap (P&L) með samtölu hvers mánaðar.| 38 |
 | [Prófjöfnuður - Áætlun](https://businesscentral.dynamics.com?report=9) | Hér kemur fram samanburður á prófjöfnuði og áætlun. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Notaðu þessa skýrslu í lok reikningstímabils eða reikningsárs. | 9 |
 | [Ítarlegur prófjöfnuður](https://businesscentral.dynamics.com?report=4) | Sýnir sundurliðaðan prófjöfnuð fyrir tilgreinda fjárhagsreikninga. Hægt er að velja reikninga í skýrsluna með því að setja afmörkun. Notaðu þessa skýrslu í lok reikningstímabils eða reikningsárs. | 4 |
 | [Prófjöfnuður - Fyrra ár](https://businesscentral.dynamics.com?report=7) | Hér kemur fram prófjöfnuður í samanburði við tölur fyrra árs. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Notaðu þessa skýrslu í lok reikningstímabils eða reikningsárs. Með *fyrra ári* er átt við sama tímabil og á árinu áður. | 7 | 

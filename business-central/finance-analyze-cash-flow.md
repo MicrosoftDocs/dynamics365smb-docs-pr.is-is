@@ -9,8 +9,9 @@ ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862
 ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
+# Greining á sjóðstreymi í fyrirtækinu þínu
 Gröfin á Mitt hlutverk bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  
 
 | Til að svara spurningum eins og þessum | Notaðu þetta töflu |
@@ -35,13 +36,13 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 * Dregur frá viðskiptaskuldir og bætir við viðskiptakröfum  
 * Sleppur við tvíteknar sölupantanir og innkaupapantanir.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Til að skoða vinnublað sjóðstreymis
+## Til að skoða vinnublað sjóðstreymis
 
 1. Í reitnum **Leit** skal færa inn Sjóðstreymisuppsetningu og velja síðan viðkomandi tengil.  
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
 3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

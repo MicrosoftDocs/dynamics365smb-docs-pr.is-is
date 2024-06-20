@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 10/02/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Ef þú setur farsímaforritið [!INCLUDE [prod_short](prod_short.md)] upp á farsímanum þínum iOS eða Android farsímanum getur þú notað myndavél tækisins til að skanna 1D eða 2D strikamerki til að uppfæra upplýsingar í [!INCLUDE [prod_short](prod_short.md)]. 

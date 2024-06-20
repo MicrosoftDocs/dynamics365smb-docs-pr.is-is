@@ -9,9 +9,10 @@ ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="managing-contacts"></a>Stjórnun tengiliða
+# Stjórnun tengiliða
 
 Starfsmenn í fyrirtækinu uppfylla reglulega væntanleg viðskiptatengsl sem gætu myndast í formlegum tengslum. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
 
@@ -26,7 +27,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.|[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)|
 |Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

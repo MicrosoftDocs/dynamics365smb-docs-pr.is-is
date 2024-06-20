@@ -1,5 +1,5 @@
 ---
-title: Skrá nýja viðskiptamenn með því að búa til viðskiptamannaspjald (myndband)
+title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald
 description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða viðskiptavin sem selt er til.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
+# Skrá nýja viðskiptamenn
 
 Viðskiptamenn eru tekjuleiðin þín. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjöld innihalda upplýsingarnar sem þarf til að selja viðskiptamanninum vörur. Frekari upplýsingar er að finna í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
@@ -19,7 +19,7 @@ Viðskiptamenn eru tekjuleiðin þín. Þú verður að skrá þig hver viðskip
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="add-new-customers"></a>Bæta við nýjum viðskiptamönnum
+## Bæta við nýjum viðskiptamönnum
 
 Hægt er að bæta við nýjum viðskiptamanni handvirkt með því að fylla út síðuna **Viðskiptamannaspjald** eða hægt er að nota sniðmát sem innihalda fyrirframskilgreindar upplýsingar. Til dæmis er hægt að búa til sniðmát fyrir mismunandi forstillingargerðir viðskiptamanna. Með því að nota sniðmát sparast tími þegar nýjum viðskiptamönnum er bætt við og það hjálpar til við að tryggja að upplýsingarnar séu réttar hverju sinni. 
 
@@ -34,7 +34,7 @@ Ef þú býrð til:
 
 Þú getur einnig stofnað viðskiptamann út frá tengilið. Frekari upplýsingar eru í hlutanum [Að stofna viðskiptamann, lánardrottin, starfsmann eða bankareikning úr tengilið](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
+### Að stofna nýtt viðskiptamannaspjald
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -42,7 +42,7 @@ Með aðgerðinni **Verð og afsláttur** er hægt að hafa umsjón með sérver
 
 Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má nú nota í söluskjölum.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>Til að vista viðskiptamannaspjaldið sem sniðmát
+### Til að vista viðskiptamannaspjaldið sem sniðmát
 
 Þú getur notað viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru búin til.
 
@@ -54,11 +54,11 @@ Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má n
 
 Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta og hægt er að nota það til að búa til ný viðskiptamannaspjöld.
 
-## <a name="delete-customer-cards"></a>Eyða viðskiptamannaspjöldum
+## Eyða viðskiptamannaspjöldum
 
 Ef bókuð eru viðskipti vegna viðskiptamanns er ekki hægt að eyða viðskiptamannaspjaldinu þar sem þörf gæti verið á færslum við endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
 
-## <a name="manage-credit-limits"></a>Vinna með hámarksskuldir
+## Vinna með hámarksskuldir
 
 Lánamörk, stöður og greiðsluskilmálar gera [!INCLUDE [prod_short](includes/prod_short.md)] kleift að gefa út viðvörun um lánamark og gjaldfallna stöðu þegar sölupöntun er slegin inn. Ennfremur gera einingar innheimtuskilmála og vaxtaskilmála þér kleift að reikningsfæra vexti og/eða aukagjöld.  
 
@@ -68,7 +68,7 @@ Hægt er að bóka jafnvel þótt hámarksskuldin sé komin yfir. Auður reitur 
 
 Hægt er að velja um að fá ekki viðvaranir þegar farið er fram úr hámarksskuld viðskiptamanns og hægt er að tilgreina hvaða tegundir aðvarana á að skoða.
 
-### <a name="to-specify-credit-limit-warnings"></a>Viðvaranir lánamarks tilgreindar
+### Viðvaranir lánamarks tilgreindar
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi**, velja svo viðeigandi tengil.
 
@@ -81,7 +81,7 @@ Hægt er að velja um að fá ekki viðvaranir þegar farið er fram úr hámark
     |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
     |**Engin aðvörun**|Engar lánaviðvaranir eru sýndar varðandi stöðu viðskiptamanns.|
 
-## <a name="assign-a-salesperson"></a>Úthluta sölumanni
+## Úthluta sölumanni
 
 Hægt er að úthluta sölumönnum á sendist-til aðsetur viðskiptamanns í stað reikningsaðseturs þeirra svo að söluskýrslurnar endurspegli rétta landfræðilega dreifingu á sölu. Ef sölumanni er úthlutað á sendist-til aðsetur viðskiptamanns fæst nákvæmari innsýn og betrun forðaúthlutunar.
 
@@ -89,7 +89,7 @@ Hægt er að úthluta sölumönnum á sendist-til aðsetur viðskiptamanns í st
 
 Þegar valkosturinn **Annað afhendingaraðsetur** er valinn sem **Sendist-til** birgðageymsla á söluskjali **uppfærist Kóti** sölumanns svo hann passi við sölumanninn **frá Sendist-til í stað þess að** reikningsfæra á **aðsetrið** . 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
 [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  

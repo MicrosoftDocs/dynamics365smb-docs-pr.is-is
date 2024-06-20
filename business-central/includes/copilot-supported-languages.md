@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Tillögur um markaðssetningartexta eru aðeins studdar á eftirfarandi tungumálum og staðbundnum:
+Þessi copilot-eiginleiki var aðeins staðfestur á eftirfarandi tungumálum:
 
 |Tungumál|Staður|
 |-|-|
@@ -17,3 +18,5 @@ Tillögur um markaðssetningartexta eru aðeins studdar á eftirfarandi tungumá
 |Hollenska|nl-NL, nl-BE|
 |Ítalska|it-IT, it-CH|
 |Japanska|ja-JP|
+
+Þó að nota megi hana á öðrum tungumálum er hugsanlegt að hún virki ekki eins og ætluð er. Gæði tungumáls geta verið mismunandi eftir samskipta- eða kerfisstillingum notandans sem geta haft nákvæmni og upplifun notandans.

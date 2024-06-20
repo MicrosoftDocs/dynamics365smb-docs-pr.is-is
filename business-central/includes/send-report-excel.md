@@ -2,4 +2,4 @@
 ms.service: dynamics-365-business-central
 ---
 > [!TIP]
-> **Hvað með skýrslur?** Þú getur flutt niðurstöður skýrslunnar út í Excel-skrá til að skoða allt gagnasafnið, þar með talið alla dálkana. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili þeim gögnum sem til er ætlast. Til að flytja út skýrslu skal keyra skýrsluna og velja **Senda til** > **Microsoft Excel skjalið (aðeins gögn)** á beiðnisíðunni. Frekari upplýsingar er að finna í [Vinna með skýrslur - Vista skýrslu í skrá](../ui-work-report.md#saving-a-report-to-a-file).
+> **Hvað með skýrslur?** Þú getur flutt niðurstöður skýrslunnar út í Excel-skrá til að skoða allt gagnasafnið, þar með talið alla dálkana. Excel-skráin getur hjálpað til við að staðfesta að skýrslan skili þeim gögnum sem til er ætlast. Til að flytja út skýrslu skal keyra skýrsluna og velja **Senda til** > **Microsoft Excel skjalið (aðeins gögn)** á beiðnisíðunni. Nánari upplýsingar eru [í Vinna með skýrslur - Vista skýrslu í skrá](../ui-work-report.md#save-a-report-to-a-file).

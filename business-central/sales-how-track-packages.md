@@ -8,13 +8,14 @@ ms.search.form: '142, 800, 806'
 ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="track-packages"></a>Rekja pakka
+# Rekja pakka
 Flestir flutningsaðilar bjóða upp á vefþjónustu sem gerir notanda kleift að rekja stöðu pakka á meðan þeir eru á leiðinni. Þessar upplýsingar geta reynst gagnlegar í mörgum viðskiptaferlum, t.d. fyrir viðskiptamannaþjónustu. Ef fleiri en einn flutningsaðili er notaður er hægt að færa inn grunnupplýsingar um þá og síðan nota rakningarþjónustu þeirra beint af síðunum Bókaðar söluafhendingar, Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md). 
 
 Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusendingu, en sömu skref gilda um rakningu pakka úr bókaða sölureikningnum, bókuðum sölukreditreikningi og bókuðum móttökukvittunum.  
 
-## <a name="to-track-a-package"></a>Sendingaleit
+## Sendingaleit
 
 > [!NOTE]
 > Eftirfarandi ferli notar síðuna Bókuð söluafhending sem dæmi. Skrefin til að rekja pakka eru þau sömu á síðunum Bókaðir sölureikningar, Bókaðir sölukreditreikningar og Bókuð vöruskilamóttaka.
@@ -25,7 +26,7 @@ Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusending
 4. Vertu viss um að flutningsaðilinn og þjónustustigið séu rétt og lokaðu svo síðunni.
 5. Veldu aðgerðina **Rekja pakka** til að opna þjónustu flutningsaðila fyrir pakkarakningu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)  
 [Sala](sales-manage-sales.md)  

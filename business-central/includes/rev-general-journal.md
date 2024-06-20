@@ -4,9 +4,10 @@ ms.topic: include
 ms.date: 10/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Bakfæra færslubækur til að leiðrétta mistök
+### Bakfæra færslubækur til að leiðrétta mistök
 
 Þegar unnið er með færslubækur sem eru með margar línur og eitthvað fer úrskeiðis er mikilvægt að það sé einfalt að leiðrétta mistökin. Á síðunni **Bókuð færslubók** eru aðgerðir sem kynnu að gagnast.
 

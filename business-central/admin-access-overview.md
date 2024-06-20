@@ -3,26 +3,26 @@ title: Stjórna aðgangi að Business Central
 description: Stjórnendur nota lagskipta aðferð til að stýra aðgangi að Business Central og getu þess.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.date: 04/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="manage-access-to-business-central"></a>Stjórna aðgangi að Business Central
+# Stjórna aðgangi að Business Central
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Þessi grein gefur stjórnendum og forriturum yfirsýn yfir hvernig hægt er að stýra aðgangi að [!INCLUDE [prod_short](includes/prod_short.md)] og eiginleikum hennar. Notaðu tenglana til að fara í aðrar greinar sem veita nánari upplýsingar um efnisatriðin.
 
-## <a name="layered-access"></a>Lagaðgangur
+## Lagaðgangur
 
 [!INCLUDE [prod_short](includes/prod_short.md)] notar lagaða aðferð við öryggi forritsins, eins og lýst er í eftirfarandi skýringarmynd. Til að [fræðast meira um hvert lag er farið í Application Security í Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Öryggisöryggi lagskipt í Business Central.":::
 
-## <a name="licenses"></a>Leyfi
+## Leyfi
 
 Úthluta [!INCLUDE [prod_short](includes/prod_short.md)] notendum **Dynamics 365 Business Central** leyfi svo þeir geti skoðað, breytt og unnið með viðskiptagögn sín úr hvaða notandaviðmóti sem er. Til að [fá nánari upplýsingar um leyfi er farið í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing) Leyfisveitingu.
 
@@ -30,7 +30,7 @@ Hins vegar fólk sem stundum þarf lesaðgang að upplýsingum í [!INCLUDE [pro
 
 Fyrir alhliða upplýsingar um mismunandi tegundir leyfis og hvernig leyfi virkar í [!INCLUDE[prod_short](includes/prod_short.md)] skal [sækja Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## <a name="business-central-administrator-tasks"></a>Stjórnandi Business Central verkefna
+## Stjórnandi Business Central verkefna
 
 Í eftirfarandi töflu er listi yfir hvernig stjórnendur geta stýrt aðgangi að [!INCLUDE [prod_short](includes/prod_short.md)] og eiginleikarnir sem notendur nota. Sum verkanna hjálpa einnig til við að halda aðgangsstillingum uppfærðum.
 
@@ -45,7 +45,7 @@ Fyrir alhliða upplýsingar um mismunandi tegundir leyfis og hvernig leyfi virka
 |Azure þjónustumerki táknar hóp af IP-tölum sem umferð um þjónustu getur komið frá eða farið til. Nota þjónustumerki til að setja upp eldveggi til að leyfa aðeins umferð frá tiltekinni þjónustu. Með **Dynamics365BusinessCentral** merkinu er hægt að nota reglur um eldvegg og netöryggishóp til að takmarka umferð við og frá [!INCLUDE [prod_short](includes/prod_short.md)].| [Azure öryggi þjónustu merki](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Þegar sannvottun er notuð Microsoft Entra með er mælt með [!INCLUDE [prod_short](includes/prod_short.md)] því að notandi noti [Microsoft Entra auðkenningu með mörgum þáttum (MFA).](/azure/active-directory/authentication/concept-mfa-howitworks) MFA verndar ennfremur aðgang að forritinu og gögnunum.|[Sannvottun margra þátta fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## <a name="business-central-developer-tasks"></a>Business Central verkefnum verkefna
+## Business Central verkefnum verkefna
 
 Það er líka þróunarsaga til að sjá um aðgang að [!INCLUDE [prod_short](includes/prod_short.md)]. Forritarar og stjórnendur geta til dæmis byggt upp og tengt forrit til þess að [!INCLUDE [prod_short](includes/prod_short.md)] njóta viðskiptanna:  
 
@@ -59,6 +59,6 @@ Eftirfarandi töflutenglar eru í upplýsingum um hvernig forrit og viðbætur e
 |--|--|
 |Tvö meginhugtökin til að skilgreina aðgang að eiginleikum eru réttindi og heimildir. Réttindi gefa víðtækan aðgang að hlutum samkvæmt leyfum eða Microsoft Entra hlutverkum. Með heimildum og heimildum má fínstilla aðgang að hlutum. |[Yfirlit yfir réttindi og heimildasafn](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Öryggi í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)

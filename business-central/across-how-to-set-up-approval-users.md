@@ -1,15 +1,16 @@
 ---
-title: Setja upp notendur samþykktar
+title: Setja upp notendur samþykkta
 description: Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp verkflæðisnotendurna sem taka þátt í samþykktarferlunum.
 author: brentholtorf
-ms.topic: how-to
-ms.devlang: al
-ms.search.form: '663,'
-ms.date: 05/31/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.search.form: '663,'
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-approval-users"></a>Setja upp notendur samþykktar
+# Setja upp notendur samþykkta
 
 Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp notendurna sem taka þátt í samþykktarferlum á síðunni **Notandauppsetning samþykktar** . Einnig er hægt að setja takmarkanir á upphæðir fyrir mismunandi gerðir beiðna, skilgreina staðgengilssamþykkjendur og setja upp tilkynningar.  
 
@@ -18,7 +19,7 @@ ms.service: dynamics-365-business-central
 > [!TIP]
 > Hægt er að krefjast þess að margir samþykkjendur bregði sér í samþykktarbeiðni með því að stofna flokk samþykkjenda á síðunni **Notendaflokkur** verkflæðis. Nánari upplýsingar um [uppsetningu notendahópa verkflæðis](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Uppsetning samþykkts notanda
+## Uppsetning samþykkts notanda
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -45,7 +46,7 @@ ms.service: dynamics-365-business-central
 
 Næsta skref er að tilgreina hvernig [!INCLUDE [prod_short](includes/prod_short.md)] eigi að tilkynna fólki að beiðni bíði athygli þeirra. Nánari [upplýsingar um uppsetningu verkflæðistilkynninga](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

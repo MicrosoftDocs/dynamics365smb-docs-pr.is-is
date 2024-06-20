@@ -8,8 +8,9 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="setup-best-practices-costing-method"></a>Uppsetning bestu venjur: Aðferð kostnaðarútreiknings
+# Uppsetning bestu venjur: Aðferð kostnaðarútreiknings
 
 Á birgðaspjaldinu skilgreinir **Kostnaðaraðferð** hvernig kostnaðarflæði vörunnar er skráð og hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikninginn.  
 
@@ -25,7 +26,7 @@ Eftirfarandi tafla gefur upp bestu venjur um uppsetningu reitsins **Kostnaðara�
 |Sérstakt|Notið í framleiðslu eða viðskiptum með vörur sem auðvelt er að bera kennsl á og hafa frekar hátt kostnaðarverð.<br /><br /> Notist fyrir vörur sem falla undir reglugerð.<br /><br /> Notið fyrir vörur með raðnúmer.|Kostnaðarverð vöru er nákvæmur kostnaður þegar tekið var við vörunni.|
 |Staðlað|Notið þar sem kostnaðarstýring er mikilvæg.<br /><br /> Notið í endurtekingaframleiðslu, til að meta kostnaðinn á beinu efni, beinni framleiðslu og sameiginlegs kostnaðar.<br /><br /> Notið í öguðu umhverfi og þar sem starfsfólkið viðheldur gæðastaðli.|Kostnaðarverð vöru er forstillt samkvæmt áætlun.<br /><br /> Þegar raunkostnaður er innleystur síðar, verður að breyta staðlaða kostnaðarverðinu í raunkostnaðinn, í gegnum fráviksgildi.|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

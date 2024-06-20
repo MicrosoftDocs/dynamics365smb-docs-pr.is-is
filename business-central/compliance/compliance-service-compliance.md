@@ -6,25 +6,25 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
-ms.date: 06/14/2021
+ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Reglufylgni þjónustu
+# Reglufylgni þjónustu
 
-Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu  
+Þetta efni inniheldur upplýsingar um þjónustusamhæfi í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] netið.
 
-Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta tölvukerfi heims, Microsoft Azure, með gagnamiðstöðvar á svæðum um allan heim. Að keyra skýjaþjónustu felur einnig í sér að þurfa að samræmast ákveðnum stöðlum hvað varðar öryggi og reglufylgni, þannig að þjónustulega séð uppfyllir Business Central strangar kröfur nokkurra ISO-vottana og vottana ákveðinni atvinnugreina.
+Business Central er skýjaþjónusta með alþjóðlegum seilingar- og mælikvarða sem keyrir á einum stærsta ofnæmisfrágangi heims, Microsoft Azure með gagnaverum á svæðum um allan heim. Þegar skýjaþjónusta er keyrð er þörfin á að samræmast ákveðnum stöðlum í öryggis- og samræmi, þannig að frá þjónustusjónarhorni Business Central býr Business Central upp að ströngum kröfum í nokkrum ISO og sértækum vottunum í greininni.
 
-Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Central hér](https://aka.ms/d365-compliance-list).
+Fyrir nákvæman lista yfir samræmismat fyrir Ský fyrir Business Central skal [sækja Microsoft Dynamics 365 Datashele Cloud Service Compliance Datasheet 365 Cloud Service Compliance Datasheet](https://aka.ms/d365-compliance-list).
 
-Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
+Hafir þú áhuga á fullkomnum lista yfir samræmistilboð frá Microsoft er farið [í Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>þjónustuskilmála
+## Þjónustuskilmálar
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  

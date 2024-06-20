@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Greiningar eftir virkum svæðum
+# Greiningar eftir virkum svæðum
 
 Almenna efnið um greiningar er einnig að finna í sérútgáfum fyrir mörg af aðgerðasvæðunum í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -24,7 +24,7 @@ Almenna efnið um greiningar er einnig að finna í sérútgáfum fyrir mörg af
 | Eignastjórnun | [Greiningar á eignum](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Greiningaryfirlit](reports-bi-reporting.md)  
 

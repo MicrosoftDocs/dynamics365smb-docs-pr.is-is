@@ -9,9 +9,10 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="finding-pages-and-reports-with-the-role-explorer"></a>Leita að síðum og skýrslum með hlutverkavafranum
+# Leita að síðum og skýrslum með hlutverkavafranum
 
 Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Þessi grein vísar til aðgerðayfirlitsins sem *hlutverkavafrann*.
 
@@ -19,7 +20,7 @@ Hver eining í hlutverkavafranum er aðgerð sem opnar síðu eða skýrslu. Í 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Opnið hlutverkaleitina
+## Opnið hlutverkaleitina
 
 Hægt er að opna hlutverkavafra úr hlutverkamiðstöðinni og öllum listasíðum og í **glugganum Segja mér** .
 
@@ -28,14 +29,14 @@ Hægt er að opna hlutverkavafra úr hlutverkamiðstöðinni og öllum listasí�
 
 Þegar hlutverkamiðstöðin er opnuð í fyrsta sinn sýnir hún tengla á flesta eiginleika sem eru í boði fyrir hlutverkið þitt.
 
-## <a name="open-the-role-explorer-filtered-to-show-reports"></a>Opna hlutverkavafra sem er afmarkaður til að sýna skýrslur
+## Opna hlutverkavafra sem er afmarkaður til að sýna skýrslur 
 
 Hægt er að opna hlutverkavafra í yfirliti sem er afmarkað til að sýna skýrslur frá hlutverkinu og öllum listasíðum og í **glugganum Tell Me** :
 
 - Á mínu hlutverki eða á listasíðunni **skal velja tengilinn Allar skýrslur** hægra megin við yfirlitsstiku.
 -  **Í glugganum Segja mér** skal velja **aðgerðina Skoða skýrslur** neðst.
 
-## <a name="navigate-features"></a>Flettieiginleikar
+## Flettieiginleikar
 
 Aðgerðum sem opnar síður eða skýrslur er raðað undir hnútum sem nefndir eru eftir aðgerðunum eða kerfishlutunum. Hægt er að fella saman eða stækka hvern hnút sérstaklega eða alla hnúta saman.
 
@@ -43,11 +44,11 @@ Aðgerðum sem opnar síður eða skýrslur er raðað undir hnútum sem nefndir
 - Til að stækka/minnka alla hnúta á efsta stigi á síðunni, en skilja undirhnútana eftir eins og þeir eru, skal velja **...** efst uppi, síðan velja **Stækka** eða **Minnka**.
 - Til að stækka/minnka alla hnúta á efsta stigi og alla undirhnúta undir þeim skal velja **...** efst uppi, síðan velja aðgerðina **Stækka allt** eða **Minnka allt**.
 
-## <a name="search-for-features"></a>Leita að eiginleikum
+## Leita að eiginleikum
 
 Til að finna eiginleika á fljótlegan hátt skal velja **Leita**, síðan slá inn orð eða setningu fyrir eiginleikann sem leitað er að. Mitt hlutverk merkir hvaða texta sem er. Ef eiginleiki er falinn í felldum hnút er fellihnúturinn merktur með hnút. 
 
-## <a name="explore-other-roles"></a>Kanna önnur hlutverk
+## Kanna önnur hlutverk
 
 Til að skoða önnur hlutverk en þitt eigið skaltu velja **Kanna fleiri hlutverk**. Hlutverkamiðstöðin sýnir hvert hlutverk fyrir sig undir eigin fyrirsögn með tenglum á eiginleika þeirra. Þú getur fundið og farið í eiginleika eins og þú gerir þegar þú skoðar hlutverk þitt.
 
@@ -63,7 +64,7 @@ Til að skoða önnur hlutverk en þitt eigið skaltu velja **Kanna fleiri hlutv
 > Fyrir þróunaraðila eru síður og skýrslur flokkaðar með því að stilla eiginleika [UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) í AL-kóða hlutarins.
 <!--
  
-## <a name="role-explorer-actions"></a>Role explorer actions
+## Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -86,7 +87,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Stækka og minnka hnúta í hlutverkaleitinni
+## Stækka og minnka hnúta í hlutverkaleitinni
 
 Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eiginleikum eða kerfishlutum. Hægt er að draga saman eða víkka út hvern hnút fyrir sig og alla í einu.
 
@@ -96,7 +97,7 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
   -  <kbd>Velja skal Ctrl-vaktarlyklana</kbd>+<kbd></kbd> á meðan aðgerðin **Stækka** eða **Fella** saman í efra hægra horni.
   - Veldu **...** efst í hægra horninu, Veldu svo aðgerðina **Útvíkka allt** eða **Fella allt saman**.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  

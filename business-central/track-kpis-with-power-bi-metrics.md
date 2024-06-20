@@ -3,7 +3,7 @@ title: Fylgjast með fyrirtækinu þínu KPI með Power BI mælieiningum
 description: Fáðu yfirlit yfir notkun Power BI til að fá viðskiptaupplýsingar og afköst frá Business Central gögnunum þínum.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Fylgjast með fyrirtækinu þínu KPI með Power BI mælieiningum
+# Fylgjast með fyrirtækinu þínu KPI með Power BI mælieiningum
 
 Ef þú notar Power BI á [!INCLUDE[prod_short](includes/prod_short.md)] gögnum er auðvelt að fylgjast með afköstum eða mælingum sem skipta þig miklu máli.
 
@@ -32,7 +32,7 @@ Fræðast meira um Power BI mælitölur hjá [Get hafist með mælingum í Power
 > [!NOTE]
 > Byrjað er á Business Central 2023 gefa út bylgju 2, það er hægt að ívafið árangursmat frá Power BI mælieiningum í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Notkun afkastavísa til að ná viðskiptamarkmiðum](analytics-about-kpis.md)  
 [Kynning á Business Central og Power BI](admin-powerbi.md)  

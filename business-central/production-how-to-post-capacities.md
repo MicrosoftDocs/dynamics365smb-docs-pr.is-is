@@ -8,12 +8,13 @@ ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="post-capacities"></a>Bóka afkastagetu
+# Bóka afkastagetu
 
 Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlutuð á framleiðslupöntunina. Til dæmis má nefna að nauðsynlegt er að úthluta viðhaldsvinnu á afkastagetu en ekki á framleiðslupöntun.  
 
-## <a name="to-post-capacities"></a>Bókun afkastagetu:
+## Bókun afkastagetu:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afkastagetubækur** og velja síðan viðkomandi tengil.  
 2. Reitirnir **Bókunardags.** og **Fylgiskjal nr.** eru fylltir út .  
@@ -24,7 +25,7 @@ Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlu
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a>Skoða fjárhagsfærslur vinnustöðvar
+## Skoða fjárhagsfærslur vinnustöðvar  
 
 Á síðunum **Vinnustöðvarspjald** og **Vélastöðvarspjald**, geturðu skoðað bókaða afkastagetu sem afrakstur afgreiddra framleiðslupantana.    
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnustöðvar** og velja síðan viðkomandi tengil.  
@@ -32,7 +33,7 @@ Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlu
 
     Á síðunni **Afkastagetufærslur** eru birtar bókuðu færslurnar fyrir vinnustöðina í þeirri röð sem þær voru bókaðar.   
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Framleiðsla](production-manage-manufacturing.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

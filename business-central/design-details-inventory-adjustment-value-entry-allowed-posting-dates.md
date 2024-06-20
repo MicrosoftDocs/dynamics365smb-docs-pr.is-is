@@ -2,35 +2,35 @@
 title: Villuskilaboðin „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga“
 description: Leystu úr villunni á bak við skilaboðin „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga“ þegar runuvinnslan Leiðrétta kostnað - Birgðafærslur er keyrð.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/17/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
+# Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
 
-Þegar runuvinnslan **Leiðrétta kostnað - Birgðafærslur** er notuð gætu eftirfarandi villuboð komið upp:
+ **Þegar keyrslan** Leiðr. kostnað - Birgðafærslur er notuð er hægt að keyra eftirfarandi villuboð:
 
 **Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga.**
 
-Þessi villuboð gefa til kynna að notandinn megi ekki bóka færslur fyrir umrædda dagsetningu og hægt er að bæta úr því með því að breyta uppsetningu notandans.
+Þessi skilaboð gefa til kynna að ekki sé heimilt að bóka færslur fyrir dagsetninguna sem færð var inn. Hægt er að komast utan um þetta mál með því að breyta notandauppsetningunni.
 
-## <a name="change-the-user-setup"></a>Breyta uppsetningu notanda
+## Breyta uppsetningu notanda  
 
-|Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
+|Auðkenni notanda  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
 |Í EVRÓPU  |  2020-09-11      |2020-09-30      |
 
-Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. september til 30. september og er því ekki heimilt að bóka leiðréttingarvirðisfærsluna með bókunardagsetninguna 10. september.  
+Í þessu tilviki er heimilt að bóka á tímabilinu frá 11. september til 30. september. Hins vegar er ekki heimilt að bóka leiðréttingarvirðisfærsluna með 10. september bókunardagsetningu.  
 
-### <a name="overview-of-the-posting-date-setup"></a>Yfirlit yfir virka uppsetningu bókunardagsetningar
+### Yfirlit yfir uppsetningu bókunardagsetninga
 
-#### <a name="inventory-periods"></a>Birgðatímabil
+#### Birgðatímabil
 
-|Lokadagsetning  |Name  |Lokað  |
+|Lokadagur  |Nafn  |Lokað  |
 |---------|---------|---------|
 |2020-01-31     |2020. janúar      |  Já    |
 |2020-02-28     |2020. febrúar     |  Já    |
@@ -45,7 +45,7 @@ Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. se
 |2020-11-30     |Nóvember 2020   |         |
 |2020-12-31     |Desember 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Uppsetning fjárhags
+#### Uppsetning fjárhags
 
 |Svæði|Gildi:|
 |---------|---------|
@@ -54,15 +54,15 @@ Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. se
 |Skrá tíma:       |         |
 |Snið staðbundins aðseturs:|   Póstnúmer      |  
 
-#### <a name="user-setup"></a>Notandaupplýsingar
+#### Notandaupplýsingar
 
 |Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
 |NOTANDANAFN |  2020-09-10      |2020-09-30      |
 
-Með því að úthluta víðara leyfilegu dagsetningabili bókunar, eins og í birgðahaldstíma eða fjárhagsuppsetningu, verður hægt að koma í veg fyrir árekstra sem valda því að villuboðin koma upp. Færsla leiðréttingargildis með bókunardagsetningu 10. september verður bókuð með þessari uppsetningu.
+Með því að úthluta breiðari dagsetningasviði þar sem hægt er að bóka á síðurnar **Birgðatímabil** eða **Fjárhagsgrunnur** er hægt að koma í veg fyrir áreksturinn sem veldur villuboðunum. Til dæmis er hægt að bóka leiðréttingarvirðisfærsluna með 10. september bókunardagsetningu.
   
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
 
 [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

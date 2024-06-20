@@ -1,60 +1,63 @@
 ---
-title: Stofna birgðaspjald fyrir vörur eða þjónustu (inniheldur myndskeið)
+title: Stofna birgðaspjöld fyrir vörur eða þjónustu
 description: Þú býrð til birgðaspjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur. Sem dæmi má nefna samsetningaríhluti og fullbúnar vörur sem þú selur úr birgðum.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Skrá nýjar vörur
 
-Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vörurnar eða þjónustan sem þú stundar viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
+Vörur eru vörurnar eða þjónustan sem keypt er, geymt, selt, afhent og reikningsfært fyrir.  **Síðan Birgðaspjald** er notuð til að skrá upplýsingar um eftirfarandi tegundir atriða:
 
-Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
+* **Í birgðum** er tilgreint að varan sé efnisleg eining sem hægt er að stjórna og rekja í birgðum.
+* **Óbirgðir** eru efnislegar einingar sem ekki er stjórnað eða raktar í birgðum.
+* **Þjónustuvörur** eru vinnutímaeining, gjarnan notuð í þjónustukerfi.
 
-Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** eða **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er rakin í birgðum. Nánari upplýsingar er að finna í [Um vörugerðir](inventory-about-item-types.md).
+Nánari upplýsingar um þessar vörur eru í [Um vörutegundir](inventory-about-item-types.md).
 
-Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Frekari upplýsingar um samsetningaruppskriftir og framleiðsluuppskriftir er að finna í [Vinna með uppskriftir](inventory-how-work-BOMs.md).
+> [!TIP]
+> Einnig eru vörulistavörur sem líkjast vörum sem ekki eru í birgðum að því leyti að þær eru vörur sem boðnar eru viðskiptamönnum en stjórna ekki fyrr en þær eru selt. Til að fá nánari upplýsingar er farið í [Vinna við vörulistaatriði](inventory-how-work-nonstock-items.md).  
 
-Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja þessa lánardrottna við birgðaspjaldið. Síðan **Vörulisti** lánardrottins sýnir lánardrottna þannig að auðvelt er að velja annan lánardrottinn.
+## Aðal- og aðrir lánardrottnar
 
-*Vörulistaatriði* eru vörur sem þú býður viðskiptamönnum þínum en þú vilt ekki hafa umsjón með þeim í kerfinu fyrr en þú byrjar að selja þær. Vörulistaatriði eru ekki venjulega vörur af gerðinni **Ekki í birgðum**. Frekari upplýsingar eru í [Vinna með vörulistaatriði](inventory-how-work-nonstock-items.md).  
+Ef sama varan er keypt frá fleiri en einum lánardrottni er hægt að tengja þá lánardrottna við vöruna. Nota aðgerðina **Lánardrottnar** á síðunni **Birgðaspjald** til að opna **síðuna Vörulisti** lánardrottins. Síðan sýnir þá lánardrottna sem keypt er frá, þannig að auðvelt er að stofna eða velja annan lánardrottin þegar innkaupapöntun er stofnuð.
 
-> [!NOTE]  
-> Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist síða þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
+## Nota vörusniðmát
 
-Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Einnig er hægt að búa til ný birgðaspjöld með því að afrita birgðaspjald sem þegar er til staðar. Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).  
+Til að endurnota stillingar fyrir mismunandi tegundir vara þegar nýjar vörur eru stofnaðar er hægt að vista vörur sem vörusniðmát. Vörusniðmát hraða við að bæta við nýjum vörum og auka samkvæmni í vörugögnum. Þegar ný vara er skráð birtist síða sem gerir kleift að velja sniðmát. Þegar sniðmát hefur verið valið eru stillingar þess fylltar út fyrir vöruna sem verið er að stofna. Ef aðeins eitt vörusniðmát er fyrir hendi nota nýjar vörur alltaf það sniðmát. Til að fræðast um hvernig setja á upp vörusniðmát er farið í [Vista birgðaspjald sem vörusniðmát](#save-an-item-card-as-an-item-template).
 
-<br />
+## Taka vörur með í uppskriftum
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Hægt er að skipuleggja stigveldi með aðalvöru með undirliggjandi íhlutavörur í samsetningar- og framleiðsluuppskriftum. Hægt er að fræðast meira um uppskriftir með því að fara í [Vinna með uppskriftir](inventory-how-work-BOMs.md).
 
 ## Að búa til nýtt vöruspjald
+
+Eftirfarandi myndband sýnir hvernig vara er sett upp á síðunni Birgðaspjald. Einnig er hægt að setja upp nýjar vörur með því að afrita fyrirliggjandi vörur. Nánari upplýsingar eru notaðar með því að fara í [Afrita fyrirliggjandi vörur til að stofna nýjar vörur](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> Í reitnum **Aðferð kostnaðarútreiknings** seturðu upp hvernig kerfið reiknar út kostnaðarverð með því að áætla vöruflæði fyrirtækisins. Fimm aðferðir kostnaðarútreiknings eru í boði, út frá gerð vörunnar. Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).
+> Í reitnum **Aðferð kostnaðarútreiknings** seturðu upp hvernig kerfið reiknar út kostnaðarverð með því að áætla vöruflæði fyrirtækisins. Fimm aðferðir kostnaðarútreiknings eru í boði, út frá gerð vörunnar. Nánari upplýsingar um kostnað eru í [Hönnunarupplýsingar: Aðferðir kostnaðarútreiknings](design-details-costing-methods.md).
 >
-> Ef þú velur **Meðaltal** er kostnaðarverð vöru reiknað sem meðaleiningaverð vara á hverjum tímapunkti eftir innkaup. Fyrir verðmat birgða, er gert ráð fyrir að allar birgðir verði seldar á sama tíma. Með þessar stillingar geturðu valið **kostnaðarverð** reitinn á síðunni **Meðalkostnaður útreiknaður yfirlit** til að skoða færslusöguna sem meðalkostnaður er reiknaður út frá.
+> Ef meðalinnkaupsverð **er valið** er kostnaðarverð vörunnar reiknað sem meðalinnkaupaverð á hverjum tímapunkti eftir innkaup. Fyrir verðmat birgða, er gert ráð fyrir að allar birgðir verði seldar á sama tíma. Með þessari stillingu er hægt að velja reitinn **Kostn.verð** á síðunni **Útreikn.yfirlit** meðalinnkaupsverðs til að skoða færslurnar sem voru notaðar til að reikna út meðalinnkaupaverðið.
 
-Þú getur skoðað eða breytt sérstöku verði eða afslætti sem þú veitir, eða sem söluaðili þinn veitir þér, fyrir vöruna Ef tiltekin skilyrði eru uppfyllt, eins og viðskiptavinur, lágmarkspöntun eða lokadagsetning. Þetta er gert með því að velja **Stilla sérverð** eða **Stilla sérstaka afslætti**. Hver lína á, til dæmis á síðunni **Söluverð**, sýnir sértækt verð. Hver dálkur táknar viðmiðun sem verður að uppfylla til að veita viðskiptamanni sérverð sem þú slærð inn í **Einingaverð** reitinn á síðunni **Söluverð**. Frekari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md) eða [Skrá sérstakt söluverð og sérstaka afslætti](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Hægt er að nota sérverð eða afslátt sem notandi eða lánardrottinn veita fyrir vöruna samkvæmt ákveðnum skilyrðum. Skilyrði innihalda til dæmis viðskiptamanninn, lágmarksmagn pöntunar eða lokadagsetningu. Sérstök verð eru sett upp með því að velja Aðgerðirnar **Setja sérverð** eða **Setja sérstakan** afslátt. Hver lína á, til dæmis á síðunni **Söluverð**, sýnir sértækt verð. Hver dálkur táknar viðmiðun sem verður að uppfylla til að veita viðskiptamanni sérverð sem þú slærð inn í **Einingaverð** reitinn á síðunni **Söluverð**. Nánari upplýsingar um verðlagningu fást með því að fara í [Skrá söluverð, afslátt og Greiðslusamninga](sales-how-record-sales-price-discount-payment-agreements.md) eða [skrá sérstakt innkaupaverð og afslátt](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Varan hefur nú verið skráð og birgðaspjaldið má nú nota í skjölum vegna kaupa og sölu.
+### Vista birgðaspjald sem vörusniðmát
 
-Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.  
-
-### Til að vista birgðaspjald sem sniðmát
-
-1. Á síðunni **Birgðaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Vörusniðmát** opnast og sýnir birgðaspjaldið sem sniðmát.
+1. Á síðunni **Birgðaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Birgðasniðmát** sýnir birgðaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir vöruna.
-4. Breyta eða færa inn víddarkóta sem eiga við ný birgðaspjöld sem stofnuð eru með sniðmátinu.
-5. Þegar nýja vörusniðmátinu er lokið er hnappurinn **Í lagi** valinn.
+
+> [!TIP]
+> Einnig er hægt að endurnota víddir fyrir vörur. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** sýnir víddirnar sem eru settar upp fyrir vöruna. Breyta eða bæta við víddum sem eiga við nýjar vörur sem stofnaðar eru úr sniðmátinu.
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 

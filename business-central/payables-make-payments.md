@@ -1,28 +1,29 @@
 ---
-title: Yfirlit yfir umsjónarverkhluta greiðslna til lánardrottna
+title: Yfirlit yfir verk sem stjórna á greiðslum til lánardrottna
 description: 'Útskýrir verkhluta sem fela í sér stjórnun greiðslna til lánardrottna, eins og að bóka greiðslulínur og sækja yfirlit fyrir gjaldfallna stöðu.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
-ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Framkvæma greiðslur
+# Framkvæma greiðslur
 
-Þegar þú framkvæmir greiðslur til lánardrottna eða viðskiptamanna, eða endurgreiðir starfsmönnum, bókar þú tengdar greiðslulínur í **Greiðslubók** síðunni. Greiðslubókin er almenn færslubók sem er fínstillt til að framkvæma greiðslur og inniheldur fjölda öflugra aðgerða, svo sem **Greiðslutillögur til lánardrottna** aðgerð sem finnur lánardrottnagreiðslur sem eru komnar á gjalddaga, og **Lánardrottinn - aldursgreind samantekt** skýrsla sem sýnir yfirlit lánardrottnagreiðslna á gjalddaga.  
+Þú greiðir lánardrottnum eða viðskiptamönnum, eða endurgreiðir starfsmönnum, með því að bóka greiðslulínur á síðunni **Útgreiðslubók** . Útgreiðslubókin er færslubók sem er bjartsýni á greiðslur og býður upp á fjölda öflugra aðgerða. Til dæmis aðgerðina **Leggja til lánardrottnagreiðslur** sem finnur lánardrottnagreiðslur sem eru gjaldfalnar og **Aldursgreind** skýrsla lánardrottins sem sýnir yfirlit yfir greiðslur vegna lánardrottna.  
 
-Þú getur byrjað að framkvæma greiðsluna af listum, kortum og fjárhagsfærslum fyrir lánardrottna, viðskiptamenn og starfsmenn. Hver af þessum síðum hefur hnapp sem byrjar greiðsluflæðið og hjálpar þér að fylla út í greiðslubókina.  
+Hægt er að hefja greiðsluferlið í listum, spjöldum og færslum fyrir lánardrottna, viðskiptamenn og starfsmenn. Hver af þessum síðum hefur hnapp sem byrjar greiðsluflæðið og hjálpar þér að fylla út í greiðslubókina.  
 
-Úr greiðslubókinni er hægt að prenta vélfærða tékka eða skrá þegar tékkar eru skrifaðir. Þegar **Vélfærður tékki** er valinn í reitnum **Tegund bankagreiðslu** verður að prenta allar línur sem tákna tékka áður en hægt er að bóka greiðslubókina.
+Úr greiðslubókinni er hægt að prenta vélfærða tékka eða skrá þegar tékkar eru skrifaðir. Ef vélfærður tékki er valinn **í reitnum** Tegund **bankagreiðslu verður að prenta línur sem tákna tékka áður en hægt er að bóka útgreiðslubókina.** 
 
-Þegar greiðslurnar eru bókaðar eru þær fluttar í bankaskrá til að hlaða þær upp í banka til meðhöndlunar.
+Þegar greiðslur hafa verið bókaðar er hægt að flytja þær út í bankaskrá sem hægt er að hlaða upp í banka til vinnslu.
 
-Þegar búið er að framkvæma greiðslur til banka, þarf að jafna þær við tengdar opnar fjárhagsfærslur lánardrottna- eða starfmanna. Hægt er að gera það handvirkt eða með því að flytja inn bankayfirlitsskrá og jafna greiðslur sjálfkrafa. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Þegar búið er að framkvæma greiðslur til banka, þarf að jafna þær við tengdar opnar fjárhagsfærslur lánardrottna- eða starfmanna. Hægt er að jafna þær handvirkt eða með því að flytja bankayfirlitsskrá inn og jafna greiðslurnar sjálfkrafa. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
@@ -34,7 +35,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Greiða lánardrottni með peningum eða ávísun og bóka greiðsluna um leið og reikningurinn er bókaður. |[Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Gakktu úr skugga um að bankinn þinn eingöngu hreinsar staðfestar athuganir og magn með því að senda þeim skrá sem inniheldur seljanda, athugun og greiðsluupplýsingar. |[Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

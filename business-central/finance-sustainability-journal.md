@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Skrá sjálfbærnifærslur
+# Skrá sjálfbærnifærslur
 
 Eins og er er eina leiðin til að skrá losun gróðurhúsalofttegunda í sjálfbærnibók er að nota sjálfbærnibækur.
 
-## <a name="sustainability-journals"></a>Sjálfbærnibækur
+## Sjálfbærnibækur
 
 Sjálfbærnibækur eru hannaðar til að rekja og skrá sjálfbærnitengdar aðgerðir með því að nota sömu notendaupplifun og aðrar færslubækur í Business Central. Notendur sem hafa nauðsynlegar upplýsingar geta fært útblástur handvirkt í færslubók. Einnig er hægt að nota innbyggðar reiknireglur til að reikna út losun nákvæmlega samkvæmt þekktum færibreytum sem samsvara ýmsum tegundum uppruna og reikninga.
 
 Upplýsingarnar sem færðar eru inn í færslubók eru til bráðabirgða og hægt er að breyta þeim í þeirri færslubók. Þegar færslubókin er bókuð eru upplýsingarnar fluttar í sjálfbærnibókarfærslur á einstökum sjálfbærnireikningum þar sem ekki er hægt að breyta þeim. Hins vegar er hægt að bóka bakfærslu eða leiðréttingu færslna.
 
-### <a name="use-journal-templates-and-batches"></a>Nota bókarsniðmát og keyrslur
+### Nota bókarsniðmát og keyrslur
 
 Sjálfgefið er að um tvö sjálfbærnibókarsniðmát sé að ræða: staðlaða sniðmátið og ítrekunarsniðmátið.
 
@@ -30,13 +31,13 @@ Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók s
 > [!TIP]
 > Ef um margar línur er að ræða er hægt að draga úr hættu á mistökum með því að hafa eina bókarkeyrslu fyrir hverja útblásturstegund. Einnig er hægt að nota sameiginlega keyrslu fyrir allar tegundir útblásturs.
 
-### <a name="validate-sustainability-journals"></a>Staðfesta sjálfbærnibækur
+### Staðfesta sjálfbærnibækur
 
 Á síðunni **Sjálfbærniuppsetning** er hægt að kveikja á bakgrunnsprófun til að koma í veg fyrir bókunartafir. Ef einhver mistök sem verða á meðan unnið er í sjálfbærnibókinni tilkynnir staðfestingin þér og kemur í veg fyrir að bókin sé bókuð.
 
 Þegar staðfestingin er gerð virk sýnir upplýsingakassinn **Færslubókarprófun** úthreyfingar í opnu línunni og allri keyrslunni. Villuleit gerist þegar færslubókarkeyrsla er hlaðin inn og þegar önnur færslubókarlína er valin. Reiturinn **Samtala** útgáfa í upplýsingakassanum sýnir heildarfjölda vandamála sem [!INCLUDE [prod_short](includes/prod_short.md)] fundust. Hægt er að velja spjaldið til að opna yfirlit yfir úthreyfingarnar.
 
-### <a name="work-with-sustainability-journals"></a>Vinna með sjálfbærnibækur
+### Vinna með sjálfbærnibækur
 
 Til að byrja að vinna með sjálfbærnibækur skal fylgja eftirfarandi skrefum:
 
@@ -57,7 +58,7 @@ Til að byrja að vinna með sjálfbærnibækur skal fylgja eftirfarandi skrefum
 
 Ef reiknireglan er byggð á valkostinum **Reikna út úr fjárhag** í flokknum Sjálfbærnireikningur verður að nota aðgerðina **Innheimta upphæð úr fjárhagsfærslum** áður en færslubókin er bókuð, til að reikna út losun á grundvelli þessarar gagnagjafa. Ef breytingar hafa verið gerðar á útblástursstuðlum eftir að færslubókarlínurnar voru útfylltar þarf að velja aðgerðina **Endurreikna** til að fá rétta upphæð í færslubókinni.
 
-### <a name="recurring-journals"></a>Ítrekunarbækur
+### Ítrekunarbækur
 
 Ítrekunarbók er sjálfbærnibók sem hefur sérstaka reiti til að stjórna færslum sem oft eru bókaðar með fáum, ef einhverjar eru, breytist. Sem dæmi má nefna sjálfbærnihreyfingar eins og rafmagn eða hita eða aðrar áþekkar færslur. Hægt er að nota ítrekunarbækur til að bóka fastar og breytilegar upphæðir.
 
@@ -69,7 +70,7 @@ Reiturinn **Ítrekunartíðni** skiptir einnig máli og þarf að stilla hann. �
 
 Reiturinn **Fyrningardagsetning** ákvarðar dagsetninguna þegar línan verður bókuð í síðasta sinn. Ekki er hægt að bóka línuna eftir þá dagsetningu. Kosturinn við að nota reitinn **Útrunnið, dags** . er sá að línunni er ekki eytt strax úr færslubókinni. Þú getur slegið inn síðari dagsetningu þannig að þú getir notað línuna í framtíðinni. Ef reiturinn er auður bókast línan í hvert sinn, þar til henni er eytt úr færslubókinni.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármál](finance.md)  
 [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)  

@@ -1,34 +1,33 @@
 ---
-title: Byggja skýrslur á Power BI Desktop til að birta Business Central Data | Microsoft docs
+title: Byggingarskýrslur í Power BI Desktop til að birta Business Central data
 description: Notandi getur gert gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a>Byggingarskýrslur Power BI til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn
+# Byggingarskýrslur Power BI til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn
 
-Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI Desktop og byggt upp öflugar skýrslur um stöðu síns reksturs.
+Þú getur gert gögnin þín [!INCLUDE[prod_long](includes/prod_long.md)] tiltæk sem gagnagjafa í Power BI Desktop og byggt upp öflugar skýrslur um stöðu fyrirtækisins.
 
-Þessi grein lýsir því hvernig hafist er handa við að nota Power BI Desktop til að búa til skýrslur sem birta [!INCLUDE[prod_long](includes/prod_long.md)] gögn.  Þegar búið er að stofna skýrslur er hægt að birta þær í Power BI þjónustunni eða deila þeim með öllum notendum í fyrirtækinu. Þegar þessar skýrslur eru í Power BI þjónustunni geta notendur sem eru settir upp í henni skoðað skýrslurnar í [!INCLUDE[prod_long](includes/prod_long.md)].
+Þessi grein lýsir því hvernig byrja skal að nota Power BI Desktop til að stofna skýrslur sem birta [!INCLUDE[prod_long](includes/prod_long.md)] gögn. Þegar búið er að stofna skýrslur er hægt að birta þær í Power BI þjónustunni eða deila þeim með öllum notendum í fyrirtækinu. Þegar skýrslurnar eru í þjónustunni Power BI geta notendur sem settir eru upp fyrir hana skoðað skýrslurnar í [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a>Vertu með allt á tæru
+## Vertu með allt á tæru
 
 - Skráðu þig fyrir nýju Power BI þjónustuna.
 
-  Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
+  Ef þú ert ekki skráð(ur) farðu þá til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
 - Sækja [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
   Power BI Desktop er ókeypis forrit sem þú setur upp á staðbundinni tölvu. Frekari upplýsingar er að finna í [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Ganga skal úr skugga um að gögnin sem óskað er eftir í þessari skýrslu séu tiltæk sem API-síða eða birt sem vefþjónusta.
-
-  Frekari upplýsingar er að finna í [Birta gögn í gegnum API-síður eða OData-vefþjónustur](admin-powerbi-setup.md#exposedata).
+- Ganga skal úr skugga um að gögnin sem óskað er eftir í þessari skýrslu séu tiltæk sem API-síða eða birt sem vefþjónusta. Frekari upplýsingar er að finna í [Birta gögn í gegnum API-síður eða OData-vefþjónustur](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -45,7 +44,7 @@ Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín að
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
+## <a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
 Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnagjafa á Power BI Desktop. Þegar það er tengt er hægt að byrja að búa til skýrslu.
 
@@ -61,24 +60,24 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/pro
 
 5. Skráðu þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] (aðeins í eitt skipti).
 
-    Ef þú hefur ekki skráð þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] úr Power BI skjáborðinu verður þú beðin(n) um að skrá þig inn.
+    Ef notandi er ekki skráður inn [!INCLUDE [prod_short](includes/prod_short.md)]  Power BI á skjáborðið birtist kvaðning um innskráningu.
 
     - Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skal velja **Innskráning** og síðan velja réttan reikning. Notaðu sama reikning og þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með. Þegar því er lokið velur þú **Tengjast**.
 
     <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
-    > Þegar þú hefur tengst við [!INCLUDE[prod_short](includes/prod_short.md)] verð þú ekki beðinn aftur um að skrá þig inn. [Hvernig breyti ég eða hreinsa reikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
+    > Þegar tengst hefur verið við [!INCLUDE[prod_short](includes/prod_short.md)] birtist ekki kvaðning aftur um innskráningu. [Hvernig breyti ég eða hreinsa reikninginn sem ég nota núna til að tengjast Business Central frá Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. Þegar þú hefur tengst, Power BI tengiliðir við Business Central-þjónustuna. Glugginn **Skoðun** birtist og sýnir tiltæka gagnagjafa til að búa til skýrslur. Veldu möppu til að stækka hana og sjá tiltæka gagnagjafa. 
+6. Þegar tengst er tengiliðum Power BI  við þjónustuna [!INCLUDE [prod_short](includes/prod_short.md)] . Glugginn **Navigator** birtir gagnagjafa sem tiltækir eru til að byggja skýrslur. Velja möppu til að stækka hana og sýna tiltæka gagnagjafa.
 
-   Þessi gagnagjafar standa fyrir allar vefþjónusturnar og API-síðurnar sem eru gefnar út fyrir [!INCLUDE [prod_short](includes/prod_short.md)]. Gagnagjöfunum er flokkað eftir umhverfum og fyrirtækjum Business Central. Með Business Central á netinu hefur **Skoðari** eftirfarandi skipulag:
+   Þessar gagnaveitur standa fyrir allar vefþjónustur og API-síður sem birtar eru fyrir, flokkaðar eftir umhverfi og fyrirtækjum [!INCLUDE [prod_short](includes/prod_short.md)]. Með [!INCLUDE [prod_short](includes/prod_short.md)] online, **Navigator** hefur eftirfarandi skipulag:
 
     - **Heiti umhverfis**
       - **Nafn fyrirtækis**
         - **Ítarlegt API**
 
-          Þessi mappa sýnir ítarlegar API-síður sem Microsoft gefur út, t.d. [API Business Central-sjálfvirkni](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [sérsniðnar API-síður fyrir Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Sérsniðnar API-síður eru ennfremur flokkaðar í möppur eftir eiginleikunum [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) af upprunakóða API-síðunnar.
+          Þessi mappa sýnir ítarlegar API-síður sem Microsoft gefur út, t.d. [API Business Central-sjálfvirkni](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [sérsniðnar API-síður fyrir Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Sérsniðnar API-síður eru flokkaðar frekar í möppur samkvæmt [eiginleikum APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) í upprunakóta API-síðunnar.
 
         - **Staðlað API v2.0**
 
@@ -95,44 +94,44 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/pro
 7. Veldu gagnagjafana eða upprunastaðina sem þú vilt bæta við gagnalíkanið þitt og veldu svo hnappinn **Hlaða**.
 8. Ef þú vilt síðar bæta við frekari gögnum Business Central er hægt að endurtaka fyrri skref.
 
-Þegar gögnum hefur verið hlaðið er hægt að sjá þau á hægra yfirlitssvæði síðunnar. Þér tókst að tengjast gögnum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og getur byrjað að byggja upp Power BI-skýrsluna þína.  
+Þegar gögnum hefur verið hlaðið er hægt að sjá þau á hægra yfirlitssvæði síðunnar. Þá tengist þú gögnunum þínum [!INCLUDE[prod_short](includes/prod_short.md)] og getur byrjað að byggja skýrsluna Power BI .  
 
 > [!TIP]
 > Frekari upplýsingar um notkun Power BI Desktop eru í [Hafist handa með Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Stofnun aðgengisskýrslna
+## Stofnun aðgengisskýrslna
 
 Mikilvægt er að gera skýrslurnar nothæfar fyrir eins marga og mögulegt er. Reynið að hanna skýrslur þannig að þær þurfi enga sérstaka aðlögun til að mæta sérþörfum mismunandi notenda. Gangið úr skugga um að hönnunin geri notendum kleift að nýta hefðbundin hjálpartækni á borð við skjálesara. Power BI inniheldur ýmsa aðgengiseiginleika, verkfæri og leiðbeiningar sem hjálpa þér að ná þessu markmiði. Frekari upplýsingar um [Power BI Hönnunarskýrslur um aðgengi](/power-bi/create-reports/desktop-accessibility-creating-reports) eru í Power BI skjölunum.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Stofnun skýrslna til að birta gögn sem tengjast lista
+## Stofnun skýrslna til að birta gögn sem tengjast lista
 
-Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [prod_short](includes/prod_short.md)]-listasíðu. Í skýrslunum má finna gögn um færslurnar sem eru valdar á listanum. Að búa til þessar skýrslur er svipað og í öðrum skýrslum, fyrir utan að það eru nokkrir hlutir sem þarf að gera til að ganga úr skugga um að skýrslurnar birtist eins og þær eiga að gera. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [prod_short](includes/prod_short.md)]-listasíðu. Í skýrslunum má finna gögn um færslurnar sem eru valdar á listanum. Stofnun þessara skýrslna svipar til annarra skýrslna, nema ýmislegt er hægt að gera til að tryggja að skýrslurnar birtist eins og væntanlegt er. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst)
+## <a name="theme"></a>Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst)
 
 Áður en þú býrð til skýrsluna mælum við með að þú sækir og flytjir inn [!INCLUDE [prod_short](includes/prod_short.md)] þemaskrána. Þemaskráin býr til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)] forrit án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
 
 > [!NOTE]
 > Þetta verk er valfrjálst. Alltaf er hægt að stofna skýrslurnar og sækja síðan og nota stílsniðmátið síðar.
 
-### <a name="download-the-theme"></a>Sækja þema
+### Sækja þema
 
 Þemaskráin er í boði sem json-skrá á Microsoft Power BI Community Themes Gallery. Til að hlaða niður þemaskránni skal gera eftirfarandi:
 
 1. Farðu á [Microsoft Power BI Community Themes Gallery fyrir Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Veldu að hlaða niður viðhenginu **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a>Flytja inn þemað í skýrslu
+### Flytja inn þemað í skýrslu
 
-Þegar búið er að hlaða niður [!INCLUDE [prod_short](includes/prod_short.md)]-skýrsluþema er hægt að flytja það inn í skýrslur. Til að flytja inn þemað skal velja **Skoða** > **Þemu** > **Skoða fyrir þemað**. Frekari upplýsingar er að finna í [Power BI Desktop - Flytja inn sérstillt skýrsluþema](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Þegar skýrsluþemað hefur [!INCLUDE [prod_short](includes/prod_short.md)] verið sótt er hægt að flytja það inn í skýrslurnar. Til að flytja inn þemað skal velja **Skoða** > **Þemu** > **Skoða fyrir þemað**. Frekari upplýsingar er að finna í [Power BI Desktop - Flytja inn sérstillt skýrsluþema](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Birta skýrslur
+## Birta skýrslur
 
-Þegar búið er að stofna eða breyta skýrslu er hægt að birta skýrsluna í Power BI þjónustunni og einnig deila henni með öðrum í fyrirtækinu. Þegar þetta er birt muntu sjá skýrsluna í Power BI. Þessi skýrsla verður einnig tiltæk fyrir val í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þegar skýrsla hefur verið stofnuð eða henni breytt er hægt að birta skýrsluna til þjónustunnar Power BI og deila henni einnig með öðrum innan fyrirtækisins. Þegar skýrsla hefur verið gefin út er hún tiltæk í Power BI. Þessi skýrsla verður einnig tiltæk fyrir val í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum eða úr valmyndinni **Skrá** . Ef þú ert skráð (ur) inn á Power BI þjónustuna er skýrslan gefin út á þessari þjónustu. Annars ertu beðin(n) um að skrá þig inn. 
 
-## <a name="distribute-or-share-a-report"></a>Dreifa eða deila skýrslu
+## Dreifa eða deila skýrslu
 
 Það eru nokkrar leiðir til að sækja skýrslur samstarfsstarfsmanna og annarra:
 
@@ -147,19 +146,28 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 
     Ef um er að ræða Power BI Pro-leyfi er hægt að deila skýrslunni til annarra, beint úr Power BI-þjónustunni. Frekari upplýsingar er að finna á [Power BI - Deila stjórnborði eða skýrslu](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Vandamál lagfærð
+## Hvernig á að þróa skýrslur milli fyrirtækja eða þvert á umhverfi Power BI 
 
-### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Ég get ekki sett inn færslu. Núverandi tenging er „Ritvarinn“. villa við að tengjast sérsniðinni API-síðu
+API-endastöðvarnar [!INCLUDE[prod_short](includes/prod_short.md)] hafa allir forskeytið `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` fylgt (`/companies({company_id})/accounts({id})` hér notum `accounts` við API sem myndskýringu). Hægt er að nota þessa uppbyggingu til að stofna PowerQuery fyrirspurnir sem hlaða gögnum fyrir mörg fyrirtæki eða mörg umhverfi ef notandinn sem les gögnin hefur aðgang að þeim.
+
+Til að setja upp fyrirspurn til að hlaða inn gögnum fyrir mörg fyrirtæki skal fylgja eftirfarandi skrefum:
+
+1. Taka PowerQuery fyrirspurnina sem hleður inn gögnum fyrir eitt fyrirtæki. Breyta því í sérsniðna Power Query aðgerð sem tekur fyrirtækiskennið (eða umhverfisheitið) sem færibreytur. Nánari upplýsingar eru notaðar með því að [fara í Notkun sérsniðinna Power Query aðgerða](/power-query/custom-function).
+1. Nú skal nota nýju sérsniðnu aðgerðina í PowerQuery fyrirspurn þar sem aðgerðinni er varpað yfir lista yfir fyrirtæki og svo eru gagnasöfnin sameinuð með aðgerðinni [Table.Combine](/powerquery-m/table-combine) Power Query .
+
+## Vandamál lagfærð
+
+### "Ég get ekki sett inn færslu. Núverandi tenging er „Ritvarinn“. villa við að tengjast sérsniðinni API-síðu
 
 > **GILDIR UM:** Business Central Online
 
-Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central-gögn sjálfgefið tengjast ritvarinni eftirmynd af gagnagrunni Business Central. Í mjög sjaldgæfum tilfellum, eftir því hver síðuhönnunin er, færðu villu þegar þú reynir að tengjast og fá gögn af síðunni.
+Í febrúar 2022 hefjast nýjar skýrslur sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sjálfgefið gagnatengingu við ritvarið eftirlíkingu gagnagrunnsins [!INCLUDE [prod_short](includes/prod_short.md)] . Í sjaldgæfum tilvikum gæti komið upp villa eftir síðuhönnun þegar reynt er að tengjast og sækja gögn af síðunni.
 
 1. Ræsið Power BI Desktop.
 2. Á borðanum skaltu velja **Sækja gögn** > **Netþjónusta**.
 3. Á svæðinu **Netþjónusta** skaltu velja**Dynamics 365 Business Central** og síðan **Tengja**.
 4. Í glugganum **Skoðari** skaltu velja API-endastöð sem þú vilt hlaða gögnum úr.
-5. Á forskoðunarsvæðinu hægra megin sérðu eftirfarandi villu:
+5. Forskoðunarsvæðið sýnir eftirfarandi villu:
 
    *Dynamics365BusinessCentral: Beiðni mistókst: Fjarþjónninn skilaði villu: (400) Slæm beiðni. (Ekki er hægt að setja inn færslu. Núgildandi ásetningur tengingar er ritvarinn. CorrelationId: [...])".*
 
@@ -180,7 +188,7 @@ Frá og með febrúar 2022 munu nýjar skýrslur sem nota Business Central-gögn
 9. Velja **Ekkert**.
 10. Veldu **Loka og nota** af borðanum til að vista breytingar og loka Power Query ritlinum.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Virkjun viðskiptagagna fyrir Power BI](admin-powerbi-setup.md)  
 [Viðskiptaupplýsingar](bi.md)  

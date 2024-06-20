@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
+# Hönnunarupplýsingar: Framboð á lager
 
 Halda skal ofan á vörur til ráðstöfunar til að tryggja að pantanir á útleið flæði á skilvirkan hátt og að afhendingartímar séu ákjósanlegir.  
 
@@ -22,13 +22,13 @@ Ráðstöfunarmagn getur verið mismunandi eftir mörgum þáttum. Fr.dæmi:
 
 Þegar skilyrðum er ekki uppfyllt birtast villuboð. Dæmigerð skilaboð eru almenn "Ekkert til að meðhöndla." skilaboð. Skilaboðin er hægt að birta af mörgum mismunandi ástæðum í flæði á útleið og innleið þar sem í fylgiskjalslínu er **reiturinn Magn til afgreiðslu** .
 
-## <a name="bin-content-and-reservations"></a>Innihald hólfs og frátekningar
+## Innihald hólfs og frátekningar  
 
 Vörumagn er bæði til sem vöruhúsafærslur og birgðafærslur í birgðum. Þessar tvær tegundir færslna innihalda ólíkar upplýsingar um hvar vörurnar eru og hvort þær eru tiltækar. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðafærslur skilgreina ráðstöfunarmagn vöru með því að taka frá fyrir fylgiskjöl á útleið.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reiknar magnið sem er tiltækt til tínslu þegar innihald hólfs er parað með frátekningum.  
 
-## <a name="quantity-available-to-pick"></a>Tiltækt magn til tínslu
+## Tiltækt magn til tínslu  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Tekur vörur frá fyrir afhendingu sölupöntunar í undirbúningi svo að þær séu ekki tíndar fyrir aðrar sölupantanir sem afhendast fyrr. [!INCLUDE [prod_short](includes/prod_short.md)] dregur frá magn vara sem þegar er verið að vinna, á eftirfarandi hátt:
 
@@ -47,7 +47,7 @@ Niðurstaðan er tiltæk í þessum skjölum í magnreitunum, t.d. reitnum **Mag
 > [!NOTE]  
 > Fyrir forgang frátekninga er magnið sem á að taka frá dregið frá tiltæku magni sem hægt er að tína. Til dæmis ef tiltækt magn í tínsluhólfum er 5 einingar en 100 einingar eru í frágangshólfum þegar fleiri en 5 einingar eru teknar frá fyrir aðra pöntun birtast villuboð þar sem viðbótarmagn verður að vera tiltækt í tínsluhólfum.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Reiknar tiltækt magn til tínslu
+### Reiknar tiltækt magn til tínslu  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reiknar tiltækt magn til tínslu á eftirfarandi hátt:  
 
@@ -57,7 +57,7 @@ Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.
 
 ![Tiltækt í tínslu, með skörun í frátekningu.](media/design_details_warehouse_management_availability_2.png "Tiltækt í tínslu, með pöntunarskörun")  
 
-## <a name="quantity-available-to-reserve"></a>Tiltækt magn til frátekninga
+## Tiltækt magn til frátekninga
 
 Þar sem hugtökin um innihald hólfa og frátekningu á hólfum verða magn vara sem tiltækar eru til frátekningar að samræmast úthlutunum á vöruhúsaskjöl á útleið.  
 
@@ -74,11 +74,11 @@ Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **
 
 Í frátekningarlínu er magnið sem ekki er hægt að taka frá vegna þess að því er úthlutað í vöruhúsinu birt í reitnum **Úthlutað magn í vöruhúsi** á **frátekningarsíðunni** .  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kanna hvort vörur séu tiltækar til tínslu
+## Kanna hvort vörur séu tiltækar til tínslu
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Útreikningur á tiltæku magni til að taka frá
+### Útreikningur á tiltæku magni til að taka frá
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reiknar tiltækt magn til að taka frá á eftirfarandi hátt:  
 
@@ -88,7 +88,7 @@ Eftirfarandi skýringarmynd sýnir mismunandi þætti í útreikningi.
 
 ![Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi.](media/design_details_warehouse_management_availability_3.png "Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi")  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Skoða tiltækileika vöru](inventory-how-availability-overview.md)

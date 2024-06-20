@@ -10,9 +10,10 @@ ms.search.form: '1439,'
 ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Nauðsynleg viðauki viðskipti
+# Nauðsynleg viðauki viðskipti
 
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
@@ -31,7 +32,7 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 |Verkefnastjóri| Sýnir kveðju og tengil á afurðarupplýsingar.|
 |Stjórnandi| Sýnir kveðju og tengil á afurðarupplýsingar.|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)
 

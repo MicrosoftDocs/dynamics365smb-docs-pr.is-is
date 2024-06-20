@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
+# Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
 
-Þegar innkaupaferli verða stafrænni gegnir e-skjöl aðgerðin Business Central lykilhlutverki í því að gera móttöku og vinnslu lánardrottins sjálfvirka. Copilot getur hjálpað þessu ferli með því að bæta vörpun og samsvörun reikninga lánardrottna á innkaupapantanir. Þetta styttir tímafrek verk sem myndu venjulega fela í sér umfangsmikla leit, uppflettingu og gagnafærslu. Kosturinn er samsettur af þeirri staðreynd að reikningar lánardrottna tengjast oft ekki nákvæmlega innkaupapöntunum, í hvaða tilviki Copilot er betur staðsett til að auðkenna samsvarandi innkaupapantanir. Aukin samsvörunargeta gagnast sérstaklega litlum og miðstýrðum fyrirtækjum sem þurfa skilvirka rakningu skjala fyrir innkaupapantanalínur. Copilot er aðstoðarmaður sem eykur sköpunarkraft og bætir framleiðni Hjá Business Central notendum.
+Þegar innkaupaferli verða stafrænni gegnir e-skjöl aðgerðin Business Central lykilhlutverki í því að gera móttöku og vinnslu lánardrottins sjálfvirka. Copilot getur hjálpað þessu ferli með því að bæta vörpun og samsvörun reikninga lánardrottna á innkaupapantanir. Þessi aðstoð styttir tíma sem eytt er í verk sem fela venjulega í sér umfangsmikla leit, uppflettingu og gagnafærslu. Annar kostur er þegar lánardrottnareikningar tengjast ekki nákvæmlega innkaupapöntunum. Í því tilviki er Copilot vel staðsett til að auðkenna samsvarandi innkaupapantanir. Aukin samsvörunargeta gagnast sérstaklega litlum og miðstýrðum fyrirtækjum sem þurfa skilvirka rakningu skjala fyrir innkaupapantanalínur. Copilot er aðstoðarmaður sem eykur sköpunarkraft og bætir framleiðni Hjá Business Central notendum.
 
 > [!IMPORTANT]
-> - Þetta er aðgerðin Production Ready Preview fyrir framleiðslu- og sandkassaumhverfi í hvaða landi sem er, að undanskildum Kanada.
+> - Þetta er eiginleikinn Forskoðun framleiðslu tilbúið fyrir framleiðslu- og sandkassaumhverfi í hvaða landi sem er.<!-- with the exception of Canada -->.
 > - Forskoðun framleiðslu tilbúnar er háð viðbótarnotkunarskilmálum. Nánari upplýsingar: [Viðbótarnotkunarskilmálar fyrir Dynamics 365 forskoðun](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - Ónýtt efni getur verið rangt.
 
@@ -25,35 +25,34 @@ ms.custom: bap-template
 
 Nú er hægt að uppfæra fyrirliggjandi innkaupapöntun í Business Central með þeim upplýsingum sem berast í tölvupósti.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Tiltæk tungumál
 
-## <a name="to-activate-copilot"></a>Til að virkja copilot
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Virkja stjórnklefa  
 
 Ef afritað var fyrir samsvörunarútgáfu **e-skjals var ekki virkt** þarf að gera það handvirkt. Til að virkja **aðstoð við samsvörun** tölvupóstskjala skal fylgja eftirfarandi skrefum: 
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Copilot & AI Getu** og velja síðan viðeigandi tengil. 
 2. Í listanum yfir getu skal velja **aðstoð við samsvörun** tölvupósts og breyta stöðunni **í Virk**.  
 
-Þú getur byrjað að nota Copilot um leið og það er virkjað. 
+Hægt er að byrja að nota Copilot um leið og hann er virkjaður. 
 
-## <a name="identify-purchase-orders"></a>Auðkenna innkaupapantanir
+## Auðkenna innkaupapantanir
 
-Fyrst er hægt að auðkenna innkaupapantanirnar sem hægt er að jafna sjálfkrafa.  **Ef lánardrottinn** hefur grunnstillt reitinn **Taka á móti e-fylgiskjali til** til að vinna með **Innkaupapantanir**, þegar rafræna skjalið er stofnað í [!INCLUDE[prod_short](includes/prod_short.md)]  (handvirkt eða frá ytri endastöð) [!INCLUDE[prod_short](includes/prod_short.md)]  gerir það eftirfarandi:
+Fyrst er hægt að auðkenna innkaupapantanirnar sem hægt er að jafna sjálfkrafa.  **Ef lánardrottininn** grunnstillti reitinn **Taka á móti e-fylgiskjali til** til að vinna með **Innkaupapantanir**, þegar rafræna skjalið er stofnað í [!INCLUDE[prod_short](includes/prod_short.md)]  (handvirkt eða frá ytri endastöð) [!INCLUDE[prod_short](includes/prod_short.md)]  er eftirfarandi:
 
-1.  **Ef innkaupapöntun** fyrir þennan tiltekna lánardrottinn *er til og innkaupapöntunarnúmer* er í móttekinni **E-fylgiskjalsskrá**  tengir þetta [!INCLUDE[prod_short](includes/prod_short.md)] E-fylgiskjal **sjálfkrafa** við tilgreinda **innkaupapöntun**. Staða **skjals þessa** e-fylgiskjals **verður** Í vinnslu **og Staða** tölvupóstskjalsins **á** undirsíðu þjónustustöðu **verður** Pöntun tengd **.**  
+1.  **Ef Innkaupapöntun** fyrir þennan tiltekna lánardrottinn *er til og innkaupapöntunarnúmer* er í móttekinni **E-fylgiskjalsskrá**  tengir þetta [!INCLUDE[prod_short](includes/prod_short.md)] E-fylgiskjal **sjálfkrafa** við tilgreinda **innkaupapöntun**. Staða **skjals þessa** E-skjals **er** í vinnslu **og Staða** tölvupóstskjalsins **á** undirsíðu þjónustustöðu **er** Pöntun tengd **.**  
 Þessi tengill sést í reitnum **Fylgiskjal** á þessu tiltekna **E-fylgiskjali**. Ef þörf er á að breyta innkaupapöntuninni **sem** tengd er sjálfvirkt er hægt að gera það með því að nota aðgerðina **Uppfæra innkaupapöntunartengil** og velja síðan eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin handvirkt. Það er aðeins hægt að gera áður en þær samsvara línunum milli **E-fylgiskjals** og **Innkaupapöntunar**.  
-2. Ef Innkaupapöntun **fyrir þennan tiltekna lánardrottinn** er til en ekkert innkaupapöntunarnúmer *er í skjalinu sem var móttekið* E-fylgiskjal **, ef skjalið var hlaðið upp handvirkt,**  gerir það mögulegt að velja úr einni af þeim innkaupapöntunum sem fyrir eru, með því að opna [!INCLUDE[prod_short](includes/prod_short.md)] listann Innkaupapantanir **úr pöntununum sem þú komst frá lánardrottnum sem innihalda aðeins** E-fylgiskjal **, þar sem þú þarft að velja** Innkaupapöntun **sem þú vilt og velja** Í lagi **.** Ef rétt **innkaupapöntun** er ekki valin eða E-skjalið **er** sjálfkrafa valið frá ytri endastöð með **Verkröð** verður nýja **E-skjalið** ekki tengt neinu **innkaupaskjali og Staða** fylgiskjals birtist sem **Villa** og **staða** E-skjals á **undirsíðunni Þjónustustaða** er **Lesin inn skjalavinnsluvilla**. Til að ljúka við að **tengja Innkaupapöntun** skal velja aðgerðina **Uppfæra innkaupapöntunartengil** og velja síðan eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin.  
+2. Ef Innkaupapöntun **fyrir þennan tiltekna lánardrottinn** er til en ekkert innkaupapöntunarnúmer *er í skjalinu sem var móttekið* E-fylgiskjal **, ef skjalið var hlaðið upp handvirkt,**  gerir það mögulegt að velja úr einni af þeim innkaupapöntunum sem fyrir eru, með því að opna [!INCLUDE[prod_short](includes/prod_short.md)] listann Innkaupapantanir **úr pöntununum sem þú komst frá lánardrottnum sem innihalda aðeins** E-fylgiskjal **, þar sem þú þarft að velja** Innkaupapöntun **sem þú vilt og velja** Í lagi **.** Ef rétt **innkaupapöntun er ekki valin eða E-skjalið** er **sjálfkrafa valið frá ytri endastöð með** Verkröð **er nýja** E-skjalið **ekki tengt innkaupaskjalinu og Staða** skjals birtist sem **Villa** og **staða** **E-skjals á** undirsíðunni Þjónustustaða **er** Flutt inn **skjalavinnsluvilla**. Til að ljúka við að **tengja Innkaupapöntun** skal velja aðgerðina **Uppfæra innkaupapöntunartengil** og velja síðan eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin.  
 
-## <a name="map-lines"></a>Varpa línum
+## Varpa línum
 
 Copilot auðveldar samsvörun e-reikningslína sjálfvirkt við innkaupapantanalínur og býður upp á auka samsvörunarupplýsingar til að bæta samsvörunina.
 
 Eftir að þær hafa verið jafnaðar og varpaðar [!INCLUDE [prod_short](includes/prod_short.md)]  uppfærir samsvarandi innkaupapöntun með viðeigandi móttökuupplýsingum til að tryggja að rétt magn berist í pöntunarlínurnar.
 
-Þú getur passað við móttekin rafræn skjöl við línur innkaupapantananna frá tveimur mismunandi stöðum, af **síðunni E-skjöl** eða af síðunni **Innkaupapöntun** . Auðveldasta leiðin til að finna innkaupapantanirnar sem þegar eru tengdar **er** að nota reitinn **Tengdar innkaupapantanir** sem hluta af **aðgerðum** E-skjala. Öll fylgiskjöl sem ekki eru tengd er að finna með því að nota reitinn **Biðinnkaupareikningar** þar sem listi yfir **E-skjöl** þarf að skoða.  
+Þú getur passað við móttekin rafræn skjöl við línur innkaupapantananna frá tveimur mismunandi stöðum, af **síðunni E-skjöl** eða af síðunni **Innkaupapöntun** . Auðveldasta leiðin til að finna innkaupapantanirnar sem þegar eru tengdar **er** að nota reitinn **Tengdar innkaupapantanir** sem hluta af **aðgerðum** E-skjala. Öll ótengd skjöl er að finna með reitnum **Biðinnkaupareikningar** þar sem listi yfir **E-skjöl** þarf að skoða.  
 
 > [!NOTE]
 > Aðgerðir **í** E-fylgiskjali með þessum tveimur flísum er að finna í eftirfarandi hlutverkum (Mitt hlutverk): **Mat** viðskiptastjóra, **viðskiptastjóra**, endurskoðanda **,** **birgðastjóra** og **afhendingar og móttöku**.
@@ -64,11 +63,11 @@ Eftir að þær hafa verið jafnaðar og varpaðar [!INCLUDE [prod_short](includ
 2. Hægt er að taka eftir að **kvaðning** um samsvörun tölvupóstskjala með afritunarkvaðningu **er virk og** síðan Samsvörun innkaupapöntunar er í bakgrunni. Það þýðir að sama ferlið er að gerast, en með sjálfvirkum stuðningi **Copilot**, sem keyrir samsvörunarferlið í staðinn fyrir þig. 
 3. Eftir nokkrar sekúndur munu samsvörunarpöntunarlínur e-skjals **með afritalot** stinga upp á línum til samræmis við nokkrar nánari upplýsingar: 
 
-    1. Í kvaðningarhausnum er að finna eftirfarandi upplýsingar: 
+    1. Í kvaðningarhausnum er að finna eftirfarandi upplýsingar:   
 
     |Heiti reits |Heimildasamstæða |
     |--------|-----------------|
-    |Sjálfvirk samsvörun | Tilgreinir þann fjölda samsvörunar sem lagt er til sjálfvirkt. Þetta er byggt á strengjasamanburði og ef 80% eða fleiri lýsingar skarast passar kerfið sjálfkrafa við þessar lýsingar án þess að nota GPT getu. |
+    |Sjálfvirk samsvörun | Tilgreinir þann fjölda samsvörunar sem lagt er til sjálfvirkt. Þetta númer er byggt á strengjasamanburði og ef 80% eða fleiri lýsingar skarast passar kerfið sjálfkrafa við þessar lýsingar án þess að nota Copilot getu. |
     |Copilot-pörun | Tilgreinir þann fjölda samsvöruna sem copilot leggur til með bæði strengja- og merkingarsamanburði. |
     |Nr. rafræns skjals | Tilgreinir númer tengda tölvupóstskjalsins. |
     |Heildarupphæð reiknings án VSK | Tilgreinir heildarupphæð reiknings án VSK. |
@@ -81,10 +80,10 @@ Eftir að þær hafa verið jafnaðar og varpaðar [!INCLUDE [prod_short](includ
     |--------|-----------------|
     |Línunr. rafræns skjals | Tilgreinir línunúmer tölvupóstskjalsins (sem kemur úr upphaflegu e-skjalaskránni). |
     |Lýsing á rafrænni skjalalínu | Tilgreinir lýsingu e-skjalslínunnar (sem kemur úr upphaflegu e-skjalaskránni). |
-    |Samsvarað magn | Tilgreinir magnið sem á að jafna við innkaupapöntunarlínuna. |
+    |Samsvarað magn | Tilgreinir magnið sem notað er á innkaupapöntunarlínuna. |
     |Tillaga | Tilgreinir aðgerðina sem AI leggur til og þessar aðgerðir sem lagðar eru til tengjast samsvarandi innkaupapöntunarlínum. |
 
-    4. Allar tillögur og samsvarandi línur eru merktar með grænum lit. Ef eitthvað er um að ræða, til dæmis mismunandi verð, en á leyfilegu verðbili er þessi lína merkt með gulum lit og ef einhver líkt er á milli lýsingarreitanna, en verðmunurinn er meiri en leyfður er þessi lína merkt með rauðum lit. 
+    4. Allar tillögur og samsvarandi línur eru merktar með grænum lit. Ef um er að ræða úthreyfingu, til dæmis annað verð en innan leyfilegs verðbils er þessi lína merkt með gulum lit. Ef einhver líkindi eru milli lýsingarreitanna en verðmunurinn er hærri en leyfður er þessi lína merkt með rauðum lit.
     5. Ef einhverjar tillögur eru ekki fullnægjandi er hægt að eyða þeim með aðgerðinni **Eyða línu** .  
     6. Ef þú vilt sjá tillögusamsvörun er hægt að velja tengilinn í dálknum **Tillaga** til að opna síðuna Samsvörun **e-skjals** . 
     7. Á síðunni **Samsvörunarupplýsingar e-skjals** er hægt að bera saman upplýsingar úr **E-skjölunum** og **innkaupapöntuninni** til að ganga úr skugga um samsvörunina sem lögð er til áður en hún er staðfest. 
@@ -101,7 +100,7 @@ Eftir að þær hafa verið jafnaðar og varpaðar [!INCLUDE [prod_short](includ
 > [!NOTE]
 > Greining verðs/kostnaðar og tiltæk athugun á magni er hluti af forvinnsluaðgerð. 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir tölvupóstskjöl](finance-edocuments-overview.md)    
 [Nota tölvupóstskjöl í sölu](finance-how-use-edocuments.md)    

@@ -10,13 +10,13 @@ ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-project"></a>Kynning: Útreikningur verks í vinnslu fyrir verk
+# Kynning: Útreikningur verks í vinnslu fyrir verk
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgjast með ýmsum kostnaði sem tengist notkun forða í tilteknu verkefni. Verkefnið felur í sér notkun á vinnutíma starfsmanna, vélastundir, birgðavörur og aðrar gerðir notkunar sem þarf að rekja sem verkferla. Ef verk er keyrt yfir langt tímabil gæti þurft að flytja þann kostnað yfir á VÍV-reikning verks (VÍV) á efnahagsreikningi á meðan verkinu er lokið. Síðan er hægt að samþykkta kostnað og sölu á rekstrarreikningi þegar það á við.  
 
-## <a name="about-this-walkthrough"></a>Um kynninguna
+## Um kynninguna
 
  Þessi kynning fjallar um eftirfarandi verk:  
 
@@ -28,19 +28,19 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 
  Hvert skref í ferlinu reiknar út virðið og færir verkfærslurnar í fjárhaginn. Útreikningur og bókun eru aðskilin svo hægt sé að fara yfir gögn og gera breytingar áður en bókað er í fjárhaginn. Þess vegna þarf að ganga úr skugga um að allar upplýsingar séu réttar eftir að útreikningskeyrslur eru keyrðar og áður en bókunarkeyrslur eru keyrðar.  
 
-## <a name="roles"></a>Hlutverk
+## Hlutverk
 
  Þessi kynning notar Tinnu sem meðlim verkefnateymisins.  
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] í tölvunni.  
 
-## <a name="story"></a>Ferill
+## Ferill
 
  Þessi kynning einblínir á fyrirtækið CRONUS International Ltd., hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp nýja innviði á borð við ráðstefnusali og skrifstofur, með húsgögn, aukahluti og geymslueiningar. Mest af vinnunni CRONUS er verkefnabundin og Tinna, meðlimur verkefnishóps, notar verkefnið til að hafa yfirlit yfir hvert verk sem CRONUS er hafið og einnig verkefnið sem er að ljúka. Sumt af verkefninu getur verið löng og getur keyrt í rúma mánuði. Tinna getur notað VÍV-reikning til að skrá verk í vinnslu og rekja kostnað alls staðar í verkefninu.  
 
-## <a name="calculating-wip"></a>Útreikningur á VÍV
+## Útreikningur á VÍV
 
  CRONUS hefur tekið að sér langt verk sem nær yfir nokkur bókhaldstímabil. Tinna, meðlimur verkefnateymis, reiknar út verk í vinnslu (VÍV) til að ganga úr skugga um að ársreikningur fyrirtækisins sé réttur.  
 
@@ -56,7 +56,7 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 
  Í eftirfarandi kynningu notar Tinna kostnaðarvirðisaðferðina, staðal fyrirtækis þeirra, til að reikna VÍV. Tinna tilgreinir þann hluta verksins sem á að taka með í VÍV-útreikninginn með því að úthluta VÍV-samtölugildum til ýmissa verkhlutalína.  
 
-### <a name="to-calculate-wip"></a>Útreikningur VÍV
+### Útreikningur VÍV  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Verkefni** og velja svo viðeigandi tengil.  
 2. Á listanum **Verkefni** skal velja **Deerfield-verkefnið** og velja svo aðgerðina **Breyta** . Þá opnast Verkefnaspjaldið í breytingastillingu.  
@@ -88,7 +88,7 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 
  Athugið að gildið fyrir **Samþ. kostnaðarupphæð** er 215.60 í dálknum **Til að bóka**. Þetta endurspeglar heildarkostnað tveggja varanna í flokki verkhluta 1110 – 1130. Þriðja varan var stillt á **Undanskilin** og er því ekki tekin með í VÍV-útreikningi.  
 
-### <a name="to-review-wip-warnings"></a>Til að fara yfir viðvaranir VÍV
+### Til að fara yfir viðvaranir VÍV  
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **VÍV-stjórnklefa** verkefnis og velja síðan viðeigandi tengil.  
 2.   **Velja skal Deerfield-verkefnið** og velja svo aðgerðina **Sýna viðvaranir** .  
@@ -96,7 +96,7 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 
  Eftir bókhaldstímabilið þarf Tinna að endurreikna VÍV til að taka með þá vinnu sem unnin hefur verið.  
 
-### <a name="to-recalculate-wip"></a>VÍV endurreiknað
+### VÍV endurreiknað  
 
 1. Á síðunni **Verkspjald** skal velja aðgerðina **VÍV-færslur** til að skoða VÍV-útreikninginn.  
 
@@ -108,11 +108,11 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 > [!NOTE]  
 > VÍV og samþykki eru reiknuð en eru ekki bókuð í fjárhag. Til að gera það verður að keyra **keyrsluna Bóka VÍV í fjárhag** eftir að VÍV og samþykki hafa verið reiknuð.
 
-## <a name="posting-wip-to-general-ledger"></a>Bókun VÍV í fjárhag
+## Bókun VÍV í fjárhag
 
  Nú þegar Tinna hefur reiknað VÍV fyrir þetta verkefni geta þeir bókað það í fjárhaginn.  
 
-### <a name="to-post-wip-to-general-ledger"></a>VÍV bókað í fjárhag
+### VÍV bókað í fjárhag  
 
 1. Af listanum **Verkefni** er Deerfield-verkefnið **valið**.  
 2. Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
@@ -132,11 +132,11 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
 10. Á flýtiflipanum **VÍV og samþykki** skal athuga að í dálkinum **Bókað** er reiturinn **Samþ. fjárhagsupph. kostnaðar** nú útfylltur, sem þýðir að það tókst að bóka VÍV í fjárhag.  
 11. Velja hnappinn **Í lagi** til að loka spjaldinu.  
 
-## <a name="reversing-a-wip-posting"></a>Bakfærsla VÍV-bókunar
+## Bakfærsla VÍV-bókunar
 
  Tinna ákveður að verkhlutarnir sem voru undanskildir útreikningi VÍV hefðu átt að reiknast í VÍV. Tinna getur bakfært rangar bókanir án þess að bóka nýjar VÍV-bókanir.  
 
-### <a name="to-reverse-a-wip-posting"></a>Bakfærsla VÍV-bókunar
+### Bakfærsla VÍV-bókunar  
 
 1. Af listanum **Verkefni** er Deerfield-verkefnið **valið**.  
 2. Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
@@ -155,11 +155,11 @@ Með verkefninu er hægt að tímasetja notkun á forða fyrirtækisins og fylgj
     > [!NOTE]  
     >  Segjum svo að Tinna hafi reiknað og bókað VÍV fyrir verkefni með röngum dagsetningum. Eftir aðferðina sem rædd var áður getur Trausti bakfært rangar bókanir, leiðrétt dagsetningarnar og endurbókað í fjárhaginn.  
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
  Í þessari kynningu var farið yfir skrefin í útreikningi á VÍV í [!INCLUDE[prod_short](includes/prod_short.md)]. Í stærri verkefnum getur verið gagnlegt að flytja kostnaðinn í VÍV-reikning með reglulegu millibili á meðan verkefninu er lokið. Í kynningunni var sýnt hvernig á að undanskilja verkhlutalínur frá útreikningi. Sýnir einnig hvenær þörf er á endurreikningi. Og að lokum, þessi kynning sýnir hvernig á að bóka VÍV í fjárhag. Dæmi um bakfærslu VÍV-bókunar í fjárhag er einnig tekin með.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Kynning: Stjórnun verkefna](walkthrough-managing-projects-with-jobs.md)  

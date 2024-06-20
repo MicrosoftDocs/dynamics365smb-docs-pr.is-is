@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Færa vörur innri vinnslu í einfaldri vöruhúsagrunnstillingu
+# Færa vörur innri vinnslu í einfaldri vöruhúsagrunnstillingu
 
 Hugsanlega þarf að færa vörur milli hólfa án eftirspurnar úr upprunaskjali. Til dæmis sem hluta af eftirfarandi aðgerðum:
 
@@ -25,11 +25,11 @@ Hvernig vörur eru færðar veltur á því hvernig vöruhúsið er sett upp sem
 * Á síðunni **Innri hreyfing** .
 * Á síðunni **Endurflokkunarbók** birgða.  
 
-## <a name="internal-movements"></a>Innri hreyfingar
+## Innri hreyfingar
 
 Síðan Innri **hreyfingar** gerir kleift að tilgreina Taka og Setja línur þegar ekki er eftirspurn úr upprunaskjali. Síðan Innanhússhreyfing er eins og vinnublað til að skipuleggja hluti. Ekki er hægt að vinna raunverulega hreyfingu beint úr henni. Þegar lína er fyllt út skal nota aðgerðina **Stofna birgðahreyfingu** til að senda línuna á **síðuna Birgðahreyfing**, sem er þar sem unnið er og skrá hreyfinguna.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu
+### Til að færa vörur sem innri hreyfingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Innri hreyfingar** og velja síðan viðeigandi tengil.  
 2. Veljið aðgerðina **Nýtt**. Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.
@@ -59,7 +59,7 @@ Síðan Innri **hreyfingar** gerir kleift að tilgreina Taka og Setja línur þe
 
 Framkvæma aðra óáætlaða hreyfingu á síðunni **Birgðahreyfing** á sama hátt og hreyfing á grundvelli upprunaskjala.
 
-### <a name="to-record-the-inventory-movement"></a>Til að skrá birgðahreyfingu
+### Til að skrá birgðahreyfingu
 
 1. Á síðunni **Birgðahreyfing er** skjalið opnað til að skrá hreyfinguna fyrir.  
 2. Í reitnum **Hólfkóti** á hreyfingalínunum er hólfið sem vörurnar verða tíndar úr þar sem varan er tiltæk. Hægt er að skipta um hólf ef með þarf.
@@ -72,7 +72,7 @@ Eftirfarandi gerist í bókunarferlinu:
 
 * Vöruhúsafærslur gefa til kynna að magnið sé flutt úr taka-hólfunum í staðhólfin.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
+## Til að færa vörur með vöruendurflokkunarbók
 
 Í stað þess að nota hreyfingaskjöl er hægt að skrá hreyfingar með því að endurflokka hólfakóta á vörur. Nánari upplýsingar um [talningu, leiðréttingu og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md).
 
@@ -89,7 +89,7 @@ Eftirfarandi gerist í bókunarferlinu:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

@@ -8,8 +8,9 @@ ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="unsubscribe-or-remove-"></a>Segja upp áskrift að eða fjarlægja [!INCLUDE[prod_short](includes/prod_short.md)]
+# Segja upp áskrift að eða fjarlægja [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Ef þú vilt hætta að nota [!INCLUDE[prod_short](includes/prod_short.md)] geturðu lokað reikningnum þínum eða látið fjarlægja leyfið af reikningnum. Skrefin sem taka þarf eru mismunandi ef þú notar ókeypis prufuútgáfu í stað þess að vera með áskrift.  
 
@@ -22,11 +23,11 @@ Ef þú vilt enda áskrift verður stjórnandinn að fjarlægja áskriftina í M
 
 Þú getur lesið þér til um hvernig á að flytja gögn út í Excel í [Flytja út gögn í önnur fjárhagskerfi](about-export-data.md#exporting-data-to-other-finance-systems). Ef þú vilt frekar flytja öll gögn út í geymslu Azure Storage getur Microsoft 365 stjórnandi þinn gert það í stjórnendamiðstöðinni. Frekari upplýsingar er að finna í [Flytja út gagnagrunna í stjórnendamiðstöðinni](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing--from-your-app-launcher"></a>Fjarlægja [!INCLUDE[prod_short](includes/prod_short.md)] úr forritavalmynd þinni
+## Fjarlægja [!INCLUDE[prod_short](includes/prod_short.md)] úr forritavalmynd þinni
 
 Ef þú vilt fela [!INCLUDE[prod_short](includes/prod_short.md)] í forritavalmynd þinni geturðu losað það. Engin gögn eru týnd og skrefið segir ekki upp áskriftinni.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Algengar spurningar um prufuútgáfu Business Central](trial-faq.md)  
 [Prufuútgáfur og áskriftir (fyrir stjórnendur)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

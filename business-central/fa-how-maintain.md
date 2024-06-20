@@ -1,81 +1,98 @@
 ---
-title: Umsjón eigna
-description: Þú heldur skrá yfir viðhald vegna viðgerða og þjónustu á eign til að halda virði eignarinnar.
+title: Vinna með eignir
+description: Skrá viðgerðir og þjónustu á eign til að varðveita verðmæti hennar.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
-ms.date: 06/15/2021
-ms.author: bholtorf
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Umsjón eigna
+# Vinna með eignir
 
-Viðhaldskostnaður er reglubundinn kostnaður sem varið er til þess að viðhalda virði eigna. Ólíkt viðbótarfjárfestingum eykur hann ekki verðgildi.
+Viðhaldskostnaður er rekstrarkostnaður vegna þess sem gert er til að varðveita skilyrði eignanna. Ólíkt endurbótum á fjármagni eykur viðhald ekki verðmæti eignanna.
 
-Hægt er að skrá og viðhalda dagréttri skrá um viðhald og þjónustu við eignir og hafa þannig fullkomnar viðhaldsskrár um eignir aðgengilegar. Í hvert sinn sem eign fær þjónustu skráir notandi allar viðeigandi upplýsingar eins og dagsetningu, númer lánardrottins og símanúmer þjónustuaðila. Skráning viðhalds er færð vegna allra eigna á viðeigandi eignaspjaldi.
+Í hvert sinn sem eign er send til þjónustu skráir notandi upplýsingar eins og þjónustudagsetningu, lánardrottininn sem vann vinnuna og símanúmer þjónustufulltrúa. Viðhaldsupplýsingar eru færðar inn á nokkrar síður:
 
-Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að endurreikna viðhaldskostnað.
+* Eignaspjald
+* Innkaupapöntun
+* Innkaupareikningur
+* Eignafjárhagsbók
 
-## Skrá viðhaldsvinna á eign
+Endurmat er notað til að laga virði að almennum verðbreytingum. Nota aðgerðina **Endurmat eigna** til að endurreikna viðhaldskostnað.
 
-Í hvert sinn sem viðhaldi hefur verið framkvæmt, eins og þjónustuheimsókn, er hægt að skrá það á viðeigandi eign á síðunni **Skráning viðhalds**.  
+## Skrá viðhaldskostnað beint á eign
+
+Í hvert sinn sem viðhald er gert fyrir eign, t.d. þjónustuheimsókn, er hægt að skrá það á síðuna **Skráning viðhalds** .  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.  
 2. Valin er eignin sem á að skrá viðhald fyrir og veldu síðan aðgerðina **skráning viðhalds**.
 3. Fyllt er út í reiti eftir því sem á við á síðunni **Skráning viðhalds**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Bóka viðhaldskostnað úr fjárhagsbók eigna
+## Bóka viðhaldskostnað úr eignafjárhagsbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Afskriftabókarlisti** og velja síðan viðkomandi tengil.  
 2. Veljið afskriftabókina sem er tengd eigninni og veljið síðan aðgerðina **breyta**.
-3. Á síðunni **Afskriftabókarspjald** skal ganga úr skugga um að gátreiturinn **Viðhald** er ekki valinn. Þetta tryggir að viðhaldskostnaðar eru ekki bókaðar í fjárhag.
+3. Á síðunni **Afskriftabókarspjald** þarf að ganga úr skugga um að **gátreiturinn Viðhald** sé ekki valinn svo að viðhaldskostnaður sé ekki bókaður í fjárhag.
 4. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignafjárhagsbók** og velja síðan viðkomandi tengil.  
 5. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
 6. Í reitnum **Eignabókunartegund** er valinn **viðhald**.
 7. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun viðhalds.
 
     > [!NOTE]  
-    >   Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** síðunni fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+    > Skref 7 virkar aðeins ef eftirfarandi er sett upp: Á **síðunni Eignabókunarflokksspjald** fyrir bókunarflokk eignar **er í reitnum Viðhaldsreikningur** debetreikningur fjárhags og í reitnum **Reikningur viðhalds mótreiknings er fjárhagsreikningurinn** sem á að bóka jöfnunarfærslur fyrir uppfærslu á. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Valið er **Bóka** aðgerðin.
 
-## Til að fylgja eftir þjónustuheimsóknum eigna:
+## Skrá viðhaldskostnað úr innkaupareikningi
 
-Þú getur Prenta skýrsluna **Viðhald - Næsta þjónusta** til að skoða fyrir hvaða eignir er búið að áætla þjónustuheimsóknir. Einnig er hægt að nota þessa skýrslu þegar reiturinn **Næsta þjónustudags.** á eignspjöldunum er uppfærður.  
+Eftirfarandi skref útskýra hvernig á að skrá viðhaldskostnað eignar úr innkaupareikningi. Skrefin eru svipuð fyrir innkaupapöntun.
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningur** og velja síðan viðkomandi tengil.
+2. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Á flýtiflipanum **Línur** í reitnum **Tegund** skal velja **Eign**.
+4. Í reitnum **númer** Skal velja eignina og tilgreina síðan magn og kostnað.
+5. Í reitnum **Eignabókunartegund** er valið **Viðhald**.
+6. Innkaupareikningurinn er bókaður.
+
+## Fylgja eftir þjónustuheimsóknum
+
+Hægt er að prenta skýrsluna **Viðhald - Næsta þjónusta** til að skrá eignirnar sem eru áætlaðar vegna þjónustu. Einnig má nota þessa skýrslu þegar uppfæra á reitinn **Næsta þjónustudags** . á eignaspjöldum.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðhald - Næsta þjónusta** og velja síðan viðkomandi tengil.  
 2. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út.  
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## Fylgst með viðhaldskostnaði
+## Fylgjast með viðhaldskostnaði
 
-Hægt er að skoða viðhaldskostnaðinn þegar skoðaðar eru upplýsingar um eign.  
+Hægt er að skoða upplýsingar til að fylgjast með viðhaldskostnaði.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem á að skoða viðhaldskostnað fyrir og veldu síðan aðgerðina **afskriftabækur**.
 3. Á síðunni **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan er aðgerðin **Upplýsingar** valin.
 4. Á síðunni **Eignaupplýsingar** er valið **viðhald** .
 
-Síðan **viðhaldsbókarfærslur** opnast og sýnir færslur sem mynda upphæðina í reitnum **viðhald**.
+ **Síðan Viðhaldsfærslur** er notuð til að skoða færslurnar sem mynda upphæðina í reitnum **Viðhald** .
 
 ## Skoða eða prenta viðhaldskostnað fyrir margar eignir
 
-Í skýrslunni **Viðhald - Greining** er hægt er að velja að sjá viðhalds byggt á einn, tvo eða þrjá viðhaldskóta á tilgreindri dagsetningu eða tímabili. Einnig er hægt að sjá samtölu allra valinna eigna eða samtölu hverrar eignar fyrir sig.
+Í skýrslunni **Viðhald - Greining** er hægt að velja að skoða viðhald samkvæmt einum, tveimur eða þremur viðhaldskótum á tiltekinni dagsetningu eða tímabili. Skýrslan getur sýnt samtölu allra valinna eigna eða samtölu hverrar eignar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðhald - Greining** og velja síðan viðkomandi tengil.
-2. Fyllið inn í svæðin eftir þörfum.
+2. Fyllið inn reitina eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.
 
-## Skoðun viðhaldsfærslna:
+## Skoða viðhaldsfærslur
 
-Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbókarfærslurnar.  
+Einnig er hægt að skoða viðhaldskostnað með því að skoða viðhaldsfærslurnar.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eignir** og velja síðan viðkomandi tengil.
 2. Valin er eignin sem á að skoða fjárhagsfærslur fyrir og veldu síðan aðgerðina **afskriftabækur**.
 3. Á síðunni **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan er aðgerðin **Viðhaldsbókarfærslur** valin.
 
-## Skoða eða prenta viðhaldsbókarfærslur fyrir margar eignir
+## Skoða eða prenta viðhaldsfærslur fyrir margar eignir
 
 Í **Viðhald - Sundurliðun** skýrslu er hægt að skoða eða prenta viðhaldsbókarfærslur fyrir eina eða margar eignir.  
 

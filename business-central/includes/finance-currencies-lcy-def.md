@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Ef fyrirtækið starfar í fleiri en einu landi eða svæði er líklega mikilvægt að hægt sé að eiga viðskipti í fleiri en einum gjaldmiðli. Staðbundinn gjaldmiðill (SGM) er skilgreindur á síðunni **Fjárhagsgrunnur** . Síðan er staðarmynt birt sem auður gjaldmiðill í fylgiskjölum og viðskiptum. Þegar reiturinn **Gjaldmiðill** er auður er gjaldmiðillinn SGM.
 

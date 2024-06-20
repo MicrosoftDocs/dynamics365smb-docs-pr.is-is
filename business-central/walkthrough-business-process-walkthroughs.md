@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
+# Kynningar á viðskiptaferli
 
 Þessar leiðbeiningar sýna viðskiptaferli í skrefum, frá byrjun til enda, sem hægt er að framkvæma með CRONUS sýnifyrirtækinu. Leiðbeiningarnar samanstanda af mörgum ferlum sem sum hver eru venjulega framkvæmd af einum notanda, meðan önnur fela í sér mörg ólík notandahlutverk. Til að líkja eftir vinnuumhverfinu innihalda sumar kynningarnar uppsetningarskref sem þarf að ljúka til að ljúka æfingunum eins og lýst er. Þessi skref leggja til innsýn inní hvers konar upplýsingum notendur þurfa að deila með sérfræðingum fyrirtækis síns.  
 
@@ -35,7 +36,7 @@ ms.service: dynamics-365-business-central
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

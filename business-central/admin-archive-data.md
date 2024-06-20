@@ -3,7 +3,7 @@ title: Viðbót gagnasafns
 description: Safnvistun gagna býr til kostnaðarlítið öryggisafrit af færslunum þínum.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bknudsen
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 01/30/2023
 ms.custom: bap-template
@@ -11,13 +11,13 @@ ms.search.form: 630
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-data-archive-extension"></a>Viðbót gagnasafns
+# Viðbót gagnasafns
 
 Með tímanum mun fyrirtækið þitt safna umtalsverðu magni gagna og sem stjórnandi er það líklega góð hugmynd að hafa stefnu hvað varðar safnvistun gagna. Að hafa mikið af gögnum getur hægt á kerfinu, til dæmis gæti það tekið örlítið lengri tíma að búa til skýrslur eða jafnvel læsa færslum. Auk þess getur mikið gagnamagn leitt til aukins geymslukostnaðar.
 
 Viðbót gagnasafns býður upp á grunnramma fyrir safnvistun og öryggisafritun gagna sem hluta af dagsetningaþjöppun. Dagsetningarþjöppun sameinar tengdar færslur í eina færslu og eyðir frumritunum. Fræðast meira um [þjöppun gagna með dagsetningarþjöppun](admin-manage-documents.md#compress-data-with-date-compression). Hins vegar gæti borgað sig að halda gögnunum þannig að í stað þess að eyða þeim er hægt að safnvista þau til síðari notkunar.
 
-## <a name="start-archiving-data"></a>Hefja safnvistun gagna
+## Hefja safnvistun gagna
 
 Viðbótin er fyrirfram uppsett og í boði í **Stjórnun viðbótar** þannig að þú þarft ekki að gera neitt til að komast af stað. Viðbótin er einnig tiltæk AppSource.
 
@@ -51,10 +51,10 @@ Gagnasafnsviðbótin er notuð í eftirfarandi keyrslum fyrir dagsetningarþjöp
 
 Til að hefja safnvistun gagna þegar ein runuvinnslan er keyrð skal kveikja á **Safnvista eyddum færslum**.
 
-## <a name="storage-considerations"></a>Hvað þarf að hafa í huga varðandi geymslu
+## Hvað þarf að hafa í huga varðandi geymslu
 
 Safnvistuð gögn eru geymd í töflunni **Geymslumiðill leigjanda**. Mælt er með því að flytja gömul skjalasafn út í til dæmis CSV-skrá og eyða síðan gömlu skjalasafnsskránum.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna geymslu með því að eyða skjölum eða þjappa gögnum](admin-manage-documents.md)

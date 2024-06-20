@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-expected-cost-posting"></a>Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla
+# Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla
 Áætlaður kostnaður stendur til dæmis fyrir kostnað keyptrar vöru sem skráð var áður en reikningur fyrir vörunni var móttekinn.  
 
  Hægt er að bóka áætlaðan kostnað á birgðir og í fjárhag. Þegar þú bóakr magn sem er aðeins móttekið eða sent en ekki reikningsfært er stofnuð viðrisfærsla með ætluðum kostnaði. Þessi áætlaði kostnaður hefur áhrif á birgðavirðið, en bókast ekki í fjárhag nema kerfið sé sett þannig upp.  
@@ -21,7 +22,7 @@ ms.service: dynamics-365-business-central
 
  Til að styðja afstemmingu og rekjanleika vinnu, reikningsfært virðisfærsla sýnir áætlaðan kostnaðarupphæð sem hefur verið sendur til að jafnvægi á bráðabirgðareikningum.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Skilyrði fyrir bókun væntanlegs kostnaðar
+## Skilyrði fyrir bókun væntanlegs kostnaðar
 
 Til að gera mögulegt að bóka væntanlegan kostnað þarftu að gera eftirfarandi:
 1. Á síðunni **Uppsetning birgða** skal velja **Sjálfvirka kostnaðarbókun** og gátreitinn **Væntanleg kostnaðarbókun í fjárhag**.
@@ -31,7 +32,7 @@ Til að gera mögulegt að bóka væntanlegan kostnað þarftu að gera eftirfar
 3. Á síðunni **Almennur bókunargrunnur** skal staðfesta reitinn **Uppsöfnunarreikningur birgða (bráðabirgða)** fyrir **Almennan viðskiptabókunarflokk** og **Almennan vörubókunarflokk** sem ætlunin er að nota.
 4. Þegar þú stofnar innkaupapöntun er sjálfgefið að reiturinn **Reikningsnr. lánardrottins** sé áskilinn. Þú þarft að slökkva á því á síðunni **Uppsetning innkaupagrunns** með því að afvelja reitinn **Nr. utanaðk. skjals áskilið**.
 
-## <a name="example"></a>Dæmi
+## Dæmi  
 
 > [!NOTE]  
 > Reikningsnúmerin sem notuð eru í þessu dæmi eru aðeins til viðmiðunar og verða önnur í kerfinu. Settu þau upp samkvæmt leiðbeiningum í skilyrðum hér að ofan.
@@ -84,7 +85,7 @@ Innkaupapöntun er bókuð sem móttekin Áætlaður kostnaður er 95,00 SGM.
 |01-15-20|Jöfnunareikn. beins kostnaðar|7291|-100|6|  
 |01-15-20|Reikningur birgða|2130|100|5|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: Kostnaðarleiðrétting](design-details-cost-adjustment.md)   
  [Hönnunarupplýsingar: afstemming í fjárhagur](design-details-reconciliation-with-the-general-ledger.md)   

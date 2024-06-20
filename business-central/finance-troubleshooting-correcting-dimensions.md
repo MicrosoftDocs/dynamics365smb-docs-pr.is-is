@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Úrræðaleit og víddarleiðréttingar
+# Úrræðaleit og víddarleiðréttingar
 
 Fjárhagsskýrslugerð og greiningaryfirlit reiða sig oft á gögn úr ýmsum víddum. Þrátt fyrir þær öryggisráðstafanir sem í boði eru gerast stundum mistök sem geta leitt til ónákvæmni. Þessi grein lýsir nokkrum dæmigerðum villum og útskýrir hvernig á að leiðrétta víddarúthlutun í bókuðum færslum þannig að fjárhagsskýrslur séu réttar.
 
-## <a name="troubleshooting-dimensions-errors"></a>Úrræðaleit fyrir víddarvillur
+## Úrræðaleit fyrir víddarvillur
 
 Þegar bókuð eru skjöl eða færslubókarlínur með víddum geta ýmsar villur orðið. Hins vegar eru þær yfirleitt tengdar röngu víddaruppsetningu eða úthlutun.
 
@@ -38,21 +38,21 @@ Fjárhagsskýrslugerð og greiningaryfirlit reiða sig oft á gögn úr ýmsum v
 |Óvæntur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Enginn kóði**|-%1 %2 má ekki nefna.<br />-%1 %2 má ekki nefna fyrir %3 %4|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Fjarlægja línuna sem stangast á úr víddasamstæðunni.|
 |Víddarleiðrétting lýkur ekki rétt.||-Veljið **Endurstilla** til að snúa leiðréttingunni aftur í drög. Þetta núllstillir breytingarnar og hægt er að keyra leiðréttingu aftur.|
 
-## <a name="changing-dimension-assignments-after-posting"></a>Breyting á víddarúthlutunum eftir bókun
+## Breyting á víddarúthlutunum eftir bókun
 
 Ef röng vídd uppgötvast í bókuðum fjárhagsfærslum er hægt að leiðrétta víddargildin og uppfæra greiningaryfirlitin. Leiðréttingin hjálpar til við að halda fjárhagsskýrslum og greina nákvæmar.
 
 > [!IMPORTANT]
 > Eiginleikar til að leiðrétta víddir eru einungis ætlaðir til að hjálpa við nákvæma fjárhagsskýrslugerð. Víddarleiðréttingar aðeins við um fjárhagsfærslurnar. Þær breyta ekki víddum sem eru úthlutaðar á færslur í öðrum fjárhag vegna sömu viðskipta. Misræmi verður á milli vídda sem eru úthlutaðar í fjárhag og undirfjárhag.
 
-### <a name="setting-up-dimension-corrections"></a>Uppsetning víddaleiðréttinga
+### Uppsetning víddaleiðréttinga
 
 Tvö atriði þarf að hafa í huga þegar víddarleiðréttingar eru settar upp:
 
 * Eru til víddir sem ekki á að leyfa fólki að breyta? Á síðunni **Stillingar víddarleiðréttingar** skal tilgreina víddirnar sem á að hindra breytingar á.
 * Hver getur breytt víddum? Til að leyfa fólki að gera breytingar skal úthluta notendunum heimildinni **D365 DIM CORRECTION**. Heimildirnar gera þeim kleift að stofna víddarleiðréttingar, keyra þær og afturkalla ef þess gerist þörf. Einnig er hægt að tilgreina víddir sem lokaðar eru á. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Vídd leiðrétt
+### Vídd leiðrétt
 
 Hægt er að velja handvirkt eina eða fleiri fjárhagsfærslur eða nota síur til að velja safn af færslum. Ef þörf er á er einnig hægt að bæta við eða eyða víddum. 
 
@@ -82,38 +82,38 @@ Hægt er að velja handvirkt eina eða fleiri fjárhagsfærslur eða nota síur 
 5. Til að staðfesta leiðréttinguna skal velja **Staðfesta víddarbreytingar**. Frekari upplýsingar er að finna í [Víddarleiðréttingar staðfestar](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Veljið **Keyra**.
 
-### <a name="validating-dimension-corrections"></a>Prófun víddaleiðréttinga
+### Prófun víddaleiðréttinga
 
 Áður en leiðrétting er keyrð er góð hugmynd að staðfesta hana fyrst. Staðfesting leitar að takmörkunum í virðisbókun fyrir fjárhagsreikninga, takmarkanir fyrir víddir og hvort víddargildin séu útilokuð. Meðan á staðfestingu stendur er staða leiðréttingar stillt á **Staðfesting í gangi**. Þegar leiðrétting er staðfest er útkoman sýnd í reitnum **Staða staðfestingar**. Ef villur fundust er hægt að nota aðgerðina **Skoða villur** til að kanna þær nánar. Þegar villa hefur verið lagfærð þarf að nota aðgerðina **Enduropna** til að keyra leiðréttinguna eða nýja staðfestingu.
 
 Annaðhvort er hægt að keyra leiðréttingu strax eða tímasetja hana fram í tímann. Ef leiðréttingar eru keyrðar á stóru gagnasafni er mælt með því að tímasetja það til keyrslu utan vinnustunda. Frekari upplýsingar er að finna í [Víddarleiðréttingar á stórum gagnasöfnum](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Afturkalla leiðréttingu
+### Afturkalla leiðréttingu
 
 Þegar vídd hefur verið leiðrétt og útkoman er ekki þér að skapi geturðu notað aðgerðina **Afturkalla** til að endurstilla fyrra gildið. Hins vegar er aðeins hægt að afturkalla nýjustu leiðréttinguna. Áður en leiðrétting er afturkaluð er hægt að staðfesta breytingarnar sem eru afleiðingar afturkræfrar aðgerðar. Til dæmis er villuleit gagnleg ef víddartakmörkunum hefur breyst eftir að leiðréttingin var gerð.
 
 Ef aðgerðin Afturkalla er ekki tiltæk, til dæmis vegna þess að margar leiðréttingar eru fyrir hendi, er hægt að nota aðgerðina **Afrita í Drög** til að hefja nýja leiðréttingu fyrir sömu færslur.
 
-### <a name="dimension-corrections-on-large-data-sets"></a>Víddaleiðréttingar í stórum gagnasöfnum
+### Víddaleiðréttingar í stórum gagnasöfnum
 
 Farið varlega þegar stór færslusöfn eru leiðrétt, t.d. söfn sem innihalda meira en 10.000 færslur. Ef það er hægt þá mælum við með að nota síur til að keyra leiðréttingar á smærri gagnasöfnum. Það er einnig góð hugmynd að keyra leiðréttingar utan venjulegs vinnutíma. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a>Nota greiningaryfirlit með víddaleiðréttingum
+### Nota greiningaryfirlit með víddaleiðréttingum
 
 Ef **Uppfæra við bókun** er virkt fyrir greiningaryfirlit [!INCLUDE[prod_short](includes/prod_short.md)] , getur það uppfært yfirlitið þegar fylgiskjöl og færslubækur eru bókuð. Einnig er hægt að uppfæra yfirlit með þessari stillingu virkjaða með niðurstöður víddarleiðréttinga. Til að gera það skal kveikja á **Uppfæra greiningaryfirlit**. Uppfærsla greiningaryfirlita getur haft áhrif á afköst, sérstaklega fyrir stór gagnasöfn, þannig að mælt er með því að greiningaryfirlit séu uppfærð eingöngu fyrir lítil gagnasöfn.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Skoða leiðréttingar á eldri víddum
+### Skoða leiðréttingar á eldri víddum
 
 Ef fjárhagsfærsla var leiðrétt er hægt að rannsaka breytingarnar með aðgerðinni **Ferill víddaleiðréttinga** .
 
-### <a name="handling-incomplete-corrections"></a>Meðhöndlun ófullnægjandi leiðréttinga
+### Meðhöndlun ófullnægjandi leiðréttinga
 
 Ef leiðréttingu er ekki lokið birtist viðvörun á leiðréttingarspjaldinu. Ef það gerist er hægt að nota aðgerðina **Endurstilla** til að snúa leiðréttingunni aftur í drög og afturkalla breytingarnar. Síðan er hægt að keyra leiðréttinguna aftur.
 
 > [!NOTE]
 > Endurstilling ólokinnar leiðréttingar hefur ekki áhrif á uppfærslur greiningaryfirlita vegna þess að þær gerast undir lok leiðréttingarferlisins.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Nota kostnaðarbókhald með leiðréttum fjárhagsfærslum
+### Nota kostnaðarbókhald með leiðréttum fjárhagsfærslum
 
 Þegar víddir hafa verið leiðréttar eru gögnin um kostnaðarbókhald ekki samstillt. Kostnaðarbókhald notar víddir til að leggja saman upphæðir fyrir kostnaðarstöðvar og kostnaðarhluti og keyra kostnaðarúthlutanir. Ef víddum er breytt fyrir fjárhagsfærslur ætti líklega að keyra kostnaðarbókhaldslíkönin aftur. Það fer eftir gögnunum sem voru uppfærð og hvernig getu kostnaðarbókhalds er sett upp gæti þurft að:
 
@@ -122,7 +122,7 @@ Ef leiðréttingu er ekki lokið birtist viðvörun á leiðréttingarspjaldinu.
 
 Tilgreina verður handvirkt hvar víddarleiðréttingar hafa áhrif á kostnaðarbókhald og hvar uppfærslu er þörf. [!INCLUDE[prod_short](includes/prod_short.md)] veitir ekki sjálfvirka leið til að gera það.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með víddir](finance-dimensions.md)  
 [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  

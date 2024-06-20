@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Þegar þú hefur slegið inn leitarorðin byrjar [!INCLUDE [prod_short](prod_short.md)]  leitin í bakgrunninum og fer í gegnum hvert borð eitt í einu. Leitarniðurstöður fara að birtast eftir að það lýkur við töflu. Ef þú slærð inn fleiri en eitt leitarorð munu niðurstöðurnar aðeins innihalda færslur sem eru með öll orðin í einhverjum af völdu reitunum.

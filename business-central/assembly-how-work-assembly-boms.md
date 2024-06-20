@@ -1,30 +1,29 @@
 ---
-title: Vinna með samsetningaruppskriftum
+title: Vinna með samsetningaruppskriftir
 description: Þú stofnar samsetningaruppskrift til að tilgreina íhlutina sem þarf til að setja saman vöruna sem uppskriftin segir til um.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'assembly bom, bills of material,'
 ms.search.form: '36, 5870, 5872, 5874'
-ms.date: 09/26/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-assembly-boms"></a>Vinna með samsetningaruppskriftum
+# Vinna með samsetningaruppskriftir
 
 Þú notar samsetningaruppskriftir til að skipuleggja yfirvörur sem þarf að setja saman úr íhlutum með lítilli eða engri notkun á tilföngum. Hægt er að nota samsetningaruppskrift t.d. til að selja yfirvöru sem sett sem samanstendur af íhlutavörum.
 
-Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru.  
+Nota samsetningarpantanir til að búa til fullunnar vörur úr íhlutum í vinnslu sem einn eða fleiri grunnforði getur framkvæmt, sem eru ekki véla- eða vinnustöðvar eða án forða. Samsetningarferli gæti til dæmis verið að velja tvær vínflöskur og eina kaffipoka og pakka þeim sem gjafavöru.  
 
-Samsetningaruppskrift er aðalgögn sem skilgreina hvaða íhlutavörur fara í samsetta endanlega vöru og hvaða forðar er notaðir til að setja saman samsetningarvöruna. Þegar samsetningarvara og magn eru færð inn í haus nýrrar samsetningarpöntunar eru samsetningarpöntunarlínurnar sjálfkrafa fylltar út samkvæmt samsetningaruppskriftinni með eina samsetningarpöntunarlínu fyrir hvern íhlut eða tilfang. Frekari upplýsingar má finna á [Samsetningarstjórnun](assembly-assemble-items.md).
+Samsetningaruppskrift er aðalgögn sem skilgreina hvaða íhlutavörur fara í samsetta endanlega vöru og hvaða forðar er notaðir til að setja saman samsetningarvöruna. Þegar samsetningarvara og magn eru færð inn í samsetningarpöntun eru samsetningarpöntunarlínurnar fylltar út samkvæmt samsetningaruppskriftinni. Pöntunin er með eina samsetningarpöntunarlínu á hvern íhlut eða forða. Frekari upplýsingar má finna á [Samsetningarstjórnun](assembly-assemble-items.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] styður einnig framleiðsluuppskriftir. Framleiðsluuppskriftir eru öðruvísi en samsetningaruppskriftir því þær fela í sér flóknari ferla, þ.m.t. tilfanganotkun, framleiðsluleiðir og vinnu- eða vélastöðvar. Frekari upplýsingar um muninn er að finna í [Vinna með uppskriftir](inventory-how-work-BOMs.md) og [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] styður einnig framleiðsluuppskriftir. Framleiðsluuppskriftir eru frábrugðnar samsetningaruppskriftum því þær fela í sér flóknari ferli, svo sem forðanotkun, framleiðsluleiðir og vinnu- eða vélastöðvar. Frekari upplýsingar um muninn er að finna í [Vinna með uppskriftir](inventory-how-work-BOMs.md) og [Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md).
 
-## <a name="to-create-an-assembly-bom"></a>Til að stofna samsetningaruppskrift
+## Til að stofna samsetningaruppskrift
 
-Til að tilgreina yfireiningu sem samanstendur af öðrum atriðum, og hugsanlega úr tilföngum sem þarf til að setja yfireininguna saman, verður þú að búa til samsetningaruppskrift.  
-
-Samsetningaruppskriftir innihalda yfirleitt vörur en geta einnig innihaldið einn eða fleiri forða sem eru nauðsynlegir til að setja samsetningaríhlutinn saman.
+Til að skilgreina vöru sem samanstendur af öðrum vörum og forðanum sem settur er saman verður að búa til samsetningaruppskrift.  
 
 Samsetningaruppskriftir geta haft mörg stig, sem þýðir að íhlutur í samsetningaruppskrift getur verið samsetningarvara sömuleiðis. Í því tilviki inniheldur **samsetningaruppskrift** reiturinn á samsetningaruppskriftinni **Já**.
 
@@ -32,7 +31,7 @@ Sérstakar kröfur eiga við um vörur í samsetningaruppskriftum hvað varðar 
 
 Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 
-- Uppsetning nýrra vöru
+- Uppsetning nýrra vöru.
 - Skilgreining á gerð uppskriftar samsetningaríhlutar.
 
 1. Setja upp nýtt atriði. Frekari upplýsingar eru á [Skrá nýjar vörur](inventory-how-register-new-items.md).
@@ -42,17 +41,17 @@ Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 3. Á síðunni **Samsetningaruppskrift** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Samsetningaríhlutir geta verið með mismunandi afbrigði stillt í [!INCLUDE[prod_short](includes/prod_short.md)] rétt eins og aðrar vörur, sem hjálpar þér að halda listanum yfir tiltækar afurðir styttri. Frekari upplýsingar um eiginleikann er að finna í [Stjórna afurðarafbrigðum](inventory-item-variants.md).
+> Samsetningarvörur geta haft afbrigði, eins og hver önnur vara, sem hjálpar til við að halda vörulistanum styttri. Frekari upplýsingar um eiginleikann er að finna í [Stjórna afurðarafbrigðum](inventory-item-variants.md).
 
-## <a name="to-edit-assembly-boms"></a>Samsetningaruppskrift breytt
+## Samsetningaruppskrift breytt
 
-Hægt er að breyta línum samsetningaruppskriftar hvenær sem er. En Hafðu í huga að UPPSKRIFTIN kann að vera í notkun í yfirstandandi sölu eða samsetningum yfireiningar sem breytingin kann að hafa áhrif á. Veljið aðgerðina **Notkunarstaðir** til að sjá í hvaða vöru er verið að nota hana og þá hvort það hafi áhrif á sölu- eða samsetningarpantanir.
+Hægt er að breyta línum samsetningaruppskriftar hvenær sem er. Hins vegar getur uppskriftin verið í notkun með yfirsölu eða samsetningum yfirvörunnar. Ef uppskriftinni er breytt gæti það haft áhrif á þær aðgerðir. Velja aðgerðina **Notkunarstaður** til að skoða vörurnar sem nota hana og hvort það gæti haft áhrif á sölu- eða samsetningarpantanir.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur**, velja síðan viðkomandi tengil.
 2. Veljið gildið **Já** í dálkinum **Samsetningaruppskrift**.
 3. Á síðunni **Samsetningaruppskrift** skal velja aðgerðina **Breyta lista** og breyta svo hvaða reit sem er eftir þörfum.
 
-## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Til að skoða íhluti og aðföng sem ætluð eru samkvæmt uppskriftaruppbyggingunni
+## Til að skoða íhluti og aðföng sem ætluð eru samkvæmt uppskriftaruppbyggingunni
 
 Af síðunni **Samsetningaruppskrift** er hægt að opna annan gluaa sem sýnir íhluti og önnur tilföng samkvæmt uppskriftarstöðu undir samsetningaríhlutnum.
 
@@ -61,14 +60,14 @@ Af síðunni **Samsetningaruppskrift** er hægt að opna annan gluaa sem sýnir 
 3. Á síðunni **Birgðaspjald** skal velja aðgerðina **Samsetning** og svo aðgerðina **Samsetningaruppskrift**.
 4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Sýna uppskrift**.
 
-## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Skipta samsetningaríhlutnum út fyrir hluta hans á skjalalínum.
+## Skipta samsetningaríhlutnum út fyrir hluta hans á skjalalínum.
 
-Frá hverju sölu- og framleiðsluskjali sem innheldur samsetningaríhlut, geturðu notað sérstaka aðgerð til að skipta línunni út fyrir samsetningaríhlutinn með nýjum línum fyrir hluta hans. Þessi aðgerð er til að mynda nytsamleg ef þú vilt selja hlutana sem sett sem stendur fyrir samsetningaríhlutinn.
+Úr hvaða sölu- og innkaupaskjali sem er með samsetningarvöru er hægt að nota sérstaka aðgerð til að koma í stað línunnar fyrir samsetningarvöruna með nýjum línum fyrir íhluti hennar. Þessi aðgerð er til dæmis gagnleg ef selja á íhlutina sem sett sem táknar samsetningarvöruna.
 
 Aðgerðin **Opna uppskrift** er líka í boði á síðunni **Samsetningaruppskrift** sem leið til að skoða vörur undirsamsetningar í samsetningaruppskrift.
 
 > [!CAUTION]  
-> Varúð: Þegar búið er að nota aðgerðina **Opna uppskrift** er ekki auðvelt að taka hana til baka. Eyða verður sölupöntunarlínunni sem táknar íhlutina og færa svo aftur inn sölupöntunarlínu fyrir samsetningarvöruna.
+> Þegar aðgerðin **Opna uppskrift** hefur verið notuð er ekki auðvelt að afturkalla hana. Eyða verður sölupöntunarlínum fyrir íhlutina og færa síðan aftur inn sölupöntunarlínu fyrir samsetningarvöruna.
 
 Eftirfarandi ferli byggist á sölureikningi. Sömu skref eiga við um önnur söluskjöl og öll innkaupaskjöl.
 
@@ -81,7 +80,7 @@ Allir reitir í sölureikningslínunni fyrir samsetningaríhlutinn eru hreinsað
 > [!NOTE]
 > Skýrslunni **Tínslulisti eftir pöntun** er einnig breytt til að sýna aðeins þættina. Þetta þýðir að starfsmaður vöruhúss sem tínir yfirvöruna, samsetningaríhlutinn, mun ekki sjá hana á tínslulistanum. Frekari upplýsingar er að finna á [Prenta tiltektarlistann](sales-how-print-picking-list.md).
 
-## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Reikna staðalkostnað samsetningaríhluta
+## Reikna staðalkostnað samsetningaríhluta
 
 Kostnaðarverð tiltektarvöru er reiknað með því að taka saman kostnaðarverð hvers íhlutar og forða í samsetningaruppskrift vörunnar.
 
@@ -94,18 +93,18 @@ Einingaverð samsetningaruppskriftar er alltaf jafnt heildareiningakostnaði íh
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur**, velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn á síðunni **Vörur** inniheldur **Já**.)
-3. Á síðunni **Birgðaspjald** skal velja aðgerðina **Samsetning** og svo aðgerðina **Samsetningaruppskrift**.
+3. Á síðunni **Birgðaspjald** er aðgerðin **Samsetningaruppskrift** valin.
 4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Reikna staðlaðan kostnað**.
 5. Veldu einn af eftirfarandi valkostum, veldu síðan hnappinn **Í lagi**.
 
 |Valkostur |Lýsing |
 |-------|------------|
 |**Efsta stig**|Reiknar staðlaðan kostnað samsetningarvörunnar sem heildarkostnað af öllum aðkeyptum eða samsettum vörum á þeirri samsetningaruppskrift, óháð undirliggjandi samsetningaruppskriftum.|
-|**Öll stig**|Reiknar staðlaður kostnaður samsetningaríhluta sem summu: 1) Útreiknaður kostaður allra undirliggjandi samsetningaruppskrifta á samsetningaruppskriftinni. 2) Kostnaður allra aðkeyptra vara á samsetningaruppskriftinni.|
+|**Öll stig**|Reiknar staðlað kostnaðarverð vörunnar sem summu af:</br></br>* Reiknaður kostnaður allra undirliggjandi samsetningaruppskrifta í samsetningaruppskriftinni.</br>* Kostnaður allra keyptra vara á samsetningaruppskriftinni.|
 
 Kostnaðarverð þeirra vara sem mynda samsetningaruppskriftina er afritað úr birgðaspjöldum íhlutarins. Kostnaðurinn við hverja vöru er margfaldaður með magninu og heildarkostnaðurinn sést í reitnum **Kostnaðarverð** á birgðarspjaldinu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  

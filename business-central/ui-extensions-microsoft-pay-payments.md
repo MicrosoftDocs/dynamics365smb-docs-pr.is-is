@@ -8,8 +8,9 @@ ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="the-microsoft-pay-extension"></a>Viðbótin Microsoft Pay
+# Viðbótin Microsoft Pay 
 
 > [!IMPORTANT]
 > Tekur gildi 8. febrúar 2020, breytingar á þjónustu Microsoft Pay hafa áhrif á Microsoft Pay-viðbótina í Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. Vegna breytinganna munu greiðslutenglarnir **Greiða núna** sem Microsoft Pay viðbótin býr til fyrir reikninga í [!INCLUDE[prod_short](includes/prod_short.md)] ekki opnast í Microsoft Pay eftir 8. febrúar. Viðskiptavinir sem nota viðbótina ættu að breyta uppsetningu greiðsluþjónustunnar til að byrja að nota PayPal-viðbótina í staðinn.<br /></br>
@@ -35,7 +36,7 @@ Microsoft Pay Viðbótin veitir eftirfarandi ávinning:
 
 Ef þú gerir greiðsluþjónustuviðurkenningu ókeypis [!INCLUDE[prod_short](includes/prod_short.md)] þarftu hins vegar að hafa samband við greiðsluþjónustuna til að fá reikning. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

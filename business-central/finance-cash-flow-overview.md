@@ -1,25 +1,26 @@
 ---
-title: Yfirlit yfir sjóðstreymi
+title: Yfirlit sjóðstreymis
 description: Yfirlit yfir sjóðinnstreymi og útstreymi til að hjálpa til við að spá fyrir um móttöku og greiðslu fjármuna.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
 ms.search.form: '841, 849, 1818'
-ms.date: 12/20/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="cash-flow-overview"></a>Yfirlit yfir sjóðstreymi
+# Yfirlit sjóðstreymis
 
-Að skilja sjóðinnstreymi og útstreymi er lykillinn að farsælum fyrirtækjarekstri. Hægt er að nota sjóðstreymi til að búa á einfaldan hátt til skammtímaspá sem spáir fyrir um hvernig og hvenær má vænta að fjármunir berist og séu greiddir út af fyrirtækinu. Mikilvægt er að vita að fyrirtækið verður að hafa nægt reiðufé til að borga birgjum og greiða útgjöld þegar þau lenda á gjalddaga.
+Að skilja sjóðinnstreymi og útstreymi er lykillinn að farsælum fyrirtækjarekstri. Hægt er að nota sjóðstreymi til að búa á einfaldan hátt til skammtímaspá sem spáir fyrir um hvernig og hvenær má vænta að fjármunir berist og séu greiddir út af fyrirtækinu. Mikilvægt er að vita að fyrirtækið þitt er með nægt reiðufé til að greiða lánardrottnum og kostnaði þegar þeir eru komnir á gjalddaga.
 
-## <a name="definition-of-cash-flow"></a>Skilgreining á sjóðstreymi
+## Skilgreining sjóðstreymis
 
-Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádregnum útgreiðslum yfir valið tímabil. Það er mat á peningaupphæðina sem búist er við að flæði inn og út úr fyrirtækinu og inniheldur allar áætlaðar tekjur og útgjöld.
+Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádregnum útgreiðslum yfir valið tímabil. Það er mat á fjárhæðinni sem búist er við að flæði inn og út úr viðskiptum þínum, og þar með taldar tekjur og útgjöld.
 
-## <a name="work-with-cash-flow"></a>Vinna með sjóðsstreymi
+## Vinna með sjóðstreymi
 
 Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjóðstreymi.
 
@@ -36,9 +37,9 @@ Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjó
   - Eignir – upplýsingar um áætlaða afskráningu og áætluð innkaup eigna.  
   - Handvirkar tekjur og útgjöld – stýra handvirkum tekjur og kostnaði og hafa þær upplýsingar með í sjóðsstreymisspá.  
 - Ef keyrsla er notuð til að flytja upplýsingar úr svæðum í fjárhag, sölu, innkaupum, þjónustu og eignum yfir í vinnublaðið skráirðu vinnublaðalínur til að búa til sjóðsstreymisspá.  
-- Ýmiss konar gluggar, skýrslur og myndrit eru notuð til að greina og prenta sjóðstreymisspá sem tengist yfirlitum yfir framboð og tímalínu.  
+- Hægt er að nota ýmsar síður, skýrslur og myndrit til að greina og prenta sjóðsstreymisspá sem tengist yfirlitum um ráðstöfunarmagn og tímalínu.  
 
-## <a name="making-a-cash-flow-forecast"></a>Sjóðstreymisspá gerð
+## Sjóðsstreymisspá gerð
 
 Á grundvelli skráðra vinnublaðslína er hægt að gera reglulega sjóðsstreymisspá. Eftirfarandi útlit er mikið notað fyrir sjóðsstreymisspá. Útlitið hefur þrjá hluta:
 
@@ -64,9 +65,9 @@ Nettó sjóðstreymi eða beingreiðsla er reiknuð sem heildarsjóðstekjur mí
 
 *nettó sjóðstreymi* = *heildarinngreiðslur* – *heildarútborganir* + *lausafé*
 
-Spána er svo hægt að nota sem verkfæri til ákvörðunar í innri stjórnun sem hjálpar til við að áætla fram í tímann og taka mikilvægar stefnumótandi ákvarðanir er varða starfsemi fyrirtækisins.
+Hægt er að nota spána sem ákvarðanatökuverkfæri sem gerir kleift að skipuleggja og taka mikilvægar stjórnunarákvarðanir um rekstur reksturs.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
 [Greina sjóðsstreymi](finance-analyze-cash-flow.md)  

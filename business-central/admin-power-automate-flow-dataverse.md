@@ -9,15 +9,16 @@ ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="use-a-power-automate-flow-to-timely-synchronize-dataverse-entity-changes"></a>Nota flæði Power Automate til að samstilla Dataverse einingarbreytingar tímanlega
+# Nota flæði Power Automate til að samstilla Dataverse einingarbreytingar tímanlega
 
 Stjórnendur geta búið til sjálfvirkt flæði í Power Automate sem lætur [!INCLUDE[prod_short](includes/prod_short.md)] vita um breytingar á færslum í [!INCLUDE [cds_long_md](includes/cds_long_md.md)] fyrirtækinu þínu.
 
 > [!NOTE]
 > Í þessari grein er gert ráð fyrir að þú hafir tengt netútgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] og tímasett samstillingu á milli forritanna tveggja.
 
-## <a name="import-the-flow-template"></a>Flytja inn sniðmát flæðis
+## Flytja inn sniðmát flæðis
 
 > [!TIP]
 > Til að auðvelda uppsetningu á flæðinu höfum við búið til sniðmát sem skilgreinir kveikju og skilyrði flæðisins fyrir þig. Fylgdu skrefunum í þessum hluta til að nota sniðmátið. Til að búa til flæðið á eigin spýtur skaltu sleppa þessum hluta og byrja á skrefunum í [Skilgreina kveikju fllæðis](#define-the-flow-trigger).
@@ -29,7 +30,7 @@ Stjórnendur geta búið til sjálfvirkt flæði í Power Automate sem lætur [!
 3. Veldu sniðmátið **Tilkynna Business Central þegar reikningur breytist**.
 4. Haltu áfram með skrefin í hlutanum [Tilkynna Business Central um breytingar](#notify-business-central-about-a-change).
 
-## <a name="define-the-flow-trigger"></a>Skilgreina kveikju flæðis
+## Skilgreina kveikju flæðis
 
 1. Skráðu þig inn á [Power Automate](https://flow.microsoft.com).
 2. Búðu til sjálfvirkt skýjaflæði sem byrjar þegar lína fyrir [!INCLUDE [cds_long_md](includes/cds_long_md.md)] einingu er bætt við, breytt eða eytt. Frekari upplýsingar er að finna í [Kveikja á flæði þegar línu er bætt við, breytt eða eytt](/power-automate/dataverse/create-update-delete-trigger). Þetta dæmi notar eininguna **Reikningar**. Eftirfarandi mynd sýnir stillingarnar fyrir fyrsta skrefið í skilgreiningu á kveikju flæðis.
@@ -38,7 +39,7 @@ Stjórnendur geta búið til sjálfvirkt flæði í Power Automate sem lætur [!
 3. Notaðu **Valhnappinn (...)** efst í hægra horninu til að bæta tengingu við [!INCLUDE [cds_long_md](includes/cds_long_md.md)] umhverfið þitt.
 4. Veldu **Sýna ítarlega valkosti** og í reitinn **Sía línur** skaltu færa inn **customertypecode eq 3** eða **customertypecode eq 11** og **statecode eq 0**. Þessi gildi þýða að kveikjan mun aðeins bregðast við þegar gerðar eru breytingar á virkum reikningum af tegundinni **viðskiptamaður** eða **lánardrottinn**.
 
-## <a name="define-the-flow-condition"></a>Skilgreina skilyrði flæðis
+## Skilgreina skilyrði flæðis
 
 Gögn eru samstillt á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] í gegnum reikning samþættingarnotanda. Til að hunsa breytingar sem samstillingin gerir skal búa til skilyrðisskref í flæðinu sem útilokar breytingar sem reikningur samþættingarnotanda gerir.  
 
@@ -57,7 +58,7 @@ Eftirfarandi mynd sýnir hvernig á að skilgreina kveikju og skilyrði flæðis
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Yfirlit yfir stillingar á kveikju og skilyrði flæðis":::
 
-## <a name="notify-business-central-about-a-change"></a>Tilkynna Business Central um breytingu
+## Tilkynna Business Central um breytingu
 
 Ef flæðið stöðvast ekki vegna skilyrðisins þarf að láta [!INCLUDE[prod_short](includes/prod_short.md)] vita að breyting hafi átt sér stað. Notaðu [!INCLUDE[prod_short](includes/prod_short.md)] tengil til að gera það.
 
@@ -83,7 +84,7 @@ Eftirfarandi mynd sýnir hvernig flæðið þitt á að líta út.
 2. Notaðu [!INCLUDE[prod_short](includes/prod_short.md)] API til að setja inn færslu með **einingarheiti** stillt á **reikning** í töflunni **Dataverse færslubreyting**. Þessi færibreyta er nákvæmt heiti Dataverse einingarinnar sem þú ert að búa flæðið til fyrir.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] byrjar verkraðarfærsluna sem samstillir viðskiptamenn við reikninga.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Nota Business Central í Power Automate flæði](across-how-use-financials-data-source-flow.md)  
 [Setja upp sjálfvirk verkfllæði](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  

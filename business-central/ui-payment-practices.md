@@ -8,9 +8,10 @@ ms.search.keywords: 'payment, practices, vendor, customer, report'
 ms.search.form: '686, 687, 689'
 ms.date: 04/23/2024
 ms.author: altotovi
+ms.reviewer: bholtorf
 --- 
 
-# <a name="payment-practices-report"></a>Skýrsla um greiðsluaðferðir
+# Skýrsla um greiðsluaðferðir  
 
 Sum lönd/svæði krefjast þess að fyrirtæki tilkynni greiðslutíma fyrir lánardrottna sína eins og þau eru skilgreind af bæjaryfirvöldum. Skýrslugerðin getur byggst á mismunandi uppruna og getur raðað lánardrottnum eftir stærð þeirra eða skilgreindum greiðsluskilmálum, sem veitir lánardrottnum skýrslur fyrir eftirfarandi eins og krafist er af bæjaryfirvöldum:  
 
@@ -23,7 +24,7 @@ Notendur geta valið tímabilið sem hann á að keyra útreikning á og til að
 > [!NOTE]
 > Þessa skýrslugerð er svo langt krafist í sumum löndum, en þetta er altækur eiginleiki og hægt er að nota hana alls staðar. Eins og er þurfa sænsk fyrirtæki með 250 og fleiri starfsmenn að gefa skýrslu til sænskra fyrirtækja skráningarskrifstofu um hvaða greiðslutíma þau hafa fyrir innkaup frá fyrirtækjum sem eru smærri en sjálf. Svipuð athöfn er til í Bretlandi, Ástralíu og Nýja-Sjálandi.  
 
-## <a name="generate-the-report"></a>Mynda skýrsluna
+## Mynda skýrsluna 
 
 Eftirfarandi skref eru notuð til að keyra skýrsluna **Greiðsluvenjur** :
 
@@ -47,7 +48,7 @@ Eftirfarandi skref eru notuð til að keyra skýrsluna **Greiðsluvenjur** :
 6. Í öllum reiknuðum reitum er hægt að fara dýpra til að sjá hvernig þessi niðurstaða hefur verið reiknuð og opna **síðuna Gagnalisti** greiðsluvenna.
 7. Ef prenta á fylgiskjalið er hægt að gera það með því að keyra aðgerðina **Prenta** .
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjárhagsskýrslur](finance-reports.md)  
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  

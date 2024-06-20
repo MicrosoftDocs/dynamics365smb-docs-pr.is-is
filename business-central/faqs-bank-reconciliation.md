@@ -1,6 +1,6 @@
 ---
-title: Algengar spurningar fyrir afstemmingu bankareikninga (forskoðun) með Copilot
-description: 'Í þessari algengu upplýsingar eru upplýsingar um tækni sem er notuð til að stemma af bankareikninga og yfirlit Business Central. Í honum eru lykilatriði og upplýsingar um notkun ÓM, hvernig það var prófað og metið og allar sérstakar takmarkanir.'
+title: Algengar spurningar fyrir afstemmingu bankareikninga aðstoða við Copilot (forskoðun)
+description: 'Í þessari algengu upplýsingar eru upplýsingar um tækni sem er notuð til að stemma af bankareikninga og yfirlit í Business Central. Í honum eru lykilatriði og upplýsingar um notkun ÓM, hvernig það var prófað og metið og allar sérstakar takmarkanir.'
 ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
@@ -13,87 +13,91 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-bank-account-reconciliation-assist-with-copilot-preview"></a>Algengar spurningar fyrir afstemmingu bankareikninga aðstoða við Copilot (forskoðun)
+# Algengar spurningar fyrir afstemmingu bankareikninga aðstoða við Copilot (forskoðun)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Þessar algengu spurningar (FAQ) lýsa algengum áhrifum stjórnunaraðstoðar við afstemmingu bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)].
+Algengar spurningar (FAQ) lýsa algengum aðstoðum við afstemmingu Microsoft Copilot bankareikninga [!INCLUDE[prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-bank-reconciliation-assist"></a>Hvað er aðstoð við bankaafstemmingu?
+## Hvað er aðstoð við bankaafstemmingu?
 
-Bankaafstemming er sameiginlegt bókhaldsverk þar sem fyrirtæki fara yfir bankareikningsyfirlit sín til að auðkenna færslur sem á að skrá inn [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi verkhluti væri til dæmis notaður til að bera kennsl á reglubundin bankagjöld eða lítil útgjöld starfsmanna. Þessi verkhluti er yfirleitt margþrepa ferli sem byrjar á að flytja bankayfirlit inn í [!INCLUDE[prod_short](includes/prod_short.md)] ásamt því að samsvara færslum og fjárhagsfærslum og bóka nýjar færslur til að endurspegla afgangsfærslur sem ekki voru áður þekktar við fjárhaginn. Copilot dregur [!INCLUDE[prod_short](includes/prod_short.md)] úr handvirku átaki með því að passa við fleiri færslur og leggja til fjárhagsreikninga sem hægt er að bóka á. 
+Bankaafstemming er sameiginlegt bókhaldsverk þar sem fyrirtæki fara yfir bankareikningsyfirlit sín til að auðkenna færslur sem á að skrá inn [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi verkhluti er til dæmis notaður til að auðkenna reglubundin bankagjöld eða lítil útgjöld starfsmanna.
 
-## <a name="what-are-capabilities-of-bank-reconciliation-assist"></a>Hvað er hægt að aðstoða við bankaafstemmingu?
+Bankaafstemming er yfirleitt ferli í mörgum þrepum. Í fyrsta lagi eru bankayfirlit flutt inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Næst eru færslur jafnaðar fjárhagsfærslum. Að lokum eru nýjar færslur bókaðar til að endurspegla afborgunarhreyfingar sem ekki voru áður þekktar í fjárhagnum.
 
-Copilot veitir alhliða aðstoð við tvo aðskilda verkhluta: 
+Copilot dregur [!INCLUDE[prod_short](includes/prod_short.md)] úr handvirku átaki með því að samsvara fleiri færslum og leggja til fjárhagsreikninga (fjárhagsreikninga) sem hægt er að bóka á.
 
-- Bætt samsvörun færslna með fjárhagsfærslum 
+## Hver er möguleiki á að aðstoða bankaafstemmingu?
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á sjálfvirkar reglur sem samsvara sjálfkrafa mörgum bankafærslum og færslum. Þessar reglur eru hins vegar ósveigjanlegar og hafa oft í för með sér margar ósamræmdar færslur sem hver krefst handvirkrar skoðunar og samanburðar. Copilot notar tækni viðmóts til að skoða eftirstandandi færslur og auðkenna fleiri samsvörun, byggt á dagsetningum, upphæðum og lýsingum. Ef til dæmis margir reikningar voru greiddir sem ein moldarsamtala af viðskiptamanni stemmir Copilot af eina bankayfirlitslínu við margar reikningsfærslur. 
- 
-- Tillögur um fjárhagsreikninga 
+Copilot veitir alhliða aðstoð við tvo aðskilda verkhluta:
 
-   Copilot notar AI-tækni til að bera færslulýsinguna saman við heiti fjárhagsreikninga og leggur til líklegustu fjárhagsreikningana til að bóka á fyrir afviknar bankafærslur. Til dæmis gæti Copilot lagt til að færsla með frásögninni "Eldsneytisstöð24" verði bókuð á "flutningsreikninginn". 
+- Bætt samsvörun færslna með fjárhagsfærslum
 
-Copilot tengist ekki bankanum þínum til að sækja eða senda færslur. Þessi verk helst að fullu innan eftirlits og er forsenda þess að byrja á aðstoð Copilot, hvort þeim færslum er bætt við [!INCLUDE[prod_short](includes/prod_short.md)] með stafrænni bankatengingu, fluttar inn úr bankayfirlitsskrá eða handfærðar. 
+    [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á sjálfvirkar reglur sem samsvara sjálfkrafa mörgum bankafærslum og færslum. Þessar reglur eru hins vegar ósveigjanlegar og leiða oft til margra ósamræmdra færslna, sem hver þarfnast handvirkrar skoðunar og samanburðar. Copilot notar AI-tækni til að skoða þessar ósamræmdu færslur og auðkenna fleiri samsvörun, byggt á dagsetningum, upphæðum og lýsingum. Ef viðskiptamaður greiddi til dæmis marga reikninga í einni moldarsamtölu stemmir Copilot af eina bankayfirlitslínu við margar reikningsfærslur.
 
-## <a name="what-is-the-intended-use-of-bank-reconciliation-assist"></a>Hver er tilætluð aðstoð við bankaafstemmingu?
+- Tillögur um fjárhagsreikninga
 
-Aðstoð við afstemmingu bankareikninga er hönnuð til að auðkenna nýjar færslur sem viðskiptamenn eiga að gera grein fyrir í [!INCLUDE[prod_short](includes/prod_short.md)], til að auka nákvæmni fjárhags sinna. Þessi aðgerð er ekki ætluð til greiningar á svikum eða greiningu á því hvort viðskiptavinir hafa greitt tímanlega.   
+    Copilot notar AI-tækni til að bera færslulýsinguna saman við heiti fjárhagsreikninga og leggja síðan til líklegustu fjárhagsreikningana til að bóka á fyrir afgöngum bankafærslna sem ekki er hægt að para við færslur. Til dæmis ef ósamræmdar færslur hafa frásagnareldsneyti Stöðvun *24* gæti Copilot lagt til að þær séu bókaðar á *flutningsreikninginn* .
 
-## <a name="how-was-bank-reconciliation-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvernig var aðstoð við bankaafstemmingu metin? Hvaða mælieiningar eru notaðar til að mæla afköst?
+Copilot tengist ekki bankanum þínum til að sækja eða senda færslur. Þetta verk helst að fullu innan stjórnunar. Það er forsenda þess að nota aðstoð Copilot, óháð því hvort færslum er bætt við [!INCLUDE[prod_short](includes/prod_short.md)] með stafrænni bankatengingu, fluttar inn úr bankayfirlitsskrá eða handvirkt færðar inn.
 
-Þessi aðgerð var prófuð með því að nota samsetningar tilbúinna bankaviðskiptagagna og svipaðra fjárhagsreikninga og fjárhagsfærslna sem ná til dæmigerðra frávika og gagnatakmarkana fyrir hvern reit og á mismunandi tungumálum. Prófunargögn tákna bæði dæmigerða notkun og notkun slæmra leikara. Afköst voru mæld í samanburði við handvirka afstemmingu sömu gagna. 
+## Hver er tilætluð aðstoð við bankaafstemmingu?
 
-## <a name="what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-the-bank-reconciliation-limitations-when-using-the-system"></a>Hverjar eru takmarkanir á bankaafstemmingu að aðstoða? Hvernig geta notendur minnkað áhrif takmarkana á bankaafstemmingu þegar kerfið er notað?
+Aðstoð við afstemmingu bankareikninga er hönnuð til að auka nákvæmni fjárhags með því að hjálpa viðskiptamönnum að finna nýjar færslur sem þær eiga að gera grein fyrir í [!INCLUDE[prod_short](includes/prod_short.md)]. Það er ekki ætlað til greiningar á svikum eða til að greina hvort viðskiptavinir greiddu á réttum tíma.
 
-Aðstoð við afstemmingu bankareikninga hentar best þegar heiti fjárhagsreikninga, færslulýsingar og lýsingar á bankafærslum eru allar á sama tungumáli. Blönduð tungumál eða blandað tungumál færslulýsinga leiða oft til færri samsvörunar og tillagna. 
+## Hvernig var aðstoð við bankaafstemmingu metin? Hvaða mælieiningar eru notaðar til að mæla afköst?
 
-Tillögur um fjárhagsreikninga henta best á ensku. Þó að hægt sé að nota þessa aðgerð á einhverju tiltæku [!INCLUDE[prod_short](includes/prod_short.md)] tungumáli gætu notendur upplifað færri færslusamsvörur og færri fjárhagsreikninga sem lagt er til á öðrum tungumálum. 
-<!--
+Aðstoð við afstemmingu bankareikninga var prófuð með því að nota samsetningar tilbúins bankaviðskiptagagna og svipaðra fjárhagsreikninga og fjárhagsfærslna sem ná yfir dæmigerð frávik og gagnamörk hvers reits og á mismunandi tungumálum. Prófunargögn tákna bæði dæmigerða notkun og notkun slæmra leikara. Afköst voru mæld í samanburði við handvirka afstemmingu sömu gagna.
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>What operational factors and settings allow for effective and responsible use of the feature?
+## Hverjar eru takmarkanir á bankaafstemmingu að aðstoða? Hvernig geta notendur minnkað áhrif þessara takmarkana þegar þeir nota kerfið?
 
+Aðstoð við afstemmingu bankareikninga hentar best þegar heiti fjárhagsreikninga, færslulýsingar og lýsingar á bankafærslum eru allar á sama tungumáli. Blönduð tungumál eða blönduð tungumál fyrir færslulýsingar leiða oft til færri samsvörunar og tillagna.
 
--->
-## <a name="in-which-geographies-and-languages-is-bank-reconciliation-assist-available"></a>Í hvaða landafræði og tungumálum er bankaafstemming tiltæk?
+Tillögur um fjárhagsreikninga framkvæma best á einu af studdu tungumálunum (sjá næsta kafla fyrir lista yfir tungumál). Notendur geta upplifað færri færslusamsvörur og færri fjárhagsreikninga sem lagt er til á öðrum tungumálum.
 
-Þessi möguleiki er tiltækur fyrir hvaða umhverfisland/svæði sem er og á hvaða tungumáli sem er. Fyrir umhverfi viðskiptavina sem staðsett eru í löndum/svæðum þar sem Azure OpenAI þjónusta er ekki virkjuð verða stjórnendur fyrst að hafa samþykki til að leyfa hreyfingu gagna þvert á mörk [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast Azure OpenAI þjónustu og til að þessi möguleiki sé tiltækur. 
+## Í hvaða landafræði og tungumálum er bankaafstemming tiltæk? 
 
-Nánari upplýsingar um tungumál eru í fyrri spurningu um takmarkanir.  
+- Tiltæk landfræði
 
-## <a name="what-is-expected-of-end-users-when-operating-bank-account-reconciliation-assist"></a>Hvers er búist við afstemmingu bankareikninga við afstemmingu bankareikninga?
+  Aðstoð við afstemmingu bankareikninga er tiltæk í öllum studdum [Business Central löndum/svæðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Fyrir umhverfi viðskiptavina sem staðsett eru í löndum/svæðum þar sem Azure OpenAI þjónusta er ekki virkjuð verða stjórnendur að hafa samþykki til að leyfa gögnum sínum að færast yfir mörk [!INCLUDE [prod_short](includes/prod_short.md)] til að tengjast Azure OpenAI þjónustu. Fræðast meira um [hreyfingu copilot gagna í landfræði](ai-copilot-data-movement.md).
 
-### <a name="while-using-bank-account-reconciliation"></a>Afstemming bankareikninga notuð
+- Tiltæk tungumál
 
-Ónýt samsvörun og tillögur gætu stundum verið rangar eða ófullnægjandi. Notendur afstemmingar bankareikninga verða að fara yfir nákvæmni samsvörunar og tillagna Copilot áður en kosið er að halda þeim. Samsvörun og tillögur Copilot eru ekki vistaðar í gagnagrunninum [!INCLUDE[prod_short](includes/prod_short.md)] fyrr en þú velur hnappinn Halda honum og loka glugganum Copilot. Einnig er hægt að breyta og leiðrétta samsvörun eða tillögur áður en valið er að halda honum. 
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-### <a name="after-completing-bank-account-reconciliation"></a>Eftir að afstemmingu bankareiknings hefur verið lokið
+Nánari upplýsingar um tungumál eru í fyrri spurningunni um takmarkanir.
 
-Mælt er með því að notendur sannreyni einnig nákvæmni og leiðrétti misræmi eftir að farið er út úr glugganum Copilot, þar á meðal eftirfarandi aðgerðir: 
+## Hvað er búist við af kerfisnotendum þegar þeir nota afstemmingu bankareikninga?
 
-- Farið yfir prófunarskýrslu afstemmingar. 
-- Tryggja að fyrirtækið sé með viðeigandi endurskoðunar- og endurskoðunarferli. 
-- Opna aftur bókaðar afstemmingar með aðgerðinni Afturkalla. 
-- Leiðrétta allar rangar fjárhagsfærslur með bakfærðum bókunum á færslum. 
+### Við afstemmingu bankareiknings
 
-## <a name="what-is-expected-of-administrators-and-end-users-when-operating-bank-account-reconciliation-assist"></a>Til hvers er vænst af stjórnendum og notendum við afstemmingu bankareikninga?
+Ónýt samsvörun og tillögur gætu stundum verið rangar eða ófullnægjandi. Notendur afstemmingar bankareikninga verða að fara yfir nákvæmni samsvaranna og tillagna sem Copilot gefur áður en þeir velja að halda þeim. Samsvörun copilot og tillögur eru ekki vistaðar í gagnagrunninum [!INCLUDE[prod_short](includes/prod_short.md)] fyrr en þú velur **hnappinn Halda honum** og loka glugganum Copilot. Hægt er að breyta og leiðrétta samsvörun eða tillögur áður en valið er að halda þeim.
 
-Notendur eins og endurskoðendur, gjaldkerar eða aðrir sem vinna við viðskiptabókhald ættu ávallt að fara yfir nákvæmni samsvöruna og tillögur sem Copilot gefur áður en valið er að halda þeim. Þegar copilot hefur verið stemmt af er mælt með því að fara yfir prófunarskýrslu afstemmingar til að sannreyna nákvæmni og greina misræmi. 
+### Eftir að afstemmingu bankareiknings er lokið
 
-Stjórnendur ættu að tryggja að viðkomandi bókhaldsnotendum hafi verið veittur aðgangur að þessari getu. 
+Mælt er með því að notendur sannreyni einnig nákvæmni og leiðrétti misræmi eftir að þeir loka glugganum Copilot. Þetta ferli ætti að fela í sér eftirfarandi aðgerðir:
 
-## <a name="is-copilot-the-only-means-to-completing-bank-account-reconciliation"></a>Er Afrita eini leiðin til að ljúka afstemmingu bankareikninga?
+- Farið yfir prófunarskýrslu afstemmingar.
+- Tryggja þarf að fyrirtækið sé með viðeigandi endurskoðunar- og endurskoðunarferli á réttum stað.
+- Opna aftur bókaðar afstemmingar með aðgerðinni **Afturkalla** .
+- Leiðrétta allar rangar fjárhagsfærslur með bakfærðum bókunum á færslum.
 
-Engin – notkun Copilot er valfrjáls. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á hefðbundnar og ónýtar leiðir til að flytja inn bankayfirlit, keyra fyrirfram skilgreindar samsvarandi reglur og nota samsvörunir handvirkt og bóka á viðeigandi fjárhagsreikninga. Bæði hefðbundna aðferð og Copilot er hægt að nota samtímis innan fyrirtækis. 
+## Hvað er búist við af stjórnendum og notendum kerfisins þegar þeir stýra afstemmingu bankareikninga?
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvernig gef ég ábendingar um innihald myndaðs efnis?
+Kerfisnotendur, t.d. endurskoðendur, gjaldkerar eða aðrir sem vinna við viðskiptabókhald, ættu alltaf að fara yfir nákvæmni samsvarana og tillagna sem Copilot veitir áður en þeir velja að halda þeim. Eftir afstemmingu við Copilot er mælt með því að þessir notendur fari yfir afstemmingarprófunarskýrsluna til að votta nákvæmni og greina misræmi.
 
-Í hvert sinn sem Copilot leggur fram samsvörun eða tillögur er hægt að senda ábendingar til Microsoft beint í glugganum Copilot með því að nota eins og mislíkindi. Svörun þín er nafnlaus og við notum þessi gögn til að bæta gæði þjónustunnar.
+Stjórnendur ættu að tryggja að viðeigandi bókhaldsnotendum sé veittur aðgangur að þessari getu.
 
+## Er Afrita eini leiðin til að ljúka afstemmingu bankareikninga?
 
-## <a name="see-also"></a>Sjá einnig .
+Nr. Notkun Copilot er valfrjáls. [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á hefðbundnar og ónýtar leiðir til að flytja inn bankayfirlit, keyra fyrirfram skilgreindar samsvarandi reglur og nota samsvörunir handvirkt og bóka á viðeigandi fjárhagsreikninga. Bæði hefðbundna aðferð og Copilot er hægt að nota samtímis í skipulagi.
 
-[Stemma af bankareikninga með aðstoð bankaafstemmingar (forskoðun)](bank-reconciliation-with-copilot.md)
+## Hvernig gef ég ábendingar um innihald myndaðs efnis?
+
+Í hvert skipti sem Copilot býður upp á samsvörun eða tillögur er hægt að senda ábendingar til Microsoft beint úr glugganum Copilot með því að nota eins og (þumlur upp) og ólíkt (þumlum niður) stýringum. Ábendingar þínar eru nafnlausar og við notum þessi gögn til að bæta gæði þjónustunnar.
+
+## Sjá einnig .
+
+[Stemma af bankareikninga við Afrita (forskoðun)](bank-reconciliation-with-copilot.md)

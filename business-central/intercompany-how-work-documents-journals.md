@@ -3,7 +3,7 @@ title: Bóka milli-fyrirtækjaskjöl og færslubækur
 description: Þetta efnisatriði útskýrir hvernig á að nota millifyrirtækjaskjöl eða færslubækur til að bóka færslur með millifyrirtækjafélögum þínum.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-ba
 ms.search.form: '600, 610'
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Unnið með samstæðuskjöl og færslubækur
+# Unnið með samstæðuskjöl og færslubækur
 
 Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga. Hægt er að bóka færslur á fjárhagsreikninga og ef bankareikningar milli fyrirtækja hafa verið settir upp er einnig hægt að bóka bankafærslur í banka. Nánari upplýsingar um uppsetningu bankareikninga milli fyrirtækja eru settir upp með því að [fara í Tilgreina bankareikninga sem nota á fyrir MF-félaga](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -21,7 +21,7 @@ Fyrir sölu- og innkaupaskjöl tryggir MF-félagakóti viðskiptamannsins eða l
 
 Hið sama á við um færslubókarlínur milli fyrirtækja. Þú þarft ekki að tilgreina reikninga, þú velur bara félagafyrirtækið. Samsvarandi færslubókarlínur milli fyrirtækja eru síðan stofnaðar í fyrirtæki félagans.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Sölupöntun milli fyrirtækja er fyllt út og send
+## Sölupöntun milli fyrirtækja er fyllt út og send
 
 Hægt er að senda sölu- og innkaupapantanir og vöruskilapantanir áður en bókað er. Ekki er hægt að senda reikninga og kreditreikninga fyrr en þeir hafa verið bókaðir.
 
@@ -36,7 +36,7 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 > [!NOTE]
 > Ef 5. þrep er gert fer sölupöntunin í MF-úthólfið þar sem hægt er að senda hana síðar. Nánari upplýsingar um MF-innhólfið og úthólfið fást með því að [fara í Stjórna MF-innhólfinu og úthólfinu](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Færa inn og bóka MF-færslubók
+## Færa inn og bóka MF-færslubók
 
 Þegar bókuð er almenn færslubókarlína í fyrirtækinu, er samsvarandi færslubókarlína stofunuð í MF-úthólfinu sem hægt er að flytja til félagans. Með útgáfubylgju 1 2022 er einnig hægt að setja fyrirtækið upp þannig að það stofni sjálfkrafa mótteknar færslur milli fyrirtækja sem félagar bókuðu í færslubækur milli fyrirtækja. Félaginn getur síðan bókað samsvarandi færslu í sínu fyrirtæki án þess að færa gögnin inn aftur.
 
@@ -51,7 +51,7 @@ Eftirfarandi aðferð lýsir því hvernig eigi að fylla út og senda sölupön
 
 Færslurnar eru bókaðar í fyrirtækinu og færslubók með tilsvarandi færslum er stofnuð í MF-úthólfinu svo hægt sé að senda þær til fyrirtækis félagans.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Fjármál](finance.md)  

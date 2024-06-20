@@ -8,20 +8,21 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="enable-approval-workflows"></a>Virkja samþykktarverkflæði
+# Virkja samþykktarverkflæði
 
 Þegar þú hefur búið til samþykktarverkflæði og þú ert viss um að það sé tilbúið þarftu að virkja það.  
 
 Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti í verkflæðislínum úr föstum listum yfir gildi tilvika og svara sem standa fyrir verkflæðissviðsmyndir sem kóði forritsins styður. Frekari upplýsingar eru á [Búa til verkflæði](across-how-to-create-workflows.md).  
 
-## <a name="enable-a-workflow"></a>Virkja verkflæði
+## Virkja verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Opnið verkflæði sem á að virkja.  
 3. Á síðunni **Verkflæði** skaltu kveikja á víxlhnappinum **Virkjað**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  
 [Nota Samþykktarverkflæði](across-use-workflows.md)  

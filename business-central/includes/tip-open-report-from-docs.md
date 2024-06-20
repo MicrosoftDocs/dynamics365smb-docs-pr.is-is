@@ -1,10 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 > [!TIP]
-> Ef þú ert með (á netinu) [!INCLUDE [prod_short](prod_short.md)] framleiðsluumhverfi geturðu smellt á skýrslukennið hér fyrir neðan til að opna skýrsluna í vörunni. Ef þú vilt vera á þessari síðu geturðu haldið niðri CTRL áður en þú smellir. Í flestum vöfrum opnast skýrslan svo í nýjum vafraglugga. 
+> Ef framleiðsluumhverfi er til á [!INCLUDE [prod_short](prod_short.md)] netinu er hægt að smella á skýrslukenni í eftirfarandi töflu til að opna skýrsluna í vörunni. Ef þú vilt vera áfram á þessari síðu er CTRL haldið niðri áður en smellt er á. Í flestum vöfrum opnast skýrslan í nýjum vafraflipa.

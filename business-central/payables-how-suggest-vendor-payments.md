@@ -3,7 +3,7 @@ title: Greiðslutillögur til lánardr.
 description: 'Keyrslan Greiðslutillögur til lánardr. er notuð til að stofna greiðslulínur fyrir lánardrottna, byggt á gjalddögum og greiðsluafslætti.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256,'
@@ -11,7 +11,7 @@ ms.date: 12/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
+# Greiðslutillögur til lánardr.
 
 Á síðunni **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Á grundvelli stillinganna eru [!INCLUDE [prod_short](includes/prod_short.md)]  tillögur um línur fyrir:
 
@@ -30,14 +30,14 @@ Til að njóta góðs af greiðslutillögum þarf að forgangsraða lánardrottn
 > * Gjaldfallnar lánardrottnafærslur sem ekki hefur verið forgangsraðað.  
 > * Opna lánardrottnafærslur sem eru gjaldföllnar fyrir greiðsluafslátt. Færslunum er raðað eftir númeri lánardrottins.  
 
-## <a name="use-the-suggest-vendor-payments-action"></a>Nota aðgerðina Greiðslutillögur til lánardr.
+## Nota aðgerðina Greiðslutillögur til lánardr.
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **greiðslubækur** og velja síðan viðeigandi tengil.  
 2. Færslubókin er opnuð og aðgerðin **Greiðslutillögur til lánardr** . valinn.  
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hnappurinn Í lagi **er** valinn.  
 
-## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Gjalddaginn er settur inn sem bókunardagsetning í greiðslubókarlínum
+## Gjalddaginn er settur inn sem bókunardagsetning í greiðslubókarlínum
 
 Þegar keyrslan Greiðslutillögur **til lánardr. er notuð** til að stofna greiðslulínur fyrir lánardrottna er hægt að fylla út tvo sérstaka reiti til að tryggja að myndaðar línur noti gjalddagann til að reikna bókunardagsetninguna. Þessir reitir eru **Reikna Bókunardagsetning úr Gjalddaga jöfnunar** og **frávik gjalddaga jöfnunar**.  
 
@@ -51,7 +51,7 @@ Einnig er hægt að stofna greiðslulínur handvirkt með því að nota gjaldda
 > [!NOTE]  
 > Ef innkaupareikningurinn er gjaldfallinn er bókunardagsetningin stillt á vinnudagsetninguna og leturgerð línunnar breytist í rautt.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Stjórna skuldum](payables-manage-payables.md)  
 - [Framkvæma greiðslur](payables-make-payments.md)  

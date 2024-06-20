@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-planning-assignment-table"></a>Hönnunarupplýsingar: áætlunartafla
+# Hönnunarupplýsingar: áætlunartafla
 Allar vörur ættu að vera áætlaðar en aftur á móti er engin ástæða til að reikna áætlun fyrir vöru nema eftirspurnar- eða framboðsmynstur hafi breyst síðan áætlun var síðast reiknuð.  
 
 Ef notandi hefur slegið inn nýja sölupöntun eða breytt pöntun sem fyrir er er ástæða til að endurreikna áætlunina. Aðrar ástæður eru m.a. breytingar á spá eða viðeigandi magn í öryggisbirgðum. Breyting á uppskrift með því að bæta við eða fjarlægja íhlut myndi líklega gefa til kynna breytingu, en aðeins fyrir hlut vöru.  
@@ -54,7 +55,7 @@ Við útreikning á MPS eða MRP, gilda eftirfarandi takmarkanir:
 * MPS: Áætlunarkerfið athugar hvort varan er með eftirspurnarspá eða sölupöntun. Ef ekki er varan ekki tekin með í áætluninni.  
 * MRP: Ef áætlanakerfið greinir að verið sé að fylla á vöruna með MPS-áætlunarlínu eða MPS-framboðspötnun verður varan ekki höfð með í áætlun. Hins vegar verða allar eftirspurnir frá viðkomandi íhlutum innifaldar.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)   

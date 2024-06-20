@@ -9,17 +9,18 @@ ms.search.form: null
 ms.date: 08/25/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="financial-information-quick-start"></a>Stuttur leiðarvísir um fjárhagsupplýsingar
+# Stuttur leiðarvísir um fjárhagsupplýsingar
 
 Eftir að hafa slegið inn grunnupplýsingar fyrirtækisins í [!INCLUDE[prod_short](includes/prod_short.md)] er eitt af næstu skrefum að ljúka við fjármálahlutann. Þetta er ekki bara gert til að taka á móti eða senda greiðslu heldur líka til að stjórna og gefa upp númer fyrirtækisins á viðeigandi hátt.
 
-## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
+## Bókhaldslykillinn
 
 Bókhaldslykillinn býður upp á yfirlit yfir fjármál fyrirtækisins, sýnir lista yfir reikninga í skipulögðum flokkum eins og eignum, skuldum, tekjum, kostnaði seldra vara og útgjöldum. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem hægt er að sérsníða að bókhaldsvenjum fyrirtækisins.
 
-## <a name="set-up-the-chart-of-accounts"></a>Uppsetning bókhaldslykla
+## Uppsetning bókhaldslykla
 
 Eftirfarandi myndband sýnir hvernig á að setja upp bókhaldslykilinn í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -27,7 +28,7 @@ Eftirfarandi myndband sýnir hvernig á að setja upp bókhaldslykilinn í [!INC
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Bæta reikningi við bókhaldslykilinn
+### Bæta reikningi við bókhaldslykilinn
 
 Til að bæta við reikningi sem er ekki sjálfgefið innifalinn í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. garðyrkjuþjónusta, skal fylgja þessum skrefum:
 
@@ -55,7 +56,7 @@ Til að bæta við reikningi sem er ekki sjálfgefið innifalinn í [!INCLUDE[pr
 
 5. Fylltu út eftirstandandi reiti á síðunni **Fjárhagsspjald** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Fá yfirlit yfir bókhaldslykilinn
+### Fá yfirlit yfir bókhaldslykilinn
 
 Ef þú þarft þéttara yfirlit yfir bókhaldslykil, án dálka fyrir bókunarflokka, bókunargerð eða kostnaðargerð sem dæmi, sýnir **Yfirlit bókhaldslykils** meginupplýsingar fyrir hvern reikning í smærri töflu. Þar að auki er hægt að draga saman eða stækka hópa til að fela aðgangana inni í þeim.
 
@@ -63,7 +64,7 @@ Til að birta yfirlitið skaltu velja aðgerðina **Yfirlit bókhaldslykils** á
 
 Frekari upplýsingar um bókhaldslykilinn og fjárhaginn er að finna í [Að skilja fjárhaginn og bókhaldslykilinn](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
+## Bankareikningar settir upp
 
 Bankareikningar í [!INCLUDE[prod_short](includes/prod_short.md)] skrá bankafærslur og tengjast færslum í bókhaldslyklinum. Eftirfarandi myndband sýnir hvernig á að setja upp bankareikninga.
 
@@ -78,7 +79,7 @@ Bankareikningar í [!INCLUDE[prod_short](includes/prod_short.md)] skrá bankafæ
    Reiturinn er annar en í reitnum **Bankareikningsnr.** sem einnig er í boði í flýtiflipanum **Almennt**.
 4. Fylla skal út í reitina á síðunni **Bankareikningsspjald** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning bókhaldslykla](finance-setup-chart-accounts.md)  
 [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)  

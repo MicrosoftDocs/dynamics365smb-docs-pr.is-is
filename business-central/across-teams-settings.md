@@ -8,9 +8,10 @@ ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 36
 ms.date: 04/12/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Breyta fyrirtæki og aðrar stillingar í Teams
+# Breyta fyrirtæki og aðrar stillingar í Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -26,7 +27,7 @@ Til eru tvær leiðir til að opna síðuna **Stillingar**: 1) úr skrifglugga s
 
    ![Stillingar fyrir Business Central úr skrifglugga.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

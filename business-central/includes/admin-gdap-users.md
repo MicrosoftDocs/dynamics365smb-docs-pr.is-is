@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Þú gætir séð aðra notendur í listanum **Notendur** fyrir utan þá úr þínu eigin fyrirtæki. Þegar úthlutaður stjórnandi frá endursölufyrirtæki samstarfsaðila skráir sig inn í [!INCLUDE [prod_short](prod_short.md)] umhverfið fyrir hönd viðskiptamanns er hann sjálfkrafa stofnaður sem notandi í [!INCLUDE [prod_short](prod_short.md)]. Þannig eru aðgerðir sem úthlutaður stjórnandi framkvæmir skráðar inn [!INCLUDE [prod_short](prod_short.md)], t.d. bókun skjala og tengdar við notandakennið.  
 

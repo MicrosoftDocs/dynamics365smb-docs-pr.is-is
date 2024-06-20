@@ -8,13 +8,14 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-service-quotes"></a>Stofna þjónustutilboð
+# Stofna þjónustutilboð
 Þú getur hugsað um þjónustutilboð sem grunninn fyrir þjónustupöntunum. Þetta tvennt er í raun alveg eins. Bæði innihalda upplýsingar eins og þær hver viðskiptamaðurinn er, tegund pöntunar, varan sem þarf þjónustuna, reiknings- og afhendingarupplýsingar, og upplýsingar um hina raunverulegu þjónustuvinnu.
  
 Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun.  
   
-## <a name="to-create-a-service-quote"></a>Þjónustutilboð búin til:
+## Þjónustutilboð búin til:  
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustutilboð** og velja síðan viðkomandi tengil.  
 2. Stofna nýtt þjónustutilboð.  
 3. Í reitnum **númer** er fært inn númer fyrir þjónustutilboðið. Hafi númeraröð fyrir þjónustutilboð verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að velja <kbd>Færslulykil</kbd> til að velja næsta lausa þjónustutilboðsnúmer.  
@@ -27,7 +28,7 @@ Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má b
 6. Þjónustuvörulínurnar eru fylltar út.  
 7. Metinn kostnaður er skráður í þjónustulínurnar.  
   
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Stofna þjónustupantanir](service-how-to-create-service-orders.md)  
 [Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)  
 

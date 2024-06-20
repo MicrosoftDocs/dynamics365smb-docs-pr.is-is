@@ -10,7 +10,7 @@ ms.date: 05/03/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="approval-workflow-notifications"></a>Tilkynningar um samþykktarverkflæði
+# Tilkynningar um samþykktarverkflæði
 
 Setja upp verkflæðin til að láta notendur vita sjálfkrafa þegar þeir þurfa að skoða skref í því verkflæði. Mörg verkflæðisviðbrögð fela í sér að láta notanda vita um tilvik sem hefur komið upp og hann verður að bregðast við.
 
@@ -22,7 +22,7 @@ Til dæmis er hægt að stilla þau á notanda 2, samþykktarnotandinn sem fær 
 > [!IMPORTANT]  
 > Allar verkflæðistilkynningar eru sendar um verkröð. Gakktu úr skugga um að verkröð í uppsetningu sé sett upp þannig að hún meðhöndli verkflæðistilkynningar og að gátreiturinn **Byrja sjálfkrafa frá þjóni** sé valinn. Frekari upplýsingar eru í [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Setja upp tilkynningar
+## Setja upp tilkynningar
 
 Hægt er að setja upp mismunandi verkflæðistilkynningar á viðkomandi stöðum:  
 
@@ -51,7 +51,7 @@ Hægt er að setja upp mismunandi verkflæðistilkynningar á viðkomandi stöð
 
   Fyrir samþykktarverkflæði skal bæta við svarskrefi verkflæðis til að tilkynna sendanda þegar beiðni hefur verið samþykkt eða henni hafnað. Frekari upplýsingar er að finna í skrefi 9 í hlutanum [Stofna verkflæði](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
 [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)  

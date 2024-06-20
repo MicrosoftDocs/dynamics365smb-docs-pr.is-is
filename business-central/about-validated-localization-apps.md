@@ -2,18 +2,17 @@
 title: Þróun staðfestra forrita fyrir staðfæringu
 description: Samræmast kröfum reglugerða í Dynamics 365 Business Central sem staðfest staðfæringarforrit.
 author: altotovi
-ms.date: 04/24/2024
-ms.reviewer: solsen
+ms.date: 06/04/2024
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.author: altotovi
 ---
 
-
-# <a name="development-of-validated-localization-apps"></a>Þróun staðfestra forrita fyrir staðfæringu
+# Þróun staðfestra forrita fyrir staðfæringu
 
 Þessi grein lýsir kröfum og leiðbeiningum um þróun staðfests staðfæringarforrits fyrir [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="what-is-a-validated-localization-app"></a>Hvað er staðfest staðfæringarforrit?
+## Hvað er staðfest staðfæringarforrit?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er í boði [á heimsvísu á 170+ mörkuðum](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). Á markaðnum vinnur Microsoft með samstarfsaðilum ISV til að staðfæra með forritum sem nálgast [!INCLUDE[prod_short](includes/prod_short.md)] má staðfæringu á [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Fyrir þessi svæði er hægt að nálgast staðfæringar með forritinu sem hentar kjörstaðsetningu. Forritið sem kýs staðfæringarforrit þekkir forritin sem eru byggð samkvæmt tilteknum leiðbeiningum Microsoft um gæði. ISV samstarfsaðilar sem uppfylla þessar kerfiskröfur og leiðbeiningar geta gagnast tæknilega og í viðskiptalegum tilburðum til að þjónusta sölumenn og viðskiptamenn.  
 
@@ -27,7 +26,6 @@ Forrit í staðfestri staðfæringarflugmannskerfinu innihalda safn aðgerða se
 - **Reglubundnar kröfur** - staðbundnar aðgerðir sem hjálpa fyrirtækjum að uppfylla lagalegar kröfur sínar, svo sem skattskýrslugerð, staðbundið E-reikningsfærslusnið, staðbundið GAAP og aðrar kröfur um eftirlit.
 - **Kröfur**  um innlenda staðla – staðbundnar aðgerðir sem taka til staðbundinna staðla, svo sem aðseturssnið, landsbankasnið eða staðbundnar túlkanir á altækum stöðlum.
 - **Staðbundið tungumál** - tungumál í staðfæringarforritinu en einnig fyrir grunnforrit ef tungumálið er ekki á lista yfir [studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
-- **Staðbundið tungumál** - staðbundið tungumál í staðfæringarforriti en einnig fyrir grunnforrit ef tungumálið er ekki á lista yfir [studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 > [!NOTE]
 > Staðbundnar kröfur um markaðsþarfir eða iðnað ætti ekki að vera innifalin í kjörforritum fyrir staðfæringu. Ef forrit innihalda þessar aðgerðir er ekki hægt að samþykkja forritin sem Staðfest staðfæringarforrit.
@@ -35,22 +33,18 @@ Forrit í staðfestri staðfæringarflugmannskerfinu innihalda safn aðgerða se
 > [!NOTE]
 > Staðbundnar aðgerðir eru gagnlegar fyrir framleiðniviðskipti í landi og bæta þar með við viðskiptum en eru ekki nauðsynlegar frá sjónarhóli reglubundins sjónarhorns, t.d. tilteknum banka- og greiðslusniðum, útgjaldaskýrslum, aðgerðum í hraðbanka, launagreiðslum og álíka smærri eða stærri og gott að hafa aðgerðirnar í öðrum forritum. Ef forrit innihalda þessar aðgerðir er þeim ekki samþykkt sem Staðfest staðfæringarforrit.   
 
-## <a name="validated-localization-app-business-requirements"></a>Prófaðar viðskiptakröfur fyrir staðfæringu forrits
+## Prófaðar viðskiptakröfur fyrir staðfæringu forrits  
 
 - Sannprófuð staðfæringarforritaveita uppfyllir allar kröfur til að vera CSP óbeinn veitandi.  
-- Staðfest staðfæringarforrit veitir markaðssetningu mín. af tilboðum í fimm löndum/svæðum, sem búna Dynamics 365 Business Central til með staðfestu staðfæringarforriti. 
+- Staðfest staðfæringarforrit veitir markaðssetningu að lágmarki tilboð í fimm löndum/svæðum, sem búna Dynamics 365 Business Central til með staðfestu staðfæringarforriti. 
 - Staðfest staðfæringarforritaveitan hefur að lágmarki 10 [!INCLUDE[prod_short](includes/prod_short.md)] netviðskiptamenn með framleiðsluumhverfi sem eru virkir með því að nota staðfesta staðfæringarforritið. 
 - Forritið Staðfest staðfæring sendir viðskiptaáætlun árlega til forritsins v-teymis. Þar með talið eru áætlaðar markaðssetningar- og undirbúningsaðgerðir til að kynna búnt tilboðsins með CSP óbeinum endurseljendum í viðeigandi löndum/svæðum. Hægt er að senda áætlun í upphafi hvers ársfjórðungs til [staðfæringarteymis](mailto:d365bcloc@microsoft.com) Microsoft.  
-- Staðfest staðfæringarforrit eru gerð tiltæk öllum viðskiptamönnum og samstarfsaðilum sem vilja njóta góðs af því.  
-- Staðfest staðfæringarforritaveitan gefur markaðssetningu að lágmarki tilboð í fimm löndum/svæðum, sem búna Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] með staðfestu staðfæringarforriti. 
-- Staðfest staðfæringarforritaveitan hefur að lágmarki 10 [!INCLUDE[prod_short](includes/prod_short.md)] netviðskiptamenn með framleiðsluumhverfi sem eru virkir með því að nota staðfesta staðfæringarforritið. 
-- Forritið Staðfest staðfæring sendir viðskiptaáætlun árlega til forritsins v-teymis. Þar með talið eru áætlaðar markaðssetningar- og undirbúningsaðgerðir til að kynna búnt tilboðsins með CSP óbeinum endurseljendum í viðeigandi löndum/svæðum. Hægt er að senda áætlun fyrir hverja upphaf fjórðungs til staðfæringarteymis [Microsoft](mailto:d365bcloc@microsoft.com).  
-- Staðfest staðfæringarforrit eru gerð tiltæk öllum viðskiptamönnum og samstarfsaðilum sem vilja njóta góðs af því.  
+- Staðfest staðfæringarforrit eru gerð tiltæk öllum viðskiptamönnum og samstarfsaðilum sem vilja njóta góðs af því.     
 - Staðfest staðfæringarforritaveitan tekur þátt í ítrekuðum vinnugrunni við Microsoft.
 
-## <a name="validated-localization-app-functional-and-technical-requirements"></a>Virkni og tæknilegar kröfur um staðfæringu
+## Virkni og tæknilegar kröfur um staðfæringu  
 
-### <a name="functionality-requirements"></a>Virkniþarfir
+### Virkniþarfir   
 
 Fyrir utan að uppfylla tæknilegar kröfur fyrir staðfæringarforritið sem hentar best er að lágmarks hagkvæmt vöruumfang kjörforrits:  
 
@@ -74,12 +68,9 @@ Fyrir utan að uppfylla tæknilegar kröfur fyrir staðfæringarforritið sem he
 - Allar aðgerðir verður að hanna til að halda einfölduðu notandaviðmóti, athuga skal að þeir eru fyrst og fremst ætlaðir á SMB markaðinn.  
 - Forðast skal að byggja nýjar aðgerðir ef sömu eða svipaðar aðgerðir eru þegar til í grunnforritinu, svo sem rafræna reikningsfærslu, útflutning endurskoðunar, VSK-eiginleika, gagnaskipti og aðrar þar sem flestar aðgerðir eru sameiginlegar öllum löndum/svæðum en nokkrar staðbundnar reglur eða viðskiptasnið eru sem eru viðbætur við altæka ramma eða snið. Í stað þess að byggja nýjar aðgerðir skal framlengja þær sem fyrir eru.  
 - Útbúa leiðsagnarforrit fyrir uppsetningu (leiðsagnarforrit) fyrir svæði sem eru flókin til að setja upp til að hjálpa notendum að virkja, uppgötva og hafa góða reynslu af notkun staðfæringarforritsins.  
-- Allar aðgerðir verður að hanna til að halda einfölduðu notandaviðmóti, hafa í huga að þeir eru aðallega ætlaðir á SMB markaðinn.  
-- Forðast skal að byggja nýja eiginleika ef sömu eða svipaðar aðgerðir eru þegar til í grunnforritinu, svo sem rafræna reikningsfærslu, útflutning á endurskoðun, VSK-eiginleika, gagnaskipti og aðrar þar sem flestar aðgerðir eru sameiginlegar öllum löndum/svæðum en nokkrar staðbundnar reglur eða viðskiptasnið eru viðbætur við altækan ramma eða snið. Í stað þess að byggja nýjar aðgerðir skal framlengja þær sem fyrir eru.    
-- Útbúa leiðsagnarforrit fyrir uppsetningu (leiðsagnarforrit) fyrir svæði sem eru flókin til að setja upp til að hjálpa notendum að virkja, uppgötva og hafa góða reynslu af notkun staðfæringarforritsins.  
 - Samstarfsaðilar verða að útvega hagnýt fylgigögn fyrir alla þætti staðfæringar þeirra.  
 
-### <a name="technical-requirements"></a>Tæknilegar kröfur
+### Tæknilegar kröfur  
 
 Hér á eftir er að finna lista yfir þarfir sem þarf að uppfylla áður en forritið Staðfest staðfæring er sent sem viðbót við staðfestingu. Þessi listi breytir [ekki tæknilegu villuleitarlistanum](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) og nær aðeins yfir kröfur þaðan.  
 
@@ -92,13 +83,11 @@ Hér á eftir er að finna lista yfir þarfir sem þarf að uppfylla áður en f
 - Forritaveiturnar fyrir staðfesta staðfæringu ættu að bæta við nýjum atburðum ef það er krafist af markaði (öðrum framkvæmdaaðilum eða viðskiptamönnum) ef það er skynsamlegt í viðskiptum, í kjölfar stefnu og starfs í Microsoft. Annars verða staðfestar staðfæringarforritaveitur að gefa svar við slíkum fyrirspurnum með réttri réttri stillingu á því hvers vegna það er ekki skynsamlegt að bæta við. 
 - Forritaveiturnar Staðfest staðfæring verða að útvega skriflegar prófunaraðstæður á ensku og gera Microsoft kleift að gera handvirka prófun ef Microsoft krefst þess.  
 - Ef staðfest staðfæringarforrit auka gagnalíkanið [!INCLUDE[prod_short](includes/prod_short.md)] með nýjum töflum og/eða reitum verður forritið Staðfest staðfæring að stilla **eiginleika DataClassification** rétt.
-- Forritaveiturnar staðfest staðfæring verða að byggja upp staðfest staðfæringarforrit byggt á W1 grunnforritinu.  
-- Forritaveiturnar fyrir staðfesta staðfæringu verða að fylgja líftíma og stuðningsreglum Microsoft.   
 
 > [!NOTE]  
 > Einnig er hægt að búa til samþættingu ef þér finnst hún gagnleg til að hafa einhverja virkni setta utan umhverfisins [!INCLUDE[prod_short](includes/prod_short.md)] og tengjast þess í stað til að nota til [!INCLUDE[prod_short](includes/prod_short.md)] dæmis API eða vefþjónustu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Tæknileg prófun](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Þróun staðlaðrar staðfæringarlausnar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
