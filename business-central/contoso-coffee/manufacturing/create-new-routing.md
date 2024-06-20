@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Kynning: Búa til nýja leið
+# <a name="walkthrough-create-a-new-routing"></a>Kynning: Búa til nýja leið
 
 Í þessari grein tökum við þig í gegnum skrefin til að nota Contoso Coffee kynningu gögn til að setja handvirkt upp nýja framleiðsluleið í [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Aðstæður
+## <a name="scenario"></a>Aðstæður
 
 Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið með heitinu *Ný slóð*. Þar sem leiðin er ólíkt öðrum leiðum á Contoso-kaffi verður Oscar að handfæra allar upplýsingarnar fyrir leiðina.  
 
-## Skref
+## <a name="steps"></a>Skref
 
 1. Búðu til leiðarhausinn.  
 
@@ -55,6 +55,6 @@ Oscar, ferlahönnuður hjá Contoso Coffee, ákveður að búa til nýja leið m
 
 Nýja leiðin er nú uppsett.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning á Contoso Kaffi kynningargögnum](../contoso-coffee-intro.md)  

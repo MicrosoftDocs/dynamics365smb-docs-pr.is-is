@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Að skilja VÍV-aðferðir í verkefnastjórnun
+# <a name="understanding-wip-methods-in-project-management"></a>Að skilja VÍV-aðferðir í verkefnastjórnun
 
 Þegar verk er unnið er efni, forði og annar kostnaður notaður og það þarf að bóka á verkið. Verk í vinnslu (VÍV) er eiginleiki sem gerir kleift að meta fjárhagslegt virði verka í fjárhag á meðan verkefnin eru í gangi. Oft er hægt að bóka kostnað vegna verks áður en verk er reikningsfært. Þegar aðeins kostnaður hefur verið bókaður verður fjárhagsyfirlitið ónákvæmt.
 
@@ -27,7 +27,7 @@ Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið
 | Prósentum lokið |Samþykktur kostnaður = Notkun (heildarkostnaður)<br /><br /> Samþykktar tekjur = Reikningshæft heildarverð x Prósentum lokið<br /><br /> Prósentum lokið = Notkun (heildarkostnaður) / Heildarkostnaður á fjárhagsáætlun<br /> (Tekin upp í **Svæðið Kostnaðar lokið %** í verkhlutalínum)<br /><br /> VÍV-sala = Samþykkt sala - Reikningshæft reikningsfært verð |Útreikningar á loknum prósentum samþykkja tekjur í hlutfalli byggt á loknum prósentum, þ.e. notkun (heildarkostnaði) á móti áætlunarkostnaði.<br /><br /> Þessi útreikningur krefst þess að reikningshæft heildarverð og heildarkostnaður á fjárhagsáætlun séu færð inn á réttan hátt fyrir allt verkið. |
 | Samn. sem er lokið |VÍV-upphæð = VÍV-kostnaðarupphæð = Notkun (heildarkostnaður)<br /><br /> VÍV-söluupphæð = Reikningshæft (Reikningsfært verð) |Samningi lokið samþykkir ekki tekjur og kostnað fyrr en verkinu er lokið. Þetta gæti verið æskilegt þegar mikil óvissa ríkir um áætlanir um kostnað og tekjur verkefnisins.<br /><br /> Öll notkun er bókuð á VÍV-kostnaðarreikning (eign) og öll reikningsfærð sala er bókuð á VÍV-reikning reikningsfærðrar sölu (skuld) þar til verkefninu er lokið. |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Verkefnastjórnun](projects-manage-projects.md)  
 [Fjármál](finance.md)  

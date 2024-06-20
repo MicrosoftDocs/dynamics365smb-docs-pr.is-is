@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Nota Business Central sem fyrirtækjainnhólf í Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Nota Business Central sem fyrirtækjainnhólf í Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kynnir innbót sem gerir þér kleift að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[prod_short](includes/prod_short.md)] innbótinni fyrir Outlook er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum og búið til og sent fjárhagsleg skjöl, svo sem tilboð og reikninga.
 
@@ -24,7 +24,7 @@ ms.reviewer: jswymer
 
    Þegar viðskiptaskjal er sent í tölvupósti veitir innbótin beinan tengil frá tölvupósti til raunverulegs viðskiptaskjals í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Hefjast handa
+## <a name="get-started"></a>Hefjast handa
 
 1. Það fyrsta sem þarf að gera er að fá [!INCLUDE[prod_short](includes/prod_short.md)] innbótina uppsetta í Outlook. Kerfisstjórinn þinn gæti þegar hafa sett upp innbótina fyrir þig. Kannaðu því málið hjá kerfisstjóra ef þú ert ekki viss eða sjáðu næsta skref til að staðfesta hvort hún sé uppsett.
 
@@ -45,7 +45,7 @@ ms.reviewer: jswymer
 
 Frekari upplýsingar eru í [Nota innbætur í Outlook á vefnum](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## Nýttu þér tengiliði og skjöl með því að nota innbót tengiliðainnsýnar
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Nýttu þér tengiliði og skjöl með því að nota innbót tengiliðainnsýnar
 
 Segjum að þú fáir tölvupóst frá viðskiptavini sem vill fá tilboð í sumum hlutum. Beint í Outlook, opnarðu [!INCLUDE[prod_short](includes/prod_short.md)] viðbótina, sem viðurkennir sendanda sem viðskiptavin, og opnar viðskiptavinakortið fyrir fyrirtæki hans. Í þessu stjórnborði má sjá yfirlit yfir upplýsingar um viðskiptamann og þú getur kafað niður til að sjá nánari upplýsingar um tiltekin skjöl. Einnig má fá frekari upplýsingar um söluferil viðskiptamannsins. Ef það er nýr tengiliður getur þú búið hann til sem nýjan viðskiptamann í [!INCLUDE[prod_short](includes/prod_short.md)] án þess að yfirgefa Outlook.  
 
@@ -58,7 +58,7 @@ Stundum viltu sjá fleiri reiti en þú sérð í viðbótinni, svo sem þegar �
 > [!TIP]
 > Verkin útskýra hvernig á að nota innbótina úr tölvupósti. En það sama er hægt að gera í dagatalsfundi í Outlook.
 
-### Fletta upp á viðskiptatengilið þegar tölvupóstur er skrifaður
+### <a name="look-up-a-business-contact-when-composing-an-email"></a>Fletta upp á viðskiptatengilið þegar tölvupóstur er skrifaður
 
 1. Búa til nýtt tölvupóstskeyti.
 2. Í borðanum skal fara í **[!INCLUDE[prod_short](includes/prod_short.md)]** og velja **Talnagögn tengiliðar**. Eða ef þú notar Outlook á vefnum, efst í skeytinu, veldu **Forrit** ![Sýnir forrit hnappinn í Outlook.](media/apps-icon.png) > **Business Central** ![innbót táknmynd í Outlook.](media/outlook-business-central-icon.png) > **Talnagögn tengiliða**.
@@ -66,7 +66,7 @@ Stundum viltu sjá fleiri reiti en þú sérð í viðbótinni, svo sem þegar �
 
     Yfirlit yfir tengiliðinn birtist í glugganum og tengiliðnum er bætt við í línuna **Til** í tölvupóstinum.
 
-### Skoða og breyta samskiptaupplýsingum eða skipta um fyrirtæki
+### <a name="view-and-change-the-contact-details-or-switch-company"></a>Skoða og breyta samskiptaupplýsingum eða skipta um fyrirtæki
 
 Aðgerðastikan efst í [!INCLUDE[prod_short](includes/prod_short.md)] innbótasvæðinu inniheldur ýmsar aðgerðir sem gera þér kleift að kafa dýpra ofan í upplýsingar um tengiliðinn og gera breytingar.
 
@@ -74,7 +74,7 @@ Aðgerðastikan efst í [!INCLUDE[prod_short](includes/prod_short.md)] innbótas
 
 Þú getur til dæmis opnað tengiliðaupplýsingarnar í heild sinni eins og þú myndir sjá þær í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú vinnur með fleiri en eitt [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja.
 
-### Fylgjast með skjölum á innleið
+### <a name="track-incoming-documents"></a>Fylgjast með skjölum á innleið
 
 Kannski notar þú listann **Skjöl á innleið** í [!INCLUDE[prod_short](includes/prod_short.md)] til að fylgjast með skjölum til úrvinnslu sem lánardrottnar senda þér, t.d. innkaupareikning sem þarf að greiða. Ef þú gerir það getur þú auðveldlega búið til færslur skjala á innleið í Outlook-innbótinni og látið tölvupóstviðhengin fylgja með.
 
@@ -82,13 +82,13 @@ Kannski notar þú listann **Skjöl á innleið** í [!INCLUDE[prod_short](inclu
 
 2. Á aðgerðastiku innbótarinnar skal velja **Sýna fleiri aðgerðir**, síðan velja **Senda í Skjöl á innleið…“** Aðgerð  
 
-### Búa til og senda nýtt skjal til tengiliðar
+### <a name="create-and-send-new-document-to-a-contact"></a>Búa til og senda nýtt skjal til tengiliðar
 
 1. Í borðanum eða neðst í tölvupóstinum velur þú ![Tákn fyrir innbót Business Central í Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Nýtt**, veldu síðan hvers konar skjal á að búa til, t.d. **Sölutilboð**.
 2. Gerðu breytingar á skjalinu í **[!INCLUDE[prod_short](includes/prod_short.md)]** innbótasvæðinu.
 3. Þegar skjalið er tilbúið til að vera sent á tengilið skal á aðgerðarstikunni velja **Sýna fleiri aðgerðir**, síðan velja aðgerðina **Senda með tölvupósti**.
 
-### Hengja skrár við færslur
+### <a name="attach-files-to-records"></a>Hengja skrár við færslur
 
 Innhólf tölvupóstsins virkar oft sem uppruni skráa á innleið sem setja af stað eða opna á verkflæði. Skrár geta innihaldið hluti eins og PDF-reikningsgreiðslur, myndir af vörum eða kröfur í Word-skjali. Þegar unnið er í Outlook með færslur Business Central eins og lánardrottna, viðskiptamenn, innkaupareikninga eða sölupantanir geturðu hengt þessar skrár við færslurnar.
 
@@ -98,7 +98,7 @@ Nokkrar leiðir eru í boði til að henga við skrár. Ein leið er að hlaða 
 
 Eftir að hafa hengt við skrá geta samstarfsmenn hlaðið niður og skoðað skrána úr upplýsingareitnum **Viðhengi** í einhverju biðlara Business Central. Eða þeir geta opnað skrána í OneDrive til að deila með deildinni sinni og vinna saman í henni.
 
-#### Hvernig á að hengja við skrá
+#### <a name="how-to-attach-a-file"></a>Hvernig á að hengja við skrá
 
 1. Opnaðu tölvupóstinn, veldu ![Tákn Business Central-innbótar í Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Talnagögn tengiliða**.
 2. Á aðgerðastiku innbótarinnar skal velja **Sýna fleiri aðgerðir** > **Viðhengi**.
@@ -112,7 +112,7 @@ Eftir að hafa hengt við skrá geta samstarfsmenn hlaðið niður og skoðað s
 > [!NOTE]
 > Ekki er hægt að hengja skrár við allar færslur. Þessi eiginleiki er í boði fyrir færslur sem nota upplýsingareitinn **Viðhengi**, t.d. lánardrottin, viðskiptamann, innkaupareikning eða sölupöntun.
 
-## Skoða skjal úr tölvupósti með því að nota innbót skjalaskoðunar
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Skoða skjal úr tölvupósti með því að nota innbót skjalaskoðunar
 
 Hvort sem það er tölvupóstur sem þú sendir eða fékkst, geturðu nálgast hvaða [!INCLUDE[prod_short](includes/prod_short.md)] skjal sem er, líka sölutilboð, beint úr Outlook. Þaðan er hægt að gera breytingar og fara í tengdar upplýsingar&mdash;alveg eins og þú myndir gera í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -121,7 +121,7 @@ Ef þú notar Outlook-forritið skaltu einfaldlega velja **Tengill á skjal** ef
 > [!TIP]
 > Frá og með 2022 útgáfutímabil 1 opnast skjöl í nýjum vafraglugga með öllum möguleikum sem þú þekkir úr [!INCLUDE [prod_short](includes/prod_short.md)]. Þú getur farið úr skjali yfir í lista og aftur til baka, opnað lista í Excel, sent skjöl sem á að prenta og keyrt eða forskoðað tengdar skýrslur. Þú ert einnig með alla kunnugulegu flýtilyklana þarna þegar þú opnar skjöl úr Outlook.  
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Fylgjast með framvindu og afköstum verks
+# <a name="monitor-project-progress-and-performance"></a>Fylgjast með framvindu og afköstum verks
 
 Með aðgerðinni Verk í vinnslu (VÍV) er hægt að meta fjárhagslegt virði verkefna sem eru í fjárhag.
 
@@ -28,7 +28,7 @@ VÍV má reikna út byggt á eftirfarandi:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## Stofna VÍV-aðferð verks
+## <a name="create-a-project-wip-method"></a>Stofna VÍV-aðferð verks
 
 Búa til VÍV-aðferð verks sem uppfyllir þarfir fyrirtækisins og stilla hana sem sjálfgildi.  
 
@@ -41,7 +41,7 @@ Búa til VÍV-aðferð verks sem uppfyllir þarfir fyrirtækisins og stilla hana
 4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Tákn, slá inn **verkuppsetningu** og velja síðan viðeigandi tengil.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.
 
-## Skilgreina VÍV-aðferð fyrir verk
+## <a name="define-a-wip-method-for-a-project"></a>Skilgreina VÍV-aðferð fyrir verk
 
 Þegar nýtt verk er stofnað verður að tilgreina hvaða VÍV-aðferð verks á við. Í sumum tilvikum er VÍV-aðferð verksins sem notuð er þegar sjálfgefin.
 
@@ -49,7 +49,7 @@ Búa til VÍV-aðferð verks sem uppfyllir þarfir fyrirtækisins og stilla hana
 2. Valið er aðgerðin **Nýtt**. Fræðast meira um [stofnun verkefna](projects-how-create-jobs.md).  
 3. Á síðunni **Verkspjald** í reitnum **VÍV-aðferð** skal velja VÍV-aðferð af listanum. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
-### Skilgreina VÍV-aðferð fyrir verkverk
+### <a name="define-a-wip-method-for-a-project-task"></a>Skilgreina VÍV-aðferð fyrir verkverk
 
 Hægt er að skilgreina VÍV-aðferð fyrir verkhluta, útiloka verkhluta frá VÍV-útreikningi eða flokka verk sem á að reikna saman. 
 
@@ -94,7 +94,7 @@ Eftirfarandi tafla lýsir valkostunum þremur:
 
 * *1300* til *og með 1399*: VÍV er reiknað út sérstaklega fyrir þennan verkhlutaflokk.
 
-## Reikna VÍV
+## <a name="calculate-wip"></a>Reikna VÍV
 
 Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir skýrslugjöf við lok tímabils. Nota keyrsluverkefnið **Verk - Reikna VÍV** til þess.  
 
@@ -106,7 +106,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 > [!NOTE]  
 > Keyrsluverkið reiknar aðeins VÍV, það bókar það ekki í fjárhag. Til að bóka það skal keyra **keyrsluverkið Bóka VÍV í fjárhag** eftir að VÍV hefur verið reiknað. Fáðu frekari upplýsingar í eftirfarandi ferli.
 
-## Bóka VÍV
+## <a name="post-wip"></a>Bóka VÍV
 
 Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagsreikning fyrir árslokaskýrslu. Keyrsluverkefnið **Verk - Bóka VÍV í fjárhag** er notað til þess.
 
@@ -114,7 +114,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 2. Á síðunni **Verkbóka VÍV í fjárhag** skal fylla út reitina eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.
 
-## Reikna og bóka verklokafærslur
+## <a name="calculate-and-post-project-completion-entries"></a>Reikna og bóka verklokafærslur
 
 Þegar öllum aðgerðum verks er lokið, þ.m.t. bókun notkunar og reikningsfærsla, verður að uppfæra stöðu **verksins í Lokið**. Síðan þarf að bakfæra VÍV sem hefur verið bókað í fjárhag.
 
@@ -131,7 +131,7 @@ Hægt er að ákvarða VÍV-upphæðina sem bóka skal á efnahagsreikning fyrir
 
      VÍV-fjárhagsfærslur verksins sem stofnaðar eru með því að keyra keyrsluverkið fá gátreitinn **Verk lokið** til að sýna að þær eru lokafærslur.
 
-## Skoða verkfærslur
+## <a name="view-project-ledger-entries"></a>Skoða verkfærslur
 
 Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar í röð og byrja á 1. Í verkdagbókinni er hægt að fá yfirlit yfir allar verkfærslur.    
 
@@ -140,7 +140,7 @@ Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar 
 
 Á síðunni **Verkfærslur** er hægt að fara yfir færslurnar sem eru tengdar hvaða verkefni sem er.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Kynning - Útreikningur verks í vinnslu fyrir verkefni](walkthrough-calculating-work-in-process-for-a-job.md)
 [sem stjórnar verkefnum](projects-manage-projects.md)  

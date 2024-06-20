@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Uppsetning bestu venjur: Áætla færibreytur
+# <a name="setup-best-practices-planning-parameters"></a>Uppsetning bestu venjur: Áætla færibreytur
 
 Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyrirtækis. Uppsetning réttra áætlunarfæribreyta er mjög mikilvæg fyrir hagkvæma birgðastjórnun og gæði þjónustu við viðskiptamenn.  
 
@@ -34,7 +34,7 @@ Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyr
 >
 > Ef fyrirtæki áætla eftirspurn fyrir mismunandi birgðageymslur er eindregið mælt með því að skilgreina birgðahaldseiningar fyrir hverja birgðageymslu og búa alla eftirspurn til með því að nota gildi úr reitnum **Kóti birgðageymslu**. Nánari upplýsingar um [hönnun: Áætlanir með eða án birgðageymslna](production-planning-with-without-locations.md).  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  

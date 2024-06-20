@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# Selja hluti sem eru settir saman í pöntun
+# <a name="sell-items-assembled-to-order"></a>Selja hluti sem eru settir saman í pöntun
 
 Ekki er búist við að vörur sem settar eru upp fyrir samsetningar-í-pöntun verði í birgðum og verða settar saman þegar þær eru innifaldar á sölupöntun. Vara er sett upp fyrir samsetningu eftir pöntun þegar í reitnum **Samsetningarstefna** á birgðaspjaldinu er **Samsetning eftir pöntun**. Þegar varan er færð inn í sölupöntunarlínu er samsetningarpöntun sjálfkrafa stofnuð og tengd við sölupöntunina.  
 
@@ -28,7 +28,7 @@ Ekki er búist við að vörur sem settar eru upp fyrir samsetningar-í-pöntun 
 > [!NOTE]  
 > Eftirfarandi ferli tekur ekki með skref til að stofna staðlaða sölupöntun sem gerist á undan skrefinu þar sem samsetning-á-pöntun vara er færð inn í sölupöntunarlínu. Nánari upplýsingar um stofnun sölupantana á [Selja vörur með sölupöntun viðskiptamanns](sales-how-sell-products.md).  
 
-## Til að selja vöru sem er sett saman í pöntun
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Til að selja vöru sem er sett saman í pöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Stofnið sölupöntun. 
@@ -60,7 +60,7 @@ Ekki er búist við að vörur sem settar eru upp fyrir samsetningar-í-pöntun 
 > [!NOTE]  
 > Staðgenglar vöru skipta ekki sjálfkrafa út vöru fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða uppskrift. Þess í stað verður þú varaður við því að staðgengill sé tiltækur.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Samsetningardeild](assembly-assemble-items.md)  
 [Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  

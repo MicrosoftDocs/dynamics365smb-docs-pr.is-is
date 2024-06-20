@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Samstilla töfluvarpanir handvirkt
+# <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
 
 
 Vörpun samþættingartöflu tengir [!INCLUDE[prod_short](includes/prod_short.md)]-töflu, t.d. viðskiptavin, við [!INCLUDE[prod_short](includes/cds_long_md.md)] töflu, t.d. reikning. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[prod_short](includes/prod_short.md)]-töflunni og [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
@@ -20,7 +20,7 @@ Að samstilla varpanir samþættingartöflu handvirkt getur verið gagnlegt við
 
 Þetta efnisatriði útskýrir þrjár aðferðir til að samstilla varpanir samþættingartöflu handvirkt. Hver aðferð býður upp á mismunandi stig samstillingar.
 
-## Keyra fulla samstillingu
+## <a name="run-a-full-synchronization"></a>Keyra fulla samstillingu
 Full samstilling keyrir öll samstillingarverk samþættingar fyrir samstillingu á [!INCLUDE[prod_short](includes/prod_short.md)]-færslum og [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum, eins og það er skilgreint á síðunni **Vörpun samþættingartöflu**. 
 
 Full samstilling framkvæmir eftirfarandi aðgerðir fyrir [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)]-færslur sem eru:
@@ -36,7 +36,7 @@ Hvort og hvenær lína er búin til fer eftir samstillingaráttinni. Til dæmis,
 > [!IMPORTANT]  
 >  Venjulega er aðeins notuð full samstilling þegar samþætting er sett upp fyrst milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] og aðeins ein af lausnunum inniheldur gögn, sem þú vilt afrita í hina lausnina. Full samstilling getur verið gagnleg í sýniumhverfi. Vegna þess að full samstilling býr til og tengir færslur milli lausna, er hægt að byrja fyrr á að vinna með samstillingu gagna milli færslna. Aftur á móti ætti aðeins að keyra fulla samstillingu ef þú vilt línu í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir hverja línu í [!INCLUDE[prod_short](includes/cds_long_md.md)] fyrir umbeðnar töfluvarpanir. Annars er hægt að fá óumbeðnar eða tvíteknar færslur í annaðhvort [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
-### Að keyra fulla samstillingu  
+### <a name="to-run-a-full-synchronization"></a>Að keyra fulla samstillingu
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Dataverse Uppsetning tengingar** og velja síðan viðkomandi tengil.
 
     > [!NOTE]
@@ -51,7 +51,7 @@ Hvort og hvenær lína er búin til fer eftir samstillingaráttinni. Til dæmis,
 
 Hægt er að skoða niðurstöður fullrar samstillingar á síðunni **Samstillingarverk samþættingar**. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).  
 
-## Samstilling á öllum breyttum færslum
+## <a name="synchronizing-all-modified-records"></a>Samstilling á öllum breyttum færslum
 Hægt er að nota síðuna **Common Data Service Uppsetning tengingar** til að samstilla breytingar á gögnum í vörpunum samþættingartöflu. Þetta er svipað og full samstilling. Það mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[prod_short](includes/prod_short.md)]-töflum og [!INCLUDE[prod_short](includes/cds_long_md.md)]-töflum sem eru skilgreindar í töfluvörpunum. Sjálfgefið er að aðeins gögn sem hefur verið breytt frá síðustu samstillingu verða samstillt. Samstillingarverk samstilla töfluvörpunum í eftirfarandi röð til að koma í veg fyrir að tengingar hafi áhrif á hver aðra milli taflanna:  
 
 1.  GJALDMIÐLAR  
@@ -65,18 +65,18 @@ Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarver
 > [!TIP]  
 >  Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að búa til síur til að stýra því hvaða gögn eru samstillt, eða skilgreint vörpun til að búa til ný gögn á viðtökustað lausnar fyrir ótengdar færslur eða línur á upprunastaðnum. Frekari upplýsingar er að finna í [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### Til að samstilla gögn fyrir allar töflur  
+### <a name="to-synchronize-data-for-all-tables"></a>Til að samstilla gögn fyrir allar töflur
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Microsoft Dynamics Uppsetning tengingar á 365 Sales** og velja síðan viðkomandi tengil.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
-## Samstilla stakar töfluvarpanir
+## <a name="synchronize-individual-table-mappings"></a>Samstilla stakar töfluvarpanir
 Hægt er að nota síðuna **Vörpun samþættingartöflu** til að keyra samstillingarverk fyrir tilteknar töfluvarpanir. Þetta mun samstilla gögn fyrir allar tengdar færslur og línur í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] töflum sem eru skilgreindar af töfluvörpun. Sjálfgefið er að aðeins gögn sem hefur verið breytt frá síðustu samstillingu verða samstillt.  
 
-### Að samstilla færslur fyrir vörpun samþættingartöflu  
+### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Að samstilla færslur fyrir vörpun samþættingartöflu
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Samstilling Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

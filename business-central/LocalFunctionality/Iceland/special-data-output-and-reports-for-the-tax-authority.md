@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Sérstök gögn og skýrslur fyrir íslensk skattayfirvöld
+# <a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a>Sérstök gögn og skýrslur fyrir íslensk skattayfirvöld
 
 Þess er krafist að skattyfirvöld sendi skattyfirvöldum gagnaskrá með fyrirframskilgreindu sniði.  
 
@@ -18,7 +18,7 @@ Til að búa til að gagnaskrá fyrir skattyfirvöld þurfa allir reikningar í 
 
 Fjárhagsreikningar eru tengdir fyrirfram skilgreindum reikningskótum hins opinbera og þessum kótum er skipt upp í hópa og tegundir. Bæta þarf við viðeigandi skattstofunúmerum og tengja fjárhagsreikninga við þessa kóta handvirkt. Einnig þarf að tilkynna gögnin til skattyfirvalda.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Senda VSK skýrslu inn til skattayfirvalda](../../finance-how-report-vat.md)
 
 

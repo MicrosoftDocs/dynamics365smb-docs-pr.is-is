@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Skoða verkflæðisskrefstilvik í skráasafni
+# <a name="view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni
 
 Öll lokin tilvik verkflæðisskrefa eru vistuð á síðunni **Safn verkflæðisskrefstilvika**.  
 
@@ -20,7 +20,7 @@ ms.reviewer: bholtorf
 > [!NOTE]
 > Til að skoða feril og stöðu verkflæða með Power Automate samþættingu skal velja aðgerðina **Verkflæðin mín** á síðunni **Power Automate** og síðan velja flæði til að skoða keyrsluferil og stöðu.
 
-## Skoða verkflæðisskrefstilvik í skráasafni
+## <a name="to-view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Opnið verkflæði þar sem skoða á öll verkflæðisskrefstilvik í skráasafni.  
@@ -31,7 +31,7 @@ ms.reviewer: bholtorf
 
    Síðan **Safn verkflæðisskrefstilvika** opnast og sýnir verkflæðisskrefstilvik í skráasafni. Í reitnum **Verkflæðiskóði** er hægt að sjá hvaða verkflæði verkflæðisskrefstilvik í skráasafni tilheyra.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Eyða samþykktarverkflæðum](across-how-to-delete-workflows.md)  
 [Stofna verkflæði samþykktar](across-how-to-create-workflows.md)  

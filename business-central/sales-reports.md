@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Söluskýrslur og greiningar í Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Söluskýrslur og greiningar í Business Central
 
 Söluskýrslugerð gefur sölu- og viðskiptafræðingum innsýn og upplýsingar um núverandi og eldri söluaðgerðir.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa nokkrum lykilverkhlutum til að greina stöðu sölunnar:
 
@@ -28,7 +28,7 @@ Eftirfarandi greinar lýsa nokkrum lykilverkhlutum til að greina stöðu sölun
 * [Pakkarakning](sales-how-track-packages.md)
 * [Skoða óbókaðar og bókaðar línur standandi sölupöntunar](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## Skoða söluskýrslur með skýrsluvafra
+## <a name="explore-sales-reports-with-report-explorer"></a>Skoða söluskýrslur með skýrsluvafra
 
 Til að fá yfirlit yfir þær skýrslur sem eru tiltækar fyrir sölu skal velja **Allar skýrslur** á heimasíðunni. Þessi aðgerð opnar Hlutverkavafrann sem er afmarkaður við aðgerðirnar í valkostinum **Skýrsla & Greining** . Undir hausnum **Sala og Markaðssetning** skal velja **Skoða**.
 
@@ -36,7 +36,7 @@ Til að fá yfirlit yfir þær skýrslur sem eru tiltækar fyrir sölu skal velj
 
 Nánari upplýsingar eru í [Finna skýrslur með hlutverkavafranum](ui-role-explorer.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Tilfalalengd greining á sölugögnum](ad-hoc-analysis-sales.md)    
 [Yfirlit yfir sölugreiningar](sales-analytics-overview.md)   

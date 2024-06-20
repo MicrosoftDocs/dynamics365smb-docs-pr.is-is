@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
+# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
 Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þegar móðurfyrirtæki, eða höfuðstöðvar, stjórna heildarrekstri fyrirtækisins en þar sem hvert svæði starfar sem ein, sjálfstæð eining. Svæði eru oft dreifð landfræðilega og hafa mismunandi þörf fyrir deilingu upplýsinga með höfuðstöðvum fyrirtækisins. Auk þess hafa svæði yfirleitt ekki sömu þarfir og oft skortir úrræði til að viðhalda stóru kerfi.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gefur litlum og meðalstórum fyrirtækjum viðskiptalausn sem auðvelt er að nota og með lágum rekstrarkostnaði.
 
 Í þessari grein eru útlistaðar nokkrar leiðir sem [!INCLUDE[prod_short](includes/prod_short.md)] styður við „hub-and-spoke“ viðskiptalíkan.
 
-## Samþætting höfuðstöðvarfyrirtækisins og svæða
+## <a name="integrating-the-headquarter-company-and-the-sites"></a>Samþætting höfuðstöðvarfyrirtækisins og svæða
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að samþætta við bókhaldskerfi höfuðstöðvanna og uppfylla mismunandi þarfir mismunandi svæða, óháð stærð, staðsetningu eða gerð fyrirtækja.
 
@@ -26,7 +26,7 @@ Eftirfarandi skýringarmynd er dæmi um mismunandi svæði sem eru samþætt hö
 
 ![Lýsing skýringarmyndar sjálfkrafa búin til.](media/multisite-headquarter-sites.png)
 
-## Uppfylla þarfir innlendra og alþjóðlegra vefsvæða
+## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Uppfylla þarfir innlendra og alþjóðlegra vefsvæða
 
 Viðskiptaþörf á svæðum er oft mismunandi eftir iðnaði, viðskiptaaðferðum eða tengslum við höfuðstöðvar fyrirtækisins. [!INCLUDE[prod_short](includes/prod_short.md)] það er auðvelt að aðlaga og stækka fyrir ýmis konar fyrirtæki og staði. Microsoft AppSource býður upp á fjölmörg forrit frá Microsoft og samstarfsaðilum þess, og samstarfsaðilar geta nota [!INCLUDE[prod_short](includes/prod_short.md)] á stuttum tíma og með lágmarkstruflunum fyrir daglegan rekstur.
 
@@ -45,7 +45,7 @@ Yfir 4.000 samstarfsaðilar Microsoft um allan heim veita staðbundna sérþekki
 | Sjá um mörg tungumál og gjaldmiðla. | Stuðningur við mörg tungumál og gjaldmiðla hjálpar við að uppfylla staðbundnar þarfir. | [Möguleikar á mörgum tungumálum](about-locale-language.md)<br></br>[Eiginleikar margra gjaldmiðla](finance-how-setup-additional-currencies.md) |
 
 
-## Sameina fjárhagsgögn
+## <a name="consolidate-financial-data"></a>Sameina fjárhagsgögn
 
 Kjarninn í „hub-and-spoke“ viðskiptalíkani er geta höfuðstöðvanna og svæða til að skiptast á fjárhagslegum gögnum, jafnvel þegar höfuðstöðvarfyrirtækið og svæðin nota mismunandi kerfi, bókhaldsskipulag, tungumál og gjaldmiðla.
 
@@ -55,7 +55,7 @@ Kjarninn í „hub-and-spoke“ viðskiptalíkani er geta höfuðstöðvanna og 
 | Samþætta bókhaldsskipulag. | Flytja samstæðugögn frá mismunandi bókhaldsskipulagi yfir í þitt eigið. Innbyggt skráarsnið fyrir F&O (fáanlegt með bylgju 2, 2020) | [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)<br></br>[Undirbúa fjárhagslykla fyrir sameiningu](finance-consolidated-company-reporting-setup.md#glacc) |
 | Færslur í mörgum gjaldmiðlum. | Hjálpa til við að tryggja að fjárhagsskýrslur í ólíkum gjaldmiðlum séu réttar og nota rétt gengi. | [Uppfæra gengi](finance-how-update-currencies.md) |
 
-## Deildu viðskiptainnsýn með samþættri greiningu
+## <a name="share-business-insight-with-integrated-analytics"></a>Deildu viðskiptainnsýn með samþættri greiningu
 
 Tryggðu að fyrirtækið starfi í samræmi við viðskiptamarkmiðin með því að veita sameiginlegan skilning á núverandi stöðu. Samþættar greiningar geta hjálpað fólki að byggja ákvarðanir sínar á sömu staðreyndum.
 
@@ -67,7 +67,7 @@ Tryggðu að fyrirtækið starfi í samræmi við viðskiptamarkmiðin með þv�
 | Greindu gögnin í Excel. | Gátun, úrræðaleit og tilfallandi greiningar í Microsoft Excel. | [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
 
 
-## Gagnaskipti með API og XMLports
+## <a name="exchange-data-using-apis-and-xmlports"></a>Gagnaskipti með API og XMLports
 
 API og XMLports einfalda ferlið við að tengja tilvik [!INCLUDE[prod_short](includes/prod_short.md)], þar á meðal þau sem hafa verið sérstillt fyrir hvert vefsvæði.
 
@@ -82,7 +82,7 @@ API og XMLports einfalda ferlið við að tengja tilvik [!INCLUDE[prod_short](in
 | Tengjast lausnum og þjónustu þriðja aðila<sup></sup>. | API setur punktatengingu milli Business Central og lausna og þjónustu<sup></sup> þriðju aðila. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## Kynna skilvirka framboðskeðju samstæðu
+## <a name="promote-an-efficient-intercompany-supply-chain"></a>Kynna skilvirka framboðskeðju samstæðu
 
 Vefsvæði þurfa oft aðgang að birgðakeðjunni og möguleika á að stýra tilteknum þáttum hennar. Til dæmis gætu svæði notað sama lánardrottinn en stjórnað eignum sínum og staðsetningum sérstaklega.
 
@@ -91,7 +91,7 @@ Vefsvæði þurfa oft aðgang að birgðakeðjunni og möguleika á að stýra t
 | Meðhöndla færslur milli deilda sem eðlilegar sölu- og innkaupafærslur. | Nota færslur milli fyrirtækja til að búa til sölu- og innkaupaskjöl og færslur í fjárhag fyrir allt vinnuflæðið og fyrir fleiri en eitt fyrirtæki í einu til að útiloka tvöfalda gagnafærslu. | [Vinna með millifyrirtækjafærslur](intercompany-manage.md) |
 | Nota pappírslaus ferli. | Forðastu kostnað við sendingu, móttöku og prentun skjala. | [Skjöl á innleið](across-income-documents.md)<br><br> [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md) |
 
-## Bregðast hratt við nýjum viðskiptaaðstæðum
+## <a name="respond-quickly-to-new-business-conditions"></a>Bregðast hratt við nýjum viðskiptaaðstæðum
 
 Höfuðstöðvar verða að geta brugðist skjótt við breytingum á rekstri á hverjum stað. Samhliða Power Automate getur [!INCLUDE[prod_short](includes/prod_short.md)] getur þjónað sem viðvörunarkerfi.
 
@@ -102,7 +102,7 @@ Höfuðstöðvar verða að geta brugðist skjótt við breytingum á rekstri á
 | Búa sjálfkrafa til póstviðvaranir. | Setja upp viðvaranir í Power Automate sem mynda tölvupósta til að upplýsa þig um mikilvæg viðskiptaskilyrði á síðum eða samstarfsaðilum birgðakeðjunnar. | [Business Central og Power BI](admin-powerbi.md) |
 | Nota hefðbundnar eða sérsniðnar viðvaranir. | Nota 12 mismunandi sniðmát fyrir Business Central eða setja upp eigin viðvaranir sem henta fyrirtækinu. | [Nota Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md) |
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

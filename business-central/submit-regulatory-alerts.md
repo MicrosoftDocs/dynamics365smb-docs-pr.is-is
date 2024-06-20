@@ -10,11 +10,11 @@ ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
 
-# Senda viðvaranir um lands-/svæðisbundna reglugerðaaðgerð
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Senda viðvaranir um lands-/svæðisbundna reglugerðaaðgerð
 
 Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að leggja fram lögboðnar viðvaranir í gegnum innsendingarþjónustu á lögboðnum viðvörunum í Dynamics.  
 
-## Innsending lögboðinnar viðvörunar í LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Innsending lögboðinnar viðvörunar í LCS
 
 1. Farðu í [Björgunarþjónustuna](https://lcs.dynamics.com) og skráðu þig inn.  
 
@@ -67,7 +67,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
       Þegar viðvörunin hefur verið send inn færðu staðfestingu á því að tekist hafi að senda viðvörunina til Microsoft.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  

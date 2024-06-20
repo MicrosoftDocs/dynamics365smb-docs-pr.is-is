@@ -9,7 +9,7 @@ ms.date: 02/14/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Vinna hlutaafhendingar
+# <a name="process-partial-shipments"></a>Vinna hlutaafhendingar
 
 Í hlutaafhendingu er pöntun ekki send öll í einu. Til dæmis þegar 40 einingar af 100 eininga pöntun eru afhentar strax og 60 einingar síðar. Engar takmarkanir eru á fjölda afhendinga fyrir hverja pöntun.
 
@@ -19,7 +19,7 @@ ms.reviewer: bholtorf
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Selja vörur með sölupöntun viðskiptavinar](sales-how-sell-products.md)  
 [Senda vörur](warehouse-how-ship-items.md)  

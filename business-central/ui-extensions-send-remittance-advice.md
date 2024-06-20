@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Senda greiðslutilkynningu
+# <a name="send-remittance-advice"></a>Senda greiðslutilkynningu
 
 Þar sem greiðslutilkynning er notuð til að tilkynna lánardrottnum um greiðslur sem eru gerðar, er nú hægt senda margar greiðslutilkynningar í tölvupósti úr greiðslubók sem og að endursenda eftir að greiðslur eru gerðar úr færslum lánardrottnabókar með sendisniði skjala.
 
@@ -22,7 +22,7 @@ Hægt er að senda greiðslutilkynningu á tvo vegu:
 * Á síðunni **Greiðslubók** skal velja **Tengd**, **Greiðslur**, **Senda greiðslutilkynningu** til að senda greiðslutilkynningi í tölvupósti fyrir eina eða margar greiðslubókarlínur.
 * Á síðunni **Lánardrottnafærslur** skal velja **Aðgerðir**, **Virkni**, **Senda greiðslutilkynningu** á tölvupóst greiðslutilkynningar eftir bókun á greiðslum lánardrottins fyrir eina eða margar færslur lánardrottnabókar
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  

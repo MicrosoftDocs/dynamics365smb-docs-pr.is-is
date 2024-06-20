@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Reglufylgni þjónustu
+# <a name="service-compliance"></a>Reglufylgni þjónustu
 
 Þetta efni inniheldur upplýsingar um þjónustusamhæfi í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] netið.
 
@@ -20,11 +20,11 @@ Fyrir nákvæman lista yfir samræmismat fyrir Ský fyrir Business Central skal 
 
 Hafir þú áhuga á fullkomnum lista yfir samræmistilboð frá Microsoft er farið [í Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Þjónustuskilmálar
+## <a name="service-terms"></a>Þjónustuskilmálar
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  

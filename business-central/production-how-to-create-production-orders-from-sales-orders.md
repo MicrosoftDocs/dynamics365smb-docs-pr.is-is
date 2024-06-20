@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ms.service: dynamics-365-business-central
 ---
-# Búa til framleiðslupantanir úr sölupöntunum
+# <a name="create-production-orders-from-sales-orders"></a>Búa til framleiðslupantanir úr sölupöntunum
 
 Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá sölupöntunum.  
 
-## Framleiðslupantanir búnar til í sölupöntunum:  
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Framleiðslupantanir búnar til í sölupöntunum:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Sölupantanir** og velja síðan viðkomandi tengil.  
 2. Veldu sölupöntun sem þú vilt búa til framleiðslupöntun fyrir.  
@@ -28,7 +28,7 @@ Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá s
     >
     > Þegar framleiðslupantanir eru búnar til fyrir sölupantanir með síðunni Áætlun sölupöntunar er tenglum eftir pöntunum beitt milli eftirspurnar og framboðs. Þegar pantanatenglar eru til staðar tekur áætlunarkerfið ekki með tengdar framboð eða birgðir í mótfærsluferlinu. Nánari upplýsingar um jöfnun fást með því að fara á [tengla fyrir pöntun.til að fá nánari](design-details-central-concepts-of-the-planning-system.md#order-to-order-links) upplýsingar um jöfnun.
 
-## Gerð pöntunar  
+## <a name="order-type"></a>Gerð pöntunar
 
 Eftirfarandi tafla lýsir tveimur leiðum til að stofna framleiðslupantanir.
 
@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir tveimur leiðum til að stofna framleiðslupantanir.
 |Vörupöntun|Ein framleiðslupöntun er stofnuð fyrir hverja vöru sem lína sýnir á síðunni **Áætlun** sölupöntunar.|
 |Verkpöntun|Ein framleiðslupöntun samvals er stofnuð fyrir allar vörur sem línur birtast á síðunni **Áætlun** sölupöntunar. Þegar verkefnispantanir eru notaðar er **í reitnum** Tegund **uppruna í framleiðslupöntuninni Söluhaus**. Pöntunin er með eina línu fyrir hverja sölulínuvöru sem þarf að framleiða.|
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Þjónustuafhending
+# <a name="delivering-service"></a>Þjónustuafhending
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
   
 Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota síðuna **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna og bóka reikninga fyrir þjónustu sem þú hefur afhent.|[Stofna Þjónustureikninga eða kreditreikninga](service-how-create-invoices.md)|  
 |Halda viðskiptamönnum ánægðum með því að lána þeim vöru á meðan þú vinnur í þeirra.| [Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)|
   
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Áætla þjónustu](service-plan-service.md)  
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Stjórna verkum](projects-manage-projects.md)  

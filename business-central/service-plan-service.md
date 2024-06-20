@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Áætla þjónustu
+# <a name="planning-services"></a>Áætla þjónustu
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
@@ -25,7 +25,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skilja sambandið á milli stöðu viðgerða og áhrifanna sem þau hafa á úthlutaðan forða og öfugt.|[Skilja úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)|  
 |Nota tölfræðiupplýsingar til að greina þjónustuferli. | [Þjónustuupplýsingar skoðaðar](service-service-statistics.md) |
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Þjónustuafhending](service-deliver-service.md)  
 [Setja upp verðlagningu og aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  

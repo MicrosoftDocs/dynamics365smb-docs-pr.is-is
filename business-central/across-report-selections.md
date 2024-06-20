@@ -10,11 +10,11 @@ ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Skýrsluval fyrir skjöl í Business Central
+# <a name="report-selection-for-documents-in-business-central"></a>Skýrsluval fyrir skjöl í Business Central
 
 Hægt er að setja upp sjálfgefnar skýrslur til að prenta sölu-, innkaupa- og þjónustuskjöl, t.d. pantanir, verðtilboð og reikninga. Til dæmis, ef um sérstaka uppsetningu er að ræða fyrir sölureikninga er hægt að tilgreina þá skýrslu á síðunni **Skýrsluval - Sala** . Síðan er hægt að nota skýrsluna þegar sölureikningar eru sendir eða prentaðir.  
 
-## Skýrsluval í boði
+## <a name="available-report-selections"></a>Skýrsluval í boði
 
 Síðurnar **Skýrsluval** tilgreina skýrslurnar sem á að prenta við mismunandi aðstæður. [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á sjálfgefnar grunnstillingar, en hægt er að breyta þeim ef þörf krefur. Einnig er hægt að bæta skýrslum við síðurnar **Skýrsluval** ef á að prenta fleiri en eina skýrslu fyrir hverja skjalagerð sem dæmi. 
 
@@ -43,7 +43,7 @@ Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] innihel
 * **Skýrsluval - Framleiðslupöntun**  
 * **Skýrsluval - Innheimtubréf/Vaxtareikningur**  
 
-## Dæmi: Skýrsluval fyrir söluskjöl
+## <a name="example-report-selection-for-sales-documents"></a>Dæmi: Skýrsluval fyrir söluskjöl
 
 Síðan **Skýrsluval - Sala** býður upp á sjálfgefnar skýrslur til að nota í mismunandi aðstæðum fyrir hverja skjalagerð sem á við. Veldu gerð skjals í reitnum **Notkun** og bættu síðan við eða farðu yfir skýrsluvalið. Hægt er að setja upp fleiri en eina skýrslu og tilgreina röðina sem á að senda eða prenta skýrslurnar eftir.  
 
@@ -59,7 +59,7 @@ Til dæmis á síðunum **Skýrsluval - Sala** og **Skýrsluval - innkaup** hjá
 |**Nota fyrir tölvupóstsviðhengi**| Hengdu tengda skjalið við tölvupóstinn.|
 |**Lýsing á útliti meginmáls tölvupósts**|Tilgreindu útlit á meginmáli tölvupósts sem á að nota. Venjulega er þetta sérsniðið skýrsluútlit. |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp endurnýtanlega texta og útlit tölvupósts](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  

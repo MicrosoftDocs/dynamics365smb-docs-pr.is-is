@@ -10,7 +10,7 @@ ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tilfallandi gagnagreining
+# <a name="ad-hoc-data-analysis"></a>Tilfallandi gagnagreining
 
 Stundum þarf að greina gögn [!INCLUDE[prod_short](includes/prod_short.md)] á þann hátt að staðlaðar skýrslur styðja ekki. Þessar greiningar eru oft kallaðar "tilfalengdar" Í eftirfarandi töflu eru tenglar á greinar sem geta hjálpað þér að læra hvernig á að gera tilfallanda greiningar.
 
@@ -21,14 +21,14 @@ Stundum þarf að greina gögn [!INCLUDE[prod_short](includes/prod_short.md)] á
 | Skoða og greina gögn úr skýrslugagnasafni í Excel | [Greining skýrslugagna með Excel og XML](report-analyze-excel.md) |
 | Greina listagögn beint frá síðu |[Greina listagögn með gagnagreiningarstillingu](analysis-mode.md)|
 
-## Auglýsing um gagnagreiningu eftir virkum svæðum
+## <a name="ad-hoc-data-analysis-by-functional-area"></a>Auglýsing um gagnagreiningu eftir virkum svæðum
 
 Almenna efnið um greiningu á tilfallandi gögnum er einnig að finna í sérútgáfum fyrir mörg af aðgerðasvæðunum á [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Viðskiptagreind og skýrsluyfirlit](ui-work-report.md)
 

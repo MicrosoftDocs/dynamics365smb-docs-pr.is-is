@@ -9,7 +9,7 @@ ms.date: 07/15/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Nota kortaþjónustu til að finna staðsetningar og leiðsagnir
+# <a name="use-online-maps-to-find-locations-and-directions"></a>Nota kortaþjónustu til að finna staðsetningar og leiðsagnir
 
 Hægt er að sækja kort hjá kortaþjónustu sem sýnir aðsetur og staðsetningu viðskiptamanns eða lánardrottins eða búa til leiðsagnir til að komast þangað. Hægt er að nálgast eiginleikann **Kortaþjónusta** á eftirfarandi spjöldum í [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -26,14 +26,14 @@ Hægt er að sækja kort hjá kortaþjónustu sem sýnir aðsetur og staðsetnin
 > [!NOTE]
 > Ef enginn kóði er í reitnum **Lands-/svæðiskóði** finnur netkortaþjónustan ekki stefnuna.
 
-## Finna staðsetningu í kortaþjónustu
+## <a name="find-a-location-in-an-online-map"></a>Finna staðsetningu í kortaþjónustu
 
 1. Opnaðu eitt af spjöldunum sem sýnd eru hér að ofan.
 2. Veldu aðgerðina **Kortaþjónusta** eða **Sýna á korti**.
 3. Veldu reitinn **Þetta aðsetur** og veldu síðan **Í lagi**.
 4. Grunnstillta kortaþjónustan opnast með staðsetningu aðseturs sem skilgreint er í spjaldinu.
 
-## Fá leiðarlýsingu frá staðsetningu þinni
+## <a name="get-route-directions-from-your-location"></a>Fá leiðarlýsingu frá staðsetningu þinni
 
 1. Opnaðu eitt af spjöldunum sem sýnd eru hér að ofan.
 2. Veldu aðgerðina **Kortaþjónusta** eða **Sýna á korti**.
@@ -43,7 +43,7 @@ Hægt er að sækja kort hjá kortaþjónustu sem sýnir aðsetur og staðsetnin
 > [!NOTE]
 > Kortaþjónustan opnast í sjálfgefnum vafra eða forriti, sem getur beðið um aðgang að staðsetningargögnum tækisins.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp Online Map](across-online-maps-setup.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Sala skv. reikningum
+# <a name="invoice-sales"></a>Sala skv. reikningum
 
 Yfirleitt er hægt að stofna annaðhvort sölupöntun eða sölureikning til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.  
 
@@ -25,7 +25,7 @@ Frá öllum öðrum sjónarhornum séð virka sölupantanir á sama hátt og sö
 
 Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölureikning þegar samkomulag hefur náðst um söluna. Fræðast meira um [sölutilboð](sales-how-make-offers.md).
 
-## Stofna sölureikninga
+## <a name="create-sales-invoices"></a>Stofna sölureikninga
 
 Ef viðskiptamaðurinn ákveður að kaupa, bókar þú sölureikninginn til að stofna tengdar magn og virðisfærslur. Við bókun sölureiknings er einnig hægt að senda það í tölvupósti sem PDF-viðhengi. Hægt er að fylla út meginmál tölvupóstsins fyrirfram með samantekt af reikningum og greiðsluupplýsingum, eins og að bjóða upp á tengli á PayPal. Nánari upplýsingar um [sendu skjöl með tölvupósti](ui-how-send-documents-email.md#to-send-documents-by-email). Þegar viðskiptavinurinn greiðir reikninginn er hægt að skrá þá greiðslu á mismunandi hátt, allt eftir stærð og kjörum verkflæðis fyrirtækisins. Fræðast meira um [hlutann Skráning greiðslna](#register-payments) .  
 
@@ -33,7 +33,7 @@ Birgðaspjöld geta verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki b
 
 Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur leiðum, eftir því hvort viðskiptamaðurinn hefur þegar verið skráður. Sjá skref 2 í eftirfarandi ferli.
 
-### Sölureikningar búnir til:
+### <a name="to-create-a-sales-invoice"></a>Sölureikningar búnir til:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Nafn viðskiptamanns** er fært inn nafn núverandi viðskiptamanns. Ef viðskiptamaðurinn er hins vegar nýr og því ekki skráður skaltu fylgja þessum skrefum til að fylla út staðlaðar upplýsingar um viðskiptamanninn á síðunni **Sölureikningur**:
@@ -90,11 +90,11 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og á sölureikningnum er frálag sem PDF fylgiskjal. Sölureikningurinn er fjarlægður af lista sölureikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga.  
 
-### Reikna reikningsafslætti fyrir sölu
+### <a name="calculate-invoice-discounts-on-sales"></a>Reikna reikningsafslætti fyrir sölu
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Bókaðir reikningar
+## <a name="posted-invoices"></a>Bókaðir reikningar
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -102,7 +102,7 @@ Auðvelt er að leiðrétta eða hætta við bókaðan sölureikning fyrir lokag
 
 [Onpaðu **Bókaðir sölureikningar** listann ](https://businesscentral.dynamics.com/?page=143) í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Skrá greiðslur
+## <a name="register-payments"></a>Skrá greiðslur
 
 Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
 
@@ -117,11 +117,11 @@ Jafnvel er hægt að stofna beint greidda reikninga fyrir óskráða viðskiptam
 > [!TIP]
 > Eigi að senda viðskiptamönnum áminningar um gjaldfallnar greiðslur þarf fyrst að setja upp áminningarstig og skilmála. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md).  
 
-## Númer ytri skjala
+## <a name="external-document-numbers"></a>Númer ytri skjala
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

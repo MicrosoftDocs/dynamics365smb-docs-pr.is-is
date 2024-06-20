@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# Setja upp verk, verð og bókunarflokka verka
+# <a name="set-up-projects-prices-and-project-posting-groups"></a>Setja upp verk, verð og bókunarflokka verka
 
 Sem verkefnastjóri er hægt að setja upp verk sem skilgreina hvert þeirra verkefna sem unnið er með í [!INCLUDE[prod_short](includes/prod_short.md)]. Nota skal síðuna **Verkuppsetning** til að skilgreina hvernig nota á verkaðgerðir.
 
@@ -22,7 +22,7 @@ Fyrir hvert verkefni eru tilgreindar ýmsar upplýsingar:
 * Fjárhagsreikningar verks
 * Bókunarflokkar verka (nauðsynlegir)
 
-## Almennar upplýsingar settar upp fyrir verk
+## <a name="to-set-general-information-for-projects"></a>Almennar upplýsingar settar upp fyrir verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **verkuppsetningu** og velja síðan viðeigandi tengil.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Fyrir hvert verkefni eru tilgreindar ýmsar upplýsingar:
 > [!NOTE]
 >  **Sjálfgefið** er að hólfið Jafna notkunartengil á síðunni **Uppsetning** verka gefur til kynna hvort verkfærslur séu sjálfgefið tengdar verkáætlunarlínum. Kveikja á víbreytunni til að nota þessa stillingu fyrir öll ný verk. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verkefni með því að kveikja eða slökkva á víkkuninni **Beita notkunartengli** á **síðunni Verkspjald** .
 
-### Tilgreina sjálfgefna staðsetningu fyrir verkvörur
+### <a name="specify-a-default-location-for-project-items"></a>Tilgreina sjálfgefna staðsetningu fyrir verkvörur
 
 Hægt er að spara tíma við gagnainnslátt með því að tilgreina sjálfgefna birgðageymslu og hólf fyrir verkefni á síðunni **Verkspjald** . Þegar verkhlutar, verkáætlunarlínur og verkbókarlínur eru stofnaðar fyrir verkið er sjálfgefnu birgðageymslunni og hólfinu sjálfkrafa úthlutað. Hins vegar er hægt að breyta birgðageymslukótanum og hólfinu í verkum og línum ef þörf krefur.
 
@@ -44,11 +44,11 @@ Ef Kóti verkefnahólfs **er skilgreindur** í birgðageymslunni er hólfakótin
 * Fyrir verkáætlunarlínur **er Birgðageymslukóti** byggður á gildinu sem valið er í verkáætlunarlínunni þegar vara er valin. Ef hólfakóti er ekki skilgreindur fyrir verkhlutann er hólfið úr sjálfgefna hólfainnihaldinu valið. Hægt er að breyta báðum gildum handvirkt.
 * Fyrir verkbókarlínur **er Kóti** birgðageymslu byggður á gildinu sem valið er í verkbókarlínunni þegar vara er valin. Ef hólfakóti er ekki skilgreindur fyrir verkhlutann er hólfið úr sjálfgefna hólfainnihaldinu valið. Hægt er að breyta báðum gildum handvirkt.
 
-### Reikningsfæra marga viðskiptavini fyrir verkhluta 
+### <a name="invoice-multiple-customers-for-project-tasks"></a>Reikningsfæra marga viðskiptavini fyrir verkhluta
 
 Þegar verkefni fela í sér marga viðskiptamenn getur það verið ögrandi að innheimta rétta viðskiptamenn fyrir rétt verk. [!INCLUDE [prod_short](includes/prod_short.md)] gerir innheimtu einfaldari með því að tilgreina reikningsfærslu og selt-til viðskiptavini í hverri verkhlutalínu verks, þannig að hægt er að búa til reikninga sjálfkrafa fyrir rétta viðskiptamenn. Til að fá nánari upplýsingar um reikningsfærslu margra viðskiptamanna er farið á Reikningsfæra á [einn eða fleiri viðskiptavini fyrir verkhluta](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### Til að setja upp rakningu verknotkunar
+### <a name="to-set-up-project-usage-tracking"></a>Til að setja upp rakningu verknotkunar
 
 Þegar unnið er að verkefni gæti notandinn viljað vita hvernig notkunin er rakin samkvæmt áætluninni. Til að kanna notkun er hægt að búa til tengingu milli áætlunarlína verkefnisins og raunnotkunar. Tengillinn gerir þér kleift að rekja kostnað og skilja hversu mikið verk helst. Sjálfgefið er að tegund verkáætlunarlínu sé **Áætlun** en ef línutegundin **Bæði áætlun og Reikningshæft** er hefur svipuð áhrif.
 
@@ -62,7 +62,7 @@ Ef Kóti verkefnahólfs **er skilgreindur** í birgðageymslunni er hólfakótin
 > [!IMPORTANT]
 > Ef gildi er ekki tilgreint í reitnum **Línutegund** í verkbókarlínunni eða innkaupalínunni eru áætlunarlínur verkefnis ekki stofnaðar þegar verkbókin eða innkaupaskjalið er bókað.
 
-## Til að setja upp verð fyrir forða, vörur og fjárhagsreikninga fyrir verkefni
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Til að setja upp verð fyrir forða, vörur og fjárhagsreikninga fyrir verkefni
 
 > [!NOTE]
 > Á útgáfutímabili 2 árið 2020 gáfum við út nýja ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ Hægt er að setja upp verð fyrir vörur, forða og fjárhagsreikninga sem teng
 
 ---
 
-## Uppsetning verkbókunarflokka
+## <a name="to-set-up-project-posting-groups"></a>Uppsetning verkbókunarflokka
 
 Einn þáttur áætlunarverka er að ákveða hvaða bókunarlykla á að nota fyrir kostnaðarútreikning verka. Til að hægt sé að bóka verkefni eru settir upp reikningar fyrir bókun hvers verkbókunarflokks. Bókunarflokkur táknar tengingu milli verksins og hvernig farið skuli með það í fjárhag. Þegar verkefni er stofnað er bókunarflokkur tilgreindur og sjálfgefið er að hver verkhluti sem stofnaður er fyrir verkið er tengdur þeim bókunarflokki. Hins vegar er hægt að hnekkja sjálfgildum þegar verk eru stofnuð og velja þann bókunarflokk sem hentar best.  
 
@@ -118,7 +118,7 @@ Einn þáttur áætlunarverka er að ákveða hvaða bókunarlykla á að nota f
 | **Samþykktur kostnaðarreikningur** |Kostnaðarreikningurinn sem inniheldur samþykktan kostnað fyrir verkið. Það er vanalega debetkostnaðarreikningur. | Samþykktur kostnaður|
 | **Samþykktur sölureikningur** |Tekjureikningurinn sem inniheldur samþykktar tekjur verkefnisins. Það er vanalega kredittekjureikningur. | Samþykkt sala|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp verkefnastjórnun](projects-setup-projects.md)  
 [Myndband: Hvernig á að stofna verkefni í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

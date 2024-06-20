@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Skipta yfir í annað fyrirtæki eða umhverfi
+# <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er í boði í mörgum mismunandi löndum/svæðum og styður margar mismunandi tegundir fyrirtækja. Fyrirtækið þitt gæti valið að skipuleggja vinnu í [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum *fyrirtækjum* og *umhverfum*. Þessi grein hjálpar þér að skilja helsta muninn og hvernig á að vinna sig í gegnum hann.
 
-## Um fyrirtæki og umhverfi
+## <a name="about-companies-and-environments"></a>Um fyrirtæki og umhverfi
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -27,7 +27,7 @@ ms.reviewer: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## Eiginleikar til að skipta um fyrirtæki eða umhverfi
+## <a name="features-for-switching-company-or-environment"></a>Eiginleikar til að skipta um fyrirtæki eða umhverfi
 
 Það eru nokkrir eiginleikar sem þú getur notað til að skipta um fyrirtæki eða umhverfi þegar þú vinnur. Eftirfarandi tafla ber saman möguleika eiginleikans, sem eru útskýrðir nánar í næstu hlutum.
 
@@ -38,7 +38,7 @@ ms.reviewer: bholtorf
 |[Mínar stillingar](#use-my-settings)|![gátmerki](media/check.png "ávísun")|||![gátmerki](media/check.png "ávísun")|
 |[Fyrirtækjamiðstöð](#use-company-hub)|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")||
 
-## Nota fyrirtækjaskipti
+## <a name="use-the-company-switcher"></a>Nota fyrirtækjaskipti
 
 Að nota fyrirtækjaskiptinn er líklega fljótlegasta og fjölbreyttasta leiðin til að skipta um fyrirtæki. Fyrirtækjaskiptirinn er svæði sem er aðgengilegt á öllum svæði. Svæðið sýnir yfirlit yfir öll fyrirtæki í öllum umhverfum sem þú hefur aðgang að og gerir þér kleift að skipta beint yfir í öll þeirra&mdash;annaðhvort í sama vafraglugganum eða nýjum. Það er sérstaklega gagnlegt þegar unnið er í mörgum fyrirtækjum í mismunandi umhverfi.
 
@@ -59,7 +59,7 @@ Að nota fyrirtækjaskiptinn er líklega fljótlegasta og fjölbreyttasta leiði
 > [!TIP]
 > Velja <kbd>F5</kbd> til að endurnýja lista yfir umhverfi og fyrirtæki.
 
-## Nota forritavalmyndina
+## <a name="use-the-app-launcher"></a>Nota forritavalmyndina
 
 Þegar notandi er skráður inn í er umhverfið sem hægt er að [!INCLUDE[prod_short](includes/prod_short.md)] nálgast tiltækt á Microsoft 365.  
 
@@ -78,7 +78,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## Nota mínar stillingar
+## <a name="use-my-settings"></a>Nota mínar stillingar
 
 Þegar þú ert skráð(ur) inn í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu skipt yfir í annað fyrirtæki á fljótlegan hátt í sama umhverfinu. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.
 
@@ -93,13 +93,13 @@ The following image shows tiles for accessing production and sandbox environment
 > [!TIP]
 > Góð aðferð við að fara beint í sjálfgefna fyrirtækið þegar þú skráir þig inn og ekki þurfa að tilgreina umhverfið er að bæta vefslóðinni á eftirlætislistann þinn eftir að þú skráir þig inn.
 
-## Nota fyrirtækjamiðstöð
+## <a name="use-company-hub"></a>Nota fyrirtækjamiðstöð
 
 *Fyrirtækjamiðstöð* er mjög sérhæfð hlutverkamiðstöð sem gefur fjárhagslega yfirsýn yfir fyrirtæki og umhverfi. Fyrirtækjamiðstöðin er í boði sem [viðbót](ui-extensions-company-hub.md) og býður upp á stjórnborð með samantektargögnum fyrir hvert fyrirtæki sem þú hefur aðgang að. Heimasíðan sýnir fjármálatengda afkastavísa (KPI) og beinan tengil á stök umhverfi og fyrirtæki. Frekari upplýsingar er að finna í [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md).
 
 [![Sýnir síðu fyrirtækjamiðstöðvar sem sýnir öll fyrirtæki.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  

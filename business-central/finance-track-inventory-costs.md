@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Rekja kostnaðarleiðréttingar vöru
+# <a name="track-item-cost-adjustments"></a>Rekja kostnaðarleiðréttingar vöru
 
 Brýnt er að halda vörukostnaði nákvæmum og stytta tímann milli þess þegar færsla er bókuð og þegar fjárhagur endurspeglar kostnað hennar. Hægt er að rekja afköst kostnaðarleiðréttinga vegna einstakra leiðréttingarkeyrslna og vara. Ef villur koma upp er hægt að bera kennsl á erfið atriði og gera leiðréttingar. Til dæmis er hægt að útiloka vörurnar frá útreikningum til að tryggja að leiðréttingar séu ekki rofnar vegna annarra vara. Hægt er að leiðrétta kostnað vegna einstakra vara eða stofna vörukeyrslur og leiðrétta þær allar samtímis.
 
-## Hefja rakningu kostnaðarleiðréttinga
+## <a name="start-tracking-cost-adjustments"></a>Hefja rakningu kostnaðarleiðréttinga
 
 Það er auðvelt að byrja. Á síðunni **Birgðagrunnur**  **býður reiturinn** Skráning kostnaðarleiðréttingar nokkra valkosti:
 
@@ -29,11 +29,11 @@ Brýnt er að halda vörukostnaði nákvæmum og stytta tímann milli þess þeg
 
 Einnig verður að setja upp verkraðarfærsluna **Bóka birgðabreytingar (1002).** . Þessi verkraðarfærsla leiðréttir sjálfkrafa kostnað samkvæmt áætlun. Nánari upplýsingar um verkraðarfærslur eru í [Nota verkröð til að tímasetja verk](admin-job-queues-schedule-tasks.md).
 
-## Vinna með kostnaðarleiðréttingar
+## <a name="manage-cost-adjustments"></a>Vinna með kostnaðarleiðréttingar
 
  **Síðan Leiðrétting birgðakostnaðar** er notuð til að stjórna og fylgjast með kostnaðarleiðréttingarferlinu. Þessi síða birtir vörur ásamt færibreytum kostnaðarútreiknings og stöðu kostnaðarleiðréttingar. Hægt er að afmarka listann til að einbeita sér að vörum sem þarfnast leiðréttingar eða sem eru undanskildar í kostnaðarleiðréttingarferlinu.
 
-### Um vörukeyrslur
+### <a name="about-item-batches"></a>Um vörukeyrslur
 
 Hægt er að keyra kostnaðarleiðréttingu á nokkrum vörum með því að flokka þær í keyrslur. Keyrslur auðvelda aðlaga sumar vörur sérstaklega, til dæmis vegna þess að lengri tíma tekur að leiðrétta þær. Keyrslur geta einnig hjálpað til við að auðkenna vörur sem eru með úthreyfingar.
 
@@ -54,7 +54,7 @@ Hægt er að keyra kostnaðarleiðréttingu á nokkrum vörum með því að flo
 
 > Það er allt í sósíalistum. Hver keyrsla í sérstakri lotu. Til að fylgjast með framvindu skal nota aðgerðina **Endurnýja** .
 
-### Keyra kostnaðarleiðréttingu
+### <a name="run-cost-adjustment"></a>Keyra kostnaðarleiðréttingu
 
 Nota síðuna **Leiðrétting birgðakostnaðar** til að gera leiðréttingar.
 
@@ -69,7 +69,7 @@ Nota síðuna **Leiðrétting birgðakostnaðar** til að gera leiðréttingar.
     
     Nánari upplýsingar um keyrslur eru í [Um birgðakeyrslur](#about-item-batches).
 
-### Skoða upplýsingar um vöru
+### <a name="explore-item-details"></a>Skoða upplýsingar um vöru
 
 Valmyndin **Vara** er notuð til að fá aðgang að upplýsingum um kostnaðarleiðréttingar á tiltekinni vöru.
 
@@ -78,24 +78,24 @@ Valmyndin **Vara** er notuð til að fá aðgang að upplýsingum um kostnaðarl
 * **Kostnaðarleiðr.leiðr. Komustaðir**: Glugginn Meðalinnk.verðleiðr. er opnaður **. Komustaðasíða** sem aðallega er notuð til að reikna út meðalinnkaupsverð. Síðan birtir samsetningar vara, birgðageymslna, afbrigða og matsdagsetninga þar sem kostnaðarleiðréttingar eru, eða verða að vera keyrðar.
 * **Kostnaðarleiðr.leiðr. Pantanir**: Glugginn Birgðaleiðr.leiðr. er opnaður **. Færsla (Pöntun)** síða þar sem framleiðslu- og samsetningarpantanir eru leiðréttar. Hann sýnir að pantanirnar eru leiðréttar eða þarfnast leiðréttingar.
 
-### Skoða niðurstöðu
+### <a name="view-the-outcome"></a>Skoða niðurstöðu
 
 Nota skal valmyndina **Skrá eftir** til að skoða niðurstöðu kostnaðarleiðréttinga:
 
 * **Keyra**: Sýna kostnaðarleiðréttingarskrár fyrir hverja keyrslu. Í kladdanum eru gögn um vöruafmörkun, stöðu (Árangur/Mistókst/Tímasett), upphafs- og lokadagsetningu/tímalengd, lengd og kostnaðarmismuninn sem hlaupið framleiðir.
 * **Vara**: Sýna nákvæmar upplýsingar um leiðréttingarferlið fyrir völdu vöruna.
 
-### Taka með eða sleppa vörum úr leiðréttingum
+### <a name="include-or-exclude-items-from-adjustments"></a>Taka með eða sleppa vörum úr leiðréttingum
 
 Ef ein eða fleiri vörur mistakast er hægt að útiloka vörurnar úr leiðréttingarkeyrslunni og taka þær síðan með í síðari keyrslum. Í valmyndinni **Aðgerðir** er eitt af eftirfarandi valið:
 
 * **Sleppa vöru frá leiðréttingu** og **taka vöru með í leiðréttingu**: Gera tímabundið óvirka og virkja síðan aftur kostnaðarleiðréttingu fyrir valda vöru. Kostnaðarleiðrétting heldur áfram að halda kostnaði nákvæmum fyrir aðrar vörur á meðan mál er rannsakað með tiltekinni vöru.
 
-## Bóka leiðréttan kostnað í fjárhag
+## <a name="post-adjusted-costs-to-the-general-ledger"></a>Bóka leiðréttan kostnað í fjárhag
 
 Yfirleitt eru nýjar virðisfærslur bókaðar í fjárhag samkvæmt áætluninni **fyrir verkraðarfærsluna Bóka birgðabreytingar (1002)** verkraðarfærslu. Hins vegar er hægt að bóka leiðréttingar á fjárhag strax af síðunni **Leiðrétting birgðakostnaðar** . Í valmyndinni **Aðgerðir** er valið **Bóka birgðabreytingar**.
 
-## Úrræðaleit vegna kostnaðarleiðréttinga
+## <a name="troubleshoot-cost-adjustments"></a>Úrræðaleit vegna kostnaðarleiðréttinga
 
 Eftirfarandi valkostir eru notaðir **í valmyndinni** Greining til að leysa kostnaðarleiðréttingarkeyrslur.
 
@@ -105,7 +105,7 @@ Eftirfarandi valkostir eru notaðir **í valmyndinni** Greining til að leysa ko
 * **Greiningarskýrsla** kostnaðarútgáfu: Greining dæmigerðra gagnavanda veldur útreikningsvillum í kostnaðarútreikningi. Hún kannar hvort birgðafærslur, virðisfærslur, birgðajöfnunarfærslur og getubókarfærslur séu réttar.
 * **Eyða vörugögnum**: Hreinsa allar vörutengdar töflur í gagnagrunninum. Þessi aðgerð er aðeins tiltæk í sandkassaumhverfi eða matsfyrirtækjum.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Leiðrétta kostnað vara](inventory-how-adjust-item-costs.md)  
 [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  

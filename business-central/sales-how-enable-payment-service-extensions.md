@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Virkja greiðslur viðskiptamanna um greiðsluþjónustur
+# <a name="enable-customer-payments-through-payment-services"></a>Virkja greiðslur viðskiptamanna um greiðsluþjónustur
 
 Í stað þess að innheimta með millifærslu eða kreditkorti geta viðskiptavinir þínir greitt þér af reikningnum sínum með greiðsluþjónustu, svo sem PayPal eða WorldPay.  
 
@@ -22,7 +22,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
 > [!CAUTION]
 > Viðbótin WorldPay Payments Standard verður afskrifuð. Kótinn er markaður sem úreltur byrjun í 2023 gefa út bylgju 2. Forritið verður virkt fyrir næstu þrjár stærstu útgáfurnar og það verður fjarlægt.   
 
-## Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluþjónustur** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
@@ -31,7 +31,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
 5. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Lokaðu síðunni.  
 
-## Til að velja greiðsluþjónustu á sölureikning
+## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Til að velja greiðsluþjónustu á sölureikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölureikningar** og velja síðan viðkomandi tengil.  
 2. Opnaðu sölureikninginn sem þú vilt greiða með því að nota greiðsluþjónustuna.  
@@ -40,7 +40,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-viðbætur eru settar up
     > [!NOTE]  
     > **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  

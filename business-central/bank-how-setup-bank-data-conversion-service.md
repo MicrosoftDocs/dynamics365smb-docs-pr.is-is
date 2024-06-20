@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Setja upp AMC Banking 365 Fundamentals-viðbótina
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Setja upp AMC Banking 365 Fundamentals-viðbótina
 Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[prod_short](includes/prod_short.md)]. Vísað er í þetta í [!INCLUDE[prod_short](includes/prod_short.md)] sem AMC Banking 365 Fundamentals-viðbót.
 
 Hægt er að flytja út greiðslulínur á síðunni **Greiðslubók** í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Frekari upplýsingar eru í [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 > [!NOTE]  
 > AMC Banking 365 Fundamentals-viðbótin kann að setja hámark á það hversu margar línur er hægt að flytja út í einni skrá. Ef farið er yfir hámarkið munu koma upp villuboð. Mælt er með því að bankayfirlitsskrár fari ekki yfir 1.000 línur þar sem vinnslutími AMC Banking 365 Fundamentals-viðbótarinnar kann þá að aukast til muna.
 
-## Að skrá fyrirtækið fyrir AMC Banking 365 Fundamentals-viðbótinni
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Að skrá fyrirtækið fyrir AMC Banking 365 Fundamentals-viðbótinni
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Þjónustugrunnur bankagagnaumreiknings** og svo velja viðeigandi tengil.  
 2. Síðan **Uppsetning umbreytingarþjónustu fyrir bankagögn** opnast með þremur reitum útfylltum með viðeigandi vefslóðum frá veitanda AMC Banking 365 Fundamentals-viðbótarinnar.
 
@@ -42,7 +42,7 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 > [!NOTE]  
 > Innskráningargögnin þín eru sjálfkrafa dulrituð.
 
-## Til að skoða eða uppfæra listann yfir studd bankagagnasnið
+## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Þjónustugrunnur bankagagnaumreiknings** og svo velja viðeigandi tengil.
 2. Á síðunni **uppsetning umreikningsþjónustu fyrir bankagögn** , skal velja **Nafn banka – umskráningarlisti gagna** til að opna lista yfir nöfn banka sem standa fyrir bankagagnasnið sem eru studd af umskráningarþjónustunni.
 3. Á síðunni **Nafn banka – gagnaumreikningslisti**, veldu aðgerðina **Uppfæra nafnalista banka**.
@@ -54,7 +54,7 @@ Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals-viðb
 
 Þú hefur nú skráð þig fyrir AMC Banking 365 Fundamentals-viðbótinni. Halda áfram að endurspegla skráningarupplýsingar í öllum bankareikningum sem nota þjónustuna.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

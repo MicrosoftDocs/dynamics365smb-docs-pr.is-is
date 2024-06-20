@@ -10,21 +10,21 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Tengjast við Power BI frá Business Central á staðnum
+# <a name="connect-to-power-bi-from-business-central-on-premises"></a>Tengjast við Power BI frá Business Central á staðnum
 
 <!--In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
-## Get ready
+## <a name="get-ready"></a>Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use a work email address and password.-->
 
-## Hefjast handa
+## <a name="get-started"></a>Hefjast handa
 
 Til að nota [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum verður að virkja hana til Power BI samþættingar. Þetta verk er vanalega framkvæmt af stjórnanda. Nánari upplýsingar um Power BI virkjun samþættingar við Business Central á netinu eru [í Setja upp Business Central innanhúss fyrir Power BI samþættingu](admin-powerbi-setup.md).
 
 Sumir eiginleikar eru aðeins í boði með Business Central á netinu, ekki á staðnum. Nánari upplýsingar eru [í Introduction to Business Central og Power BI](admin-powerbi.md#what-you-can-do-with-power-bi-and-business-central)
 
-## <a name="setup"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir Power BI samþættingu
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss fyrir Power BI samþættingu
 
 Þessi hluti útskýrir kröfur fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum til að samþætta við Power BI.
 
@@ -57,7 +57,7 @@ Sumir eiginleikar eru aðeins í boði með Business Central á netinu, ekki á 
 
     Til að koma á fyrstu tengingunni skal opna [!INCLUDE[prod_short](includes/prod_short.md)] og keyra **Hefjast handa með Power BI** af heimasíðunni. Þessi aðgerð mun leiða þig í gegnum samþykktarferlið og fara yfir Power BI-leyfið þitt. Þegar beðið er um innskráningu með stjórnunarreikningi Microsoft Entra . Frekari upplýsingar er að finna í [Tengjast við Power BI - aðeins einu sinni](across-working-with-powerbi.md#connect).
 
-## Byggja Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn
+## <a name="build-power-bi-reports-to-display--data"></a>Byggja Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] gögn
 
 Þú getur gert gögnin þín Dynamics 365 Business Central tiltæk sem gagnagjafa í Power BI Desktop og byggt upp öflugar skýrslur um stöðu fyrirtækisins.
 
@@ -72,7 +72,7 @@ Nota Power BI Desktop til að stofna skýrslur sem sýna Dynamics 365 Business C
 
     Til að sækja gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
 
-## <a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
 Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnagjafa á Power BI Desktop. Þegar það er tengt er hægt að byrja að búa til skýrslu.
 
@@ -106,12 +106,12 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/pro
 > [!TIP]
 > Frekari upplýsingar um notkun Power BI Desktop eru í [Hafist handa með Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Stjórna og breyta skýrslum
+## <a name="manage-and-modify-reports"></a>Stjórna og breyta skýrslum
 
 > [!NOTE]
 > Ekki er hægt að stjórna og breyta skýrslum. 
 
-## Hlaða inn skýrslum
+## <a name="upload-reports"></a>Hlaða inn skýrslum
 
 Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum eru engar kynningarskýrslur tiltækar, þannig að þú verður að byrja frá grunni með því að nota Power BI Desktop.  Power BI Einnig er hægt að dreifa skýrslum sem skrám sem hægt er að hlaða beint upp frá Power BI netþjónustu. Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -133,11 +133,11 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### Refresh manually
+### <a name="refresh-manually"></a>Refresh manually
 
 In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### Schedule a refresh
+### <a name="schedule-a-refresh"></a>Schedule a refresh
 
 In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
@@ -161,7 +161,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Share reports with others
+## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organization.
 
@@ -170,7 +170,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro license](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).-->
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Hlaða inn skýrslum](across-working-with-business-central-in-powerbi.md#upload-reports)

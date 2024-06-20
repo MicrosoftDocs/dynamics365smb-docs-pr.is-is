@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Nota tölvupóstskjöl í söluferlinu
+# <a name="use-e-documents-in-the-sales-process"></a>Nota tölvupóstskjöl í söluferlinu
 
 Hægt er að nota grunnstillt rafræn skjöl (e-documents) með söluskjölunum.
 
@@ -26,13 +26,13 @@ Hægt er að nota eftirfarandi söluskjöl með virkni tölvupóstskjala:
 - Vaxtareikningar
 - Áminningar
 
-## E-skjöl í sölu  
+## <a name="e-documents-in-sales"></a>E-skjöl í sölu
 
 Til að stofna og senda tölvupóstreikning til viðskiptamanns þarf að stofna og bóka sölureikninginn. Nánari upplýsingar um stöðluðu ferlið eru [í Reikningssala](sales-how-invoice-sales.md).
 
 Þegar söluskjalið hefur verið bókað er síðan Bókaðir sölureikningar **opnaður** til að komast á síðuna Tengd **E-skjöl** .
 
-### Skoða tölvupóstskjöl   
+### <a name="view-e-documents"></a>Skoða tölvupóstskjöl
 
 Til að skoða fyrirliggjandi e-skjöl skal fylgja þessum skrefum.
 
@@ -41,7 +41,7 @@ Til að skoða fyrirliggjandi e-skjöl skal fylgja þessum skrefum.
 3. Reiturinn **Færsla** sýnir fylgiskjalsnúmer bókaða sölureikningsins. Velja skal tengilinn til að opna skjalið.
 4. Í reitnum **Staða** rafræns skjals er hægt að skoða rauntímastöðu skjalsins og staðsetningu þess í vinnsluleiðslunni. Ef skjalið er bókað er **staðan Í vinnslu**.
 
-### Staða og skráningar í tölvupósti 
+### <a name="e-document-statuses-and-logs"></a>Staða og skráningar í tölvupósti
 
 Nánari upplýsingar um þjónustustöðustig tölvupóstskjalsins eru í flýtiflipanum Staða **þjónustu í tölvupósti** . Í línunum sýnir kerfið eina eða fleiri þjónustu sem skjalið notaði. Í algengustu dæminu notar hvert fylgiskjal aðeins eina þjónustu. Hins vegar getur skjal notað margar þjónustur.
 
@@ -65,7 +65,7 @@ Ef eitthvað er til hjá þjónustuveitunni og ekki er hægt að senda skjalið 
 
 Þegar úthreyfingin hefur verið föst er aðgerðin **Senda fylgiskjal** keyrð handvirkt. Ef þörf er á mismunandi aðgerðum, svo sem **Endurgerð skjals**, **Hætta við skjal** eða **Sækja samþykki**, er hægt að keyra þær.
 
-## Yfirlit yfir stöður tölvupóstskjala
+## <a name="overview-of-e-document-statuses"></a>Yfirlit yfir stöður tölvupóstskjala
 
 Til að fá betra yfirlit yfir öll tölvupóstskjöl í fyrirtækinu er hægt að velja mitt hlutverk í endurskoðendahlutverkinu **þar** sem staða e-skjala er til. Þar er hægt að finna aðgerðir í tölvupósti sem hafa eftirfarandi stöðu:
 
@@ -76,7 +76,7 @@ Til að fá betra yfirlit yfir öll tölvupóstskjöl í fyrirtækinu er hægt a
     - Villa
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Hvernig tölvupóstskjöl eru sett upp í [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
 [Hvernig nota á tölvupóstskjöl við innkaup](finance-how-use-edocuments-purchase.md)  

@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Auglýsing um gagnagreiningu eftir virkum svæðum
+# <a name="ad-hoc-data-analysis-by-functional-area"></a>Auglýsing um gagnagreiningu eftir virkum svæðum
 
 Almenna efnið um greiningu á tilfallandi gögnum er einnig að finna í sérútgáfum fyrir mörg af aðgerðasvæðunum á [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir tilfalalvarlegar greiningar á gögnum](reports-adhoc-analysis.md)   
 [Greiningaryfirlit](reports-bi-reporting.md)  

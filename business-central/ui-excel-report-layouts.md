@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Unnið með Microsoft Excel útlit
+# <a name="working-with-microsoft-excel-layouts"></a>Unnið með Microsoft Excel útlit
 
 Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með þeim geturðu búið til skýrslur sem innihalda kunnuglega Excel-eiginleika til að draga saman, greina og kynna gögn eins og formúlur, PivotTable og PivotChart.
 
@@ -19,7 +19,7 @@ Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með 
 
 Þessi grein útskýrir nokkur mikilvæg atriði sem þú þarft að vita til að hefjast handa með Excel-útlit.
 
-## Af hverju að nota Excel-útlit?
+## <a name="why-use-excel-layouts"></a>Af hverju að nota Excel-útlit?
 
 Ávinningur þess að nota Excel-útlit:
 
@@ -35,14 +35,14 @@ Microsoft Excel skýrsluútlit byggja á Excel-vinnubókum (.xlsx-skrár). Með 
 > [!TIP]
 > Með OneDrive samþættingu sett upp, þegar skýrsla með Excel-útliti er keyrð, er Excel-vinnubókarskráin afrituð í og opnuð OneDrive síðan í Excel á netinu. Nánari upplýsingar eru [í Vista Excel vinnubækur og skýrsluskrár í OneDrive](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
 
-## Hefjast handa
+## <a name="get-started"></a>Hefjast handa
 
 Í grundvallaratriðum eru tvö verk sem koma að uppsetningu Excel-útlits í skýrslu:
 
 1. Búðu til nýja Excel-útlitsskrá.
 2. Bættu nýja útlitinu við skýrsluna.
 
-## Verk 1: Búa til Excel-útlitsskrá
+## <a name="task-1-create-the-excel-layout-file"></a>Verk 1: Búa til Excel-útlitsskrá
 
 Þetta eru leiðirnar þrjár til að búa til Excel-útlitsskrá fyrir skýrslu.
 
@@ -61,13 +61,13 @@ Fylgdu þessum skrefum til að búa til Excel-útlit úr hvaða skýrslu sem er,
 
 Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi útlit sem útgangspunkt. Það eru tvær aðferðir til að fá afrit af útlitinu. Hægt er að flytja út núverandi útlit af síðunni **Skýrsluútlit** eða sækja útlitið af beiðnisíðu skýrslunnar. Báðar leiðir sækja Excel-útlitsskrána sem inniheldur öll vinnublöð fyrirliggjandi skráar. Munurinn er sá að þegar þú sækir hana af beiðnisíðunni inniheldur útlitið raunveruleg gögn. (Gögnin eru ekki nauðsynleg en þau hjálpa þegar útlitið er hannað.)
 
-#### Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Aðferð 1: Flytja út útlitið af síðunni **Skýrsluútlit**.
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Veldu Excel-útlitið af listanum og veldu svo aðgerðina **Flytja út útlit** efst á síðunni.
 3. Opnaðu skrána í Excel, gerðu breytingarnar og vistaðu síðan skrána.
 
-#### Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Aðferð 2: Sækja útlitið af beiðnisíðu skýrslunnar
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Á síðunni **Skýrsluútlit** skal velja hvaða útlit sem er fyrir skýrsluna, síðan velja aðgerðina **Keyra skýrslu**.
@@ -80,7 +80,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 
 ---
 
-## Verk 2: Bæta Excel-útlitinu við skýrsluna
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Verk 2: Bæta Excel-útlitinu við skýrsluna
 
 Þegar þú ert með Excel-útlitsskrána er næsta verk að bæta henni við sem nýtt útlit fyrir skýrsluna.
 
@@ -110,7 +110,7 @@ Ef þegar er til Excel-útlit fyrir skýrslu er hægt að nota fyrirliggjandi ú
 3. Report metadata 
 -->
 
-## Skilningur á Excel-útlitum
+## <a name="understanding-excel-layouts"></a>Skilningur á Excel-útlitum
 
 Hafa þarf nokkur atriði í huga til að vita eða velta fyrir sér hvenær á að búa til eða gera breytingar á Excel-útliti. Excel-útlit verður að innihalda tvær einingar: **Gagnablað** og **Gagnatöflu**. Þessar einingar mynda grunn skýrslunnar með því að skilgreina viðskiptagögnin úr Business Central sem hægt er að vinna með. Hægt er að líta á **Gagnablaðið** sem eins konar samning milli útlits og viðskiptagagna. Þessi gögn verða notuð sem heimild útreikninga og myndrænna framsetninga sem á að kynna á öðrum vinnublöðum.
 
@@ -132,7 +132,7 @@ Gerðar eru ákveðnar kröfur um skipulag Excel-vinnubókar. Ef kröfurnar eru 
 - Ekki bæta við dálkum nema þeir séu í gagnasafni skýrslunnar.
 - Þú getur sett vinnublöðin í hvaða röð sem er, með **Gagnablaðinu** fyrst eða síðast.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Stofnun Excel-útlitsskýrslu (þróunarfylgigögn)](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout?toc=/dynamics365/business-central/toc.json)  
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)  

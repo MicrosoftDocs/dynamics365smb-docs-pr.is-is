@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ms.service: dynamics-365-business-central
 ---
-# Hönnunarupplýsingar: Flutningur í áætlun
+# <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
 
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús gæti verið til flutningakeðja. Framboð til birgðageymslunnar GRÆNT er flutt frá GULU, framboð til GULUR er flutt frá RAUÐU, og svo framvegis. Í upphafi keðjunnar er áfyllingarkerfi **Framl.pöntun eða**  **Innkaup**.  
 
@@ -28,7 +28,7 @@ Ef eftirspurnin breytist gæti það valdið gátum í gegnum keðjuna. Allar mi
 
 ![Dæmi um stöðu framboðs- og eftirspurnar í flutningi.](media/nav_app_supply_planning_7_transfers2.png "Dæmi um stöðu framboðs- og eftirspurnar í flutningi")  
 
-## Hvers vegna er um að ræða sérstakt tilfelli?  
+## <a name="why-is-a-transfer-a-special-case"></a>Hvers vegna er um að ræða sérstakt tilfelli?
 
 Millifærslupantanir eru svipaðar og aðrar pantanir, t.d. innkaupa- og framleiðslupantanir. Á bak við atriðið eru þeir hins vegar ólíkir.  
 
@@ -38,7 +38,7 @@ Einn munur er sá að millifærslulína táknar bæði eftirspurn og framboð. S
 
 Þegar [!INCLUDE [prod_short](includes/prod_short.md)] birgðahlið millifærslu er breytt verður að gera svipaðar breytingar á eftirspurnarhliðinni.  
 
-## Flutningar eru háð eftirspurn  
+## <a name="transfers-are-dependent-demand"></a>Flutningar eru háð eftirspurn
 
 Eftirspurn og framboðstengsl líkjast íhlutum í framleiðslupöntunarlínum. Mismunurinn er sá að íhlutir í framleiðslupöntunarlínum eru á næsta áætlunarstigi og hafa aðra vöru. Tveir hlutar millifærslunnar eru á sama stigi fyrir sömu vöru.  
 
@@ -48,7 +48,7 @@ Ekki ætti að meðhöndla millifærslulínu sem sjálfstæða eftirspurn í á�
 
 Í áætlunarferlinu ætti aðeins að taka tillit til millifærslueftirspurnar þegar áætlunarkerfið hefur unnið framboðshliðina. Áður en sú vinnsla gerist er ekki vitað um raunverulega eftirspurn. Röð breytinga skiptir miklu fyrir millifærslupantanir.  
 
-## Áætlunarröð  
+## <a name="planning-sequence"></a>Áætlunarröð
 
 Eftirfarandi mynd sýnir dæmi um flutningastreng.  
 
@@ -60,7 +60,7 @@ Eftirfarandi mynd sýnir dæmi um flutningastreng.
 
 ![Framboðsáætlun með flutningi.](media/nav_app_supply_planning_7_transfers5.png "Framboðsáætlun með flutningi")  
 
-## Flutningsstigskóði  
+## <a name="transfer-level-code"></a>Flutningsstigskóði
 
 Flutningsstigskóti birgðahaldseiningarinnar ákvarðar í hvaða röð áætlunarkerfið vinnur birgðageymslur.  
 
@@ -72,7 +72,7 @@ Flutningsstigskótinn verður 0 fyrir birgðahaldseiningar með Innkaupa- eða F
 
 Þegar birgðahaldseining er uppfærð finnur áætlunarkerfið hvort áfyllingarkerfi fyrir birgðahaldseiningar eru með hringvirkar tilvísanir.  
 
-## Áætlunarflutningar án birgðahaldseininga  
+## <a name="planning-transfers-without-sku"></a>Áætlunarflutningar án birgðahaldseininga
 
 Fyrir minna ítarlegri vöruhúsauppsetningar er hægt að nota birgðageymslur og færa handvirkar millifærslur milli birgðageymslna, jafnvel þótt ekki séu notaðar birgðahaldseiningar. Til dæmis gæti flutningurinn náð til sölupöntunar í þeirri birgðageymslu. Áætlunarkerfið bregst við breytingum á eftirspurninni.  
 
@@ -82,7 +82,7 @@ Fyrir handvirkar millifærslur greinir áætlunarkerfið millifærslupantanir og
 
 Ef nokkrar millifærslur eru til birgðageymslu skilgreinir fyrsta millifærslupöntunin áætlunarstefnuna. Hætt er við flutning í gagnstæða átt.  
 
-## Breyta magni með frátekningum  
+## <a name="changing-quantity-with-reservations"></a>Breyta magni með frátekningum
 
 Þegar magni er breytt í birgðum tekur áætlunarkerfið frátekningar með í reikninginn. Frátekið magn stendur fyrir neðri mörkin fyrir hversu mikið þarf að minnka framboðið.  
 
@@ -97,7 +97,7 @@ Jafnvel þó að umframbirgðir á innleið sé umframbirgðir er ekki hægt að
 
 ![Frátekningar í flutningsáætlun.](media/nav_app_supply_planning_7_transfers8.png "Frátekning í flutningsáætlun")  
 
-## Magni breytt í millifærslukeðju  
+## <a name="changing-quantity-in-a-transfer-chain"></a>Magni breytt í millifærslukeðju
 
 Hér er dæmi um hvað gerist þegar magni er breytt í millifærslubreytingu.
 
@@ -119,7 +119,7 @@ Frátekning þýðir yfirleitt að áætlunarkerfið hunsar innkaupapöntunina o
 
 BLEIKTRAUTT pöntunin hefur verið minnkuð niður í 22. Innleiðarhluti millifærslunnar BLÁTT-BLEIKT er ekki frátekinn en útleiðarhlutinn er. Frátekningin merkir að ekki er hægt að minnka magnið undir 27.  
 
-## Útreikningur afhendingartíma  
+## <a name="lead-time-calculation"></a>Útreikningur afhendingartíma
 
 Þegar skiladagsetning millifærslupöntunar er reiknuð er tekið tillit til ýmiss konar afhendingartíma.  
 
@@ -150,7 +150,7 @@ Dæmið sýnir eftirfarandi útreikninga:
 * Upphafsdagsetning + Afhendingartími = Lokadagsetning  
 * Lokadagsetning + Afgreiðslutími inn í vöruhús = Móttökudagsetning  
 
-## Öryggisforskot  
+## <a name="safety-lead-time"></a>Öryggisforskot
 
 Reiturinn **Sjálfgefinn öryggisforskot** á síðunni **Uppsetning** framleiðslu og tengdur **öryggisforskot** á síðunni **Birgðaspjald** eru ekki teknir með í útreikningum á millifærslupöntunum. Hins vegar hefur öryggisforskot áhrif á heildaráætlunina. Öryggisforskotið hefur áhrif á áfyllingarpöntun (innkaup eða framleiðslu) í upphafi millifærslukeðjunnar. Þá eru vörurnar settar í birgðageymsluna sem þær verða fluttar frá.  
 
@@ -160,7 +160,7 @@ Reiturinn **Sjálfgefinn öryggisforskot** á síðunni **Uppsetning** framleið
 
 Í innkaupapöntunarlínunni Ráðgerð móttökudagsetning + Öryggisforskot + Afgreiðslutími vara á innleið í vöruhús Áætluð móttökudagsetning.  
 
-## Enduráætla  
+## <a name="reschedule"></a>Enduráætla
 
 Þegar millifærslulína er endurtímasett finnur áætlunarkerfið útleiðarhlutann og breytir dagsetningunni-tíminn.
 
@@ -171,11 +171,11 @@ Reiturinn **Sjálfgefinn öryggisforskot** á síðunni **Uppsetning** framleið
 
 Þegar gjalddaga er breytt í millifærslulínu verður að reikna út afhendingartímann til að uppfæra útleiðarhlið millifærslunnar.  
 
-## Rað- og lotunúmer í millifærslukeðjum  
+## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Rað- og lotunúmer í millifærslukeðjum
 
 Ef eftirspurnin notar rað- eða lotunúmer og áætlunarvélin er keyrð stofnar hún millifærslupantanir. Nánari upplýsingar um þetta hugtak eru í Eigindir vöru. Ef hins vegar rað- eða lotunúmer eru fjarlægð af eftirspurninni þá nota millifærslupantanirnar samt rað- eða lotunúmerin og áætlunin þá hunsa þau (ekki eytt).  
 
-## Tenglar á milli pantana  
+## <a name="order-to-order-links"></a>Tenglar á milli pantana
 
 Í þessu dæmi er BLÁTT birgðahaldseining sett upp með **pöntunar** endurpöntunarstefnu. BLEIKI og RAUÐU SKUs eru með endurpöntunarstefnuna **Lota fyrir lotu** . Stofnun sölupöntunar fyrir 27 á staðnum RAUTT leiðir til millifærslukeðju. Síðasta flutningurinn er í birgðageymslunni BLÁTT og hann er tekinn frá með bindingu. Í þessu dæmi eru frátekningarnar ekki erfiðar frátekningar sem skipuleggjandi býr til á BLEIKum stað. Áætlunarkerfið stofnar bindingarnar. Veigamesti munurinn er að áætlunarkerfið getur breytt því síðarnefnda.  
 
@@ -183,7 +183,7 @@ Ef eftirspurnin notar rað- eða lotunúmer og áætlunarvélin er keyrð stofna
 
 Ef eftirspurninni er breytt úr 27 í 22 lækkar áætlunarkerfið magnið um keðjuna. Bindandi frátekning er einnig lækkuð.  
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)   
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   

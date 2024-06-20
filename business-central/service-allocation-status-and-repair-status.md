@@ -10,10 +10,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Úthlutunarstaða og viðgerðarstaða
+# <a name="allocation-status-and-repair-status-of-service-items"></a>Úthlutunarstaða og viðgerðarstaða
 Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna þjónustuvöru tengjast á vissan hátt í Þjónustukerfi. Úthlutunarstaðan breytist þegar viðgerðarstöðu þjónustuvöru er breytt úr  **Lokið** eða  **Hluta þjónustu lokið** og þegar þjónustutilboði er breytt í þjónustupöntun. Viðgerðarstaða þjónustuvöru breytist þegar hætt er við úthlutun þjónustuvöru eða henni er endurúthlutað til annars forða. Hægt er að skoða viðgerðastöðu þjónustuvöru á síðunni **Þjónustuverk** og hægt er að uppfæra viðgerðarstöðu í **Kóti viðgerðastöðu** á síðunni **Þjónustuvörublað**. Hægt er að skoða úthlutunarstöðuna í reitnum **Staða** á síðunni **Úthlutun forða**.  
   
-## Viðgerðarstöðu breytt  
+## <a name="changing-repair-status"></a>Viðgerðarstöðu breytt
 Þegar viðgerðarstöðu þjónustu vöru er breytt í þjónustuvörulínu leitar forritið að samsvarandi úthlutunarfærslu fyrir þessa þjónustuvöru sem hefur stöðuna **Virk**. Ef úthlutunarfærslan finnst er staðan uppfærð á einn af eftirfarandi háttum:  
   
 * Ef viðgerðarstaðan breytist í **Lokið** breytir forritið úthlutunarstöðunni úr **Virk** í **Lokið**.  
@@ -23,14 +23,14 @@ Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna �
   
 úthlutunarstaðan ber með sér hvort þjónustuverki sé lokið eða hvort annan forða þurfi til þess að ljúka viðkomandi þjónustu.  
   
-## Þjónustutilboði breytt í þjónustupöntun  
+## <a name="converting-service-quotes-to-service-orders"></a>Þjónustutilboði breytt í þjónustupöntun
 Þegar þjónustutilboði er breytt í þjónustupöntun uppfærir kerfið þjónustupöntunina, þjónustuvöruna í pöntuninni og úthlutunarfærslur með einhverri eftirfarandi aðferða:  
   
 * Viðgerðarstöðu þjónustuvörunnar er breytt í **Byrjun**.  
 * Staða þjónustupöntunar breytist í **Í undirbúningi**.  
 * Leitað er að úthlutunarfærslum vegna allrar þjónustuvörunnar í þjónustupöntuninni sem er með stöðuna **Virk**. Ef slíkar úthlutunarfærsla finnast er stöðu úthlutunar breytt úr **Virk** í **Þarf að endurúthluta**.  
   
-## Hætt við úthlutanir  
+## <a name="canceling-allocations"></a>Hætt við úthlutanir
 Þegar úthlutun vegna þjónustuvöru er afturkölluð uppfærir [!INCLUDE[prod_short](includes/prod_short.md)] úthlutunarstöðu samsvarandi úthlutunarfærslu frá **Virk** yfir í **Þörf á endurúthlutun**.
 
 Viðgerðarstaða þjónustuvörunnar í úthlutunarfærslunni er uppfærð sem hér segir:  
@@ -38,7 +38,7 @@ Viðgerðarstaða þjónustuvörunnar í úthlutunarfærslunni er uppfærð sem 
 * Ef viðgerðarstaðan er **Byrjun** er viðgerðarstöðunni breytt í **Verki vísað** (engin þjónusta hefur verið veitt).  
 * Ef viðgerðarstaðan er **Í vinnslu** er viðgerðarstöðunni breytt í **Hluta þjónustu lokið** (hluti vinnunnar búinn).  
   
-## Endurúthluta virkri úthlutnarfærslu  
+## <a name="reallocating-an-active-allocation-entry"></a>Endurúthluta virkri úthlutnarfærslu
 Þegar þjónustuvöru er endurúthlutað í úthlutunarfærslu sem er **Virk** er úthlutunarfærslan uppfærð sem hér segir:  
   
 * Hafi þjónustan hafist þegar úthlutun var **Virk** (hafi viðgerðarstaða þjónustuvörunnar í færslunni breyst í **Í vinnslu**) er úthlutunarstöðunni breytt úr **Virk** í **Lokið**.  
@@ -51,7 +51,7 @@ Viðgerðarstaða þjónustuvörunnar í úthlutunarfærslunni er uppfærð eins
   
 Ný úthlutunarfærsla sem inniheldur nýja forðann er stofnuð og fær stöðuna **Virk**.  
   
-## Endurúthlutun þjónustuvöru  
+## <a name="reallocating-a-service-item"></a>Endurúthlutun þjónustuvöru
 Þegar þjónustuvöru er endurúthlutað í úthlutunarfærslu sem er með stöðuna **Þarf að endurúthluta** er úthlutunarfærslan uppfærð sem hér segir:  
   
 * Hafi þjónustan hafist þegar úthlutun var **Virk** (hafi viðgerðarstaða þjónustuvörunnar í færslunni breyst í **Í vinnslu**) er úthlutunarstöðunni breytt úr **Þarf að endurúthluta** í **Lokið**.  
@@ -59,7 +59,7 @@ Ný úthlutunarfærsla sem inniheldur nýja forðann er stofnuð og fær stöðu
   
 Ný úthlutunarfærsla sem inniheldur nýja forðann er stofnuð og fær stöðuna **Virk**.  
   
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 [Setja upp forðaúthlutanir](service-how-setup-resource-allocation.md)  
 [Úthluta forða](service-how-to-allocate-resources.md)  
 

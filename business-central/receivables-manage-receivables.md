@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Umsjón útistandandi
+# <a name="managing-receivables"></a>Umsjón útistandandi
 
 Reglulegt skref í hvaða fjárhagslegum takti sem er er að stemma af bankareikninga. Til að loka sölureikningum og innkaupakreditreikningum eins og greitt er er greiðslur á innleið jafnaðar við viðskiptamanna- eða lánardrottnafærslur.
 
@@ -41,7 +41,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Setja upp vikmörk þar sem kerfið lokar reikningi jafnvel þótt greiðslan, með einhverjum afslætti, nái ekki alveg upphæðinni á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Spá fyrir um hvenær greiðslur verða of seinar fyrir söluskjöl. | [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Stjórna skuldum](payables-manage-payables.md)  

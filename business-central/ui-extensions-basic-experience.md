@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Grunnupplifunarviðbótin
+# <a name="the-basic-experience-extension"></a>Grunnupplifunarviðbótin
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ Ef þú hefur verið með Microsoft Dynamics C5 geta samstarfsaðilar Microsoft 
 > [!NOTE]
 > Eins og staðan er í dag er þessi viðbót aðeins í boði fyrir viðskiptamenn í Danmörku og á Íslandi.
 
-## Hvað er í boði
+## <a name="whats-available"></a>Hvað er í boði
 
 Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplifunar er sett upp.
 
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 |**Verkefnastjórnun** |Verk, verðlagning verks, vinnuskýrslur, úthlutun, verkefni, tilföng |
 |**Birgðir** |Grunnbirgðir, staðgenglar vörur, millivísun vöru |
 
-## Hafist handa
+## <a name="getting-started"></a>Hafist handa
 
 Þessi viðbót er aðeins öðruvísi en flestir og þú þarft hjálp frá félaga Microsoft til að setja upp og setja hana upp. Svo að vitað sé við hverju má búast er hér mikil yfirsýn yfir það sem samstarfsaðili Microsoft gerir.
 
@@ -46,11 +46,11 @@ Eftirfarandi tafla lýsir möguleikunum sem eru í boði ef viðbót grunnupplif
 5. Bætið við **Sýniútgáfu RapidStart** pakkanum. <!--what does the package contain?-->
 6. Sækið og setjið upp viðbót grunnupplifunar úr AppSource.
 
-## Gögn flutt
+## <a name="migrating-data"></a>Gögn flutt
 
 Komdu með Dynamics C5 gögnin þín. Þegar Microsoft-félaginn setur upp grunnupplifunarviðbótina verður þú með tómt fyrirtæki. Auðveld leið til að yfirfæra gögnin úr Dynamics C5 í grunnupplifun er að nota viðbót gagnaflutnings fyrir C5 sem fylgir með í [!INCLUDE[prod_short](includes/prod_short.md)]. Viðbótin flytur viðskiptamenn, lánardrottna, vörur og fjárhagslykla og færslur þeirra.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [C5-gagnaflutningsviðbótin](ui-extensions-c5-data-migration.md)  
 

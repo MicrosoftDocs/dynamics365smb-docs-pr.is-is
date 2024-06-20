@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/13/2024
 ms.custom: bap-template
 ---
-# Verkflæði í Business Central
+# <a name="workflows-in-business-central"></a>Verkflæði í Business Central
 
 Hægt er að setja upp og nota verkflæði til að tengja verk viðskiptaferla sem framkvæmd eru af ólíkum notendum. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa með sem skref í verkflæðum. Á undan eða eftir kerfisverkum geta komið verk notanda. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
 
@@ -26,7 +26,7 @@ Sjálfgefin útgáfa styður [!INCLUDE [prod_short](includes/prod_short.md)] þe
 
   Á síðunni **Verkflæðissniðmát** geturðu séð öll tiltæk verkflæði. Í prufuútgáfunni [!INCLUDE[prod_short](includes/prod_short.md)] eru mörg fyrirframskilgreind verkflæði sem táknað eru með verkflæðissniðmátum sem hægt er að afrita til að búa til ný. Þegar sniðmát er opnað á síðunni **Verkflæðissniðmát** og heiti verkflæðis hefst á *MS-*, þá var sniðmátinu bætt við af Microsoft.
 
-## Power Automate flæði
+## <a name="power-automate-flows"></a>Power Automate flæði
 
 Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu geturðu skráð þig fyrir Power Automate til að búa til öflug sjálfvirk verkflæði. Þessi verkflæði eru keyrð í [!INCLUDE [prod_short](includes/prod_short.md)]. Flæðin geta tengt saman innri og ytri gagnagjafi og verkfæri án þess að reynslu í kóðun.
 
@@ -36,7 +36,7 @@ Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu geturðu skráð 
 |Kynntu þér hvernig á að stofna, breyta og stjórna flæðum|[Setja upp sjálfvirkt flæði](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Setja upp skyndiflæði](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Setja upp Power Automate samþættingu við[!INCLUDE[prod_short](includes/prod_short.md)] fyrir notendur sem stjórnandi|[Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## Samþykktarflæði
+## <a name="approval-workflows"></a>Samþykktarflæði
 
 Búðu til samþykktarverkflæði með því að skilgreina hvað byrjar verkflæðið og hvað gerist næst á eftirfarandi hátt:
 
@@ -57,7 +57,7 @@ Dæmi um samþykktarverkflæðistilvik eru stofnun sölu- eða innkaupapantana/t
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
