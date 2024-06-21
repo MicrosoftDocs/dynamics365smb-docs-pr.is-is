@@ -9,7 +9,7 @@ ms.search.form: '4,'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-terms"></a>Setja upp greiðsluskilmála
+# Setja upp greiðsluskilmála
 
 Greiðsluskilmálar ákvarða hvernig á að stjórna gjalddögum og greiðsluafslætti. Hægt er að nota dagsetningarreiknireglur til að skilgreina greiðsluskilmálana. Þegar notandi skráir sig fyrst inn [!INCLUDE [prod_short](includes/prod_short.md)] býður sýnifyrirtækið upp á nokkra greiðslumáta sem fyrirtæki nota oft. Þó er hægt að bæta við eins mörgum og þörf krefur.  
 
@@ -21,7 +21,7 @@ Ef greiðsluskilmálar eru tengdir við viðskiptamenn og lánardrottna eru söm
 
 Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setja upp stig og skilmála innheimtubréfs. Nánari upplýsingar um áminningar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Greiðsluskilmálar settir upp
+## Greiðsluskilmálar settir upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluskilmálar** og velja síðan viðkomandi tengil.  
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setj
 >
 > Í sumum löndum/svæðum er hægt *að* setja upp greiðsluskilmála með hlutagreiðslum. Til að komast að **því hvort landið/svæðið styður þennan möguleika er farið í hlutann Staðbundnar aðgerðir** í efnisyfirlitinu vinstra megin [Microsoft Learn](about-localization.md) í greininni.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp greiðsluhætti](finance-payment-methods.md)  
 [Uppsetning fyrirframgreiðslu](finance-set-up-prepayments.md)  

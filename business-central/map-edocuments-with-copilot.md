@@ -12,7 +12,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
+# Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)
 
 Þegar innkaupaferli verða stafrænni gegnir e-skjöl aðgerðin Business Central lykilhlutverki í því að gera móttöku og vinnslu lánardrottins sjálfvirka. Copilot getur hjálpað þessu ferli með því að bæta vörpun og samsvörun reikninga lánardrottna á innkaupapantanir. Þessi aðstoð styttir tíma sem eytt er í verk sem fela venjulega í sér umfangsmikla leit, uppflettingu og gagnafærslu. Annar kostur er þegar lánardrottnareikningar tengjast ekki nákvæmlega innkaupapöntunum. Í því tilviki er Copilot vel staðsett til að auðkenna samsvarandi innkaupapantanir. Aukin samsvörunargeta gagnast sérstaklega litlum og miðstýrðum fyrirtækjum sem þurfa skilvirka rakningu skjala fyrir innkaupapantanalínur. Copilot er aðstoðarmaður sem eykur sköpunarkraft og bætir framleiðni Hjá Business Central notendum.
 
@@ -25,11 +25,11 @@ ms.custom: bap-template
 
 Nú er hægt að uppfæra fyrirliggjandi innkaupapöntun í Business Central með þeim upplýsingum sem berast í tölvupósti.
 
-## <a name="available-languages"></a>Tiltæk tungumál
+## Tiltæk tungumál
 
 [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
-## <a name="activate-copilot"></a>Virkja stjórnklefa
+## Virkja stjórnklefa  
 
 Ef afritað var fyrir samsvörunarútgáfu **e-skjals var ekki virkt** þarf að gera það handvirkt. Til að virkja **aðstoð við samsvörun** tölvupóstskjala skal fylgja eftirfarandi skrefum: 
 
@@ -38,7 +38,7 @@ Ef afritað var fyrir samsvörunarútgáfu **e-skjals var ekki virkt** þarf að
 
 Hægt er að byrja að nota Copilot um leið og hann er virkjaður. 
 
-## <a name="identify-purchase-orders"></a>Auðkenna innkaupapantanir
+## Auðkenna innkaupapantanir
 
 Fyrst er hægt að auðkenna innkaupapantanirnar sem hægt er að jafna sjálfkrafa.  **Ef lánardrottininn** grunnstillti reitinn **Taka á móti e-fylgiskjali til** til að vinna með **Innkaupapantanir**, þegar rafræna skjalið er stofnað í [!INCLUDE[prod_short](includes/prod_short.md)]  (handvirkt eða frá ytri endastöð) [!INCLUDE[prod_short](includes/prod_short.md)]  er eftirfarandi:
 
@@ -46,7 +46,7 @@ Fyrst er hægt að auðkenna innkaupapantanirnar sem hægt er að jafna sjálfkr
 Þessi tengill sést í reitnum **Fylgiskjal** á þessu tiltekna **E-fylgiskjali**. Ef þörf er á að breyta innkaupapöntuninni **sem** tengd er sjálfvirkt er hægt að gera það með því að nota aðgerðina **Uppfæra innkaupapöntunartengil** og velja síðan eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin handvirkt. Það er aðeins hægt að gera áður en þær samsvara línunum milli **E-fylgiskjals** og **Innkaupapöntunar**.  
 2. Ef Innkaupapöntun **fyrir þennan tiltekna lánardrottinn** er til en ekkert innkaupapöntunarnúmer *er í skjalinu sem var móttekið* E-fylgiskjal **, ef skjalið var hlaðið upp handvirkt,**  gerir það mögulegt að velja úr einni af þeim innkaupapöntunum sem fyrir eru, með því að opna [!INCLUDE[prod_short](includes/prod_short.md)] listann Innkaupapantanir **úr pöntununum sem þú komst frá lánardrottnum sem innihalda aðeins** E-fylgiskjal **, þar sem þú þarft að velja** Innkaupapöntun **sem þú vilt og velja** Í lagi **.** Ef rétt **innkaupapöntun er ekki valin eða E-skjalið** er **sjálfkrafa valið frá ytri endastöð með** Verkröð **er nýja** E-skjalið **ekki tengt innkaupaskjalinu og Staða** skjals birtist sem **Villa** og **staða** **E-skjals á** undirsíðunni Þjónustustaða **er** Flutt inn **skjalavinnsluvilla**. Til að ljúka við að **tengja Innkaupapöntun** skal velja aðgerðina **Uppfæra innkaupapöntunartengil** og velja síðan eina af fyrirliggjandi innkaupapöntunum fyrir þennan lánardrottin.  
 
-## <a name="map-lines"></a>Varpa línum
+## Varpa línum
 
 Copilot auðveldar samsvörun e-reikningslína sjálfvirkt við innkaupapantanalínur og býður upp á auka samsvörunarupplýsingar til að bæta samsvörunina.
 
@@ -100,7 +100,7 @@ Eftir að þær hafa verið jafnaðar og varpaðar [!INCLUDE [prod_short](includ
 > [!NOTE]
 > Greining verðs/kostnaðar og tiltæk athugun á magni er hluti af forvinnsluaðgerð. 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir tölvupóstskjöl](finance-edocuments-overview.md)    
 [Nota tölvupóstskjöl í sölu](finance-how-use-edocuments.md)    

@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to-business-central-and-power-bi"></a>Kynning á Business Central og Power BI
+# Kynning á Business Central og Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Hvað er hægt að gera með Power BI og Business Central
+## Hvað er hægt að gera með Power BI og Business Central
 
 Það eru ýmsir eiginleikar fyrir vinnu með [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Suma hluti er hægt að gera úr Power BI, á meðan aðrir hlutir eru gerðir úr [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig eru sumir eiginleikar í boði með [!INCLUDE[prod_short](includes/prod_short.md)] á netinu, ekki á staðnum. Eftirfarandi tafla sýnir yfirlit.
 
@@ -33,7 +33,7 @@ ms.service: dynamics-365-business-central
 
 <a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Nánari upplýsingar eru [í Skráning Business Central innanhúss í Microsoft Entra ID til að samþætta við aðra þjónustu](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Búðu þig undir að nota Power BI
+## Búðu þig undir að nota Power BI
 
 Það þarf að gera nokkra hluti áður en hægt er að byrja að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Verkin ráðast af hlutverki fyrirtækisins og hvað á að gera við Power BI:
 
@@ -49,12 +49,12 @@ ms.service: dynamics-365-business-central
 |Kveikja á samþættingu Power BI<br />(eingöngu á staðnum)||![þetta er hak.](media/check.png)||[Setja upp Business Central innanhúss fyrir Power BI samþættingu](across-working-with-business-central-in-powerbi.md#setup)|
 
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 - Ef notandi er stjórnandi sem þarf að setja upp Power BI er farið í [!INCLUDE[prod_short](includes/prod_short.md)] [Virkjun Power BI samþættingar](admin-powerbi-setup.md).
 - Ef Power BI hefur verið sett upp og reyna á eiginleikana er farið í [Vinna með Power BI skýrslur í Business Central](across-working-with-powerbi.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir greiningar](reports-bi-reporting.md)   
 [Rekja KPI með Power BI mælitækjum](track-kpis-with-power-bi-metrics.md)   

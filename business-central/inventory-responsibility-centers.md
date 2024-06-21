@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
+# Vinna með ábyrgðarstöðvar
 
 Ábyrgðarstöðvar bjóða upp á eiginleika sem felst í umsjón með stjórnunarmiðstöðvum. Ábyrgðarstöð getur verið kostnaðarstöð, framlegðarstöð, fjárfestingarstöð eða önnur stöð skilgreind út frá stjórnsýslu fyrirtækisins. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Til dæmis geta fyrirtæki sett upp notendasértæk yfirlit yfir sölu- og innkaupaskjöl sem tengjast tiltekinni ábyrgðarstöð.  
 
@@ -19,7 +19,7 @@ Með því að nota margar birgðageymslur ásamt ábyrgðarstöðvum er hægt a
 
 Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á mörgum stöðum í einum gagnagrunni. Tvö hugtök – birgðageymslur og birgðahaldseiningar – eru hornsteinar þessarar eindar. Birgðageymsla er skilgreind sem staður sem sér um raunstaðsetningu og magn vöru. Hugtakið er nægilega vítt til að taka til staðsetninga eins og verksmiðja eða framleiðslustaða sem og dreifingastöðva, vöruhúsa, sýningasala og þjónustubifreiða. Birgðahaldseining er skilgreind sem vara á tilteknum stað og/eða sem afbrigði. Með því að nota birgðahaldseiningar geta fyrirtæki með margar birgðageymslur bætt við áfyllingarupplýsingum, aðsetrum og upplýsingum um fjárhagslegar bókanir á birgðageymslustiginu. Þar af leiðandi geta þau útfyllt afbrigði sömu vöru fyrir hverja birgðageymslu og pantað vörur á grundvelli birgðageymslutengdra áfyllingarupplýsinga.  
 
-## <a name="to-set-up-a-responsibility-center"></a>Uppsetning ábyrgðarstöðva
+## Uppsetning ábyrgðarstöðva
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Ábyrgðarstöðvar** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -34,7 +34,7 @@ Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á 
 > [!NOTE]  
 > Þegar ábyrgðarstöðvarkóti er settur á fylgiskjal hefur það áhrif á aðsetur, víddir og verð á fylgiskjalinu.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Að úthluta ábyrgðarstöðvum til notenda:
+## Að úthluta ábyrgðarstöðvum til notenda:
 
 Hægt er að setja upp notendur þannig að [!INCLUDE [prod_short](includes/prod_short.md)] þeir sæki aðeins skjöl sem eiga við tiltekin vinnusvæði þeirra. Notendur eru venjulega tengdir einni ábyrgðarstöð og vinna aðeins með skjöl sem tengjast sértækum kerfishlutum í þeirri tilteknu ábyrgðarstöð.  
 
@@ -49,7 +49,7 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 > [!NOTE]  
 > Notendur geta aðeins skoðað þessi bókuðu skjöl sem tengjast ábyrgðarstöð þeirra. Hins vegar er hægt að skoða allar fjárhagsfærslur og fletta að öðrum bókuðum skjölum úr fjárhagsfærslunum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning birgða](inventory-setup-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  

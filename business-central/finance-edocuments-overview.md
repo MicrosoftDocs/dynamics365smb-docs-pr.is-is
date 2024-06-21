@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="e-documents-overview"></a>Yfirlit yfir tölvupóstskjöl
+# Yfirlit yfir tölvupóstskjöl
 
 Rafræn skjöl (e-documents) eru bakbein nútímalegra viðskiptafærslna. Þau ná yfir mikilvæg skjöl, svo sem reikninga og móttökur í báðar áttir (afhendingu og móttöku). Þeir bæta einnig við getu skjalastöðu –tengd skilaboð milli aðgangsstaða.
 
@@ -35,7 +35,7 @@ Skjalið útskýrir tölvupóstskjöl í smáatriðum. Það sýnir getu forrits
 | [Rafræn gagnaskipti](across-data-exchange.md) | Læra að nota Data Exchange Framework til að sjá um skipti á gögnum í viðskiptaskjölum, svo sem bankaskrám og gengi gjaldmiðla. | 
 | [Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forskoðun)](map-edocuments-with-copilot.md) | Lærðu að nota Copilot til að auka skilvirkni þína þegar þú vinnur með tölvupóstskjöl. |
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjármálastjórnun](finance.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

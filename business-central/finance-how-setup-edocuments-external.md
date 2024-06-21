@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Stilla tengingu E-Skjala með ytri endastöðvum
+# Stilla tengingu E-Skjala með ytri endastöðvum
 
 Þessi grein útskýrir hvernig setja á upp E-skjöl þegar hún er tengd ytri endastöðvum.
 
 Áður en þú notar aðgerðina sem er lýst í þessari grein skal setja upp **E-Documents Connector með forritinu Ytri endastöðvar** efst í altæku **E-Document Core** forritinu. Þetta forrit er hægt að nota til sjálfgefinnar samþættingar við ytri (þriðja aðila) aðgangsstaði til að gera e-skjalaflæðið sjálfvirkt. Þar sem þetta forrit táknar aðeins einhverja af völdum tengjum er ekki takmarkað við fyrirliggjandi samþættingar við það. Flest tengi verða tiltæk á AppSource í framtíðinni.
 
-## <a name="set-up-the-connection"></a>Setja upp tenginguna
+## Setja upp tenginguna
 
 Til að hefja uppsetninguna skal fylgja skrefunum í [kjarnaforriti E-skjals](finance-how-setup-edocuments.md). Þegar lokið hefur verið við þessi skref skal fara aftur í þessa grein og ljúka eftirfarandi skrefum:
 
@@ -45,7 +45,7 @@ Til að hefja uppsetninguna skal fylgja skrefunum í [kjarnaforriti E-skjals](fi
     > [!NOTE]
     > Biðja þjónustuveituna um allar fyrri upplýsingar til að koma á tengingu við aðgangsstað.
 
-## <a name="set-up-company-information"></a>Setja upp stofngögn
+## Setja upp stofngögn
 
 Áður en byrjað er að nota e-skjöl skal uppfæra **síðuna Stofngögn** með því að ljúka eftirfarandi skrefum:
 
@@ -60,7 +60,7 @@ Til að hefja uppsetninguna skal fylgja skrefunum í [kjarnaforriti E-skjals](fi
 
 3. Loka síðunni.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Setja upp viðskiptamenn til að taka á móti tölvupóstskjölum
+## Setja upp viðskiptamenn til að taka á móti tölvupóstskjölum
 
 Til að gera viðskiptamönnum kleift að taka á móti e-skjölum skal ljúka eftirfarandi skrefum:
 
@@ -70,11 +70,11 @@ Til að gera viðskiptamönnum kleift að taka á móti e-skjölum skal ljúka e
 4. Reiturinn **Nota GLN í rafræn skjölum** er merktur til að tilgreina hvort Altækt birgðageymslunúmer (GLN) sé notað sem kenninúmer aðila í rafrænum skjölum.
 5. Loka síðunni.
 
-## <a name="other-setup"></a>Önnur uppsetning
+## Önnur uppsetning
 
 Áður en byrjað er að vinna með tölvupóstskjöl skal setja upp verkflæði tölvupóstskjala **og** **skjalasendingarsnið** til að nota verkflæðin. Þegar þjónustutengingu hefur verið náð er hægt að byrja að nota e-skjalslausnina.
 
-## <a name="available-service-providers"></a>Tiltækir þjónustuaðilar
+## Tiltækir þjónustuaðilar
 
 Microsoft vill hvetja aðgangsstaðaveitur til að bæta við tengjum sínum efst í E-Document Core **rammanum.** 
 
@@ -82,7 +82,7 @@ Eins og er er Pagero eini aðgangsstaðarveitan sem kerfið nær yfir. Microsoft
 
 Við munum uppfæra þennan lista þegar við fáum nýja aðgangsstaðarþjónustu fyrir tölvupóst.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Hvernig á að setja upp tölvupóstskjöl í Business Central](finance-how-setup-edocuments.md)  
 [Hvernig á að nota e-skjöl í Business Central](finance-how-use-edocuments.md)  

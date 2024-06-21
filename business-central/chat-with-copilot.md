@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# <a name="chat-with-copilot-preview"></a>Spjalla við Copilot (forskoðun)
+# Spjalla við Copilot (forskoðun)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ ms.collection:
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-chat-with-copilot"></a>Um spjall við Copilot
+## Um spjall við Copilot
 
 Microsoft Copilot er AI-powered aðstoðarmaður sem hjálpar neista sköpunarkrafti, uppörva framleiðni og útrýma leiðinlegum verkefnum. Með því að spjalla við Copilot í Business Central er hægt að spyrja spurninga og finna viðskiptagögn á náttúrulegu tungumáli. Hér er það sem hægt er að gera:
 
@@ -34,13 +34,13 @@ Notkun spjalls við Copilot straumlínur vinnuflæðis þíns með því að far
   
 > [Horfa á myndskeið](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## <a name="prerequisites"></a>Frumskilyrði
+## Frumskilyrði
 
 - Tryggja að spjall með Copilot getu sé virkjað af stjórnanda. [Fræðast meira um grunnstillingu stjórnunargetu og afkastagetu Stjórnunargetu](enable-ai.md).
 - Stilltu skjátungumálið á Business Central á eitt eftirfarandi enska heimamanna: en-AU, en-CA, en-GB, en-IE, en-Í-NZ, en-PH, en-SG, en-US, en-ZA. [Fræðast meira um að breyta tungumálinu](ui-change-basic-settings.md#language).
 - Tryggja að Business Central umhverfi þitt sé í neinu landi/svæði nema Kanada (þessi eiginleiki er ekki enn tiltækur í Kanada).
 
-## <a name="get-started-using-chat-with-copilot"></a>Byrjaðu að nota spjall við Copilot
+## Byrjaðu að nota spjall við Copilot
 
 1. Uppi í hægra horni skjásins skal velja ![Sýna táknið Sýnir táknið fyrir spjall við Copilot Copilot](media/chat-copilot-icon.png) **táknið** ![Sýnir cllour númer 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Notkun spjalls við Copilot straumlínur vinnuflæðis þíns með því að far
 
    Spjall man samhengið, sem þýðir að þú þarft ekki að endurtaka lykilatriði úr upphaflegu spurningunni.
 
-## <a name="clear-chat-to-start-over"></a>Hreinsa spjall til að byrja upp á
+## Hreinsa spjall til að byrja upp á
 
 Ef þú vilt skipta yfir í annað efnisatriði í samtali við Copilot, veldu ![Þá Sýnir táknið táknið hreinsa spjall](media/clear-chat-icon.png) **byrja á nýju spjallþráðartákni**  Copilot neðst á Copilot svæðinu fyrir ofan spurningareitinn. Þessi aðgerð hreinsar minni Copilot af síðustu skilaboðum. Það er oft gagnlegt að byrja upp á nýtt eftir lengra samtal með mörgum skilaboðum og það getur hjálpað Copilot að skila nákvæmari svörum.
 
 Spjallið hreinsar einnig ef þú lokar eða skráir þig út úr Business Central.
 
-## <a name="tips-for-better-questions"></a>Ábendingar um betri spurningar
+## Ábendingar um betri spurningar
 
 Hér eru nokkrar leiðir til að bæta svörin sem þú færð frá Copilot:
 
@@ -83,7 +83,7 @@ Hér eru nokkrar leiðir til að bæta svörin sem þú færð frá Copilot:
 - Ef upphaflega svarið svarar ekki fullkomlega spurningum skal spyrja eftirfylgnispurninga eða endurorða síðustu spurningu.
 - Ef þú spyrð spurninga á öðru efni en fyrri spurningu skaltu hreinsa spjallþráðinn sem er í gangi.
 
-## <a name="example-prompts"></a>Dæmi um kvaðningar
+## Dæmi um kvaðningar
 
 Spurningar þínar um Copilot eru mismunandi eftir hlutverki þínu, núverandi verki, ferlum sem fyrirtækið fylgir og hvernig notandi tjáir sig með orðum. Eftirfarandi eru dæmi sem sýna mismunandi leiðir til að spyrja spurninga á spjallsvæðinu sem getur bætt þér í það að skrifa eigin spurningar út frá aðstæðum þínum.
 
@@ -103,7 +103,7 @@ Hvetja: `How does I save my filterrings for later?`
 
 Í þessu dæmi er copilot beðið um leiðbeiningar um hvernig eigi að framkvæma einhver verk í Business Central. Copilot getur yfirleitt skilið ásetning spurningar þinnar, jafnvel þótt til séu nokkrar málfræðilegar villur, stafsetningarvillur eða skammstafanir.
 
-## <a name="provide-feedback-on-answers"></a>Birta svörun á svörum
+## Birta svörun á svörum
 
 Hægt er að meta svörin sem þú færð frá Copilot með því að nota like (þumalputta upp) hnapp fyrir góða flokkun eða ólíkt (þumalputtum niður) hnapp fyrir lélega flokkun. Þegar mislíkindahnappurinn er valinn er hægt að velja ástæðu, þ.m.t. ónákvæman, óviðeigandi eða annan. Þessar upplýsingar geta hjálpað okkur að bæta tillögur.
 
@@ -112,7 +112,7 @@ Hægt er að meta svörin sem þú færð frá Copilot með því að nota like 
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
    
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 - [Úrræðaleit fyrir Copilot- og AI-eiginleika](ai-copilot-troubleshooting.md)  
 - [Grunnstilla Copilot- og gervigreindarmöguleika](enable-ai.md)  

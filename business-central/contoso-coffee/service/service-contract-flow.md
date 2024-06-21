@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Kynning á þjónustusamningum vegna þjónustuvöru
+# Kynning á þjónustusamningum vegna þjónustuvöru
 
 Þessi kynning sýnir nokkur kjarnaferli:
 
@@ -21,13 +21,13 @@ ms.reviewer: bholtorf
 - Ljúka tímafærslu fyrir þjónustupöntunina
 - Bóka og reikningsfæra þjónustupöntun samnings
 
-## <a name="creation-of-service-items"></a>Stofnun þjónustuvöru
+## Stofnun þjónustuvöru
 
-### <a name="scenario"></a>Aðstæður
+### Aðstæður  
 
 Súsanna, pantanavinnslan, bókar sölupöntun sem selur vöru sem er grunnstillt til að búa til þjónustuvöru.  
 
-### <a name="steps"></a>Skref
+### Skref
 
 1. Ganga úr skugga um að vara **hafi**  **valið Þjónustuvöruflokk** .
    
@@ -41,13 +41,13 @@ Súsanna, pantanavinnslan, bókar sölupöntun sem selur vöru sem er grunnstill
     2. Veljið pöntun fyrir viðskiptavin 10000. Reiturinn Ytri pantanir nr. er *SVC-1*.
     3. Velja skal aðgerðina **Bóka** til að senda vöruna til viðskiptamanns.
 
-### <a name="results"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustuvara er stofnuð fyrir viðskiptamann 10000
 
-## <a name="invoicing-a-service-contract"></a>Reikningsfærsla þjónustusamnings
+##  Reikningsfærsla þjónustusamnings
 
-### <a name="scenario-1"></a>Aðstæður
+### Aðstæður
 
 Charles, þjónustustjóri, stofnar síðan þjónustusamning til að reikningsfæra fyrir reglulegar viðhaldsheimsóknir.
 
@@ -70,18 +70,18 @@ Charles, þjónustustjóri, stofnar síðan þjónustusamning til að reikningsf
    1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustureikningar** og velja síðan viðkomandi tengil.
    2. Finna skal þjónustureikninginn og velja aðgerðina **Bóka** .
 
-### <a name="results-1"></a>Niðurstöður
+### Niðurstöður
 
 - Undirritaður þjónustusamningur er stofnaður með færslum
 - Bókaður þjónustureikningur er stofnaður
 
-## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Stofna þjónustupöntun fyrir þjónustusamning og úthluta forða
+## Stofna þjónustupöntun fyrir þjónustusamning og úthluta forða
 
-### <a name="scenario-2"></a>Aðstæður
+### Aðstæður  
 
 Charles, þjónustustjóri, stofnar Þjónustupantanir fyrir reglulegar viðhaldspantanir í Þjónustusamningi og skoða síðan Afgreiðslustöð til að úthluta þeim.
 
-### <a name="steps-1"></a>Skref
+### Skref
 
 1. Keyra þjónustupantanir sem uppfylla skuldbindingar virkra þjónustusamninga.
    1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Stofna samn.þjónustupantanir** og svo velja viðeigandi tengil.
@@ -104,21 +104,21 @@ Charles, þjónustustjóri, stofnar Þjónustupantanir fyrir reglulegar viðhald
     3. Úthlutun er breytt í Staða í Virk.
     4. Ef afgreiðslustöð er endurnýjuð er **fjöldi úthlutana** breytt úr 0 í 1 fyrir þjónustupöntunina.
 
-### <a name="results-2"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustupantanir eru stofnaðar fyrir þjónustusamningana
 - Þjónustupöntunum er úthlutað á forða til að ljúka verkinu
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Ljúka tímafærslu þjónustupöntunarinnar og bóka þjónustupöntunina
+## Ljúka tímafærslu þjónustupöntunarinnar og bóka þjónustupöntunina
 
-### <a name="scenario-3"></a>Aðstæður
+### Aðstæður  
 
 Þjónustutæknimaðurinn skráir tíma sinn beint á móti þjónustupöntuninni og merkir svo pöntunina sem tilbúna.
 
 > [!NOTE]
 > Hægt er að færa inn tímafærslu fyrir þjónustupantanir í vinnuskýrslum. Nánari upplýsingar eru í [link to Timesheet ef þessi athugasemd er skynsamleg].
 
-### <a name="steps-2"></a>Skref
+### Skref
 
 1. Finna þjónustupöntunina og færa tímann inn í þjónustulínuna
    1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](../../media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Þjónustupantanir** og svo velja viðeigandi tengil.
@@ -133,11 +133,11 @@ Charles, þjónustustjóri, stofnar Þjónustupantanir fyrir reglulegar viðhald
 2. Í þjónustupöntuninni er notkunin bókuð
    1.  **Veljið Bóka** aðgerð til að ljúka þjónustupöntuninni, veljið aðgerðina **Afhenda og nota** og veljið **svo Í lagi** hnappinn.
 
-### <a name="results-3"></a>Niðurstöður
+### Niðurstöður
 
 - Þjónustufærslur eru stofnaðar sem tengjast þjónustuvörunni, þjónustusamningnum og forðanum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kynning á Contoso Kaffi kynningargögnum](../../contoso-coffee/contoso-coffee-intro.md)  
 [Um framleiðslupantanir](../../production-about-production-orders.md)

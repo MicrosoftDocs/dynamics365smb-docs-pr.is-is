@@ -11,14 +11,14 @@ ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Setja upp eða breyta bókhaldslykli
+# Setja upp eða breyta bókhaldslykli
 
 Bókhaldslykill sýnir fjárhagslykla sem geyma fjárhagsleg gögn. [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðan bókhaldslykil sem er tilbúin til að styðja þitt fyrirtæki. Hins vegar er hægt að breyta sjálfgefnum lyklum og hægt er að bæta við nýjum lyklum.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Bæta við eða breyta reikningum
+## Bæta við eða breyta reikningum
 
 Úr bókhaldslyklinum geturðu opnað hvern fjárhagsreikning og bætt við eða breytt stillingum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Fylla þarf út reitinn **Samantekt** fyrir reikninga af reikningsgerðinni **Sa
 > [!IMPORTANT]
 > Ef skilgreiningar hafa verið færðar í **Samtals**-reitina fyrir **Til-tölu**-reikningana áður en inndráttaraðgerðin er framkvæmd þarf að færa þær inn aftur því að aðgerðin skrifar yfir gildin í öllum **Til-tölu**-reitum.
 
-## <a name="delete-accounts"></a>Eyða reikningum
+## Eyða reikningum
 
 Hægt er að eyða fjárhagsreikningur. Áður en henni er eytt verða hins vegar eftirfarandi skilyrði að vera rétt:  
 
@@ -43,17 +43,17 @@ Einnig er hægt að tilgreina hvenær leyfa eigi fólki að eyða reikningum. Á
 
 Best er að kveikja á reitnum **Loka eyðingu fjárhagsreikninga**, eins og að stilla dagsetninguna í reitnum **Eyðing fjárhagsreikn. eftir**, til dæmis til dagsetningarinnar þar sem reglugerðir krefjast þess að geyma fjárhagsgögn.  
 
-### <a name="video-guidance"></a>Vídeóleiðbeiningar
+### Vídeóleiðbeiningar
 
 Þetta myndband sýnir hvernig á að tilgreina hvort og hvenær, fólk getur eytt fjárhagsreikningum.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="learning-path-set-up-the-chart-of-accounts-in-dynamics-365-business-central"></a>Námsleið: Setja upp bókhaldslykil í Dynamics 365 Business Central
+## Námsleið: Setja upp bókhaldslykil í Dynamics 365 Business Central
 
 Viltu læra hvernig bókhaldslykillinn [!INCLUDE [prod_short](includes/prod_short.md)] er settur upp? Byrja síðan á eftirfarandi námsleið [Setja upp bókhaldslykil í Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  

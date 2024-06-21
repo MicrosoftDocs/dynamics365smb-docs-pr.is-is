@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-item-types"></a>Um vörutegundir
+# Um vörutegundir
 
 Í reitnum **Tegund** á síðunni **Birgðaspjald** er hægt að velja í hvað varan er notuð í fyrirtækinu, sem hefur áhrif á hvernig þú getur stjórnað vörunni í birgðum. Eftirfarandi tafla sýnir og lýsir þeim þremur tegundum vara sem eru tiltækar.
 
@@ -30,7 +30,7 @@ ms.custom: bap-template
 |Ekki í birgðum|Já|Já|Já|Já|Já|Já|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Já|
 |Þjónusta|Já|Já|Já|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Já|
 
-## <a name="costing-methods-for-types-of-items"></a>Aðferðir kostnaðarútreiknings fyrir gerðir vara
+## Aðferðir kostnaðarútreiknings fyrir gerðir vara
 
 Þegar birgðafærslur eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi.
 
@@ -38,13 +38,13 @@ Kostnaður birgðavara er skráður í reitinn **Kostnaðarupphæð (raunverul.)
 
 Kostnaður er skráður í kostnaðarupphæð fyrir utanbirgðavörur og þjónustuvörur og er kostnaður skráður í **kostnaðarupphæðina (Óbirgðab.)** á síðunni **Virðisfærslur** . Fyrir utanbirgðavörur og þjónustuvörur skal tilgreina kostnað við sölu, samsetningu og framleiðsluskjöl og færslubækur. Tilgreina sjálfgefinn kostnað í reitnum Kostnaðarverð **á** birgðaspjaldinu **og** Birgðahaldseiningarsíðunum **·** . Kostnaður vegna þessara vara er ekki stemmdur af við fjárhag.
 
-## <a name="catalog-and-service-items"></a>Vörulisti og þjónustuvörur
+## Vörulisti og þjónustuvörur
 
 Hægt er að setja upp vörur sem boðnar eru viðskiptamönnum en ekki er stjórnað fyrr en þær eru selt sem vörulistavörur. Þó svo að vörulistavörum líkist venjulegum vörum af tegundinni **Ekki birgðir** í þessu tilviki, ekki rugla saman tveimur vegna þess að munur er á vörum. Til að fá nánari upplýsingar er farið í [Vinna við vörulistaatriði](inventory-how-work-nonstock-items.md).
 
 Viðskiptamannavörur sem þjónusta, t.d. prentari, eru kallaðar þjónustuvörur. Þjónustuvörur hafa ekkert að gera með venjulegar vörur eða vörulistaatriði. Hins vegar geta íhlutir þjónustuvara verið venjulegar vörur. Nánari upplýsingar eru notaðar til að [setja upp þjónustuvörur og þjónustuvöruíhluti](service-how-setup-service-items.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Uppsetning birgða](inventory-setup-inventory.md)  

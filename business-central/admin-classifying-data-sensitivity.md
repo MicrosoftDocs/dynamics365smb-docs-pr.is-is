@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Flokkun gagnanæmisreita
+# Flokkun gagnanæmisreita
 
 Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -29,7 +29,7 @@ Eftirfarandi tafla lýsir stigum gagnatrúnaðar sem þú getur úthlutað.
 |Trúnaðarmál | Viðskiptagögn sem þú notar fyrir bókhald eða í öðrum viðskiptatilgangi og ekki eru ætluð öðrum aðilum. Til dæmis gæti þetta átt við um fjárhagsfærslur.|
 |Venjul. | Almenn gögn sem heyra ekki undir aðra flokka.|
 
-## <a name="how-do-i-classify-my-data"></a>Hvernig flokka ég gögnin mín?
+## Hvernig flokka ég gögnin mín?
 
 Að flokka viðkvæmni á miklu magni reita, einn reit í einu, tekur langan tíma. Til að hjálpa til við að flýta því ferli bjóðum við upp á verkfæri sem hægt er að nota til að magnflokka viðkvæmni reita og síðan fínstilla flokkanir fyrir tiltekna reiti. Finna má verkfæri á síðunni Vinnublað gagnaflokkunar sem er að finna í Stjórnun notenda, notendaflokka og hlutverkamiðstöðvar heimilda. Þú verður að vera kerfisstjóri til að nota vinnublaðið.
  
@@ -45,7 +45,7 @@ Til dæmis gerir síðan Vinnublað gagnaflokkunar kleift að gera hluti eins og
 > [!Tip]  
 > Við höfum skilgreint dæmi um flokkun á viðkvæmni fyrir töflur og reiti í sýnifyrirtækinu Cronus. Þú getur notað þessar flokkanir til að fá hugmyndir um eigin flokkun á töflum og reitum.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

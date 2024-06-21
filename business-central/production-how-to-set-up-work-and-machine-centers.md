@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnustöðvar og vélastöðvar
+# Setja upp vinnustöðvar og vélastöðvar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] greinir á milli þriggja tegunda afkastagetu sem er raðað í stigveldi þar sem hvert stig inniheldur undirstig.  
 
@@ -23,7 +23,7 @@ Hægt er að úthluta ýmsum vélastöðvum á vinnustöðvar. Vélastöð getur
 > [!IMPORTANT]
 > Áður en þú setur upp vinnu- eða vélastöðvar, þarftu að setja upp dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).
 
-## <a name="to-set-up-a-work-center"></a>Vinnustöð sett upp
+## Vinnustöð sett upp
 
 Eftirfarandi skref útskýra hvernig setja á upp vinnustöð. Skrefin sem setja á upp dagatal vélastöðvar eru svipuð nema á flýtiflipanum **Leiðargrunnur** .  
 
@@ -69,7 +69,7 @@ Eftirfarandi skref útskýra hvernig setja á upp vinnustöð. Skrefin sem setja
 > [!NOTE]
 > Nota skal biðtíma til að veita smá tíma á milli þess þegar íhluturinn kemur á vél eða vinnustöð og þegar aðgerðin hefst í raun. Ef til dæmis hlutur er afhentur vélastöð klukkan 10:00 en það tekur klukkustund að festa hann við vél hefst aðgerðin ekki fyrr en 11:00. Biðtíminn yrði þá ein klukkustund. Gildið úr reitnum **Biðraðartími** á véla- eða Vinnustöðvarspjaldi plús samtala gildanna í reitunum **Uppsetningartími**, **Keyrslutími**, **Biðtími** og **Flutningstími** í vöruleiðarlínunni gefa afgreiðslutímann í framleiðslu vörunnar. Þetta hjálpar til við að gefa upp nákvæman framleiðslutíma alls.  
 
-## <a name="considerations-about-capacity"></a>Hvað skal hafa í huga varðandi afkastagetu
+## Hvað skal hafa í huga varðandi afkastagetu
 
 Afkastageta og skilvirkni vinnu- og vélastöðva hafa áhrif á meira en bara tiltæka afkastagetu. Gildin hafa einnig áhrif á heildarframleiðslutímann sem samanstendur af uppsetningartímanum og keyrslutímanum sem eru bæði skilgreindir á leiðarlínunni.  
 
@@ -78,7 +78,7 @@ Afkastageta og skilvirkni vinnu- og vélastöðva hafa áhrif á meira en bara t
 - Hversu mikla afkastagetu er þörf.
 - Hve langan tíma tekur að ljúka aðgerðinni.  
 
-### <a name="run-time"></a>Keyrslutími
+### Keyrslutími
 
 Til að reikna keyrslutíma úthlutar kerfið nákvæmlega þeim tíma sem skilgreindur er í reitnum **Keyrslutími** fyrir leiðarlínuna. Skilvirkni og afkastageta hafa ekki áhrif á úthlutaðan tíma. Ef keyrslutíminn er til dæmis skilgreindur sem 2 klukkustundir er úthlutaður tími 2 klst. óháð gildum í skilvirkni- og afkastagetureitum vinnustöðvarinnar.  
 
@@ -94,7 +94,7 @@ Til að reikna keyrslutíma úthlutar kerfið nákvæmlega þeim tíma sem skilg
 
 Brotin afkastageta er erfið. Við munum ræða það síðar í þessari grein. 
 
-### <a name="setup-time"></a>Uppsetningartími
+### Uppsetningartími
 
 Úthlutun tíma fyrir uppsetningartímann fer eftir afkastagetu og er reiknaður sem *Uppsetningartími * afkastageta*. Ef afkastagetan er til dæmis stillt á *2* tvístrast úthlutaður uppsetningartími vegna þess að setja þarf upp tvær vélar fyrir aðgerðina.  
 
@@ -105,7 +105,7 @@ Brotin afkastageta er erfið. Við munum ræða það síðar í þessari grein.
 
 Brotastarfsemin er aðeins notuð í sérstökum tilvikum.
 
-### <a name="work-center-processing-multiple-orders-simultaneously"></a>Vinnustöð sem vinnur úr mörgum pöntunum samtímis
+### Vinnustöð sem vinnur úr mörgum pöntunum samtímis
 
 Notum sprautunarklefa sem dæmi. Hún hefur sömu uppsetningu og keyrslutíma fyrir hverja unna lotu. En hver lota getur innihaldið margar stakar pantanir sem eru sprautaðar samtímis.  
 
@@ -123,7 +123,7 @@ Notum sprautunarklefa sem dæmi. Hún hefur sömu uppsetningu og keyrslutíma fy
 Í báðum tilfellum er heildartími úthlutunar fyrir allar pantanir tvær klukkustundir.
 
 
-### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Skilvirkt tilfang getur úthlutað aðeins hluta af vinnudagsetningu þeirra í framleiðsluvinnu
+### Skilvirkt tilfang getur úthlutað aðeins hluta af vinnudagsetningu þeirra í framleiðsluvinnu
 
 > [!NOTE]
 > Ekki er mælt með þessum aðstæðum. Mælt er með því að nota skilvirkni í staðinn. 
@@ -134,7 +134,7 @@ Ein af vinnustöðvunum þínum stendur fyrir reynslumikinn starfsmann sem vinnu
 
 Ekki skal nota uppsetningartíma í slíkum tilfellum því [!INCLUDE [prod_short](includes/prod_short.md)] aðeins er úthlutað 50% af tímanum. Ef uppsetningartíminn er stilltur á *2* er úthlutaður uppsetningartími ein klukkustund og lengdin er tvær klukkustundir.
 
-### <a name="consolidated-calendar"></a>Sameinað dagtal
+### Sameinað dagtal
 
 Þegar reiturinn **Sameinað dagtal** er valið hefur vinnustöðin ekki sína eigin afkastagetu. Í staðinn jafngildir afkastagetan allri afkastagetu allra vélastöðva sem úthlutaðar eru vinnustöðinni.  
 
@@ -150,7 +150,7 @@ Ef til dæmis tvær vélastöðvar eru með skilvirkni upp á 80 og 70 er skilvi
 > [!NOTE]
 > Notaðu reitinn **Sameinað dagtal** þegar leiðir eru skipulagðar með tímasettum framleiðsluaðgerðum á stigi vélastöðvar, ekki stigi vinnustöðvar. Þegar dagatalið er sameinað verða síðan **Álag á vinnustöð** og skýrslur að yfirliti yfir samtals vinnuálag í öllum vélastöðvum sem úthlutaðar eru á vinnustöðina.
 
-### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Dæmi - Mismunandi vélastöðvar sem úthlutað er á vinnustöð
+### Dæmi - Mismunandi vélastöðvar sem úthlutað er á vinnustöð
 
 Mikilvægt er að áætla hvaða afkastageta samanstendur af heildarafkastageta þegar vélastöðvar og vinnustöðvar eru sett upp.
 
@@ -160,7 +160,7 @@ Ef hins vegar eru sams konar vélastöðvar (eins og 210 Pökkunarborð 1 og 220
 
 Ef ekki á að auka afkastagetu vinnustöðva í heildarafkastagetunni þarf að tilgreina **0** í reitnum **Skilvirkni** .
 
-## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Vinnu- eða vélastöð með takmarkaða afkastagetu sett upp
+## Vinnu- eða vélastöð með takmarkaða afkastagetu sett upp
 
 Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þannig að hann samþykki takmarkað álag í staðinn fyrir sjálfgefið, ótakmarkað álag sem annar framleiðsluforði samþykkir. Forði með takmarkaða afkastagetu getur verið vinnustöð eða vélastöð sem er flöskuháls og stofna þarf takmarkað, takmarkað álag fyrir.
 
@@ -179,7 +179,7 @@ Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þan
 
 > Ef vinnsluaðgerðum er skipt er uppsetningartíma aðeins úthlutað einu sinni vegna þess að gert er ráð fyrir að einhver handvirk leiðrétting sé gerð til að fínstilla áætlunina.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna dagatal verkstæðis](production-how-to-create-work-center-calendars.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

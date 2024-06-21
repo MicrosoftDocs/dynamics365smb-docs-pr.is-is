@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
+# Uppsetning bankaþjónustu
 
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
 
@@ -25,7 +25,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

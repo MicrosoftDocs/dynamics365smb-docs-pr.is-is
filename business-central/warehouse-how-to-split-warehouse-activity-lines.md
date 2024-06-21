@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines"></a>Skipta aðgerðalínum vöruhúss
+# Skipta aðgerðalínum vöruhúss
 
 Í vöruhúsafrágangi, hreyfingum eða tínslum og í birgðafrágangi og birgðatínslum er lagt til hólf fyrir tínslu eða frágang á vörum. Magnið sem er í raun í hólfinu sem lagt er til kann að vera nægilegt eða ekki er nægilegt pláss í hólfinu til að ganga frá tilskildu magni. Í þeim tilvikum er hægt að skipta línunni þannig að vörur í einni línu séu annaðhvort teknar úr eða settar í fleiri en eitt hólf.  
 
@@ -23,7 +23,7 @@ Eftirfarandi ferli á við um eftirfarandi vöruhúsaskjöl:
 * Birgðahreyfingar
 * Birgðatínslur  
 
-## <a name="to-split-warehouse-activity-lines"></a>Til að skipta vöruhúsaaðgerðalínum
+## Til að skipta vöruhúsaaðgerðalínum  
 
 1. Opna vöruhúsaaðgerðalínu þar sem þú ert að reyna að meðhöndla ófullnægjandi magn.  
 2. Í reitinn **Magn til afgreiðslu** er fært inn minnkaða magnið sem hægt er að meðhöndla.  
@@ -33,7 +33,7 @@ Eftirfarandi ferli á við um eftirfarandi vöruhúsaskjöl:
 > [!NOTE]  
 > Ef ef notaður er beinn frágangur og tínsla og línunum er skipt þarf notandinn að hafa þekkingu á vöruhúsinu og geta valið hólf sem hentar geymsluþörfum vörunnar og sem uppfyllir almennar kröfur í vöruhúsaskjalinu. Til dæmis ætti ekki að skipta upp línu í tínsluskjali og setja sumar vörur í magngeymslu.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

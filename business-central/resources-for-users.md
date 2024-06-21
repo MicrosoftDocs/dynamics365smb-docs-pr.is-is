@@ -10,15 +10,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="resources-for-users"></a>Forði notenda
+# Forði notenda
 
 Ertu að nota [!INCLUDE [prod_short](includes/prod_short.md)] og leita að viðeigandi forða? Finndu allt sem þú þarft í þessari grein, og mundu að bókamerki [aka.ms/BCUsers](https://aka.ms/BCUsers).
 
-## <a name="hot-topics-right-now"></a>Heitt efnisatriði núna
+## Heitt efnisatriði núna
 
 Skrá fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ræsingaratvikið á [aka.ms/BCLE](https://aka.ms/BCLE).
 
-## <a name="latest-release-and-updates"></a>Síðasta útgáfa og uppfærslur
+## Síðasta útgáfa og uppfærslur  
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] útgáfuáætlun: [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) 
 - Helstu uppfærslur: [aka.ms/BCUpdates](https://aka.ms/BCUpdates)
@@ -30,18 +30,18 @@ Skrá fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ræsingaratvikið á
 - Tilkynna Microsoft um væntanlegan reglugerðareiginleika: [aka.ms/BCAlerts](https://aka.ms/BCAlerts)
 - Valfrjálsar aðgerðir sem nú eru áskildar: [aka.ms/BCFeatureMgmt](https://aka.ms/BCFeatureMgmt)
 
-## <a name="stay-up-to-date-on-whats-new"></a>Uppfærðu nýjunguna
+## Uppfærðu nýjunguna
 
 -  [!INCLUDE [prod_short](includes/prod_short.md)] Fylgstu með Atburðarlotum ræsa: [aka.ms/BCLE](https://aka.ms/BCLE).
 
-## <a name="social-and-blogs"></a>Félagsleg og blogg
+## Félagsleg og blogg
 
 - Vertu stilltur á því sem er að gerast í #MSDyn365BC samfélaginu: [twitter.com/MSDYN365BC](https://twitter.com/MSDYN365BC)  (Notaðu #BCALHelp á X, áður þekkt sem Twitter, fyrir fljótlegar vísbendingar um hvernig á að gera hlutina) 
 - Fylgdu okkur á LinkedIn: [aka.ms/BCLinkedIn](https://aka.ms/BCLinkedIn)
 - Vera hluti af samfélaginu fyrir [!INCLUDE [prod_short](includes/prod_short.md)]: [community.dynamics.com/forums/thread/?partialUrl=business](https://community.dynamics.com/forums/thread/?partialUrl=business) 
 - Heimsækja bloggið okkar fyrir fagfólk tæknimanna og ákvarðanir sem taka ákvörðun: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)
 
-## <a name="customer-onboarding-and-resources"></a>Viðskiptamaður um borð og forði
+## Viðskiptamaður um borð og forði
 
 - Uppgötvaðu öll [!INCLUDE [prod_short](includes/prod_short.md)] forrit á AppSource: [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - Farðu [!INCLUDE [prod_short](includes/prod_short.md)] í farsímana: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)
@@ -50,30 +50,30 @@ Skrá fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ræsingaratvikið á
 - Finna ábendingar um framleiðni: [aka.ms/BCProductivity](https://aka.ms/BCProductivity) 
 - Fræðast um flýtivísanir: [aka.ms/BCKeys](https://aka.ms/BCKeys)
 
-## <a name="reporting-and-business-intelligence"></a>Skýrslur og viðskiptagreind
+## Skýrslur og viðskiptagreind
 
 - Hafist er handa við skýrslugerð: [aka.ms/BCReporting](https://aka.ms/BCReporting)
 - Finna sýnishorn Excel útlit: [aka.ms/BCExcelSamples](https://aka.ms/BCExcelSamples)
 -  [!INCLUDE [prod_short](includes/prod_short.md)] Skoða og Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 
-## <a name="power-platform"></a>Power Platform
+## Power Platform
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] og Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 - [!INCLUDE [prod_short](includes/prod_short.md)] og Power Automate: [aka.ms/BCAutomate](https://aka.ms/BCAutomate) 
 - [!INCLUDE [prod_short](includes/prod_short.md)] og Power Apps: [aka.ms/BCPApps](https://aka.ms/BCPApps)
 
-## <a name="migrating-from-on-premises-to-online"></a>Flytur frá innanhúss til nettengingar
+## Flytur frá innanhúss til nettengingar
 
 - Uppgötva eignir til að breyta Dynamics GP, Dynamics NAV, Dynamics LL,viðskiptamönnum [!INCLUDE [prod_short](includes/prod_short.md)]  á staðnum til [!INCLUDE [prod_short](includes/prod_short.md)] á netinu: [aka.ms/BCMigrations](https://aka.ms/BCMigrations)  
 - Nota flutningsverkfæri: [Flytja gögn](/dynamics365/business-central/dev-itpro/administration/migrate-data) 
 
-## <a name="telemetry-and-performance"></a>Fjarmæling og afköst
+## Fjarmæling og afköst
 
 - Fylgiskjöl með afköstum forrits: [aka.ms/BCPerformance](https://aka.ms/BCPerformance)
 - Fjarmælingaskjöl: [aka.ms/BCTelemetry](https://aka.ms/BCTelemetry) 
 - Gögn um fjarmælinga í umhverfi og Power BI: [aka.ms/BCTelemetryReport](https://aka.ms/BCTelemetryReport) 
 
-## <a name="security-privacy-and-compliance"></a>Öryggi, persónuvernd og reglufylgni
+## Öryggi, persónuvernd og reglufylgni
 
 - Fylgiskjöl með öryggi og persónuvernd: [aka.ms/BCSecurity](https://aka.ms/BCSecurity) 
 - Öryggi í [!INCLUDE [prod_short](includes/prod_short.md)]: [aka.ms/BCSecurity](https://aka.ms/BCSecurity)
@@ -81,24 +81,24 @@ Skrá fyrir [!INCLUDE [prod_short](includes/prod_short.md)] ræsingaratvikið á
 - Yfirlit yfir samræmi: [aka.ms/BCCompliance](https://aka.ms/BCCompliance)
 - Samræmi forrits: [aka.ms/BCAppCompliance](https://aka.ms/BCAppCompliance)
 
-## <a name="licensing-and-pricing"></a>Leyfis- og verðlagning
+## Leyfis- og verðlagning
 
 - [Leiðarvísir um leyfisveitingu Business Central](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
 
-## <a name="shopify-integration"></a>Shopify heildun
+## Shopify heildun
 
 - Shopify ræsa: [aka.ms/BCShopifyStart](https://aka.ms/BCShopifyStart)
 - Shopify Algengar spurningar: [aka.ms/BCShopifyFAQ](https://aka.ms/BCShopifyFAQ)
 - Shopify ráðgjafi: [aka.ms/BCShopifyConsultant](https://aka.ms/BCShopifyConsultant)
 
-## <a name="events-for-customers"></a>Viðburðir fyrir viðskiptamenn
+## Viðburðir fyrir viðskiptamenn
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] Opna atburð: [aka.ms/BCLE](https://aka.ms/BCLE)
 - [DynamicsMinds](https://www.dynamicsminds.com/)
 - [UG leiðtogafundur](https://www.summitna.com/)
 - [DynamicsCon](https://dynamicscon.com/)
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Velkomin í [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Viðskiptavirkni](across-business-functionality.md)  

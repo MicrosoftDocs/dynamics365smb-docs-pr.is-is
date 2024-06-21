@@ -10,7 +10,7 @@ ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="posting-sales"></a>Bókun sölu
+# Bókun sölu
 
 Undir valmyndinni **Bókun** í söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
 
@@ -36,17 +36,17 @@ Birgðafærsla er stofnuð í töflunni **birgðafærsla** fyrir hverja sölupö
 
 Annaðhvort er hægt að bóka eða bóka og senda. Ef valið er að bóka og senda er PDF-skrá mynduð sem er þá hægt að senda. Einnig er hægt að velja aðgerðina **Fjöldabóka** sem býður upp á að bóka nokkrar pantanir í einu. Frekari upplýsingar er að finna í [Bóka mörg skjöl á sama tíma](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Fjárhagsfærslur skoðaðar
+## Fjárhagsfærslur skoðaðar
 
 Þegar bókun er lokið hverfa bókuðu sölulínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að því loknu er hægt að skoða bókaðar færslur á ýmsum síðum sem innihalda bókaðar færslur, svo sem **síðurnar Viðskm.færslur**, **Fjárhagsfærslur**, **Birgðafærslur**, **Bókaðar söluafhendingar** og **Bókaðir sölureikningar** .  
 
 Í flestum tilfellum er hægt að opna fjárhagsfærslur úr viðkomandi spjaldi eða skjali. Á síðunni **Viðskiptamannaspjald** skal t.d. velja aðgerðina **Fjárhagsfærslur**.
 
-## <a name="editing-ledger-entries"></a>Breyta fjárhagsfærslum
+## Breyta fjárhagsfærslum
 
 Hægt er að breyta tilteknum reitum í bókuðum innkaupaskjölum, svo sem **Rakningarnúmer pakka** . Frekari upplýsingar er að finna í [Breyta bókuðum skjölum](across-edit-posted-document.md). Til að fá fleiri mikilvæg svæði sem hafa áhrif á endurskoðunarslóðina þarf að bakfæra eða afturkalla bókun. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Bóka mörg skjöl á sama tíma](ui-batch-posting.md)  

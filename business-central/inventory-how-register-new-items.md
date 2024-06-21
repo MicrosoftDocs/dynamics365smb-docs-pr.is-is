@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="register-new-items"></a>Skrá nýjar vörur
+# Skrá nýjar vörur
 
 Vörur eru vörurnar eða þjónustan sem keypt er, geymt, selt, afhent og reikningsfært fyrir.  **Síðan Birgðaspjald** er notuð til að skrá upplýsingar um eftirfarandi tegundir atriða:
 
@@ -24,19 +24,19 @@ Nánari upplýsingar um þessar vörur eru í [Um vörutegundir](inventory-about
 > [!TIP]
 > Einnig eru vörulistavörur sem líkjast vörum sem ekki eru í birgðum að því leyti að þær eru vörur sem boðnar eru viðskiptamönnum en stjórna ekki fyrr en þær eru selt. Til að fá nánari upplýsingar er farið í [Vinna við vörulistaatriði](inventory-how-work-nonstock-items.md).  
 
-## <a name="primary-and-alternate-vendors"></a>Aðal- og aðrir lánardrottnar
+## Aðal- og aðrir lánardrottnar
 
 Ef sama varan er keypt frá fleiri en einum lánardrottni er hægt að tengja þá lánardrottna við vöruna. Nota aðgerðina **Lánardrottnar** á síðunni **Birgðaspjald** til að opna **síðuna Vörulisti** lánardrottins. Síðan sýnir þá lánardrottna sem keypt er frá, þannig að auðvelt er að stofna eða velja annan lánardrottin þegar innkaupapöntun er stofnuð.
 
-## <a name="use-item-templates"></a>Nota vörusniðmát
+## Nota vörusniðmát
 
 Til að endurnota stillingar fyrir mismunandi tegundir vara þegar nýjar vörur eru stofnaðar er hægt að vista vörur sem vörusniðmát. Vörusniðmát hraða við að bæta við nýjum vörum og auka samkvæmni í vörugögnum. Þegar ný vara er skráð birtist síða sem gerir kleift að velja sniðmát. Þegar sniðmát hefur verið valið eru stillingar þess fylltar út fyrir vöruna sem verið er að stofna. Ef aðeins eitt vörusniðmát er fyrir hendi nota nýjar vörur alltaf það sniðmát. Til að fræðast um hvernig setja á upp vörusniðmát er farið í [Vista birgðaspjald sem vörusniðmát](#save-an-item-card-as-an-item-template).
 
-## <a name="include-items-in-bills-of-materials"></a>Taka vörur með í uppskriftum
+## Taka vörur með í uppskriftum
 
 Hægt er að skipuleggja stigveldi með aðalvöru með undirliggjandi íhlutavörur í samsetningar- og framleiðsluuppskriftum. Hægt er að fræðast meira um uppskriftir með því að fara í [Vinna með uppskriftir](inventory-how-work-BOMs.md).
 
-## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
+## Að búa til nýtt vöruspjald
 
 Eftirfarandi myndband sýnir hvernig vara er sett upp á síðunni Birgðaspjald. Einnig er hægt að setja upp nýjar vörur með því að afrita fyrirliggjandi vörur. Nánari upplýsingar eru notaðar með því að fara í [Afrita fyrirliggjandi vörur til að stofna nýjar vörur](inventory-how-copy-items.md).  
 
@@ -51,7 +51,7 @@ Eftirfarandi myndband sýnir hvernig vara er sett upp á síðunni Birgðaspjald
 
 Hægt er að nota sérverð eða afslátt sem notandi eða lánardrottinn veita fyrir vöruna samkvæmt ákveðnum skilyrðum. Skilyrði innihalda til dæmis viðskiptamanninn, lágmarksmagn pöntunar eða lokadagsetningu. Sérstök verð eru sett upp með því að velja Aðgerðirnar **Setja sérverð** eða **Setja sérstakan** afslátt. Hver lína á, til dæmis á síðunni **Söluverð**, sýnir sértækt verð. Hver dálkur táknar viðmiðun sem verður að uppfylla til að veita viðskiptamanni sérverð sem þú slærð inn í **Einingaverð** reitinn á síðunni **Söluverð**. Nánari upplýsingar um verðlagningu fást með því að fara í [Skrá söluverð, afslátt og Greiðslusamninga](sales-how-record-sales-price-discount-payment-agreements.md) eða [skrá sérstakt innkaupaverð og afslátt](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-### <a name="save-an-item-card-as-an-item-template"></a>Vista birgðaspjald sem vörusniðmát
+### Vista birgðaspjald sem vörusniðmát
 
 1. Á síðunni **Birgðaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Birgðasniðmát** sýnir birgðaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,11 +61,11 @@ Hægt er að nota sérverð eða afslátt sem notandi eða lánardrottinn veita 
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 
-### <a name="items-used-in-production-orders"></a>Vörur notaðar í framleiðslupöntunum
+### Vörur notaðar í framleiðslupöntunum
 
 Ef skrá á vörur sem eru notaðar í framleiðslupöntunum er áfyllingarkerfið tilgreint sem *Framl. pöntun* á flipanum **Áfylling**. Frekari upplýsingar eru í [Um framleiðslupantanir](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur
+## Margir lánardrottnar settir upp fyrir vörur
 
 Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
 
@@ -78,11 +78,11 @@ Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn up
 
 Lánardrottnarnir birtast á síðunni **Vörulisti** lánardrottins sem opnaður er á birgðaspjaldinu, svo auðvelt sé að velja annan lánardrottin.
 
-## <a name="set-up-item-substitutions"></a>Setja upp staðgengilsvörur
+## Setja upp staðgengilsvörur
 
 Þú getur sett upp vörur til að vera með staðgengla, svo sem aðrar vörur sem hægt er að nota í staðinn fyrir upprunalegu vöruna.
 
-### <a name="to-make-an-item-substitution"></a>Til að búa til staðgengilsvöru:
+### Til að búa til staðgengilsvöru:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörur** og velja síðan viðkomandi tengil.  
 2. Finndu viðeigandi vöru og veldu síðan **Vörunúmer** til að opna birgðaspjaldið.  
@@ -95,29 +95,29 @@ Lánardrottnarnir birtast á síðunni **Vörulisti** lánardrottins sem opnaðu
 > [!NOTE]  
 > Athugaðu að staðgengilsvörur valda ekki sjálfkrafa því að vöru sé skipt út fyrir aðra vöru, til dæmis þegar sölupöntun er stofnuð eða í uppskrift. Þess í stað verður þér gert viðvart um að staðgengilsvara standi til boða.
 
-## <a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
+## Flokkar, eigindir og afbrigði
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Frekari upplýsingar um afbrigði er að finna í [Stjórna afurðarafbrigðum](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Eyða birgðaspjöldum
+## Eyða birgðaspjöldum
 
 Ef bókuð eru viðskipti vegna vöru er ekki hægt að eyða spjaldinu vegna þess að bókarfærslur gætu verið nauðsynlegar við verðmætamat birgða eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.  
 
-## <a name="manage-inventory-in-warehouses"></a>Stjórna birgðum í vöruhúsum
+## Stjórna birgðum í vöruhúsum
 
 Þegar ný vara er skráð sjást reitir sem tengjast vöruhúsakerfinu, sérstaklega á flýtiflipanum **Vöruhús** . Ef fyrirtækið notar ekki möguleika vöruhúsakerfisins í [!INCLUDE [prod_short](includes/prod_short.md)], þá má sleppa þessum reitum.  
 
 Ef fyrirtækið setur síðar upp vöruhúsakerfi er mælt með því að ganga úr skugga um að sérhver fyrirliggjandi vara sé með réttar upplýsingar í hinum ýmsu reitum. Þannig geta vöruhúsaferlin gengið eins og til er ætlast. Upplýsingarnar geta falið í sér reiti á borð við **Kóði vöruhúsaflokks** eða **Kóði frágangssniðmáts**. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Áætlun
+## Áætlun
 
 Þegar fyrirtækið þitt notar viðkomandi verkferla við áætlun framboðs í [!INCLUDE [prod_short](includes/prod_short.md)] þarf að fylla út í viðkomandi reiti í flýtiflipanum **Áætlanagerð**. Fyrir kynningu á svæði áætlunar skal skoða [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md).  
 
 Til að sjá dæmi um hvernig hægt er að nota reitina í flýtiflipanum **Áætlanagerð** skal skoða [Uppsetning bestu venja: Færibreytur áætlanagerðar](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Birgðir](inventory-manage-inventory.md)  
 [Setja upp mælieiningar](inventory-how-setup-units-of-measure.md)  

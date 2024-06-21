@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Vinna með eignir
+# Vinna með eignir
 
 Með aðgerðinni Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir notanda og hjálpar til við að tryggja að afskriftir þeirra séu réttar. Með honum er einnig auðveldara að rekja viðhaldskostnað, stjórna vátryggingarskilmálum, bóka eignafærslur og búa til ýmsar skýrslur og upplýsingar.
 
-## <a name="what-is-a-fixed-asset"></a>Hvað er eign?
+## Hvað er eign?
 
 Eignir eru frábrugðnar öðrum vörum í vöruhúsinu. Eign, sem einnig er nefnd fjármagnseign, er áþreifanlegur hlutur eignar, verksmiðju eða búnaðar (PP&E) sem þú átt eða hefur umsjón með með þeirri væntingu að hún muni halda áfram að búa til tekjur. Eign er föst þegar vara sem fyrirtækið notar ekki, selur eða skiptist í reiðufé innan næsta almanaksárs. Eignir eru aðrar en núgildandi eignir sem eru með reiðufé eða skellt í reiðufé á næstu 12 mánuðum. Eignir eru einnig frábrugðnar birgðum þar sem birgðir eru yfirleitt notaðar innan skamms tíma.
 
-## <a name="types-of-fixed-assets"></a>Tegundir eigna
+## Tegundir eigna
 
 Fyrirtæki fjárfesta yfirleitt í nokkrum tegundum eigna. Nokkur dæmi eru:
 
@@ -30,7 +30,7 @@ Fyrirtæki fjárfesta yfirleitt í nokkrum tegundum eigna. Nokkur dæmi eru:
 - Tæki
 - Ökutæki
 
-## <a name="understanding-fixed-asset-accounting"></a>Að skilja eignabókhald
+## Að skilja eignabókhald
 
 Eignabókhald merkir að halda nákvæmar fjárhagslegar færslur um fjármagnseignir. Meðal þessara færslna eru upplýsingar um þrepin fimm í lífskjörum eignar. Eftir upphaflegu innkaupin felur lífeyri hverrar eignar í sér að minnsta kosti þrjú af eftirfarandi þrepum:
 
@@ -42,13 +42,13 @@ Eignabókhald merkir að halda nákvæmar fjárhagslegar færslur um fjármagnse
 
 Endurskoðendur eru einnig innifaldir í nákvæmum ávísunum á bókhaldsskrár fyrirtækisins eftir að bókum er lokað á fjármálaárinu. Hvort sem um er að ræða innri eða ytri endurskoðanir þar sem ósamræmi er milli athugasemda og raunverulegrar stöðu eigna. Endurskoðendur stuðla að gegnsæi í eignunum og bókhaldinu ef þú tapar meiri peningum en fyrirhugað er.
 
-## <a name="video-overview"></a>Myndbandsyfirlit
+## Myndbandsyfirlit
 
 Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Upphafleg uppsetning eigna
+## Upphafleg uppsetning eigna
 
 Áður en hægt er að stjórna eignum þarf að fylla út eftirfarandi uppsetningar:
 
@@ -60,7 +60,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna:
 
 Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Greiningar á eignum
+## Greiningar á eignum
 
 Í þessum hluta er lýst þeim greiningartólum sem hægt er að nota til að fá innsýn í gögn um eignir.
 
@@ -74,7 +74,7 @@ Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 | Skoða afskráningarbókarfærslur. | [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Skoða áætluð afskráningargildi. | [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Skrá eignir
+## Skrá eignir
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um þær. Til dæmis er hægt að setja byggingar eða framleiðslubúnað upp sem aðaleignir með íhlutalista. Hægt er að flokka eignir á ýmsa vegu, svo sem eftir flokki, deild eða staðsetningu. Síðan er hægt að eignast, viðhalda og selja eignirnar. Hægt er einnig að setja upp áætlaðar eignir. Með fjárhagsáætlun er hægt að taka með fyrirsjáanlega kaup og sölu í skýrslum.
 
@@ -83,7 +83,7 @@ Setja verður upp spjald fyrir hverja eign með upplýsingum um þær. Til dæmi
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 | Stofna eignir, úthluta afskriftaaðferðum, bóka eignakaup, hrakvirði og prenta eignalista. |[Komast yfir eignir](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Setja upp afskriftir fyrir eignir
+## Setja upp afskriftir fyrir eignir
 
 Til að rekja eignaafskriftir og aðrar fjárhagslegar færslur fyrir eignir er sett upp ein eða fleiri afskriftabækur fyrir hverja þeirra. Nokkur þrep eru til að afskrifa eignir:
 
@@ -100,7 +100,7 @@ Til að rekja eignaafskriftir og aðrar fjárhagslegar færslur fyrir eignir er 
 | Skoða breytt virði afskriftabókar. | [Skoða breytt afskriftabókargildi](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Skrá handvirkt eignafærslur á síðunni **Eignafjárhagsbók** eða á **síðunni Eignabók** eftir því hvort færslurnar eru fyrir fjárhagslega skýrslugerð eða fyrir innri stjórnun. | [Setja upp eignaafskriftir](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Eignaviðhald og tryggingar
+## Eignaviðhald og tryggingar
 
 Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverja eign. Rakning viðhaldskostnaðar getur skipt máli vegna fjárhagsáætlunar og ákveðið hvort skipta skuli um eign. Hægt er að tengja hverja eign einum eða fleiri vátryggingarskilmálum og sannreyna að iðgjöld vegna iðgjalda séu samræmd verðmæti eignanna.
 
@@ -111,7 +111,7 @@ Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverj
 | Uppfæra vátryggingarupplýsingar, bóka stofnkostnað á vátryggingarskilmála, breyta vátryggingasviði, skoða vátryggingaupplýsingar og gera lista yfir vátryggingaskírteini. |[Tryggja eignir](fa-how-insure.md) |
 | Fylgjast með vátryggingasviði. | [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Endurflokka, flytja, skipta upp/sameina, leiðrétta virði, niðurfærslu og afskrá eignir
+## Endurflokka, flytja, skipta upp/sameina, leiðrétta virði, niðurfærslu og afskrá eignir
 
 | Til  | Sjá |
 | --- | --- |
@@ -121,7 +121,7 @@ Hægt er að skrá viðhaldskostnað og næstu þjónustudagsetningu fyrir hverj
 | Skoða afskráningarbókarfærslur. | [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Skoða áætluð afskráningargildi. | [Skoða áætlað virði afskráninga](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="tips-for-improving-your-fixed-asset-accounting"></a>Ábendingar um bætt eignabókhald
+## Ábendingar um bætt eignabókhald
 
 Nokkur atriði er hægt að innleiða í bókhaldsáætlun fyrir eignir sem geta hjálpað til við að tryggja það að hagnaður sé hámarks.
 
@@ -130,7 +130,7 @@ Nokkur atriði er hægt að innleiða í bókhaldsáætlun fyrir eignir sem geta
 - Merkið eignirnar. Nauðsynlegt er að rekja og merkja eignirnar allan lífstíl þeirra vegna þess að margir þættir geta haft áhrif á verðmæti þeirra. Tagging hjálpar til við að rekja vörurnar í gegnum þrepin í björgunarstarfi þeirra og koma í veg fyrir þjófnað, útrýma ýmsum atriðum og styðja við fjárhagslegar tölfræðilegar upplýsingar.
 - Gera innsýn sjálfvirka með hugbúnaði fyrir eignabókhald. Með því að gera handvirkar aðgerðir sjálfvirkar til að rekja gögnin með hugbúnaði fyrir eignabókhald er auðveldara að ljúka því. Lykilorð vernd getur hjálpað til við að veita aðeins þeim sem þurfa á því að halda og eru þjálfaðir fyrir það.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning eigna](fa-setup.md)  
 [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)  

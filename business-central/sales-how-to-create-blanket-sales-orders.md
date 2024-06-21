@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Vinna með standandi sölupantanir eða standandi innkaupapantanir
+# Vinna með standandi sölupantanir eða standandi innkaupapantanir
 
 Standandi sölupöntun er rammi fyrir langtíma samning milli viðkomandi og viðskiptamanns. Á svipaðan hátt eru standandi innkaupapantanir notaðar til að stjórna langtímasamningum milli þín og lánardrottins.
 
@@ -23,7 +23,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 > [!NOTE]
 > Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær eingöngu yfir standandi sölupantanir.
 
-## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.
+## Til að búa til standandi sölupöntun.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Standandi sölupantanir** og velja síðan viðkomandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -31,7 +31,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 4. Reiturinn **Pöntunardags.** er hafður auður. Þegar nokkrar sölupantanir eru stofnaðar úr standandi pöntun notar kerfið eiginlegu vinnudagsetninguna fyrir pöntunardagsetningu sölupöntunarinnar.
 5. Á flýtiflipanum **Línur** skal stofna sérstaka línu fyrir hverja afhendingu. Til dæmis ef viðskiptamaðurinn vill skipta 1000 einingum niður á fjórar vikur þarf að færa inn fjórar línur, hver upp á 250.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Stofnun sölupöntunar úr standandi sölupöntun
+## Stofnun sölupöntunar úr standandi sölupöntun  
 
 1. Til að stofna pöntun fyrir einhverja af línunum í standandi sölupöntuninni skal fjarlægja magnið í reitnum **Magn til afhendingar** í öllum línunum sem ekki á að afhenda að þessu sinni.  
 2. Þegar notandi er tilbúinn að stofna pantanir skal velja aðgerðina **Búa til pöntun** og velja **svo Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Bent er á að standandi pöntuninni hefur ekki verið eytt.  
@@ -50,7 +50,7 @@ Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr st
 - Reikningsfærða standandi sölupöntunin helst í kerfinu þar til henni er eytt, annaðhvort með því að eyða einstökum standandi pöntunum eða með keyrslunni **Eyða reikningsfærðum standandi sölupöntunum** .  
 - Ef viðskiptamaður er einnig skráður sem tengiliður í kerfishlutanum Tengslagrunnur og ef kóti samskiptasniðmáts fyrir standandi söluvörupöntun hefur verið skilgreindur á síðunni **Tengslagrunnur** eru samskipti skráð sjálfkrafa í töfluna Skráningarfærsla samskipta þegar smellt er á **Prenta** til að prenta standandi söluvörupöntunina.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Til að skoða stöðu standandi sölupöntunar:
+## Til að skoða stöðu standandi sölupöntunar:
 
 Hægt er að sjá stöðu standandi sölupöntunar á síðunni **Upplýsingar um** standandi sölupantanir. Þetta getur átt við þegar hafist er handa við að reikningsfæra pöntunina sem er stofnuð úr standandi sölupöntuninni.  
 
@@ -63,7 +63,7 @@ Hægt er að sjá stöðu standandi sölupöntunar á síðunni **Upplýsingar u
 - Á flýtiflipanum **Fyrirframgreiðsla** er hægt að sjá samantekt um allar fyrirframgreiddar upphæðir.  
 - Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar
+## Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar
 
 Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allra annarra söluskjala, er varðveitt eftir bókun sem listi yfir bókaðar og óbókaðar reikningslínur sölupantana.  
 
@@ -89,7 +89,7 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 
 5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)  

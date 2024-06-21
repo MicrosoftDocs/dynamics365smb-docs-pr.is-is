@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
+# Vinna með millifyrirtækjafærslur
 
 Fyrirtæki með fleiri en einn lögaðila með aðskildar bókhaldsaðgerðir geta haft gagn af færslum milli fyrirtækja. Það er til dæmis gagnlegt fyrir fyrirtæki sem hafa dótturfyrirtæki á mörgum alþjóðlegum mörkuðum eða svæðum. Einnig gæti fyrirtæki verið með nokkur fyrirtæki en skortir sambærilegan fjölda bókhalds- og stjórnunarteyma. Færslur milli fyrirtækja einfaldar og straumlínuviðskiptaferli og færslur milli fyrirtækja í samstarfi milli fyrirtækja.
 
@@ -24,7 +24,7 @@ Fjórir meginkostir eru fyrir aðgerðir milli fyrirtækja:
 * Gegnsæ slóð endurskoðunar og fullur sýnileiki inn í viðskiptastarf og færslusagnir  
 * Skilvirk viðskipti við tengd fyrirtæki og dótturfyrirtæki  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Straumlína flæði viðskiptaaðgerða
+## Straumlína flæði viðskiptaaðgerða  
 
 Færslur milli fyrirtækja gera kleift að dreifa sölu- og innkaupaskjölum og færslubókarfærslum á allar skrifstofur í gervihnöttum, söluskrifstofum eða dótturfyrirtækjum. Dreifing færslna sparar tíma og eykur skilvirkni alls staðar í fyrirtækinu með því að minnka gagnafærslu. Það sker úr um nauðsyn þess að senda, taka á móti, prenta og geyma sölu- og innkaupaskjöl.  
 
@@ -69,7 +69,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 |Nota færslur milli fyrirtækja til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  

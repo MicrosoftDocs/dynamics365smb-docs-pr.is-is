@@ -10,7 +10,7 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# <a name="put-away-production-or-assembly-output"></a>Ganga frá framleiðslu eða samsetningarfrálagi
+# Ganga frá framleiðslu eða samsetningarfrálagi
 
 Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
@@ -21,11 +21,11 @@ Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruh
 
 Í ítarlegri vöruhúsaskilgreiningum þar sem birgðageymsla krefst bæði frágangsvinnslu og móttökuvinnslu skal stofna annaðhvort innanhúss frágangsskjal eða hreyfingarskjal til að ganga frá frálaginu.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Að ganga frá framleiðsluúttaki með birgðafrágangi
+## Að ganga frá framleiðsluúttaki með birgðafrágangi
 
 Fyrsta skrefið sem gengið er frá frálagi er að stofna vöruhúsabeiðni á innleið. Þessi beiðni lætur vöruhúsið vita að frálag framleiðslu eða samsetningarpöntunar sé tilbúið til frágangs.
 
-### <a name="to-create-the-inbound-warehouse-request"></a>Stofna innleiðarbeiðni í vöruhúsi:
+### Stofna innleiðarbeiðni í vöruhúsi:  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Losuð framleiðslupöntun** og velja síðan viðkomandi tengil.  
 2. Framleiðslupöntunin sem er tilbúin til frágangs er valin og síðan er reiturinn **Stofna vöruh. á innleið valið. Beiðniaðgerð** .  
@@ -33,7 +33,7 @@ Fyrsta skrefið sem gengið er frá frálagi er að stofna vöruhúsabeiðni á 
 > [!NOTE]  
 > Einnig er hægt að stofna vöruhúsabeiðni á innleið með því að velja reitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Nánari upplýsingar um [Endurnýjun eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi
+### Gengið frá frálagi með Birgðafrágangi  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðafrágangur** og velja síðan viðkomandi tengil.  
 2. Nýr birgðafrágangur er stofnaður. Nánari upplýsingar um frágang á [vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,14 +49,14 @@ Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslup�
 
 Ef aðeins þarf að bóka uppsettan eða keyrslutíma á síðustu aðgerð er afkastað magnið stillt á 0. Hægt er að velja að bóka ekki síðustu línuna með því einfaldlega að eyða henni.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Að ganga frá samsetningu og framleiðsluúttaki í ítarlegum vöruhúsagrunnstillingum
+## Að ganga frá samsetningu og framleiðsluúttaki í ítarlegum vöruhúsagrunnstillingum
 
 Þegar frálag framleiðslu- eða samsetningarpöntunar er bókað í vöruhúsi sem notar beinan frágang og tínslu er frálagið sett í hólfið sem skilgreint er í framleiðslu- eða samsetningarpöntuninni. Fræðast meira um mismunandi leiðir til að færa vörur í vöruhúsinu með ítarlegri grunnstillingu, fara í [Færa vörur í ítarlegri vöruhúsagrunnstillingu](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Ekki er hægt að færa inn upprunaskjalsnúmerið, t.d. númer framleiðslupöntunarinnar, í innanhússfrágangs-, frágangs- eða hreyfingaskjöl fyrir samsetningar- eða framleiðslufrálagsvinnslur.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

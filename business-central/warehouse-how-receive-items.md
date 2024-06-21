@@ -9,7 +9,7 @@ ms.date: 06/06/2024
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Taka á móti vörum með vöruhúsamóttökum
+# Taka á móti vörum með vöruhúsamóttökum
 
 Vörur [!INCLUDE[prod_short](includes/prod_short.md)] eru mótteknar og gengið frá þeim með einni af fjórum aðferðum eins og lýst er í eftirfarandi töflu.
 
@@ -24,7 +24,7 @@ Nánari upplýsingar um hvernig meðhöndla á vörur á innleið eru í [Vöruh
 
 Eftirfarandi grein vísar til aðferða C og D í fyrri töflu.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Taka á móti vörum með vöruhúsamóttöku
+## Taka á móti vörum með vöruhúsamóttöku
 
 Þegar vörur berast í vöruhús sem er sett upp til að vinna vöruhúsamóttökur verður að sækja línur útgefna upprunaskjalsins sem ræsti móttökuna. Ef hólf eru notuð er annaðhvort hægt að samþykkja sjálfgefna hólfið eða tilgreina hólfið sem setja á vörurnar í. Hið síðarnefnda getur verið nauðsynlegt þegar vara berst í fyrsta skipti. Síðan skal færa inn magn varanna sem tekið hefur verið á móti og bóka móttökuna.  
 
@@ -65,7 +65,7 @@ Hægt er að stofna vöruhúsamóttöku á tvo vegu:
     > [!NOTE]  
     > Ef hjáskipun er notuð í vöruhúsinu er hægt að athuga hvort hægt sé að hjáskipa vörum án þess að ganga frá þeim. Nánari upplýsingar um hjáskipun fást með því að fara í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
+## Hvernig afmarkanir eru notaðar til að sækja upprunaskjöl
 
 Úr vöruhúsamóttöku er hægt að nota **Afmarkanir til að sækja upprunaskjöl.** síðu til að sækja útgefnu upprunaskjalslínurnar sem tilgreina vörurnar sem á að taka á móti.
 
@@ -81,7 +81,7 @@ Hægt er að stofna vöruhúsamóttöku á tvo vegu:
 
 Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Afmarkanir eru vistaðar í **afmörkunum til að sækja upprunaskjöl.** og þær eru tiltækar næst þegar þörf krefur. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
-## <a name="zone-and-bin-codes"></a>Svæðis- og hólfakótar
+## Svæðis- og hólfakótar
 
 Ef taka á við vörum með aðra vöruhúsaflokkskóta en flokkskóta hólfsins í reitnum **Hólfkóti** á fylgiskjalshausnum er reiturinn Hólfkóti **á hausnum hreinsaður** áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Ef hólf eru áskilin fyrir birgðageymslu er svæðis- og hólfakótum bætt vi
 * Fyrir ítarlegar grunnstillingar sem nota beinan frágang og tínslu [!INCLUDE [prod_short](includes/prod_short.md)]  er kóti móttökuhólfsins notaður á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna. Ef móttökuhólfskóti er ekki tilgreindur er ekkert hólf tilgreint. Ef vöru- og móttökuhólfin eru ekki eins er kóti móttökuhólfsins auður.
 * Í öðrum skilgreiningum, ef kóti móttökuhólfs er ekki tilgreindur, [!INCLUDE [prod_short](includes/prod_short.md)]  notar hólfakótinn úr upprunaskjalinu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 [Birgðir](inventory-manage-inventory.md)  

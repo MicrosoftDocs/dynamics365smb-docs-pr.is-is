@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Jafna greiðslur sjálfvirkt og stemma af bankareikninga
+# Jafna greiðslur sjálfvirkt og stemma af bankareikninga
 
 Þú verður að reglulega samræma bankareikninga þína, kröfur og skuldir reikninga með því að sækja greiðslur skráð í bankanum til tengdra (ógreiddra) reikninga og lánshæfiseinkunnana eða annarra opna færslna í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -38,7 +38,7 @@ Eftirfarandi tafla lýsir röð verka með tenglum á greinar sem lýsa þeim.
 | Tengja skal texta á greiðslum við tiltekinn viðskiptamanns-, lánardrottins- eða fjárhagsreikning til að bóka alltaf endurtekna móttöku eða útgjöld reiðufés á þá reikninga þegar engin skjöl eru til til að beita þessu. |[Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Setja upp reglurnar til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina **Notað sjálfkrafa** á síðunni **Greiðsluafstemmingarbók**.|[Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

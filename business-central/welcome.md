@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="welcome-to-"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
+# Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[prod_short](includes/prod_short.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar. [!INCLUDE[prod_short](includes/prod_short.md)] er fljótlegt að innleiða, auðvelt að grunnstilla og einfaldleiki leiðir til nýjunga í vöruhönnun, þróun, framkvæmd og notagildi.  
 
@@ -23,7 +23,7 @@ Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+## Microsoft Learn
 
 Á yfirlitssvæðinu til vinstri er hægt að finna upplýsingar um notkun [!INCLUDE[prod_short](includes/prod_short.md)] í fyrirtækinu þínu. Finnið tengla á lýsingar á algengustu möguleikana í hlutanum [Viðskiptaferli](#business-processes). Sjá einnig hlutann [Frekari upplýsingar með því að nota fylgiskjöl vörunnar](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -36,7 +36,7 @@ Einnig er hægt að [fara í myndbandasafn okkar](across-videos.md), eða byrja 
 
 Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsingar um [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes"></a>Viðskiptaferli
+## Viðskiptaferli
 
 - [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 - [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -63,7 +63,7 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
   - [Almenn viðskiptavirkni](ui-across-business-areas.md)
   - [Staðbundin virkni](about-localization.md)
 
-## <a name="development-and-administration-content"></a>Efni þróunar og stjórnunar
+## Efni þróunar og stjórnunar
 
 - [Þróun og stjórnun](/dynamics365/business-central/dev-itpro/index)
 - [Prufuútgáfa og áskrift](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -71,7 +71,7 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="copilot-and-ai-content"></a>Stjórnunar- og AI-efni
+## Stjórnunar- og AI-efni
 
 - [Yfirlit](copilot-overview.md)
 - Lögun
@@ -87,13 +87,13 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 - Þróun
   - [Lengja copilot í Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
 
-## <a name="microsoft-learn-training"></a>Microsoft Learn þjálfun
+## Microsoft Learn þjálfun
 
 Finndu ókeypis rafrænt námsefni fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í [Microsoft Learn þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndbandasafninu okkar. Til að fræðast meira skaltu fara í Myndbandssafnið [okkar](across-videos.md).  
 
-## <a name="community-resources"></a>Samfélagsforði
+## Samfélagsforði
 
 - [Samfélagsumræðuforrit Microsoft Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central á Dynamics 365 blogginu](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
@@ -101,11 +101,11 @@ Einnig er hægt að skoða myndbönd af nýjum og algengum möguleikum í myndba
 - [Microsoft Dynamics 365 Business Central Útgáfuáætlun](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
 - [Microsoft Partner Network \(krefst aðildarreiknings Microsoft Partner Network\)](https://mspartner.microsoft.com)  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
+## Fá tilkynningu um breytingar með RSS-straumi
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Dynamics 365 Business Central þjálfun](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Stuttar leiðbeiningar Business Central](quick-start-business-central.md)  

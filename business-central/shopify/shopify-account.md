@@ -10,7 +10,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Stofna og setja upp Shopify reikning
+# Stofna og setja upp Shopify reikning
 
 
 
@@ -19,7 +19,7 @@ Ef þú íhugar hvort nota Shopify eigi sem e-Commerce lausn og þarft Shopify r
 - Fáðu prufuútgáfu. Þetta er dæmigerður upphafspunktur fyrir notendur.  
 - Stofna þróunarbúðir. Þessi nálgun er fyrir félaga sem stunda ítrekaða lýðheilsu, þjálfun og veita stuðning.
 
-## <a name="trial-end-user"></a>Prufuútgáfa (notandi)
+## Prufuútgáfa (notandi)
 
 Farðu á vefsíðuna [Shopify](https://www.shopify.com) og notaðu tölvupóstreikninginn þinn fyrir stjórnandareikninginn til að skrá þig fyrir ókeypis prufuútgáfu. Fræðast meira um hvernig á að búa til og sérstilla netverslunina þína í [Shopify hjálparmiðstöðinni](https://help.shopify.com/).
 
@@ -42,7 +42,7 @@ Farðu á vefsíðuna [Shopify](https://www.shopify.com) og notaðu tölvupóstr
 > [!Important]  
 > Til að forðast greiðslur, mundu að hætta við réttarhöldin Shopify .
 
-## <a name="development-store"></a>Þróunarverslun
+## Þróunarverslun
 
 Byrjað er á því að ganga í félagakerfið [Shopify](https://help.shopify.com/partners/about). Síðan er mælaborð **félaga** notað til að stofna þróunarverslunina. Fræðast meira um [stofnun þróunarversluna](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -64,7 +64,7 @@ Byrjað er á því að ganga í félagakerfið [Shopify](https://help.shopify.c
 > [!Note]  
 > Þróunarverslanir eru yfirleitt aðgangsorð varnar. Þegar reynt er að opna tiltekna síðu í netversluninni frá [!INCLUDE [prod_short](../includes/prod_short.md)], til dæmis til að fara í tiltekna vöru eða pöntun, þarftu að slá inn aðgangsorðið þitt. Meðan þú ert að prófa, til að forðast að slá inn aðgangsorðið þitt, skrá þig inn í Shopify admin og opna verslunina þaðan. Ekki þarf að færa inn aðgangsorð geymslu fyrr en vafranum er lokað eða lota rennur út.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Hafist handa í tengilinu Shopify](get-started.md)  
 [Kynning: Uppsetning og notkun Shopify tengis](walkthrough-setting-up-and-using-shopify.md)

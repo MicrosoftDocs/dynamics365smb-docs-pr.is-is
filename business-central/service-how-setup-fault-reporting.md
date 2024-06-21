@@ -11,12 +11,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-fault-reporting"></a>Setja upp bilanatilkynningar
+# Setja upp bilanatilkynningar
 Bilanatilkynningar gera þér kleift að setja fram staðla tengda tilkynningum bilanaupplýsinga fyrir þjónustuvörur. Þú getur t.d. tilgreint hvert vandamálið er, einkennin sem þú sérð, ástæðu vandamálsins og hvernig skal leysa það.  
 
 Bilanakóðar lýsa dæmigerðum bilunum í þjónustuvöru eða aðgerðir á þjónustuvöru. Eftir því hvernig bilanatilkynningum er háttað hjá fyrirtækinu kann einnig að vera nauðsynlegt að skrá bilanasvæðiskóta og einkennakóta þegar bilanakóti er skráður. Bilanasvæði lýsa svæðum með bilun í þjónustuvöru. Bilanaástæðukóta lýsa ástæðum fyrir bilun í þjónustuvöru og, ef með þarf, hvort skal útiloka ábyrgð og samningsafslátt. Til dæmis kemur til greina að útiloka ábyrgð og samningsafslátt ef viðskiptamaður var á einhvern hátt ábyrgur fyrir biluninni í þjónustuvörunni. Þú úthlutar bilanaástæðukóðar til þjónustupantana. Frekari upplýsingar eru í [Vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Tilgreina heildarstig bilanatilkynninga
+## Tilgreina heildarstig bilanatilkynninga
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning þjónustu** og svo velja viðeigandi tengil.
 2. Í reitnum **Stig bilanatilkynninga** skal velja einn af valmöguleikunum í eftirfarandi töflu.  
 
@@ -29,7 +29,7 @@ Bilanakóðar lýsa dæmigerðum bilunum í þjónustuvöru eða aðgerðir á �
 
 Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvaða viðgerðir eða úrlausnir tengjast bilun eða galla. Þú setur það upp á síðunni **Vensl bilana-/úrslausnarkóða** þar sem þú setur upp samsetningar kóða fyrir þjónustuvöruflokk þeirrar þjónustuvörunnar þar sem glugginn var opnaður í og fjöldi tilvika hvers og eins.
 
-## <a name="to-create-fault-and-resolution-code-relationships"></a>Hvernig á að stofna Venslum bilana- og úrlausnarkóta
+## Hvernig á að stofna Venslum bilana- og úrlausnarkóta
 <!--this needs to go in a working with topic-->
  Hægt er að skoða algengustu viðgerðir á tilteknum vörubilunum þegar unnið er við þjónustu á vörunni ef búið er að skipuleggja upplýsingar um vensl bilana- og úrlausnarkóða. Nota skal keyrsluna **Setja inn tengsl bilana/úrlausnakóða** til að finna allar samsetningar bilana- og úrlausnarkóða í bókuðum þjónustupöntunum og skrá þær á síðuna **Tengsl bilunar/úrlausnarkóða**.
 
@@ -38,7 +38,7 @@ Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvað
 3. Veljið gátreitinn **Tengsl byggð á þjónustuvöruflokki** til að flokka tengslin eftir þjónustuvöruflokkum.  
 4. Ef óskað er eftir því að varðveittar séu færslur sem þegar er búið að handfæra á síðunni **Tengsl bilana/úrlausnarkóða** skal velja gátreitinn **Varðveita handfærðar færslur**.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustukerfi](service-service.md)  
 

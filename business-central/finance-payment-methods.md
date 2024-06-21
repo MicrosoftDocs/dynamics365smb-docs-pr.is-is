@@ -11,7 +11,7 @@ ms.search.form: '427,'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Setja upp greiðsluaðferðir
+# Setja upp greiðsluaðferðir
 
 Greiðsluhættir skilgreina hvernig þú vilt að viðskiptavinir greiði þér og hvernig þú vilt greiða lánardrottnum þínum. Greiðslumátinn getur verið breytilegur fyrir hvern viðskiptavin eða lánardrottin. Dæmi um dæmigerða greiðsluhætti eru **banki**, **reiðufé**, **ávísun** eða **reikningur**.
 
@@ -23,7 +23,7 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Greiðsluaðferðir settar upp
+## Greiðsluaðferðir settar upp
 
 [!INCLUDE[prod_short](includes/prod_short.md)] veitir nokkrar greiðsluaðferðir sem fyrirtæki nota oft. Þó er hægt að bæta við eins mörgum og þörf krefur.
 
@@ -32,12 +32,12 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 
 Þú getur einnig bætt við greiðsluskilmálum við greiðslumátann þinn. Nánari upplýsingar um það eru í [Setja upp greiðsluskilmála](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Viðskiptavinum eða lánardrottnum úthlutaður greiðslumáti
+## Viðskiptavinum eða lánardrottnum úthlutaður greiðslumáti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinur** eða **Lánardrottinn** og velja síðan viðkomandi tengil.
 2. Í reitnum **Kóði greiðslumáta** skal velja greiðslumátann sem á að nota að sjálfgefnu viðskiptavin eða lánardrottin.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Setja upp greiðsluskilmála](finance-payment-terms.md)  

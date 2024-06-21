@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="business-functionality"></a>Viðskiptavirkni
+# Viðskiptavirkni
 
 [!INCLUDE[prod_short](includes/prod_short.md)] býður upp á aðgerðir fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega í heildsölu- og fagþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. Lærðu að fá ókeypis prufuútgáfu [hér](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.reviewer: bholtorf
 |Gera notendum kleift að skiptast á gögnum við ytri heimildir í daglegum verkum, s.s. senda/taka á móti rafrænum skjölum, flytja inn/út bankaskrár og uppfæra gengi gjaldmiðla.|[Rafræn gagnaskipti](across-data-exchange.md)|
 |Taktu utanaðkomandi skjöl í [!INCLUDE[prod_short](includes/prod_short.md)], þ.mt skrá viðhengi þeirra, og búðu til handvirkt tengdar skjöl eða búðu til þau sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun](admin-setup-and-administration.md)    
 [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/)  

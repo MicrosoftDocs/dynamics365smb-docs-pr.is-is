@@ -11,7 +11,7 @@ ms.search.forms: '5703, 15'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-locations"></a>Setja upp birgðageymslur
+# Setja upp birgðageymslur
 
 Staðsetningar eru staðir eins og vöruhús þar sem vörur eru keyptar, geymdar eða seldar. [!INCLUDE [prod_short](includes/prod_short.md)] notar staðsetningar til að hjálpa til við að fylgjast með birgðum í bæði einföldum og flóknum vöruhúsaferlum.
 
@@ -20,7 +20,7 @@ Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoð
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Staðsetningarspjöld
+## Staðsetningarspjöld
 
 Upplýsingar um staðsetningu eins og vöruhús eða dreifingarmiðstöð eru tilgreindar á síðunni **Birgðageymsluspjald**. Hver geymsla fær heiti og kóða. Hægt er að færa birgðageymslukóðann inn annars staðar í forritinu þegar skrá þarf færslur vegna tiltekinnar birgðageymslu.  
 
@@ -30,7 +30,7 @@ Sumir valreitir eru háðir stillingum á síðunni **Birgðageymsluspjald** til
 
 Veldu **Svæði** eða **Hólf** aðgerðirnar til að skoða upplýsingar um svæði og hólf sem gætu verið skilgreint fyrir birgðageymsluna.
 
-### <a name="to-set-up-a-location"></a>Uppsetning birgðageymslna
+### Uppsetning birgðageymslna
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Staðsetningar** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -44,7 +44,7 @@ Hægt er að breyta grunnstillingu staðsetningar svo lengi sem hún er ekki me�
 
 Hægt er að skilgreina flutningsleiðir milli staða ef margir staðir eru til staðar. Til að fræðast meira um flutningsleiðir er farið í Til að [stofna flutningsleið](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Flutningsleið búin til
+### Flutningsleið búin til
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningsleiðir** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -52,7 +52,7 @@ Hægt er að skilgreina flutningsleiðir milli staða ef margir staðir eru til 
 
 Nú er hægt að flytja birgðavörur milli tveggja staða. Til að fræðast meira um millifærslur er farið í [Millifærslubirgðir milli birgðageymslna](inventory-how-transfer-between-locations.md).
 
-## <a name="bins"></a>Hólf
+## Hólf
 
 Hólf tákna grunnskipulag vöruhúss og geta gefið til kynna hvar eigi að setja vörur. Hólfin geta verið með efni eða verið fljótandi hólf án tiltekins efnis.
 
@@ -61,11 +61,11 @@ Til að nota hólfavirknina á staðsetningu, á síðunni **Birgðageymsluspjal
 > [!NOTE]
 > Áður en hægt er að tilgreina hólfakóða á staðsetningu þarf að búa til hólfakóða. Nánari upplýsingar um hólf eru notaðar með því að [fara í Stofna hólf](warehouse-how-to-create-individual-bins.md) og [setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Svæði
+## Svæði
 
 Ef stofna á hólfin á svæðum má gera það á síðunni **Svæði**. Þegar svæðum er úthlutað á hólf afritar [!INCLUDE [prod_short](includes/prod_short.md)] upplýsingar af svæðinu og í hólfin. Einnig er hægt að velja að setja upp eitt svæði og nota hólf út af fyrir sig til að skipuleggja vöruhúsið. Nánari upplýsingar um svæði eru í Uppsetning [vöruhúsakerfis](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Sjálfgefnar víddir fyrir birgðageymslur
+## Sjálfgefnar víddir fyrir birgðageymslur
 
 Víddir eru gildi sem flokka færslur svo hægt sé að rekja og greina þær með ýmsum skýrslugerðarverkfærum. Til dæmis geta víddir gefið til kynna deildina eða verkefnið að færsla komi frá. Ef sjálfgefnar víddir eru sjálfgefnar hjálpar fólki að forðast að gera mistök og að færa víddir handvirkt inn á færslustigið ef allar vörur koma frá einni birgðageymslu og deild.
 
@@ -81,7 +81,7 @@ Ef þörf krefur er hægt að eyða eða breyta víddinni í línunni. Í reitnu
 
 Þar sem millifærslupöntunarskjöl og endurflokkunarbækur eiga við fleiri en eina birgðageymslu skiptir pöntunin sem gögn eru færð inn í mikilvæg. Sjálfgefnar víddir eru afritaðar úr síðasta birgðageymslureitnum (millifærslustaðurinn er hunsaður).
 
-### <a name="example-of-default-dimensions-on-locations"></a>Dæmi um sjálfgefnar víddir í birgðageymslum
+### Dæmi um sjálfgefnar víddir í birgðageymslum
 
 Eftirfarandi dæmi sýna hvernig sjálfgefna víddin er notuð.
 
@@ -104,7 +104,7 @@ Reitirnir í gagnstæðri röð eru fylltir út sem hér segir:
 
 ADM-víddin verður afrituð úr birgðageymslunni EAST.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  

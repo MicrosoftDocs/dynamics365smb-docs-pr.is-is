@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir á Íslandi
+# Staðbundnar aðgerðir á Íslandi
 
 Eftirfarandi greinar lýsa staðbundnum virkni sem er einstök íslenskri útgáfu af [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
-## <a name="feature-availability"></a>Framboð til ráðstöfunar
+## Framboð til ráðstöfunar
 
 * Þýðing
     * [Íslensk staðfæring byggð á W1 Base App](iceland-global-core-app.md) **Tiltækt núna (frá v24.0)**  
@@ -30,11 +30,11 @@ Eftirfarandi greinar lýsa staðbundnum virkni sem er einstök íslenskri útgá
     * [Eyðing bókaðra reikninga og kreditreikninga](deleting-posted-invoices-and-credit-memos.md) **Nú í boði**
     * [Skráningarnúmer í íslenska staðfæringu](use-registration-no.md) **tiltækt núna (frá v24.0)** 
 
-## <a name="future-legislation-requirements-being-investigated"></a>Framtíðarlöggjafarþarfir sem verið er að rannsaka
+## Framtíðarlöggjafarþarfir sem verið er að rannsaka
 
 Eins og er eru engar eftirlitsaðgerðir eða kröfur. Ef vitað er um einhverjar væntanlegar eftirlitsaðgerðir er viðvörun um eftirlitsaðgerð [send](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

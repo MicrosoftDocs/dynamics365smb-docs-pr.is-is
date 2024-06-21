@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="purchasing"></a>Innkaup
+# Innkaup
 
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Ef stjórna þarf birgðum eru innkaupareikningar líka notaðir til að uppfæra birgðastig gagnvirkt svo að hægt sé að lágmarka birgðakostnað og veita betri þjónustu við viðskiptavini. Innkaupakostnaður, að þjónustukostnaði meðtöldum, og birgðavirði sem leiðir af bókun innkaupareikninga verða hluti af framlegðartölum og öðrum fjárhagslegum afkastavísum í Mitt hlutverk.
 
@@ -25,7 +25,7 @@ Fyrir öll innkaupaferli er hægt að setja inn verkflæði samþykktar, til dæ
 
 Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá.
 
-## <a name="get-started-with-purchase-capabilities"></a>Hafist handa við innkaupagetu
+## Hafist handa við innkaupagetu
 
 Áður en vörur eru keyptar þarf að tilgreina hvernig stjórna eigi innkaupaferlum fyrirtækisins.
 
@@ -34,7 +34,7 @@ Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá
 | Grunnstilla reglur og gildi sem skilgreina innkaupastefnu fyrirtækisins. | [Setja upp innkaup](purchasing-setup-purchasing.md) |
 | Skrá skal hvern lánardrottinn sem keypt er af með lánardrottnaspjaldi. | [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Innkaupagreiningar
+## Innkaupagreiningar
 
 Í þessum hluta er lýst þeim greiningartólum sem hægt er að nota til að fá innsýn í innkaupaferlið.
 
@@ -44,7 +44,7 @@ Eftirfarandi hlutar lýsa röð verka, með tenglum á greinar sem ná yfir þá
 | Gera tilfalallu greiningu á innkaupagögnum beint á listasíðum og fyrirspurnum. | [Sérstök greining á innkaupagögnum](ad-hoc-analysis-purchasing.md) |
 | Skoða innbyggðar innkaupaskýrslur. | [Innbyggðar innkaupaskýrslur](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Tilboð til pöntunar á innkaupareikning
+## Tilboð til pöntunar á innkaupareikning
 
 Eftirfarandi tafla lýsir því hvernig á að nota einfalda innkaupavinnslu.
 
@@ -65,7 +65,7 @@ Ef þörf er á flóknari innkaupaferlum birtir eftirfarandi tafla greinar sem �
 |Stjórnaðu skuldbindingum þínum til lánardrottins til að kaupa inn mikið magn sem er afhent í nokkrum sendingum yfir tímabil.|[Vinna með standandi innkaupapantanir](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Afturkallaðar pantanir, endurgreiðslur og skil
+## Afturkallaðar pantanir, endurgreiðslur og skil
 
 Eftirfarandi tafla lýsir því hvernig á að takast á við ógiltar pantanir, endurgreiðslur og vöruskil sem keyptar eru.
 
@@ -75,7 +75,7 @@ Eftirfarandi tafla lýsir því hvernig á að takast á við ógiltar pantanir,
 |Umbreyttu til dæmis rafrænum reikningum frá lánardrottnum þínum í innkaupareikninga í Business Central.|[Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Önnur ferli í sölu
+## Önnur ferli í sölu
 
 Eftirfarandi tafla lýsir því hvernig á að takast á við önnur innkaupaferli.
 
@@ -84,11 +84,11 @@ Eftirfarandi tafla lýsir því hvernig á að takast á við önnur innkaupafer
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama lánardrottinn.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Númer ytri skjala
+## Númer ytri skjala
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  

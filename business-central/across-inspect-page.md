@@ -9,7 +9,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="inspecting-pages-in-business-central"></a>Skoða síður í Viðskiptamiðinu
+# Skoða síður í Viðskiptamiðinu
 
 Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar um síðu, veitir innsýn inn í síðuhönnun, mismunandi þætti sem síðan samanstendur af og uppruna gagnanna sem eru sýnd. Eftirlit með síðu er sérstaklega hönnuð fyrir stjórnendur, kraftnotendur, starfsfólk notendaþjónustu og þróunaraðila. Það er tilvalið að læra gagnalíkanið á bak við síðu og úrræðaleit. Ef þú ert til dæmis að upplifa vandamál á síðu getur þú notað síðuskoðun til að fá upplýsingar til að gefa kerfisstjóra eða þjónustuaðila.
 
@@ -18,7 +18,7 @@ Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="work-with-page-inspection"></a>Vinna með síðueftirlit
+## Vinna með síðueftirlit
 
 Þú byrjar síðueftirlit á **Hjálp og notendaþjónusta**. Veldu spurningamerkið efst í hægra horninu, svo **Hjálp og notendaþjónusta** og svo **Kanna síður og gögn**. Einnig er hægt að nota flýtivísunina  <kbd>CTRL</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>.
 
@@ -30,13 +30,13 @@ Frekari upplýsingar um hvað er sýnt í síðueftirliti er að finna í [Síð
 
 Ef þú sérð ekki smáatriðin sem þú býst við að sjá í  **skoðunarrúðu**  síðunnar þá hefur þú líklega ekki tilskilin leyfi, eins og lýst er í næsta kafla.
 
-## <a name="controlling-access-to-page-inspection-details"></a>Upplýsingar um stjórnun á aðgangi að síðueftirliti
+## Upplýsingar um stjórnun á aðgangi að síðueftirliti
 
 Sem stjórnandi er hægt að stýra aðgangi að ítarlegum upplýsingum sem eru sýndar í rúðunni **Eftirlit með síðu** með því að stilla heimildir sem notendur eru með. Til að veita aðgangsheimild notanda að ítarlegum upplýsingum skal gefa notendum heimildina **Keyra** í **Kerfis** hlutanum **5330**. Hægt er að veita þessa heimild með því að nota heimildasamstæðu (t.d. **D365 úrræðaleit**) eða notendaflokk (t.d. **D365 úrræðaleit**). Nánari upplýsingar um heimildir má finna í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
 Notendur sem ekki eru veittar heimildir fyrir  **hlut í kerfi 5330**  geta enn farið í  **skoðunarrúðu**  síðunnar, en þeir sjá  **aðeins síðuna**  og  **töflusvæðin**, sem sýna grunnupplýsingar sem þeir geta látið á stuðningshólið sitt.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

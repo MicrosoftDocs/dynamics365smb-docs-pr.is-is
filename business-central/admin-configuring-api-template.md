@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="configure-api-templates"></a>Grunnstilla API-sniðmát
+# Grunnstilla API-sniðmát
 
 API-safnið fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)] gefur einfaldaða framsetningu á undirliggjandi einingum. Allir eiginleikarnir í forritinu fara ekki í gegnum tengt API. Síðan **API-uppsetning** gerir þér kleift að skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API. 
 
 Til dæmis, ef grunnstillingarsniðmát er skilgreint fyrir vörueininguna, þegar ný vörufærsla er stofnuð í gegnum vörur API, verður fyllt í alla eiginleika nýju vörunnar sem ekki eru skilgreindir í API-kallinu út frá valda sniðmátinu. Ef til dæmis ekkert gildi er skilgreint fyrir reitinn **Alm. vörubókunarflokkur** í gegnum API, en gildi er skilgreint í valda sniðmátinu, þá verður gildi bókunarflokksins sem er skilgreint í sniðmátinu notað fyrir nýju vöruna. 
 
-## <a name="setting-up-the-entity-template"></a>Uppsetning sniðmátseiningar
+## Uppsetning sniðmátseiningar
 
 Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skilgreina eiginleika fyrir sniðmátið. Hægt er að setja upp þessi sniðmát á síðunni **Grunnstillingarsniðmát**. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (aðeins á ensku) í efni stjórnanda.  
 
-## <a name="assign-the-template-to-an-api"></a>Úthluta sniðmátinu á API
+## Úthluta sniðmátinu á API
 
 Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skref.
 
@@ -45,7 +45,7 @@ Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skr
 
     Skilgreindu sniðmáti er beitt á nýja færslu sem er stofnuð í gegnum API, en eingöngu ef skilyrðin sem eru skilgreind í reitnum **Skilyrði** eru uppfyllt af gildunum sem þegar eru skilgreind fyrir nýja tilvikið af einingunni.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fylgiskjöl API](/dynamics-nav/fin-graph)  
 [Þróun á Connect Apps fyrir [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

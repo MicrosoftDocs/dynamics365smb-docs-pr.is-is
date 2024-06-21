@@ -10,7 +10,7 @@ ms.search.form: '138, 140, 146'
 ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Leiðrétta eða hætta við ógreidda innkaupareikninga
+# Leiðrétta eða hætta við ógreidda innkaupareikninga
 
 Hægt er að leiðrétta eða afturkalla bókaðan innkaupareikning. Þetta er gagnlegt þegar leiðrétta á innsláttarmistök eða breyta kaupunum snemma í pöntunarferlinu.
 
@@ -20,7 +20,7 @@ Hafi þegar verið greitt fyrir vörur á bókaða innkaupareikningnum er ekki h
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## <a name="to-correct-a-posted-purchase-invoice"></a>Til að leiðrétta bókaðan innkaupareikning.
+## Til að leiðrétta bókaðan innkaupareikning.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða innkaupareikninginn sem á að leiðrétta.  
@@ -34,7 +34,7 @@ Hafi þegar verið greitt fyrir vörur á bókaða innkaupareikningnum er ekki h
     Leiðréttur sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn.
 4. Veljið **Sýna leiðréttan kreditreikning** til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
-## <a name="to-cancel-a-posted-purchase-invoice"></a>Til að afturkalla bókaðan innkaupareikning.
+## Til að afturkalla bókaðan innkaupareikning.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðir innkaupareikningar** og velja síðan viðkomandi tengil.  
 2. Veljið bókaða innkaupareikninginn sem á að afturkalla.
@@ -46,11 +46,11 @@ Hafi þegar verið greitt fyrir vörur á bókaða innkaupareikningnum er ekki h
     Leiðréttur sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn. Reiturinn **Hætt við** á hinum upphaflega bókaða sölureikningi er breytt í **Já**.
 4. Veljið **Sýna leiðréttan kreditreikning** til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
-### <a name="partial-invoice-posting-also-supported"></a>Takmörkuð bókun reiknings er einnig studd
+### Takmörkuð bókun reiknings er einnig studd
 
 Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg innkaupapöntunarlína uppfærð til að endurspegla afturkallað Reikningsfært magn. Reitirnir **Magn til reikningsf** . og **Reikningsfært** magn á tengdri innkaupapöntunarlínu eru endurstilltir á gildin fyrir hlutabókunina.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  

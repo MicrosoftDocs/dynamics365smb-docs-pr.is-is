@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
+# Hönnunarupplýsingar uppsetningvöruhúss
 
 Vöruhúsavirkni í [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu. Að auki, forritshlutir í leyfinu stjórna hvaða notandaviðmótskjal til að nota fyrir studda vörugeymsla starfsemi.  
 <!--
@@ -44,7 +44,7 @@ Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunand
 
 Dæmi um hvernig notandaviðmótsskjölunum er beitt á vöruhúsaflækjustig eru í [Hönnunarupplýsingar: Vöruhúsaflæði á innleið](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Hólf og Innihald hólfs
+## Hólf og Innihald hólfs
 
 Hólf er geymslutæki sem hannað fyrir geymslu tiltekinna hluta. Það er minnsta geymslueiningin í [!INCLUDE[prod_short](includes/prod_short.md)]. Vörumagn í hólfum er kallað innihald hólfs. Uppfletting í reitnum **Vara** eða reitnum **Hólfakóði** á vöruhúsatengdri skjalalínu sýnir reiknað framboð vöru í hólfi.  
 
@@ -61,7 +61,7 @@ Sjálfgefinn hólfaeiginleiki er notuð af kerfinu til að benda á hólf fyrir 
 
 Aðeins er hægt að hafa eitt hólf fyrir hverja staðsetningu.  
 
-## <a name="bin-type"></a>Tegund hólfs
+## Tegund hólfs
 
 Í vöruhúsauppsetningum getur þú takmarka vöruhúsaaðgerðir sem eru leyfðar fyrir hólf með því að úthluta tegund hólfs á það. Eftirfarandi hólfagerðir eru til:  
 
@@ -79,7 +79,7 @@ Fyrir allar hólfagerðir nema PICK, PUTPICK og PUTAWAY er engin önnur aðgerð
 > [!NOTE]  
 > Aðeins er leyfð hreyfing í hólf af gerðinni MÓTTAKA og GÆÐAEFTIRLIT. Á sama hátt, er aðeins hægt að gera hreyfingar úr hólfum af gerðinni afhending og gæðaeftirlit.  
 
-## <a name="bin-ranking"></a>Hólfaflokkun
+## Hólfaflokkun
 
 Í háþróaður vörugeymsla, getur þú sjálfvirkan og hagræða hvernig vörur eru innheimt í frágangs og tínsluvinnublöðum með því að raða hólfum svo vörur eru lagðar til sem teknar eða staðsettar samkvæmt röðunarskilyrðum til að nota vöruhúsaplássið sem best.  
 
@@ -87,7 +87,7 @@ Frágangsferlar eru fínstilltir samkvæmt hólfaflokkun með því að stinga u
 
 Hólfaflokkun ásamt innihald hólfs eru grunneiginleikar sem leyfa notendum að taka frá atriði í vöruhúsi.  
 
-## <a name="bin-setup"></a>Uppsetning hólfs
+## Uppsetning hólfs  
 Í vöruhúsauppsetningum geta hólf verið hægt að setja upp með afkastagetugildum svo sem magni, samtals rými og þyngd til að stjórna hvaða og hvernig vörur eru geymdar í hólfinu.  
 
 Á hverju birgðaspjaldi er hægt að úthluta mælieiningu fyrir vöruna, svo sem stykkjum, vörubrettum, lítrum, grömmum eða kössum. Einnig er hægt að nota grunnmælieiningu fyrir vöru og tilgreina stærri grunnmælieiningu sem byggist á vörunni. Til dæmis er hægt að skilgreina bretti sem jafnt og 16 stykki, og hið síðarnefnda er þá grunnmælieining.  
@@ -99,7 +99,7 @@ Ef stilla á hámarksmagn af tiltekinni vöru sem á að geyma í sérstöku hó
 > [!NOTE]  
 > Aðeins er hægt að vinna með margar mælieiningar í uppsetningum vöruhúsakerfa. Í öllum öðrum stillingum getur innihald hólfs aðeins verið í grunnmælieiningunni. Í öllum viðskiptum með mælieiningu hærri en grunnmælieiningu vörunnar, er magn er breytt í grunnmælieiningu.  
 
-## <a name="zone"></a>Svæði
+## Svæði
 
 Í ítarlegt vörugeymsla, hólf má flokka á svæðum til að stjórna hvernig verkflæði vörugeymsla starfsemi er beint.  
 
@@ -107,18 +107,18 @@ Svæðin gæti verið móttökusvæði eða lagersvæði og hvert svæði getur 
 
 Flestum eiginleikum sem úthlutað er á svæði verður sjálfgefið úthlutað á hólfið sem er stofnað úr því svæði.  
 
-## <a name="class"></a>Flokkur
+## Flokkur  
 Í háþróaður vörugeymsla, þú geta framselja vöruhús flokki kóða á vörur, hólf, og svæði til að stjórna hvar mismunandi vöruflokkar eru geymd, eins og frystivörum. Hægt er að deila svæði upp í nokkra vöruhúsaflokka. Til dæmis vörur á móttökusvæði er hægt að vista sem frosnar, hættulegar eða annað.  
 
 Þegar þú vinnur með flokka vöruhúsa og sjálfgefið sendingar- og móttökuhólf verður þú að fylla handvirkt út viðeigandi hólf í vöruhússkvittunarlínum og afhendingarlínum.  
 
 Í flæði á innleið er flokkakóði aðeins auðkenndur á innleiðarlínum þar sem vöruflokkakóðinn passar ekki við sjálfgefið móttökuhólf. Ef réttum sjálfgefnum hólfum er ekki úthlutað er ekki hægt að taka við magninu.  
 
-## <a name="location"></a>Birgðageymsla
+## Birgðageymsla
 
 Birgðageymsla er efnisleg bygging eða staður sem birgðir eru fluttar á, geymdar í og afhentar úr, mögulega skipulögð með hólfum. Birgðageymsla getur verið vöruhús, þjónustubifreið, sýningarsalur, verksmiðja eða svæði innan verksmiðju.  
 
-## <a name="first-expired-first-out"></a>Fyrst útrunnið fyrst út
+## Fyrst útrunnið fyrst út
 
 Ef gátreiturinn **Tína eftir FEFO** er valinn á flýtiflipanum **Hólfareglur** á staðsetningarkortinu, þá eru vöruraktar vörur teknar til samkvæmt lokadegi þeirra. Vörurnar sem hafa elstu lokadagsetningarnar eru teknar til fyrst.  
 
@@ -126,11 +126,11 @@ Vöruhúsaaðgerðir í öllum tiltektar og hreyfingarskjölum eru flokkuð samk
 
 Við tínslu FEFO er tiltækum vörum sem renna fyrst út safnað á tímabundinn vörurakningarlista eftir lokadegi. Ef tvær vörur með rað-/lotunúmeri hafa sömu fyrningadagsetningu velur kerfið vöruna með lægsta lotu- eða raðnúmerið. Ef rað- eða lotunúmerin eru þær sömu þá velur forritið þá vöru sem fyrst var skráð. Hefðbundin skilyrði fyrir vöruvali í tínsluhólfum, eins og Hólfaflokkun og Skipta einingum, eru notuð á þennan tímabundna FEFO-vörurakningarlista.  
 
-## <a name="put-away-template"></a>Frágangssniðmát
+## Frágangssniðmát
 
 Frágangssniðmátinu má úthluta á vöru og á staðsetningu. Frágangssniðmátið tilgreinir bálk forgangsreglna sem verður að virða þegar frágangur er stofnaður. Til dæmis getur frágangssniðmát krafist þess að vara sé sett í hólf með hólfinnihaldi sem stemmir við mælieininguna og ef svipað hólf með nægu plássi finnst ekki verður að setja vöruna í tómt hólf.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Upplýsingar um yfirlit](design-details-warehouse-management.md)
 [vöruhúsastjórnunar: Til ráðstöfunar í vöruhúsinu](design-details-availability-in-the-warehouse.md)

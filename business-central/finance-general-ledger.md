@@ -11,18 +11,18 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Að skilja fjárhag og bókhaldslykil
+# Að skilja fjárhag og bókhaldslykil
 
 Fjárhagurinn (fjárhagur) geymir fjárhagsgögnin og bókhaldslykillinn (COA) sýnir reikningana sem fjárhagsfærslur eru bókaðar á. [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaðan bókhaldslykil sem er tilbúinn til að styðja við reksturinn.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Uppsetning Uppsetning fjárhags og uppsetning almenns bókunargrunnur
+## Uppsetning Uppsetning fjárhags og uppsetning almenns bókunargrunnur
 
 Uppsetning aðalbókarinnar er kjarninn í fjárhagslegum ferlum vegna þess að það skilgreinir hvernig þú sendir gögn. Tvær síður gegna einkum mikilvægu hlutverki í að stilla fjármálaferli þín:  
 
 * **Fjárhagsgrunnur**
 * **Alm. bókunargrunnur**
 
-### <a name="the-general-ledger-setup-page"></a>**Uppsetning fjárhags** síðan
+### **Uppsetning fjárhags** síðan
 
 Nota síðuna **Fjárhagsgrunnur** til að tilgreina hvernig fara skuli með ákveðin bókhaldsmál í fyrirtækinu, svo sem:  
 
@@ -35,7 +35,7 @@ Nota síðuna **Fjárhagsgrunnur** til að tilgreina hvernig fara skuli með ák
 
 Til að opna síðuna núna skal nota eftirfarandi tengil [Fjárhagsgrunnur](https://businesscentral.dynamics.com/?page=118).
 
-### <a name="the-general-posting-setup-page"></a>Síðan **Almennur bókunargrunnur**
+### Síðan **Almennur bókunargrunnur**
 
 Nota síðuna **Alm. bókunargrunnur** til að setja upp samsetningar almennra viðskipta- og almennra vörubókunarflokka. Staða hópar korta aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. Ein lína er fyllt út fyrir hverja samsetningu viðskiptabókunarflokks og vörubókunarflokks. En einnig er hægt að opna hverja línu í eigin bókunargrunnsspjaldi. Frekari upplýsingar er að finna í [Uppsetningar bókunarflokka](finance-posting-groups.md).  
 
@@ -44,7 +44,7 @@ Nota síðuna **Alm. bókunargrunnur** til að setja upp samsetningar almennra v
 
 Til að opna síðuna núna skal nota eftirfarandi tengil [alm. bókunargrunnur](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a>Bókhaldslykillinn
+## Bókhaldslykillinn
 
 Síðan **Bókhaldslykill** sýnir alla fjárhagsreikninga. Úr bókhaldslyklinum geturðu gert hluti eins og:  
 
@@ -56,7 +56,7 @@ Síðan **Bókhaldslykill** sýnir alla fjárhagsreikninga. Úr bókhaldslyklinu
 
 Nánari upplýsingar er farið [í Að skilja bókhaldslykilinn](finance-chart-of-accounts.md).
 
-## <a name="account-categories"></a>tegundir lykla
+## tegundir lykla
 
 Þú getur sérsniðið uppbyggingu reikningsskila þinnar með því að kortleggja aðalbókarreikninga í reikningsflokkum.  
 
@@ -66,7 +66,7 @@ Síðan **Fjárhagsreikningsflokkar** sýnir flokka og undirflokka og fjárhagsr
 
 Þú getur skilgreint hvort tilteknar gerðir af skýrslum verði að innihalda reikninga í hverjum undirflokki. Þú getur notað lykiltegundir til hjálpa til við að skilgreina snið fjárhagsskýrslna.  
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* undir *Núgildandi eignir*. Ef stöðuyfirlitið á að taka tillit til smágreiðslna og athugunar skal taka eftirfarandi skref:
 
@@ -93,17 +93,17 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir *Reiðufé* und
 > [!NOTE]
 > Ef þú stofnar fjárhagsreikning án þess að úthluta reikningsflokki, þegar þú úthlutar reikninginn á bókunarflokk mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta reikningsflokknum úr fjárhagsreikningnum strax fyrir ofan reikninginn í bókhaldslyklinum þínum. Til að taka með nýja reikninginn í fjárhagsskýrslurnar þarftu hins vegar að velja aðgerðina **Búa til fjárhagsskýrslur** á síðunni **Fjárhagsreikningsflokkar**. Einnig er hægt að opna síðuna Fjárhagsspjald, tilgreina reikningsflokk og endurgera svo fjárhagsskýrsluna.
 
-## <a name="access-to-create-and-edit-gl-accounts-and-account-categories"></a>Aðgangur að stofnun og breytingum á fjárhagsreikningum og reikningstegundum
+## Aðgangur að stofnun og breytingum á fjárhagsreikningum og reikningstegundum
 
 Í litlu fyrirtæki, svo sem CRONUS sýnifyrirtækinu, geta flestir notendur ritfært fjármálaeiningar eins og fjárhagsreikninga, reikningsflokka og bókhaldslykilinn, nema þá notendur sem hafa TEAM MEMBER leyfi. Hins vegar nota stærri fyrirtæki yfirleitt hlutverk og heimildir til að takmarka aðgang að breytingum á þessum einingum. Ef þú ert stjórnandi eða ert með hlutverkið *Viðskiptastjórnandi* eða *Endurskoðandi* geturðu stjórnað heimildum notanda til að gefa rétta fólkinu aðgang að viðeigandi töflum. Nánari upplýsingar eru notaðar til að [fá yfirlit yfir heimildir](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) notanda.  
 
-## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Nota víddir til að einfalda bókhaldslykilinn
+## Nota víddir til að einfalda bókhaldslykilinn
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá. Í stað þess að setja upp sérstaka aðalbókarreikninga fyrir hverja deild og verkefni, getur þú notað víddir sem grundvöll fyrir greiningu og forðast að þurfa að stofna flókna bókhaldslykla.
 
 Til að fræðast meira um víddir er farið í Setja upp sjálfgefnar víddir fyrir viðskiptamenn, lánardrottna og aðra [reikninga](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skilja bókhaldslykla](finance-chart-of-accounts.md)  
 [Vinna með víddir](finance-dimensions.md)  

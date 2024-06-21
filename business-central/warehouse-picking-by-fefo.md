@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
+# Virkja Vörutínsla eftir FEFO
 Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurnar, sem hafa elstu lokadagsetningarnar, eru tíndar fyrst.  
 
  Þessi aðgerð virkar aðeins ef eftirfarandi skilyrði eru uppfyllt:  
@@ -33,7 +33,7 @@ Til að virkja hreyfingar samkvæmt FEFO skal skilja reitinn **Frá hólfi** eft
 <br /><br />
 Ef reiturinn **Ströng lokasöludagsetning** er valinn á **Vörurakningarkóðaspjaldinu** verða aðeins vörur sem ekki eru útrunnar hafar með í tínslunni og línunum er raðað samkvæmt FEFO.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)

@@ -10,14 +10,14 @@ ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
+# Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 
 Meginhlutverk, t.d. kerfisstjóri, þarf reglulega að sjá um þau gögn sem safnast upp, eyða þeim eða þjappa þau.  
 
 > [!TIP]
 > Frekari upplýsingar um aðrar leiðir til að draga úr magni gagna sem vistuð eru í gagnagrunni með því að lesa [Draga úr gögnum sem eru geymd í gagnagrunnum Business Central](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) í fylgiskjölum Developer og IT Pro.
 
-## <a name="delete-documents"></a>Eyða skjölum.
+## Eyða skjölum.
 
 Við vissar kringumstæður gæti þurft að eyða reikningsfærðum innkaupapöntunum. Hins vegar er ekki hægt að eyða þeim nema vörurnar hafi verið reikningsfærðar og mótteknar að fullu. [!INCLUDE[prod_short](includes/prod_short.md)] hjálpar þér með því að athuga með það.
 
@@ -29,7 +29,7 @@ Fyrirtæki eyða yfirleitt reikningsfærðum þjónustupöntunum sjálfkrafa eft
 
 Þjónustupöntunum er hins vegar ekki eytt sjálfvirkt ef heildarmagn pöntunarinnar var bókað af síðunni **Þjónustureikningur** í staðinn fyrir þjónustupöntunina sjálfa. Hugsanlega þarf að eyða slíkum reikningsfærðu pöntunum handvirkt með því að keyra keyrsluna **Eyða reikningsf. þjónustupöntunum** .  
 
-## <a name="compress-data-with-date-compression"></a>Þjappa gögnum með dagsetningarþjöppun
+## Þjappa gögnum með dagsetningarþjöppun
 
 Hægt er að þjappa gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] til að spara pláss í gagnagrunninum, sem í [!INCLUDE [prod_short](includes/prod_short.md)] á netinu getur jafnvel sparað þér peninga. Þjöppunin, sem byggir á dagsetningum og aðgerðum, sameinar nokkrar eldri færslur í eina nýja færslu.
 
@@ -58,7 +58,7 @@ Hægt er að þjappa eftirfarandi gerðum gagna með runuvinnslum.
 
 Eftir þjöppunina er efni eftirfarandi reita alltaf varðveitt: **Bókunardagsetning**, **Númer lánardrottins**, **Tegund fylgiskjals**, **Gjaldmiðilskóði**, **Bókunarflokkur**, **Upphæð**, **Eftirstöðvar**, **Upphafleg upph. (SGM)**, **Eftirstöðvar (SGM)**, **Upphæð (SGM)**, **Innkaup (SGM)**, **Reikningsafsl. (SGM)**, **Veittur greiðsluafsláttur (SGM)** og **Mögul. að jafna greiðsluafsl.**.
 
-## <a name="posting-compressed-entries"></a>Bókun þjappaðra færslna
+## Bókun þjappaðra færslna
 
 Þjöppaðar færslur eru bókaðar aðeins öðruvísi en stöðluð bókun. Þessi mismunur er að fækka nýjum fjárhagsfærslum sem stofnaðar eru eftir dagsetningarþjöppun og skiptir sérstaklega miklu máli þegar upplýsingum á borð við víddir og númer fylgiskjala eru geymdar. Dagsetningarþjöppun stofnar nýjar færslur á eftirfarandi hátt:
 
@@ -75,7 +75,7 @@ Fjöldi færslna frá dagsetningarþjöppun ræðst af því hve margar síur vo
 > [!WARNING]
 > Dagsetningaþjöppun eyðir færslum svo að tryggara er að taka alltaf afrit af gagnasafni áður en keyrslan er sett í gang.
 
-### <a name="to-run-a-date-compression"></a>Að keyra gagnaþjöppun
+### Að keyra gagnaþjöppun
 
 1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), slá inn **Gagnaumsjón** og velja svo viðeigandi tengil.
 2. Eitt af eftirfarandi er gert eftir þörfum:
@@ -86,7 +86,7 @@ Fjöldi færslna frá dagsetningarþjöppun ræðst af því hve margar síur vo
    > Aðeins er hægt að þjappa gögnum sem eru eldri en fimm ára. Ef þjappa á gögnum sem eru yngri en fimm ára skaltu hafa samband við samstarfsaðila þinn hjá Microsoft. Þeir þurfa að nota atburðinn `OnSetMinimumNumberOfYearsToKeep` í "Dagsetningaþjöppun" codeunit til að stilla þröskuldinn.
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun](admin-setup-and-administration.md)  
 

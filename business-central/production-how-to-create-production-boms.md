@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
+# Búa til framleiðsluuppskriftir
 
 Í framleiðsluuppskrift eru aðalgögn sem lýsa íhlutum og millivörum sem notuð eru við framleiðslu vöru. Þegar framleiðslupöntun er stofnuð fyrir vöru stjórnar framleiðsluuppskriftin útreikningum á efnisþörf eins og fram kemur á síðunni **Íhlutir** framl.pöntunar.
 
@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 - Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Búa til framleiðsluuppskrift
+## Búa til framleiðsluuppskrift
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Framleiðsluuppskriftir**, velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**.  
@@ -48,7 +48,7 @@ ms.service: dynamics-365-business-central
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Gerð nýrra útgáfa af framleiðsluuppskriftum
+## Gerð nýrra útgáfa af framleiðsluuppskriftum
 
 Til dæmis má nota nýjar útgáfur af framleiðsluuppskriftum þegar skipt er um vöru eða þegar viðskiptamaður krefst sérstakrar útgáfu af vöru. Útgáfureglan gerir kleift að stjórna ólíkum útgáfum af framleiðsluuppskrift. Uppbygging framleiðsluuppskriftarútgáfunnar samsvarar uppbyggingu framleiðsluuppskriftanna. Grundvallarmunurinn er gildistími á útgáfunum. Upphafsdagsetningin tilgreinir gildistímann.  
 
@@ -72,7 +72,7 @@ Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.
 >
 > Skuggauppskriftir eru notaðar til að skipuleggja vörur./ Þessi fram.uppskriftartegund leiðir aldrei af sér fullunna vöru, en er notuð sérstaklega til að ákvarða háða eftirspurn. Skuggauppskriftir hafa ekki eigin aðalgögn.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Magnreikniformúla á framleiðsluuppskriftir
+## Magnreikniformúla á framleiðsluuppskriftir
 
 Magnið er reiknað samkvæmt mismunandi víddum sem einnig eru færðar í framleiðsluuppskriftarlínurnar línurnar. Víddirnar vísa til pöntunareiningar á viðkomandi vöru. Hægt er að færa inn lengd, breidd, dýpt og þyngd sem víddir.  
 
@@ -90,13 +90,13 @@ Reiknireglan skilgreinir tengsl einstakra íhluta. Eftirfarandi valkostir eru ti
 > [!NOTE]
 > Reikniformúlan **Fast magn** tryggir að notkun íhluts sé sú sama óháð því hvert magn rýrnunar eða úttaks er. Fyrir íhluti framleiðslupöntunar, þegar reiturinn **Reikniformúla** er stilltur á **Fast magn**, er gildið í reitnum **Væntanlegt magn** alltaf jafnt og magnið í reitnum **Magn á**. Rýrnunarprósentan sem er skilgreind í sömu línunni er hunsuð. Fast magn er virt af skýrslunni **Framboð eftir uppskrift**. Skýrslan sýnir vöruna sem flöskuháls ef tiltækt magn er minna en magnið í reitnum **Magn á yfireiningu**. Reitirnir **Get gert yfireiningu** og **Get gert aðalvöru** eru alltaf auðir óháð því hvert tiltækt magn er. Fast magn er einnig innifalið í útreikningum fyrir staðalkostnað. Lotustærðin fyrir framleidda vöru hefur áhrif á kostnaðinn sem eru úthlutað fyrir eina vöru.
 
-### <a name="example"></a>Dæmi
+### Dæmi
 
 Framleiðsluuppskrift þarf 70 málmhluta með lengd = 0,20 m og breidd = 0,15 m. Gildin eru færð inn sem hér segir: Útreikningsregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70.
 
 Magn á x Lengd * Breidd, þ.e. Magn = 70 x 0.20 m x 0.15 m = 2.1 m2, gefur magnið.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Stjórna afurðarafbrigðum](inventory-item-variants.md)  

@@ -11,15 +11,15 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna
+# Bókunardagsetning fyrir virðisfærslu leiðréttingar í samanburði við upprunafærsluna
 
 Í þessari grein er bókunardagsetning fyrir virðisfærslu leiðréttingar borin saman við bókunardagsetningu færslunnar veldur því að runuvinnslan Leiðrétta kostnað - Birgðafærslur er keyrð, sérstakleag í aðstæðum endurmats og kostnaðarauka.
 
 Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** vinnur úr gögnunum þínum eftir því hverjar aðstæðurnar eru og stillingunni á [!INCLUDE[prod_short](includes/prod_short.md)]. Í þessum hluta lýsum við tveimur aðskildum ferlum og fyrir hvorn þeirra sýnum við áhrifin sem runuvinnslan Leiðrétta kostnað - Birgðafærslur hefur á gögnin.
 
-## <a name="revaluation-scenario"></a>Aðstæður endurmats
+## Aðstæður endurmats
 
-### <a name="prerequisites"></a>Frumskilyrði
+### Frumskilyrði  
 
 Sláið inn eftirfarandi gildi:
 
@@ -45,7 +45,7 @@ Sláið inn eftirfarandi gildi:
 
 - Bókun leyfð til = tómt  
 
-### <a name="to-test-the-scenario"></a>Að prófa aðstæðurnar
+### Að prófa aðstæðurnar
 
 Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref.
 
@@ -150,15 +150,15 @@ Leiðréttingin sem gerð var fyrir neikvæðu leiðréttinguna í skrefi 3 veld
 
 Til að ná leiðréttingu í desember á neikvæðu leiðréttingunni í 3. skrefi þarf fjárhagsgrunnurinn, Bókun leyfð frá reit, að tilgreina dagsetningu í desember.  
 
-### <a name="conclusion"></a>Niðurstaða
+### Niðurstaða
 
 Í ljósi reynslunnar sem fengist hefur í þessum aðstæðum, þegar reynt er að finna út hentugustu uppsetninguna fyrir leyfilegt dagsetningabil bókunar fyrir fyrirtæki, er sniðugt að hafa eftirfarandi í huga. Svo lengi sem þú heimilar bókun breytinga á birgðaverðmæti á tímabili, desember í þessu tilviki, ætti uppsetningin sem fyrirtækið notar fyrir dagsetningabil sem er leyfilegt að bóka að vera í takt við þessa ákvörðun. Bókun leyfð frá í fjárhagsgrunni, þar sem fram kemur 1. desember, myndi leyfa að áframsenda endurmatið sem gert var í desember á færslur á útleið, sem verða fyrir áhrifum, á sama tímabilinu.  
 
 Notendahópar sem ekki mega bóka í desember en í janúar, sem fjárhagsgrunnur átti líklega að takmarka í þessum aðstæðum, ætti frekar að staðsetja í notandauppsetningu.  
 
-## <a name="item-charge-scenario"></a>Aðstæður kostnaðarauka
+## Aðstæður kostnaðarauka  
 
-### <a name="prerequisites-1"></a>Frumskilyrði
+### Frumskilyrði  
 
 Sláið inn eftirfarandi gildi:
 
@@ -184,7 +184,7 @@ Sláið inn eftirfarandi gildi:
 
 - Bókun leyfð til = tómt  
 
-### <a name="to-test-the-scenario-1"></a>Að prófa aðstæðurnar
+### Að prófa aðstæðurnar  
 
 Prófaðu þessar aðstæður með því að fara í gegnum eftirfarandi skref:
 
@@ -350,7 +350,7 @@ Að fjárhagsgrunnurinn skyldi gefa upp Leyfa bókun frá og með 1. janúar var
 
 Í þessari atburðarás getur einn möguleiki verið að hafa fjárhagsgrunninn, reitinn Bókun leyfð frá, gefa upp dagsetningu í desember fyrir nokkra daga í viðbót og fresta bókun á fyrsta kostnaðaraukanum svo allir kostnaðir fyrir fyrra tímabil/fjárhagsár verði viðurkenndir fyrir tímabilið sem þeir tilheyra í fyrstu, keyra síðan runuvinnslu Leiðrétts kostnaðar - Birgðafærslna og í kjölfarið færa leyfða bókunardagsetningu yfir á nýtt tímabil\/fjárhagsársins. Fyrsti kostnaðaraukinn með bókunardagsetninguna 2. janúar getur þá verið bókaður.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig  
 
 [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

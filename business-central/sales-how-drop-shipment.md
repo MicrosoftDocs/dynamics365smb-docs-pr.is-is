@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-drop-shipments"></a>Gera beinar afhendingar
+# Gera beinar afhendingar
 
 Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint til einhvers af viðskiptamönnum fyrirtækisins.
 
@@ -19,7 +19,7 @@ Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint ti
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sölupöntun fyrir beina afhendingu búin til
+## Sölupöntun fyrir beina afhendingu búin til
 
 Til að undirbúa beina sendingu, er stofnuð sölupöntun fyrir vöru og tilgreina í sölulínunni að salan krefst beinnar sendingar.
 
@@ -29,7 +29,7 @@ Til að undirbúa beina sendingu, er stofnuð sölupöntun fyrir vöru og tilgre
 > [!TIP]
 > Sjálfgefið er að reitirnir Bein afhending og Innkaupakóti séu ekki tiltækir í línunum. Ef svo er ekki er hægt að bæta þeim við með því að sérsníða hluta síðunnar sem inniheldur línurnar. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Innkaupapöntunin stofnuð fyrir beina sendingu
+## Innkaupapöntunin stofnuð fyrir beina sendingu
 
 Til að undirbúa beina sendingu, skal tilgreina í innkaupapöntuninni að senda þarf hana til viðskiptamannsins, ekki til þín.
 
@@ -46,7 +46,7 @@ Nú getur þú sagt lánardrottinum þínum að senda vörurnar beint til viðsk
 
 Ef birgir veitir viðbótarupplýsingar, t.d. rakningarnúmer, er hægt að bæta þeim upplýsingum við sem athugasemd í innkaupapöntunarlínu. Til að bæta athugasemd við línu er valið Athugasemd í reitnum **Tegund** og upplýsingar færðar inn í reitinn **Lýsing**. **·**   
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Að stofna margar innkaupapantanir fyrir beinar sendingar
+## Að stofna margar innkaupapantanir fyrir beinar sendingar
 
 Einnig er hægt að nota innkaupatillögublaðið til að stofna innkaupapantanir. Kosturinn við að nota innkaupatillögublaðið er sá að hægt er að stofna innkaupapantanir fyrir allar útistandandi beinar sendingar. Það þýðir að ekki þarf að stofna hverja pöntun fyrir sig.
 
@@ -56,11 +56,11 @@ Einnig er hægt að nota innkaupatillögublaðið til að stofna innkaupapantani
 4. Farið er yfir innkaupapantanalínurnar og í reitnum Nr. lánardrottins **.** er valinn lánardrottinn sem sér um vörurnar.
 5. Veljið aðgerðina **Framkvæma aðgerðarboð** til að breyta línunum í innkaupapöntun.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Til að skoða tengda innkaupapöntunina úr sölupöntuninni
+## Til að skoða tengda innkaupapöntunina úr sölupöntuninni
 
 Veldu Sölupöntunarlínu beinnar sendingar, veldu **Pöntun** aðgerð og veldu **Bein sending** aðgerð og síðan er valið aðgerðin **Innkaupapöntun**.
 
-## <a name="to-post-a-drop-shipment"></a>Til að bóka beina afhendingu
+## Til að bóka beina afhendingu
 
 Þegar lánardrottinn hefur sent vörur, er hægt að bóka sölupöntunina sem senda. Einnig er hægt að bóka innkaupapöntun, en aðeins með **Móttöku** valkostinn fyrr en sölupöntunin hefur verið reikningsfært.
 
@@ -73,7 +73,7 @@ Veldu Sölupöntunarlínu beinnar sendingar, veldu **Pöntun** aðgerð og veldu
 > [!TIP]
 > Ekki gleyma að bóka þarf reikning innkaupapöntunarinnar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)  
 [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md)  

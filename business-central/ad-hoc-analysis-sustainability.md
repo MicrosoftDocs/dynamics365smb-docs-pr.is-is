@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sustainability-data"></a>Tilfallukkagreining á sjálfbærnigögnum
+# Tilfallukkagreining á sjálfbærnigögnum
 
 Þessi grein útskýrir hvernig á að nota aðgerðina **Gagnagreining** til að greina sjálfbærnigögn beint frá listasíðum og fyrirspurnum. Ekki þarf að keyra skýrslu eða skipta yfir í annað forrit, t.d. Excel. Eiginleikinn býður upp á gagnvirka og fjölhæfa leið til að reikna út, taka saman og skoða gögn. Í stað þess að keyra skýrslur með valkostum og afmörkunum er hægt að bæta við mörgum flipum sem tákna mismunandi verk eða yfirlit á gögnunum. Sum dæmi eru "Útblástursyfirlit" eða "Útblástur eftir umfangi" eða öll önnur sjónarmið sem hægt er að ímynda sér. Til að fræðast meira um notkun aðgerðarinnar **Gagnagreining** er farið í [Greiningarlista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Eftirfarandi listasíður eru notaðar til að gera tilfalvarar greiningar á g�
 
 - [Sjálfbærnifærslur](https://businesscentral.dynamics.com/?page=6220)
 
-## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Tilföng til sjálfbærni greiningar
+## Tilföng til sjálfbærni greiningar
 
 Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalalengdar greiningar:
 
@@ -36,7 +36,7 @@ Aðgerðin **Gagnagreining** er notuð til að gera skyndiathugun og tilfalaleng
 | [Meðalútstreymi eftir tegundum](#example-average-emissions-by-category) | Greina meðallosun eftir flokki. | [Sjálfbærnifærslur](https://businesscentral.dynamics.com/?page=6220) | **Reikningsflokkur**, **Reikningsheiti**, **Útblástur NH4**, **Útblástur CO2** og **Útblástur N2O**.|
 | [Losun eftir umfangi](#example-emissions-by-scope) | Greina útblástur eftir umfangi. | [Sjálfbærnifærslur](https://businesscentral.dynamics.com/?page=6220) | **Útblásturssvið**, **Reikningsflokkur**, **Útblástur NH4**, **Útblástur CO2** og **Útblástur N2O**.|
 
-## <a name="example-emission-overview-sum-by-category"></a>Dæmi: Útblástursyfirlit (summa eftir tegund)
+## Dæmi: Útblástursyfirlit (summa eftir tegund)
 
 Til að greina losun eftir flokki skal fylgja eftirfarandi skrefum:
 
@@ -51,7 +51,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Dæmi 1 um gagnagreiningu á síðunni Sjálfbærnifærslur." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## <a name="example-average-emissions-by-category"></a>Dæmi: Meðalútstreymi eftir tegundum
+## Dæmi: Meðalútstreymi eftir tegundum
 
 Til að greina meðalútstreymi eftir flokki skal fylgja eftirfarandi skrefum:
 
@@ -67,7 +67,7 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Dæmi 2 um gagnagreiningu á síðunni Sjálfbærnifærslur." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## <a name="example-emissions-by-scope"></a>Dæmi: Losun eftir umfangi
+## Dæmi: Losun eftir umfangi
 
 Til að greina losun eftir umfangi skal fylgja eftirfarandi skrefum:
 
@@ -82,13 +82,13 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Dæmi 3 um gagnagreiningu á síðunni Sjálfbærnifærslur." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Gagnagrunnur fyrir tilfalvarna greiningu á sjálfbærni
+## Gagnagrunnur fyrir tilfalvarna greiningu á sjálfbærni
 
 Upplýsingarnar sem færðar eru inn í sjálfbærnibók eru til bráðabirgða og hægt er að breyta þeim meðan það er í bókinni. Þegar sjálfbærnibók er bókuð eru upplýsingarnar fluttar í sjálfbærnibókarfærslur um einstaka sjálfbærnireikninga þar sem ekki er hægt að breyta henni. Hins vegar er hægt að bóka bakfærslu eða leiðréttingu færslna. Listasíðan [Sjálfbærnibókarfærslur](https://businesscentral.dynamics.com/?page=6220) er helsti gagnagjafi til augljósrar greiningar á sjálfbærnigögnum.
 
 Til að fræðast meira um bókun sjálfbærnifærslna er farið í [Skrá sjálfbærnifærslur](finance-sustainability-journal.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Skrá sjálfbærnifærslur](finance-sustainability-journal.md)  
 [Innbyggðar sjálfbærniskýrslur](sustainability-reports.md)   

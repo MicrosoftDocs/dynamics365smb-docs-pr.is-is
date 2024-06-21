@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
+# Setja upp annan skýrslugjaldmiðil
 
 Þar sem fyrirtæki starfa sífellt fleiri lönd/svæði verður mikilvægara að þau geti skoðað og tilkynnt fjárhagsgögn í fleiri en einum gjaldmiðli.
 
@@ -25,7 +25,7 @@ Fjárhagurinn þinn er settur upp til að nota staðbundna gjaldmiðilinn (SGM),
 >
 > Til dæmis er um að ræða mikið magn af útistandandi reikningum í breskum pundum (GBP) og AGM hefur verið sett upp þannig að hann sé GBP. Í þessu dæmi eru upphæðir í útistandandi reikningum sem nota GBP ekki leiðréttar fyrir gengishagnað/tap í AGM, aðeins upphæðir í útistandandi reikningum sem eru í öðrum gjaldmiðlum. Það þýðir að ef þú notar ACY til að gefa upp fjárhagsskýrslurnar gæti það leitt til of lágrar eða of hárrar útistandandi stöðu á viðskiptakröfum.
 
-## <a name="displaying-reports-and-amounts-in-acy"></a>Birting skýrslna og upphæða í AGM
+## Birting skýrslna og upphæða í AGM
 
 Notkun AGM getur aðstoðað skýrslugerðarferli fyrirtækis í eftirfarandi tilvikum:
 
@@ -34,11 +34,11 @@ Notkun AGM getur aðstoðað skýrslugerðarferli fyrirtækis í eftirfarandi ti
 
 Nokkrar fjárhagsskýrslur eru byggðar á fjárhagsfærslum. Til að birta skýrslugögn í AGM skal velja gátreitinn **Sýna upphæðir í öðrum skýrslugjaldmiðli** á flýtiflipanum **Valkostir** fyrir viðeigandi fjárhagsskýrslu.
 
-## <a name="adjusting-exchange-rates"></a>Leiðrétting á gengi
+## Leiðrétting á gengi
 
 Vegna þess að gengi sveiflast stöðugt verður að leiðrétta AGM-jafngildi í kerfinu reglulega. Ef þessar leiðréttingar eru ekki gerðar geta upphæðir sem umreiknaðar eru úr erlendum (eða viðbótar-) gjaldmiðlum og bókaðar í fjárhag í SGM verið misvísandi. Að auki verður að uppfæra daglegar færslur sem eru bókaðar áður en daglegt gengi er fært inn eftir að upplýsingarnar um daglegt gengi hafa verið færðar inn.  **Keyrslan** Leiðrétta gengi er notuð til að leiðrétta gengi bókaðra viðskiptamanna, lánardrottins og bankareikningsfærslna. Hann getur einnig uppfært upphæðir ÍSM í fjárhagsfærslum. Frekari upplýsingar eru í [Uppfæra gengi gjaldmiðils](finance-how-update-currencies.md).
 
-## <a name="setting-up-an-acy"></a>Uppsetning AGM
+## Uppsetning AGM
 
 Til að setja upp AGM skal fylgja eftirfarandi skrefum:
 
@@ -47,7 +47,7 @@ Til að setja upp AGM skal fylgja eftirfarandi skrefum:
 - Tilgreinið aðferð fyrir gengisleiðréttingu í VSK-færslum  
 - Virkja AGM.  
 
-### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana
+### Tilgreinið fjárhagsreikninga fyrir leiðréttingu á gengi bókana  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Gjaldmiðlar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Gjaldmiðlar skal** fylla út eftirfarandi reiti fyrir AGM.  
@@ -64,7 +64,7 @@ Til að setja upp AGM skal fylgja eftirfarandi skrefum:
 
 Fyrir hvern fjárhagsreikning þarf að tilgreina hvernig fjárhagsupphæðir fyrir þann reikning eru leiðréttar vegna gengissveiflna milli SGM og AGM.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga
+### Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókhaldslykill** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Bókhaldslykill** skal velja viðeigandi lykil og síðan velja aðgerðina **Breyta**.  
@@ -82,7 +82,7 @@ Fyrir hvern fjárhagsreikning þarf að tilgreina hvernig fjárhagsupphæðir fy
 
 4.  Síðunni **Fjárhagsspjald** lokað.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum
+### Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja viðeigandi aðferð í reitnum **VSK-gengisleiðrétting**.  
@@ -98,7 +98,7 @@ Fyrir hvern fjárhagsreikning þarf að tilgreina hvernig fjárhagsupphæðir fy
     |**Leiðrétta upphæð**|SGM-upphæðin er leiðrétt samkvæmt öllum gengishagnaði eða tapi. Gengishagnaður eða gengistap er bókað á fjárhagsreikninginn í reitinn **Upphæð** og á þá reikninga sem voru tilgreindir fyrir hagnað eða tap í reitunum **Reikningur orðins fjárh. hagnaðar** og **Reikningur orðins fjárh. taps** á síðunni **Gjaldmiðlar**.|  
     |**Leiðrétta upphæð annars gjaldmiðils**|AGM er leiðrétt samkvæmt gengishagnaði eða -tapi. Gengishagnaður eða gengistap er bókað á fjárhagsreikninginn í reitinn **Upphæð annars gjaldmiðils** og á þá reikninga sem voru tilgreindir fyrir hagnað eða tap í reitunum **Reikningur orðins fjárh. hagnaðar** og **Reikningur orðins fjárh. taps** á síðunni **Gjaldmiðlar**.|  
 
-### <a name="to-activate-the-acy"></a>Til að virkja AGM
+### Til að virkja AGM  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning fjárhags** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Fjárhagsgrunnur**, í reitnum **Annar skýrslugjaldmiðill**, skal velja annan gjaldmiðil sem á að gefa skýrslu í.  
@@ -125,7 +125,7 @@ Fyrir hvern fjárhagsreikning þarf að tilgreina hvernig fjárhagsupphæðir fy
 > [!NOTE]  
 > Reiturinn **Annar skýrslugjaldmiðill** verður aðeins virkur eftir að valinn hefur verið hnappurinn **Í lagi** í keyrslunni **Leiðrétta annan skýrslugjaldmiðil**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Uppfæra gengi](finance-how-update-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  

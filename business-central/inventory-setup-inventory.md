@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-inventory"></a>Uppsetning birgða
+# Uppsetning birgða
 
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
 
@@ -33,7 +33,7 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
 |Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  

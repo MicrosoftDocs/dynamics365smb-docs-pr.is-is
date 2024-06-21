@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
+# Bóka úrkast handvirkt
 
 Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina.  
 
 > [!NOTE]
 > Bent er á að úrkastsmagnið eykur ekki afkastamagnið.  
 
-## <a name="to-post-scrap-manually"></a>Úrkast bókað handvirkt:
+## Úrkast bókað handvirkt:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Úttaksbók** og velja síðan viðkomandi tengil.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Framleiðsla](production-manage-manufacturing.md)
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

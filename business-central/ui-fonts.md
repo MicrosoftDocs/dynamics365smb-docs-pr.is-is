@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="available-fonts"></a>Tiltækar leturgerðir
+# Tiltækar leturgerðir
 
 Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur foruppsettar leturgerðir á þjónunum sem hægt er að nota þegar skýrslur eru búnar til. Eftirfarandi hlutar tiltaka hvaða leturgerðir eru í boði.
 
 > [!NOTE]
 > Af öryggis-og lagaástæðum er ekki hægt að hlaða upp sérstilltum leturgerðum í [!INCLUDE[prod_short](includes/prod_short.md)] umhverfinu.
 
-## <a name="document-fonts"></a>Leturgerð skjals
+## Leturgerð skjals
 
 Eftirfarandi leturgerðir eru uppsettar og tiltækar til notkunar í Excel-, Word- og RDL-skýrsluútliti:
  
@@ -158,7 +158,7 @@ Eftirfarandi leturgerðir eru uppsettar og tiltækar til notkunar í Excel-, Wor
 * `Yu Gothic UI Semibold`
 * `Yu Gothic UI Semilight`
 
-## <a name="fonts-for-checks"></a>Leturgerðir fyrir ávísanir
+## Leturgerðir fyrir ávísanir
 
 Magnetic Ink Character Recognition (MICR) leturgerðir eru uppsettar og tilbúnar til notkunar. Bæði E-13B og CMC-7 staðallinn eru studdir.  
 
@@ -166,7 +166,7 @@ Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa t
 
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
 
-## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
+## Leturgerðir fyrir strikamerki
 Leturgerðir til að mynda strikamerki eru settar upp og hægt að nota í Word- og RDLC-skýrsluútliti.
 
 Eftirfarandi einvíð strikamerkjatákn eru studd:
@@ -186,7 +186,7 @@ Eftirfarandi tvívíð strikamerkjatákn eru studd:
 
 Frekari upplýsingar er að finna í [Letur strikamerkis í Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  

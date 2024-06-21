@@ -9,7 +9,7 @@ ms.date: 05/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Stofna verkflæði til að tengja verk í viðskiptaferlum
+# Stofna verkflæði til að tengja verk í viðskiptaferlum
 
 Hægt er að stofna verkflæði sem tengja verk í viðskiptaferlum sem eru framkvæmd af ólíkum notendum. Hægt er að taka kerfisverk eins og sjálfvirka bókun, sem skref í verkflæði sem á undan er komið eða á eftir notendaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
 
@@ -43,7 +43,7 @@ Verkflæði er skipt í þrjá hluta:
 
 Valkostir fyrir atburði og svör eru skilgreindir af kerfinu. Til að bæta við nýjum valkostum þarf að þróa viðbót.
 
-## <a name="to-create-a-workflow"></a>Til að stofna verkflæði
+## Til að stofna verkflæði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, færa inn **Verkflæði** og velja síðan viðkomandi tengil.  
 2. Valið er aðgerðin **Nýtt**. Síðan **Verkflæði** opnast.  
@@ -114,7 +114,7 @@ Valkostir fyrir atburði og svör eru skilgreindir af kerfinu. Til að bæta vi�
 > [!TIP]  
 > Til að kanna tengslin milli taflna sem notaðar eru í verkflæðum skal velja Eiginleikann ![Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknið skal færa inn **Verkflæði – Töflutengsl**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
+## Dæmi um hvernig nýtt verkflæði er búið til með því að nota fyrirliggjandi tilvik
 
 Eftirfarandi dæmi stofnar verkflæði til að samþykkja breytingu á heiti lánardrottins:
 
@@ -173,7 +173,7 @@ Eftirfarandi mynd birtir yfirlit yfir niðurstöður ferlisins.
 
 Næst skal prófa verkflæðið með því að opna lánardrottnaspjald sem þegar er til og breyta nafni þeirra. Ganga úr skugga um að beiðni um samþykki sé send eftir að nafni lánardrottins hefur verið breytt.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)  
 [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)  
