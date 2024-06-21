@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 
 
-# Breyta úr QuickBooks forriti í Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Breyta úr QuickBooks forriti í Dynamics 365 Business Central
 
 Vaxandi fyrirtæki eru að breytast úr fjármálaforritum eins QuickBooks Desktop og og QuickBooks Online, sem eru hönnuð fyrir gangsetningu og önnur lítil fyrirtæki, til [!INCLUDE[prod_short](includes/prod_short.md)], sem styður einnig stærri, flóknari samtök. 
 
@@ -27,11 +27,11 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 * [QuickBooks Desktop gagnaflutningsviðbótin](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Online gagnaflutningsviðbótin](ui-extensions-quickbooks-online-data-migration.md)
 
-## Tilbúið?
+## <a name="ready-now"></a>Tilbúið?
 
 Ef þú ert tilbúinn að byrja núna skaltu velja ![Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning með hjálp** og velja síðan viðkomandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)   

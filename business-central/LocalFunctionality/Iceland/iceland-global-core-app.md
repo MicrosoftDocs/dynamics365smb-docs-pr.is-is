@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Uppsetning W1-grunnforrits á Íslandi
+# <a name="iceland-w1-core-app-setup"></a>Uppsetning W1-grunnforrits á Íslandi
 
 Microsoft lauk seinkunarferlinu fyrir íslenska [!INCLUDE[prod_short](../../includes/prod_short.md)] útgáfu 24.0. Nýja íslenska staðfæringin notar W1 grunnforritið og allar staðfæringaraðgerðir eru afhentar sem forrit. Flutningurinn er ekki sjálfgefinn. Notendur verða að gera það handvirkt þegar þeir ákveða að ljúka þessu ferli.
 
@@ -27,7 +27,7 @@ Til að ljúka flutningi á nýju staðfæringarlíkani skal fylgja eftirfarandi
 4. Velja skal reitinn **Sem samþykkir gagnauppfærslureitinn** til að staðfesta að þú skiljir uppfærsluferlið og samþykkir að byrja áfram. Við mælum mjög með því að þú velur hlekkinn **Sem hefur áhrif** á gögnin til að fara yfir viðkomandi gögn.
 5. Valið er **Ljúka**.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Listi yfir staðbundnar aðgerðir á Íslandi](iceland-local-functionality.md)  
 [Vinna með [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  

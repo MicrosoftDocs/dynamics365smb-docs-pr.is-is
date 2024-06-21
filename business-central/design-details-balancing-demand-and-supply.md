@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# Upplýsingar um hönnun: Jöfnun framboðs og eftirspurnar
+# <a name="design-details-balancing-supply-and-demand"></a>Upplýsingar um hönnun: Jöfnun framboðs og eftirspurnar
 
 Til að skilja hvernig áætlunarkerfið virkar er mikilvægt að skilja markmiðin sem hafa forgangsraðað:  
 
@@ -18,7 +18,7 @@ Til að skilja hvernig áætlunarkerfið virkar er mikilvægt að skilja markmi�
 
 Almennt séð, er þessum markmiðum náð með því að jafna framboð við eftirspurn.  
 
-## Framboð og eftirspurn
+## <a name="supply-and-demand"></a>Framboð og eftirspurn
 
 Hugtakið *framboð* vísar til hvers kyns jákvæðs eða innleiðarmagns, svo sem:
 
@@ -46,7 +46,7 @@ Til að raða uppruna framboðs og eftirspurnar skipuleggur áætlunarkerfið þ
 
 Birgðastig og áætlunarfæribreytur eru aðrar gerðir framboðs og eftirspurnar. Þessar tegundir gangast undir samþætta mótun til að fylla á vörur í birgðum. Nánari upplýsingar um [hönnun: Meðhöndlun endurpöntunarstefnu](design-details-handling-reordering-policies.md).
 
-## Hugtakið jöfnun, í stuttu máli
+## <a name="the-concept-of-balancing-in-brief"></a>Hugtakið jöfnun, í stuttu máli
 
 Eftirspurnin kemur frá viðskiptamönnum. Framboð er það sem stofnað er og fjarlægt til að koma á jafnvægi. Áætlunarkerfið hefst á eftirspurninni og rekur síðan afturábak að framboðinu.  
 
@@ -56,7 +56,7 @@ Markmið áætlunarinnar er að jafna framboð og eftirspurn vöru til að trygg
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Yfirlit yfir jöfnun framboðs og eftirspurnar.":::
 
-## Vinna pantanir fyrir upphafsdagsetningu áætlunarinnar
+## <a name="process-orders-before-the-planning-start-date"></a>Vinna pantanir fyrir upphafsdagsetningu áætlunarinnar
 
 Til að forðast að framboðsáætlun sýni óraunhæfar tillögur mun áætlunarkerfið ekki áætla neitt á tímabilinu fyrir upphafsdagsetningu áætlunarinnar. Eftirfarandi regla á við um það tímabil:
 
@@ -70,11 +70,11 @@ Með nokkrum undantekningum mun áætlunarkerfið ekki leggja til breytingar á 
 
 Ef fyrstu tiltæku birgðir eru undir núlli leggur áætlanakerfið til neyðarbirgðapöntun daginn fyrir áætlunartímabilið til að ná yfir magnið sem vantar. Áætlaðar og tiltækar birgðir verða því alltaf að minnsta kosti núll þegar áætlanir um framtíðartímabilið hefjast. Áætlunarlínan fyrir þessa framboðspöntun birtir viðvörunartákn neyðarviðvörunar og veitir viðbótarupplýsingar.
 
-### Rað- og lotunúmer og tenglar í pöntun eru undanþegnir fyrra tímabili  
+### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Rað- og lotunúmer og tenglar í pöntun eru undanþegnir fyrra tímabili
 
 Ef rað- eða lotunúmera er krafist eða tengill fyrir pöntun er til hunsar áætlunarkerfið regluna um fyrra tímabil. Í honum er bakdagsett magn frá upphafsdagsetningu og gæti lagt til leiðréttingaraðgerðir ef framboð og eftirspurn eru ekki samstillt. Þessi eftirspurnar-framboðssett verða að passa til að tryggja að tiltekinni eftirspurn sé uppfyllt.
 
-## Álag birgðaforstillingar
+## <a name="load-inventory-profiles"></a>Álag birgðaforstillingar
 
 Til að raða uppruna framboðs og eftirspurnar skipuleggur áætlunarkerfið þær eftir tveimur tímalínum sem kallast birgðaforstillingar.  
 
@@ -98,7 +98,7 @@ Almennt séð, áætlanagerðarkerfi telur allar framboðspantanir eftir áætlu
 
 Auk þess að hlaða inn framboðs- og eftirspurnartegundum eru ákveðnar tegundir hlaðnar með athygli að sérstökum reglum og tengslum. Eftirfarandi kaflar í þessari grein lýsa þessum reglum og tengslum.  
 
-### Vöruvíddir eru aðgreindar  
+### <a name="item-dimensions-are-separated"></a>Vöruvíddir eru aðgreindar
 
 Reikna þarf birgðaáætlun fyrir hverja samsetningu af vöruvíddum, eins og afbrigði og birgðageymslu. Aðeins þarf að reikna samsetningar sem hafa eftirspurn og/eða framboð.  
 
@@ -107,7 +107,7 @@ Reikna þarf birgðaáætlun fyrir hverja samsetningu af vöruvíddum, eins og a
 > [!NOTE]  
 > Ekki þarf að færa inn birgðahaldseiningarfærslu þegar færð er inn eftirspurn og/eða framboð fyrir tiltekna samsetningu afbrigðis og birgðageymslu. Ef birgðahaldseining er ekki til fyrir tiltekna samsetningu [!INCLUDE [prod_short](includes/prod_short.md)]  stofnar bráðabirgða birgðahaldseiningarfærsla sem byggð er á gögnum úr vörunni. Ef kveikt er á Birgðageymslunni áskilin **á síðunni**  **Birgðagrunnur verður annað hvort að stofna birgðahaldseiningu eða kveikja á** vífæringu á Íhlutum á staðnum **.**  Fræðast meira um áætlun [með eða án birgðageymslna](production-planning-with-without-locations.md).  
 
-### Rað- og lotunúmer eru hlaðin inn með lýsingarstigi  
+### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Rað- og lotunúmer eru hlaðin inn með lýsingarstigi
 
 Rað- og lotunúmer eru hlaðin inn í birgðaforstillingarnar ásamt framboðinu og eftirspurninni sem þeim er úthlutað til.  
 
@@ -122,7 +122,7 @@ Framboðs- og eftirspurnareigindum er raðað eftir forgangi pöntunar og skilgr
 
 Mótjöfnun rað- og lotunúmers virðir ekki regluna um að áætla ekki neitt fyrir upphafsdagsetningu áætlunarinnar. Ef framboð og eftirspurn eru ekki samstillt mun áætlunarkerfið leggja til breytingar eða nýjar pantanir, óháð upphafsdagsetningu áætlunarinnar.  
 
-### Tenglar fyrir pöntun eru aldrei rofnir
+### <a name="order-to-order-links-are-never-broken"></a>Tenglar fyrir pöntun eru aldrei rofnir
 
 Þegar vara sem er áætluð eftir pöntun er áætluð má aðeins nota tengda framboðið fyrir það sem hún var upphaflega ætluð. Tengda eftirspurnin ætti ekki að ná yfir annað framboð, jafnvel þó að birgðir séu tiltækar í tíma og magni. Til dæmis er ekki hægt að nota samsetningarpöntun sem er tengd sölupöntun í samsetningartilviki til að ná yfir aðra eftirspurn.  
 
@@ -136,17 +136,17 @@ Framboð og eftirspurn eftir pöntunum þarf að jafna nákvæmlega. Áætlunark
 > [!NOTE]  
 > Spár ættu ekki að leiða til þess að stofnaðar séu nýjar birgðapantanir sem eru bundnar af pöntun-í-pöntun tengslum. Ef spáin er notuð ætti aðeins að nota hana til að mynda háða eftirspurn í framleiðsluumhverfi.
 
-### Íhlutaþörf er hlaðin samkvæmt breytingum á framleiðslupöntunum
+### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Íhlutaþörf er hlaðin samkvæmt breytingum á framleiðslupöntunum
 
 Við meðhöndlun framleiðslupantana verður  áætlanakerfið að fylgjast með nauðsynlegum íhlutum áður en þeim er hlaðið í eftirspurnarforstillinguna. Íhlutalínur sem verða til vegna breyttrar framleiðslupöntunar koma í stað lína upphaflegu pöntunarinnar. Breytingin tryggir að áætlunarkerfið tvítekur ekki áætlunarlínur fyrir íhlutaþörf.  
 
-### Nota öryggisbirgðir
+### <a name="consume-safety-stock"></a>Nota öryggisbirgðir
 
 Magn í öryggisbirgðum er eftirspurn sem er hlaðin inn í birgðaforstillinguna á upphafsdagsetningu áætlunarinnar.  
 
 Öryggisbirgðir er magn birgða sem er til hliðsjónar til að mæta óvissu í eftirspurn meðan á áfyllingu stendur. Hins vegar er hægt að nota hana til að uppfylla eftirspurn. Í því tilviki tryggir áætlunarkerfið að skipt sé um öryggisbirgðir á fljótlegan hátt. Kerfið leggur til framboðspöntun til að fylla á magn öryggisbirgða á þeim degi sem það er notað. Áætlunarlínan birtir viðvörunartákn fyrir frávik sem útskýrir að öryggisbirgðir hafi verið notaðar að hluta eða að fullu í frávikspöntun fyrir magn sem vantar.  
 
-### Dregið er úr eftirspurn spár með sölupöntunum
+### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Dregið er úr eftirspurn spár með sölupöntunum
 
 Eftirspurnarspá tjáir áætlaða framtíðareftirspurn. Þegar rauneftirspurn er slegin inn, yfirleitt sem sölupantanir fyrir framleiddar vörur, notar hún spána.
 
@@ -163,13 +163,13 @@ Spáin getur verið fyrir mismunandi eftirspurnartegundir:
 
 Vara getur haft báðar gerðir spár. Notkun gerist sérstaklega við áætlun, fyrst fyrir sjálfstæða eftirspurn og síðan fyrir ósjálfstæða eftirspurn.  
 
-### Dregið er úr eftirspurn standandi pöntunar í sölupöntunum
+### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Dregið er úr eftirspurn standandi pöntunar í sölupöntunum
 
 Spá er viðbót við standandi sölupantanir sem leið til að tilgreina framtíðareftirspurn frá tilteknum viðskiptamanni. Eins og í (ótilgreindri) spá ætti raunveruleg sala að nota áætlaða eftirspurn og eftirstandandi magn ætti að færa inn birgðaforstillingu eftirspurnar. Notkun dregur ekki úr magni standandi pöntunar.
 
 Áætlunarútreikningurinn felur í sér opnar sölupantanir sem tengjast tiltekinni línu standandi pöntunar, en hann er ekki með neinu gildu tímabili. Einnig eru ekki bókaðar pantanir þar sem bókunarferlið hefur þegar dregið úr útistandandi magni standandi pöntunar.
 
-## Forgangsraða pöntunum
+## <a name="prioritize-orders"></a>Forgangsraða pöntunum
 
 Innan tiltekinnar birgðahaldseiningar sýnir umbeðin dagsetning eða tiltæk dagsetning mestan forgang. Eftirspurnin í dag ætti að lúta fyrir eftirspurn næstu viku. En til viðbótar þessum heildarforgangi gerir áætlunarkerfið eftirfarandi tillögur í samræmi við forgangsröðun pöntuna:
 
@@ -178,7 +178,7 @@ Innan tiltekinnar birgðahaldseiningar sýnir umbeðin dagsetning eða tiltæk d
 
 Hlaðið framboð og eftirspurn stuðla að forstillingu á áætluðum birgðum samkvæmt forgangsröðun.  
 
-### Forgangur eftirspurnarhliðarinnar  
+### <a name="priorities-on-the-demand-side"></a>Forgangur eftirspurnarhliðarinnar
 
 1. Þegar afhent: birgðafærsla  
 2. Vöruskilapöntun innkaupa  
@@ -193,7 +193,7 @@ Hlaðið framboð og eftirspurn stuðla að forstillingu á áætluðum birgðum
 > [!NOTE]  
 > Innkaupaskil koma yfirleitt ekki við í framboðsáætlun; Þær ætti alltaf að taka frá úr lotunni sem verður skilað. Ef ekki er tekið frá gegna innkaupaskil hlutverki í framboði og þeim er mjög forgangsraðað til að forðast það að áætlunarkerfið leggi til framboðspöntun eingöngu til að þjónusta innkaupaskil.  
 
-### Forgangur framboðs  
+### <a name="priorities-on-the-supply-side"></a>Forgangur framboðs
 
 1. Þegar í birgðum: birgðafærsla (sveigjanleiki áætlunar = enginn)  
 2. Vöruskilapöntun sölu (Sveigjanleiki áætlunar = Ekkert)  
@@ -202,7 +202,7 @@ Hlaðið framboð og eftirspurn stuðla að forstillingu á áætluðum birgðum
 5. Samsetningarpöntun  
 6. Innkaupapöntun  
 
-### Forgangur tengdur framboði og eftirspurn  
+### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Forgangur tengdur framboði og eftirspurn
 
 Auk forgangsraðar frá gerð framboðs og eftirspurnar eru aðrir hlutir sem hafa áhrif á sveigjanleika áætlunar. Til dæmis vöruhúsaaðgerðir og staða eftirfarandi pantana:
 
@@ -220,7 +220,7 @@ Staða þessara pantana hefur eftirfarandi áhrif:
 4. Fastáætluð framleiðslupöntun (sveigjanleiki áætlunar = ótakmarkaður)  
 5. Áætlað/opið – allar pantanagerðir (Sveigjanleiki áætlunar = Ótakmarkaður)
 
-## Jöfnun framboðs og eftirspurnar
+## <a name="balancing-supply-with-demand"></a>Jöfnun framboðs og eftirspurnar
 
 Áætlunarkerfið stemmir af framboð og eftirspurn með því að leggja til aðgerðir til að endurskoða framboðspantanir sem ekki eru jafnaðar. Þessi staða gerist fyrir hverja samsetningu afbrigðis og birgðageymslu.  
 
@@ -254,7 +254,7 @@ Hver atburður vísar til upprunagerðar og kennis. Reglurnar um mótun vörunna
 
  Ferlið byrjar allt á næstu eftirspurn og núverandi framboði eða öfugt. Núverandi framboð gæti náð yfir þessa eftirspurn líka eða núverandi eftirspurn hefur ekki enn verið að fullu tryggðir.  
 
-### Reglur um aðgerðir fyrir framboðsviðburði
+### <a name="rules-for-actions-for-supply-events"></a>Reglur um aðgerðir fyrir framboðsviðburði
 
 Efst-niður útreikningar þar sem framboð verður að uppfylla eftirspurn er eftirspurnin tekin sem gefin. Hún er utan stjórnunar áætlunarkerfisins. Hins vegar getur áætlunarkerfið stjórnað framboðshliðinni og gert eftirfarandi tillögur:
 
@@ -297,7 +297,7 @@ Almennt hefur öll framboð áætlunarsveigjanleika sem takmarkast af skilyrðum
 * **Hætta við**: Sem sérstakt tilvik af aðgerðinni minnka magn er hægt að hætta við framboðspöntun ef hún hefur verið minnkuð í núll. 
 * **Nýtt: Ef engar** framboðspantanir eru til staðar eða fyrirliggjandi pöntun er ekki hægt að breyta til að uppfylla það magn sem þarf á skiladegi eftirspurnarinnar er lögð til ný framboðspöntun.  
 
-### Ákvarða framboðsmagn  
+### <a name="determine-the-supply-quantity"></a>Ákvarða framboðsmagn
 
 Áætlunarfæribreyturnar sem stýra magninu sem lagt er til í hverri framboðspöntun eru skilgreindar.  
 
@@ -311,7 +311,7 @@ Magninu sem lagt er til gæti verið breytt í þessari röð:
 2. Upp að lágmarksmagni pöntunar.  
 3. Upp til að mæta næsta margfeldi pöntunar.
 
-### Rakningartenglar pantana við áætlun  
+### <a name="order-tracking-links-during-planning"></a>Rakningartenglar pantana við áætlun
 
 Fyrir pöntunarrakningu við áætlun endurraða áætlunarkerfið pöntunarrakningartenglum fyrir samsetningar á vörum, afbrigðum og birgðageymslum. Kerfið endurraðar rakningartenglum af eftirfarandi ástæðum:
 
@@ -325,7 +325,7 @@ Með tímanum verða pöntunarrakningartenglar úr jafnvægi. Tenglarnir verða 
 > [!NOTE]  
 > Jafnvel þótt varan sé ekki sett upp fyrir kvika rakningu pöntunar býr áætlunarkerfið til samhæfða rakningartengla pöntunar.
 
-## Loka jafnað framboði og eftirspurn
+## <a name="close-balanced-supply-and-demand"></a>Loka jafnað framboði og eftirspurn
 
 Jöfnun framboðs hefur þrjár mögulegar niðurstöður:
 
@@ -335,7 +335,7 @@ Jöfnun framboðs hefur þrjár mögulegar niðurstöður:
 
 Að lokum stofnar áætlunarkerfið rakningartengil pöntunar milli framboðs og eftirspurnar.  
 
-### Stofna áætlunarlínuna (Aðgerð tillaga)  
+### <a name="create-the-planning-line-suggested-action"></a>Stofna áætlunarlínuna (Aðgerð tillaga)
 
  **Ef ný,Breyta** **magni**, **Endurtímasetja**, **Endurtímasetja og Breyta magni** eða **Hætta við** er lögð til að endurskoða framboðspöntunina stofnar áætlunarlína á áætlunarvinnublaðinu. Fyrir pöntunarrakningu er áætlunarlínan ekki aðeins stofnuð þegar birgðatilvikinu er lokað heldur einnig ef eftirspurnartilvikinu er lokað. Þetta á við jafnvel þótt framboðsviðburðurinn sé enn opinn og gæti breyst þegar næsta eftirspurnarvik er unnið. Áætlunarlínunni kann að breytast aftur þegar hún er stofnuð.
 
@@ -345,7 +345,7 @@ Til að minnka álagið á gagnagrunninum þegar unnið er með framleiðslupant
 * Taka leið með: áætluðu leiðina felur í sér útreikning á upphafs- og lokadagsetningum og tímasetningum. Taka leið með er eftirspurn eftir aðgangi að gagnagrunni. Ef ákvarða á loka- og skiladagsetningar getur verið nauðsynlegt að reikna leiðina jafnvel þótt birgðavikinu hafi ekki verið lokað. Ef til dæmis er verið að gera framvirka tímasetningu.  
 * Taka með niðurbrot uppskriftar: það getur gerst rétt áður en birgðatilvikinu er lokað.
 
-## Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
 
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)  
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur](design-details-handling-reordering-policies.md)  

@@ -10,11 +10,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vottanir
+# <a name="certifications"></a>Vottanir
 
 Þetta efni inniheldur upplýsingar um vottanir í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Vottanir og faggildingar tiltekins lands/svæðis
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Vottanir og faggildingar tiltekins lands/svæðis
 
 Í sumum löndum eða svæðum þarf bókhaldshugbúnaður að vera vottaður í samræmi við staðbundnar skattareglur og fjárhagslegar kröfur. Sum lönd beita þessu sem endurtekinnar kröfu á hverju ári og önnur sem einnar kröfu til að fara eftir. Hér fyrir neðan er listi yfir löndin eða svæðin þar sem Business Central hefur náð vottunum.
 
@@ -29,11 +29,11 @@ ms.reviewer: bholtorf
 > [!NOTE]  
 > Í löndum eða svæðum þar sem Microsoft gefur ekki út staðbundna útgáfu er það yfirleitt allt til samstarfsaðila að ná vottun á Business Central grunnvörunni sem inniheldur staðfæringar- og reglugerðaeiginleika félagans.
 
-## Aðrar vottanir
+## <a name="other-certifications"></a>Aðrar vottanir
 
 Business Central sem skýjaþjónusta hefur einnig náð vottunum, svo sem ISO 27001. Fyrir heilan lista yfir þessar vottanir skal [sækja Microsoft Dynamics 365 Gagnablað um samhæfi](https://aka.ms/d365-compliance-list) skýjaþjónustu.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  

@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Villuskilaboð: „Bókunardagsetning er ekki á leyfilegu bili bókunardagsetninga ...“
 
  **Þegar keyrslan** Leiðr. kostnað - Birgðafærslur er notuð er hægt að keyra eftirfarandi villuboð:
 
@@ -18,7 +18,7 @@ ms.service: dynamics-365-business-central
 
 Þessi skilaboð gefa til kynna að ekki sé heimilt að bóka færslur fyrir dagsetninguna sem færð var inn. Hægt er að komast utan um þetta mál með því að breyta notandauppsetningunni.
 
-## Breyta uppsetningu notanda  
+## <a name="change-the-user-setup"></a>Breyta uppsetningu notanda
 
 |Auðkenni notanda  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ ms.service: dynamics-365-business-central
 
 Í þessu tilviki er heimilt að bóka á tímabilinu frá 11. september til 30. september. Hins vegar er ekki heimilt að bóka leiðréttingarvirðisfærsluna með 10. september bókunardagsetningu.  
 
-### Yfirlit yfir uppsetningu bókunardagsetninga
+### <a name="overview-of-the-posting-date-setup"></a>Yfirlit yfir uppsetningu bókunardagsetninga
 
-#### Birgðatímabil
+#### <a name="inventory-periods"></a>Birgðatímabil
 
 |Lokadagur  |Nafn  |Lokað  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ ms.service: dynamics-365-business-central
 |2020-11-30     |Nóvember 2020   |         |
 |2020-12-31     |Desember 2020   |         |  
 
-#### Uppsetning fjárhags
+#### <a name="general-ledger-setup"></a>Uppsetning fjárhags
 
 |Svæði|Gildi:|
 |---------|---------|
@@ -54,7 +54,7 @@ ms.service: dynamics-365-business-central
 |Skrá tíma:       |         |
 |Snið staðbundins aðseturs:|   Póstnúmer      |  
 
-#### Notandaupplýsingar
+#### <a name="user-setup"></a>Notandaupplýsingar
 
 |Notandakenni  |Bókun leyfð frá  | Bókun leyfð til  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ ms.service: dynamics-365-business-central
 
 Með því að úthluta breiðari dagsetningasviði þar sem hægt er að bóka á síðurnar **Birgðatímabil** eða **Fjárhagsgrunnur** er hægt að koma í veg fyrir áreksturinn sem veldur villuboðunum. Til dæmis er hægt að bóka leiðréttingarvirðisfærsluna með 10. september bókunardagsetningu.
   
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

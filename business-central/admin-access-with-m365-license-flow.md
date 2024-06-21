@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# Aðgangsflæði notanda fyrir Microsoft 365 leyfi
+# <a name="user-access-flow-for-microsoft-365-licenses"></a>Aðgangsflæði notanda fyrir Microsoft 365 leyfi
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -30,7 +30,7 @@ Notandareikningurinn er nú skráður í Business Central og er hægt að stjór
 > [!NOTE]
 > Skref gætu verið breytileg eftir því hvort hafa verið tilgreindar einhverjar öryggisstillingar í Microsoft 365 eða Business Central.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Aðgangur að Business Central með Microsoft 365 leyfum](admin-access-with-m365-license.md#minimum-requirements)  
 [Setja upp aðgang með Microsoft 365 leyfum](admin-access-with-m365-license-setup.md)  

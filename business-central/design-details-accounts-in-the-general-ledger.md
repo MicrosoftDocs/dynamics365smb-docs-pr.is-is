@@ -10,11 +10,11 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Hönnunarupplýsingar: reikningar í fjárhag
+# <a name="design-details-accounts-in-the-general-ledger"></a>Hönnunarupplýsingar: reikningar í fjárhag
 
 Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag. Frekari upplýsingar, sjá [Hönnunarupplýsingar: afstemming við fjárhaginn](design-details-reconciliation-with-the-general-ledger.md)  
 
-## Úr fjárhag birgða  
+## <a name="from-the-inventory-ledger"></a>Úr fjárhag birgða
 
 Eftirfarandi tafla sýnir sambandið milli mismunandi gerða birgðavirðisfærsla og reikninga og mótreikninga í fjárhag.  
 
@@ -58,7 +58,7 @@ Eftirfarandi tafla sýnir sambandið milli mismunandi gerða birgðavirðisfærs
 |Samsetningarfrálag|Frávik|Sameiginl. kostn. framleiðslu|Nr.|Birgðir|Sam. frl.kostn. frávik|  
 |Samsetningarfrálag|Sléttun||Nr.|Birgðir|Birgðaleiðr.|  
 
-## Úr Afkastabók  
+## <a name="from-the-capacity-ledger"></a>Úr Afkastabók
 
  Eftirfarandi tafla sýnir sambandið milli mismunandi gerða afkastavirðisfærsla og reikninga og mótreikninga í fjárhag. Færslur í afkastahöfuðbók tákna vinnuafl neytt í samsetningu eða framleiðslu.  
 
@@ -69,13 +69,13 @@ Eftirfarandi tafla sýnir sambandið milli mismunandi gerða birgðavirðisfærs
 |Framleiðsla|Vélastöð/vinnustöð|Beinn kostnaður|Reikningur VÍV|Beinn kostnaður jafnaður|  
 |Framleiðsla|Vélastöð/vinnustöð|Óbeinn kostnaður|Reikningur VÍV|Sameiginl. kostnaður jafnaður|  
 
-## Samsetningarkostnaður er alltaf raunverulegur  
+## <a name="assembly-costs-are-always-actual"></a>Samsetningarkostnaður er alltaf raunverulegur
 
  Eins og sést í töflunni hér að ofan eru samsetningarbókanir ekki sýndar í bráðabirgðareikningum. Þetta er vegna þess að hugtakið um verk í vinnslu (VÍV) gildir ekki um bókun samsetningarúttaks, sem er frábrugðið bókun framleiðsluúttaks. Samsetningarkostnaður er aðeins bókaður sem raunverulegur kostnaður, aldrei áætlaður kostnaður.  
 
  Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
 
-## Útreikningur upphæðar sem á að bóka í fjárhag  
+## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Útreikningur upphæðar sem á að bóka í fjárhag
 
  Eftirfarandi reitir í töflunni **Gildisfærsla** eru notaðir til að reikna áætlaða kostnaðarupphæð sem er bókuð í fjárhag:  
 
@@ -91,7 +91,7 @@ Eftirfarandi tafla sýnir hvernig upphæðirnar sem á að bóka í fjárhag eru
 |Raunkostnaður|Kostnaðarupphæð (raunverul.). – kostnaður bókaður í fjárhag.|  
 |Væntanl. kostnaður|Kostnaðarupphæð (væntanleg)  - Væntanlegur kostnaður bókaður í fjárh.|  
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md)  

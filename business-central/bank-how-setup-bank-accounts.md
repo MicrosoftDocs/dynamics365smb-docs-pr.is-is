@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Bankareikningar settir upp
+# <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 
 Nota bankareikninga í [!INCLUDE[prod_short](includes/prod_short.md)] til að fylgjast með bankafærslum. Hægt er að hafa reikninga í SGM eða erlendum gjaldmiðli. Þegar bankareikningar hafa verið settir upp er einnig hægt að prenta tékka. Bankareikningar bjóða einnig upp á aðgerðir fyrir [greiðsluafstemmingu](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankaafstemmingu](bank-how-reconcile-bank-accounts-separately.md) og inn- og útflutning á bankaskrám.
 
@@ -79,7 +79,7 @@ Eftirfarandi myndband sýnir grunnskrefin til að setja upp bankareikning í [!I
 > [!WARNING]
 > Sumir reitir geta innihaldið viðkvæm gögn eins og reitirnir **Útibúsnúmer banka**, **Bankareikningsnr.**, **SWIFT-kóði** og **IBAN-númer**. Nánari upplýsingar eru í [reitunum Skjár sem viðkvæmir eru](across-log-changes.md#monitor-sensitive-fields).
 
-## Bankareikningar settir upp
+## <a name="to-set-up-bank-accounts"></a>Bankareikningar settir upp
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar**, velja síðan viðkomandi tengil.
 2. Á síðunni **bankareikningar** skal velja aðgerðina **Nýtt**.
@@ -149,7 +149,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Að færa inn opnunarstöðu
+## <a name="to-enter-an-opening-balance"></a>Að færa inn opnunarstöðu
 
 Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Færslan er bókuð með afstemmingu bankareiknings. Frekari upplýsingar er að finna á [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -158,7 +158,7 @@ Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bók
 > [!IMPORTANT]
 > Ekki bóka opnunarstöðuna beint í fjárhag. Færslur í fjárhagsreikningi sem bókaðar voru beint á hann koma yfirleitt í veg fyrir að bankareikningur sé stemmdur af. Með bankareikningum í erlendum gjaldmiðli leiðir bein bókun af mismuni sem safnast upp eftir því sem fleiri bankaafstemmingar eru bókaðar. Yfirleitt er opnunarstaða banka bókuð beint á bankareikninginn og upphæðin endar á fjárhagsreikningnum. Annars geturðu seinna bakfært hana út af fjárhagsreikningnum sem þú notar jafna opnunarstöðu fjárhagsins. Í báðum tilvikum þarf að jafna allar beinar bókanir á fjárhagsreikninginn áður en þú byrjar fyrstu bankaafstemminguna&mdash;sérstaklega ef bankareikningurinn er í erlendum gjaldmiðli.
 
-## Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
 
 Reitirnir sem tengjast innflutningi og útflutningi bankastraums og skráa eru í flýtiflipanum **Millifærsla** á síðunni **Bankareikningsspjald**. Frekari upplýsingar er að finna í [Notkun AMC Banking 365 Fundamentals viðbótar](ui-extensions-amc-banking.md) og [Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md).
 
@@ -211,13 +211,13 @@ Eftirfarandi mynd sýnir leið greiðslna á útleið. Tölurnar í lýsingunni 
   :::column-end:::
 :::row-end:::
 
-## Til að setja upp bankareikninga lánardrottna fyrir útflutning bankaskráa
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Til að setja upp bankareikninga lánardrottna fyrir útflutning bankaskráa
 
 Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald lánardrottins** eru tengdir útflutningi á bankastraumum og skrám. Frekari upplýsingar er að finna í [Nota AMC Banking 365 Fundamentals viðbót](ui-extensions-amc-banking.md) og [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Bankareikningnum breytt
+## <a name="changing-your-bank-account"></a>Bankareikningnum breytt
 
 Til að nota annan bankareikning fyrir reksturinn þarf að stofna nýja bankareikninginn í [!INCLUDE[prod_short](includes/prod_short.md)]. Mælt er með því að þú skiptir ekki bara um upplýsingar um reikninginn sem þú notar þar sem það getur valdið röngum gögnum. Til dæmis gæti opnunarstaðan verið röng eða bankagjaldið gæti hætt að virka á réttan hátt. Það er mikilvægt að halda núverandi og nýjum reikningum aðskildum.
 
@@ -228,7 +228,7 @@ Eftir að nýi bankareikningurinn hefur verið stofnaður ættir þú einnig að
 
 Til að fá samþjappaðra yfirlit yfir sjóðsreikninga í fjárhagsskýrslugerð skal nota reikningana **Samtala í upphafi** og **Samtala í lok** í bókhaldslyklinum, línurnar **Samtölur** í fjárhagsskýrslum eða flokkum fjárhagsreikninga. Frekari upplýsingar er að finna í [Viðskiptagreind og Financial Reporting](bi.md) hlutanum.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Uppsetning bókunarflokka](finance-posting-groups.md)  

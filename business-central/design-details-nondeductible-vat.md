@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Upplýsingar um hönnun: Ófrádráttarbær VSK
+# <a name="design-details-non-deductible-vat"></a>Upplýsingar um hönnun: Ófrádráttarbær VSK
 
 Virðisaukaskattur sem ekki er frádráttarbær (VSK) er VSK sem kaupandi greiðir en er ekki frádráttarbær frá eigin VSK-skuld kaupanda. Þar sem erfitt getur verið að vita hvar og hvernig vara er notuð þarf að hafa samband við skattyfirvöld í viðkomandi landi eða svæði til að ákvarða hvort tiltekin prósenta af VSK sé frádráttarbær. Jafnvel þó vitað sé að tiltekin prósenta af VSK sé ekki frádráttarbær eru mismunandi gerðir til að **meðhöndla upphæðir sem ekki eru frádregnar þar sem þær tengjast vörum** og **eignum**.
 
-## Skilyrði fyrir notkun VSK sem ekki er frádráttarbær
+## <a name="prerequisites-for-using-non-deductible-vat"></a>Skilyrði fyrir notkun VSK sem ekki er frádráttarbær
 
 Til að nota og bóka frádráttarbæran VSK skal fylgja þessum skrefum.
 
 1. Á síðunni **VSK-uppsetning** skal velja Gera ófrádráttarbæran VSK **virkan** til að gera aðgerðina virka.
 2. Á síðunni **VSK-bókunargrunnur** skal velja hvaða VSK-bókunarflokkar geta notað ófrádráttarbæran VSK.
 
-## Dæmi
+## <a name="examples"></a>Dæmi
 
 Fyrir eftirfarandi dæmi er VSK sem ekki er frádráttarbær og eftirfarandi uppsetningu er lokið:
 
@@ -39,7 +39,7 @@ Fyrir eftirfarandi dæmi er VSK sem ekki er frádráttarbær og eftirfarandi upp
 
 Öll dæmin nota vörur og eignir þar sem VSK-vörubókunarflokkurinn er **NDVAT**.
 
-### Vörur
+### <a name="items"></a>Vörur
 
 Ný vara hefur **NDVAT stillt** sem VSK-vörubókunarflokk. Í innkaupaskjalinu, **Magn** = **1** og **Innk.verð án VSK** = **1,000,00**.
 
@@ -54,19 +54,19 @@ Upplýsingarnar eru birtar í **virðisfærslunum**.
 > [!NOTE]
 > Hægt er að virkja reitinn **Nota fyrir vörukostnað** á síðunni **VSK-uppsetning** .
 
-#### Notkun fyrir vörukostnað er ekki virk
+#### <a name="use-for-item-cost-isnt-enabled"></a>Notkun fyrir vörukostnað er ekki virk
 
 | Tegund birgðafærslu | Færslugerð | Kostnaðarupphæð (raunveruleg) | Magn birgðafærslu |
 |---|---|---|---|
 | Innkaup | Beinn kostnaður | 1,000.00 | 1 |
 
-#### Notkun fyrir vörukostnað er virk
+#### <a name="use-for-item-cost-is-enabled"></a>Notkun fyrir vörukostnað er virk
 
 | Tegund birgðafærslu | Færslugerð | Kostnaðarupphæð (raunveruleg) | Magn birgðafærslu |
 |---|---|---|---|
 | Innkaup | Beinn kostnaður | 1,250.00 | 1 |
 
-### Eignir
+### <a name="fixed-assets"></a>Eignir
 
 Ný eign hefur kostnaðarreikning stofnkostnaðar stillt á að nota **NDVAT** sem VSK-vörubókunarflokk. Í innkaupaskjalinu, **Magn** = **1** og **Innk.verð án VSK** = **1,000,00**.
 
@@ -81,20 +81,20 @@ Upplýsingarnar eru birtar í **Eignafærslunum**.
 > [!NOTE]
 > Hægt er að virkja reitinn **Nota fyrir eignakostnað** á síðunni **VSK-uppsetning** .
 
-#### Notkun fyrir eignakostnað er ekki virkjuð
+#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Notkun fyrir eignakostnað er ekki virkjuð
 
 | Gerð fylgiskjals | Eignabókunartegund | Upphæð | VSK-upphæð |
 |---|---|---|---|
 | Reikningsfæra | Kaupverð | 1,000.00 | 250.00 |
 
-#### Notkun fyrir eignakostnað er virkjuð
+#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Notkun fyrir eignakostnað er virkjuð
 
 | Gerð fylgiskjals | Eignabókunartegund | Upphæð | VSK-upphæð |
 |---|---|---|---|
 | Reikningsfæra | Kaupverð | 1,000.00 | 250.00 |
 | Reikningsfæra | Kaupverð | 250.00 | 0.00 |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp ófrádráttarbæran VSK](finance-setup-nondeductible-vat.md)  
 [Fjármál](finance.md)  

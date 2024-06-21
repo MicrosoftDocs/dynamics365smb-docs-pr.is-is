@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
+# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Kynnt í útgáfutímabili 1 fyrir 2021.
 
@@ -21,7 +21,7 @@ ms.reviewer: jswymer
 - Deila tengilið sem spjaldi í spjalli á Teams.
 - Skoða tengiliðaupplýsingar nánar, samskiptasögu og annars konar innsýn á borð við útistandandi greiðslur eða opin skjöl.
 
-## Frumskilyrði
+## <a name="prerequisites"></a>Frumskilyrði
 
 - Þú hefur aðgang að Microsoft Teams.
 - Þú hefur sett upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið  í Teams. Frekari upplýsingar er að finna í [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)
@@ -30,7 +30,7 @@ ms.reviewer: jswymer
 > [!NOTE]
 > Hvort sem leitað er í skipanareitnum eða skrifglugganum, gæti verið beðið um innskráningu eða setja upp forritið í fyrsta skiptið. Þetta skref er nauðsynlegt til að leita að tengiliðum í Business Central fyrirtæki. Frekari upplýsingar um uppsetningu forritsins til að velja fyrirtækið er að finna í [Breyta fyrirtæki og öðrum stillingum í Teams](across-teams-settings.md).
 
-## Fletta upp tengiliðum úr skipanareitnum
+## <a name="look-up-contacts-from-the-command-box"></a>Fletta upp tengiliðum úr skipanareitnum
 
 Skipanareiturinn er efst á hverjum skjá í Teams. Hann gerir notendum kleift að leita, nota flýtiaðgerðir eða ræsa forrit eins og [!INCLUDE [prod_short](includes/prod_short.md)] forritið. Að leita úr skipanareitnum er frábær leið til að fletta upp tengiliðum og gögnum tengdum þeim á fljótlegan hátt til eigin nota. Til dæmis ef ætlunin er að fletta upp netfangi lánardrottins til að setja upp fund í dagatali. Eða kannski er ætlunin að fletta upp samskiptasögu á miðjum fundi við viðskiptavin.
 
@@ -51,7 +51,7 @@ Skipanareiturinn er efst á hverjum skjá í Teams. Hann gerir notendum kleift a
 
 Almennari upplýsingar um skipanareit Teams er að finna í [Teams - Notaðu skipanareitinn](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## Fletta upp tengiliðum úr skrifglugga skilaboða
+## <a name="look-up-contacts-from-the-message-compose-box"></a>Fletta upp tengiliðum úr skrifglugga skilaboða
 
 Kosturinn við að nota skrifglugga skilaboða er sá að hægt er að bæta tengiliðaspjaldi við samtal með beinum hætti þannig að aðrir geti séð það.
 
@@ -74,13 +74,13 @@ Kosturinn við að nota skrifglugga skilaboða er sá að hægt er að bæta ten
     > Tengiliðaspjaldið er ekki sent strax í spjallið þannig að aðrir geti séð það. Tækifæri gefst til að yfirfara innihald spjaldsins og bæta við texta fyrir eða eftir það að eigin vild. Því næst skal senda skilaboðin á spjallið þegar þau eru tilbúin.
 
 <!--
-### Here's another way
+### <a name="heres-another-way"></a>Here's another way
 
 1. Instead of using the **Business Central** icon, type **@Business Central** directly in the message compose box.
 2. Enter your search terms in the box.
 3. Use the up and down arrow keys on the keyboard to choose a contact, then select <kbd>Enter</kbd> to select it.-->
 
-## Upplýsingar tengiliðaspjalds skoðaðar
+## <a name="viewing-contact-card-details"></a>Upplýsingar tengiliðaspjalds skoðaðar
 
 Tengiliðaspjaldið í Teams býður upp á flýtiyfirlit yfir viðskiptavin, lánardrottin eða tengilið. Spjaldið er gagnvirkt&mdash;sem þýðir að hægt er að skoða frekari upplýsingar eða jafnvel breyta tengilið með því að nota hnappana **Upplýsingar** eða **Aðskilinn gluggi**.
 
@@ -91,7 +91,7 @@ Tengiliðaspjaldið virkar alveg eins og spjöld fyrir færslur eins og vörur, 
 > [!NOTE]
 > Allir þátttakendur í Teams-spjalli geta skoðað spjöld fyrir Business Central tengilið sem er sendur á spjallið. En til að skoða frekari upplýsingar um færslur með því að nota hnappana **Upplýsingar** eða **Sprettigluggi** á spjaldi, þurfa þeir að fá aðgang að [!INCLUDE [prod_short](includes/prod_short.md)]. Nánari upplýsingar er að finna í [Stjórnun Microsoft Teams samþættingar](admin-teams-integration.md#minimum-requirements-1).
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

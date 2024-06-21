@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-## Bestu venjur til að vinna með dálkskilgreiningar
+## <a name="best-practices-for-working-with-column-definitions"></a>Bestu venjur til að vinna með dálkskilgreiningar
 
 Dálkskilgreiningar eru ekki útgáfaðar. Þegar dálkaskilgreiningu er breytt er gömlu útgáfunni skipt út þegar breytingin er vistuð í gagnagrunninum. Eftirfarandi listi inniheldur nokkrar bestu venjur til að vinna með dálkskilgreiningar.
 

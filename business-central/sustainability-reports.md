@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Sjálfbærniskýrslur og greiningar í Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Sjálfbærniskýrslur og greiningar í Business Central
 
 Sjálfbærniskýrsla gefur fjármálastarfsfólki innsýn og tölfræði um núverandi og eldri sjálfbærnifjárfestingar og losun.  
 
-## Skýrslur
+## <a name="reports"></a>Skýrslur
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Verkefni
+## <a name="tasks"></a>Verkefni
 
 Eftirfarandi greinar lýsa nokkrum lykilverkefnum til að greina stöðu sjálfbærni viðleitni þinna:
 
 * [Reikna útblástur á grundvelli fjárhags](finance-sustainability-journal.md)
 
-## Skoða sjálfbærniskýrslur með skýrsluvafra
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Skoða sjálfbærniskýrslur með skýrsluvafra
 
 Til að fá yfirlit yfir þær skýrslur sem eru tiltækar til sjálfbærni skal velja **Allar skýrslur** á heimasíðunni. Þessi aðgerð opnar Hlutverkavafrann sem er afmarkaður við aðgerðirnar í valkostinum **Skýrsla & Greining** . Undir TODO-hausnum **skal** velja **Skoða**.
 
@@ -34,7 +34,7 @@ Til að fá yfirlit yfir þær skýrslur sem eru tiltækar til sjálfbærni skal
 
 Nánari upplýsingar eru í [Finna skýrslur með hlutverkavafranum](ui-role-explorer.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Tilfallukkagreining á sjálfbærnigögnum](ad-hoc-analysis-sustainability.md)   
 [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)   
