@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Flýtiræsing grunnskýrslna og skjala
+# <a name="basic-reports-and-documents-output-quick-start"></a>Flýtiræsing grunnskýrslna og skjala
 
 Til að aðlaga [!INCLUDE[prod_short](includes/prod_short.md)] að þörfum fyrirtækisins skaltu velja og nota skýrslur og sérsniðin skjöl sem henta viðskiptaferlum og ímynd rekstursins.
 
-## Bæta fyrirtækjamerki við skjöl
+## <a name="add-your-company-logo-to-documents"></a>Bæta fyrirtækjamerki við skjöl
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sniðmát til að nota merki fyrirtækisins til að spara þér tíma við að sérsníða skjöl eins og reikninga, pantanir og yfirlit.
 
@@ -26,7 +26,7 @@ Til að aðlaga [!INCLUDE[prod_short](includes/prod_short.md)] að þörfum fyri
 
 Þegar myndin birtist í reitnum **Mynd** er hægt að loka síðunni **Stofngögn** .
 
-## Keyra skýrslur
+## <a name="run-reports"></a>Keyra skýrslur
 
 Skýrslur skipuleggja upplýsingar frá ólíkum upprunum í [!INCLUDE[prod_short](includes/prod_short.md)] og sýna þær á læsilegan hátt sem auðvelt er að prenta eða deila á tölvutæku formi. Finna má skýrslur á síðunum sem tengjast samhengi þeirra. Síðan **Vörur** telur upp skýrslur sem tengjast birgðastöðum, innkaupum, sölu og fleiru.
 
@@ -38,7 +38,7 @@ Skýrslur skipuleggja upplýsingar frá ólíkum upprunum í [!INCLUDE[prod_shor
 
 Frekari upplýsingar um síun gagna, skýrsluáætlun og fleira í [Keyra og prenta skýrslur](ui-work-report.md).
 
-## Vista skýrslur sem PDF-, Excel- eða Word-skjöl
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Vista skýrslur sem PDF-, Excel- eða Word-skjöl
 
 Til að deila skýrslum á fljótlegan hátt er hægt að vista [!INCLUDE[prod_short](includes/prod_short.md)] skýrslur beint í PDF Microsoft Excel eða Microsoft Word skjölum.
 
@@ -47,7 +47,7 @@ Til að deila skýrslum á fljótlegan hátt er hægt að vista [!INCLUDE[prod_s
 3. Veldu skráargerðina, veldu síðan **Í lagi**.
 r Skýrsluskráin sem búin er til er sjálfkrafa vistuð í niðurhalsmöppu vafrans.
 
-### Breyta útliti skýrslna og skjala
+### <a name="change-report-and-document-layouts"></a>Breyta útliti skýrslna og skjala
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útlit fyrir skýrslurnar þínar og önnur mynduð skjöl, t.d. sölureikningar. Þú getur notað forrit eins og Microsoft Word eða Excel til að breyta sniðmátum fyrir skjöl og skýrslur eins og lýst er í eftirfarandi dæmi:
 
@@ -64,7 +64,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útli
 
 Frekari upplýsingar um hvernig á að sérsníða skýrslur og skjöl að þörfum fyrirtækisins er að finna í [Útlit skýrslna og skjala](ui-manage-report-layouts.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota skýrslur í daglegu starfi](reports-use-reports.md)  
 [Tiltækar skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

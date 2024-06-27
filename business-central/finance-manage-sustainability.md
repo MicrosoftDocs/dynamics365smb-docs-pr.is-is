@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Yfirlit yfir sjálfbærnistjórnun
+# <a name="sustainability-management-overview"></a>Yfirlit yfir sjálfbærnistjórnun
 
 > [!IMPORTANT]
 > Þessi aðgerð verður fáanleg í Business Central frá **2024 útgáfubylgju 1**. Allir tilvísunartenglar verða virkjaðir eftir að þeir eru tiltækir.
@@ -49,7 +49,7 @@ Til að byrja með sjálfbærnistjórnun skal nota eftirfarandi greinar.
 | **Integrations** |             |
 | [Sjálfbærni-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Notaðu þessa grein til að læra hvernig á að búa til tengd forrit sem ná yfir tengingu milli Business Central og sjálfbærnilausna og þjónustu sem er ekki frá Microsoft með API. |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sjálfbærniuppsetning](finance-sustainability-setup.md)    
 [Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)    
