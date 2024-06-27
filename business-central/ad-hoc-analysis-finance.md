@@ -34,12 +34,13 @@ Eftirfarandi hlutar gefa dæmi um fjármálaaðstæður. [!INCLUDE [prod_short](
 
 | Svæðarit | Til... | Opna þessa síðu í greiningarstillingu | Þessir reitir notaðir |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Vaxtareikningur (Útistandandi reikn.)](#example-finance-accounts-receivables) | Sjá hverju viðskiptamennirnir skulda, til dæmis, skipt niður í tímabil þegar upphæðir eru gjaldfallnar. | [Viðskm.færslur](https://businesscentral.dynamics.com/?page=25) | **Nafn viðskiptamanns**, **Gjalddagi** og **Eftirstöðvar** |
+|[Dæmi: Fjárhagur (Útistandandi skuldir)](#example-finance-accounts-receivable) | Sjá hverju viðskiptamennirnir skulda, til dæmis, skipt niður í tímabil þegar upphæðir eru gjaldfallnar. | [Viðskm.færslur](https://businesscentral.dynamics.com/?page=25) | **Nafn viðskiptamanns**, **Gjalddagi** og **Eftirstöðvar** |
 | [Vaxtareikningur (Safnreikningur)](#example-finance-accounts-payable) | Sjá hvað lánardrottnarnir skulda, kannski skipt niður í tímabil þegar upphæðir eru gjaldfaldar. | [Lánardr.færslur](https://businesscentral.dynamics.com/?page=29) | **Heiti lánardrottins, Tegund** fylgiskjals,Númer **fylgiskjals**, **Gjalddagaár**, **Gjalddaga mánuður** og **Eftirstöðvar**. **·** |
+| [Vaxtareikningar (Sölureikningar eftir fjárhagsreikningi)](#example-finance-sales-invoices-by-gl-account) | Sjá hvernig sölureikningar dreifast á fjárhagsreikninga úr bókhaldslyklinum, til dæmis, skipt niður í tímabil þegar upphæðir voru bókaðar. | [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) | **Heiti** fjárhagsreiknings,Upprunakóti **·**, **Heiti** fjárhagsreiknings, **Nr., Debetupphæð,Kreditupphæð,Bókunardags.ár,Bókunardags** **·** **·** **·**., **Fjórðungur** bókunar og **Mánuður bókunardagsetningar** |
 | [Fjármál (Rekstrarreikningur)](#example-finance-income-statement) | Sjá tekjur yfir tekjureikningana í bókhaldslyklinum, til dæmis, raðað niður í tímabil þegar upphæðir voru bókaðar. | [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) | **Fjárhagsreikn.nr.**, **Bókunardagsetning** og **Upphæð**. |
 | [Fjármál (heildareignir)](#example-finance-total-assets) | Skoða eignir yfir eignareikningana í bókhaldslyklinum, til dæmis, skipt niður í tímabil þegar upphæðir voru bókaðar. | [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) | **Fjárhagsreikn.nr.**, **Bókunardagsetning** og **Upphæð**. |
 
-### Dæmi: Fjárhagur (Útistandandi safnreikningur)
+### Dæmi: Fjárhagur (Útistandandi skuldir)
 
 Til að sjá hvað viðskiptamenn skulda þér er kannski raðað niður í tímabil þegar upphæðir eru gjaldfallnar skal fylgja eftirfarandi skrefum:
 
@@ -67,12 +68,32 @@ Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Dæmi um gagnagreiningu á síðunni Viðskm.færslur." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Dæmi: Veigar (Sölureikningar eftir fjárhagsreikningi)
+
+Til að sjá hvernig sölureikningar dreifast á fjárhagsreikninga úr bókhaldslyklinum, til dæmis, skipt niður í tímabil þegar upphæðir voru bókaðar er eftirfarandi skrefum fylgt:
+
+1. Opna skal síðuna [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) .
+1. Reitunum **Heiti** fjárhagsreiknings og **Upprunakóti** er bætt við með því að sérsníða síðuna. Í valmyndinni **Stillingar** er valið **Sérstilla**.
+1. Loka sérstillingarstillingu.
+1. Velja skal :::image type="content" source="media/analysis-mode-icon.png" alt-text="Færa inn greiningarham."::: Til að kveikja á greiningarstillingu.
+1. Á valmyndinni **Greiningarafmarkanir** er sett afmörkun á reitnum **Upprunakóti** á **SÖLU**. Ef sérstillingar eru fyrir hendi sem bæta við öðrum gildum er hægt að bæta þeim við.
+1. Í valmyndinni **Dálkar** eru allir dálkar fjarlægðir (reiturinn við hliðina á leitarreitnum **er** valinn).
+1. Kveikja á **veltihamsvíkkuninni** (sem staðsett er fyrir ofan **leitarreitinn** hægra megin).
+1. Heiti fjárhagsreiknings **og** **fjárhagsreikningsnr. eru dregin.**  **að línuflokkasvæðinu** .
+1. Reitirnir **Debetupphæð** og **Kreditupphæð** eru dregnir að **svæðinu Virði** .
+1. Reitirnir **Bókunardags.ár,Bókunardags.fjórðungur** **og** **Bókunardags.mánuður** eru dregnir **í reitina** Dálkmerki.
+1. Endurnefna greiningarflipa á **sundurliðun reikninga** eða eitthvað sem lýsir þessari greiningu.
+
+Eftirfarandi mynd sýnir niðurstöður þessara skrefa.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Dæmi um greiningu gagna á síðunni Fjárhagsfærslur (til að skilja sölubókanir)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Dæmi: Fjármál (Rekstrarreikningur)
 
 Til að skoða tekjur yfir tekjureikningana í bókhaldslyklinum er skipt niður í tímabil fyrir það hvenær upphæðir voru bókaðar er eftirfarandi skrefum fylgt:
 
 1. Opnaðu [Fjárhagsfærslur](https://businesscentral.dynamics.com/?page=20) listann og veldu :::image type="content" source="media/analysis-mode-icon.png" alt-text="Opna greiningarstillingu."::: Til að kveikja á greiningarstillingu.
-1. Farið er í valmyndina **Dálkar** og allir dálkar fjarlægðir (reiturinn næst leitarreitnum **er** valinn).
+1. Farið er í valmyndina **Dálkar** og allir dálkar fjarlægðir (reiturinn er valinn við hliðina **á leitarreitnum** til hægri).
 1. Kveikja á **veltihamsvíkkuninni** (sem staðsett er fyrir ofan **leitarreitinn** hægra megin).
 1. Reiturinn Fjárhagsreikn.nr. er dreginn **.** yfir í línuflokkasvæðið **og upphæð** dregin **í** svæðið Virði **.** 
 1. Reiturinn **Bókunardags.mánuður** er dreginn á **svæðið Dálklímmiðar** .
@@ -113,7 +134,7 @@ Til að fá nánari upplýsingar er farið í eftirfarandi greinar:
 [Greina lista og fyrirspurnargögn með greiningarstillingu](analysis-mode.md)  
 [Yfirlit fjárhagsgreininga](bi.md)  
 [Yfirlit yfir greiningar, viðskiptagreind og skýrslur](reports-bi-reporting.md)  
-[Fjárhagsyfirlit](finance.md)   
+[Yfirlit yfir Fjármál](finance.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

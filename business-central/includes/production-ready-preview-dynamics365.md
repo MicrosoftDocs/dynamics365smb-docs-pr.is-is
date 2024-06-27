@@ -2,5 +2,5 @@
 ms.service: dynamics-365-business-central
 ---
 > [!IMPORTANT]
-> - Þetta er eiginleikinn Forskoðun framleiðslu tilbúna.
-> - Forskoðun framleiðslu tilbúnar er háð viðbótarnotkunarskilmálum. Nánari upplýsingar: [Viðbótarnotkunarskilmálar fyrir Dynamics 365 forskoðun](https://go.microsoft.com/fwlink/?linkid=2105274)
+> - Þetta er framleiðsla tilbúin forútgáfa aðgerð.
+> - Forskoðun framleiðslu tilbúnar er háð viðbótarnotkunarskilmálum. Nánari upplýsingar: [Viðbótarnotkunarskilmálar fyrir Dynamics 365 forútgáfa](https://go.microsoft.com/fwlink/?linkid=2105274)

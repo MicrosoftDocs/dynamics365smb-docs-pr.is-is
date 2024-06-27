@@ -1,21 +1,22 @@
 ---
-title: Flýtiræsing á grunnskýrslum og frálagsskjölum
+title: Flýtiræsing grunnskýrslna og skjala
 description: Business Central býður upp á innbyggð sniðmát fyrir skýrslur og skjöl með mörgum sérstillingarmöguleikum til að aðlaga þau að þörfum fyrirtækisins.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/15/2022
-ms.author: bholtorf
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Flýtiræsing á grunnskýrslum og frálagsskjölum
+# Flýtiræsing grunnskýrslna og skjala
 
 Til að aðlaga [!INCLUDE[prod_short](includes/prod_short.md)] að þörfum fyrirtækisins skaltu velja og nota skýrslur og sérsniðin skjöl sem henta viðskiptaferlum og ímynd rekstursins.
 
-## <a name="add-your-company-logo-to-documents"></a>Bæta fyrirtækjamerki við skjöl
+## Bæta fyrirtækjamerki við skjöl
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur sniðmát til að nota merki fyrirtækisins til að spara þér tíma við að sérsníða skjöl eins og reikninga, pantanir og yfirlit.
 
@@ -23,9 +24,9 @@ Til að aðlaga [!INCLUDE[prod_short](includes/prod_short.md)] að þörfum fyri
 2. Velja aðgerðina **Mynd** og veldu síðan **Velja**.
 3. Veldu myndaskrána í tækinu þínu.
 
-Hægt er að sjá ofangreindar leiðbeiningar í [þessu YouTube myndbandi](https://www.youtube.com/watch?v=AatXbKF1NGg). Þegar myndin hefur verið birt í reitnum **Mynd** geturðu lokað síðunni **Upplýsingar um fyrirtæki**.
+Þegar myndin birtist í reitnum **Mynd** er hægt að loka síðunni **Stofngögn** .
 
-## <a name="run-reports"></a>Keyra skýrslur
+## Keyra skýrslur
 
 Skýrslur skipuleggja upplýsingar frá ólíkum upprunum í [!INCLUDE[prod_short](includes/prod_short.md)] og sýna þær á læsilegan hátt sem auðvelt er að prenta eða deila á tölvutæku formi. Finna má skýrslur á síðunum sem tengjast samhengi þeirra. Síðan **Vörur** telur upp skýrslur sem tengjast birgðastöðum, innkaupum, sölu og fleiru.
 
@@ -37,7 +38,7 @@ Skýrslur skipuleggja upplýsingar frá ólíkum upprunum í [!INCLUDE[prod_shor
 
 Frekari upplýsingar um síun gagna, skýrsluáætlun og fleira í [Keyra og prenta skýrslur](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Vista skýrslur sem PDF-, Excel- eða Word-skjöl
+## Vista skýrslur sem PDF-, Excel- eða Word-skjöl
 
 Til að deila skýrslum á fljótlegan hátt er hægt að vista [!INCLUDE[prod_short](includes/prod_short.md)] skýrslur beint í PDF Microsoft Excel eða Microsoft Word skjölum.
 
@@ -46,7 +47,7 @@ Til að deila skýrslum á fljótlegan hátt er hægt að vista [!INCLUDE[prod_s
 3. Veldu skráargerðina, veldu síðan **Í lagi**.
 r Skýrsluskráin sem búin er til er sjálfkrafa vistuð í niðurhalsmöppu vafrans.
 
-### <a name="change-report-and-document-layouts"></a>Breyta útliti skýrslna og skjala
+### Breyta útliti skýrslna og skjala
 
 Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útlit fyrir skýrslurnar þínar og önnur mynduð skjöl, t.d. sölureikningar. Þú getur notað forrit eins og Microsoft Word eða Excel til að breyta sniðmátum fyrir skjöl og skýrslur eins og lýst er í eftirfarandi dæmi:
 
@@ -63,7 +64,7 @@ Með [!INCLUDE[prod_short](includes/prod_short.md)] fylgja mörg innbyggð útli
 
 Frekari upplýsingar um hvernig á að sérsníða skýrslur og skjöl að þörfum fyrirtækisins er að finna í [Útlit skýrslna og skjala](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Nota skýrslur í daglegu starfi](reports-use-reports.md)  
 [Tiltækar skýrslur í [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
