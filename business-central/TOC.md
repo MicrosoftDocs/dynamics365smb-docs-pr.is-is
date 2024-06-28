@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Snerti- og pennabendingar](touch-gestures.md)
 ### [Úrræðaleit: aðgangur að myndavél og staðsetningu](ui-troubleshooting-camera-location.md)
 ### [Snjöll innsýn (aðeins á netinu)](about-intelligent-cloud.md)
-## Algengar spurningar
+## Úrræðaleit og algengar spurningar
 ### [Algengar spurningar](across-faq.yml)
 ### [Algengar spurningar um spjall við Copilot (forútgáfa)](chat-with-copilot-faq.md)
 ### [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
@@ -208,9 +208,10 @@ ms.service: dynamics-365-business-central
 ### [Algengar spurningar um listayfirlit](ui-views-faq.yml)
 ### [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)
 ### [Algengar spurningar um farsímaforrit](ui-mobile-faq.yml)
-### [Teams - Algengar spurningar](teams-faq.md)
+### [Teams – Algengar spurningar](teams-faq.md)
 ### [Algengar spurningar um rafrænar reikningsfærslur](faq-electronic-invoicing.yml)
 ### [Lágmarkskröfur](product-requirements.md)
+### [Úrræðaleit í Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Hjálp og stuðningur
 ### [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)
@@ -458,7 +459,12 @@ ms.service: dynamics-365-business-central
 #### [Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)
 #### [Uppsetning sjálfbærni](finance-sustainability-setup.md)
 #### [Bókhaldslykill fyrir sjálfbærni og fjárhag](finance-sustainability-accounts-ledger.md)
-#### [Hvernig skrá skal losun gróðurhúsalofttegunda](finance-sustainability-journal.md)
+#### [Hvernig skrá skal losun gróðurhúsalofttegunda (GHG)](finance-sustainability-journal.md)
+#### Sjálfbærnigreining
+##### [Sérstök greining á sjálfbærnigögnum](ad-hoc-analysis-sustainability.md)
+##### [Innbyggðar sjálfbærniskýrslur](sustainability-reports.md)
+#### Sjálfbærni-API
+##### [Sjálfbærni-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir](finance-multi-site-organizations.md)
 #### Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Yfirlit yfir greiningar á eignum](fa-analytics-overview.md)
 #### [Tilfallandi gagnagreining eigna](ad-hoc-analysis-fa.md)
 #### Innbyggð greiningarverkfæri fyrir eignir
-##### [Fylgjast með viðhaldskostnaði](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Fylgjast með viðhaldskostnaði](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Eftirlit með vátryggingasviði](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Skoða breytt afskriftabókargildi](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Skoða afskráningarbókarfærslur](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -610,13 +616,13 @@ ms.service: dynamics-365-business-central
 ### [Uppsetning eigna](fa-setup.md)
 ### [Afskriftaaðferðir](fa-depreciation-methods.md)
 ### [Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md)
-### [Komast yfir eignir](fa-how-acquire.md)
-### [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
-### [Umsjón eigna](fa-how-maintain.md)
+### [Afla eigna](fa-how-acquire.md)
+### [Afskrifa eða greiða niður af eignum](fa-how-depreciate-amortize.md)
+### [Vinna með eignir](fa-how-maintain.md)
 ### [Tryggja eignir](fa-how-insure.md)
 ### [Flytja, skipta upp eða sameina eignir](fa-how-trans-split-combine.md)
 ### [Endurmeta eignir](fa-how-revalue.md)
-### [Afskrá eða innkalla eignir](fa-how-dispose-retire.md)
+### [Selja eða greiða upp eignir](fa-how-dispose-retire.md)
 ### [Úrræðaleit fyrir eignafærslur](fa-troubleshooting-fa-ledger-entries.md)
 
 
@@ -1857,10 +1863,11 @@ ms.service: dynamics-365-business-central
 #### [Helstu fjárhagsskýrslur](finance-reports.md)
 #### [Skýrslur viðskiptakrafna](receivables-reports.md)
 #### [Skýrslur viðskiptaskulda](payables-reports.md)
+#### [Sjálfbærniskýrslur](sustainability-reports.md)
 
-### [Söluskýrslu](sales-reports.md)
+### [Söluskýrslur](sales-reports.md)
 ### [Innkaupaskýrslur](purchase-reports.md)
-### [Skýrslur birgða og vöruhúss](inventory-wms-reports.md)
+### [Birgða- og vöruhúsaskýrslur](inventory-wms-reports.md)
 
 ### Verkefni
 #### [Verkskýrslur](project-reports.md)
@@ -2120,7 +2127,8 @@ ms.service: dynamics-365-business-central
 ### [Algengar spurningar um tengingu rafrænna skjala við innkaupapantanir með Copilot](faqs-map-edocuments.md)
 # Ábyrg gervigreind
 ## [Yfirlit](responsible-ai-overview.md)
-## [Algengar spurningar um greiningaraðstoð (forskoðun)](faqs-analysis-assist.md)
+## [Algengar spurningar varðandi gagnaöryggi og persónuvernd Copilot](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
+## [Algengar spurningar um greiningaraðstoð (forútgáfa)](faqs-analysis-assist.md)
 ## [Algengar spurningar um aðstoð vegna bankaafstemmingar (forútgáfa)](faqs-bank-reconciliation.md)
 ## [Algengar spurningar um spjall við Copilot (forskoðun)](faqs-chat-with-copilot.md)
 ## [Algengar spurningar um tillögur að markaðstexta](faqs-marketing-text.md)
