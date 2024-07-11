@@ -37,7 +37,7 @@ Ef þú hefur ekki þegar búið til sérsniðið skýrsluútlit fyrir skýrslut
 3. Á síðunni **Útlit fylgiskjals**, á línunni fyrir skýrsluútlit sem á að nota skal nota sérsniðið útlit fyrir skal velja reitinn **Lýsing á sérstilltu útliti**.
 4. Á síðunni **Sérsniðið skýrsluútlit** skal velja skjalaútlitið sem á að nota fyrir gerð söluskjalsins. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Að tilgreina hvaða tengiliður fær hvaða skjalaútlit fyrir viðskiptamann
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Að tilgreina hvaða tengiliður fær hvaða skjalaútlit fyrir viðskiptamann
 
 Til að spara tíma þegar þú sendir skjöl til tengiliða viðskiptamanns og lánardrottins með tölvupósti skaltu tilgreina netföng þeirra í skjalaútliti. Til dæmis geturðu alltaf sent yfirlit viðskiptamanns á tengiliði endurskoðanda eða sölupantanir á innkaupaaðila eða innkaupapantanir á sölufólk lánardrottins.
 

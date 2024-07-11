@@ -25,7 +25,7 @@ Hægt er að setja upp staðlaða sölukóða viðskiptamanns með beingreiðslu
 > [!NOTE]  
 > Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi að vera EVRA.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Uppsetning SEPA-beingreiðslna
+## <a name="how-to-set-up-sepa-direct-debit"></a>Uppsetning SEPA-beingreiðslna
 
 Á síðunni **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning í samræmi við SEPA-beingreiðslusniðið.
 
