@@ -9,7 +9,7 @@ ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prófunareiginleikar sem tengjast annarri Microsoft-þjónustu
+# Prófunareiginleikar sem tengjast annarri Microsoft-þjónustu 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er alhliða viðskiptastjórnunarlausn sem er djúpt samþætt forritum Microsoft 365 og framleiðniforritum Power Platform. Ókeypis prufuáskriftin þín af Business Central getur tengst mörgum mismunandi Microsoft þjónustum sem þú verður fyrst að stilla og virkja. Til að fá sem mest út úr ókeypis prufuútgáfunni hafa sumir þessarar eiginleika verið sjálfkrafa virkjaðir fyrir þig. Þótt tengingin úr [!INCLUDE[prod_short](includes/prod_short.md)] sé virk eru þessar þjónustur ekki hluti af prufuútgáfunni og þarf að kaupa þær sér nema þú sért nú þegar með þær.
 
