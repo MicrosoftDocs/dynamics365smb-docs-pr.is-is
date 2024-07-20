@@ -10,11 +10,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 06/27/2024
 ms.service: dynamics-365-business-central
 ---
-# Sérstilling Business Central á netinu með forritum
+# <a name="customizing-business-central-online-using-apps"></a>Sérstilling Business Central á netinu með forritum
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] Online með því að setja forrit sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Þessi forrit eru einnig kölluð *viðbætur* vegna þess að þau *bæta við* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Stjórna forritum
+## <a name="manage-apps"></a>Stjórna forritum
 
 Þegar þú opnar [!INCLUDE[prod_short](includes/prod_short.md)] í fyrsta skipti eru nokkur forrit þegar sett upp fyrir þig. Með tímanum verða fleiri forrit í boði fyrir þig og þú getur síðan valið hvort þú viljir nota forritið eða ekki.
 
@@ -48,7 +48,7 @@ Sum forrit eru í boði Microsoft og önnur forrit eru í boði [annarra fyrirt�
 > [!NOTE]  
 > Hægt er að fylgjast með nýjum forritum frá Microsoft og öðrum birgjum á [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## Forrit og gagnaflutningur
+## <a name="apps-and-data-transfer"></a>Forrit og gagnaflutningur
 
 Þar sem eftirfarandi forrit eru í samskiptum við aðra þjónustu gætu þau flutt gögn út úr landfræðilegri staðsetningu á [!INCLUDE[prod_short](includes/prod_short.md)] umhverfinu:
 
@@ -68,7 +68,7 @@ Sum forrit eru í boði Microsoft og önnur forrit eru í boði [annarra fyrirt�
 * Kortaþjónusta
 * VSK-skráningarnúmer innan ESB. Þjónusta
 
-## Tengdu fyrirtækið þitt
+## <a name="connect-your-business"></a>Tengdu fyrirtækið þitt
 
 Frá og með 2022, útgáfutímabili 2, geta umhverfi [!INCLUDE [prod_short](includes/prod_short.md)] á netinu sýnt eitt eða fleiri forrit á síðunum **Tengiforrit** og **Bankaforrit**. Þessi forrit geta tengt fyrirtækið við utanaðkomandi þjónustu sem eykur framleiðni með því að sjálfvirknivæða ferla. Til dæmis er hægt að tengjast bönkunum og flytja inn bankafærslur sjálfkrafa. Auðvelt er að setja forritin upp og setja þau upp beint af þessari síðu. Veldu forrit til að fá frekari upplýsingar um möguleika og verð.  
 
@@ -79,14 +79,14 @@ Skoðaðu lista yfir forrit sem mælt er með með því að velja aðgerðina *
 
 Þessi ytri þjónusta býr til lista yfir viðeigandi forrit sem byggjast á landi eða svæði
 
-## Ráðlögð forrit
+## <a name="recommended-apps"></a>Ráðlögð forrit
 
 Samstarfsaðilar og endursöluaðilar Microsoft geta búið til forrit sem þeir geta notað til að setja saman lista yfir forrit sem þeir mæla oft með fyrir viðskiptavini sína. Ef það er gert og forritið virkt til leigjanda þíns eru forritin tiltæk á síðunni **Forrit** sem mælt er með. Þar er hægt að lesa sér til um hvert forrit og ákveða hvort eigi að setja þau upp.
 
 > [!NOTE]
 > Ef þú ert samstarfsaðili eða endursöluaðili Microsoft og hefur áhuga á að bjóða upp á lista yfir forrit sem mælt er með skaltu skoða [Mæla með forritum frá AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) í efni stjórnanda.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Setja upp og fjarlægja forrit](ui-extensions-install-uninstall.md)  
 [Sérstilla Business Central](ui-customizing-overview.md)  

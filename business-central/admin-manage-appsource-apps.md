@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Stjórna AppSource forritum
+# <a name="manage-appsource-apps"></a>Stjórna AppSource forritum
  
 Að innan [!INCLUDE[prod_short](includes/prod_short.md)] getur þú uppgötvað, skoðað, raðað og síað tiltæk AppSource forrit sem tengjast [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -27,6 +27,6 @@ Til að finna síðuna [!INCLUDE[prod_short](includes/prod_short.md)] skal velja
  
 Eins og með aðrar listasíður fæst stuðningur við greiningarham, til dæmis, svo að hægt sé að flokka forrit eftir útgefanda. Nota gervigreindaraðstoð til að hanna **greiningarhamsyfirlit** .
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sérstilling Business Central á netinu með forritum](ui-extensions.md)  
