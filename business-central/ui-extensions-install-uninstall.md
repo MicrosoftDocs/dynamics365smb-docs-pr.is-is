@@ -3,36 +3,36 @@ title: Setja upp og fjarlægja forrit
 description: Kynntu þér hvernig þú getur sett upp og fjarlægt forrit og viðbætur í Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
-ms.date: 09/07/2023
+ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Setja upp og fjarlægja viðbætur (forrit) í Business Central
+# Setja upp og fjarlægja viðbætur (forrit) í Business Central
 
 Þú getur breytt [!INCLUDE[prod_short](includes/prod_short.md)] með því að setja upp forrit sem bæta t.d. við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
 > [!NOTE]
-> Til að setja upp eða fjarlægja forrit úr AppSource eða bæta við forritum fyrir hvern leigjanda fyrir sig þarf að vera með réttar heimildir. Annaðhvort verður að vera meðlimur í notendahópnum D365 Viðbót MGT eða hafa verður FRAMLENGINGuna. STJÓR. - STJÓRNANDA heimildasamstæða. Ef notandi er kerfisstjóri er hægt að úthluta notendaflokkum og heimildum til annarra notenda í fyrirtækinu. Til að [fá nánari upplýsingar um notendaflokka og heimildir er farið í Úthluta heimildum til notenda og hópa](ui-define-granular-permissions.md).
+> Til að setja upp eða fjarlægja forrit úr AppSource eða bæta við forritum fyrir hvern leigjanda fyrir sig þarf að vera með réttar heimildir. Annaðhvort verður að vera meðlimur í D365 Extension MGT notendaflokkur eða þá að hann verður að vera með FRAMLENGINGuna. STJÓR. - STJÓRNANDA heimildasamstæða. Ef notandi er kerfisstjóri er hægt að úthluta notendaflokkum og heimildum til annarra notenda í fyrirtækinu. Til að [fá nánari upplýsingar um notendaflokka og heimildir er farið í Úthluta heimildum til notenda og hópa](ui-define-granular-permissions.md).
 >
 > Til að nota virkni sem viðbót býður upp á, t.d. opna síður, keyra skýrslur, velja aðgerðir o.s.frv., verður þú að hafa fengið heimildasamstæðunum úthlutað sem settar eru upp sem hluti viðbótarinnar.
 
 Ef nota á viðbót verður að úthluta heimildarsamstæðunum sem því fylgja.
 
-## <a name="install-an-extension"></a><a name="install"></a>Setja upp viðbót
+## <a name="install"></a>Setja upp viðbót
 
-Þú stjórnar forritum og viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í efra hægra horni skal slá inn **Nafnauka** og velja síðan viðeigandi tengil.  
+Þú stjórnar forritum og viðbótum á síðunni **Viðbótastjórnun**. Hægt er að opna þessa síðu úr heimasvæðinu. Annars geturðu valið **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") í efra hægra horni skal færa inn **Nafnauka** og velja síðan viðeigandi tengja.  
 
 Hægt er að fá ný forrit úr markaðstorginu á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Markaðstorgið býður upp á öll tiltæk forrit fyrir [!INCLUDE[prod_short](includes/prod_short.md)] auk forrita og efnispakka fyrir aðrar Microsoft-vörur. Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
 > Skráðu þig inn á [AppSource.microsoft.com](https://appsource.microsoft.com/) með því að nota netfangið sem þú notar fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Nota sama tölvupóstreikning fyrir aðra þjónustu og vörur fyrir er hnökralausa upplifun.  
 
-Einnig er hægt að fara í AppSource úr [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **framlengingarstjórnun** geturðu séð forritin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[prod_short](includes/prod_short.md)] forritin sem eru í boði í AppSource. Ef valið er *Fleiri forrit* tengilinn, er farið með þig á [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Einnig er hægt að fara í AppSource úr [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Viðbótastjórnunargrunnur** getur þú séð forritin sem eru uppsett og þú getur opnað **Microsoft AppSource síðuna Forrit** sem sýnir forritin [!INCLUDE[prod_short](includes/prod_short.md)] sem eru tiltæk í AppSource. Ef aðgerðin **Skoða AppSource** er valin er farið [AppSource í.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Frekari upplýsingar [eru í Manage AppSource apps](admin-manage-appsource-apps.md).  
 
 Veldu forrit til að fræðast um hvað það gerir og þú getur opnað Hjálp fyrir forritið til að fá nánari upplýsingar. Þegar þú velur að fá forrit verður þú að samþykkja notkunarskilmála þess. Ef þú færð forritið af AppSource vefsíðunni verður þú skráð(ur) inn í [!INCLUDE[prod_short](includes/prod_short.md)] til að ljúka uppsetningunni.  
 
@@ -70,19 +70,19 @@ Microsoft veitir eftirfarandi forrit:
 * [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Setja upp forrit
+## Setja upp forrit
 
 Þegar þú hefur sótt forrit gætir þú þurft að setja það upp. Til dæmis þarftu að tilgreina PayPal-reikningin sem á að nota fyrir forritið **PayPal Payments Standard fyrir [!INCLUDE[prod_short](includes/prod_short.md)]**. Ef það er tilfellið, þegar uppsetning lýkur mun [!INCLUDE[prod_short](includes/prod_short.md)] spyrja hvort þú viljir setja forritið upp strax. Uppsetningar geta verið nauðsynlegar til að forritið virki eða valfrjálsar.
 
 Ef þú velur að setja forritið upp strax og það er með nauðsynleg skref mun [!INCLUDE[prod_short](includes/prod_short.md)] opna nauðsynlegu skrefin. Uppsetningin getur verið annaðhvort síða þar sem þú slærð inn upplýsingar eða uppsetningarleiðbeiningar með hjálp sem aðstoða þig í gegnum skrefin. Ef þú lýkur ekki uppsetningunni í einni tilraun geturðu notað síðuna **Uppsetningar fyrir _nafn forrits_**, sem sýnir allar uppsetningar fyrir forritið. Nauðsynlegar stillingar eru auðkenndar með **feitletruðum stöfum**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Hlaða upp viðbót fyrir hvern leigjanda (PTE)
+## Hlaða upp viðbót fyrir hvern leigjanda (PTE)
 
 Þú hleður upp PTE með því að nota síðuna **Viðbótastjórnun**. Á síðunni **Viðbótastjórnun** skal fara í **Stjórna**, síðan velja **Hlaða upp viðbót**. Á síðunni **Hlaða og setja upp viðbót** skal tilgreina forritsskrána sem á að hlaða upp. Til að halda áfram skal velja hnappinn **Samþykkja** og síðan hnappinn **Nota** sem mun hefja innleiðingarferli PTE.
 
 Ef PTE inniheldur skemabreytingar með þáttaskilum er mögulegt að *þvinga* upphleðslu þess. Til að gera það skal velja valkostinn Samstilla afköst **í** samstillingu **skema**. Samþykkja þarf staðfestingarglugga sem birtist áður en haldið er áfram.  
 
-## <a name="uninstall-an-app"></a>Fjarlægja forrit
+## Fjarlægja forrit
 
 Hægt er að fjarlægja forrit með því að nota síðuna **Viðbótastjórnun**. Til að fjarlægja forrit skaltu velja það á síðunni og velja svo aðgerðina **Fjarlægja**. Ef þú fjarlægir forrit og skiptir síðan um skoðun geturðu sett forritið upp aftur.
 
@@ -95,10 +95,11 @@ Sjálfgefið er að þegar forrit sem þú hefur verið að nota gögnin þín e
 
 Ef þú vilt halda gögnum fyrir forrit sem hefur verið fjarlægt getur þú eytt gögnunum síðar. Síðan **Eyða munaðarlausu viðbótagögnunum** birtir forritin sem þú ert enn með gögn fyrir. Til að eyða gögnunum skal velja forritið og velja **svo Eyða gögnum**. 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
 [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)  
+[Stjórna AppSource forritum](admin-manage-appsource-apps.md)  
 [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)  
 [Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md)  
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
