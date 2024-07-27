@@ -930,10 +930,11 @@ ms.service: dynamics-365-business-central
 ##### [VSK-eftirlitsskýrsla](LocalFunctionality/Czech/vat-control-report.md)
 ##### [VSK-skýrslur](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [VSK-leiðrétting í staðbundnum gjaldmiðli](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Ófrádráttarbær VSK](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Intrastat fyrir Tékkland (framlenging)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
+##### [Intrastat fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Eignir
-##### [Staðfæring eignar fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
+##### [Staðfæring eigna fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankaþjónusta og greiðslur
 ##### [Staðfæring bankaskjala fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Staðfæring afgreiðslukassa fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
@@ -1587,8 +1588,8 @@ ms.service: dynamics-365-business-central
 #### [Staðbundin virkni í bandarískri útgáfu](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skattur
 ##### [Grunnuppsetning skatts](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Skráning virðisaukaskatts í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)
-##### [Kynning á IRS 1099 eyðublöðum og virkni þeirra](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Söluskattur í Bandaríkjunum](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Kynning á IRS 1099-eyðublöðum og virkni þeirra](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Setja upp og nota IRS 1099 eyðublaðið fyrir útgáfu 24 (2024 útgáfutímabil 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Nota IRS 1099 eyðublaðið](LocalFunctionality/UnitedStates/how-to-1099-use.md)
 #### [Senda og tilkynna IRS 1099 eyðublöð](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
