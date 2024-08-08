@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Framkvæma greiðslur
+# <a name="make-payments"></a>Framkvæma greiðslur
 
 Þú greiðir lánardrottnum eða viðskiptamönnum, eða endurgreiðir starfsmönnum, með því að bóka greiðslulínur á síðunni **Útgreiðslubók** . Útgreiðslubókin er færslubók sem er bjartsýni á greiðslur og býður upp á fjölda öflugra aðgerða. Til dæmis aðgerðina **Leggja til lánardrottnagreiðslur** sem finnur lánardrottnagreiðslur sem eru gjaldfalnar og **Aldursgreind** skýrsla lánardrottins sem sýnir yfirlit yfir greiðslur vegna lánardrottna.  
 

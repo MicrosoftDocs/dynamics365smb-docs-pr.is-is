@@ -50,7 +50,7 @@ Lánardrottnafærslur og fjárhagsfærslur sem eru jafnaðar að fullu eru stofn
 > [!NOTE]  
 > Ef þarf að prenta og greiða tékka í fleiri en einum gjaldmiðli frá mismunandi bankareikningum verður að keyra keyrsluna **Prenta tékka** sérstaklega fyrir hvern gjaldmiðil og tilgreina réttan bankareikning.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Til að ógilda prentaðan tékka sem ekki eru bókaðar
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Til að ógilda prentaðan tékka sem ekki eru bókaðar
 
 Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógildur tékki** aðgerðina á síðunni **Greiðslubók**.
 
