@@ -1,10 +1,6 @@
 ---
-author: brentholtorf
-ms.topic: include
-ms.date: 06/12/2024
-ms.author: bholtorf
-ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+höfundur: brentholtorf ms.topic: eru <<<<<<< Uppfært ms.dagsetning: 06/12/2024 ======= ms.date: 05/20/2024
+>>>>>>> Fastar breytingar ms.höfundur: bholtorf ms.þjónusta: dynamics-365-business-central ms.reviewer: bholtorf
 ---
 
 > [!TIP]

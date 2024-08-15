@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Unnið með uppskriftir
+# Unnið með uppskriftir
 
 Nota skal uppskriftir til að byggja upp yfirvörur sem verða að vera settar saman úr öðrum vörum eða framleiddar af tilföngum eða vélastöðvum úr íhlutum.
 
-## <a name="assembly-boms-or-production-boms"></a>Samsetningaruppskriftir eða framleiðsluuppskriftir
+## Samsetningaruppskriftir eða framleiðsluuppskriftir
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður tvær mismunandi gerðir af uppskriftum:
 
@@ -24,7 +24,7 @@ Nota skal uppskriftir til að byggja upp yfirvörur sem verða að vera settar s
 | [Samsetningaruppskriftir](assembly-how-work-assembly-boms.md) | Vöruhús / samsetning | Vörur sem samanstanda af öðrum vörum, settum saman með einföldum eða engum tilföngum. |
 | [Framl.uppskriftir](production-how-to-create-production-boms.md) | Framleiðsla / vinnsla | Vörur sem samanstanda af mismunandi íhlutum og undiríhlutum, framleiddar á vinnu- eða vélastöð. |
 
-Nota samsetningarpantanir til að gera lokavörur úr íhlutum í einföldu ferli sem einn eða fleiri grunnforði sem ekki eru véla- eða vinnustöðvar geta gert, eða án nokkurs forða. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru.  
+Samsetningarpantanir eru notaðar til að gera lokavörur úr íhlutum í einföldu ferli sem hægt er að framkvæma með einum eða fleiri grunnforða, sem eru ekki véla- eða vinnustöðvar, eða án nokkurs forða. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru.  
 
 Samsetningaruppskrift er aðalgögn sem skilgreina hvaða íhlutavörur fara í samsetta endanlega vöru og hvaða forðar er notaðir til að setja saman samsetningarvöruna. Þegar samsetningarvara og magn er fært í haus nýrrar samsetningarpöntunar koma samsetningarpöntunarlínurnar sjálfkrafa inn í samræmi við samsetningaruppskriftina með einni samsetningarpöntunarlínu á hvern íhlut eða forða. Frekari upplýsingar má finna á [Samsetningarstjórnun](assembly-assemble-items.md).
 
@@ -36,14 +36,14 @@ Hugtakið forði í framleiðslu er mun flóknara en í samsetningarstjórnun. V
 
 Bæði samsetningarpantanir og framleiðslupantanir gætu verið tengdar beint við sölupantanir. Hins vegar er aðeins hægt að nota samsetningarpantanir til að sérsníða endanlegu vöruna beint samkvæmt beiðni viðskiptamanns með sölupöntun.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)  
-[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
-[Skrá nýjar vörur](inventory-how-register-new-items.md)  
-[Stjórna afurðarafbrigðum](inventory-item-variants.md)  
-[Birgðir](inventory-manage-inventory.md)  
-[Framleiðsla](production-manage-manufacturing.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vinna með samsetningaruppskriftir](assembly-how-work-assembly-boms.md)    
+[Framl.uppskriftir búnar til](production-how-to-create-production-boms.md)    
+[Skrá nýjar vörur](inventory-how-register-new-items.md)    
+[Stjórna afurðarafbrigðum](inventory-item-variants.md)    
+[Birgðir](inventory-manage-inventory.md)    
+[Framleiðsla](production-manage-manufacturing.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Staðlaður viðbót PayPal greiðslna
+# Staðlaður viðbót PayPal greiðslna
 
 PayPal Staðalviðbót við greiðslur getur hjálpað til við að auka þjónustustig viðskiptamanna með því að auðvelda viðskiptavinum að greiða reikningana sína.
 
@@ -29,7 +29,7 @@ Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 
 Nánari upplýsingar um hvernig á að setja upp viðbótina er farið í [Virkja greiðslu viðskiptamanns með PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="register-payments-automatically-for-business-accounts"></a>Skrá greiðslur sjálfkrafa fyrir viðskiptareikninga
+## Skrá greiðslur sjálfkrafa fyrir viðskiptareikninga
 
 [!INCLUDE [prod_short](includes/prod_short.md)] getur skráð greiðslur sjálfkrafa ef þú ert með viðskiptareikning fyrir PayPal Commerce Verkvanginn. Þegar viðskiptamennirnir nota PayPal tengja til að greiða reikning, [!INCLUDE [prod_short](includes/prod_short.md)]  bókar færslurnar og lokar skjalinu.
 
@@ -38,7 +38,7 @@ Til að nota þessa getu er á **síðunni**  Uppsetning greiðsluskráningar [!
 > [!TIP]
 > Forritarar geta notað sandkassareikninga til að prófa uppsetninguna. Til að gera það skal breyta PayPal veffanginu í **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] notar PayPals Augnablik greiðslutilkynningu (IPN) til notify_url.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

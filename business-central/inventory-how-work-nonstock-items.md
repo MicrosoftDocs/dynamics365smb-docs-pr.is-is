@@ -1,18 +1,18 @@
 ---
-title: Búa til og hafa umsjón með vörulistaatriðum
+title: Stofna og vinna með vörulistaatriði
 description: Læra að selja vörur sem ekki eru á listanum yfir vörur.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: '5725, 5726, 5732'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
+# Vinna við vörulistaatriði
 
 Vörulistaatriði eru vörur sem þú hefur ekki umsjón með í [!INCLUDE[prod_short](includes/prod_short.md)] fyrr en þú selur þær. Þegar aðgerðin **Velja vörulistavöru** er notuð til að bæta vörulistavöru við línu á sölupöntun, tilboði eða standandi sölupöntun er vörulistavörunni breytt í venjulega vöru.
 
@@ -24,20 +24,20 @@ Vörulistaatriði hefur yfirleitt vörunúmer þess lánardrottins sem sér um a
 > [!IMPORTANT]
 > Vörulistaatriði má ekki rugla saman við vörur sem eru ekki vörur í birgðum sem eru reglulegar vörur sem eru gefnar tegundina **Ekki í birgðum**, til að halda þeim ekki tiltækum og fyrir utan kostnaðarútreikningur, til dæmis vegna þess að þeir eru aðeins notaðir innbyrðis og eru lágir kostnaður. Til að fræðast um vörur sem eru ekki í birgðum er farið í [Um vörutegundir](inventory-about-item-types.md).
 
-## <a name="create-a-catalog-item"></a>Búa til vörulistaatriði
+## Búa til vörulistaatriði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörulistaatriði** og velja síðan viðkomandi tengil.
-2. Valið er aðgerðin **Nýtt**.
-3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Vörulistar** skal velja aðgerðina **Nýtt** .
+3. Á síðunni **Birgðaspjald** vörulista skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Tilgreindu hvernig númerum vörulistaatriða er breytt í eigin númer
+## Tilgreindu hvernig númerum vörulistaatriða er breytt í eigin númer
 
 Áður en hægt er að umbreyta vörulista í venjulega vöru þarf að tilgreina hvernig á að umbreyta vörunúmerum lánardrottna í samsetningu sem notuð er fyrir vörunúmer.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning vörulistaatriðis** og velja síðan viðkomandi tengil.
 2. Í reitnum **Nr. Reiturinn Snið** er valinn sá kostur sem hentar.
 
-## <a name="convert-a-catalog-item-to-a-normal-item"></a>Breyta vörulistaatriði í venjulegt atriði
+## Breyta vörulistaatriði í venjulegt atriði
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vörulistaatriði** og velja síðan viðkomandi tengil.
 2. Opnaðu spjaldið fyrir vörulistaatriði sem þú vilt breyta í venjulegt atriði.
@@ -45,7 +45,7 @@ Vörulistaatriði hefur yfirleitt vörunúmer þess lánardrottins sem sér um a
 
 Nýtt birgðaspjald er áfyllt með upplýsingum úr vörulistavörunni og vörusniðmáti. Hægt er að breyta upplýsingum um nýju vöruna ef þörf krefur. Nánari upplýsingar um stofnun vöru eru skráðar [í Nýjar vörur](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Til að selja vörulista og breyta henni í venjulega vöru
+## Til að selja vörulista og breyta henni í venjulega vöru
 
 Eftirfarandi ferli notar sölupöntun en skrefin eru hin sömu fyrir standandi sölupantanir og tilboð.
 
@@ -59,12 +59,12 @@ Eftirfarandi ferli notar sölupöntun en skrefin eru hin sömu fyrir standandi s
 > [!NOTE]  
 > Vörutilvísun er sjálfkrafa vara milli vörunúmers lánardrottins og nýja vörunúmersins þíns. Til að fræðast meira um vörutilvísanir er farið í [Nota vörutilvísanir](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Skrá nýjar vörur](inventory-how-register-new-items.md)  
-[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)  
-[Birgðir](inventory-manage-inventory.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Skrá nýjar vörur](inventory-how-register-new-items.md)    
+[Stofna sérpantanir](sales-how-to-create-special-orders.md)    
+[Birgðir](inventory-manage-inventory.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

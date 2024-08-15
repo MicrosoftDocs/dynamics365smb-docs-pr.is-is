@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1291, 1293, 1294'
-ms.date: 06/13/2024
+ms.date: 07/25/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="apply-payments-automatically-and-reconciling-bank-accounts"></a>Jafna greiðslur sjálfvirkt og stemma af bankareikninga
 
+# Jafna greiðslur sjálfvirkt og afstýra bankareikningum
 Þú verður að reglulega samræma bankareikninga þína, kröfur og skuldir reikninga með því að sækja greiðslur skráð í bankanum til tengdra (ógreiddra) reikninga og lánshæfiseinkunnana eða annarra opna færslna í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Þú getur gert þetta verkefni á síðunni **Greiðsluafstemmingarbók**, til dæmis með því að flytja inn bankayfirlitsskrá eða straum til að skrá greiðslurnar fljótt. Greiðslur eru beittar til að opna viðskiptavinar- eða seljanda bókasafns færslur sem eru byggðar á samsvörun milli greiðslustaðs og upplýsinga um innganga. Hægt er að skoða og breyta sjálfvirk jafnanir áður en færslubókin er bókuð. Þú getur valið að loka öllum opnum bankareikningsfærslum sem tengjast jöfnuðu fjárhagsfærslunum þegar þú bókar færslubókina. Bankareikningurinn er sjálfkrafa sáttur þegar allar greiðslur eru sóttar.
@@ -21,14 +21,14 @@ ms.service: dynamics-365-business-central
 
 Einnig er hægt að afstemma bankareikninga án þess að greiðslujafna samtímis. Þetta verk er framkvæmt á síðunni **Afstemming bankareiknings**. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
-Til að flytja inn bankareikninga sem bankafæða þarftu fyrst að setja upp og virkja Envestnet Yodlee Bank Feed þjónustu og síðan tengja bankareikninga þína við tengda bankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).  
+Til að flytja inn bankareikninga sem bankafæða þarftu fyrst að setja upp og virkja Envestnet Yodlee Bank Feed þjónustu og síðan tengja bankareikninga þína við tengda bankareikninga. Nánari upplýsingar eru [í Envestnet Yodlee bankastraumsþjónustan](bank-how-setup-bank-statement-service.md).  
 
 > [!TIP]
 > Einnig er hægt að flytja inn bankayfirlitsskrár á sniði kommu eða semíkommu (.CSV). Notið **Setja upp snið bankayfirlitsskráar** uppsetninguna með hjálp til að skilgreina innflutningssnið bankayfirlits og festa sniðið við bankareikning. Síðan er hægt að nota þessi snið þegar bankayfirlit er flutt inn á síðuna **Afstemming bankareiknings**.
 
-Einnig er hægt að nota AMC Banking 365 Fundamentals viðbótina til að umbreyta bankayfirliti sem þú fékkst úr bankanum þínum í gagnastraum sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Nota AMC Banking 365 Fundamentals-viðbótina](ui-extensions-amc-banking.md).  
+Einnig er hægt að nota AMC Banking 365 Fundamentals viðbótina til að umbreyta bankayfirliti sem þú fékkst úr bankanum þínum í gagnastraum sem hægt er að flytja inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Nánari upplýsingar eru [í AMC-bankakerfinu 365 grundvallarviðbót](ui-extensions-amc-banking.md).  
 
-Eftirfarandi tafla lýsir röð verka með tenglum á greinar sem lýsa þeim.  
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.  
 
 | Til | Sjá |
 | --- | --- |
@@ -38,8 +38,7 @@ Eftirfarandi tafla lýsir röð verka með tenglum á greinar sem lýsa þeim.
 | Tengja skal texta á greiðslum við tiltekinn viðskiptamanns-, lánardrottins- eða fjárhagsreikning til að bóka alltaf endurtekna móttöku eða útgjöld reiðufés á þá reikninga þegar engin skjöl eru til til að beita þessu. |[Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Setja upp reglurnar til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina **Notað sjálfkrafa** á síðunni **Greiðsluafstemmingarbók**.|[Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-also"></a>Sjá einnig .
-
+## Sjá einnig .
 [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  

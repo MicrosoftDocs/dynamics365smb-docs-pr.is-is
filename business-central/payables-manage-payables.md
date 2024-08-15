@@ -8,10 +8,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
-ms.date: 06/06/2024
+ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-payables"></a>Umsjón með gjaldfallnum skuldum
+
+# Umsjón með gjaldfallnum skuldum
 
 Stór hluti þess að hafa umsjón með gjaldfallnum reikningum er að borga lánardrottnum eða endurgreiða starfsmönnum kostnað. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupareikninga sem eru komnir á gjalddaga á síðunni **Greiðslubók**. Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
 
@@ -29,12 +30,12 @@ Eftirfarandi tafla lýsir röð verka innan gjaldfallinna reikninga með tenglum
 |Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 |Endurgreiða starfsmönnum fyrir persónuleg útgjöld í viðskiptaerindum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-also"></a>Sjá einnig
-[Innkaup](purchasing-manage-purchasing.md)  
-[Stjórnun skulda](receivables-manage-receivables.md)  
-[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)  
-[Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Sjá einnig .
+[Innkaup](purchasing-manage-purchasing.md)    
+[Umsjón útistandandi](receivables-manage-receivables.md)    
+[Nota kostnaðarauka til að gera grein fyrir viðbótarviðskiptakostnaði](payables-how-assign-item-charges.md)    
+[Almennar viðskiptaaðgerðir](ui-across-business-areas.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

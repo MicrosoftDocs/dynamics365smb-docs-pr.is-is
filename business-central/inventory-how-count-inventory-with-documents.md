@@ -11,7 +11,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a>Telja og leiðrétta birgðir með skjölum
+# Telja og leiðrétta birgðir með skjölum
 
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Nota síðuna **Safn raunbirgðaskráningar** og miðla raunverulegri talningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, til dæmis til að dreifa vöruflokkum til mismunandi starfsmanna.
 
@@ -29,16 +29,16 @@ Talning birgða með notkun fylgiskjala samanstendur af eftirfarandi heildarskre
 3. Færðu inn talið vörumagn í skráningarnar, eins og þær eru sóttar í prentuðum eintökum til að mynda og stilltu það á **Lokið**.
 4. Ljúktu við og bókaðu pöntun efnislegra birgða.
 
-## <a name="to-create-a-physical-inventory-order"></a>Að stofna pöntun efnislegra birgða
+## Að stofna pöntun efnislegra birgða
 
 Raunbirgðapöntun er fullbúið skjal sem samanstendur af haus og pöntunarlínum raunbirgðapantana. Upplýsingarnar á haus efnislegra birgða útskýrir hvernig á að gera talningu á efnislegum birgðum. Í pöntunarlínunum eru upplýsingar um vörurnar og birgðageymslurnar.
 
 Til að stofna raunbirgðalínur er aðgerðin **Reikna línur** yfirleitt notuð til að bæta gildandi birgðum við sem línur á pöntuninni. Einnig er hægt að nota aðgerðina **Afrita úr fylgiskjali** til að fylla út línurnar með efni annars opinnar eða bókaðrar raunbirgðapöntunar. Eftirfarandi ferli lýsir aðeins notkun aðgerðarinnar **Reikna línur** .
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
-2. Valið er **Nýtt** aðgerð.
+2. Valið er aðgerðin **Nýtt**.
 3. Fylltu út nauðsynlega reiti í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Veldu aðgerðina **Reikna línur**.
+4.  **Á flipanum Aðgerðir**, í flokknum **Aðgerðir**, skal velja **Annað** og velja **síðan Reikna línur**.
 5. Veldu valkostina eins og þörf er á.
 6. Setja afmarkanir, til dæmis, til að taka aðeins með hlutmengi af vörum sem telja á með fyrstu skráningu.
 
@@ -58,7 +58,7 @@ Nú er hægt að búa til eina eða fleiri skráningar sem eru leiðbeiningar ti
 >
 > Þegar Lokið **hefur verið valið** á **síðunni**  Raunbirgðapöntun [!INCLUDE [prod_short](includes/prod_short.md)] er munur reiknaður út með tilliti til pakkans og annarra vörurakningarupplýsinga og jákvæðar eða neikvæðar leiðréttingar.
 
-## <a name="to-create-a-physical-inventory-recording"></a>Að stofna skráningu efnislegra birgða
+## Að stofna skráningu efnislegra birgða
 
 Fyrir hverja raunbirgðapöntun er hægt að stofna eitt eða fleiri raunbirgðaskráningarskjöl þar sem starfsmenn færa inn talda magnið. Starfsmenn geta fært magn inn annaðhvort handvirkt eða með skönnunartæki.
 
@@ -66,17 +66,18 @@ Sjálfgefið er að skráning sé stofnuð fyrir allar línurnar í tengdri pön
 
 Hægt er að prenta reitinn **Raunbirgðir til að fá handvirka talningu.** Skráning skýrslu sem er með tóma dálka þar sem starfsmenn vöruhúss geta skrifað talið magn. Þegar talningu er lokið er skráð magn fært inn í tengdar línur á síðunni **Raunbirgðaskráning** . Að lokum skaltu flytja skráð magn á tengda pöntun efnislegra birgða með því að stilla stöðuna á **Lokið**.
 
-1. Á síðu **Pöntun efnislegra birgða** sem inniheldur línur fyrir vörurnar sem á að telja í einni skráningu, skal velja aðgerðina **Búa til nýja skráningu**.
-2. Veldu valkostina og stilltu síur eins og þörf er á.
-3. Velja hnappinn **Í lagi**.
-4. Ef telja á allar vörur skal hlaða þær á tengda raunbirgðapöntun og endurtaka þrep 1 til 3 með gátreitinn **Aðeins línur ekki í færslum** valinn.
-5. Veldu aðgerðina **Skráningar** til að opna síðuna **Listi yfir efnislegar birgðaskráningar**.
-6. Opnaðu viðkomandi skráningu.
-7. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
-8. Fyrir vörur sem nota vörurakningu skal búa til viðbótarlínu fyrir hvern kóða lotunúmers eða raðnúmers með því að velja aðgerðina **Virkni** og síðan aðgerðina **Afrita línu**. Nánari upplýsingar eru notaðar með því að fara í [Meðhöndlun vörurakningar þegar birgðir eru taldar](#handle-item-tracking-when-counting-inventory).  
-9. Velja skal aðgerðina **Prenta** til að undirbúa efnislegt skjal sem starfsmenn geta notað til að athuga magnið sem þeir telja.
+1.  **Á síðunni Raunbirgðapöntun** sem inniheldur línur fyrir vörurnar sem á að telja í einni skráningu þarf að velja aðgerðina **Gera nýja skráningu** .
+1.  **Á flipanum Aðgerðir**, í flokknum **Aðgerðir**, skal velja **Annað** og velja **síðan Gera nýja skráningu**.
+1. Veldu valkostina og stilltu síur eins og þörf er á.
+1. Velja hnappinn **Í lagi**.
+1. Ef telja á allar vörur skal hlaða þær á tengda raunbirgðapöntun og endurtaka þrep 1 til 3 með gátreitinn **Aðeins línur ekki í færslum** valinn.
+1.  **Á flipanum Tengdar** skal velja **Pöntun** og velja svo aðgerðina **Færslur** til að opna **síðuna Raunbirgðaskráningarlisti** .
+1. Opnaðu viðkomandi skráningu.
+1. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
+1. Fyrir vörur sem nota vörurakningu skal búa til viðbótarlínu fyrir hvern kóða lotunúmers eða raðnúmers með því að velja aðgerðina **Virkni** og síðan aðgerðina **Afrita línu**. Nánari upplýsingar eru notaðar með því að fara í [Meðhöndlun vörurakningar þegar birgðir eru taldar](#handle-item-tracking-when-counting-inventory).  
+1. Velja skal aðgerðina **Prenta** til að undirbúa efnislegt skjal sem starfsmenn geta notað til að athuga magnið sem þeir telja.
 
-## <a name="to-finish-a-physical-inventory-recording"></a>Að ljúka skráningu á efnislegum birgðum
+## Að ljúka skráningu á efnislegum birgðum
 
 Eftir að starfsmenn telja magnið skal skrá magnið. [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -91,23 +92,23 @@ Eftir að starfsmenn telja magnið skal skrá magnið. [!INCLUDE [prod_short](in
     > 
     > Ef samsvarandi raunbirgðapöntunarlína er ekki til og ef **gátreiturinn Leyfa skráningu án pöntunar** er valinn er nýrri línu bætt við og gátreiturinn **Skráð án pöntunar** í viðkomandi raunbirgðapöntunarlínu valinn. Annars birtast villuboð og hætt er við vinnsluna.> Ef fleiri en ein raunbirgðaskráningarlína samsvarar raunbirgðapöntunarlínu þá birtast skilaboð og hætt er við vinnsluna. Ef tvær sömu raunbirgðalínur enda á raunbirgðapöntuninni af einhverjum sökum er hægt að nota aðgerð til að leysa hana. Nánari upplýsingar eru notaðar til að [finna tvíteknar línur](#to-find-duplicate-physical-inventory-order-lines) raunbirgðapantana.
 
-## <a name="to-complete-a-physical-inventory-order"></a>Að ljúka pöntun efnislegra birgða
+## Að ljúka pöntun efnislegra birgða
 
-Þegar skráningu raunbirgða hefur verið lokið er reiturinn **Magn- og stofn)** á tengdri raunbirgðapöntun uppfærður með taldu (skráðu) gildunum og gátreiturinn **Í skráningu** er valinn. Ef talið magn er frábrugðið væntanlegu magni **sýna reitirnir Magn pos (stofn)** og **Neikvætt magn (stofn)** mismuninn.
+Þegar skráningu raunbirgða hefur verið lokið er reiturinn **Magn uppfærður (stofn)** á tengdri raunbirgðapöntun uppfærður með taldu (skráðu) gildunum og gátreiturinn **Í skráningarlínum** er valinn. Ef talið magn er frábrugðið væntanlegu magni **sýna reitirnir Magn tilbúið (stofn)** og **Neikvætt magn (stofn)** mismuninn.
 
 Til að fá aðgang að væntanlegu magni og einhverjum skráðum mun á vörum með vörurakningu skal velja aðgerðina **Línur** og velja **síðan Vörurakningarlínur** til að velja mismunandi yfirlit fyrir rað- og lotunúmerin í raunbirgðatalningunni.
 
 Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** aðgerðina til að skoða mismun milli væntanlegs magns og talins magns.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Að finna tvíteknar pöntunarlínur efnislegra birgða
+### Að finna tvíteknar pöntunarlínur efnislegra birgða
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Opna raunbirgðapöntunina til að skoða tvíteknar línur fyrir.
-3. Veldu aðgerðina **Sýna tvíteknar línur**.
+1.  **Á flipanum Tengdar** skal velja **Annað** og velja **síðan Sýna tvíteknar línur**.
 
 Tvíteknar raunbirgðalínur sýna svo hægt sé að eyða þeim og aðeins eina línu með einstökum gildum í reitunum **Vörunr.**, **Afbrigðiskóti**, **Kóti** birgðageymslu og **Hólfakóti** .
 
-### <a name="to-post-a-physical-inventory-order"></a>Að bóka pöntun efnislegra birgða
+### Að bóka pöntun efnislegra birgða
 
 Þegar lokið hefur verið við raunbirgðapöntun og stöðu hennar breytt í Lokið **er hægt að** bóka hana. Aðeins er hægt að stilla stöðu raunbirgðapöntunar á **Lokið** við eftirfarandi skilyrði:
 
@@ -128,21 +129,21 @@ Tvíteknar raunbirgðalínur sýna svo hægt sé að eyða þeim og aðeins eina
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a>Að skoða bókaðar pantanir efnislegra birgða
+### Að skoða bókaðar pantanir efnislegra birgða
 
 Að bókun lokinni er raunbirgðapöntuninni eytt og hægt er að skoða skjalið sem bókaða raunbirgðapöntun. Í bókuðu pöntuninni eru raunbirgðaskráningar hennar og allar athugasemdir gerðar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bókaðar efnislegar birgðapantanir** og velja síðan viðkomandi tengil.
 2. Í reitnum **Bókaðar raunbirgðir Síðan Pantanir**, valin bókuð birgðapöntun til að skoða og svo er aðgerðin **Skoða** valin.
-3. Til að skoða lista yfir tengdar skráningar efnislegra birgða skal velja aðgerðina **Skráningar**.
+3.  **Á flipanum Tengdar skal velja** Pöntun **og velja svo aðgerðina** Færslur **til að skoða lista yfir tengdar** raunbirgðaskráningar.  
 
-## <a name="handle-item-tracking-when-counting-inventory"></a>Meðhöndla vörurakningu við talningu birgða
+## Meðhöndla vörurakningu við talningu birgða
 
-Vörurakning tengist rað- eða lotunúmerum sem úthlutað er á vörur. Þegar vara sem geymd er í birgðum er talin, til dæmis, 10 mismunandi lotunúmer, verður starfsmaður að geta skráð hvaða og hversu margar einingar hvers lotunúmers eru í birgðum. Nánari upplýsingar eru notaðar [með því að fara í](inventory-how-work-item-tracking.md) Vinna með rað- og lotunúmer.
+Vörurakning tengist rað- eða lotunúmerum sem úthlutað er á vörur. Þegar vara sem geymd er í birgðum er talin, til dæmis, 10 mismunandi lotunúmer, verður starfsmaður að geta skráð hvaða og hversu margar einingar hvers lotunúmers eru í birgðum. Nánari upplýsingar eru notaðar með því að fara í [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
 Gátreiturinn **Nota vörurakningu** í raunbirgðapöntunarlínum er sjálfkrafa valinn ef vörurakningarkóti er settur upp fyrir vöruna. Hægt er að velja gátreitinn handvirkt eða hreinsa hann.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Dæmi - Undirbúa skráningu raunbirgða fyrir vörurakta vöru
+### Dæmi - Undirbúa skráningu raunbirgða fyrir vörurakta vöru
 
 Íhugaðu efnislegar birgðir fyrir vöru A sem er geymd í birgðum sem tíu mismunandi raðnúmer.
 
@@ -159,7 +160,7 @@ Gátreiturinn **Nota vörurakningu** í raunbirgðapöntunarlínum er sjálfkraf
 
 Taktu eftir að skýrslan **Skráning efnislegra birgða** inniheldur tíu línur fyrir vöru A, eina fyrir hvert raðnúmer.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a>Dæmi - Skrá og bóka talinn mismun lotunúmera
+### Dæmi - Skrá og bóka talinn mismun lotunúmera
 
 Vara rakin eftir lotu er geymd í birgðum með númeraröðunum „LOTA“.
 
@@ -192,9 +193,9 @@ Vara rakin eftir lotu er geymd í birgðum með númeraröðunum „LOTA“.
 |LOT1006|10|0|-10|
 |Samtals|120|112|-8|
 
-Í reitnum **Raunbirgðamagn** (stofn) **er** 8 í reitnum **Raunbirgðapöntun**. Reiturinn **Raunbirgðir fyrir pöntunarlínuna. Vörurakning. Listasíða** sýnir jákvætt eða neikvætt magn fyrir hvert lotunúmer.
+Í reitnum **Raunbirgðamagn** (stofn) **er** 8 **í reitnum Raunbirgðapöntun**. Reiturinn **Raunbirgðir fyrir pöntunarlínuna. Vörurakning. Listasíða** sýnir jákvætt eða neikvætt magn fyrir hvert lotunúmer.
 
-## <a name="inventory-documents"></a>Birgðaskjöl
+## Birgðaskjöl
 
 Eftirfarandi gerðir skjala eru gagnlegar til að stjórna vöruhúsinu:
 
@@ -206,35 +207,35 @@ Hægt er að prenta þessi skjöl á hvaða stigi sem er, gefa þau út og endur
 > [!NOTE]
 > Áður en hægt er að nota þessi fylgiskjöl þarf að tilgreina númeraröð til að stofna kenni þeirra. Nánari upplýsingar eru í Til að [setja upp tölusetningu fyrir birgðaskjöl](#to-set-up-numbering-for-inventory-documents).
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a>Að setja upp númeraröð fyrir birgðaskjöl
+### Að setja upp númeraröð fyrir birgðaskjöl
 
 Þessi verklýsing sýnir hvernig á að búa til númeraröð fyrir birgðaskjöl.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning birgða** og velja síðan viðkomandi tengil.
 2. Í flýtiflipanum **Tölusetning** skal tilgreina í eftirfarandi reitum númeraraðir fyrir skjöl:
 
-   - **Birgðainnhreyfingarnr.**  
-   - **Bókuð birgðamóttökunr.**  
-   - **Birgðaafhendingarnr.**  
-   - **Bókuð birgðaafhendingarnr.**  
+   - **Birgðabirgða Nr.röð móttöku**  
+   - **Bókaðar birgðatextar Nr.röð móttöku**  
+   - **Birgðabirgða Nr.öð afhendingar**  
+   - **Bókaðar birgðatextar Nr.öð afhendingar**  
 
-### <a name="to-create-and-post-an-inventory-document"></a>Að stofna og bóka birgðaskjal
+### Að stofna og bóka birgðaskjal
 
 Eftirfarandi ferli sýnir hvernig á að stofna, prenta og bóka birgðamóttöku. Skrefin eru svipuð fyrir birgðaafhendingar.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Birgðamóttaka** og velja síðan viðkomandi tengil.  
-2. Í haus síðunnar **Birgðamóttaka** skal velja staðsetninguna í reitnum **Staðsetningarkóði** og síðan fylla út eftirstandandi reiti eftir þörfum.
+2. Í haus birgðah. **Móttökusíða**, velja birgðageymsluna í reitnum **Kóti** birgðageymslu og fylla síðan út þá reiti sem eftir eru eins og þörf krefur.
 3. Á flýtiflipanum **Línur** í reitnum **Vara** skal velja birgðavöruna. Í reitinn **Magn** er fært magn vara sem á að bæta við.
-4. Til að prenta skýrslu **Birgðamóttöku** á síðunni **Birgðamóttaka** skal velja aðgerðina **Prenta**.
+4. Til að prenta **birgðamóttökuskýrslu úr reitnum** Birgðamóttaka **. Kvittanasíða**, veljið aðgerðina **Prenta** .
 
-Eftirfarandi aðgerðir eru í boði á síðunni **Birgðamóttaka**:
+Eftirfarandi aðgerðir eru tiltækar í birgðagrunninum **. Móttökusíða** :
 
 -  **Veljið Útgáfu** eða **Enduropna** aðgerðir til að stilla stöðuna fyrir næsta vinnslustig.  
 -  **Veljið Bóka** aðgerð til að bóka birgðamóttökuna eða veljið **Bóka og prenta** til að bóka móttökuna og prenta prófunarskýrsluna.  
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a>Prentun birgðaskjala
+## Prentun birgðaskjala
 
 Hægt er að tilgreina skýrslurnar sem á að prenta á mismunandi þrepum með því að velja einn af eftirfarandi valkostum í **reitnum Notkun** á síðunni **Skýrsluval - Birgðir** :
 
@@ -246,15 +247,15 @@ Hægt er að tilgreina skýrslurnar sem á að prenta á mismunandi þrepum með
 > [!NOTE]
 > Tiltækar skýrslur geta verið mismunandi eftir staðfæringu landsins/svæðisins. Grunnforritið inniheldur ekkert útlit.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)  
-[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
-[Birgðir](inventory-manage-inventory.md)  
-[Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)  
-[Sala](sales-manage-sales.md)  
-[Innkaup](purchasing-manage-purchasing.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Telja, Leiðrétta og Endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md)    
+[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)    
+[Birgðir](inventory-manage-inventory.md)    
+[Vöruhúsakerfi - yfirlit](design-details-warehouse-management.md)    
+[Sala](sales-manage-sales.md)    
+[Innkaup](purchasing-manage-purchasing.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

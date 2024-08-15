@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 05/03/2024
+ms.date: 07/15/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
@@ -11,7 +11,7 @@ Eftirfarandi tafla lýsir nokkrum lykilskýrslum fyrir gjaldfallna reikninga.
 
 | Skýrsla | Heimildasamstæða | KENNI | 
 |--|--|--|
-| [Aldursgreindar skuldir](https://businesscentral.dynamics.com?report=322) |Sýnir gjaldfallna stöðu fyrir lánardrottna með tímabilum. Gjaldfallnar upphæðir geta sýnt eftir gjalddaga, bókunardagsetningu eða dagsetningu fylgiskjals. Þú getur valið að sýna upphæðirnar í staðbundnum gjaldmiðli (SGM) og prenta út upplýsingar um gjaldfallin skjöl. Tímabilin geta verið með fyrirsagnir með dagsetningum eða með fjölda dagsetninga sem eru gjaldfallnar miðað við tilgreinda aldursgreiningu eftir gerð.<br>Þessi skýrsla er aðalskýrslan til að afstemma lánardrottnabók við fjárhagsbók. Ef ekki er bókað beint á gjaldfallna reikninga fyrir bókunarflokk lánardrottins er þessi skýrsla skilgreining á upphæðunum í fjárhagnum.| 322|
+| [Aldursgreindar skuldir](https://businesscentral.dynamics.com?report=322) |Sýnir gjaldfallna stöðu fyrir lánardrottna með tímabilum. Gjaldfallnar upphæðir geta sýnt eftir gjalddaga, bókunardagsetningu eða dagsetningu fylgiskjals. Þú getur valið að sýna upphæðirnar í staðbundnum gjaldmiðli (SGM) og prenta út upplýsingar um gjaldfallin skjöl. Tímabilin geta verið með fyrirsagnir með dagsetningum eða með fjölda dagsetninga sem eru gjaldfallnar miðað við tilgreinda aldursgreiningu eftir gerð.<br>Þessi skýrsla er aðalskýrslan til að afstemma lánardrottnabók við fjárhagsbók. Ef ekki er bókað beint á safnreikning lánardrottna í lánardrottnabókunarflokki er þessi skýrsla skilgreining á upphæðunum í fjárhagur.| 322|
 | [Lánardr. - Staða til dags.](https://businesscentral.dynamics.com?report=321) | Sýnir stöðu lánardrottins eftir lokadagsetningu á tilteknu dagsetningabili. Hægt er að velja að birta stöðu lánardrottins í staðbundnum gjaldmiðli (SGM). Velja skal reitinn **Taka ójafnaðar færslur** með til að sýna færslur sem lokað var fyrir lokadagsetninguna en voru ójafnaðar (opnaðar) síðar. Veljið **Sýna færslur með núllstöðu** til að sýna lánardrottna með stöðuna núll eftir lokadagsetningunni í dagsetningasíunni. Dagsetningasían gildir um ítarlegar fjárhagsfærslur lánardrottins fyrir færslurnar í skýrslunni. Ef greiðsla var innt af hendi eftir lokadagsetninguna og greiðsan var jöfnuð við reikninga á dagsetningabilinu inniheldur skýrslan reikninginn. Í skýrslunni er reikningurinn þar sem hann var ekki lokaður fyrir lokadagsetninguna. | 321 |
 | [Lánardrottinn - Prófjöfnuður](https://businesscentral.dynamics.com?report=329) | Sýnir hreyfingar lánardrottna á tímabilinu sem tilgreint er í dagsetningarafmörkuninni og hreyfingarár til dagsins í samsvarandi reikningsári. Skýrslan er flokkuð eftir bókunarflokkum lánardrottna og gefur aðra sýn á fjárhag lánardrottins en **skýrslan Aldursgreindar skuldir** . **Til athugunar**: Ef reikningstímabil [!INCLUDE [prod_short](prod_short.md)]  eru ekki sett upp er ekki vitað hvaða reikningsár á að nota. Hann sýnir frá og með síðasta reikningsári eða aðeins valið tímabil. Hugsanlega er dagsetningin ekki frá upphafi árs.|329 |
 | [Lánardr. - Hreyfingalisti](https://businesscentral.dynamics.com?report=304) | Sýnir allar færslur lánardrottnabókar innan tiltekinnar dagsetningasíu. Skýrslan sýnir upphafsstöðu lánardrottins samkvæmt dagsetningasíunni. | 304 |

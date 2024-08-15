@@ -1,17 +1,17 @@
 ---
-title: Hvernig á að loka fyrir sölu til viðskiptamanna
+title: Hvernig loka á sölu til viðskiptamanna
 description: Ef þörf er á er hægt að útiloka að viðskiptavinur sé hafður með í söluskjölum og öðrum sölufærslum.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 04/01/2021
+ms.date: 07/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="block-customers"></a>Loka á viðskiptamenn
-Hægt er að loka á viðskiptamann, til dæmis vegna gjaldþrota, svo að ekki sé hægt að bæta viðskiptamanninum við söluskjöl eða svo að ekki sé hægt að bóka færslur fyrir viðskiptamanninn.
+# Loka viðskiptavinum
+Hægt er að loka viðskiptamanni, til dæmis vegna ógjaldfærslna, svo ekki sé hægt að bæta viðskiptamanninum við söluskjöl eða svo að ekki sé hægt að bóka neinar færslur fyrir viðskiptamanninn.
 
 Auk þess að loka á viðskitamenn er hægt að stilla viðskiptakröfur fyrir viðskiptamanninn í bið í tengslum við áminningar. Nánari upplýsingar er að finna í [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md).   
 
@@ -21,15 +21,15 @@ Eftirfarandi tafla lýsir valkostunum fyrir lokun á viðskiptavini.
 |--------------------|------------|  
 |**Autt**|Viðskipti eru leyfð fyrir þennan viðskiptamann.|
 |**Afhenda**|Ekki er hægt að stofna nýjar pantanir og nýjar afhendingar fyrir þennan viðskiptamann. Hægt er að reikningsfæra fyrirliggjandi óreikningsfærðar afhendingar.|  
-|**Reikningsfæra**|Ekki er hægt að stofna nýjar pantanir, nýjar afhendingar og nýja reikninga fyrir þennan viðskiptamann. Ekki er hægt að reikningsfæra fyrirliggjandi óreikningsfærðar afhendingar. Enn er hægt að senda innheimtubréf og vaxtareikninga til viðskiptavinarins.|  
+|**Reikningur**|Ekki er hægt að stofna nýjar pantanir, nýjar afhendingar og nýja reikninga fyrir þennan viðskiptamann. Ekki er hægt að reikningsfæra fyrirliggjandi afhendingar sem enn hafa ekki verið reikningsfærðar. Enn er hægt að senda innheimtubréf og vaxtareikninga til viðskiptavinarins.|  
 |**Allt**|Engar færslur eru leyfðar fyrir þennan viðskiptamann, þ.m.t. greiðslur.|  
 
-## <a name="to-block-a-customer"></a>Til að loka á viðskiptamann
+## Til að loka á viðskiptamann  
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Veldu viðskiptamann og síðan aðgerðina **Breyta**.
 3. Í reitnum **Lokað** skal velja hverju á að loka, eins og lýst er í töflunni hér að ofan.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  

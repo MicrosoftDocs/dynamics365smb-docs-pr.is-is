@@ -7,15 +7,15 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'customer, payment, invoice, sales, invoice, quote'
 ms.search.form: '1950, 1951,'
-ms.date: 07/01/2024
+ms.date: 07/11/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-late-payment-prediction-extension"></a>Framlenging á spá um síðbúna greiðslu
+# Framlenging á spá um síðbúna greiðslu
 
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Til að draga úr útistandandi útistandandi skuldum og hjálpa þér að fínstilla innheimtuáætlun þína spáir viðbótin um hvort búast megi við seingreiðslum. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
 
-## <a name="get-started"></a>Hefjast handa
+## Hefjast handa
 
 Þegar bókað söluskjal er opnað birtist tilkynning efst á síðunni. Til að nota viðbót við síðbúna greiðsluspá, skal velja Gera virkt **í** tilkynningunni. Einnig er hægt að setja upp viðbótina handvirkt. Til dæmis, ef þú iðrast þess að hafna tilkynningunni.
 
@@ -27,7 +27,7 @@ Til að virkja viðbótina handvirkt skaltu fylgja þessum skrefum:
 > [!NOTE]
 > Ef ákveðið er að virkja viðbótina handvirkt skal hafa í huga að [!INCLUDE[prod_short](includes/prod_short.md)] leyfir þér ekki að gera það ef gæði líkansins eru léleg. Gæði líkansins gefur til kynna hversu nákvæmar spár líkansins eru líklegar til að verða. Nokkrir þættir geta haft áhrif á gæði líkansins. Til dæmis gæti hafa nægileg gögn verið nægileg eða ekki var nægilegt tilbrigði við gögnin. Hægt er að skoða gæði líkansins sem þú notar á síðunni Uppsetning **síðbúinnar** greiðsluspár. Þú getur einnig tilgreint lágmarksþröskuld fyrir gæði líkansins.
 
-## <a name="view-all-payment-predictions"></a>Skoða allar greiðsluspár
+## Skoða allar greiðsluspár
 
 Ef viðbótin **er gerð virk eru greiðslur sem spáð er að séu Seint** tiltækar í **Mitt hlutverk viðskiptastjóra** . Reiturinn sýnir fjölda greiðslna sem spáð er að verði of seint og gerir kleift að opna **síðuna Viðskm.færslur** þar sem hægt er að grafa dýpra í bókaða reikninga. Það eru þrjár dálkar sem veita skal eftirtekt:  
 
@@ -38,7 +38,7 @@ Ef viðbótin **er gerð virk eru greiðslur sem spáð er að séu Seint** tilt
 > [!TIP]
 > Síðan Viðskm.færslur sýnir upplýsingakassa. Þó að þú sért að fara yfir spár geta upplýsingarnar í hlutanum **Upplýsingar um viðskiptamenn verið gagnlegar** . Þegar þú velur reikninginn í listanum birtir hlutinn upplýsingar um viðskiptamanninn. Það gerir þér jafnframt kleift að hefja aðgerðir strax. Ef viðskiptamaður setur til dæmis oft veskið sitt á rangan stað getur þú opnað viðskiptamannakortið frá Upplýsingakassanum og útilokað viðskiptamanninn frá framtíðarsölu.  
 
-## <a name="design-details"></a>Hönnunarupplýsingar
+## Hönnunarupplýsingar
 
 Microsoft notar og notar fyrirsjáanlega vefþjónustu á öllum svæðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] er í boði. Aðgangur að þessum vefþjónustum er innifalinn í [!INCLUDE[prod_short](includes/prod_short.md)] áskriftinni. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -53,7 +53,7 @@ Vefþjónustan vinnur í þremur stillingum:
 > [!NOTE]  
 > Einnig er hægt að nota eigin forspárþjónustu á netinu. Nánari upplýsingar er að finna í [Búa til og nota eigin forspárþjónustu á netinu fyrir spá um greiðsludrátt](#AnchorText).
 
-### <a name="data-required-to-train-and-evaluate-the-model"></a>Gögn sem þarf til að þjálfa og meta líkanið
+### Gögn sem þarf til að þjálfa og meta líkanið
 
 Fyrir hverja **Viðskiptamannafærslu** sem er með tengdan **Bókaðan sölureikning**:
 
@@ -76,7 +76,7 @@ Auk þess hefur færslan samanlagt gögn frá öðrum reikningum sem tengjast sa
 > [!NOTE]
 > Upplýsingarnar um viðskiptamanninn eru ekki í gagnasafninu.
 
-### <a name="standard-model-and-my-model"></a>Staðlað líkan og Líkanið mitt
+### Staðlað líkan og Líkanið mitt
 
 Fyrirsjáanlegt líkan síðbúinnar greiðsluspár er þjálfað í gögnum sem tákna svið lítilla fyrirtækja í meðalstórum fyrirtækjum. Þegar byrjað er að bóka reikninga og taka á móti greiðslum er [!INCLUDE[prod_short](includes/prod_short.md)]  metið hvort staðlaða líkanið passi við viðskiptaflæðið.
 
@@ -87,25 +87,25 @@ Ef ferlin passa ekki við staðlaða líkanið er hægt að nota viðbótina en 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] keyrir þjálfun og mat sjálfkrafa þegar nægir greiddir og síðbúnir reikningar eru tiltækir. Hins vegar er hægt að keyra hana handvirkt þegar óskað er.
 
-#### <a name="to-train-and-use-your-model"></a>Að þjálfa og nota líkanið
+#### Að þjálfa og nota líkanið
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á spám fyrir greiðsludrátt** og velja síðan viðkomandi tengil.  
 2. Í **Valið líkan** reitinn, veldu **Mitt líkan**.
 3. Veldu aðgerðina **Búa til líkanið mitt** til að þjálfa líkan í gögnunum þínum.  
 
-## <a name="a-nameanchortext-acreate-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Búa til og nota eigin greiðsludráttarspá á netinu til að spá fyrir um greiðsludrátt
+## <a name="AnchorText"> </a>Búa til og nota eigin greiðsludráttarspá á netinu til að spá fyrir um greiðsludrátt
 
 Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] netið er líkanið gefið út af Microsoft og tengt við Microsoft-áskriftina. Fyrir aðra virkjunarkosti þarf að búa til vélarnámsforða í eigin Azure áskrift. Hægt er að finna sýniskref í [sýnishorninu](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). Tilgangur þessa verks er að fá API-URI og API-lykil.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning á spám fyrir greiðsludrátt** og velja síðan viðkomandi tengil.  
 2. Veldu **Nota Azure-áskriftina mína** gátreitinn.
-3. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  
+3. Á flýtiflipanum **Nota Azure-áskrift** mína skal slá inn API-URL og API lykil fyrir líkanið.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Sérstilling Business Central með viðbótum](ui-extensions.md)  
-[Velkomin í [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
-[Nota gervigreind í Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
-[Yfirlit spár-API](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)
+[Sérstilling Business Central með viðbótum](ui-extensions.md)    
+[Velkomin í [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)    
+[Nota gervigreind í Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)    
+[Yfirlit spár-API](/dynamics365/business-central/dev-itpro/developer/ml-prediction-api-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

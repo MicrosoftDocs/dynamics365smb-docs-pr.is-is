@@ -7,23 +7,23 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'payment process, cash receipt'
 ms.search.form: '25, 255'
-ms.date: 05/17/2024
+ms.date: 06/21/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Stemma af greiðslur viðskiptavina við inngreiðslubók eða úr viðskiptamannafærslum
+# Stemma af greiðslur viðskiptavina við inngreiðslubók eða úr viðskiptamannafærslum
 
 Þegar staðgreiðsla berst frá viðskiptamanni eða veitir endurgreiðslu í reiðufé er hægt að jafna greiðsluna eða endurgreiðsluna til að loka opnum debet- eða kreditum. Hægt er að tilgreina upphæð sem á að nota. Til dæmis er hægt að færa hlutagreiðslur í færslur í viðskiptamannabók. Að loka færslum í viðskiptamannabók heldur upplýsingum um tölfræði viðskiptamanna, reikningsyfirlit, vaxtareikningum uppfæðum.
 
 > [!TIP]  
-> Á síðunni **Færslur í viðskiptamannabók** merkir rautt letur að tengd greiðsla er komin yfir gjalddaga. Ef gjaldfallnar greiðslur eru að verða vandamál, getum við hjálpað þér að draga úr tíðni þeirra. Þú getur virkjað **Greiðsludráttarspár** viðbótina sem notar spálíkan, sem við byggðum í Azure Machine-vélnámi, til að spá fyrir um tímasetningu greiðslna. Þessar spár hjálpa þér að fækka útistandandi kröfum og fínstilla innheimtustefnu þína. Ef greiðsla telst til dæmis vera sein getur þú breytt greiðsluskilmálum eða greiðslumáta fyrir viðskiptamanninn. Nánari upplýsingar er að finna í [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md).  
+> Á síðunni **Færslur í viðskiptamannabók** merkir rautt letur að tengd greiðsla er komin yfir gjalddaga. Ef gjaldfallnar greiðslur eru að verða vandamál, getum við hjálpað þér að draga úr tíðni þeirra. Hægt er að virkja viðbót við uppsetningu **á síðbúinni** greiðsluspá, sem notar fyrirsjáanlegt líkan sem við byggjum upp í Azure Machine Learning til að spá fyrir um tímasetningu greiðslna. Þessar spár hjálpa þér að fækka útistandandi kröfum og fínstilla innheimtustefnu þína. Ef greiðsla telst til dæmis vera sein getur þú breytt greiðsluskilmálum eða greiðslumáta fyrir viðskiptamanninn. Nánari upplýsingar er að finna í [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md).  
 
 Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 
 * Færa inn upplýsingar á eftirfarandi síður:
-   * Síðan **Greiðsluafstemmingarbók**. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
-   * Síðan **Skráning greiðslna**. Frekari upplýsingar eru í [Samræma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-   * Síðan **Inngreiðslubók** . Nánari upplýsingar eru [í Til að fylla út og bóka inngreiðslubók](#to-fill-and-post-a-cash-receipt-journal).
+   * Síðan **Greiðsluafstemmingarbækur** . Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   * Síðan **Uppsetning greiðsluskráningar** . Frekari upplýsingar eru í [Samræma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+   * Síðan **Inngreiðslubækur** . Nánari upplýsingar eru [í Til að fylla út og bóka inngreiðslubók](#to-fill-and-post-a-cash-receipt-journal).
 * Með því að fylla út reitinn **Jöfnunarskjalsnúmer** í skjölum sölukreditreiknings. Nánari upplýsingar eru [í Jafna kreditreikning við eina viðskiptamannafærslu](#to-apply-a-credit-memo-to-a-single-customer-ledger-entry).
 * Með því að nota aðgerðina **Stilla jöfnunarkenni** í færslu viðskiptamannabókar. Nánari upplýsingar eru [í Jafna greiðslu við eina viðskiptamannafærslu](#to-apply-a-payment-to-a-single-customer-ledger-entry).
 * Með því að nota aðgerðina **Jafna færslur** á síðunni **Innborgun í banka** og síðan færa inn reikningsnúmerið í reitinn **Kenni jöfnunar**. Frekari upplýsingar er að finna í [Búa til innborganir í banka](bank-create-bank-deposits.md).
@@ -31,11 +31,11 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 > [!NOTE]  
 > Ef reiturinn **Jöfnunaraðferð** á viðskiptamannaspjaldinu er með **Jafna við elstu** þá munu greiðslur sjálfkrafa vera jöfnuð við elstu opnu kreditfærsluna ef ekki er tilgreint handvirkt hvaða færslu eigi að jafna við. Ef jöfnunaraðferðin er **Handvirkt** verður að jafna færslur handvirkt.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Til að fylla út og bóka inngreiðslubók:
+## Til að fylla út og bóka inngreiðslubók:
 
 Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka færslur í fjárhags-, banka-, viðskiptamanna-, lánardrottna- og eignareikninga. Hægt að jafna greiðsluna við eina eða fleiri debetfærslur þegar greiðslan er bókuð. Einnig er hægt að jafna úr bókuðum færslum síðar.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Inngreiðslubók** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Inngreiðslubækur** og velja síðan viðkomandi tengil.
 2. Velja skal aðgerðina **Breyta færslubók**.
 3. Velja skal viðeigandi keyrslu í reitnum **Heiti keyrslu**.
 4. Fylla skal út reitinn **Dagsetning bókunar**.  
@@ -50,13 +50,13 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 7. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
 8. Í reitnum **Reikningur nr.** er viðskiptamaður valinn.
 9. Til að bóka jöfnunina um leið og færslubókin er bókuð eru eftirfarandi reitir fylltir út:
-   1. Í reitnum **Tegund mótreiknings** er **fjárhagsreikningur** valinn fyrir greiðslu í reiðufé og **bankareikningur** fyrir aðrar greiðslur.
-   2. Í reitnum **Mótreikningur nr.** er sjóðsreikningur valinn fyrir greiðslu í reiðufé eða viðeigandi bankareikningur fyrir aðrar greiðslur.
+   1. Í reitnum **Tegund** mótreiknings skal velja **Fjárhagsreikning fyrir** staðgreiðslur og **Bankareikning fyrir** aðrar greiðslur.
+   2. Í reitnum **Mótreikningur nr.** skal velja sjóðsreikning fyrir staðgreiðslur eða viðeigandi bankareikning fyrir aðrar greiðslur.
 10. Bóka skal færslubókina.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Greiðsla jöfnuð við eina viðskiptamannsfærslu
+## Greiðsla jöfnuð við eina viðskiptamannsfærslu
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **inngreiðslubók** og velja viðeigandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Teikn, færa inn **inngreiðslubók** og velja viðeigandi tengja.
 2. Velja skal aðgerðina **Breyta færslubók**.
 3. Í fyrstu bókarlínunni eru ritaðar viðeigandi upplýsingar um færsluna sem á að jafna.
 4. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
@@ -70,7 +70,7 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 10. Velja hnappinn **Í lagi**. Síðan **Inngreiðslubók** sýnir nú færsluna sem í reitunum **Jöfnunarskjalsgerð** og **Jöfnunarskjalsnúmer**.
 11. Inngreiðslubókin er bókuð
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Greiðsla jöfnuð við margar viðskiptamannafærslu:
+## Greiðsla jöfnuð við margar viðskiptamannafærslu:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Inngreiðslubók** og velja síðan viðkomandi tengil.
 2. Velja skal aðgerðina **Breyta færslubók**.
@@ -87,7 +87,7 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 11. Velja hnappinn **Í lagi**.
 12. Inngreiðslubókin er bókuð
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Kreditreikningur jafnaður við eina viðskiptamannsfærslu:
+## Kreditreikningur jafnaður við eina viðskiptamannsfærslu:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölukreditreikningar** og velja síðan viðkomandi tengil.
 2. Opna skal viðeigandi sölukreditreikning.
@@ -98,7 +98,7 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 5. Velja hnappinn **Í lagi**. Síðan **Sölukreditreikningur** sýnir nú færsluna sem valin var í reitunum **Tegund** jöfnunar og **Jöfnunarnúmer.** Svæði. Og upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
 6. Kreditreikningurinn er bókaður.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Kreditreikningur jafnaður við margar viðskiptamannafærslur:
+## Kreditreikningur jafnaður við margar viðskiptamannafærslur:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Sölukreditreikningar** og velja síðan viðkomandi tengil.
 2. Opna skal viðeigandi sölukreditreikning.
@@ -110,11 +110,11 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 6. Velja hnappinn **Í lagi**. Síðan **sölukreditreikningur** sýnir núna upphæð kreditreikningsins sem á að bóka, leiðréttan fyrir hugsanlegan greiðsluafslátt.
 7. Kreditreikningurinn er bókaður.
 
-## <a name="to-apply-posted-customer-ledger-entries"></a>Bókaðar viðskiptamannafærslur jafnaðar:
+## Bókaðar viðskiptamannafærslur jafnaðar:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opna skal viðskiptamannsspjald fyrir viðskiptamann með færslur sem á að jafna.
-3. Veljið aðgerðina **Færslur** og veljið svo línuna með færslunni sem er jöfnunarfærslan.
+3. Veljið aðgerðina **Færslur** á **flipanum Tengdar** og veljið svo línuna með færslunni sem er jöfnunarfærslan.
 4. Valið er **Jafna Færslur** aðgerð. Síðan **Jafna Viðskm.færslur** opnast og sýnir opnar færslur fyrir viðskiptamanninn.
 5. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**. Aðgerð
 6. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.  
@@ -131,7 +131,7 @@ Inngreiðslubók er tegund af færslubók. Hægt er að nota hana til að bóka 
 > [!NOTE]  
 > Eftir að færslan var valin af síðunni **Jafna viðskm.færslur** eða nokkrar færslur með því að setja **Kenni jöfnunar**, inniheldur reiturinn **Jöfnuð upphæð** í bókarlínunni samantekt eftirstandandi upphæða í bókuðu færslunum sem voru valdar - nema reiturinn sé þegar útfylltur. Ef **Jafna elstu** er valið í reitnum **J** á viðskiptamannaspjaldinu verður greiðslan jöfnuð sjálfkrafa.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Viðskiptamannafærslur jafnaðar hver við aðra í mismunandi gjaldmiðlum:
+## Viðskiptamannafærslur jafnaðar hver við aðra í mismunandi gjaldmiðlum:
 
 Ef viðskiptamaður kaupir í einum gjaldmiðli og greiðir í öðrum er enn hægt að jafna reikninginn við greiðsluna.  
 
@@ -149,7 +149,7 @@ Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt.
 > [!IMPORTANT]  
 >   Þegar færslur í mismunandi gjaldmiðlum eru jafnaðar er færslum breytt í USD. Jafnvel þó gengið fyrir þessa tvo gjaldmiðla sé fast, t.d. milli USD og EUR, kann að vera einhver afgangur þegar þessum upphæðum er breytt í USD. Þessar litlu afgangsupphæðir eru bókaðar sem hagnaður eða tap á þann reikning sem er tilgreindur í reitunum **Reikningur orðins hagnaðar** eða **Reikningur orðins taps** á síðunni **Gjaldmiðlar**. Reiturinn **Upphæð (USD)** er einnig stilltur á lánardrottnafærslur.  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Til að leiðrétta jöfnun á færslum viðskiptamanns
+## Til að leiðrétta jöfnun á færslum viðskiptamanns
 Þegar jöfnun er leiðrétt eru leiðréttar færslur stofnaðar og bókaðar fyrir allar færslur. Leiðréttar færslur eru þær sömu og upprunalegu færslurnar en eru með öfugt formerki í reitnum **Upphæð**. Leiðréttar færslur innihalda allar almennar fjárhagsfærslur sem fengnar eru úr jöfnuninni. Til dæmis greiðsluafslátt og hagnað/tap gjaldmiðils. Færslurnar sem lokaðar jöfnunar eru opnaðar aftur.  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
@@ -163,7 +163,7 @@ Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt.
 > [!IMPORTANT]  
 >   Ef færsla hefur verið jöfnuð með fleiri en einni jöfnunarfærslu verður að ógilda þá nýjustu fyrst.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

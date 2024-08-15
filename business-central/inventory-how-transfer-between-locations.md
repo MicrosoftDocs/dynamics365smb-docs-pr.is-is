@@ -5,20 +5,21 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 05/24/2024
+ms.date: 07/08/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
+
+# Flytja birgðir milli birgðageymslna
 
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.
 
 > [!NOTE]
-> Til að flytja vörur verður að setja upp birgðageymslur og flutningsleiðir. Nánari upplýsingar um uppsetningu birgðageymslna eru í [Setja upp birgðageymslur](inventory-how-setup-locations.md). Ekki er hægt að nota millifærslupantanir fyrir *auðar* birgðageymslur.
+> Til að flytja vörur verður að setja upp birgðageymslur og flutningsleiðir. Nánari upplýsingar um uppsetningu birgðageymslna eru í [Uppsetning birgðageymslna](inventory-how-setup-locations.md). Ekki er hægt að nota millifærslupantanir fyrir *auðar* birgðageymslur.
 
-## <a name="transfer-orders"></a>Millifærslupantanir
+## Millifærslupantanir
 
 Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á móti millifærslu á innleið. Hægt er að:
 
@@ -27,7 +28,7 @@ Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á m
 * Nota mismunandi vöruhúsaaðgerðir fyrir birgðageymslur á innleið og útleið.
 * Nota millifærslupantanir fyrir beinar millifærslur, með nokkrum takmörkunum.
 
-## <a name="item-reclassification-journals"></a>Endurflokkunarbækur birgða
+## Endurflokkunarbækur birgða
 
 Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 
@@ -38,7 +39,7 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 * Endurflokka vörur frá auðri birgðageymslu í raunverulega birgðageymslu.
 * Stofna vöruhúsafærslur ef vöruhúsaaðgerðum er ekki stjórnað.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Vörur fluttar með flutningspöntun
+## Vörur fluttar með flutningspöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningspantanir** og velja síðan viðkomandi tengil.
 2. Fyllt er út í reiti eftir því sem á við á síðunni **Flutningspöntun**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -63,7 +64,7 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
     Sem starfsmaður vörugeymslu við flutninginn frá staðsetninginni skaltu halda áfram að fá vörurnar. Millifærslupöntunarlínurnar eru þær sömu og þegar þær eru afhentar og ekki hægt að breyta þeim.
 5. Veldu aðgerðina **Bóka**, veldu **Móttaka** valkostinn og veldu síðan **Í lagi** hnappinn.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bóka margar millifærslupantanir í keyrslu
+### Bóka margar millifærslupantanir í keyrslu
 
 Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrslu.
 
@@ -71,11 +72,11 @@ Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrs
 2. Á síðunni **Millifærslupantanir** eru valdar pantanirnar sem á að bóka.
 3. Í reitnum **númer** Skal opna samhengisvalmyndina og velja **Velja meira**.
 4. Velja skal gátreitinn fyrir línurnar fyrir hverja pöntun sem á að bóka.
-5. Velja skal bókunaraðgerðina **og** velja **svo Fjöldabóka**.
+5. Velja skal aðgerðina **Bóka** og velja **svo Fjöldabóka**.
 6. Á síðunni **Fjöldabóka millifærslupöntun** skal fylla út reitina eins og þörf krefur.
 
    > [!TIP]
-    > Fyrir millifærslupantanir sem nota millifærslustað er hægt að velja Annaðhvort Afhenda **eða** **Móttaka**. Þetta er endurtekið ef þörf er á að gera bæði. Fyrir pantanir þar sem **bein bókun** er virkjuð virka báðir valkostir á sama hátt og bóka pöntunina að fullu.
+    > Fyrir millifærslupantanir sem nota millifærslustað er hægt að velja Annaðhvort Afhenda **eða** **Móttaka**. Þetta er endurtekið ef þörf er á að gera bæði. Fyrir pantanir þar sem **kveikt er á bein bókun**  er kveikt á þeim vinna báðir valkostir á sama hátt og bóka pöntunina að fullu.
 
 7. Valið er **Í lagi**.
 8. Til að skoða hugsanleg vandamál er síðan Villuboðadagbók **opnuð** .
@@ -83,13 +84,13 @@ Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrs
     > [!NOTE]
     > Bókun á mörgum skjölum gæti tekið nokkurn tíma og lokað á aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Tímasetja verkraðarfærslu til að bóka mörg skjöl í keyrslu
+### Tímasetja verkraðarfærslu til að bóka mörg skjöl í keyrslu
 
 Einnig er hægt að nota verkröðina til að tímasetja bókun á þeim tíma sem hentar fyrirtækinu. Það gæti til dæmis verið vit í því að reka ákveðnar venjur þegar mest af gagnafærslunni fer fram á daginn.
 
 Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka millifærslupantanir** til að bóka sjálfkrafa beinar millifærslupantanir klukkan 18:00 á virkum dögum. Sá tími er bara dæmi. Skrefin eru eins fyrir önnur skjöl.  
 
-1. Leita að síðunni **Verkraðarfærslur** og velja síðan viðeigandi tengil.  
+1. Leita að síðunni **Verkraðarfærslur** og velja síðan viðeigandi tengja.  
 2. Valið er aðgerðin **Nýtt**.  
 3. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Skýrsla**.  
 4. Í reitnum **Hlutakenni í keyrslu** skal velja **5707, Fjöldabóka millifærslupantanir**.
@@ -103,7 +104,7 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka mil
 8. Í reitinn **Upphafstími** er slegið inn **4**.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Til að flytja vörur með vöruendurflokkunarbók
+## Til að flytja vörur með vöruendurflokkunarbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -116,7 +117,7 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka mil
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="undo-a-transfer-shipment"></a>Afturkalla millifærsluafhendingu
+## Afturkalla millifærsluafhendingu
 
 Ef mistök finnast í magni í bókuðum millifærslupöntunum ef afhendingin berst ekki er auðvelt að leiðrétta magnið. Á síðunni **Veggspjald - Millifærsluafhending** stofnar aðgerðin **Afturkalla afhendingu** leiðréttingarlínur, eins og hér segir:
 
@@ -128,7 +129,7 @@ Ef magnið var afhent í vöruhúsaafhendingu er leiðréttingarlína stofnuð �
 
 Til að ljúka leiðréttingunni er millifærslupöntunin opnuð aftur, rétt magn fært inn og pöntunin síðan bókuð. Ef vöruhúsaafhending er notuð til að afhenda pöntunina skal stofna og bóka nýja vöruhúsaafhendingu.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  

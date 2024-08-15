@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
-ms.date: 12/03/2021
+ms.date: 07/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="invoicing-prepayments"></a>Reikningsfærsla fyrirframgreiðslna
+
+# Reikningsfærsla fyrirframgreiðslna
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -21,7 +22,7 @@ Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina eða dre
 > [!NOTE]
 > Ef eyða á línu þar sem fyrirframgreiðsla hefur þegar verið reikningsfærð verður að gefa út kreditfyrirframgreiðslureikning áður en hægt er að eyða línunni.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
@@ -29,7 +30,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stofna pöntun, leiðrétta fyrirframgreiðsluupphæðirnar og gefa út reikning fyrir fyrirframgreiðsluupphæðunum.|[Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md)|  
 |Gefa út viðbótarfyrirframgreiðslureikning, annaðhvort fyrir viðbótarvörum eða viðbótarinnborgun á upphaflegu pöntunina eða gefa út kreditfyrirframgreiðslureikning.|[Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Fjármál](finance.md)  
