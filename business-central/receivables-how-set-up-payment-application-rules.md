@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Setja upp reglur fyrir sjálfvirka notkun greiðslna
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Setja upp reglur fyrir sjálfvirka notkun greiðslna
 
 Á síðunni **Greiðslujöfnunarreglur** seturðu upp reglur til að stjórna því hvernig greiðslutexti (á bankafærslu) er sjálfkrafa jafnaður við texta á tengdum opnum (ógreiddum) reikningum, kreditreikningum eða öðrum færslum þegar aðgerðin **Jafna sjálfkrafa** á síðunni **Greiðsluafstemmingarbók**. Nánari upplýsingar eru [í Stemma af greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Auk jöfnunarskilyrðanna í töflunni gildir eftirfarandi um merki greiðsluupp
 - Fyrir mínustölur er fyrst jafnað við opnar færslur sem tákna reikninga viðskiptavina og svo við kreditreikninga lánardrottins.
 - Fyrir plústölur er fyrst jafnað við opnar færslur sem tákna reikning lánardrottins og svo við kreditreikninga viðskiptamanns.
 
-## Til að setja upp greiðslujafnanarreglu
+## <a name="to-set-up-a-payment-application-rule"></a>Til að setja upp greiðslujafnanarreglu
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Reglur um greiðslujöfnun** og velja síðan viðkomandi tengil.
 2. Skilgreina skal nýja eða breytta greiðslujöfnunarreglu með því að fylla inn í reitina í línu eins og lýst er í eftirfarandi töflu.
 
@@ -74,7 +74,7 @@ Eftirfarandi tafla lýsir hefðbundnum greiðslujöfnunarreglur í [!INCLUDE[pro
 | Lítill              | 4        | Nr.                    | Nr.                             | Ein niðurstaða                      |
 | Lítill              | 5        | Nr.                    | Nr.                             | Margar niðurstöður               |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  

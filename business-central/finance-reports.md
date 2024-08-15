@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Innbyggðar fjármálaskýrslur í Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Innbyggðar fjármálaskýrslur í Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] þar á meðal eru nokkrar innbyggðar skýrslur, rakningaraðgerðir og verkfæri til að hjálpa endurskoðendum eða ráðamönnum sem bera ábyrgð á skýrslugerð til fjármáladeildarinnar.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Skoða fjárhagsskýrslur með skýrsluvafra
+## <a name="explore-finance-reports-with-report-explorer"></a>Skoða fjárhagsskýrslur með skýrsluvafra
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Skýrslur og greiningar viðskiptakrafna](receivables-reports.md)  
 [Skýrslur og greiningar viðskiptaskulda](payables-reports.md)  

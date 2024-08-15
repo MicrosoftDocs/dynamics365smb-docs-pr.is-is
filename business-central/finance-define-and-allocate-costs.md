@@ -28,7 +28,7 @@ Fyrir hvert úthlutunarmarki skilgreinir notandi úthlutunarstofninn. Úthlutuna
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Uppsetning uppruna og markhópa úthlutanna
+## <a name="set-up-allocation-source-and-targets"></a>Uppsetning uppruna og markhópa úthlutanna
 
 Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Úthlutunaruppruninn skilgreinir hvaða kostnaði skal úthlutað. Úthlutunarmörkin ákvarða hvert kostnaði verður úthlutað.  
 
@@ -50,11 +50,11 @@ Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutuna
 > [!NOTE]  
 > Veljið gátreitinn **Útilokað** til að gera úthlutunaruppsetningu óvirka.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.
 
 Kvika úthlutunaraðferðin byggist á breytanlegum gildum. Til dæmis fjöldi starfsmenn í kostnaðarstöð eða seldar vörur af kostnaðarhlut á tilteknu tímabili. Níu forskilgreindir úthlutunargrunnar og tólf kvik dagsetningarsvið eru í boði. Mismunandi afmarkanir eru settar á grundvelli úthlutunargrunns.  
 
-### <a name="setting-filters"></a>Afmarkanir stilltar
+### <a name="set-filters"></a>Afmarkanir stilltar
 
 Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úthlutunargrunna og hvaða gildi eru leyfileg í reitunum **Nr. afmörkunar** og **Afmörkun hóps**. F1 er <kbd>valið</kbd> í reitnum **Dags.afmörkunarkóti** til að lesa ítarlegar lýsingar.  
 

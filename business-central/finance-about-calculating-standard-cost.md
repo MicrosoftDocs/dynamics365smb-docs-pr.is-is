@@ -22,7 +22,7 @@ Hægt er að viðhalda stöðluðum kostnaði fyrir vörur fyllt er á með innk
 |**Samsetning**|Beinn efniskostnaður er beinn eða fastur vinnukostnaður og sameiginlegur kostnaður.|  
 |**Framl.pöntun**|Beinn efniskostnaður,vinnukostnaður, undirverktakakostnaður og sameiginlegur kostnaður.|  
 
-## <a name="setting-up-standard-costs"></a>Uppsetning staðlaðs kostnaðarverðs
+## <a name="set-up-standard-costs"></a>Uppsetning staðlaðs kostnaðarverðs
 
 Þar sem staðlað kostnaðarverðframleiddrar eða samsettrar vöru getur samanstaðið af mörgum kostnaðarliðum, þar með talið efnis-, afkastagetu- (vinnu-) og undirverktakakostnaði (beinum og sameiginlegum), þarf að búa til staðlað kostnaðarverð fyrir hvern þessara liða.  
 
@@ -88,7 +88,7 @@ Undirverktakakostnaður er sá kostnaður sem er tengdur við þjónustu sem uta
 
 Þar sem undirverktakastarfsemi færsla á afkastagetu út fyrir fyrirtækið er kostnaðurinn við þjónustu undirverktaka (beinn og óbeinn) settur upp á vinnustöðvarspjaldinu sem stendur fyrir undirverktakaaðgerðina.  
 
-## <a name="updating-standard-costs"></a>Uppfærsla staðlaðs kostnaðarverðs
+## <a name="update-standard-costs"></a>Uppfærsla staðlaðs kostnaðarverðs
 
 Til að uppfæra eða reikna staðlað kostnaðarverð fyrir samsetningarvörur er aðgerðin notuð af birgðaspjaldinu.  
 

@@ -12,18 +12,18 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Flytja út jákvæða launaskrá
+# <a name="export-a-positive-pay-file"></a>Flytja út jákvæða launaskrá
 Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athuganir og fjárhæðir getur þú flutt greiðslubréf sem inniheldur upplýsingar um söluaðila, athuga fjölda og greiðslu upphæð sem þú sendir til bankans til viðmiðunar þegar þú vinnur greiðslur.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er forstillt á að styðja jákvæðar greiðsluskrár fyrir Bank of America og City Bank.
 
-## Að setja upp bankareikning fyrir Positive Pay
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Að setja upp bankareikning fyrir Positive Pay
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Opnaðu kortið fyrir bankann sem þú vilt nota Jákvæð Borga fyrir.
 3. Sláðu inn POSPAYBANK í reitnum **Útflutningskóði jákvæðrar greiðslu**.
 4. Lokaðu síðunni.
 
-## Til að flytja út jákvæða greiðsluskrá
+## <a name="to-export-a-positive-pay-file"></a>Til að flytja út jákvæða greiðsluskrá
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt flytja út jákvæð greiðsluskilríki fyrir.
 3. Veldu **Útflutningur jákvæðrar greiðslu** aðgerðina.
@@ -35,7 +35,7 @@ Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athu
 7. Hladdu skránni í rafræna bankasíða þína.
 8. Skrifaðu niður eða afritaðu staðfestingarnúmerið sem birtist þegar skráarupphæðin tekst vel.
 
-## Til að skoða útfluttar jákvæðar greiðslur
+## <a name="to-view-exported-positive-pay-records"></a>Til að skoða útfluttar jákvæðar greiðslur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt skoða.
@@ -45,7 +45,7 @@ Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athu
 4. Í **Staðfestingarnúmer** skaltu slá inn, fyrir hvern útflutningsskrá, staðfestingarnúmerið sem þú færð þegar skráarupphæðin til bankans hefur náð árangri.
 5. Til að skoða tengda greiðslulínur skaltu velja aðgerðina **Sundurliðun færslu á jákvæðri greiðslu**.
 
-## Til að flytja út jákvæðar greiðslur
+## <a name="to-reexport-positive-pay-files"></a>Til að flytja út jákvæðar greiðslur
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.
 2. Veldu bankareikninginn sem þú vilt endurútgefa jákvæð greiðslur fyrir.
@@ -53,7 +53,7 @@ Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athu
 4. Veldu línuna fyrir útflutningsskrána fyrir jákvæð greiðsla sem þú vilt endurútgefa.
 5. Á síðunni **Jákvæðar greiðslufærslur** skaltu velja **Endurútflytja jákvæðar greiðslur í skrá** aðgerðina.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

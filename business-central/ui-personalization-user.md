@@ -27,7 +27,7 @@ Hægt er að gera ýmsar breytingar, svo sem að færa eða fela reiti, dálka, 
 > Stjórnendur geta breytt sömu útliti og notendur með því að sérstilla forstillingu (hlutverk) sem mörgum notendum er úthlutað. Til að fá nánari upplýsingar um síður hlutverka er farið í [Sérstilla síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
 Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Myndband
+## <a name="video-and-training"></a>Myndband
 
 Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsníða hlutverkamiðstöð notanda.
 

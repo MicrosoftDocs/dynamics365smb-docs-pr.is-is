@@ -76,7 +76,7 @@ Frekari upplýsingar er að finna í [Bæta við Business Central-flipa í Teams
 3. Setjið upp [!INCLUDE [prod_short](includes/prod_short.md)]-forrit í Teams. Skoðið [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið Microsoft Teams](across-install-app-for-teams.md).
 4. Þá forritið er uppsett er allt til reiðu. Sjá [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) og [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="related-information"></a>Sjá einnig
 
 [Teams - Algengar spurningar](teams-faq.md)  
 [Úrræðaleit Teams](admin-teams-troubleshooting.md)  

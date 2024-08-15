@@ -441,7 +441,7 @@ Fj. Það eina sem þú þarft er gildan reikning sem hefur aðgang að Microsof
 Aðgerðina **Deila með Teams** er að finna í valmyndinni **Deila** á öllum síðum eins og spjaldi og skjalasíðu, listasíðu eða vinnublaði, þ.m.t. sérstilltum síðum. Aðgerðin er ekki í boði í svargluggum eða síðum sem birtast í svargluggum, t.d. uppflettingarsíður eða leiðsagnarforrit.
 
 ---
-## <a name="see-also"></a>Sjá einnig
+## <a name="related-information"></a>Sjá einnig
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

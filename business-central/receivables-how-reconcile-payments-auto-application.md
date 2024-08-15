@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Stemma af greiðslur með sjálfvirkri jöfnun
+# <a name="reconcile-payments-using-automatic-application"></a>Stemma af greiðslur með sjálfvirkri jöfnun
 
 Síðan **Greiðsluafstemmingarbók** tilgreinir greiðslur, inn- eða útgreiðslur, sem hafa verið skráðar sem færslur á netbankareikningnum eða í greiðsluþjónustu. Hægt er að jafna greiðslurnar við tengdar opnar færslur viðskiptamanns, lánardrottins og bankareiknings. Færslubókin er fyllt út með því að flytja inn bankayfirlit sem bankastraum eða skrá eða með því að handfæra inn færslur sem gerðar eru í greiðsluþjónustu.
 
@@ -43,7 +43,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** síðunni getur
 > [!NOTE]  
 > Hægt er að hefja bankafærsluinnflutninginn á sama tíma og síðan **Greiðsluafstemmingarbók** er opnuð fyrir fyrirliggjandi bók. Eftirfarandi ferli lýsir því hvernig á að flytja inn bankafærslur á síðuna **greiðsluafstemmingarbók** eftir að ný færslubók hefur verið búin til.
 
-## Til að afstemma greiðslur með sjálfvirk jöfnun
+## <a name="to-reconcile-payments-using-automatic-application"></a>Til að afstemma greiðslur með sjálfvirk jöfnun
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðsluafstemmingarbækur** og velja síðan viðkomandi tengil.
 2. Til að vinna í nýrri greiðsluafstemmingarbók, veldu aðgerðina **Ný færslubók**.
 3. Á síðunni **Listi yfir bankareikninga fyrir greiðslu** er valið bankareikningur sem á að jafna greiðslur fyrir, og smellt síðan á **Í lagi** hnappinn.
@@ -88,7 +88,7 @@ Hægt er að bera gildið í **Staða á bankareikningi eftir bókun** reitnum s
 > [!NOTE]  
 >   Ef ekki á að stemma bankareikninginn af síðunni **Afstemmingarbók** greiðslu þarf að nota **síðuna Afstemming bankareikninga** . Nánari upplýsingar [eru í Stemma af bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  

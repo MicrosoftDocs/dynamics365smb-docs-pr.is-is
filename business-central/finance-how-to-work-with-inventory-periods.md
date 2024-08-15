@@ -28,7 +28,7 @@ Eftirfarandi hlutar útskýra hvernig á að standa að:
 3. Í reitinn **Lokadagsetning** er slegin inn síðasta dagsetningin í birgðatímabilinu sem ætlunin er að skilgreina. Þegar tímabilinu er lokað verður ekki hægt að bóka breytingar á birgðum fyrir þessa dagsetningu.  
 4. Færa inn lýsandi heiti í reitinn **Heiti**. Velja hnappinn **Í lagi**.  
 
-## <a name="closing-inventory-periods"></a>Lokun birgðatímabila
+## <a name="to-close-inventory-periods"></a>Lokun birgðatímabila
 
 Reiturinn **Lokað** gefur til kynna hvort birgðatímabilið er lokað fyrir breytingum á birgðagildum eður ei. Ekki er hægt að breyta þessum reit.  
 

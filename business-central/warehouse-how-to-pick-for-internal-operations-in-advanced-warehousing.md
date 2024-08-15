@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Tína fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum vöruhússkilgreiningum
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Tína fyrir framleiðslu, samsetningu eða vinnslur í ítarlegum vöruhússkilgreiningum
 
 Hvernig íhlutir eru tíndir fyrir framleiðslu, verk eða samsetningarpantanir fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar um [uppsetningu vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Nota **vöruhúsatínsluskjöl** til að tína verkíhluti í flæðinu til verk
 
 8. Velja hnappinn **Í lagi**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Til að tína vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Til að tína vörur fyrir framleiðslupöntun, samsetningarpöntun, verk
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Tínslur** og velja síðan viðkomandi tengil.  
 

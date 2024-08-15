@@ -8,13 +8,13 @@ ms.date: 07/05/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Setja upp afsláttarflokka viðskiptamanna
+# <a name="set-up-customer-discount-groups"></a>Setja upp afsláttarflokka viðskiptamanna
 
 Þú getur skilgreint sölulínuafslætti fyrir hóp viðskiptamanna í stað þess að nota hann fyrir hvern og einn.
 
 **Afsláttarflokkar viðskiptamanna** eru eins og verðflokkar [viðskiptamanna en hægt er að](sales-how-to-set-up-customer-price-groups.md) sameina vöruafsláttarflokka til að stilla línuafslátt á margar vörur fyrir tiltekna viðskiptamenn á fljótlegan hátt.
 
-## Stofna sölulínuafslátt fyrir viðskiptamann
+## <a name="create-sales-line-discounts-for-a-customer-group"></a>Stofna sölulínuafslátt fyrir viðskiptamann
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") tákn, fara í **Afsláttarflokkar viðskiptamanna** og velja síðan viðkomandi tengil.
 2. Á síðunni **Afsláttarflokkar viðskiptamanna** skal velja **Nýr** til að búa til nýjan afsláttarflokk og gefa honum heiti undir dálknum **Kóði** og bæta við lýsingu.
@@ -27,7 +27,7 @@ ms.reviewer: bholtorf
 
 Endurtaktu skref 4 til 8 fyrir hverja vöru eða vöruafsláttarflokk sem á að búa til sölulínuafslátt fyrir.
 
-## Úthluta viðskiptavini á afsláttarhóp
+## <a name="assign-a-customer-to-a-discount-group"></a>Úthluta viðskiptavini á afsláttarhóp
 
 Þegar afsláttarflokkar viðskiptamanna hafa verið settir upp má færa afsláttarflokkskóta viðskiptamanna á viðskiptamannaspjöldin.
 
@@ -35,7 +35,7 @@ Endurtaktu skref 4 til 8 fyrir hverja vöru eða vöruafsláttarflokk sem á að
 2. Opnaðu **Viðskiptamannaspjaldið** fyrir viðskiptamann sem á að vera hlut af afsláttarflokki viðskiptamanna.
 3. Í flýtiflipanum **Reikningsfærsla**, í reitnum **Afsláttarflokkur viðskiptamanna** skal velja kóða flokksins.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

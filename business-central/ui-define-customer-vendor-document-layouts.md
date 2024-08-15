@@ -10,7 +10,7 @@ ms.search.form: '21, 9650'
 ms.date: 07/05/2024
 ms.service: dynamics-365-business-central
 ---
-# Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
+# <a name="define-document-layouts-for-customers-and-vendors"></a>Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
 
 Skjalaútlit notar skýrsluútlit til að skilgreina útlit og yfirbragð skjala sem þú sendir á viðskiptamenn og lánardrottna. Business Central býður upp á staðlað útlit, en þú getur aðlagað sérsniðið útlit fyrir hvern viðskiptafélaga fyrir sig. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md). Þú getur valið staðlað og sérsniðið skjalaútlit fyrir viðskiptamanna- og lánardrottnaspjald með því að velja aðgerðina **Skjalaútlit**. Gildið í reitnum **Notkun** skilgreinir ferlið þar sem skjalaútlitið er notað. Fyrir viðskiptamenn sem dæmi gætirðu notað gerðirnar **Áminning**, **Sending** og **Staðfesting** fyrir skjalaútlit.
 
@@ -20,7 +20,7 @@ Skjalaútlit getur líka sparað þér tíma þegar þú sendir skjöl á tengil
 
 Skrefin í næstu hlutum lýsa því hvernig á að skilgreina útlit söluskjala á síðunni **Viðskiptamannaspjald**. Fyrir lánardrottna eru skrefin þau sömu á síðunni **Lánardrottnaspjald**.
 
-## Að hlaða stöðluðu skjalaútliti fyrir söluskjöl fyrir viðskiptamann
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>Að hlaða stöðluðu skjalaútliti fyrir söluskjöl fyrir viðskiptamann
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Viðskiptavinir** og velja síðan viðkomandi tengil.
 2. Opnaðu síðuna **Viðskiptamannaspjald** fyrir viðskiptamanninn og veldu síðan aðgerðina **Skjalaútlit**.
@@ -28,7 +28,7 @@ Skrefin í næstu hlutum lýsa því hvernig á að skilgreina útlit söluskjal
 
 Síðan **Skjalaútlit** sýnir öll útlit sem eru í boði fyrir söluskjöl. 
 
-## Til að velja sérsniðið skýrsluútlit sem á að nota fyrir útlit söluskjals
+## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Til að velja sérsniðið skýrsluútlit sem á að nota fyrir útlit söluskjals
 
 Eftirfarandi skref gera ráð fyrir því að sérsniðin skýrsluútlit sé fyrir tegund fylgiskjalsins. Ef sérsniðin skýrsluútlit er ekki þegar til þarf að búa til það fyrst. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
@@ -41,14 +41,14 @@ Eftirfarandi skref gera ráð fyrir því að sérsniðin skýrsluútlit sé fyr
 
 1. Á síðunni **Sérsniðið skýrsluútlit** skal velja skjalaútlitið sem á að nota fyrir gerð söluskjalsins. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
-## Til að tilgreina hvaða tengiliður fær hvaða fylgiskjalauppsetning viðskiptamanns
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Til að tilgreina hvaða tengiliður fær hvaða fylgiskjalauppsetning viðskiptamanns
 
 Til að spara tíma þegar þú sendir skjöl til tengiliða viðskiptamanns og lánardrottins með tölvupósti skaltu tilgreina netföng þeirra í skjalaútliti. Til dæmis geturðu alltaf sent yfirlit viðskiptamanns á tengiliði endurskoðanda eða sölupantanir á innkaupaaðila eða innkaupapantanir á sölufólk lánardrottins.
 
 1. Á síðunni **Útlit fylgiskjals**, á línunni fyrir skýrsluútlit sem á að senda á tiltekinn tengilið fyrir viðskiptamanninn skal velja aðgerðina **Velja netfang úr tengiliðum**.
 2. Á síðunni **Tengiliðir** skaltu velja einn eða fleiri tengiliði og velja síðan **Í lagi**.
 
-## Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 
 [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Að skilja fjárhag og bókhaldslykil
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Að skilja fjárhag og bókhaldslykil
 
 Fjárhagurinn (fjárhagur) geymir fjárhagsgögnin og bókhaldslykillinn (COA) sýnir reikningana sem fjárhagsfærslur eru bókaðar á. [!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaðan bókhaldslykil sem er tilbúinn til að styðja við reksturinn.
 

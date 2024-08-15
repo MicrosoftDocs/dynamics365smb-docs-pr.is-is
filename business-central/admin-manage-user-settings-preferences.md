@@ -65,7 +65,7 @@ Sem stjórnandi geturðu fengið yfirlit yfir einstaka breytingar á [!INCLUDE [
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Að yfirfara eða eyða sérstillingum notanda
+## <a name="review-or-delete-user-personalizations"></a>Að yfirfara eða eyða sérstillingum notanda
 
 1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, farðu í **Sérsniðnar síður** og veldu svo viðeigandi tengil.
 2. Þetta birtir lista yfir notendur og sérstilltar síður þeirra. Til að hreinsa sérstillingu notanda er smellt á viðeigandi línu eða valið **Stjórna** og síðan valið **Eyða**.

@@ -62,7 +62,7 @@ Til að setja upp sjálfgefið gildi fyrir VSK-dagsetningu þarf að fylgja þes
 > [!NOTE]
 > Sjálfgefið er að **Sjálfgefin VSK-dagsetning** sé **Bókunardagsetning**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Aðgerðin VSK-dagsetning virk eða óvirk
+### <a name="enable-or-disable-the-vat-date-feature"></a>Aðgerðin VSK-dagsetning virk eða óvirk
 
 Sum lönd/svæði krefjast þess að fyrirtæki noti tiltekna VSK-dagsetningu en önnur lönd/svæði ekki. Í sumum löndum/svæðum þurfa einnig fyrirtæki að breyta VSK-dagsetningunni þegar þau bóka skjöl en önnur lönd/svæði leyfa ekki breytingar á VSK-dagsetningum. Til að leyfa mismunandi samhengi er hægt að velja hvort nota eigi þessa aðgerð og, ef svo er, að hvaða marki.
 

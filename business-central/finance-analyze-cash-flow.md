@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
+# <a name="analyze-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
 Gröfin á Mitt hlutverk bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  
 
 | Til að svara spurningum eins og þessum | Notaðu þetta töflu |

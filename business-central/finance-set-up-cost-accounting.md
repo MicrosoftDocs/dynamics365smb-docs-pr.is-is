@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
+# <a name="set-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
 
 Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
 
@@ -24,7 +24,7 @@ Með því að gera þetta er hægt að stofna eftirfarandi bókhaldsjöfnu:
 
 Þegar prenta á skýrslur yfir tegund kostnaðar, kostnaðarstað og kostnaðarhluta er hægt að gera greiningu á þessum venslum.
 
-## <a name="setting-up-cost-types"></a>Uppsetning kostnaðargerða
+## <a name="set-up-cost-types"></a>Uppsetning kostnaðargerða
 
 Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að setja upp myndritið yfir kostnaðartegundir á eftirfarandi hátt:  
 

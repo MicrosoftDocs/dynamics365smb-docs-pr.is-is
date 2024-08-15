@@ -28,7 +28,7 @@ Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[prod_short](includes/pr
 >
 > Til að forðast að hægja á afköstum, á  **síðunni Samþættingaröfpun**, er hægt að virkja eða gera óvirkar samstillingar gagna fyrir allar töflu. Að sjálfgefnu er verið að kveikja á tilvigta samstillingu þannig að þær samþættingar sem til eru eru ekki fyrir. Stjórnandinn getur kveikt eða slökkt á tilteknum töflum.
 
-### <a name="additional-mappings"></a>Viðbótarvarpanir
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Viðbótarvarpanir
 
 Greiðsluskilmálar, afhendingarmátar og flutningsaðilar geta breyst og það getur verið mikilvægt að geta breytt þeim. Ef þú virkjar eiginleikann **Uppfærsla eiginleika: Varpa í valkostasafn í Dataverse án kóða** á síðunni [Eiginleikastjórnun](https://businesscentral.dynamics.com/?page=2610) geturðu handvirkt bætt vörpunum samþættingartöflu fyrir greiðsluskilmála (GREIÐSLUSKILMÁLAR), afhendingarmáta (AFHENDINGARMÁTI) og flutningsaðila (FLUTNINGSAÐILI). Þessi vörpun getur tryggt að reglurnar þínar séu þær sömu fyrir þessar uppsetningar í [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

@@ -10,7 +10,7 @@ ms.date: 07/02/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Samþætting við Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins v
 > [!NOTE]
 > Þessi grein lýsir því ferli að samþætta netútgáfur af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[prod_short](includes/cds_long_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Samþætta með Dataverse
+## <a name="integrate-through-dataverse"></a>Samþætta með Dataverse
 
 Til að auðvelda tengingu og samstillingu gagna við önnur Dynamics 365-forrit samþættist [!INCLUDE[prod_short](includes/prod_short.md)] einnig við [!INCLUDE[prod_short](includes/cds_long_md.md)]. Til dæmis er hægt að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] eða jafnvel forritum sem þú smíðar sjálf(ur). Ef þú ert að samþætta í fyrsta skipti verður þú að gera það í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dataverse](admin-common-data-service.md).
 
@@ -28,11 +28,11 @@ Ef þegar er búið að samstilla [!INCLUDE[crm_md](includes/crm_md.md)] við [!
 > [!NOTE]
 > Endurtenging um [!INCLUDE[prod_short](includes/cds_long_md.md)] mun nota sjálfgefnar samstillingarstillingar og mun skrifa yfir allar grunnstillingar sem eru til staðar. Til dæmis verða sjálfgefnar töfluvarpanir notaðar.
 
-## Samþættingarstillingar sem eru tilteknar fyrir [!INCLUDE[crm_md](includes/crm_md.md)] samþættingu
+## <a name="integration-settings-that-are-specific-to-a--integration"></a>Samþættingarstillingar sem eru tilteknar fyrir [!INCLUDE[crm_md](includes/crm_md.md)] samþættingu
 
 Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] gerist í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)] og margar staðlaðar stillingar og töflur eru í boði. Ásamt stöðluðum stillingum, eru nokkrar sem eiga sérstaklega við um [!INCLUDE[crm_md](includes/crm_md.md)]. Stillingarnar eru taldar upp í eftirfarandi hlutum.
 
-## Heimildir og öryggishlutverk notendareikninga í Sölu
+## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Heimildir og öryggishlutverk notendareikninga í Sölu
 
 Þegar samþættingarlausnin er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þessum heimildum er breytt þarf mögulega að endurstilla þær. Hægt er að gera það með því að setja samþættingarlausnina upp aftur eða velja **Endurvirkja samþættingarlausn** á síðunni **Uppsetning Dynamics 365-tengingar**. Eftirfarandi öryggishlutverk eru virkjuð:
 
@@ -46,7 +46,7 @@ Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] gerist í gegnu
 > * Lesheimildir verður að vera fyrir töfluna Dynamics 365 Business Central Tenging (nav_connection).
 > * Notandi verður að hafa les-, skrif- og eyða heimildum fyrir töfluna Sjálfgefna Dynamics 365 Business Central tengingu (nav_defaultconnection).
 
-### Tengingarstillingar í leiðsagnarforriti uppsetningarinnar
+### <a name="connection-settings-in-the-setup-guide"></a>Tengingarstillingar í leiðsagnarforriti uppsetningarinnar
 
 Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tenginguna á fljótvirkan hátt og tilgreina ítarlega eiginleika, t.d. tengingu milli færslna.
 
@@ -67,7 +67,7 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 > [!TIP]
 > Ef einnig á að samþætta við Microsoft Dynamics 365 Field Service gefur leiðsagnarforritið valfrjálst skref sem getur hjálpað til. Til að fræðast meira um samþættingu við Reitaþjónustu er farið í [Samþætting við Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md).
 
-### Tengingarstillingar á Microsoft Dynamics 365 tengingaruppsetningarsíðunni
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Tengingarstillingar á Microsoft Dynamics 365 tengingaruppsetningarsíðunni
 
 Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -86,9 +86,9 @@ Auk þessara stillinga eru eftirfarandi stillingar slegnar inn fyrir [!INCLUDE[c
 | **Vinna sölutilboð sjálfkrafa** | Vinna úr sölutilboði í [!INCLUDE[prod_short](includes/prod_short.md)] þegar notandi stofnar og virkjar eitt slíkt í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölutilboðs](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 |**Tvíátta samstilling sölupantana**|Samstilltu sölupantanir í báðar áttir. Nánari upplýsingar um þennan valkost fást með því að [fara í Eina og tvístefnu samstillingu sölupantana](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
-### User Account Settings
+### <a name="user-account-settings"></a>User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
-### Eins og tvístefnuleg samstilling sölupantana
+### <a name="single-and-bi-directional-synchronization-of-sales-orders"></a>Eins og tvístefnuleg samstilling sölupantana
 
 Þegar samþættingin er sett upp eru valkostir sem stjórna stefnunni sem sölupantanir eru samstilltar í og hvernig þær eru sendar.
 
@@ -108,7 +108,7 @@ Ef nota á þennan valkost þarf að gefa upp skilríki fyrir notandareikning st
 
 Fyrir báða valkostina [!INCLUDE [prod_short](includes/prod_short.md)]  birtast allar sölupantanir með stöðuna **Sent** á síðunni **Pantanir - Microsoft Dynamics 365.** 
 
-### Staðlaður sölueining vörpun fyrir samstillingu
+### <a name="standard-sales-entity-mapping-for-synchronization"></a>Staðlaður sölueining vörpun fyrir samstillingu
 
 Einingar í [!INCLUDE[crm_md](includes/crm_md.md)], t.d. pantanir, eru samþættar við jafngildar gerðir af töflunum í [!INCLUDE[prod_short](includes/prod_short.md)], t.d. sölupantanir. Til að vinna með [!INCLUDE[crm_md](includes/crm_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli tafla í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -133,7 +133,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli tafla í [!INCLUDE[prod_shor
 > [!NOTE]
 > Vörpun fyrir töflurnar Mælieining vöru, Mælieining forða og Mælieiningarflokkur eru aðeins tiltækar ef kerfisstjórinn hefur kveikt á töflunum **Einingaflokkur vörpun**  togga á **Microsoft Dynamics síðunni Tengslauppsetning** . Nánari upplýsingar eru notaðar til að [samstilla vörur og forða við vörur í mismunandi mælieiningum](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronize-items-and-resources-with-products-with-different-units-of-measure).
 
-## Samstilla vörur og forða við vörur með mismunandi mælieiningum
+## <a name="synchronize-items-and-resources-with-products-with-different-units-of-measure"></a>Samstilla vörur og forða við vörur með mismunandi mælieiningum
 
 Fyrirtæki framleiða oft eða kaupa vörurnar í einni mælieiningu og selja þær svo í öðrum. Til að samstilla vörur sem nota margar mælieiningar verður að kveikja á einingahópnum **vörpun**  togga á síðunni **Microsoft Dynamics Uppsetning** 365 tengingar. 
 
@@ -143,7 +143,7 @@ Fyrirtæki framleiða oft eða kaupa vörurnar í einni mælieiningu og selja þ
 
 Hægt er að búa til margar mælieiningar fyrir hvern einingahóp og úthluta hópunum á afurðir í [!INCLUDE[crm_md](includes/crm_md.md)]. Síðan er hægt að samstilla vörurnar við vörur og forða í [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að tengja mælieiningar vöru eða tilfangs við einingahóp. Þegar það er gert, ef einingarflokkur vörunnar eða forðans er ekki tengdur einingarflokki, [!INCLUDE[crm_md](includes/crm_md.md)] til dæmis vegna þess að einingarflokkurinn er ekki til, [!INCLUDE[prod_short](includes/prod_short.md)]  stofnar einingarflokkinn sjálfkrafa í [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### Varpa vörum og forða á vörur
+### <a name="map-items-and-resources-to-products"></a>Varpa vörum og forða á vörur
 
 Þegar kveikt er á einingahópnum **vörpun**  samstarf á síðunni **Microsoft Dynamics 365 Tengslauppsetning** gerist eftirfarandi:
 
@@ -176,7 +176,7 @@ Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
 5. Veldu vörpunina **VARA-AFURÐ** og síðan aðgerðina **Endurræsa**. Endurræsing býr til nýjar afurðir úr vörunum í [!INCLUDE[crm_md](includes/crm_md.md)] og úthlutar nýjum einingahópi sem á við um vöruna.
 6. Veldu vörpunina **TILFANG-AFURÐ** og síðan aðgerðina **Endurræsa**. Endurræsing býr til nýjar afurðir úr tilföngunum í [!INCLUDE[crm_md](includes/crm_md.md)] og úthlutar nýjum einingahópi sem á við um tilföngin.
 
-### Samstillingarreglur
+### <a name="synchronization-rules"></a>Samstillingarreglur
 
 Í eftirfarandi töflu eru taldar upp reglurnar sem stjórna samstillingu milli [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Þesar reglur eru viðbót við reglur sem skilgreindar eru fyrir Dataverse, sem eiga einnig við. Frekari upplýsingar er að finna í [Stöðluð einingavörpun](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -194,7 +194,7 @@ Eftirfarandi skref lýsa skrefunum til að hefja vörpun einingahópa:
 |Bókaðir sölureikningar|Bókaðir sölureikningar eru samstilltir við sölureikninga. Áður en hægt er að samstilla reikning er betra að samstilla allar aðrar töflur sem geta verið hluti af reikningnum, frá sölumanni til verðlista. Gildið á kóða sölumanns í fyrirsögn reiknings skilgreinir eiganda tengdu töflunnar í Sales.|
 |Sölupantanir|Þegar samþætting sölupöntunar er gerð virk, þegar sölupantanir eru gefnar út í [!INCLUDE[prod_short](includes/prod_short.md)] sem voru stofnaðar úr sendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] samstilltum við sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)]. Áður en pantanir eru samstilltar er mælt með því að allar töflur sem tengjast pöntuninni séu samstilltar fyrst. Til dæmis sölumenn og verðlista. Kóðareitur sölumanns í pöntunarhaus skilgreinir eiganda tengdu töflunnar í [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-### Samstillingarverk fyrir söluheildun
+### <a name="synchronization-jobs-for-a-sales-integration"></a>Samstillingarverk fyrir söluheildun
 
 Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli taflanna. Fleiri verk eru í boði úr Dataverse. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](./admin-job-queues-schedule-tasks.md).
 
@@ -205,7 +205,7 @@ Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenging
 5. SALESPRC-PRODPRICE - Dynamics 365 Sales samstillingarvinnsla.
 6. POSTEDSALESINV-INV - Dynamics 365 Sales samstillingarvinnsla.
 
-### Sjálfgefnar færslur samstillingarverkraðar
+### <a name="default-synchronization-job-queue-entries"></a>Sjálfgefnar færslur samstillingarverkraðar
 
 Eftirfarandi tafla lýsir sjálfgefnum samstillingarverkum fyrir [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -219,14 +219,14 @@ Eftirfarandi tafla lýsir sjálfgefnum samstillingarverkum fyrir [!INCLUDE[crm_m
 |POSTEDSALESINV-INV-Dynamics 365 Sales samstillingarvinnsla|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga við [!INCLUDE[prod_short](includes/prod_short.md)] bókaða sölureikninga.|Frá [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|REIKNINGAR-BÓKAÐIR SÖLUREIKNINGAR|30|1440<br> (24 klst.)|
 |Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[prod_short](includes/prod_short.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. |Á ekki við|Á ekki við|30|Á ekki við| 
 
-## Tengjast útgáfum innanhúss af Business Central 2019 útgáfubylgju 1 og Microsoft Dynamics NAV 2018
+## <a name="connect-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tengjast útgáfum innanhúss af Business Central 2019 útgáfubylgju 1 og Microsoft Dynamics NAV 2018
 
 Teymið Microsoft Power Platform  [tilkynnti](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) að það afskrifi Office 365 sannvottunartegundina. Ef þú notar útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] húsnæði sem er fyrr en [!INCLUDE [prod_short](includes/prod_short.md)] 2019 útgáfubylgju 1 verður að nota OAuth sannvottunartegundina til að tengjast [!INCLUDE[crm_md](includes/crm_md.md)] netinu. Skrefin í þessum hluta lýsa því hvernig á að tengjast eftirfarandi útgáfum af vöru:
 
 * Útgáfutímabil 1 af Business Central 2019
 * Microsoft Dynamics NAV 2018
 
-### Frumskilyrði
+### <a name="prerequisites"></a>Frumskilyrði
 
 * Nauðsynlegt er að vera með Microsoft Azure-áskrift. Prufureikningur vinnur við skráningu umsókna.
 * [!INCLUDE[crm_md](includes/crm_md.md)] er grunnstillt til að nota eina af eftirfarandi sannvottunargerðum:
@@ -238,7 +238,7 @@ Teymið Microsoft Power Platform  [tilkynnti](/power-platform/important-changes-
 
    * OAuth
 
-### Tengja Business Central 2019 útgáfubylgju 1 og Dynamics NAV 2018
+### <a name="connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Tengja Business Central 2019 útgáfubylgju 1 og Dynamics NAV 2018
 
 1. Flytjið samþættingarlausn Microsoft Dynamics 365 Business Central inn í [!INCLUDE[crm_md](includes/crm_md.md)]-umhverfið. Samþættingarlausnin er í boði í möppunni CrmCustomization á DVD-uppsetningardisknum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] eða Dynamics NAV 2018. Flytjið inn eitt af eina af eftirfarandi lausnum eftir því hver útgáfa vörunnar er:
 
@@ -293,7 +293,7 @@ Teymið Microsoft Power Platform  [tilkynnti](/power-platform/important-changes-
 > [!Note]
 > Ef þú vilt skilgreina tengingu við [!INCLUDE[crm_md](includes/crm_md.md)]-tilvik með tiltekinni gerð sannvottunar skaltu fylla út reitina á flýtiflipanum **Upplýsingar um sannvottunargerð**. Frekari upplýsingar eru í [Sannvottun með Microsoft Dataverse vefþjónustu](/powerapps/developer/data-platform/authentication). Ekki er krafist þessa skrefs þegar tengd er netútgáfa af [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning á notendareikningum fyrir samþættingu við [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Uppsetning á tengingu við [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  

@@ -11,7 +11,7 @@ ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Setja upp fyrirframgreiðslur
+# <a name="set-up-prepayments"></a>Setja upp fyrirframgreiðslur
 
 Fyrirframgreiðslur eru notaðar þegar:
 
@@ -36,7 +36,7 @@ Fyrirframgreidd upphæð tilheyrir kaupanda þar til hann fær vörurnar eða þ
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning almennrar bókunar** og velja síðan viðkomandi tengil.
 2. Á síðunni **Almennur bókunargrunnur**, fyrir viðeigandi línur, skal fylla út eftirfarandi reiti:  
@@ -46,7 +46,7 @@ Fyrirframgreidd upphæð tilheyrir kaupanda þar til hann fær vörurnar eða þ
 
 Ef ekki eru fjárhagur reikningar fyrir fyrirframgreiðslur er hægt að opna **síðuna Fjárhagsreikningalisti** úr viðeigandi reikningsreit.  
 
-## Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Uppsetning sölu og útistandandi** og velja svo viðeigandi tengil.
 2. Á síðunni **Uppsetning sölugrunns**, í flýtiflipanum **Númeraraðir**, skal fylla út eftirfarandi reiti:  
@@ -63,7 +63,7 @@ Ef ekki eru fjárhagur reikningar fyrir fyrirframgreiðslur er hægt að opna **
 > [!NOTE]  
 > Hægt er að nota sömu númeraröð fyrir fyrirframgreiðslureikninga og venjulega reikninga, auk þess sem hægt er að nota mismunandi númeraraðir. Ef mismunandi raðir eru notaðar mega þær ekki skarast, númer má ekki vera í meira en einni röð.  
 
-## Að setja upp fyrirframgreiðsluprósentu fyrir vörur, viðskiptamenn og lánardrottna
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Að setja upp fyrirframgreiðsluprósentu fyrir vörur, viðskiptamenn og lánardrottna
 
 Fyrir vöru er hægt að setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir alla viðskiptamenn, tiltekinn viðskiptamann eða verðflokk viðskiptamanns. Ef ekki á að jafna sömu fyrirframgreiðsluprósentu við alla viðskiptamenn verður að tilgreina hvaða viðskiptamenn eða hvaða verðflokkar fyrirframgreiðsluprósentan á við.
 
@@ -81,7 +81,7 @@ Fyrir viðskiptamann eða lánardrottin er hægt að setja upp eina sjálfgefna 
 > [!TIP]
 > Einnig er hægt að opna síðuna **Fyrirframgreiðsluprósentur sölu** úr viðskiptamanna- eða lánardrottnaspjaldi.
 
-### Til að ákvarða hvaða fyrirframgreiðsluprósenta hefur forgang  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Til að ákvarða hvaða fyrirframgreiðsluprósenta hefur forgang
 
 Pöntun getur verið með prósentu fyrirframgreiðslu í söluhausnum og aðra prósentu fyrir vörurnar í línunum. Til að ákvarða hvaða fyrirframgreiðsluprósentu gildir fyrir hverja sölulínu er [!INCLUDE [prod_short](includes/prod_short.md)]  leitað að og notar fyrstu sjálfgefnu prósentuna í eftirfarandi röð:  
 
@@ -92,7 +92,7 @@ Pöntun getur verið með prósentu fyrirframgreiðslu í söluhausnum og aðra 
 
 Með öðrum orðum, fyrirframgreiðsluprósentan á viðskiptamannsspjaldinu á aðeins við ef engin fyrirframgreiðsluprósenta er stillt fyrir vöruna. Ef innihaldi reitsins **Prósenta** fyrirframgreiðslu er hins vegar breytt í sölu- eða innkaupahausnum eftir að línurnar hafa verið stofnaðar er fyrirframgreiðsluprósentan í öllum línunum uppfærð. Uppfærslan auðveldar stofnun pöntunar með fasta fyrirframgreiðsluprósentu, óháð prósentunni sem er stillt á vörur.
 
-## Að gefa út sölupantanir sjálfkrafa þegar fyrirframgreiðslur eru jafnaðar
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Að gefa út sölupantanir sjálfkrafa þegar fyrirframgreiðslur eru jafnaðar
 
 Hægt er að spara tíma með því að setja upp verkraðarfærslu sem gefur sjálfkrafa út sölupantanir sem krefjast fyrirframgreiðslu eftir að greiðslur eru jafnaðar. Að gera ferlið sjálfvirkt sparar þér skrefið við að gefa út sölupöntunina.
 
@@ -105,7 +105,7 @@ Hægt er að spara tíma með því að setja upp verkraðarfærslu sem gefur sj
 3. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Verkraðarfærslur** og velja síðan viðkomandi tengil.
 4. Settu upp til dæmis verkraðarfærsluna **Uppf. fyrirfgr.sölu í bið** með því að nota stillingarnar í flýtiflipanum **Endurtekning** til að tímasetja hversu oft á að keyra hana. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

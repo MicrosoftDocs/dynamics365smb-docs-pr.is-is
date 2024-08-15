@@ -174,7 +174,7 @@ Tvær ástæður eru fyrir þessu vandamáli.
 Þetta vandamál er líklega vegna þess að þú deildir listayfirliti sem er eigið yfirlit. Í þessu tilviki skaltu vinna með stjórnanda þínum til að búa til annaðhvort hlutverkamiðað listayfirlit sem nær yfir mismunandi hlutverk í rásinni/spjallinu eða búa til þetta yfirlit fyrir allt fyrirtækið þannig að allir geti fengið samræmt yfirlit.
 
 
-## <a name="see-also"></a>Sjá einnig .
+## <a name="related-information"></a>Sjá einnig .
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
 [Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  

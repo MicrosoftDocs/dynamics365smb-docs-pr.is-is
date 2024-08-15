@@ -24,7 +24,7 @@ Annað dæmi er að setja upp vídd sem kallast *Deild* og síða nota þá víd
 * Hver seldi það.
 * Hvaða viðskiptavinur keypti hann.
 
-## <a name="analyzing-by-dimensions"></a>Greining eftir víddum
+## <a name="analyze-by-dimensions"></a>Greining eftir víddum
 
 Víddir gegna mikilvægu hlutverki í viðskiptagreind, eins og t.d. þegar greiningaryfirlit eru skilgreind. Frekari upplýsingar eru á [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 
@@ -40,7 +40,7 @@ Víddasamstæða er sérstök samsetning víddargilda. Hún er vistuð sem vídd
 
 Þegar þú býrð til dagbókarlínu, skjalhaus eða skjalastiku, getur þú tilgreint samsetningu af víddarmörkum. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 
-## <a name="setting-up-dimensions"></a>Uppsetning vídda
+## <a name="set-up-dimensions"></a>Uppsetning vídda
 
 Hægt er að skilgreina víddir og víddargildi til að flokka færslubækur og skjöl, t.d. sölupantanir og innkaupapantanir. Þú setur upp víddir á síðunni **Víddir**, þar sem búin er til ein lína fyrir hverja vídd, svo sem *Verkefni*, *Deild*, *Svæði*, og *Sölumaður*.
 

@@ -12,7 +12,7 @@ ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Umsjón með gjaldfallnum skuldum
+# <a name="managing-payables"></a>Umsjón með gjaldfallnum skuldum
 
 Stór hluti þess að hafa umsjón með gjaldfallnum reikningum er að borga lánardrottnum eða endurgreiða starfsmönnum kostnað. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupareikninga sem eru komnir á gjalddaga á síðunni **Greiðslubók**. Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
 
@@ -30,7 +30,7 @@ Eftirfarandi tafla lýsir röð verka innan gjaldfallinna reikninga með tenglum
 |Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 |Endurgreiða starfsmönnum fyrir persónuleg útgjöld í viðskiptaerindum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 [Innkaup](purchasing-manage-purchasing.md)    
 [Umsjón útistandandi](receivables-manage-receivables.md)    
 [Nota kostnaðarauka til að gera grein fyrir viðbótarviðskiptakostnaði](payables-how-assign-item-charges.md)    
