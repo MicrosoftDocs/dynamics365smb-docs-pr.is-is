@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
-# Flæði fyrir framleiðslu, samsetningu og verkefni
+# <a name="flows-for-production-assembly-and-projects"></a>Flæði fyrir framleiðslu, samsetningu og verkefni
 
 Innra flæði, svo sem tínsluíhlutir og frágangur lokavara fyrir samsetningar-, verk- og framleiðslupantanir, er svipað og flæði á inn- eða útleið. Margar vinnslurnar kunna að þekkja. Í þessari grein eru upplýsingar um hvernig á að vinna með vöruhúsaflæði innanhúss með mismunandi flóknari stigum.
 
-## Yfirlit yfir mismunandi skilgreiningarvalkosti
+## <a name="overview-of-different-configuration-options"></a>Yfirlit yfir mismunandi skilgreiningarvalkosti
 
 Hægt er að grunnstilla vöruhúsaaðgerðir á ýmsa vegu. Mikilvægt er að valkostirnir sem notandi velur endurbæti ferla án þess að valda sameiginlegum kostnaði. Eftirfarandi töflur lýsa dæmigerðum grunnstillingum fyrir stjórnun efnislegra vara fyrir framleiðslu, verkefni og samsetningarpantanir.
 
-### Flæði á innleið (frágangur)
+### <a name="inbound-flow-put-away"></a>Flæði á innleið (frágangur)
 
 |Flækjustig|Heimildasamstæða|Stillingar|Hólfkóði|Innleiðarflæði framleiðslupöntunar|Samsetningarflæði á innleið|Innleiðarflæði verka|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ Hægt er að grunnstilla vöruhúsaaðgerðir á ýmsa vegu. Mikilvægt er að v
 
 Sumar grunnstillingar leyfa ekki notkun sérsniðinna vöruhúsaskjala til að skrá frágang. Ef hins vegar hólf eru notuð í birgðageymslunni er hægt að nota almenn hreyfingaskjöl til að færa framleiddar eða samsettar vörur í vöruhús. Nánari upplýsingar um flutning á [vörum](warehouse-move-items.md).
 
-### Flæði á útleið (tínsla)
+### <a name="outbound-flow-pick"></a>Flæði á útleið (tínsla)
 
 |Flækjustig|Heimildasamstæða|Stillingar|Hólfkóði|Útleiðarflæði framleiðslupöntunar|Samsetningarflæði á útleið|Verkflæði á útleið|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -37,7 +37,7 @@ Sumar grunnstillingar leyfa ekki notkun sérsniðinna vöruhúsaskjala til að s
 |Ítarlegt|Sameinaðar tínsluaðgerðir fyrir mörg upprunaskjöl.|Framleiðsla, Samsetning, Verkefni: Vöruhúsatínsla|Valfrjáls. Hólfakótanum er stýrt áskilin vífæra|Framleiðslupantanir -> vöruhúsatínslu - > Notkunarbók |Samsetningarpantanir -> vöruhúsatínslu| Verkefni -> vöruhúsatínsla - > Verkbók |
 |Ítarlegt|Sama og að ofan + Beinar tínslu-/frágangsaðgerðir|Bein tínsla og frágangur (ósjálfstæð vígblöð eru gerð virk sjálfvirkt)|Áskilið|Sama og hér að ofan|Sama og hér að ofan| Bein tínsla og frágangur er ekki studdur fyrir verkefni|
 
-## Vöruhús án sérsniðinnar vöruhúsaaðgerðar
+## <a name="warehouses-without-dedicated-warehouse-activity"></a>Vöruhús án sérsniðinnar vöruhúsaaðgerðar
 
 Jafnvel þó ekki séu notaðar sértækar vöruhúsaaðgerðir gæti verið gott að rekja hluti eins og notkun og framleiðslufrálag. Eftirfarandi greinar veita upplýsingar um hvernig á að vinna móttökur fyrir upprunaskjöl.
 
@@ -45,9 +45,9 @@ Jafnvel þó ekki séu notaðar sértækar vöruhúsaaðgerðir gæti verið got
 * [Sameina vörur](assembly-how-to-assemble-items.md)
 * [Skrá neyslu eða notkun fyrir verk](projects-how-record-job-usage.md)
 
-## Grunnskilgreining vöruhúss
+## <a name="basic-warehouse-configuration"></a>Grunnskilgreining vöruhúss
 
-### Flæðir til og frá framleiðslu í einfaldri vöruhúsaskilgreiningu  
+### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>Flæðir til og frá framleiðslu í einfaldri vöruhúsaskilgreiningu
 
 Inn- og útleiðarflæðið í einfaldri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -64,7 +64,7 @@ Nota **birgðatínsluskjöl** til að tína framleiðsluíhluti í flæðinu til
 * Reitirnir **Hólfkóti** verkstæðisframleiðslu, **Hólfakóti** frá-framleiðslu og **Opna hólfakóta** vinnusalar á birgðageymslunni eða véla-/vinnustöðin skilgreina sjálfgefið flæði til og frá framleiðslusvæðum.
 * Vinna með hreyfingu framleiddra vara á síðunni **Innri hreyfing** án tengsla við framleiðslupöntun.
 
-### Flæðir til og frá samsetningu í einfaldri vöruhúsaskilgreiningu  
+### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>Flæðir til og frá samsetningu í einfaldri vöruhúsaskilgreiningu
 
 Útleiðarflæðið í einfaldri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -83,7 +83,7 @@ Nota **skjöl birgðahreyfingar** til að tína samsetningaríhluti í flæði t
 
 [!INCLUDE [prod_short](includes/prod_short.md)] styður samsetningarflæði til lagerbirgða og samsetningarflæði til pöntunar saman. Nánari upplýsingar um [hvernig á að skilja samsetningu pöntunar og setja saman á lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). Í tengslum við vöruhúsakerfi er samsetning til birgða hluti af innra vöruhúsaflæðinu og samsetning til pöntunar er í vöruhúsaflæði út. Fræðast meira um [samsetningarvörur í pöntun með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Flæði fyrir verkefnastjórnun í einfaldri vöruhúsaskilgreiningu
+### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Flæði fyrir verkefnastjórnun í einfaldri vöruhúsaskilgreiningu
 
 Útleiðarflæðið í einfaldri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -93,9 +93,9 @@ Nota birgðatínsluskjöl **til** að tína verkíhluti í flæðinu til verkefn
 
 Í birgðageymslu sem notar hólf skilgreinir reiturinn **Hólfakóti** verkefnis í birgðageymslunni sjálfgefið flæði til verkefnastjórnunar.
 
-## Grunngerðir í ítarlegu vöruhúsi  
+## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi
 
-### Flæðir til og frá framleiðslu í ítarlegri vöruhúsaskilgreiningu
+### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>Flæðir til og frá framleiðslu í ítarlegri vöruhúsaskilgreiningu
 
 Flæði á útleið í ítarlegri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -112,7 +112,7 @@ Nota skal skjöl vöruhúsatínslu **og** síðuna **Tínsluvinnublað** til að
 *  **Kóti** verkefnahólfs, **Kóti** frá-framleiðsluhólfs og **Kóti opins hólfs** vinnusalar á birgðageymslunni eða véla-/vinnustöðinni skilgreina sjálfgefnu flæðin til og frá framleiðslusvæðum. 
 * Vinna með hreyfingar á framleiddum vörum á **hreyfingavinnublaðinu eða** Vöruhúsamóttökunni **. Innanhússfrágangssíður**, án tengsla við framleiðslupöntun.
 
-### Flæðir til og frá samsetningu í ítarlegum vöruhúsaskilgreiningum
+### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>Flæðir til og frá samsetningu í ítarlegum vöruhúsaskilgreiningum
 
 Flæði á útleið í ítarlegri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -132,7 +132,7 @@ Nota **vöruhúsatínsluskjöl** og síðuna **Tínsluvinnublað** til að tína
 
 Samsetning til lager er hluti af innra vöruhúsaflæðinu og samsetning-til-pöntun er í vöruhúsaflæði út. Fræðast meira um [vöru með samsetningu á pöntun í vöruhúsaafhendingum](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### Flæðir í verkefnastjórnun í ítarlegri vöruhúsaskilgreiningu
+### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Flæðir í verkefnastjórnun í ítarlegri vöruhúsaskilgreiningu
 
 Flæði á útleið í ítarlegri vöruhúsagrunnstillingu felur í sér eftirfarandi stillingar á síðunni **Birgðageymsluspjald** fyrir birgðageymsluna:
 
@@ -142,7 +142,7 @@ Nota **vöruhúsatínsluskjöl** og síðuna **Tínsluvinnublað** til að tína
 
 Í birgðageymslum sem nota hólf tilgreinir reiturinn **Hólfakóti** verkefnis í birgðageymslunni sjálfgefið flæði yfir á verksvæðið.
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir vöruhúsakerfi](design-details-warehouse-management.md)
 

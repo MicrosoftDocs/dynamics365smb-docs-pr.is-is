@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize, table mapping'
 ms.service: dynamics-365-business-central
 ---
-# Vörpun töflur og reiti til að samstilla
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun töflur og reiti til að samstilla
 
 Grunnurinn að því að samstilla gögn er að varpa töflum og reitum í [!INCLUDE[prod_short](includes/prod_short.md)] við töflur og dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)] þannig að hægt sé að skiptast á gögnum. Vörpun gerist í samþættingartöflum.
 
-## Vörpun samþættingartöflum
+## <a name="mapping-integration-tables"></a>Vörpun samþættingartöflum
 
 Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[prod_short](includes/prod_short.md)] sem stendur fyrir töflu í, á borð við lykil, í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Samþættingartöflur innihalda reiti sem samsvara dálkum í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] töflunni. Til dæmis tengist samþættingartafla lykils við töflu lykils í [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Það verður að vera vörpun samþættingartöflu fyrir hverja töflu í [!INCLUDE[cds_short_md](includes/cds_short_md.md)] sem á að samstilla við gögn í [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[prod_short](includes/pr
 >
 > Til að forðast hæga afköst, á síðunni **vörpun** samþættingartafla er hægt að gera gagnasamstillingu sem byggir á atburðum virka eða óvirka fyrir hvaða töflu sem er. Sjálfgefið er að samstilling sem byggist á tilvikum er kveikt á svo að fyrirliggjandi samþættingar hafi ekki áhrif. Kerfisstjórinn getur kveikt eða slökkt á honum fyrir tilteknar töflur.
 
-### Bæta töflu- og reitavörpunum við fyrirliggjandi samþættingartöflur
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Bæta töflu- og reitavörpunum við fyrirliggjandi samþættingartöflur
 
 Á síðunni **samþættingartafla Vörpun** er hægt að nota aðgerðina Nýtt töfluvörpun til að bæta nýjum töfluvörpunum við samþættingartöflur. Aðgerðin ræsir **leiðbeiningarnar Stofna nýjar samþættingarvörpun** sem hjálpa til við uppsetningu nýrra samþættingartafla og reitavörpunar.
 
@@ -55,11 +55,11 @@ Leiðarvísirinn hjálpar einnig til við að tilgreina reitina sem nýja vörpu
 
 Ný reitavörpun sem bætt er við fyrirliggjandi töfluvörpun eru í óvirkri stöðu. Hægt er að velja **Breyta lista** til að gera þá virka síðar.
 
-### Samstillingarreglur
+### <a name="synchronization-rules"></a>Samstillingarreglur
 
 Samþætingartöfluvörpun inniheldur einnig reglur sem hafa áhrif á hvernig samstillingarverk samþættingar samstilla færslur í töflunni [!INCLUDE[prod_short](includes/prod_short.md)] og töflu í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Dæmi um reglur um samþættingu við Sala er farið í [Samstillingarreglur](#synchronization-rules).
 
-### Aðferðir til að leysa sjálfvirka úr árekstrum
+### <a name="strategies-for-auto-resolving-conflicts"></a>Aðferðir til að leysa sjálfvirka úr árekstrum
 
 Gagnaárekstrar geta auðveldlega átt sér stað þegar viðskiptaforrit skiptast á gögnum með reglulegu millibili. Til dæmis gæti einhver eytt eða breytt línu í einu forritanna eða báðum. Til að draga úr þeim fjölda árekstra sem þarf að leysa handvirkt er hægt að tilgreina úrlausnaraðferðir og [!INCLUDE[prod_short](includes/prod_short.md)] mun sjálfkrafa leysa úr árekstrum samkvæmt reglum aðferðarinnar.
 
@@ -71,7 +71,7 @@ Vörpun samþættingartöflu inniheldur reglur sem stýra því hvernig samstill
 
 Þegar búið er að tilgreina aðferðina, á síðunni **Samstillingarvilla í tengdum gögnum**, er hægt að velja aðgerðina **Reyna allt aftur** til að leysa úr árekstrum sjálfkrafa.
 
-## Vörpun samþættingarreitum
+## <a name="mapping-integration-fields"></a>Vörpun samþættingarreitum
 
 Vörpun á töflum er aðeins fyrsta skrefið. Einnig þarf að varpa reitunum í töflunum. Vörpun samþættingarreits tengir reiti í [!INCLUDE[prod_short](includes/prod_short.md)] töflum við samsvarandi dálka í [!INCLUDE[prod_short](includes/cds_long_md.md)] og ákvarðar hvort samstilla eigi gögn í hverri töflu. Stöðluð töfluvörpun sem [!INCLUDE[prod_short](includes/prod_short.md)] veitir inniheldur reitavarpanir en hægt er að breyta þeim ef þess er óskað. Frekari upplýsingar eru í [Skoðun töfluvarpana](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-table-mappings).
 
@@ -80,15 +80,15 @@ Vörpun á töflum er aðeins fyrsta skrefið. Einnig þarf að varpa reitunum �
 
 Hægt er að varpa reitunum handvirkt eða gera ferlið sjálfvirkt með því að varpa mörgum reitum samtímis byggt á skilyrði fyrir samsvörun á gildum þeirra. Frekari upplýsingar er að finna í [Að tengja margar færslur sem byggir á samsvörun reitargilda](admin-how-to-couple-and-synchronize-records-manually.md).
 
-### Meðhöndla mismun í svæðagildum
+### <a name="handle-differences-in-field-values"></a>Meðhöndla mismun í svæðagildum
 
 Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í [!INCLUDE[crm_md](includes/crm_md.md)] er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í [!INCLUDE[prod_short](includes/prod_short.md)] er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú samstillir gögn. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Umbreytingarreglur eru skilgreindar á síðunni **Varpanir samþættingartöflu** með því að velja **Vörpun** og síðan **Reitir**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Frekari upplýsingar er að finna í [Umbreytingarreglur](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-### Meðhöndla valkostagildi sem vantar
+### <a name="handle-missing-option-values"></a>Meðhöndla valkostagildi sem vantar
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur dálka fyrir valkosti sem bjóða upp á gildi sem hægt er að varpa í [!INCLUDE[prod_short](includes/prod_short.md)] reiti af gerðinni **Valkostur** fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[prod_short](includes/prod_short.md)] töflu og bætt við kerfistöfluna **Vörpun CDS-valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina. Frekari upplýsingar er að finna í [Að meðhöndla gildi sem vantar fyrir valkosti](admin-cds-missing-option-values.md).
 
-## Paraskrár
+## <a name="couple-records"></a>Paraskrár
 
 Tenging tengir línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] við færslur í [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis eru lyklar í [!INCLUDE[prod_short](includes/cds_long_md.md)] yfirleitt samtengdir við viðskiptavini í [!INCLUDE[prod_short](includes/prod_short.md)]. Að tengja færslur býður upp á eftirfarandi ávinning:
 
@@ -97,7 +97,7 @@ Tenging tengir línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] við f�
 
 Hægt er að setja upp tengingar sjálfkrafa með því að nota samstillingarverk eða handvirkt með því að breyta færslunni í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna í [Samstilla gögn í [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) og [Tengja og samstilla færslur handvirkt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
-## Afmarka færslur og línur  
+## <a name="filter-records-and-rows"></a>Afmarka færslur og línur
 
 Ef ekki á að samstilla allar línur fyrir tiltekna töflu í [!INCLUDE[prod_short](includes/cds_long_md.md)] eða í töflunni [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp afmarkanir til að takmarka gögnin sem eru samstillt. Afmarkanir eru settar upp á síðunni **Varpanir samþættingartöflu**.  
 
@@ -105,18 +105,18 @@ Ef ekki á að samstilla allar línur fyrir tiltekna töflu í [!INCLUDE[prod_sh
 2. Til að afmarka [!INCLUDE[prod_short](includes/prod_short.md)] skrár er reiturinn **Töfluafmörkun** stilltur.  
 3. Til að afmarka [!INCLUDE[prod_short](includes/cds_long_md.md)] línur er reiturinn **Afmörkun samþættingartöflu** stilltur.  
 
-## Stofna nýjar færslur  
+## <a name="create-new-records"></a>Stofna nýjar færslur
 
 Sjálfgefið munu aðeins færslur í [!INCLUDE[prod_short](includes/prod_short.md)] og línur í [!INCLUDE[prod_short](includes/cds_long_md.md)] sem eru tengdar vera samstilltar eftir samstillingarverkum samþættingarinnar. Hægt er að setja upp töfluvarpanir til að nýjar færslur verði stofnaðar á áfangastaðnum (t.d., [!INCLUDE[prod_short](includes/prod_short.md)]) fyrir hverja nýja línu í upprunanum (t.d., [!INCLUDE[prod_short](includes/cds_long_md.md)]) sem ekki er þegar tengd.  
 
 Til dæmis notar samstillingarverkið SÖLUFÓLK – Dynamics 365 Sales samstillingarverk töfluvörpunina SÖLUFÓLK. Samstillingarverkið afritar gögn frá notendum í [!INCLUDE[prod_short](includes/cds_long_md.md)] yfir í sölumenn í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef töfluvörpun er sett upp til að stofna nýjar færslur er, fyrir hvern nýjan notanda í [!INCLUDE[prod_short](includes/cds_long_md.md)] sem er ekki þegar tengdur við sölumann í [!INCLUDE[prod_short](includes/prod_short.md)], stofnuð ný sölumannslína í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Til að stofna nýjar færslur við samstillingu  
+### <a name="to-create-new-records-during-synchronization"></a>Til að stofna nýjar færslur við samstillingu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2. Í færslu töfluvörpunar í listanum skal hreinsa reitinn **Samst. aðeins tengdar færslur**.  
 
-## Nota skilgreiningarsniðmát í töfluvörpunum
+## <a name="use-configuration-templates-on-table-mappings"></a>Nota skilgreiningarsniðmát í töfluvörpunum
 
 Hægt er að úthluta skilgreiningarsniðmátum á töfluvarpanir til að nota fyrir nýjar línur sem stofnaðar eru í [!INCLUDE[prod_short](includes/prod_short.md)] eða [!INCLUDE[prod_short](includes/cds_long_md.md)]. Fyrir hverja töfluvörpun má tilgreina skilgreiningarsniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/prod_short.md)] færslur og annað sniðmát til að nota fyrir nýjar [!INCLUDE[prod_short](includes/cds_long_md.md)] línur.  
 
@@ -128,13 +128,13 @@ Ef sett er upp sjálfgefinn samstillingargrunnur verða skilgreiningarsniðmáti
 
 * **CDSACCOUNT** stofnar og samstillir nýja lykla í [!INCLUDE[prod_short](includes/cds_long_md.md)] sem byggist á lykli í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### Til að tilgreina skilgreiningarsniðmát í töfluvörpunum  
+### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Til að tilgreina skilgreiningarsniðmát í töfluvörpunum
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2. Í færslu töfluvörpunar í listanum, í reitnum **Sniðmátskóði fyrir skilgreiningartöflu**, skal velja skilgreiningarsniðmátið til að nota fyrir nýjar færslur í [!INCLUDE[prod_short](includes/prod_short.md)].  
 3. Stilla skal reitinn **Sniðmátskóði fyrir innri skilgreiningartöflu** á skilgreiningarsniðmátið til að nota fyrir nýjar færslur í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## Sjá einnig .  
+## <a name="see-also"></a>Sjá einnig .
 
 [Um samþættingu Dynamics 365 Business Central við [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md )  
 [Samstilling Business Central og [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  

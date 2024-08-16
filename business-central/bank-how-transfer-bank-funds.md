@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Flytja bankasjóði
+# <a name="transfer-bank-funds"></a>Flytja bankasjóði
 
 Stundum þarf að færa upphæð af einum bankareikningi yfir á [!INCLUDE[prod_short](includes/prod_short.md)] annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubækur** . Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
 
-## Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Reitirnir **Bókunardagsetning** og **Númer fylgiskjals** eru fylltir út í færslubókarlínu.
@@ -29,7 +29,7 @@ Stundum þarf að færa upphæð af einum bankareikningi yfir á [!INCLUDE[prod_
 7. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna til.
 8. Bóka skal færslubókina.
 
-## Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
 
 Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, verður að bóka tvær færslubókarlínur.
 
@@ -66,7 +66,7 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
     > Upphæð með engu merki er debet og upphæð með mínusmerki er kreditupphæð.
 10. Bóka skal færslubókina.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
