@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917'
-ms.date: 02/22/2024
+ms.date: 08/09/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-production-orders"></a>Um framleiðslupantanir
+# Um framleiðslupantanir
 
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  
 
@@ -32,7 +32,7 @@ Framleiðslupantanir eru upphafspunktar fyrir:
 - Stjórnun núverandi framleiðslu  
 - Rakningu tilbúinnar framleiðslu  
 
-## <a name="production-order-creation"></a>Stofnun framleiðslupöntunar
+## Stofnun framleiðslupöntunar  
 
 Hægt er að búa til framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt á síðunni **Framleiðslupöntun** eða búa þær til af síðunum **Sölupöntun áætlun** eða **Pantanaáætlun** . Einnig er hægt að stofna margar pantanir eru stofnaðar af síðunni **Áætlunarvinnublað** .  
 
@@ -44,7 +44,7 @@ Framleiðslupantanir eru stofnaðar með upplýsingum úr:
 - Vélastöðvum  
 - Vinnustöðvum  
 
-## <a name="limitations-on-creating-production-orders"></a>Takmarkanir á stofnun framleiðslupantana
+## Takmarkanir á stofnun framleiðslupantana  
 
 Framleiðslupantanir eru sjálfkrafa teknar frá og raktar aftur til uppruna síns þegar:  
 
@@ -57,18 +57,18 @@ Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](pr
 
 Framleiðslupantanir sem stofnaðar eru með öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.
 
-## <a name="production-order-status"></a>Staða framleiðslupöntunar
+## Staða framleiðslupöntunar  
 
 Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Staða pöntunarinnar segir til um form og innihald framleiðslunnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt. Nota verður aðgerðina **Breyta stöðu** í einstakri framleiðslupöntun eða á síðunni **Breyta stöðu** framl.pöntunar.  
 
-### <a name="simulated-production-order"></a>Hermd framleiðslupöntun
+### Hermd framleiðslupöntun  
 
 Hermd framleiðslupöntun er einstök, byggð á eftirfarandi eiginleikum:  
 
 - Eins og nafnið gefur tilefni til er hægt að nota eftir tilboðum og kostnaði. Til dæmis þegar rannsóknar- og þróunardeildin vill fá kostnaðaráætlun fyrir vöru sem lögð er til. Hermd framleiðslupöntun er notuð sem dæmi um framleiðslupöntun.  
-- Þau hafa ekki áhrif á skipulagningu pantana. Áætlun (MPS og MRP) tekur ekki tillit til og hefur ekki áhrif á hermdar framleiðslupantanir. Einnig er ekki hægt að nota hermda framleiðslupöntun sem sniðmát vegna þess að hún hverfur þegar stöðu hennar er breytt.  
+- Þau hafa ekki áhrif á skipulagningu pantana. Áætlun (MPS og MRP) hefur ekki áhrif á hermdar framleiðslupantanir. Einnig er ekki hægt að nota hermda framleiðslupöntun sem sniðmát vegna þess að hún hverfur þegar stöðu hennar er breytt.  
 
-### <a name="planned-production-order"></a>Áætluð framleiðslupöntun
+### Áætluð framleiðslupöntun  
 
 Áætluð framleiðslupöntun er einstök vegna eftirfarandi eiginleika:  
 
@@ -78,7 +78,7 @@ Hermd framleiðslupöntun er einstök, byggð á eftirfarandi eiginleikum:
 - Stofnun þeirra í áætlananiðurstöðum í tillagðri "áætlaðri útgáfu pantana" sem felur í sér magn, útgáfudagsetningu og skiladagsetningu. Grunnur áætlunarkerfisins er byggður á endurnýjunarkerfinu, endurpöntunarstefnunni, og pöntunarbreytum sem hann finnur í áætlunarferli nettóþarfa.  
 - Skoða má álagið fyrir hverja vinnustöð eða vélastöð á leið áætluðu framleiðslupöntunarinnar til að skoða áhrif þeirra.  
 
-### <a name="firm-planned-production-order"></a>Fastáætluð framleiðslupöntun
+### Fastáætluð framleiðslupöntun  
 
 Fastáætluð framleiðslupöntun er einstök vegna eftirfarandi eiginleika:  
 
@@ -88,7 +88,7 @@ Fastáætluð framleiðslupöntun er einstök vegna eftirfarandi eiginleika:
 - Stonfun þeirra í áætlananiðurstöðum í tillagðri "áætlaðri útgáfu pantana" sem felur í sér magn, útgáfudagsetningu og skiladagsetningu. Grunnur áætlunarkerfisins er byggður á endurnýjunarkerfinu, endurpöntunarstefnunni, og pöntunarbreytum sem hann finnur í áætlunarferli nettóþarfa.  
 - Skoða má álagið fyrir hverja vinnustöð eða vélastöð á leið fastáætluðu framleiðslupöntunarinnar til að skoða áhrif þeirra.  
 
-### <a name="released-production-order"></a>Útgefin framleiðslupöntun
+### Útgefin framleiðslupöntun  
 
 Útgefna framleiðslupöntunin er einstök samkvæmt eftirfarandi eiginleikum:  
 
@@ -97,7 +97,7 @@ Fastáætluð framleiðslupöntun er einstök vegna eftirfarandi eiginleika:
 - Í umhverfi sem býr til eftir pöntun (MTO) er ekki óvanalegt að stofna útgefna framleiðslupöntun strax eftir færslu sölupöntunarinnar.  
 - Raunveruleg efnisnotkun og vöruílag er hægt að færa handvirkt inn með útgefinni framleiðslupöntun. Þar að auki er sjálfvirk birgðaskráning notkunar og vöru aðeins notuð fyrir útgefnar framleiðslupantanir.  
 
-### <a name="finished-production-order"></a>Afgreidd framleiðslupöntun
+### Afgreidd framleiðslupöntun  
 
 Fullunnin framleiðslupöntun er einstök samkvæmt eftirfarandi eiginleikum:  
 
@@ -106,17 +106,17 @@ Fullunnin framleiðslupöntun er einstök samkvæmt eftirfarandi eiginleikum:
 - Fullunnar framleiðslupantanir eru notaðar til tölfræðilegrar skýrslugerðar og til að styðja þann eiginleika að geta rakið aftur til annarra pantana (sölu-, framleiðslu- og innkaupa- til dæmis). Það að geta rakið aftur til fullunninnar framleiðslupöntunar gerir það mögulegt að sjá söguna í heild sinni.  
 - Aldrei er hægt að breyta afgreiddum framleiðslupöntunum.  
 
-## <a name="production-order-execution"></a>Framkvæmd framleiðslupöntunar
+## Framkvæmd framleiðslupöntunar  
 
 Þegar búið er að stofna og tímasetja framleiðslupöntun verður að gefa hana út í vinnusalinn til að framkvæma hana. Á meðan á framkvæmd pöntunarinnar stendur er fært inn:  
 
 - Efnið sem var tínt eða notað  
 - Hversu miklum tíma var varið í vinnslu pöntunarinnar  
-- Magn yfirvörunnar sem er framleidd  
+- Magn vörunnar yfireining framleiddra vara  
 
 Hægt er að skrá þessar upplýsingar handvirkt eða með sjálfvirkri skýrslugerð. Aðferðin fer eftir uppsetningunni í reitnum Birgðaskráningaraðferð á vörunni og vinnustöðinni.  
 
-### <a name="material-consumption"></a>Efnisnotkun
+### Efnisnotkun  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á ýmsa valkosti til að skrá efnisnotkun. Til dæmis er hægt að skrá efnisnotkun handvirkt, sem gæti hentað ef til eru tíðar skiptingar á íhlutum eða hærri en búist var við.  
 
@@ -124,16 +124,16 @@ Hægt er að vinna efnisnotkun í [gegnum notkunarbókina](production-how-to-pos
 
 Handvirk notkunarskýrsla notar Notkunarbókina til að tilgreina efnisval.  
 
-Framvirk notkunarskýrsla gerir ráð fyrir því að búið sé að nota sjálfkrafa væntanlegt magn alls efnisins í allri pöntuninni við útgáfu framleiðslupöntunarinnar, nema leiðartengilskótar séu notaðir. Þegar leiðartengilskótar eru notaðir er efnið sem notað er eftir upphaf aðgerðarskrefsins skráð í frálagsbókina. Til að birgðaskrá alla framleiðslupöntunina framvirkt þarf að gera tvennt:  
+Framvirk notkunarskýrsla gerir ráð fyrir því að búið sé að nota sjálfkrafa væntanlegt magn alls efnisins í allri pöntuninni við útgáfu framleiðslupöntunarinnar, nema leiðartengilskótar séu notaðir. Þegar leiðar-tengja kótar eru notaðir er efnið sem notað er eftir upphaf aðgerðarskrefsins skráð í frálagsbókina. Til að birgðaskrá alla framleiðslupöntunina framvirkt þarf að gera tvennt:  
 
 - Velja þarf framvirka birgðaskráningu á birgðaspjaldi hverrar vöru í uppskrift efsta stigs framleiðslu.  
 - Fjarlægja þarf alla leiðartengilskóta úr framleiðsluuppskriftinni.  
 
-Afturvirk notkunarskýrsla skráir raunverulegt magn alls efnis sem er valið eða notað þegar stöðu framleiðslupöntunar er breytt í *Lokið* nema leiðartengilskótar séu notaðir. Þegar leiðartengilskótar eru notaðir er efnið notað eftir að magn yfirvörunnar er skráð fyrir aðgerðarskrefið í frálagsbókinni.  
+Afturvirk notkunarskýrsla skráir raunverulegt magn alls efnis sem er valið eða notað þegar stöðu framleiðslupöntunar er breytt í *Lokið* nema leiðartengilskótar séu notaðir. Þegar leiðar-tengja kótar eru notaðir er efnið notað eftir að magn vörunnar yfireining er skráð fyrir aðgerðarskrefið í frálagsbókinni.  
 
 Þegar Framleiðslupöntunin er endurnýjuð er birgðaskráningaraðferðin afrituð af birgðaspjaldinu. Þar sem birgðaskráningaraðferðin fyrir hvern íhlut framleiðslupöntunar stýrir því hvernig og hvenær notkunin er skráð er mikilvægt að hafa í huga að hægt er að breyta birgðaskráningaraðferð fyrir tilteknar vörur beint á framleiðslupöntuninni. Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).
 
-### <a name="production-output"></a>Framleiðslufrálag
+### Framleiðslufrálag  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gefur möguleika á að rekja það hversu miklum tíma er eytt í að vinna með framleiðslupöntun, auk þess að skrá það magn sem er framleitt. Þessar upplýsingar geta hjálpað þér við að meta á nákvæmari hátt kostnað framleiðslunnar. Framleiðendur sem nota staðlað kerfi kostnaðarútreiknings gætu líka viljað skrá raunverulegar upplýsingar til að auðvelda þeim að þróa betri staðla.  
 
@@ -141,17 +141,17 @@ Hægt er að vinna frálag í [gegnum frálagsbókina](production-how-to-post-ou
 
 Handvirk aðferð notar frálagsbókina til að tilgreina tímanotkun og magn sem er framleitt.  
 
-Framvirka aðferðin skráir frálagið (og tímann) sem búist er við, sem er skráð sjálfvirkt við útgáfu framleiðslupöntunar. Leiðartengilskótar eru ekki þáttur í framvirkri birgðaskráningu frálagsins.  
+Framvirka aðferðin skráir frálagið (og tímann) sem búist er við, sem er skráð sjálfvirkt við útgáfu framleiðslupöntunar. Leiðar- tengja kótar eru ekki þáttur í framvirkri birgðaskráningu frálagsins.  
 
-Afturvirk aðferð skráir frálagið (og tímann) sem búist er við, sem er skráð sjálfvirkt við lok framleiðslupöntunar. Leiðartengilskótar eru ekki þáttur í afturvirkri birgðaskráningu frálagsins.  
+Afturvirk aðferð skráir frálagið (og tímann) sem búist er við, sem er skráð sjálfvirkt við lok framleiðslupöntunar. Leiðar-tengja kótar eru ekki þáttur í afturvirkri birgðaskráningu frálagsins.  
 
-### <a name="posting-consumption-and-output"></a>Bókun notkunar og frálags
+### Bókun notkunar og frálags  
 
-Hægt er að nota hvaða samblöndu sem er af sjálfvirkri birgðaskráningu og handvirkt skráðum upplýsingum fyrir bæði notkun og frálag. Til dæmis gæti þurft að birgðaskrá íhluti framvirkt sjálfvirkt en nota samt notkunarbók til að skrá úrkast. Á svipaðan hátt gæti þurft að skrá frálag sjálfvirkt en nota frálagsbók til að skrá úrkast yfirvörunnar eða aukatíma sem eytt er í pöntunina.  
+Hægt er að nota hvaða samblöndu sem er af sjálfvirkri birgðaskráningu og handvirkt skráðum upplýsingum fyrir bæði notkun og frálag. Til dæmis gæti þurft að birgðaskrá íhluti framvirkt sjálfvirkt en nota samt notkunarbók til að skrá úrkast. Á svipaðan hátt gæti þurft að skrá frálag sjálfvirkt en nota frálagsbók til að skrá úrkast yfireining vörunnar eða aukatíma sem eytt er í pöntunina.  
 
 Að lokum þarf að ákvarða í hvaða röð ætlunin er að skrá þessar upplýsingar ef notkun og frálag er fært inn handvirkt. Hægt er að skrá notkun fyrst og nota svo flýtiaðferð til að færa inn upplýsingarnar, sem eru byggðar á áætluðu frálagsmagni. Eða þá að frálag er fært inn fyrst með aðgerðinni **opna leið**. Notkun yrði þá skráð á grundvelli raunverulegs frálagsmagns.  
 
-### <a name="production-journal"></a>Framleiðslubók
+### Framleiðslubók  
 
 Framleiðslubókin [sameinar](production-how-to-register-consumption-and-output.md) aðgerðir notkunarbókar og frálagsbókar í eina færslubók sem er opnuð beint frá útgefnu framleiðslupöntuninni.  
 
@@ -178,7 +178,7 @@ Hins vegar eru framleiðslubækur frábrugðnar notkunar- og frálagsbókum að 
 
 Í Framleiðslubókinni er Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Framleiðsla](production-manage-manufacturing.md)
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

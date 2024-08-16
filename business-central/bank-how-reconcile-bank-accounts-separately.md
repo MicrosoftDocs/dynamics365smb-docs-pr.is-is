@@ -6,10 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 10/24/2023
+ms.date: 07/24/2024
 ms.custom: bap-template
 ---
-# <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
+
+# Afstemma bankareikninga
 
 Afstemming banka hjálpar til við að tryggja að það sem er í bókhaldinu þínu passi við yfirlitin sem þú færð frá bankanum. Afstemming bankareiknings ber saman og samsvarar færslur á bankareikningunum sem þú hefur sett upp í [!INCLUDE[prod_short](includes/prod_short.md)] við bankafærslur í bankanum þínum. Afstemming getur síðan lagt innistæðurnar inn á bankareikningana þína í [!INCLUDE[prod_short](includes/prod_short.md)] svo að fjármálastjórar geti nálgast þær. Bankaafstemming er einnig hagkvæm leið til að uppgötva og leysa úr greiðslum sem vantar upp á og bókhaldsvillum.
 
@@ -22,7 +23,7 @@ Hins vegar er einnig hægt að stemma af bankareikninga á síðunni **Greiðslu
 
 Línur síðunnar **Afstemming bankareiknings** skiptast í tvö svæði. **BankaYfirlitslínur** svæðinu sýnir annað hvort innfluttra bankafærslur eða fjárhagsfærslur með útistandandi greiðslur. **Bankareikningsfærslur** svæðið sýnir fjárhagsfærslur á innri bankareikning.
 
-## <a name="about-bank-reconciliation"></a>Um bankaafstemmingu
+## Um bankaafstemmingu 
 
 Að afstemma færslur í yfirlitum úr bankanum þínum við bankafærslur í [!INCLUDE[prod_short](includes/prod_short.md)] er vísað í sem *jöfnun*. Það eru þrjár leiðir til að jafna viðskipti við bankafærslur:
 
@@ -30,8 +31,8 @@ Að afstemma færslur í yfirlitum úr bankanum þínum við bankafærslur í [!
 
 * Sjálfvirkt, með því að nota aðgerðina **Stemma af við copilot** .
 
-  Þessi aðgerð er tiltæk sem hluti af aðstoð við bankaafstemmingu (forskoðun) sem eiginleiki AI-knúinn. [Fá nánari upplýsingar um aðstoð](bank-reconciliation-with-copilot.md) við bankaafstemmingu.
-* Handvirkt með því að velja línur í báðum svæðum til að tengja hverja bankayfirlitslínu við eina eða fleiri bankareikningsfærslur og nota svo aðgerðina **Jafna handvirkt** .
+  Þessi aðgerð er tiltæk sem hluti af aðstoð við bankaafstemmingu (forútgáfa) sem eiginleiki al-knúinna. [Fá nánari upplýsingar um aðstoð](bank-reconciliation-with-copilot.md) við bankaafstemmingu.
+* Handvirkt með því að velja línur í báðum svæðum til að tengja hverri bankayfirlitslínu á eina eða fleiri bankareikningsfærslur og nota svo aðgerðina **Jafna handvirkt** .
 
 **Jafnað** gátreitur er valinn í línum þar sem færslurnar eru samsvarandi. Frekari upplýsingar eru í [Setja upp reglur fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md). Ef lokadagsetning yfirlits er færð inn á bankaafstemminguna eftir að línurnar hafa verið jafnaðar við færslur, [!INCLUDE [prod_short](includes/prod_short.md)]  ógildar það samsvörun fyrir línur og færslur sem eru eftir þá dagsetningu.
 
@@ -40,7 +41,7 @@ Að afstemma færslur í yfirlitum úr bankanum þínum við bankafærslur í [!
 
 Þegar gildið í reitnum **Heildarstaða** á svæðinu **Bankauppgjörslínur** er jafnt og gildið í reitnum **Staða til afstemmingar** ásamt reitnum **Staða síðasta yfirlits** á svæðinu **Fjárhagsfærslur bankareiknings** geturðu valið aðgerðina **Bóka**. Ójafnaðar fjárhagsfærslur bankareiknings verða áfram á síðunni, sem gefur til kynna misræmi sem ætti að leysa úr til að stemma bankareikninginn af.
 
-Allar línur sem ekki er hægt að jafna, gefið til kynna með gildi í reitnum **Mismunur**, verða áfram á síðunni **Afstemming bankareiknings** eftir bókun. Þær tákna einhverskonar misræmi sem nauðsynlegt er að leysa úr áður en hægt er að ljúka afstemmingu bankareiknings. Eftirfarandi tafla lýsir nokkrum dæmigerðum viðskiptaaðstæðum sem geta valdið mismun.
+Allar línur sem ekki er hægt að para, tákna með gildi í reitnum **Mismunur**, verða áfram á **síðunni Afstemming bankareikninga** að lokinni bókun. Þær tákna einhverskonar misræmi sem nauðsynlegt er að leysa úr áður en hægt er að ljúka afstemmingu bankareiknings. Eftirfarandi tafla lýsir nokkrum dæmigerðum viðskiptaaðstæðum sem geta valdið mismun.
 
 | Mismunur | Ástæða | Upplausn |
 |------------|--------|------------|
@@ -55,7 +56,7 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið á síðunni **afstemmin
 * Sjálfvirkt, með því að nota **Flytja inn bankayfirlit** aðgerðina til að fylla í svæðið **Bankayfirlitslínur** með bankafærslum samkvæmt innfluttri skrá eða streymi sem bankinn býður upp á.
 * Handvirkt, með því að nota **Leggja til línur** aðgerðina til að fylla í svæðið **Bankayfirlitslínur** samkvæmt reikningum í [!INCLUDE[prod_short](includes/prod_short.md)] sem eru með útistandandi greiðslur.
 
-## <a name="add-bank-statement-lines-by-importing-a-bank-statement"></a>Bæta við bankayfirlitslínum með því að flytja inn bankayfirlit
+## Bæta við bankayfirlitslínum með því að flytja inn bankayfirlit
 
 Svæðið **Bankayfirlitslínur** verður fylllt út með bankafærslum í samræmi við innflutta skrá eða streymi sem bankinn lætur í té.
 
@@ -72,7 +73,7 @@ Til að flytja inn bankayfirlit sem bankastreymi þarf að setja upp bankastreym
 6. Ef þú ert með bankayfirlitsskrá, veldu **flytja inn bankayfirlit** aðgerðina.
 7. Staðsetja skal skrána og velja svo hnappinn **Opna** til að flytja inn bankafærslurnar á línurnar á svæðinu **Bankayfirlitslínur** á síðunni **Afstemming bankareiknings**.
 
-## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Til að fylla út bankaafstemmingarlínur með aðgerðinni Leggja til línur
+## Til að fylla út bankaafstemmingarlínur með aðgerðinni Leggja til línur
 
 Svæðið **Bankayfirlitslínur** verður fyllt út samkvæmt reikningum í [!INCLUDE[prod_short](includes/prod_short.md)] sem eru með útistandandi greiðslur.  
 
@@ -86,7 +87,7 @@ Svæðið **Bankayfirlitslínur** verður fyllt út samkvæmt reikningum í [!IN
 4. Ef þú vilt ekki að fjárhagsfærslur bankareikningsins innihaldi ójafnaðar opnar bakfærslur skaltu velja víxlhnappinn **Útiloka bakfærslur**. Listinn yfir fjárhagsfærslur bankareiknings munu sjálfgefið innihalda bakfærslur fram að dagsetningu yfirlitsins.
 5. Velja hnappinn **Í lagi**.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Passa bankayfirlitslínur við bankareikningsfærslur sjálfvirkt
+## Passa bankayfirlitslínur við bankareikningsfærslur sjálfvirkt
 
 Síðan **Afstemming bankareiknings** býður upp á sjálfvirkar samsvörunaraðgerðir sem byggja á samsvörun texta í bankayfirlitslínu (vinstri rúðunni) við texta í einni eða fleiri fjárhagsfærslum bankareiknings (hægri rúðunni). Þú getur skrifað yfir ráðlagðar sjálfvirkar jafnanir og þú getur valið að nota ekki sjálfvirkar jafnanir yfirhöfuð. Nánari upplýsingar eru [í Passa bankayfirlitslínur við bankareikningsfærslur handvirkt](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -104,7 +105,7 @@ Hægt er að skoða nánar grundvöll jöfnunar með því að nota aðgerðina 
 > [!TIP]
 > Hægt er að nota blöndu af handvirkri og sjálfvirkri jöfnun. Ef þú hefur jafnað færslur handvirkt mun sjálfvirk jöfnun ekki skrifa yfir valið þitt.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Jafna bankayfirlitslínur við bankareikningsfærslur handvirkt
+## Jafna bankayfirlitslínur við bankareikningsfærslur handvirkt
 
 > [!TIP]
 > Þegar línur og færslur eru jafnaðar handvirkt geta aðgerðirnar **Sýna allt**, **Sýna bakfærðar færslur**, **Fela bakfærðar færslur** og **Sýna ójafnað** gert auðveldara að fá yfirsýn. Sjálfgefið innihalda fjárhagsfærslur bankareikningsins ekki ójafnaðar bakfærðar færslur. Til að hafa þessar færslur á listanum og jafna þær handvirkt skaltu velja aðgerðina **Sýna bakfærðar færslur**. Ef þú velur að fela bakfærðar færslur eftir að þú hefur gert eina eða fleiri jafnanir, eru jöfnuðu færslurnar ennþá sýndar.
@@ -129,12 +130,12 @@ Hægt er að skoða nánar grundvöll jöfnunar með því að nota aðgerðina 
 > [!TIP]
 > Til að fjarlægja jöfnun skal velja bankareikningslínu og velja svo aðgerðina **fjarlægja jöfnun**. Ef margar bankayfirlitslínur hafa verið jafnaðar við fjárhagsfærslu og þú þarft að fjarlægja eina eða fleiri jafnaðar línur, eru allar handvirkar jafnanir fjarlægðar fyrir fjárhagsfærsluna þegar þú velur **Fjarlægja jöfnun**.
 
-## <a name="validate-your-bank-reconciliation"></a>Staðfesta bankaafstemmingu
+## Staðfesta bankaafstemmingu
 
-Til að tvískoða afstemmingu bankareiknings áður en hún er bókuð skal nota aðgerðina **Prófunarskýrsla** til að forskoða afstemminguna. Skýrslan er aðgengileg í eftirfarandi samhengi:
+Til að tvískoða afstemmingu bankareiknings áður en hún er bókuð er aðgerðin **Prófunarskýrsla** notuð til að forútgáfa afstemminguna. Skýrslan er aðgengileg í eftirfarandi samhengi:
 
 * Þegar bankaafstemming er undirbúin á síðunni **Afstemming bankareiknings**.
-* Þegar greiðslur eru stemmdar af á síðunni **Greiðsluafstemmingarbækur**.
+* Þegar greiðslur eru stemmdar af á síðunni **Greiðsluafstemmingarbók** .
 
 Línur sem ekki er hægt að para við á síðunni **Afstemming** bankareikninga eftir bókun. Í þessum línum er gildi í reitnum **Mismunur** . Misræmi verður að leysa áður en hægt er að ljúka afstemmingu bankareiknings. Eftirfarandi tafla lýsir nokkrum dæmigerðum viðskiptaaðstæðum sem geta valdið mismun.
 
@@ -156,8 +157,8 @@ Eftirfarandi tafla lýsir reitum í prófunarskýrslunni sem geta hjálpað til 
 |Dagsetning yfirlits| Dagsetningin sem tilgreind er í reitnum **Dagsetning** yfirlits á síðunni **Afstemming bankareikninga** .|
 |Staða síðasta yfirlits|Staðan sem tilgreind er í reitnum **Staða síðasta yfirlits** á síðunni **Afstemming bankareikninga** . Þetta útfyllist sjálfkrafa úr nýjustu afstemmingu sama bankareiknings. Gildið er núll ef þetta er fyrsta bankareikningsafstemmingin.|
 |Lokastaða yfirlits|Staðan sem tilgreind er í reitnum **Lokastaða** yfirlits á síðunni **Afstemming bankareikninga** . |
-|Fjárhagsreikn.nr. *<númer*> Staða við <*dags.*> | Staða fjárhagsreikningsins á lokadagsetningu yfirlitsins. Þetta er óafgreidd staða frá og með þeirri dagsetningu. Ef bankinn notar staðarmynt ætti þessi staða að vera sú sama og bankareikningsstaðan (sýnd hægra megin í skýrsluhausnum) þegar allar yfirlitslínur hafa verið jafnaðar. Auður **()** heiti þessa reits merkir að bankinn noti heimagjaldmiðil.<br><br>Misræmi í þessu og fyrri reitum gæti gefið til kynna að bókað hafi verið beint á fjárhagsreikninginn eða að notaður sé sami fjárhagsreikningur fyrir marga banka, sem ekki er mælt með. Bankar eru tengdir fjárhag með þeim bókunarflokki bankareikninga sem tilgreindur er fyrir reikninginn.<br><br>Í prófunarskýrslu kemur fram viðvörun ef um beina bókanir er að ræða, jafnvel þótt staða bókunar sé núll. Beinar bókanir sem eru ekki jafnaðar leiða oft til uppsafnaðs mismunar vegna afstemminga banka í framtíðinni. Kanna ætti fjárhagsstöðu og færslur áður en bankaafstemming er bókuð. Til að fræðast meira um beina bókun er farið í [Forðast beina bókun](#avoid-direct-posting).|
-|Fjárhagsreikn.nr. *<númer*> staða (<*LGM*>) við <*dags.*>| Staða fjárhagsreikningsins á lokadagsetningu yfirlitsins í staðarmynt. Stöðunni er umreiknað í gjaldmiðil bankareikningsins með því gengi sem var í gildi á lokadagsetningu yfirlitsins. Þetta er óafgreidd staða frá og með þeirri dagsetningu. Það er borið saman við reitinn **Fjárhagsreikn.nr. <* númer *>Staða í <* dagsreit *>* ef bankinn notar erlendan gjaldmiðil. Gildið í reitnum Fjárhagsreikningsnr.*<númer *> Staða við <* date*> reitur fyrir heimagjaldmiðilinn gæti verið lítillega frábrugðinn vegna þess að gjaldmiðilsumreikningur getur leitt til lítils munar. Staða bankans ætti að vera mjög nálægt þessari stöðu.  |
+|Fjárhagsreikn.nr. *<númer*> Staða við <*dags.*> | Staða fjárhagsreikningsins á lokadagsetningu yfirlitsins. Þetta er óafgreidd staða frá og með þeirri dagsetningu. Ef bankinn notar staðbundinn gjaldmiðill ætti þessi staða að vera sú sama og bankareikningurinn (sýnt hægra megin í skýrsluhausnum) þegar allar yfirlitslínur hafa verið jafnaðar. Auður **()** heiti þessa reits merkir að bankinn notar staðbundinn gjaldmiðill.<br><br>Misræmi í þessu og fyrri reitum gæti gefið til kynna að bókað hafi verið beint á fjárhagsreikninginn eða að notaður sé sami fjárhagsreikningur fyrir marga banka, sem ekki er mælt með. Bankar eru tengdir við fjárhagur í gegnum þann bókunarflokk bankareikninga sem tilgreindur er fyrir reikninginn.<br><br>Í prófunarskýrslu kemur fram viðvörun ef um beina bókanir er að ræða, jafnvel þótt staða bókunar sé núll. Beinar bókanir sem eru ekki jafnaðar leiða oft til uppsafnaðs mismunar fyrir afstemmingar banka í framtíðinni. Athuga ætti fjárhagsstaða og færslur áður en bankaafstemming er bókuð. Til að fræðast meira um bein bókun er farið í [Forðastu bein bókun](#avoid-direct-posting).|
+|Fjárhagsreikn.nr. *<númer*> staða (<*SGM*>) við <*dags.*>| Staða fjárhagsreikningsins á lokadagsetningu yfirlitsins í staðbundinn gjaldmiðill. Stöðunni er umreiknað í gjaldmiðil bankareikningsins með því gengi sem var í gildi á lokadagsetningu yfirlitsins. Þetta er óafgreidd staða frá og með þeirri dagsetningu. Það er borið saman við reitinn **Fjárhagsreikn.nr. <* númer *>Staða í <* dagsreit *>* ef bankinn notar erlendan gjaldmiðil. Gildið í reitnum Fjárhagsreikningsnr.*<númer *> Staða við <* date*> reit fyrir staðbundinn gjaldmiðill gæti verið munur lítillega vegna þess að umbreyting gjaldmiðla getur leitt til lítils munar. Staða bankans ætti að vera mjög nálægt þessari stöðu.  |
 |Staða bankareiknings við <*dags.*>| Staða bankareiknings á lokadagsetningu yfirlits.|
 |Mismunur alls    | Samtala mismunar fyrir yfirlitslínurnar. Til að fá aðgang að upplýsingum skal kveikja á vífærslnunum **Prenta útistandandi færslur** þegar skilyrði eru færð inn fyrir skýrsluna. Mismunur er bankayfirlitslína sem passar ekki alveg við eina eða fleiri bankafærslur. Ekki er hægt að bóka afstemmingu bankareiknings sem hefur mismun. Hægt er að bóka bankaafstemmingu sem inniheldur bankafærslur sem ekki eru jafnaðar yfirlitslínum. Þetta gildi er sýnt í reitnum **Útistandandi bankafærslur** og í sérstökum hluta ef kveikt er á víxlun útistandandi færslna í prentun ógreiddra færslna.      |
 |Staða á yfirliti     | Gildið sem tilgreint er í reitnum **Lokastaða** yfirlits á síðunni **Afstemming bankareikninga** .  |
@@ -172,14 +173,14 @@ Eftirfarandi tafla lýsir reitum í prófunarskýrslunni sem geta hjálpað til 
 >
 > Nota má gildið til að bera saman við bankayfirlitið.
 
-## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Að stofna fjárhagsfærslur sem vantar til að jafna bankayfirlitslínur
+## Að stofna fjárhagsfærslur sem vantar til að jafna bankayfirlitslínur
 
 Stundum inniheldur bankayfirlit upphæðir fyrir vexti eða gjöld. Ekki er hægt að jafna slíkar bankayfirlitslínur vegna þess að engar tengdar fjárhagsfærslur eru í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú verður þá að bóka færslubókarlínu fyrir hverja færslu til að stofna tilsvarandi fjárhagsfærslu sem það má jafna við.
 
 1. Á síðunni **Afstemming bankareiknings** er valið aðgerðin **Flytja í almenna færslubók**.  
 2. Á síðunni **Flytja bankaafstemmingu í almenna færslubók** skal tilgreina hvaða almenn færslubók skal nota, og veldu svo **OK** hnappinn.
 
-    Síðan **Færslubók** opnast með nýjum færslubókarlínum fyrir allar bankayfirlitslínur sem vantar færslur.
+    Síðan **Færslubækur** opnast með nýjum færslubókarlínum fyrir allar bankayfirlitslínur sem vantar færslur.
 3. Fylla út færslubókarlínuna með upplýsingum eins og mótreikningnum. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 4. Til að skoða niðurstöður bókunar áður en bókað er skal velja aðgerðina **Prófunarskýrsla** og velja síðan valkost til að fá aðgang að skýrslunni.  **Skýrslan Bankareikningsyfirlit** sýnir sömu reiti og í haus síðunnar **Afstemming bankareikninga** .
 5. Valið er **Bóka** aðgerðin.
@@ -188,11 +189,11 @@ Stundum inniheldur bankayfirlit upphæðir fyrir vexti eða gjöld. Ekki er hæg
 6. Uppfærðu eða opnaðu aftur **afstemming bankareiknings** síðuna. Nýji fjárhagsfærslan birtist í **bankareikningsfærslur** svæðinu.
 7. Jafnaðu bankayfirlitslínu með bankareikningsfærslu, annað hvort handvirkt eða sjálfkrafa.
 
-## <a name="find-outstanding-transactions-in-previous-periods"></a>Finna útistandandi færslur á fyrri tímabilum
+## Finna útistandandi færslur á fyrri tímabilum
 
 Hægt er að nota skýrslu bankayfirlitsins til að finna útistandandi færslur á fyrri tímabilum. Útistandandi færslur voru opnaðar á undan dagsetningu yfirlitsins og þeim hefur ekki verið lokað eða var lokað eftir að bankaafstemmingin var bókuð.
 
-Þegar skýrslan Bankayfirlit er keyrð á síðunni Bankayfirlit - Listi er hægt að kveikja á **víxli óafgreiðslna færslna** og í skýrslunni er hluti þar sem listi yfir útistandandi færslur er listi yfir útistandandi færslur.
+Þegar skýrslan Bankayfirlit er keyrð á síðunni **Yfirlitslisti** bankareikninga er hægt að kveikja á **víxli óafgreiðslna færslna** og í skýrslunni er hluti þar sem listi yfir útistandandi færslur er listi yfir útistandandi færslur.
 
 **Dæmi** Við erum með fjárhagsfærslur A, B og C á bankareikningnum okkar fyrir ágústmánuð. Þegar við afstemmum bankareikninginn okkar fyrir ágúst finnum við bankayfirlitslínuna sem passar við færslu A, en enga fyrir B og C. Svo við bókum afstemminguna með færslu A afstemmda og B og C sem útistandandi færslur.
 
@@ -200,31 +201,31 @@ Hægt er að nota skýrslu bankayfirlitsins til að finna útistandandi færslur
 
 Ef við prentum skýrsluna fyrir ágúst fáum við útistandandi færslur fyrir færslur B og C, jafnvel þótt við höfum lokað færslu B í september.
 
-## <a name="undo-a-bank-account-reconciliation"></a>Hætta við afstemmingu bankareiknings
+## Hætta við afstemmingu bankareiknings
 
-Ef mistök finnast í bókuðum bankaafstemmingu er hægt að nota aðgerðina **Afturkalla** á síðunni **Listi** yfir bankareikninga til að leiðrétta hana. Þegar bókuð bankaafstemming er afturkölluð verða færslur færðar á síðuna **Bankaafstemming** og merktar sem **Opnar**, sem þýðir að þær eru ekki afstemmdar. Þá er hægt að leiðrétta bankaafstemminguna og bóka hana aftur.
+Ef mistök finnast í bókuðum bankaafstemmingu er hægt að nota aðgerðina **Afturkalla** á síðunni **Listi** yfir bankareikninga til að leiðrétta hana. Þegar afturkallað er bókaða bankaafstemmingu eru færslurnar fluttar á **síðuna Afstemmingar** bankareikninga og merktar sem **Opnar**, þ.e. þær eru ekki afstemmdar. Þá er hægt að leiðrétta bankaafstemminguna og bóka hana aftur.
 
 > [!NOTE]
 > Í norður-amerísku útgáfunni, til að nota afturköllunaraðgerðina fyrir bókaðar bankaafstemmingar og bankayfirlit, þarf að kveikja á **Bankaafstemming með sjálfvirkri samsvörun** á síðunni **Uppsetning fjárhagsgrunns**. Afturköllunaraðgerðin er ekki í boði fyrir bankayfirlit sem bókuð eru í vinnublöðum bankaafstemmingar.
 
-### <a name="reusing-the-bank-statement-number"></a>Bankayfirlitsnúmer notað aftur
+### Bankayfirlitsnúmer notað aftur
 
 Bankayfirlitsnúmerið sem er notað fyrir nýja bankaafstemmingu er fengið frá bankareikningnum sem er staða síðasta yfirlits. Hægt er að breyta þessum gildum áður en ný bankaafstemming er gerð. Hinsvegar, þegar ný bankaafstemming er stofnuð, athugar [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort númer yfirlitsins sé þegar úthlutað á bókað bankayfirlit. Ef númerið er í notkun, en ætlunin er að nýja bankayfirlitið noti það í staðinn, er hægt að nota **Breyta yfirlitsnr.** Aðgerð á síðunni **Afstemming bankareikninga** .
 
-### <a name="examples"></a>Dæmi
+### Dæmi
 
 Eftirfarandi dæmi sýna hvernig á að lagfæra mistök í bókaðri bankaafstemmingu með eða án þess að nota sama yfirlitsnúmerið.
 
-#### <a name="example-1"></a>Dæmi 1
+#### Dæmi 1
 
-Bankaafstemmingar voru fyrir janúar, febrúar og mars. Númer bankayfirlits var 100 fyrir mars. Seinna uppgötvast að mars innihélt aðeins færslur til 30. mars, sem þýðir að það vantar færslur frá 31. Þar af leiðandi þarf að endurgera bankaafstemminguna fyrir mars. Í slíku tilfelli opnum við síðuna **Bankareikningsyfirlit**, veljum yfirlitið fyrir mars og veljum síðan **Afturkalla**. 
+Bankaafstemmingar voru fyrir janúar, febrúar og mars. Númer bankayfirlits var 100 fyrir mars. Seinna uppgötvast að mars innihélt aðeins færslur til 30. mars, sem þýðir að það vantar færslur frá 31. Þar af leiðandi þarf að endurgera bankaafstemminguna fyrir mars. Í því tilviki opnum við síðuna **Yfirlitslisti** bankareikninga, veljum yfirlit fyrir mars og veljum **svo Afturkalla**. 
 
 Nýju bankaafstemmingunni er gefið yfirlitsnúmerið 101. Til að endurúthluta númerinu 100 skal velja **Breyta yfirlitsnr.** og færið inn **100**. 
 
 > [!TIP]
 > Munið að stilla viðeigandi lokadagsetningu yfirlits (í þessu dæmi er það 31. mars) og breytið reitnum **Staða síðasta yfirlits**. 
 
-#### <a name="example-2"></a>Dæmi 2
+#### Dæmi 2
 
 Bankaafstemmingar voru fyrir janúar, febrúar, júní og júlí. Þú sérð að febrúar var rangur. Gerum ráð fyrir að þar hafi verið yfirlitsnúmerið 100. Eins og í dæmi 1 eru aðgerðirnar Afturkalla og Breyta yfirlitsnr. til að breyta yfirlitsnúmerinu eins og í dæmi #1 hér fyrir ofan og nú er hægt að endurgera bankaafstemmingu í febrúar.  
 
@@ -239,20 +240,20 @@ Ef næst er gerð bankaafstemming fyrir ágúst skal íhuga að breyta gildunum 
 >
 > Staða síðasta yfirlits er geymt á bankareikningnum til að draga úr mistökum þegar bankaafstemmingar eru gerðar, en einnig er hægt að breyta því, sem gerir kleift að gera bankaafstemmingarnar í hvaða röð sem er. Þetta þýðir einnig að ef bankayfirlit er afturkallað gæti verið að nýja lokastaðan verði ekki staða síðasta yfirlits á bankayfirlitinu. Enginn eiginleiki er til staðar sem gerir kleift að áframsenda öll síðari bankayfirlit, því skal hafa það í huga þegar Afturköllun er gerð.  
 
-## <a name="avoid-direct-posting"></a>Forðast beina bókun
+## Forðastu bein bókun
 
 Ekki nota fjárhagsreikning sem leyfir beina bókun í bókunarflokki bankareikningsins. Bein bókun mun rjúfa tengslin milli fjárhagsfærslu bankareikningsins og fjárhagsfærslu fjárhagsreikningsins. Þegar kosið er að afstemma bankareikninginn verða færslurnar sem bókaðar eru beint á fjárhagsreikninginn ekki hafðar með og verður því erfitt að ljúka afstemmingunni.
 
 Þessi mistök eiga sér oft stað þegar farið er í opnunarstöðu fyrir bankareikning. Mikilvægt er að bóka ekki opnunarstöðuna beint í fjárhaginn. Færslur á fjárhagsreikningnum sem eru bókaðar beint á fjárhagsreikninginn munu valda vandræðum. Þessar færslur gætu til dæmis komið í veg fyrir að þú getir stemmt af bankareikninginn þinn. Fyrir bankareikninga í erlendum gjaldmiðli geta færslurnar valdið því að mismunur safnist upp eftir að þú bókar fleiri bankaafstemmingar vegna gengisleiðréttinga gjaldmiðils. Oft er opnunarstaða í banka bókuð beint á bankareikninginn og upphæðin endar þá á fjárhagsreikningnum. Að öðrum kosti bakfærir þú hana á móti fjárhagsreikningnum sem þú notar til að jafna opnunarstöðu fjárhagsins. Í báðum tilvikum þarf að jafna allar beinar bókanir á fjárhagsreikninginn áður en þú byrjar fyrstu bankaafstemminguna og sérstaklega ef bankareikningurinn er í erlendum gjaldmiðli.
 
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
-[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
-[Stemma bankareikninga af með aðstoð bankaafstemmingar (forskoðun)](bank-reconciliation-with-copilot.md)
-[Greiðslur jafnaðar sjálfvirkt og afstýra bankareikningum](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Bankareikningar afstemmdir](bank-manage-bank-accounts.md)    
+[Stemma af bankareikninga með aðstoð bankaafstemmingar (forútgáfa)](bank-reconciliation-with-copilot.md)  
+[Jafna greiðslur sjálfvirkt og afstýra bankareikningum](receivables-apply-payments-auto-reconcile-bank-accounts.md)    
+[Uppsetning banka](bank-setup-banking.md)    
+[Setja upp reglur fyrir sjálfvirka jöfnun greiðslna](receivables-how-set-up-payment-application-rules.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

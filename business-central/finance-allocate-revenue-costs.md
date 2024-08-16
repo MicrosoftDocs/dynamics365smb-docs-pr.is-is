@@ -1,9 +1,9 @@
 ---
-title: Úthluta tekjum og kostnaði á marga fjárhagsreikninga
-description: Fræðast um hvernig á að úthluta kostnaði á einn eða fleiri reikninga í fjárhag.
+title: Úthluta tekjum og kostnaði á marga fjárhagur reikninga
+description: Fræðast um hvernig á að úthluta kostnaði á einn eða fleiri reikninga í fjárhagur.
 author: brentholtorf
 ms.author: bholtorf
-ms.date: 09/04/2023
+ms.date: 08/08/2024
 ms.topic: conceptual
 ms.search.keywords: 'allocate, allocation, accounts'
 ms.search.form: '39, 2673, 2670, 2674,'
@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Úthluta tekjum og kostnaði á marga fjárhagsreikninga
+# Úthluta tekjum og kostnaði á marga fjárhagur reikninga
 
 Í þessari grein er því lýst hvernig úthlutunarreikningar eru notaðir til að dreifa upphæðum í sölu- og innkaupaskjölum og færslubókarlínum í mismunandi fjárhagsreikninga. Hægt er að úthluta upphæðum með fastri eða breytilegri dreifingu.  
 
@@ -25,11 +25,11 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
 |Úthlutunaraðferð  |Heimildasamstæða  |
 |---------|---------|
 |Lagað     | Þegar skipta á upp kostnaði á þann hátt sem er endurtekinn á lengri tíma er hægt að nota fasta úthlutun. Með fastri úthlutun er hægt að skilgreina skiptingu úthlutunar. Þessi skipting breytist aðeins þegar uppsetningunni er breytt á síðunni **Úthlutunarreikningur** .        |
-|Breytilegt     | Nota breytilega úthlutunaraðferð til að dreifa tekjum eða kostnaði á grundvelli virðis sem breytast með tímanum. Í breytilegum úthlutunum er hægt að tilgreina uppruna sem á að nota til að reikna úthlutunarprósentur. Þessi aðferð er til dæmis gagnleg til að skipta kostnaði starfsmanna sem lýsir mismiklum höfuðstól í deildum eða deildum. Annað dæmi er að dreifa kostnaði við leigu á grundvelli myndefnis framleiðslugólfs sem gæti verið breytilegt á hverja framleiðslulínu með tímanum. Breytilegar úthlutanir nota samsetningu vídda og talnagagnalykla til að ákvarða hvernig upphæðir skiptast á tímabil. Til að fræðast meira um tölfræðilega reikninga er farið í [Greina gögn með tölfræðilegum reikningum](bi-use-statistical-accounts.md). Hægt er að fræðast meira um víddir með því að fara í [Vinna með víddir](finance-dimensions.md).        |
+|Breytilegt     | Nota breytilega úthlutunaraðferð til að dreifa tekjum eða kostnaði á grundvelli virðis sem breytast með tímanum. Í breytilegum úthlutunum er hægt að tilgreina uppruna sem á að nota til að reikna úthlutunarprósentur. Þessi aðferð er til dæmis gagnleg til að skipta kostnaði starfsmanna sem lýsir mismiklum höfuðstól í deildum eða deildum. Annað dæmi er að dreifa kostnaði við leigu á grundvelli myndefnis framleiðslugólfs sem gæti verið breytilegt á hverja framleiðslulínu með tímanum. Breytilegar úthlutanir nota samsetningu vídda og talnagagnalykla til að ákvarða hvernig upphæðir dreifast á tímabili. Til að fræðast meira um tölfræðilega reikninga er farið í [Greina gögn með tölfræðilegum reikningum](bi-use-statistical-accounts.md). Hægt er að fræðast meira um víddir með því að fara í [Vinna með víddir](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Nota aðferð fyrir fasta samnýtingu eða prósentu til að úthluta upphæðum
+## Nota aðferð fyrir fasta samnýtingu eða prósentu til að úthluta upphæðum
 
-1.  ![Veldu Lightbulb sem opnar táknið Segja mér,](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") sláðu inn **Úthlutunarreikning** og veldu svo viðeigandi tengil.  
+1.  ![Veldu Lightbulb sem opnar táknið](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Segja mér, slá inn **Úthlutunarreikning** og velja síðan viðeigandi tengja.  
 1. Á síðunni **Úthlutunarreikningar** skal velja **Nýtt**.
 1. Fylla þarf út reitinn **Nr.**. Reitunum Heiti **.** 
 1. Í reitnum **Tegund** reiknings er Valið **Fast**.
@@ -42,9 +42,9 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
    > Ef raunveruleg upphæð er færð inn til að úthluta fastri úthlutun í reitinn **Samnýta** sýnir reiturinn **Prósenta prósentu** heildarupphæðarinnar.
 1. Þetta ferli er endurtekið fyrir hvern reikning sem á að taka með í úthlutun.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Nota breytilega aðferð til að úthluta upphæðum
+## Nota breytilega aðferð til að úthluta upphæðum
 
-1.  ![Veldu Lightbulb sem opnar táknið Segja mér,](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") sláðu inn **Úthlutunarreikning** og veldu svo viðeigandi tengil.  
+1.  ![Veldu Lightbulb sem opnar táknið](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Segja mér, slá inn **Úthlutunarreikning** og velja síðan viðeigandi tengja.  
 1. Á síðunni **Úthlutunarreikningar** skal velja **Nýtt**.
 1. Fylla þarf út reitinn **Nr.**. Reitunum Heiti **.** 
 1. Í reitnum **Tegund** reiknings er valið **Breytilegt**.
@@ -52,25 +52,25 @@ Eftirfarandi tafla kynnir úthlutunaraðferðirnar sem hægt er að nota.
 1. Í reitnum **Númer** viðtökureiknings skal velja reikninginn sem bóka á gildið á.
 1. Í reitnum **Tegund** sundurliðunarreiknings skal velja **Upplýsingareikningur**.
 1. Í reitnum **Útreikningstímabil** er valið tímabilið sem á að dreifa upphæðum á.
-1. Valfrjálst: Til að afmarka eftir tilteknum gildum altækra vídda skal velja **afmarkanir á stöðu sundurliðunarreiknings** og tilgreina síðan afmörkunargildin.
+1. Valfrjálst: Til að afmarka eftir tilteknum altæk vídd gildum skal velja **afmarkanir á stöðu sundurliðunarreiknings** og tilgreina síðan afmörkunargildin.
 1. Valfrjálst: Veljið **víddirnar** og tilgreinið síðan víddirnar sem á að bóka fyrir línuna.
 
-## <a name="allocate-amounts-on-the-fly"></a>Úthluta upphæðum á fljúgandi
+## Úthluta upphæðum á fljúgandi
 
 Úthlutunarreikningar eru stofnaðir til að skipta tekjum og kostnaði fyrir fjárhagsreikninga og bankareikninga. Sjálfvirk úthlutun getur sparað tíma. Eigi hinsvegar að nota úthlutunarreikninga en ekki að stofna þá fyrir hvern fjárhagsreikning er hægt að spara enn meiri tíma.
 
-Valkosturinn Afrita frá yfirvalkostum gerir kleift að nota úthlutunarreikninginn til að skipta upphæðum fyrir fjárhagsreikning í línu í fylgiskjali eða færslubók. Í reitnum **Tegund** reiknings í fylgiskjals- eða færslubókarlínu er valinn fjárhagsreikningur og úthlutunarreikningurinn síðan valinn í reitnum **Úthlutunarreikningur nr.** Ef reiturinn er auður er Upphæðinni í línunni er skipt upp fyrir fjárhagsreikninginn samkvæmt uppsetningunni í úthlutunarreikningnum. Minna gegnsæ leið til úthlutunar en ekki þarf að stofna úthlutunarreikning sérstaklega fyrir fjárhagsreikninginn.
+Valkosturinn Afrita frá yfireining gerir kleift að nota úthlutunarreikninginn til að skipta upphæðum fyrir fjárhagsreikning í línu í fylgiskjali eða færslubók. Í reitnum **Tegund** reiknings í fylgiskjals- eða færslubókarlínu er valinn fjárhagsreikningur og úthlutunarreikningurinn síðan valinn í reitnum **Úthlutunarreikningur nr.** akur. Upphæðinni í línunni er skipt upp fyrir fjárhagsreikninginn samkvæmt uppsetningunni í úthlutunarreikningnum. Minna gegnsæ leið til úthlutunar en ekki þarf að stofna úthlutunarreikning sérstaklega fyrir fjárhagsreikninginn.
 
-Auðvelt er að setja upp tilfalkkaúthlutanir. Í stað þess að tilgreina banka eða fjárhagsreikning í reitnum **Tegund** viðtökureiknings á síðunni **Úthlutunarreikningur** er valkosturinn Afrita frá yfirvalkostinum **valinn**. Reiturinn **Númer** viðtökureiknings er hafður auður. Þegar fjárhagsreikningurinn er valinn í fylgiskjals- eða færslubókarlínunni er sá reikningur notaður til að úthluta upphæðum.
+Auðvelt er að setja upp tilfalkkaúthlutanir. Í stað þess að tilgreina banka eða fjárhagsreikning í reitnum **Tegund** viðtökureiknings á síðunni **Úthlutunarreikningur** skal velja **Afrita úr yfireining**  option. Reiturinn **Númer** viðtökureiknings er hafður auður. Þegar fjárhagsreikningurinn er valinn í fylgiskjals- eða færslubókarlínunni er sá reikningur notaður til að úthluta upphæðum.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Staðfesta að upphæðir dreifist rétt áður en þær eru bókaðar
+## Staðfesta að upphæðir dreifist rétt áður en þær eru bókaðar
 
 Nokkrar leiðir eru til að sannprófa að upphæðir dreifist rétt:
 
 * Á síðunni **Úthlutunarreikningur** skal velja aðgerðina Prófun **úthlutunar** . Reiturinn **Upphæð til úthlutunar er notaður til að prófa** aðrar upphæðir.
-* Á síðunni **Fjárhagsbækur** skal velja færslubókina og nota svo aðgerðina **Bókunarforskoðun** .
+* Á síðunni **fjárhagur færslubækur** skal velja færslubókina og nota **síðan bókun forútgáfa**  aðgerð.
 
-## <a name="adjust-the-distribution"></a>Stilla dreifinguna
+## Stilla dreifinguna
 
 Ef eitthvað finnst í úthlutun sem á að breyta er hægt að leiðrétta úthlutunina áður en hún er bókuð.  
 
@@ -78,7 +78,7 @@ Ef eitthvað finnst í úthlutun sem á að breyta er hægt að leiðrétta úth
 1. Veljið línuna og veljið svo aðgerðina **Endurdreifa úthlutun** reiknings.
 1. Á síðunni **Breyta úthlutunum** þarf að leiðrétta.
 
-## <a name="post-an-allocation-transaction"></a>Bóka úthlutunarfærslu
+## Bóka úthlutunarfærslu
 
 Eftirfarandi skref útskýra hvernig á að bóka úthlutunarfærslu úr færslubók. Skrefin eru eins fyrir sölu- og innkaupaskjöl.
 
@@ -87,12 +87,12 @@ Eftirfarandi skref útskýra hvernig á að bóka úthlutunarfærslu úr færslu
 1. Ef föst eða breytileg úthlutun er notuð er fyllt út í eftirfarandi reiti:
     1. Í reitnum **Tegund** reiknings er Úthlutunarreikningur **valinn**.
     1. Í reitnum **Reikningur nr.** skal velja úthlutunarreikning.
-1. Ef úthlutun sem notar Erfa frá yfirvalkostinum er eftirfarandi gert:
+1. Ef notuð er úthlutun sem notar reitinn Afrita úr yfireining er eftirfarandi gert:
     1. Fjárhagsreikningur **er valinn** í reitnum **Tegund** reiknings.
     1. Í reitnum **Reikningur nr.** skal velja fjárhagsreikninginn.
-    1. Í reitnum **Úthlutunarreikningur nr.** skal velja úthlutunarreikninginn sem er settur upp til að nota valkostinn Afrita frá yfirvalkostinum. 
+    1. Í reitnum **Úthlutunarreikningur nr.** skal velja úthlutunarreikninginn sem settur er upp til að nota valkostinn Afrita frá yfireining. 
 1. Velja **Bóka**.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Vinna í færslubókum](ui-work-general-journals.md)  

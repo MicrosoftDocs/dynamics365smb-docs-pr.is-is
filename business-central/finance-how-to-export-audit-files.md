@@ -1,104 +1,104 @@
 ---
 title: Útflutningur endurskoðunarskráar
-description: Í greininni er útskýrt hvernig á að setja upp mismunandi útflutningssnið og nota þau síðan samkvæmt kröfum endurskoðanda eða yfirvalda.
+description: 'Þessi grein útskýrir hvernig á að setja upp mismunandi útflutningssnið og nota þau síðan, samkvæmt kröfum endurskoðanda eða yfirvalda.'
 author: altotovi
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
-ms.date: 04/04/2023
+ms.date: 08/07/2024
 ms.author: altotovi
 ms.reviewer: bholtorf
 ---
 
-# <a name="audit-file-export"></a>Útflutningur endurskoðunarskráar
+# Útflutningur endurskoðunarskráar
 
-Útflutningur á upplýsingum um bókhald úr kerfinu er sameiginleg beiðni hjá einhverjum sveitarstjórnum eða endurskoðendum. Útflutningur sniða og nauðsynlegra upplýsinga getur verið mismunandi. Færslur fyrir útflutning eru yfirleitt fjárhagsfærslur (fjárhagsfærslur eða virðisauka-eða virðisaukandi færslur). Hins vegar er stundum krafist annarra upplýsinga.
+Útflutningur á bókhaldsupplýsingum úr kerfinu er algeng beiðni sumra sveitarfélaga eða endurskoðenda. Útflutningur á sniðum og nauðsynlegum upplýsingum getur verið frábrugðinn. Færslur fyrir útflutning eru yfirleitt fjárhagur (fjárhags-) færslur eða virðisaukaskattsfærslur (VSK). Hins vegar er stundum þörf á öðrum upplýsingum.
 
-**Útflutningur**  endurskoðunarskrár er foruppsett nafnauki sem leyfir notanda að flytja út mismunandi færslur, samkvæmt kröfum endurskoðanda eða yfirvalda. Ef um er að ræða sniðagerð eða færslur er hægt að nota aðgerðina framlenging til að stýra gagnaútflutningaferlinu. Aðgerðin er ekki með foruppsettu skrársniði fyrir útflutning. Þess vegna verður þú annaðhvort að setja upp App sem er með ákveðnu sniði (t.d. SIE, SAF-T eða FAC) eða þróa eigin.
+**Útflutningur** endurskoðunarskráa er foruppsettur viðbót sem gerir kleift að flytja út mismunandi færslur, byggt á kröfum endurskoðanda eða yfirvalda. Burtséð frá tegund sniðs eða færslna er hægt að nota aðgerð viðbótarinnar til að stýra útflutningsferli gagna. Aðgerðin er ekki með foruppsett skrársnið til útflutnings. Því verður þú annaðhvort að setja upp forrit sem er með sérstöku sniði (til dæmis SIE, SAF-T eða FAC) eða þróa eigin.
 
 > [!NOTE]
-> Eins er hægt að velja SIE (Svíþjóð), FEC (France) og SAF-T snið sem viðbót við App. Félagar geta einnig þróað sérsniðið Form. Fjöldi tiltækan sniða eykst með tímanum.
+> Eins og er getur þú valið SIE (Svíþjóð), FEC (Frakkland) og SAF-T snið sem viðbótarforrit. Samstarfsaðilar geta einnig þróað sérsniðið snið. Fjöldi tiltækra sniða eykst með tímanum.
 
-## <a name="set-up-audit-file-export"></a>Setja upp útflutning endurskoðunarskráa
+## Setja upp endurskoðunarskrá útflutning
 
-1. Velja skal hnappinn leitarhnappur  ![stækkunargler sem opnast aðgerðin segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn  **uppsetningu útflutningskráruppsetningar** og velja síðan tengda tengilinn.
-2.  **Á uppsetningarsíðu**  endurskoðunarskráa er eftirfarandi þrepum fylgt:
+1. Velja skal leitarhnappinn ![Stækkunarglershnapp sem opnar aðgerðina Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn **endurskoðunarskrá Uppsetning** útflutnings og velja síðan viðeigandi tengja.
+2. Á síðunni **endurskoðunarskrá Flytja út uppsetningaruppsetningu** skal fylgja eftirfarandi skrefum:
 
-    1.  **Á flipanum Almennt**, í  **reitnum útflutningssniði**  útflutnings, Tilgreinið kóðann fyrir sjálfgefna útflutningssnið í endurskoðunarskrá. Aðeins þau snið sem voru virkjuð þegar ákveðið skrársnið var uppsett úr aðgangsstjórnun og þau sem var bætt við sem sérsniðið snið eru tiltæk.
-    2. Á Gæðasvæðinu  **gæði**  skal velja  **gátreitinn kanna reikningsskil**  til að fá tilkynningu um Fyrirtækjaupplýsingar sem hafa ekki verið rétt settar upp.
-    3.  **Veljið gátreitinn athuga viðskiptavin**  til að fá tilkynningu um reiti sem hafa ekki verið rétt settir upp fyrir tiltekna viðskiptamenn.
-    4.  **Veljið gátreitinn athuga lánardrottin**  til að fá tilkynningu um reiti sem hafa ekki verið rétt settir upp fyrir tiltekna lánardrottna.
-    5.  **Veljið gátreitinn athuga bankareikning**  til að fá tilkynningu um reiti sem hafa ekki verið rétt settir upp fyrir tiltekna bankareikninga.
-    6.  **Veljið GÁTREITINN póstnúmer**  til að fá tilkynningu um póstnúmer sem hefur ekki verið rétt uppsett.
-    7.  **Veljið gátreitinn kanna aðsetur**  sem á að tilkynna þegar netfang hefur ekki verið rétt sett upp.
-    8.  **Í reitinn sjálfgefið póstnúmer**  skal færa inn póstnúmerið sem á að nota ef ekkert póstnúmer er tilgreint á spjaldi viðskiptamanns eða lánardrottins.
+    1. Á flýtiflipanum **Almennt** í reitnum **Endurskoðunarskrá Flytja út sniðskóta** er tilgreindur kóti fyrir sjálfgefið endurskoðunarskrá útflutningssnið. Aðeins þau snið sem voru virkjuð þegar tiltekið skrársnið var sett upp frá Eiginleikastjórnun og þau sem bætt var við sem sérsniðið snið eru tiltæk.
+    2. Á flýtiflipanum **Gæði** gagna er gátreiturinn **Kanna stofngögn** til tilkynningar um upplýsingareiti fyrirtækis sem ekki hafa verið rétt settir upp.
+    3. Velja skal gátreitinn **Kanna viðskm** . til að fá tilkynningu um reiti sem ekki hafa verið settir upp rétt fyrir tiltekna viðskiptamenn.
+    4. Velja skal gátreitinn **Kanna lánardrottin** til að fá tilkynningu um reiti sem ekki hafa verið settir upp rétt fyrir tiltekna lánardrottna.
+    5. Velja skal gátreitinn **Tékki bankareiknings** til tilkynningar um reiti sem ekki hafa verið settir upp rétt fyrir tiltekna bankareikninga.
+    6. Velja skal gátreitinn **Kanna póstnúmer** til tilkynningar um póstnúmer sem ekki hefur verið sett upp rétt.
+    7. Velja skal gátreitinn **Tékkaaðsetur** sem á að tilkynna þegar aðsetur hefur ekki verið rétt sett upp.
+    8. Í reitinn **Sjálfgefið póstnúmer** er fært inn póstnúmerið sem á að nota ef ekkert póstnúmer er tilgreint á spjaldi viðskiptamanns eða lánardrottins.
 
-3. Velja skal hnappinn leitarhnappur  ![stækkunargler sem opnast aðgerðin segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn  **uppsetningu** útflutningssniðs og velja síðan tengda tengilinn.
-4. Á uppsetningarsíðu  **fyrir**  útflutningssnið endurskoðunarskráa er eftirfarandi:
+3. Hnappurinn Leitarhnappurinn ![Stækkunargler opnar aðgerðina Segja mér er](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") valinn, slegið inn **endurskoðunarskrá Uppsetning útflutningssniðs** og tengd tengja valið.
+4. Á síðunni **endurskoðunarskrá Uppsetning útflutningssniðs** skal fylgja eftirfarandi skrefum:
 
-    1. Velja útflutningsskrársnið endurskoðunarskrár sem á að samskipa. Aðeins þau snið sem voru virkjuð þegar ákveðið skrársnið var uppsett úr aðgangsstjórnun og þau sem var bætt við sem sérsniðið snið eru tiltæk.
-    2.  **Í reitnum Heiti**  endurskoðunarskrár er tilgreint sjálfgefið skrárheiti eða sniðmát skrárheitsins fyrir þá endurskoðunarskrá sem á að flytja út.
-    3.  **Veljið Skjalasafn í zip**  -gátreit til að skrá sjálfkrafa útfluttar skrár.
+    1. Velja skal endurskoðunarskrá útflutningssniðið sem á að grunnstilla. Aðeins þau snið sem voru virkjuð þegar tiltekið skrársnið var sett upp frá Eiginleikastjórnun og þau sem bætt var við sem sérsniðið snið eru tiltæk.
+    2. Í reitnum **endurskoðunarskrá Heiti** er tilgreint sjálfgefið skrárheiti eða skrárheitissniðmát fyrir endurskoðunarskrá sem á að flytja út.
+    3. Velja skal gátreitinn **Safn til zip** til að nota sjálfkrafa útfluttar skrár.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Kveða á um vörpun fjárhagsreikningsins fyrir útflutning endurskoðunarskráa
+## Veita fjárhagsreikningnum vörpun fyrir útflutning endurskoðunarskrá
 
-Flest snið sem stjórnvöld þurfa fyrir fjárhagsreikninga krefjast ákveðins staðlaðs bókhaldslykils. Því eftir að fjárhagsreikningar hafa verið samskipaðar verður útflytjandi skráin byggð á vörpun. Hægt er að nota fleiri varpanir í kerfinu.
+Flest snið sem yfirvöld þurfa fyrir fjárhagsreikninga krefjast sérstaks staðlaðs bókhaldslykils. Þess vegna er útflutt skráin byggð á vörpunum þegar fjárhagsreikningar hafa verið grunnstilltir. Hægt er að nota fleiri vörpun í kerfinu.
 
-Fylgið þessum skrefum til að veita vörpun fjárhagsreikningsins til útflutnings í endurskoðun skráa.
+Fylgið þessum skrefum til að veita fjárhagsreikningnum vörpun fyrir endurskoðunarskrá útflutning.
 
-1. Veldu hnappinn Leita á hnappinn  ![stækkunargler sem opnar aðgerðina](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") segja mér upp, færa inn  **vörpun** fjárhagsreiknings og velja síðan tengda tengilinn.
-2.  **Á fjárhagsvörpunarsíðunni**  skal velja  **nýtt**  til að stofna vörpun.
-3.  **Í reitnum kóti**  er kortlagakótinn tilgreindur sem táknar skýrslutímabilið.
-4.  **Í reitinn stöðluð tegund**  reiknings er valin gerð staðlaðra fjárhagsreikninga.
-5.  **Í reitnum útflutningssniði**  endurskoðunar er tilgreint útflutningssnið endurskoðunarskrárinnar sem staðlaður fjárhagsreikningur er tengdur við.
-6.  **Í reitnum Tegund**  tímabils tilgreinir kerfið fjárhagstímabil eða tegund sérsniðins tímabils sem hefur sveigjanlegan upphafsdag og tíma, Byggt á valinu. Ef valið er ákveðið bókhaldstímabil verður svæðið stillt á  **bókhaldstímabil**. Að öðrum kosti verður það sett á  **Gagnasvið**.
-7.  **Í reitnum Reikningstímabil**  er tilgreindur Upphafsdagur reikningstímabilsins sem verður notað sem skýrslutímabil, ef óskað er að þau séu eins.
-8. Ef reiturinn reikningstímabil  **er stilltur**  er sjálfkrafa stillt á upphafs  **-og**  lokadagsetningar  **-grundvelli tímabilsins sem tilgreint var.**  Annars er hægt að stilla upphafs-og lokadagsetningar fyrir skýrslugerð þína handvirkt.
-9. Ef þú hefur þegar bætt við stöðluðum bókhaldslykli, Fylgdu þessum skrefum:
+1. Velja skal leitarhnappinn ![Stækka glerhnapp sem opnar aðgerðina Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn **vörpun fjárhagsreikning** og velja síðan viðeigandi tengja.
+2.  **Á vörpun síðu fjárhagsreiknings**  er Ný valið **til** að stofna vörpun.
+3. Í reitnum **Kóti** er tilgreindur vörpun kóti sem táknar skýrslutímabilið.
+4. Í reitnum **Tegund** staðlaðs reiknings er valin tegund staðlaðra fjárhagsreikninga.
+5. Í reitnum **endurskoðunarskrá Útflutningssnið** er tilgreint endurskoðunarskrá útflutningssniðið sem staðlaðir fjárhagsreikningar eru tengdir við.
+6. Í reitnum **Tegund** tímabils tilgreinir kerfið reikningstímabil eða sérsniðna tímabilstegund með sveigjanlega upphafsdagsetningu og tíma samkvæmt því sem valið var. Ef valið er tiltekið reikningstímabil er reiturinn stilltur á **Reikningstímabil**. Annars er hún stillt á **Gagnasvið**.
+7. Í reitnum **Reikningstímabil** er tilgreind upphafsdagsetning reikningstímabilsins sem á að nota sem skýrslutímabil ef það á að vera eins.
+8. Ef reiturinn **Reikningstímabil** **er stilltur eru reitirnir Upphafsdagsetning** og **Lokadagsetning** sjálfkrafa stilltir á grundvelli þess tímabils sem var tilgreint. Annars er hægt að stilla upphafs- og lokadagsetningar fyrir skýrslugerð handvirkt.
+9. Ef staðlaðum bókhaldslykli hefur þegar verið bætt við skal fylgja eftirfarandi skrefum:
 
-    1.  **Í stöðluðu Reikningategund nr.** Er tilgreindur Flokkur staðlaða reikningsins eða flokkunarkóðanum sem er notaður við vörpun.
-    2.  **Í Staðalreikningi nr.** er tilgreindur Staðlaður Lykilkóði eða flokkunarkóði sem notaður er við vörpun.
+    1. Í reitnum Flokksnr **. staðlaðs reiknings** Skal tilgreina tegund staðlaða reikningsins eða flokkunarkótans sem notaður er fyrir vörpun.
+    2. Í reitnum **Stöðluð reikningur nr.** skal tilgreina staðlaða reikningskótann eða flokkunarkótann sem notaður er fyrir vörpun.
 
-10.  **Veljið gátreitinn hafa aðsenda stöðu**  til að líta á stöðu fjárhagsreiknings  **·**  fyrir vörpun í stað nettóbreytinga á skýrslutímabilinu.
-11. Til að hefja kortlagningu er eftirfarandi þrepum fylgt:
+10.  **Velja skal gátreitinn Taka innfærða stöðu** með til að taka tillit til innfærðrar stöðu fjárhagsreiknings af gerðinni **Efnahagsreikningur** fyrir vörpun í stað hreyfingar á skýrslutímabilinu.
+11. Til að hefja vörpun skal fylgja eftirfarandi skrefum:
 
-    1. Til að búa til línur á  **vörpunarsíðu**  fjárhagsreikningsins, samkvæmt fyrirliggjandi bókhaldslykli, skal velja  **frumstillt fyrir vörpun**. Til að afrita vörpun fjárhagsreikningsins úr öðrum vörpakóta er valið  **Afrita úr annarri vörpun**. Þegar búið er að stofna línur verða allir fjárhagsreikningar sem hafa bókfærðar færslur merktir með grænum.
-    2. Til að merkja aðeins fjárhagsreikninga sem eru með færslur er valið  **að uppfæra Fjárhagsfærsluaðgengi**.  **Ef valkosturinn taka með aðsenda**  er virkjaður eru allar bókaðar fjárhagsfærslur taldar til útreiknings. Annars teljast aðeins fjárhagsfærslur af skýrslutímabilinu.
+    1. Til að búa til línur á **vörpun síðu fjárhagsreiknings**, á grundvelli fyrirliggjandi bókhaldslykils, er Uppruni valinn **frumstilla fyrir vörpun**. Ef afrita á fjárhagsreikninginn vörpun úr öðrum vörpun kóta er Afrita úr öðrum vörpun **valið**. Þegar lokið hefur verið við að búa til línur verða allir fjárhagsreikningar sem hafa bókaðar færslur merktir með grænum hætti.
+    2. Til að merkja aðeins fjárhagsreikninga með færslum er valið **Uppfæra til ráðstöfunar** fjárhagsfærslu. Ef valkosturinn **Taka innstöðu** með er virkjaður eru allar bókaðar fjárhagsfærslur teknar með við útreikninga. Annars eru aðeins tillit til fjárhagsfærslna skýrslutímabilsins.
 
-## <a name="export-the-audit-file"></a>Flytja út endurskoðunarskrána
+## Flytja út endurskoðunarskrá
 
-1. Velja skal hnappinn leitarhnappur  ![stækkunargler sem opnar aðgerðina segja mér upp.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), færa inn  **útflutningsskjöl** í endurskoðunarskrá og velja síðan tengda tengilinn.
-2.  **Á síðu útflutningsskjala**  endurskoðunarskráa er valið  **nýtt**.
-3.  **Á flipanum Almennt**  skal fara eftir þessum skrefum:
+1. Hnappurinn Leitarhnappurinn ![Stækkunargler opnar aðgerðina Segja mér er](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") valinn endurskoðunarskrá **Flytja út skjöl** og velja síðan viðeigandi tengja.
+2. Á síðunni **endurskoðunarskrá Flytja út skjöl** skal velja **Nýtt**.
+3. Á flýtiflipanum **Almennt** skal fylgja eftirfarandi skrefum:
 
-    1.  **Í reitnum útflutningssniði**  endurskoðunar er valið sniðið sem er notað til að flytja endurskoðunarskrána út.
-    2.  **Í reitnum Vörslukóti**  fjárhagsreikningsins er valinn vörslukóði fjárhagsreikningsins fyrir skýrslutímabilið.
-    3. Hakið í gátreitinn skipta eftir mánuðum  **ef mynduð er**  mörg endurskoðunarskrá fyrir mánuði.
-    4. Veljið gátreitinn skipta eftir dagsetningu  **ef búa á til**  margar endurskoðunarskrár á dag.
-    5.  **Í reitnum fyrirsögn athugasemd**  er færð inn athugasemdin sem á að vera í haus endurskoðunarskrárinnar.
-    6.  **Í reitnum tengiliður**  skal tilgreina tengiliðinn sem er fluttur út í haus endurskoðunarskrárinnar.
-    7.  **Veljið gátreitinn stofna marga ZIP-skrár**  til að mynda margar ZIP-skrár.
+    1. Í reitnum **endurskoðunarskrá Flytja út snið** er valið sniðið sem er notað til að flytja út endurskoðunarskrá.
+    2. Í reitnum **Vörpun kóti** fjárhagsreiknings er valinn kóti fjárhagsreiknings vörpun fyrir skýrslutímabilið.
+    3. Gátreiturinn **Skipta eftir mánuðum** er valinn ef mynda á margar endurskoðunarskrár fyrir hvern mánuð.
+    4. Gátreiturinn **Skipta eftir dagsetningu** er valinn ef búa á til margar endurskoðunarskrár á dag.
+    5. Í reitinn **Athugasemd** hauss er færð inn athugasemd á endurskoðunarskrá haus.
+    6. Í reitnum **Tengiliður** er tilgreindur tengiliðurinn sem hefur verið fluttur út í haus endurskoðunarskrá.
+    7. Velja skal gátreitinn **Stofna fleiri en einingarskrár** til að búa til margar zip-skrár.
 
         > [!IMPORTANT]
-        > Veljið aðeins þennan gátreit ef eitthvert snið apps hefur verið uppsett eða stofnað sérsniðið. Uppsetning eins eða fleiri af tilgreindum sniðum mun líklegast bæta við reitum og aðgerðum til að  **Flytja út**  Aðgerðir endurskoðunarskrár, út frá sniðkröfum.
+        > Aðeins skal velja þennan gátreit ef einhver sniðforrit voru sett upp áður eða sérsniðið var búið til. Uppsetning eins eða fleiri tilgreindra sniða bætir líklega reitum og aðgerðum við **útflutningsaðgerðina Útflutningur** endurskoðunarskráa, byggt á sniðþörfum.
 
-4.  **Í vinnslufastanum**  er eftirfarandi þrepum fylgt:
+4. Á flýtiflipanum **Vinnsla** skal fylgja eftirfarandi skrefum:
 
-    1.  **Veljið gátreitinn samhliða vinnslu**  ef vinna á við myndun endurskoðunarskrár er unnin með hliðstæðum bakgrunnsvinnslum. Hreinsið gátreitinn til að flytja gögn í gildandi lotu.
-    2. Ef gátreiturinn samhliða vinna  **var valinn**  í reitnum  **Max nr.** Í reitnum er tilgreindur Hámarksfjöldi bakgrunnsverka sem hægt er að keyra á sama tíma.
-    3.  **Í reitnum fyrsti Upphafsdagur/-tími**  er tilgreindur Fyrsti dagur og tími sem þarf að keyra bakvinnsluna í. Ef ferlið er keyrt með því að velja  **Ræsa** er hægt að rekja stöðuna á  **flipunum vinnsla**  og  **línur** .
+    1. Gátreiturinn Samhliða **vinnslu** er valinn ef vinna á endurskoðunarskrá með samhliða bakgrunnsvinnslum. Hreinsið gátreitinn til að flytja út gögn í núgildandi lotu.
+    2. Ef gátreiturinn Samhliða **vinnslu** var valinn er í reitnum **Hámarksnr. Í reitnum Verk** er tilgreindur hámarksfjöldi bakgrunnsverka sem hægt er að keyra samtímis.
+    3. Í reitnum **Fyrsta upphafsdagsetning/-tími** skal tilgreina elstu dagsetningu og tíma þegar keyra þarf bakgrunnsverkið. Ef ferlið er keyrt með því að velja Byrjun **er** hægt að rekja stöðuna á **flýtiflipunum Vinnsla** og **Línur** .
 
-5. Þegar þú hefur lokið við skaltu velja  **Sækja sem skrá**  til að hlaða niður endurskoðunarskrá völdu línunnar.
+5. Þegar lokið er við er Sækja sem skrá **valið** til að sækja endurskoðunarskrá fyrir völdu línuna.
 
 > [!IMPORTANT]
-> Ef þú ert með margar færslur í útflutningi mælum við ekki með því að þær séu útflutt í gildandi lotu vegna hugsanlegra afkastamáta. Þess í stað mælum við með að þú beitir þér samhliða vinnslu þar sem ekki eru Vinnudagar eða tímar.
+> Ef margar færslur eru til útflutnings er ekki mælt með því að þær séu fluttar út í þessari lotu vegna hugsanlegra vandamála við afköst. Þess í stað er mælt með því að notuð sé samhliða vinnsla á virkum dögum eða klukkustundum.
 
-## <a name="see-also"></a>Sjá einnig .
-[Fjármálastjórnun](finance.md)  
-[Skilningur á fjárhag og bókhaldslyklum](finance-general-ledger.md)  
-[Vinna með víddir](finance-dimensions.md)  
-[Vinna með Business Central](ui-work-product.md)
+## Sjá einnig .
+[Fjármálastjórnun](finance.md)    
+[Að átta sig á fjárhagur og bókhaldslykli](finance-general-ledger.md)    
+[Vinna með víddir](finance-dimensions.md)    
+[Vinna með Business Central](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

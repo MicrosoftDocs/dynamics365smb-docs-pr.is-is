@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/08/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
@@ -23,7 +23,7 @@ ms.service: dynamics-365-business-central
 
 Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á móti millifærslu á innleið. Hægt er að:
 
-* Rekja magn í flutningi
+* Rekja magn í flutningi.
 * Skilgreina dagatöl, leiðir og afgreiðslutíma á innleið og útleið fyrir útreikning dagsetninga og áætlunar. Nánari upplýsingar um áætlanir eru í [Um áætlunaraðgerðir](production-about-planning-functionality.md).
 * Nota mismunandi vöruhúsaaðgerðir fyrir birgðageymslur á innleið og útleið.
 * Nota millifærslupantanir fyrir beinar millifærslur, með nokkrum takmörkunum.
@@ -33,7 +33,7 @@ Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á m
 Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 
 * Bein flutningur á vörum milli birgðageymslna.
-* Vörur færðar milli hólfa. Nánari upplýsingar um flutning á vörum milli hólfa [eru færðar á Vörur óáætlaðar í Grunngrunnstilling vöruhúss](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+* Vörur færðar milli hólfa. Nánari upplýsingar um flutning á vörum milli hólfa [eru færðar á Vörur óáætlaðar í Grunngrunnstilling vöruhúss](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 * Breyta lotu- eða raðnúmeri í nýtt lotu- eða raðnúmer. Nánari upplýsingar um endurflokkun rað- og lotunúmera fást með því að [fara í Endurflokka rað- eða lotunúmer](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 * Breyta fyrningardagsetningu í nýja dagsetningu.
 * Endurflokka vörur frá auðri birgðageymslu í raunverulega birgðageymslu.
@@ -45,7 +45,7 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 2. Fyllt er út í reiti eftir því sem á við á síðunni **Flutningspöntun**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Hafi verið fyllt í reitina **Millifærslukóti**, **Flutningsaðilakóti** og **Flutningsþjónusta** í skilgreiningu flutningsleiðarinnar **.** síðu þegar flutningsleiðin er sett upp eru samsvarandi reitir í millifærslupöntuninni fylltir út sjálfkrafa.
+    > Hafi verið fyllt í reitina **Millifærslukóti**, **Flutningsaðilakóti** og **Flutningsþjónusta** í skilgreiningu flutningsleiðarinnar **.** síðu þegar flutningsleiðin er sett upp eru samsvarandi reitir í millifærslupöntuninni fylltir út sjálfkrafa.
 
     Þegar fyllt er út í reitinn **Flutningsþjónusta** reiknar kerfið út móttökudagsetningu fyrir flutt-til birgðageymslu með því að bæta flutningstíma flutningsþjónustunnar við afhendingardagsetninguna.
 
@@ -63,6 +63,18 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 
     Sem starfsmaður vörugeymslu við flutninginn frá staðsetninginni skaltu halda áfram að fá vörurnar. Millifærslupöntunarlínurnar eru þær sömu og þegar þær eru afhentar og ekki hægt að breyta þeim.
 5. Veldu aðgerðina **Bóka**, veldu **Móttaka** valkostinn og veldu síðan **Í lagi** hnappinn.
+
+### Afturkalla millifærsluafhendingu
+
+Ef mistök finnast í magni í bókuðum millifærslupöntunum ef afhendingin berst ekki er auðvelt að leiðrétta magnið. Á síðunni **Bókuð millifærsluafhending** stofnar aðgerðin **Afturkalla afhendingu** leiðréttingarlínur, eins og hér segir:
+
+* Gildið í reitnum **Afhent** magn er minnkað um ógilt magn.
+* Gildið í reitnum **Magn til afhendingar** hækkar um ógilt magn.
+* Gátreiturinn **Leiðrétting** er valinn fyrir línurnar.
+
+Ef afhent magn í vöruhúsaafhendingu er leiðréttingarlína stofnuð í bókuðu vöruhúsaafhendingunni.
+
+Til að ljúka leiðréttingunni er millifærslupöntunin opnuð aftur, rétt magn fært inn og pöntunin síðan bókuð. Ef vöruhúsaafhending er notuð til að afhenda pöntunina skal stofna og bóka nýja vöruhúsaafhendingu.
 
 ### Bóka margar millifærslupantanir í keyrslu
 
@@ -98,11 +110,48 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka mil
 6. Á síðunni Fjöldabóka millifærslupantanir **skal velja valkostinn** Afhenda **, afmarka við** beina millifærslu **og velja** svo Í lagi **.**
 
    > [!IMPORTANT]
-   > Mikilvægt er að setja afmarkanir. Annars bókar [!INCLUDE [prod_short](includes/prod_short.md)]  það öll skjöl, jafnvel þótt þau séu ekki tilbúin. Íhuga skal að setja afmörkun í reitinn **Staða** fyrir gildið **Útgefið** og afmörkun á reitnum **Bókunardags** . fyrir gildið **. í dag**. Nánari upplýsingar um afmarkanir eru í [Röðun, Leit og Afmörkun](/dynamics365/business-central/ui-enter-criteria-filters).
+   > Mikilvægt er að setja afmarkanir. Annars bókar [!INCLUDE [prod_short](includes/prod_short.md)]  það öll skjöl, jafnvel þótt þau séu ekki tilbúin. Íhuga skal að setja afmörkun í reitinn **Staða** fyrir gildið **Útgefið** og afmörkun á reitnum **Bókunardags** . fyrir gildið **. Í dag**. Nánari upplýsingar um afmarkanir eru í [Röðun, Leit og Afmörkun](/dynamics365/business-central/ui-enter-criteria-filters).
 
 7. Velja alla gátreiti frá **Keyra á mánudögum** til **Hlaupa á föstudögum**.
 8. Í reitinn **Upphafstími** er slegið inn **4**.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
+
+### Samanburður á mismunandi stillingum fyrir millifærslupantanir
+
+Hægt er að bóka millifærslupantanir í mismunandi stillingum, með eða án millifærslustaðsetningar. Slökkva á víxl beins **millifærslu** og velja bráðabirgðastaðinn í reitnum **Millifærslukóti** á síðunni **Millifærslupöntun** . Þegar afhending millifærslupöntunar sem notar millifærslustaðinn er bókuð eru vörurnar í línunni ekki lengur tiltækar í einni af birgðageymslunum þar sem þær eru í millifærslu. Bein bókun tryggir að millifærslustaðsetning er ekki notuð og afhendingar- og móttökuferlið samtímis. Nákvæm hegðun bein bókun getur verið mismunandi eftir gildinu sem valið var í reitnum Bókun **beinnar** millifærslu á síðunni **Birgðagrunnur** .
+
+Eftirfarandi tafla lýsir því hvernig samsetningarnar eru mismunandi.
+
+|Möguleiki|Reiturinn Bein **millifærsla** er óvirkur á síðunni **Millifærslupöntun** |**Bein millifærsla** er virk á síðunni **Millifærslupöntun** </br>**Bein millifærslubókun** er stillt **á Bein flutningur** á síðunni **Birgðagrunnur** |**Bein millifærsla** er virk á síðunni **Millifærslupöntun** </br>**Bein millifærslubókun** er stillt á **Móttaka og Afhending** á síðunni **Birgðagrunnur** |
+|---|---|---|---|
+|Nota birgðageymslu á millifærslu|Já|Nr.|Nr.|
+|Getur bókað móttöku án afhendingar.</br>Hægt er að nota **Afturkalla móttöku**.|Já|Nr.|Nr.|
+|Hlutabókun|Já|Nr.|Já|
+|Birgðabókafærslur|4:</br>Flytja frá birgðageymslu,</br>Flytja í millifærslu,</br>Millifærsla úr millifærslu,</br>Flytja til birgðageymslu.|2:</br>Flytja frá birgðageymslu,</br>Flytja til birgðageymslu.|4:</br>Flytja frá birgðageymslu,</br>Millifæra í *autt*,</br>Millifærsla úr *auðu*,</br>Flytja til birgðageymslu.|
+|Bókuð fylgiskjöl|Bókuð millifærsluafhending,</br>Bókuð millifærslumóttaka.|Bókaður beinn flutningur|Bókuð millifærsluafhending,</br>Bókuð millifærslumóttaka.|
+|Frátekning: á inn- og útleið|Já|Já|Já|
+|Kostnaðarauki - úthlutað á bókaða millifærslumóttöku|Já|Nr.|Já|
+|Vöruhúsastjórnun|Fullt|Nr.|Takmarkað, sjá hér að neðan|
+
+Vöruhúsastjórnunarfylki fyrir grunnstillingu: **Bein flutningur** er virkur á síðunni **Millifærslupöntun** og **Bein millifærslubókun** er stillt **á Bein flutningur** á síðunni **Birgðagrunnur** .
+
+|Frá \ til|Til: Engin vöruhúsastjórnun|Til: Vöruhúsamóttaka|Til: Birgðafrágangur|Til: Beinn frágangur og tínsla|
+|-|-|-|-|-|
+|**Frá: Engin vöruhúsastjórnun**|1|Ekki stutt|1, 4|Ekki stutt|
+|**Frá: Vöruhúsaafhending**|1, 2|Ekki stutt|1,2,4|Ekki stutt|
+|**Frá: Birgðafrágangur**|1, 3|Ekki stutt|1,3,4|Ekki stutt|
+|**Frá: Beinn frágangur og tínsla**|2|Ekki stutt|2|Ekki stutt|
+
+Númerin í reitunum sýna bókunarvalkostina sem eru studdir.
+
+1. Bóka úr millifærslupöntun. Sumar samsetningar þarf ef til vill að fylla út reitinn **Magn til afhendingar** .
+2. Stofna og bóka vöruhúsaafhendingu.
+3. Stofna og bóka birgðatínslu.
+4. Stofna og bóka birgðafrágang. Sumar samsetningar þarf ef til vill að fylla út reitinn **Magn til afhendingar** .
+
+Burtséð frá aðferðinni eru afhendingar- og móttökufærslur framkvæmdar. Til dæmis er hægt að stofna millifærslupöntun úr birgðageymslu sem krefst birgðatínslu til birgðageymslu sem krefst birgðafrágangs. Hægt er að stofna og bóka birgðafráganginn og stofna bæði afhendingar- og móttökufærslur. Einnig er hægt að bóka slík fylgiskjöl úr millifærslupöntun eða úr birgðatínslu.  
+
+Nánari upplýsingar um vöruhúsastjórnun eru [í Yfirlit vöruhúsakerfis](design-details-warehouse-management.md).
 
 ## Til að flytja vörur með vöruendurflokkunarbók
 
@@ -117,17 +166,6 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka mil
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Afturkalla millifærsluafhendingu
-
-Ef mistök finnast í magni í bókuðum millifærslupöntunum ef afhendingin berst ekki er auðvelt að leiðrétta magnið. Á síðunni **Veggspjald - Millifærsluafhending** stofnar aðgerðin **Afturkalla afhendingu** leiðréttingarlínur, eins og hér segir:
-
-* Gildið í reitnum **Afhent** magn er minnkað um ógilt magn.
-* Gildið í reitnum **Magn til afhendingar** hækkar um ógilt magn.
-* Gátreiturinn **Leiðrétting** er valinn fyrir línurnar.
-
-Ef magnið var afhent í vöruhúsaafhendingu er leiðréttingarlína stofnuð í bókuðu vöruhúsaafhendingunni.
-
-Til að ljúka leiðréttingunni er millifærslupöntunin opnuð aftur, rétt magn fært inn og pöntunin síðan bókuð. Ef vöruhúsaafhending er notuð til að afhenda pöntunina skal stofna og bóka nýja vöruhúsaafhendingu.
 
 ## Sjá einnig .
 

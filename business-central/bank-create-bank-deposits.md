@@ -1,5 +1,5 @@
 ---
-title: Búa til innborganir í banka
+title: Stofna bankainnborganir
 description: Þú getur lagt inn til að halda færsluskrá sem inniheldur upplýsingar sem hægt er að nota á útistandandi reikninga og kreditreikninga.
 author: brentholtorf
 ms.author: bholtorf
@@ -8,10 +8,11 @@ ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'bank, deposit'
 ms.search.form: '10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646'
-ms.date: 09/04/2023
+ms.date: 07/25/2024
 ms.custom: bap-template
 ---
-# <a name="create-bank-deposits"></a>Búa til innborganir í banka
+
+# Stofna bankainnborganir
 
 > [!NOTE]
 > Möguleikinn á að stofna innlán banka er ný í Business Central 2022 gefa út bylgju 1 fyrir mikið af útgáfum af landi/svæði. Ef þú varst að nota Business Central í Bandaríkjunum, Kanada eða Mexíkó fyrir þá útgáfu gætirðu verið að nota fyrri eiginleikana. Þú getur haldið áfram en nýju eiginleikarnir koma í stað þeirra gömlu í nýrri útgáfu. Til að byrja að nota nýju eiginleikana sem lýst er í þessari grein getur stjórnandi farið á síðuna **„Eiginleikastjórnun“** og kveikt **á „Eiginleikauppfærsla“: Stöðluð bankaafstemming og staðlaðar innborganir**.  
@@ -30,17 +31,17 @@ Eftir að búið er að fylla inn upplýsingar og línur innborgunar verður að
 
 Skýrslan **Innborganir í banka** sýnir innborganir viðskiptavina og lánardrottna með upphaflegri innborgunarupphæð, innborgunarfjárhæðinni sem er opin og upphæðinni sem er jöfnuð. Skýrslan sýnir einnig heildarfjárhæð bókaðrar innborgunar til að afstemma.
 
-## <a name="before-you-start"></a>Verður að byrja fyrir
+## Verður að byrja fyrir
 
 Þú þarft að setja upp nokkur atriði áður en þú getur notað innborganir í banka. Þú þarft að vera með númeraraðir og færslubókarsniðmát tilbúið. Þú ættir einnig að tilgreina hvort bóka eigi upphæðir innborgana í banka sem eingreiðslu. Þ.e. sem heildarupphæð allra upphæðanna á innlánalínunum. Annars er hver lína bókuð sem stök færsla. Með því að birta innborgun sem eina bankafærslu getur verið auðveldara að gera bankaafstemmingu.
 
-### <a name="number-series-and-lump-sum-deposits"></a>Númeraröð og samtala innborgana
+### Númeraröð og samtala innborgana
 
 Þú verður að setja upp númeraraðir fyrir innborganir í banka og tilgreina röðina svo í reitnum **Nr. innborgana í banka** á síðunni **Sölugrunnur**. Hægt er að fá nánari upplýsingar um númeraraðir með því að fara í [Stofna númeraraðir](ui-create-number-series.md).
 
 Á síðunni Sölugrunnur, einnig á síðunni **Sölugrunnur**, til að bóka innborganir sem moldarsamtölur í stað einstakra lína, skal kveikja á **Bóka bankainnborganir sem vífæra á Lump Summu** . Bókun innborgunar sem moldarsamtala stofnar eina bankafærslu fyrir heildarupphæð innborgunarinnar sem auðveldar bankaafstemmingu.
 
-### <a name="general-journal-templates-for-bank-deposits"></a>Sniðmát færslubóka fyrir bankainnborganir
+### Sniðmát færslubóka fyrir bankainnborganir
 
 Einnig þarf að búa til sniðmát færslubókar fyrir innborganir. Þú notar fjárhag til að bóka færslur í banka-, viðskiptavina-, lánardrottna, eignar- og fjárhagsreikninga. Sniðmát færslubókar hanna færslubókina þannig að hún henti tilgangi vinnunnar. Þ.e. reitir í sniðmáti færslubókar eru nákvæmlega þeir reitir sem þörf er fyrir.
 
@@ -48,14 +49,14 @@ Innborganirnar verða inngreiðslur svo þú gætir viljað endurnýta númerara
 
 Einnig þarftu að búa til runuvinnslu fyrir sniðmátið. Til að búa til runuvinnslu, á síðunni **Sniðmát færslubókar**, skal velja aðgerðina **Runur**. Nánari upplýsingar um keyrslur eru notaðar með því að [nota bókarsniðmát og keyrslur](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="dimensions-on-bank-deposit-lines"></a>Víddir í bankainnborgunarlínum
+## Víddir í bankainnborgunarlínum
 
 Innborgunarlínur banka nota sjálfkrafa sjálfgefnar víddir sem tilgreindar eru í reitunum **Deildarkóði** og **Kóði viðskiptavinaflokks**. Þegar þú velur **viðskiptavin** eða **lánardrottin** í reitnum **Tegund reiknings** koma víddirnar sem eru tilgreindar fyrir viðskiptavininn eða lánardrottinn í staðinn fyrir sjálfgefnu víddirnar. Hægt er að breyta víddum á línunum, ef þarf.
 
 > [!TIP]
 > Víddir á línum er stilltur í samræmi við sjálfgefinn víddarforgang. Línuvíddum forgangsraðað yfir hausvíddir. Til að forðast árekstra er hægt að búa til reglur sem forgangsraða því hvenær nota á vídd eftir uppruna. Ef á að breyta því hvernig víddum er forgangsraðað er hægt að breyta röðun þeirra á síðunni **Sjálfgefinn víddarforgangur**. Frekari upplýsingar eru í [Að setja upp sjálfgefinn víddarforgang](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## <a name="create-a-bank-deposit"></a>Stofna bankainnborgun
+## Stofna bankainnborgun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innborganir í banka** og velja síðan viðkomandi tengil.
 2. Velja **Nýtt** til að opna síðuna **Innborgun í banka**.
@@ -72,7 +73,7 @@ Innborgunarlínur banka nota sjálfkrafa sjálfgefnar víddir sem tilgreindar er
 5. Í reitinn **Heildarupphæð innborgunar** heildarupphæð innborgunar færð inn. Heildarupphæðin verður að vera samtala upphæðanna á öllum línunum.
 6. Fyllið inn í eftirstandandi reiti eftir þörfum. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-    Dagsetningin í **Bókunardagsetning** og víddirnar í reitunum **Deildarkóði** og **Kóði viðskiptavinaflokks** verða settar í línurnar sem þú býrð til fyrir innborgunina í banka. Hægt er að breyta þeim ef óskað er.
+    Dagsetningin í reitnum **Bókunardagsetning** og víddirnar í reitunum **Deildarkóti** og **Kóti** viðskiptamannahóps verða tengdar línunum sem stofnaðar eru fyrir innborgun bankans. Hægt er að breyta þeim ef óskað er.
 
 7. Það fer eftir því hvort þú vilt bóka innborgunina í banka sem eingreiðslu eða hverja línu fyrir sig á bankabókina hvort kveikt sé á **Bóka sem eingreiðslu** eða ekki. Sjálfgefin stilling er valin á sama hátt á síðunni **Sölugrunnur**.
 
@@ -96,13 +97,13 @@ Innborgunarlínur banka nota sjálfkrafa sjálfgefnar víddir sem tilgreindar er
     > [!TIP]
     > Áður en þú bókar innborgunina getur þú notað aðgerðina **Prófunarskýrsla** til að fara yfir gögnin þín. Skýrslan mun sýna hvort einhver vandamál eins og gögn sem vantar, komi í veg fyrir bókun.  
 
-## <a name="find-posted-bank-deposits"></a>Finna bókaðar bankainnstæður
+## Finna bókaðar bankainnstæður
 
 Á síðunni **Bókaðar innborganir í banka** eru fyrri innborganir fyrirtækisins skráðar. Í listanum er hægt að fara yfir athugasemdir og víddir sem voru tilgreindar fyrir innborganirnar. Þú getur opnað innborgunina í banka til að skoða nánari upplýsingar og kannað málið frekar. Til dæmis er hægt að velja aðgerðina **Finna færslur** til að skoða bókaðar bankafærslur. Í færslu bankabókar má finna samsvarandi bókaða fjárhagsfærslu.
 
 Ef þú vilt fletta upp öllum fjárhagsfærslum í bókuðum innborgunarlínum skaltu fara á síðuna **Fjárhagsdagbók** og nota aðgerðina **Fjárhagur**. Þar er að finna allar fjárhagsfærslur, þar á meðal færslur fyrir viðskiptavini og lánardrottna.
 
-## <a name="reverse-a-posted-bank-deposit"></a>Bakfæra bókaða bankainnborgun
+## Bakfæra bókaða bankainnborgun
 
 Það eru nokkrar leiðir til að bakfæra bókaða bankainnborgun:
 
@@ -112,7 +113,7 @@ Ef þú vilt fletta upp öllum fjárhagsfærslum í bókuðum innborgunarlínum 
 > [!NOTE]
 > Aðeins er hægt að bakfæra dagbók sem inniheldur eina tegund færslu. Þ.e. dagbókin má aðeins innihalda færslur viðskiptavina eða færslur lánardrottna, en ekki bæði. Ef dagbók inniheldur hvort tveggja verður að bakfæra innborgunina handvirkt.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance.md)  

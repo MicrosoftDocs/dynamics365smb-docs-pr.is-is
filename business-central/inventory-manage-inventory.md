@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="manage-inventory"></a>Vinna með birgðir
+# Vinna með birgðir
 
 Fyrir hverja efnislega vöru sem þú átt í viðskiptum með þarftu að búa til birgðaspjald af gerðinni **Birgðir**. Vörur sem boðnar eru viðskiptamönnum en eru ekki í birgðum er hægt að skrá sem vörulistavörur sem hægt er að breyta í birgðavörur eftir þörfum. Hægt að auka eða minnka magn vöru í birgðum með því að bóka beint í birgðafærslur, til dæmis þegar eftir raunbirgðatalningu eða ef þú skráir ekki innkaup.
 
@@ -25,7 +25,7 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 
 Áætlanagerð fyrir vörur til að uppfylla eftirspurn fellur undir virkni framboðsáætlanagerðar. Frekari upplýsingar eru í [Áætlanagerð](production-planning.md).  
 
-## <a name="inventory-analytics"></a>Birgðagreining
+## Birgðagreining
 
 Í þessum hluta er lýst þeim greiningartækjum sem hægt er að nota til að fá innsýn í birgðagögnin.
 
@@ -35,13 +35,13 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 | Gera tilfallanda greiningu á birgðagögnum beint á listasíðum og fyrirspurnum. | [Sérstök greining á bigðagögnum](ad-hoc-analysis-inventory.md) |
 | Skoða innbyggðar birgðaskýrslur. | [Innbyggðar skýrslur birgða og vöruhúss](inventory-WMS-reports.md) |
 
-## <a name="inventory-reconciliation"></a>Afstemming birgða
+## Afstemming birgða
 
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum. Frekari upplýsingar eru í [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Jafnvel þó birgðakostnaður sé sjálfkrafa bókaður í fjárhag er samt nauðsynlegt að tryggja að kostnaður vara sé áframsendur til tengdra söluviðskipta á útleið, sérstaklega þegar vörur eru seldar áður en keyptar eru vörur. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar um [leiðr. birgðakostnað](inventory-how-adjust-item-costs.md).  
+Jafnvel þó birgðakostnaður sé sjálfkrafa bókaður í fjárhagur er samt nauðsynlegt að tryggja að kostnaður vara sé áframsendur til tengdra söluviðskipta á útleið, sérstaklega þegar vörur eru seldar áður en keyptar eru vörur. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar um [leiðr. birgðakostnað](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Tengd verkefni
+## Tengd verkefni
 
 Eftirfarandi tafla sýnir tengd verk.
 
@@ -63,9 +63,8 @@ Eftirfarandi tafla sýnir tengd verk.
 |Setja upp eigin lýsingu lánardrottins eða viðskiptavinar á vöruspjald, þannig að þú getur fært vörulýsingu þeirra inn á viðskiptaskjöl.|[Nota vörutilvísanir](inventory-how-use-item-cross-refs.md)|
 |Loka á vörur svo þær verði ekki slegnar inn í sölu- eða innkaupalínur eða bókaðar í einhverri færslu.|[Loka vörum](inventory-how-block-items.md)|
 |Stjórna viðskiptaaðgerðum á söluskrifstofum, innkaupadeildum, eða komið fyrir áætlunarskrifstofum í mörgum birgðageymslum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
-|Notaðu tilföng með sérstökum aðgerðum fyrir ýmsa þjónustu og þjónustuvörur.|[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vöruhúsakerfi - yfirlit](design-details-warehouse-management.md)    
 [Innkaup](purchasing-manage-purchasing.md)    

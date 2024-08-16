@@ -1,63 +1,64 @@
 ---
 title: 'Bæta við viðhengjum, tenglum og athugasemdum á færslum'
-description: 'Tengja tengil við skjal eða vefsvæði við tiltekna færslu, til dæmis viðskiptavin eða skjal.'
+description: 'Tengja tengla við skjal eða vefsvæði við tiltekna færslu, t.d. viðskiptamann eða fylgiskjal.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 09/15/2023
 ms.custom: bap-template
+ms.search.form: 8896
 ms-service: dynamics-365-business-central
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og skýringum á kortum og skjölum
+# Vinna með viðhengi, tengla og athugasemdir á spjöldum og skjölum
 
-Á flestum listasíðum, kortum og fylgiskjölum er hægt að tengja skrár, bæta við tenglum og skrifa athugasemdir á  **viðhengis**  -flipanum í  **FACTBOX**  rúðunni. Talan í titli flipans gefur til kynna hversu margar viðhengdar skrár, tenglar eða athugasemdir eru til fyrir spjaldið eða skjalið.
+Á flestum listasíðum, spjöldum og skjölum er hægt að hengja við skrár, bæta við tenglum og skrifa athugasemdir á flipanum **Viðhengi** á **upplýsingakassasvæðinu** . Númerið í titlinum gefur til kynna hversu margar viðhengdar skrár, tenglar eða athugasemdir eru til fyrir spjaldið eða skjalið.
 
- **Á flipanum Línur**  er einnig hægt að nota viðhengið  **·**  til að tengja skjöl við tiltekna línu. Til dæmis gæti verið æskilegt að tengja hönnunarlýsingar við vöru á innkaupareikningi.
+Á flýtiflipanum **Línur** er einnig hægt að nota aðgerðina **Viðhengi** til að tengja skjöl við tiltekna línu. Til dæmis gæti notandi viljað hengja hönnunarlýsingar við vöru á innkaupareikningi.
 
-Viðhengi, tenglar og Minnismiðar vera tengdir kortinu eða skjalinu meðan unnið er í öðrum ríkjum. Til dæmis frá áframhaldandi sölupöntuninni í bókaðan sölureikning. Hins vegar eru engar viðhengisgerðirnar úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
+Viðhengi, tenglar og athugasemdir eru hengdar við kortið eða skjalið á meðan unnið er úr þeim í öðrum ríkjum. Til dæmis, frá sölupöntun í bókaðan sölureikning. Hins vegar eru engar viðhengisgerðirnar úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
 
-Einnig er hægt að bæta viðhengjum við tölvupóstinn sem sendur er úr [!INCLUDE [prod_short](includes/prod_short.md)]. Þegar sendur er tölvupóstur beint úr skjali eins og sölutilboð,  **leyfir aðgerðin bæta skrá úr upprunaskjali**  að velja skrár sem tengjast því. Aðeins er hægt að velja skrár sem tengdar eru við skjalið. Ekki er hægt að velja skrár sem tengdar eru línum.
+Þú getur einnig bætt viðhengjum við tölvupóstinn sem þú sendir frá [!INCLUDE [prod_short](includes/prod_short.md)]. Þegar tölvupóstur er sendur beint úr skjali, t.d. sölutilboði, gerir Aðgerðin **Bæta við skrá úr upprunaskjali** kleift að velja skrár sem eru tengdar því. Aðeins er hægt að velja skrár sem eru tengdar skjalinu. Ekki er hægt að velja skrár sem eru tengdar línum.
 
 > [!NOTE]
-> Þegar verið er að senda og reikningsfæra sölu- eða innkaupapöntun verður viðhengið aðeins hengt við endanlegan reikning pöntunarinnar. Á sama hátt og þegar búið er að reikningsfæra deferrals tengist viðhengið við fjárhagsfærslurnar fyrir skjalið en ekki fyrir deferral færslurnar.
+> Þegar verið er að senda og reikningsfæra sölu- eða innkaupapöntun verður viðhengið aðeins hengt við endanlegan reikning pöntunarinnar. Á sama hátt og þegar seinkanir eru reikningsfærðar er viðhengið hengt við fjárhagsfærslur skjalsins en ekki frestunarfærslurnar.
 >
 > Ef pöntun er eytt áður en hún er reikningsfærð er viðhengið einnig fjarlægt.
 >
-> Þegar aðgerðin Sækja móttökulínur  **er notuð**  á innkaupareikning er viðhenginu á tengdri innkaupapöntun bætt við innkaupareikning.
+> Þegar aðgerðin **Sækja móttökulínur** er notuð á innkaupareikningi er viðhenginu á tengdri innkaupapöntun bætt við innkaupareikninginn.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
+## Til að hengja skrá við innkaupareikning
 
-Hægt er að tengja hvaða tegund af skrá fyrir sig, til dæmis texta, mynd eða myndskrár, á spjald, fylgiskjal eða í línu í skjali. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
+Hægt er að hengja hvaða gerð af skrá sem er, t.d. texta, mynd eða myndskrár, við spjald, skjal eða línu í skjali. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> Skrár sem eru tengdar við eiginleikann skjöl eru ekki hafðar með á  **flipanum viðhengi**  . Nánari upplýsingar er að finna  [í incoming skjölum](across-income-documents.md). Sama gildir um skrár sem hengdar eru á línur í skjölum.
+> Skrár sem tengjast aðgerðinni Skjöl á innleið eru ekki á **flipanum Viðhengi** . Nánari upplýsingar [eru í Skjöl á](across-income-documents.md) innleið. Hið sama á við um skrár sem eru tengdar línum í skjölum.
 
 Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
 
 > [!TIP]
-> Ef viðhengið er tiltekið í línu í skjali er hægt að hengja það við línuna. Línan er valin og síðan er  **valin aðgerðin viðhengi** .
+> Ef viðhengið á sérstaklega við línu í skjali er hægt að hengja það við línuna. Veljið línuna og veljið svo aðgerðina **Viðhengi** .
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Innkaupareikningar** og velja síðan viðkomandi tengil.
-2. Opna innkaupareikning sem á að tengja skrá við.
-3.  **Í FACTBOX**  rúðunni skal velja  **flipann viðhengi** .
+2. Innkaupareikningurinn sem tengja á skrá við er opnaður.
+3.  **Á upplýsingakassasvæðinu** er flipinn **Viðhengi** valinn.
 4. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „0“.
-5.  **Á síðunni viðhengt skjöl**, í  **reitnum viðhengi** .
-6.  **Í svarglugganum tengja skjal**  við skal gera einn af eftirtöldum skrefum til að hengja við skrá:
+5. Á síðunni **Tengt skjöl** í reitnum **Viðhengi** .
+6.  **Á svarglugganum Hengja skjal við er** eitt af eftirfarandi skrefum gert til að hengja við skrá:
 
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
 Skráin er nú hengd við innkaupareikninginn.
 
-## <a name="to-view-an-attached-file"></a>Til að skoða viðhengda skrá
+## Til að skoða viðhengda skrá
 
-1. Á upplýsingakassa er flipinn viðhengi  **opnaður** .
+1. Flipinn Viðhengi **er opnaður á upplýsingakassanum** .
 2. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „1“.
 3. Á síðunni **Viðhengd fylgiskjöl** skaltu velja aðgerðina **Forskoðun**.
 4. Opnaðu skrána sem var hlaðið niður.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Vista skjal sem PDF-viðhengi
+## Vista skjal sem PDF-viðhengi
 
 Í hvert sinn sem vista þarf skjal sem skrá er hægt að nota aðgerðina **Hengja við sem PDF** til að ná í núverandi innihald skjals sem PDF-skrá hengda við FactBox skjalsins. Þetta er gagnlegt, til dæmis þegar skjöl fylgja mörgum skrefum í ferli, svo sem söluferli eða samþykktarverkflæði og ætlunin er að vísa til útprentunar af fyrra skrefi.
 
@@ -68,7 +69,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd
 
 PDF-skrá með núverandi innihaldi sölupöntunarinnar er bætt við flipann **Viðhengi** í FactBox.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Til að bæta við tengli af birgðaspjaldi
+## Til að bæta við tengli af birgðaspjaldi
 
 Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð. Þetta er gagnlegt, til dæmis þegar tengja á birgðaspjald við vörulista birgis.
 
@@ -86,7 +87,7 @@ Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öl
 
 Tengillinn er nú tengdur við birgðaspjaldið.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Til að skrifa athugasemd á sölupöntun
+## Til að skrifa athugasemd á sölupöntun
 
 Hægt er að skrifa athugasemd á skjal eða kort, til dæmis til að skrifa sérstakar leiðbeiningar fyrir aðra notendur skjalsins eða kortsins. Hægt er að hafa skráartengla og vefslóðir með í athugasemdum.
 
@@ -103,7 +104,7 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 
 Athugasemdin er nú hengd við sölupöntunina.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

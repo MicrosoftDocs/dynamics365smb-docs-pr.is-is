@@ -1,23 +1,24 @@
 ---
-title: Hönnunarupplýsingar - Birgðakostnaður
+title: Upplýsingar um hönnun - Birgðakostnaður
 description: Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði  í Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 07/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Hönnunarupplýsingar: Birgðakostnaður
+
+# Hönnunarupplýsingar: Birgðakostnaður
 
 Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins.  
 
-## <a name="in-this-section"></a>Í þessum hluta
+## Í þessum hluta
 
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  

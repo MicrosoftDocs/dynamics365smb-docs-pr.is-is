@@ -1,23 +1,24 @@
 ---
-title: Flytja bankainnstæður
+title: Flytja bankasjóði
 description: 'Þú getur millifært upphæðir frá einum bankareikningi til annars, meðal annars í ólíkum gjaldmiðlum, með því að bóka millifærsluna í færslubókina.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
-ms.date: 04/29/2021
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="transfer-bank-funds"></a>Flytja bankainnstæður
 
-Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[prod_short](includes/prod_short.md)] yfir á annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubók**. Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
+# Flytja bankasjóði
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
+Stundum þarf að færa upphæð af einum bankareikningi yfir á [!INCLUDE[prod_short](includes/prod_short.md)] annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubækur** . Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubók** og velja síðan viðkomandi tengil.
+## Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
+
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Reitirnir **Bókunardagsetning** og **Númer fylgiskjals** eru fylltir út í færslubókarlínu.
 3. Í reitnum **Tegund reiknings** er valinn **Bankareikningur**.
 4. Í reitnum **Reikningur númer** skal velja bankann sem flytja á bankainnistæðuna frá.
@@ -28,11 +29,11 @@ Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[prod_
 7. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna til.
 8. Bóka skal færslubókina.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
+## Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
 
 Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, verður að bóka tvær færslubókarlínur.
 
-1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubók** og velja síðan viðkomandi tengil.
+1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Búið til tvær færslubókarlínur og fyllið út reitina **Bókunardagsetning** og **Númer fylgiskjals**.
 3. Í fyrstu færslubókarlínunni skal færa inn **Bankareikningur** í reitnum **Tegund reiknings**.
 4. Í reitnum **Reikningur númer** skal velja bankann sem flytja á bankainnistæðuna frá.
@@ -65,7 +66,7 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
     > Upphæð með engu merki er debet og upphæð með mínusmerki er kreditupphæð.
 10. Bóka skal færslubókina.
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  

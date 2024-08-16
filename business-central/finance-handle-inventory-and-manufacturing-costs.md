@@ -1,22 +1,23 @@
 ---
 title: Meðhöndla birgða- og framleiðslukostnað
-description: 'Sjáðu hvernig ýmsir reitir, síður og skýrslur eru ætlaðar notendum sem vinna beint eða óbeint með kostnað á vörum eða aðgerðir.'
+description: 'Fræðast um hversu margir reitir, síður og skýrslur miðast við notendur sem vinna beint eða óbeint með kostnað við vörur eða aðgerðir.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
 
-Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
+# Meðhöndlun birgða- og framleiðslukostnaðar
+
+Þótt margar aðgerðir kostnaðarbókhalds séu sýndar í undirliggjandi ferlum án notendasamskipta, svo sem færslujöfnun og sjálfvirk kostnaðarleiðrétting, eru margir reitir, síður og skýrslur ætlaðir notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
 
  Úthlutun kostnaðarauka til innkaupaskjala er dæmi um óbeinan kostnaðarbókhaldsverkhluta. Uppfærsla einingarkostnaðar samsetningar eða framleiðsluuppskriftarvöru er dæmi um beinni kostnaðarbókhaldsverkhluta.  
 
- Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
+ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.   
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ ms.reviewer: bholtorf
 |Afturkalla handvirkt birgðajöfnunarfærslu eða setja aftur upp birgðafærslur sem forritið bjó til.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Nota skal reitinn **Jafnað frá færslu** í birgðabókinni til að stofna handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið.|[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Stjórna Birgðakostnaður](finance-manage-inventory-costs.md)
-[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
+[Stjórna birgðakostnaði](finance-manage-inventory-costs.md)    
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

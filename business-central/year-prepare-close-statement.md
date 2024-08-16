@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Lokunaryfirlit undirbúin
+
+# Lokunaryfirlit undirbúin
 
 [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á staðlaðar skýrslur sem auðvelda söfnun upplýsinga sem þarf til að undirbúa lokunaryfirlit fyrirtækisins. Eftirfarandi tafla lýsir skýrslunum.  
 
@@ -26,11 +27,11 @@ ms.reviewer: jswymer
 
 Til að finna skýrslu skal velja ![Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
-[Lokaár og Tímabil](year-close-years-periods.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Viðskiptaupplýsingar](bi.md)
+[Lokunarár og tímabil](year-close-years-periods.md)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Viðskiptaupplýsingar](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,22 @@
 ---
-title: Birgðakostnaði stjórnað
+title: Stjórnun birgðakostnaðar
 description: Kostnaðarstjórnun snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis og felur í sér skýrslugjöf um framleiðslukostnað og birgðakostnað.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="managing-inventory-costs"></a>Birgðakostnaði stjórnað
-Kostnaðarstýring snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.   
+
+# Stjórnun birgðakostnaðar
+Kostnaðarstjórnun, einnig kallað 'kostnaðarútreikningur', snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.   
 
 Grundvallaratriðin sem öðlast þarf skilning á eru að kostnaðaraðferðir skilgreina hvernig virði vara er metið þegar þær eru teknar úr birgðum, að kostnaðarbreyting uppfærir kostnað við seldar vörur með tengdum innkaupakostnaði sem bókaður er eftir söluna og að birgðavirði þarf að bóka í sérstaka fjárhagsreikninga með reglulegu millibili.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
@@ -33,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stjórna framkvæmd í lok tímabils og búa til skýrslur um verk, t.d. að reikna út virði birgða og bóka kostnað í færslubók.|[Tilkynna kostnað og afstemma við fjárhag](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Kynntu þér hvernig þú getur notað verkröðina til að færa verkin til að leiðrétta birgðakostnað eða afstemma hann við fjárhag í bakgrunni.|[Leiðrétta og afstemma birgðakostnað í fjárhag með verkröð](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
  [Fjármál](finance.md)  
  [Birgðir](inventory-manage-inventory.md)   
  [Sala](sales-manage-sales.md)   

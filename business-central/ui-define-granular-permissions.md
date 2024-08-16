@@ -6,13 +6,13 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
-ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
+ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855_Primary, 9862_Primary, 9878_Primary, 9865_Primary'
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfi til notenda og hópa
+# Úthluta leyfi til notenda og hópa
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -37,9 +37,9 @@ Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Cent
 
 |Til  |Sjá  |
 |---------|---------|
-|Til að auðvelda umsjón með heimildum margra notenda er hægt að skipuleggja þær í öryggishópum og úthluta síðan eða breyta einu heimildasafni fyrir marga notendur í einni aðgerð.| [Stjórna heimildum í gegnum notendaflokka](#manage-permissions-through-user-groups) |
+|Til að auðvelda umsjón heimilda margra notenda er hægt að skipuleggja þær í öryggishópum og úthluta síðan eða breyta einu heimildasamstæða fyrir marga notendur í einni aðgerð.| [Stjórna heimildum í gegnum notendaflokka](#manage-permissions-through-user-groups) |
 |Til að hafa umsjón með heimildasamstæðum fyrir tiltekna notendur | [Úthluta notendum heimildarmengum](#assign-permission-sets-to-users) |
-|Til að læra að skilgreina heimildasamstæðu|[Stofna heimildasafn](#create-a-permission-set)|
+|Til að læra að skilgreina heimildasamstæðu|[Stofna heimildasamstæða](#create-a-permission-set)|
 |Til að skoða eða leita úrræða fyrir heimildir notanda|[Fá yfirlit yfir heimildir notanda](#get-an-overview-of-a-users-permissions)|
 |Læra um öryggi á færslustigi|[Öryggissíur takmarka aðgang notanda að tilteknum færslum í töflu](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
@@ -48,12 +48,12 @@ Frekari upplýsingar eru í [Úthlutaður stjórnendaaðgangur að Business Cent
 >
 > Einnig er hægt að skilgreina þá eiginleika sem standa notendum til boða í notendaviðmótinu og hvernig þeir eiga í samskiptum við þá í gegnum síður. Þetta er gert í gegnum forstillingar sem þú úthlutar til mismunandi notenda í samræmi við starfshlutverk þeirra eða deild. Frekari upplýsingar er að finna í [Vinna með forstillingar](admin-users-profiles-roles.md) og [Sérstillingar [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## <a name="create-a-permission-set"></a>Stofna heimildasafn
+## Stofna heimildasamstæða
 
 > [!NOTE]
 > Árið 2022 á útgáfutímabili 2 gerðum við auðveldara að bæta heimildum við heimildasamstæður. Í stað þess að bæta við heimildum fyrir sig er hægt að bæta við heilum heimildasamstæðum. Ef þörf er á er svo hægt að útiloka einstakar heimildir í þeim. Fyrir frekari upplýsingar sjá [Til að bæta við öðrum heimildasamstæðum](#to-add-other-permission-sets). Til að gera það mögulegt höfum við skipt út síðu heimildasamstæðna fyrir nýja. Helsti munurinn eru nýju **Heimildasamstæðurnar** og glugginn **Niðurstöður** og upplýsingareiturinn **Innifaldar heimildir**. Til að halda áfram að nota Heimildarsíðuna sem var skipt út á síðunni **Heimildasamstæður**, skaltu velja aðgerðina **Heimildir (eldra efni)**.
 
-Einnig er auðveldara að sinna viðhaldi. Þegar kerfisheimild er bætt við uppfærist notandaskilgreinda heimildarsafnið sjálfkrafa með þeim breytingum sem Microsoft gerir á þeim heimildum.
+Einnig er auðveldara að sinna viðhaldi. Þegar kerfisheimildum er bætt við uppfærist notandaskilgreind heimildasamstæða sjálfkrafa með þeim breytingum sem Microsoft gerir á þeim heimildum.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 2. Valið er aðgerðin **Nýtt**.
@@ -78,7 +78,7 @@ Einnig er auðveldara að sinna viðhaldi. Þegar kerfisheimild er bætt við up
   |**Minnka í óbeint**|Breyta aðgangsstigi í Óbeint ef einhverjar heimildasamstæður veita Beinan aðgang að hlutnum. Til dæmis, veldu þennan valkost ef heimildarsamstæðan gefur þér beinan aðgang að fjárhagsfærslum en þú vilt ekki að notendur hafi fullan aðgang að færslunum.|
   
   > [!NOTE]
-  > Ef heimild er í heimildasafni sem er innifalið og er einnig í heimildasafni sem er undanskilið verður heimildin undanskilin.
+  > Ef heimild er í heimildasamstæða sem er innifalin og er einnig í heimildasamstæða sem er undanskilin er heimildin undanskilin.
 
 6. Notaðu reitina **Tegund hlutar** og **Kenni hlutar** til að tilgreina hlutinn sem þú veitir aðgang að.
 
@@ -91,13 +91,13 @@ Einnig er auðveldara að sinna viðhaldi. Þegar kerfisheimild er bætt við up
 > [!IMPORTANT]
 > Fara skal varlega þegar **Setja inn heimild** eða **Breyta heimild** er úthlutað töflunni **9001 Meðlimur í notendahópi** eða **9003 Heimildasamstæða notendahóps**. Öllum notendum sem úthlutað er heimildasamstæðunni geta mögulega úthlutað sér í aðra notendahópa sem fyrir vikið getur veitt þeim heimildir sem þeir eiga ekki að hafa.
 
-### <a name="example---indirect-permission"></a>Dæmi - Óbein heimild
+### Dæmi - Óbein heimild
 
 Hægt er að úthluta Óbeinni heimild til að leyfa notanda að nota hlut, en aðeins í gegnum annan hlut. Til dæmis getur notandi haft heimild til að keyra kóðaeiningu 80, Sala-bókun. Sölubókun framkvæmir mörg verk, þar á meðal að breyta töflu 37, Sölulína. Þegar notandinn bókar söluskjal athugar Sala-Bókun kóðaeiningin, [!INCLUDE[prod_short](includes/prod_short.md)] hvort að notandinn hafi heimild til að breyta töflunni Sölulína. Ef svo er ekki getur kóðaeiningin ekki lokið við verkefni sín og þá munu villuboð birtast notandanum. Ef svo er verður kótaeiningin keyrð.
 
 Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Sölulína til að keyra kóðaeininguna. Ef notandinn hefur óbeina heimild fyrir töflunni Sölulína keyrir kóðaeiningin Sala-bókun án vandræða. Þegar notandi hefur óbeina heimild, getur sá notandi aðeins breytt töflunni Sölulína með því að keyra Sölubókun kóðaeiningunni eða annan hlut sem hefur heimild til að breyta töflunni Sölulína. Notandinn getur aðeins breytt töflunni Sölulína frá studdum forritssvæðum. Notandinn getur ekki keyrt eiginleikann óvart eða í sviksamlegum tilgangi á annan hátt.
 
-### <a name="to-add-other-permission-sets"></a>Til að bæta við öðrum heimildasettum
+### Til að bæta við öðrum heimildasettum
 
 Stækkaðu heimildasamstæðu með því að bæta öðrum heimildasamstæðum við hana. Síðan er hægt að setja inn eða útiloka tilteknar heimildir, eða alla heimildasamstæðuna, í hverju setti sem þú bætir við. Þetta felur í sér heimildasamstæðum af gerðunum Kerfi og Viðbætur, sem annars er ekki leyfð. Undanþágur eiga aðeins við heimildasamstæðuna sem þú ert að stækka. Upprunalega samstæðan verður ekki fyrir áhrifum.
 
@@ -107,17 +107,17 @@ Stækkaðu heimildasamstæðu með því að bæta öðrum heimildasamstæðum v
 
 Til að fá heildaryfirsýn yfir heimildir í heimildasamstæðu skal velja aðgerðina **Skoða allar heimildir**. Síðan **Útvíkkaðar heimildir** sýnir allar heimildir sem þegar hefur verið úthlutað í heimildasamstæðunni og heimildirnar í viðbættu heimildasamstæðunum.
 
-Til að útiloka allar heimildir frá heimildasafni **skal** velja línuna, velja **Sýna fleiri valkosti** og velja **svo Útiloka**. Þegar þú undanskilur heimildasamstæðu er búin til lína í glugganum **Heimildasamstæður** af gerðinni Útilokað. Ef þú hefur útilokað heimildasamstæðu en vilt láta það fylgja með aftur, skaltu eyða línunni í glugganum **Heimildasamstæður**.
+Til að útiloka allar heimildir frá heimildasamstæða á **svæðinu Niðurstaða** skal velja línuna, velja **Sýna fleiri valkosti** og velja **svo Útiloka**. Þegar þú undanskilur heimildasamstæðu er búin til lína í glugganum **Heimildasamstæður** af gerðinni Útilokað. Ef þú hefur útilokað heimildasamstæðu en vilt láta það fylgja með aftur, skaltu eyða línunni í glugganum **Heimildasamstæður**.
 
 Til að útiloka að fullu eða að hluta tiltekna heimildir í samstæðu sem þú hefur bætt við skaltu búa til línu fyrir hlutinn fyrir neðan **Heimildir**. Aðgangsstigsreitirnir, Setja inn heimild, Breyta heimild o.s.frv. innihalda **allir Útiloka**. Veljið viðeigandi valkost til að leyfa tiltekið aðgangsstig.
 
-Undanskil á heimildasafn undanskilja allar heimildir í safninu. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar heimildir á eftirfarandi hátt:
+Undanskilur heimildasamstæða undanskilja allar heimildir í safninu. [!INCLUDE [prod_short](includes/prod_short.md)] reiknar heimildir á eftirfarandi hátt:
 
 1. Reikna út allan lista yfir heimildir sem teknar eru með
 2. Reikna út allan lista yfir útilokaðar heimildir
 3. Fjarlægja útilokaðar heimildir af lista yfir innifaldar heimildir (ef óbein heimild er fjarlægð er sú sama og Fækka í óbein)
 
-## <a name="copy-a-permission-set"></a>Afrita heimildasafn
+## Afrita heimildasamstæða
 
 Stofna skal nýja heimildasamstæðu með því að afrita annað. Nýja samstæðan mun innihalda allar heimildir og heimildasamstæður úr samstæðunni sem þú afritaðir. Hvernig heimildum og heimildasamstæðum er raðað í nýju heimildasamstæðuna er mismunandi, eftir því hvað þú velur í reitnum **Afritunaraðgerð**. Eftirfarandi tafla lýsir valkostunum.
 
@@ -135,7 +135,7 @@ Stofna skal nýja heimildasamstæðu með því að afrita annað. Nýja samstæ
 > [!NOTE]
 > Tilkynningin krefst þess að tilkynningin **Heimildasamstæðu upprunalegs kerfis hefur verið breytt** sé virk á síðunni **Mínar tilkynningar**.
 
-## <a name="create-or-modify-permissions-by-recording-your-actions"></a>Stofna eða breyta heimildum með því að skrá aðgerðir notanda
+## Stofna eða breyta heimildum með því að skrá aðgerðir notanda
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Heimildasamstæður** og velja síðan viðkomandi tengil.
 
@@ -151,7 +151,7 @@ Stofna skal nýja heimildasamstæðu með því að afrita annað. Nýja samstæ
 8. Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
 9. Fyrir hvern hlut á skráningarlistanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
 
-### <a name="to-export-and-import-a-permission-set"></a>Til að flytja út og flytja inn heimildasamstæðu
+### Til að flytja út og flytja inn heimildasamstæðu
 
 Til að setja upp heimildir á skjótan máta geturðu flutt inn heimildasamstæður sem þú hefur flutt út frá öðrum [!INCLUDE[prod_short](includes/prod_short.md)] leigjanda.
 
@@ -172,11 +172,11 @@ Til að setja upp heimildir á skjótan máta geturðu flutt inn heimildasamstæ
 
 Heimildasamstæðurnar eru fluttar inn.
 
-## <a name="remove-obsolete-permissions-from-all-permission-sets"></a>Fjarlægja úreltar heimildir úr öllum heimildasafnum
+## Fjarlægja úreltar heimildir úr öllum heimildasafnum
 
 Á síðunni **Heimildasamstæður** skal velja aðgerðina **Fjarlægja úreltar heimildir**.
 
-## <a name="set-up-time-constraints-for-users"></a>Setja upp tímaskorður fyrir notendur
+## Setja upp tímaskorður fyrir notendur
 
 Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað. Stjórnendur geta einnig tilgreint ef kerfið skráir hve mikinn tíma notendur eru skráðir inn. Á svipaðan hátt geta stjórnendur úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
 
@@ -185,15 +185,15 @@ Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað. 
 3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
 4. Fyllið inn reitina eftir þörfum.
 
-## <a name="control-access-to-specific-companies"></a>Stjórna aðgangi að tilteknum fyrirtækjum
+## Stjórna aðgangi að tilteknum fyrirtækjum
 
-Þegar um er að ræða mörg fyrirtæki í Business Central krefst umsjón heimilda hjá fyrirtækjum aukalega. Hugsanlega eiga notendur ekki að hafa sömu aðgangsheimildir að öllum fyrirtækjum. Þess í stað gæti þurft að veita notendum heimildir sem byggjast á tengslum fyrirtækisins. Ef styðja á þetta dæmi, þegar einstökum notendum eða öryggishópum er úthlutað heimildarhópum, er hægt að velja tiltekið fyrirtæki sem heimildasafnið á við. Fyrirtækið er ekki sérstaklega tilgreint innan heimildarsamstæðunnar heldur þegar heimildasafninu hefur verið úthlutað á notandann eða öryggishópinn.
+Þegar um er að ræða mörg fyrirtæki í Business Central krefst umsjón heimilda hjá fyrirtækjum aukalega. Hugsanlega eiga notendur ekki að hafa sömu aðgangsheimildir að öllum fyrirtækjum. Þess í stað gæti þurft að veita notendum heimildir sem byggjast á tengslum fyrirtækisins. Ef styðja á þetta dæmi, þegar einstökum notendum eða öryggishópum er úthlutað heimildasöfnum, er hægt að velja tiltekið fyrirtæki sem heimildasamstæða á við. Fyrirtækið er ekki sérstaklega tilgreint innan heimildasamstæða heldur þegar heimildasamstæða er úthlutað á notandann eða öryggishópinn.
 
-Ef fyrirtækið er ekki tilgreint þegar heimildasafni er úthlutað á heimildarsamstæðuna þá við um öll fyrirtæki. Ef heimildin á að eiga við fleiri en eitt fyrirtæki, en ekki öll fyrirtæki, er heimildinni bætt sérstaklega við fyrir hvert fyrirtæki.
+Ef fyrirtækið er ekki tilgreint þegar heimildasamstæða er úthlutað á heimildasamstæða við um öll fyrirtæki. Eigi heimildasamstæða að eiga við fleiri en eitt fyrirtæki en ekki öll fyrirtæki skal bæta heimildasamstæða sérstaklega við hvert fyrirtæki.
 
 Fræðast um hvernig á [að úthluta heimildum á notendur](#assign-permission-sets-to-users) eða [Úthluta heimildum til öryggishóps](ui-security-groups.md#assign-permissions-to-a-security-group).
 
-## <a name="manage-permissions-through-user-groups"></a>Stjórna heimildum í gegnum notendaflokka
+## Stjórna heimildum í gegnum notendaflokka
 
 Notendaflokkar hjálpa við að stjórna heimildasamstæðum í fyrirtækinu. [!INCLUDE [prod_short](includes/prod_short.md)] á netinu felur í sér sjálfgefna notendahópa sem eru úthlutað til notenda sjálfkrafa byggt á heimildum þeirra. Hægt er að bæta notendum handvirkt við notendahóp og búa til nýja notendahópa sem afrit af fyrirliggjandi.  
 
@@ -201,7 +201,7 @@ Notendaflokkar hjálpa við að stjórna heimildasamstæðum í fyrirtækinu. [!
 
 Heimildasamstæður sem úthlutað er notanda í gegnum notendahóp haldast samstilltar. Breyting á heimildum notendahópsins er sjálfkrafa birt notendum. Ef þú fjarlægir notanda úr notendahópi eru heimildir viðkomandi afturkallaðar sjálfkrafa.
 
-### <a name="to-add-users-to-a-user-group"></a>Til að bæta notendum í notendahóp
+### Til að bæta notendum í notendahóp
 
 Eftirfarandi ferli útskýrir hvernig á að búa til notendaflokka handvirkt. Til að búa til notendaflokka sjálfkrafa skal skoða [Að afrita notendaflokk og allar heimildasamstæður hans](#to-copy-a-user-group-and-all-its-permission-sets).
 
@@ -211,7 +211,7 @@ Eftirfarandi ferli útskýrir hvernig á að búa til notendaflokka handvirkt. T
 2. Á síðunni **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
 3. Á síðunni **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
 
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Til að afrita notendaflokk og öll heimildarsöfn
+### Til að afrita notendaflokk og öll heimildarsöfn
 
 Til að fljótt skilgreina nýja notendaflokka geturðu afritað öll heimildarsöfn frá núgildandi notendaflokki yfir í nýjan notendaflokk.
 
@@ -227,7 +227,7 @@ Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram a�
 > [!IMPORTANT]
 > Þú færð staðfestingarvillu ef þú ert að reyna að úthluta notendahópi til notandans sem vísar í heimildasamstæðu sem var skilgreint í óuppsettri viðbót. Það er vegna þess að forritskenni viðbótarinnar er staðfest í hvert sinn sem vísað er til þess. Til að úthluta notendahóp til notanda getur þú annað hvort enduruppsett viðbótina, fjarlægt tilvísun óuppfærðu viðbótarinnar úr heimildasamstæðunni eða fjarlægt heimildasamstæðuna úr notendahópnum.
 
-### <a name="to-assign-permission-sets-to-user-groups"></a>Til að úthluta leyfishópum á notendahópa
+### Til að úthluta leyfishópum á notendahópa
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendaflokkar** og velja síðan viðkomandi tengil.
 2. Veldu notendaflokkinn sem á að úthluta á þessum heimildum til.  
@@ -236,7 +236,7 @@ Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram a�
 3. Veldu aðgerðina **Heimildasamstæður notanda** til að opna síðuna **Heimildasamstæður notanda**.
 4. Á síðunni **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Til að úthluta heimildasafni á síðunni Heimildasafn eftir notendaflokki
+### Til að úthluta heimildasamstæða á heimildasamstæða með notendaflokkur síðu
 
 Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda á síðunni **Heimildasamstæða eftir notendahópum**.
 
@@ -247,11 +247,11 @@ Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til no
 
 Einnig er hægt að úthluta heimildasamstæðum beint til notanda.
 
-## <a name="assign-permission-sets-to-users"></a>Úthluta notendum heimildarmengum
+## Úthluta notendum heimildarmengum
 
 Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] Lausn inniheldur fjölda fyrirfram skilgreindra heimildasamstæðna sem eru bætt við af Microsoft eða þjónustuveitunni þinni. Þú getur einnig bætt við nýjum heimildasamstæðum sem eru sniðin að þörfum fyrirtækisins. Nánari upplýsingar eru í Hlutanum [Stofna heimildasafn](#create-a-permission-set) .
+[!INCLUDE[prod_short](includes/prod_short.md)] Lausn inniheldur fjölda fyrirfram skilgreindra heimildasamstæðna sem eru bætt við af Microsoft eða þjónustuveitunni þinni. Þú getur einnig bætt við nýjum heimildasamstæðum sem eru sniðin að þörfum fyrirtækisins. Nánari upplýsingar eru í [Stofna heimildasamstæða](#create-a-permission-set)  senu.
 
 > [!NOTE]
 > Ef þú vilt ekki takmarka aðgang notanda meira en þegar hefur verið skilgreint með leyfi geturðu úthlutað notanda sérstakri heimildasamstæðu sem kallast SUPER. Þessi heimildasamstæða tryggir að notandinn geti fengið aðgang að öllum hlutum sem eru tilgreindir í leyfi.
@@ -263,29 +263,29 @@ Heimildasamstæða er safn heimilda fyrir tiltekna gagnagrunnshluti. Öllum note
 - Af **Notandaspjald** síðunni með því að velja heimildasamstæður til að úthluta notandanum.
 - Frá síðunni **Heimildasamstæða eftir notendum** með því að velja notendur sem heimildasamstæðu er úthlutað til.
 
-### <a name="to-assign-a-permission-set-on-a-user-card"></a>Til að úthluta heimildasamstæðu á notendakorti
+### Til að úthluta heimildasamstæðu á notendakorti
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 1. Veldu notandann sem á að úthluta á þessum viðskiptamanni til.
 
    Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
 1. Veldu **breyta** aðgerðina til að opna síðuna **Notandapjald** .
-1. Á flýtiflipanum **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu. Nánari upplýsingar eru [í Stofna eða breyta heimildasafni](ui-define-granular-permissions.md#create-a-permission-set).
+1. Á flýtiflipanum **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu. Nánari upplýsingar eru [í Stofna eða breyta heimildasamstæða](ui-define-granular-permissions.md#create-a-permission-set).
 
-   Ef heimildin á að eiga við um tiltekið fyrirtæki er reiturinn Fyrirtæki **stilltur á** það fyrirtæki. Ef heimildin á að eiga við um öll fyrirtæki er reiturinn **Fyrirtæki** hafður auður. [Fræðast meira](#control-access-to-specific-companies).
+   Ef heimildasamstæða á að eiga við um tiltekið fyrirtæki er reiturinn Fyrirtæki **stilltur á** það fyrirtæki. Ef heimildasamstæða á að jafna við öll fyrirtæki er reiturinn **Fyrirtæki** hafður auður. [Fræðast meira](#control-access-to-specific-companies).
 
-## <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Til að úthluta heimildasamstæðu á síðunni Heimildasamstæða eftir notanda
+## Til að úthluta heimildasamstæðu á síðunni Heimildasamstæða eftir notanda
 
 Með þessari aðferð er auðveldara að úthluta mörgum notendum mismunandi heimildum. 
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Notendur** og velja síðan viðkomandi tengil.
 1. Á síðunni **Notendur** skal velja aðgerðina **Heimildasamstæða eftir notanda**.
-1. Ef heimildarmengurnar eiga aðeins að eiga við um tiltekið fyrirtæki er reiturinn **Heiti** fyrirtækis stilltur á það fyrirtæki. Ef heimildin á að eiga við um öll fyrirtæki er reiturinn Heiti **fyrirtækis** hafður auður. [Fræðast meira](#control-access-to-specific-companies).
+1. Ef heimildarmengurnar eiga aðeins að eiga við um tiltekið fyrirtæki er reiturinn **Heiti** fyrirtækis stilltur á það fyrirtæki. Ef heimildasamstæða á að eiga við um öll fyrirtæki er reiturinn Heiti **fyrirtækis** hafður auður. [Fræðast meira](#control-access-to-specific-companies).
 1. Á síðunni **Heimildasamstæða eftir notanda** veldu **[notandanafnið]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að úthluta notandanum samstæðuna.
 
     Veldu **Allir notendur** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
 
-## <a name="get-an-overview-of-a-users-permissions"></a>Fá yfirlit yfir heimildir notanda
+## Fá yfirlit yfir heimildir notanda
 
 Aðeins er hægt að skoða virkar heimildir annarra notenda ef notendum er úthlutað öryggi eða SUPER-heimildum. 
 
@@ -306,7 +306,7 @@ Síðan **Virkar heimildir** býður upp á viðbótarupplýsingar um uppruna hv
     >
     > Línur uppruna réttinda eru komnar frá áskriftarleyfinu. Heimildagildi réttindanna yfirtaka gildi í öðrum heimildasamstæðum ef þeir hafa hærri röðun. Gildi í réttindalausri heimildasamstæðu sem hefur hærra röðun en tengt gildi í réttindunum verður innan sviga til að gefa til kynna að það sé ekki virkt, þar sem það verður yfirtekið af réttindunum.
     >
-    > Sjá Create a permission set [til að útskýra flokkun](ui-define-granular-permissions.md#create-a-permission-set).  
+    > Sjá Create a heimildasamstæða [til að fá útskýringar á flokkun](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. Til að breyta heimildasamstæðu skaltu í **Eftir heimildasamstæðu** hlutanum, á línu fyrir viðeigandi heimildasamstæðu af tegund **Notandaskilgreint**, skaltu velja einn af fimm reitum aðgangsgerðar og velja annað gildi.
 
@@ -315,23 +315,23 @@ Síðan **Virkar heimildir** býður upp á viðbótarupplýsingar um uppruna hv
 > [!NOTE]  
 > Þegar þú breytir heimildasamstæðu munu breytingarnar einnig eiga við um aðra notendur sem hafa heimildarsamstæðuna úthlutað.
 
-### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Öryggissíur takmarka aðgang notanda að tilteknum færslum í töflu
+### Öryggissíur takmarka aðgang notanda að tilteknum færslum í töflu
 
 Fyrir öryggi á færslustigi í [!INCLUDE[prod_short](includes/prod_short.md)] notarðu öryggissíur til að takmarka aðgang notanda að gögnum í töflu. Þú býrð til öryggissíur á töflugögnum. Öryggissía lýsir færslusafni í töflu sem notandi hefur aðgangsheimild að. Þú getur til dæmis tilgreint að notandi geti aðeins lesið færslur sem innihalda upplýsingar um tiltekinn viðskiptavin. Á þennan hátt getur notandinn ekki nálgast skrárnar sem innihalda upplýsingar um aðra viðskiptavini. Sjá [Notkun öryggissía](/dynamics365/business-central/dev-itpro/security/security-filters) í efni fyrir stjórnendur fyrir frekari upplýsingar.
 
 
-## <a name="view-permission-changes-telemetry"></a>Skoða heimildabreytingar fjarmælingar
+## Skoða heimildabreytingar fjarmælingar
 
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að senda breytingar sem eru gerðar á heimild á Application Insights tilfang í Microsoft Azure. Síðan er hægt að nota Azure Monitor til að búa til skýrslur og setja upp viðvaranir í söfnuðum gögnum. Frekari upplýsingar eru í eftirfarandi hjálpargreinum í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir forritara og stjórnendur:
 
 - [Fylgjast með og greina fjarmælingar - Virkja Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Greining fjarmælinga reitarvöktunar](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="delegated-admin-users"></a>Úthlutaðir stjórnendur
+## Úthlutaðir stjórnendur
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  

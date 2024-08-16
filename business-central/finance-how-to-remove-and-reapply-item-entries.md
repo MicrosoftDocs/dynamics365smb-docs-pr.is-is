@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
+
+# Fjarlægja og endurjafna birgðafærslur
 Á síðunni **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
 
 Þegar bókuð eru viðskipti þar sem vörur eru færðar í eða úr birgðum er birgðajöfnun búin til milli hverrar birgðaaukningar og birgðaminnkunar. Þessar jafnanir ákvarða kostnaðarflæði úr þeim vörum sem er tekið á móti í birgðir á móti kostnaði þeirra vara sem fara út úr birgðum. Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun leitt til skekkts meðalinnkaupaverðs og skekkts kostnaðarverðs. Nánari upplýsingar eru í Upplýsingar um hönnun: Vörujöfnun.
@@ -23,7 +24,7 @@ Eftirfarandi dæmi gætu krafist þess að birgðafærslur séu ógildar eða en
 
 Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hægt. Ef gera þarf til dæmis vöruskil á vöru sem þegar er búið að jafna sölu við er hægt að gera endurjöfnunina með því að stofna og bóka vöruskilaskjalið með réttri jöfnun í reitinn **Jafna birgðafærslu** á innkaupaskilalínunni. Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eða aðgerðina **Afrita úr skjali** í innkaupaskilaskjalinu til að gera þetta auðveldara. Þegar fylgiskjalið er birgðahöfuðbókafærslan endurjöfnuð sjálfkrafa. Nánari upplýsingar er að finna í [Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
 
-Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á fasta jöfnun, skal nota síðuna **Vinnublað jöfnunar** til að leiðrétta jöfnun.
+Ef ekki er hægt að nota fylgiskjal til að endurjafna, t.d. þegar leiðrétta þarf fasta jöfnun, þá er síðan Vinnublað **jöfnunar notuð** til að leiðrétta jöfnun.
 
 > [!Warning]  
 > Eftirfarandi er mikilvægt að hafa í huga þegar unnið er með jöfnunarvinnublaðið:
@@ -33,7 +34,7 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
     - Hægt er að fjarlægja jöfnun úr fleiri en einni færslu í einu á jöfnunarvinnublaðinu. Hins vegar er ekki mögulegt að stofna jöfnun fyrir fleiri en eina færslu í einu af því að jöfnun færslna hefur áhrif á þær færslur sem eru fyrir hendi til jöfnunar.
     - Jöfnunarvinnublaðið getur ekki gert jöfnun við eftirfarandi aðstæður: Ef ekki er nógu mikið magn í birgðum til að jafna, jöfnunarvinnublaðið getur ekki gert jöfnun á meðan verið er að reyna að jafna birgðaminnkunarfærslu án vörurakningarupplýsinga við birgðaaukningarfærslu með vörurakningarupplýsingar.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Að fjarlægja birgðajöfnunarfærslu með jöfnunarvinnublaðinu
+## Að fjarlægja birgðajöfnunarfærslu með jöfnunarvinnublaðinu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 1.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
 2.  Síðan **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
@@ -43,14 +44,14 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 6.  Valið er **fjarlægja jöfnun** aðgerð. Þetta fjarlægir birgðajöfnunarfærsluna sem tengir birgðafærslurnar og færir hana á síðunni **Skoða jafnaðar færslur - ójafnaðar færslur**.  
 7.  Loka síðunni **Skoða jafnaðar færslur - Jafnaðar færslur**.  
 
- Reiturinn **Eftirstöðvar (magn)** í birgðafærslunum tveimur hækka sem samsvarar því magni sem afjafnað var. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar á síðunni **Skoða jafnaðar færslur – ójafnaðar færslur**.  
+ Reiturinn **Eftirstöðvar (magn**) í birgðafærslunum tveimur eykst sem nemur því magni sem afjafnað hefur verið. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar á síðunni **Skoða jafnaðar færslur – ójafnaðar færslur**.  
 
 > [!IMPORTANT]  
 >  Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða síðunni **Vinnublaðsjöfnun** er lokað. Eftirfarandi villuboð birtast ef reynt er að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem er gerð óvirk handvirkt.  
 >   
 >  **Ekki er hægt að framkvæma þessa aðgerð því færslur fyrir vöruna \<item\> vara hafa verið gerðar ógildar í Vinnublað jöfnunar af notandanum \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Að endurjafna birgðajöfnunarfærslu með jöfnunarvinnublaðinu
+## Að endurjafna birgðajöfnunarfærslu með jöfnunarvinnublaðinu
 
 1.  Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar 2.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vinnublað jöfnunar** og velja síðan viðkomandi tengil.  
 2.  Síðan **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
@@ -67,13 +68,13 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
     >  Ef valið var að jafna þar sem það stofnar óendanlega lykkju í kostnaðarleiðréttingarferlinu verður sú jöfnun ekki framkvæmd. Þetta getur gerst þegar upprunalegu færslurnar stofnuðu neikvæða birgðastöðu. Forritið er ekki gert. Því verður að velja aðra færslu fyrir jöfnunina.  
 6.  Ef reiturinn **Sjálfvirk kostnaðarleiðrétting** í **Uppsetning birgða** er stilltur á **Alltaf** þá er kostnaðarleiðréttingarkeyrsla keyrð sjálfvirkt eftir að endurjöfnun er gerð. Annars er keyrslan **Kostnaðarleiðrétting - Birgðafærslur** keyrð til að tryggja það að allur kostnaður sé uppfærður.  
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .
 
-[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
+[Loka opnum birgðafærslum sem leiða af föstum jöfnunum í birgðabókinni](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Vinnsla innkaupaskila eða afturköllunar](purchasing-how-process-purchase-returns-cancellations.md)    
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
- [Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
- [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Upplýsingar um hönnun: Birgðajöfnun](design-details-item-application.md)    
+ [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

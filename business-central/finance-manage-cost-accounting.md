@@ -1,20 +1,21 @@
 ---
-title: Yfirlit yfir bókhald fyrir kostnað
+title: Yfirlit yfir bókhald kostnaðar
 description: Kostnaðarbókhald hjálpar þér að skilja kostnaðinn við að reka fyrirtæki. Í þessari grein eru tenglar á aðrar greinar með nánari upplýsingum.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
-ms.date: 04/01/2021
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Bókhald fyrir kostnað
-Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði  
 
-|Til að|Sjá|  
+# Bókhald fyrir kostnað
+Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Hafist er handa við kostnaðarbókhald með því að skoða eftirfarandi greinar.  
+
+|Til|Sjá|  
 |--------|---------|  
 |Skilja orðalista sem notaður er í kostnaðarbókhaldi.|[Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)|  
 |Læra almenn atriði um kostnaðarbókhald.|[Um kostnaðarbókhald](finance-about-cost-accounting.md)|  
@@ -24,7 +25,7 @@ Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnað
 |Um ferlið að stofna kostnaðaráætlanir.|[Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)|
 |Hætta við kostnaðaráætlunarfærslur úr kostnaðaráætlunarskrá.|[Eyða kostnaðaráætlunarfærslum](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig .  
 [Fjármál](finance.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

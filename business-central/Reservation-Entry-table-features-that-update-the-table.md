@@ -11,9 +11,9 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="reservation-entry-table---introduction"></a>Taflan Frátekningarfærsla - Kynning
+# Taflan Frátekningarfærsla - Kynning
 
-Þessi tæknilega hvítpappír veitir leiðbeiningar til að aðstoða notanda við að skilja og leysa úr vandamálum með ósamræmi í gögnum í *töflunni Frátekningarfærsla* (Tafla 337) í Microsoft Dynamics NAV. Fyrri hlutinn er kynning á aðgerðum sem mynda eða breyta gögnum í þessari töflu. Hún fjallar einnig um nokkra reiti í *töflunni Frátekningarfærsla* sem vert er að benda á í tengslum við þessar aðgerðir. Seinni hlutinn sýnir með dæmum hvernig færslur í *töflunni Frátekningarfærsla* eru myndaðar, þeim eytt eða þeim breytt þegar millifærslupantanir eru unnar eða áætlunaraðgerðir eru framkvæmdar.
+Þessi tæknilega hvítpappír veitir leiðbeiningar til að aðstoða notanda við að skilja og leysa úr vandamálum með ósamræmi í gögnum í *töflunni Frátekningarfærsla* (Tafla 337) í [!INCLUDE[prod_short](includes/prod_short.md)]. Fyrri hlutinn er kynning á aðgerðum sem mynda eða breyta gögnum í þessari töflu. Hún fjallar einnig um nokkra reiti í *töflunni Frátekningarfærsla* sem vert er að benda á í tengslum við þessar aðgerðir. Seinni hlutinn sýnir með dæmum hvernig færslur í *töflunni Frátekningarfærsla* eru myndaðar, þeim eytt eða þeim breytt þegar millifærslupantanir eru unnar eða áætlunaraðgerðir eru framkvæmdar.
 
 Taflan *Frátekningarfærsla* er notuð til að vinna með og geyma upplýsingar um frátekningu, vörurakningu og pöntunarrakningu.
 
@@ -28,30 +28,30 @@ Almennt fer gögnin sem mynduð eru í *töflunni Frátekningarfærsla* eftir þ
 - Áætlunarfæribreytur á birgða- eða birgðaeiningarspjaldinu
 - Vörurakningarkóði
 
-## <a name="features-that-update-the-reservation-entry-table"></a>Aðgerðir sem uppfæra töfluna Frátekningarfærsla
+## Aðgerðir sem uppfæra töfluna Frátekningarfærsla
 
-### <a name="order-tracking-policy"></a>Rakningarstefna pöntunar
+### Rakningarstefna pöntunar
 
-Ef reiturinn **Rakningarstefna** pöntunar á vöru er stilltur á Ekkert Microsoft Dynamics NAV  stofnar aldrei frátekningarfærslur í *töflunni Frátekningarfærsla* nema áætlun hreyfingar eða Endurgerðaráætlun, Frátekning eða Vörurakning sé framkvæmd. Þar að auki er hægt að taka frá færslur án pantanarakningar þegar reglur um Framleiðsla og Samsetning eftir pöntun eru notaðar.
+Ef reiturinn **Rakningarstefna** pöntunar á vöru er stilltur á Ekkert [!INCLUDE[prod_short](includes/prod_short.md)]  stofnar aldrei frátekningarfærslur í *töflunni Frátekningarfærsla* nema áætlun hreyfingar eða Endurgerðaráætlun, Frátekning eða Vörurakning sé framkvæmd. Þar að auki er hægt að taka frá færslur án pantanarakningar þegar reglur um Framleiðsla og Samsetning eftir pöntun eru notaðar.
 
 Hægt er að íhuga að stilla **rakningarstefnu** pöntunar á Ekkert ef ekki er krafist rakningar á fljúgandi eftirspurn gegn framboði eða öfugt. Rakning framboðs á móti eftirspurn er unnin með pöntunarrakningaraðgerðinni eða áætlunarvélinni. Ekki er mælt með því að pantanarakning sé notuð með áætlunaraðgerðum.
 
-Þegar reiturinn **Rakningaraðferð** pöntunar er stilltur á Aðeins Microsoft Dynamics NAV  rakning, stofnar alltaf færslur í töflu 337 þegar pöntun er stofnuð fyrir vöruna, en **Staða** frátekningar í töflu 337 er ekki alltaf stranglega stillt á Rakning. Íhuga skal eftirfarandi dæmi:
+Þegar reiturinn **Rakningaraðferð** pöntunar er stilltur á Aðeins [!INCLUDE[prod_short](includes/prod_short.md)]  rakning, stofnar alltaf færslur í töflu 337 þegar pöntun er stofnuð fyrir vöruna, en **Staða** frátekningar í töflu 337 er ekki alltaf stranglega stillt á Rakning. Íhuga skal eftirfarandi dæmi:
 
 > [!NOTE]  
 > Vinnudagsetningin er stillt sem 01/23/2014 (MM/DD/ÁÁÁÁ) fyrir öll dæmi. 
   
 1. Stofna vöru með **reitinn Rakningarregla** pöntunar stillta á Aðeins rakningu.  
-1. Stofna innkaupapöntun. Microsoft Dynamics NAV stofnar frátekningarfærslu með **Frátekningarstöðu** umfram þar sem innkaupapöntuninni er ekki enn úthlutað eftirspurn.
-1. Stofnið sölupöntun. Microsoft Dynamics NAV stofnar nú aðra frátekningarfærslu með **frátekningarstöðu** rakningar.
+1. Stofna innkaupapöntun. [!INCLUDE[prod_short](includes/prod_short.md)] stofnar frátekningarfærslu með **Frátekningarstöðu** umfram þar sem innkaupapöntuninni er ekki enn úthlutað eftirspurn.
+1. Stofnið sölupöntun. [!INCLUDE[prod_short](includes/prod_short.md)] stofnar nú aðra frátekningarfærslu með **frátekningarstöðu** rakningar.
 
- **Staða** frátekningar sem stofnuð er í 2. lið verður uppfærð í Rakning, hún er afgreidd sjálfvirkt Microsoft Dynamics NAV . Þetta hugtak heitir Kvik rakning.
+ **Staða** frátekningar sem stofnuð er í 2. lið verður uppfærð í Rakning, hún er afgreidd sjálfvirkt [!INCLUDE[prod_short](includes/prod_short.md)] . Þetta hugtak heitir Kvik rakning.
 Með því að setja reitinn **Rakningarstefna** pöntunar á vöruna aðeins til Rakningar getur notandi notað pöntunarrakningaraðgerðina til að fá yfirlit yfir það hvaða framboð eftirspurnin er úthlutað til og öfugt.
 
 > [!NOTE]  
 > Rakningaraðgerð kemur ekki í stað áætlunaraðgerða sem tekur allar vörur, eftirspurn og birgðir saman til að bjóða upp á bestu áætlunartillögurnar til að hámarka þjónustustig viðskiptamanna og jafna birgðastig.
 
-### <a name="reservation-policy"></a>Frátekningarregla
+### Frátekningarregla
 
 Frátekning samanstendur af pari færslna í *töflunni Frátekningarfærsla* með **frátekningarstöðu** sem deilir sama færslunúmeri. Ein færsla er með reitinn Jákvæða virka og vísar á framboðið. Hin færslan hefur reitinn **Jákvæða** ekki virkan og vísar á eftirspurnina. Reitirnir **Tegund** uppruna, **Tilv.nr.** uppruna og **Upprunakenni** auðkenna frátekninguna tengja milli eftirspurnar og framboðs.
 
@@ -61,7 +61,7 @@ Reiturinn **Kenni** uppruna inniheldur kenni skjalsins í töflunni sem vísað 
 
 Reiturinn **Tilv.nr. uppruna** í reitnum er tilvísunarnúmer línunnar sem frátekningarfærslunr **.** er tengt við. Ef færslan er tengd sölu- eða innkaupalínu, færslubókarlínu eða innkaupatillögulínu eru upplýsingarnar í þessum reit afritaðar úr reitnum **Línunr.** . Ef hún er tengd færslu í *töflunni Birgðafærsla* (tafla 32) eru upplýsingarnar í þessum reit afritaðar úr reitnum **Færslunr.** í töflunni *Birgðafærsla* .
 
-Þegar valkosturinn frátekningarregla er notaður Alltaf ásamt pöntunarrakningu eru báðir yfirleitt í samstillingu. Þegar frátekning er hins vegar fjarlægð eða móttökudagsetning framboðs er færð fram yfir skiladag eftirspurnar verður pöntunarrakningin fjarlægð. Einnig er hægt að finna villuboð þar sem Microsoft Dynamics NAV spyr hvað eigi að gera við fyrirliggjandi frátekningar. Þetta dæmi er útskýrt í eftirfarandi dæmi:
+Þegar valkosturinn frátekningarregla er notaður Alltaf ásamt pöntunarrakningu eru báðir yfirleitt í samstillingu. Þegar frátekning er hins vegar fjarlægð eða móttökudagsetning framboðs er færð fram yfir skiladag eftirspurnar verður pöntunarrakningin fjarlægð. Einnig er hægt að finna villuboð þar sem [!INCLUDE[prod_short](includes/prod_short.md)] spyr hvað eigi að gera við fyrirliggjandi frátekningar. Þetta dæmi er útskýrt í eftirfarandi dæmi:
 
 1. Stofna nýja vöru sem kallast COMP. Eftirfarandi reitir eru stilltir:
   - **Áfyllingarkerfið**: Innkaup
@@ -98,7 +98,7 @@ Reiturinn **Tilv.nr. uppruna** í reitnum er tilvísunarnúmer línunnar sem fr�
 9. Íhlutalistinn er opnaður og flett upp VöruBIRGÐ.
 
 > [!NOTE]  
-> Engin frátekning eða pöntunarrakning er búin til af Microsoft Dynamics NAV. Ástæðan er sú að frátekning er þegar til á móti sölupöntuninni sem stofnuð var í 6. þrep.
+> Engin frátekning eða pöntunarrakning er búin til af [!INCLUDE[prod_short](includes/prod_short.md)]. Ástæðan er sú að frátekning er þegar til á móti sölupöntuninni sem stofnuð var í 6. þrep.
 
 Segjum svo, vegna viðskiptaástæðna, að brýna þurfi vöruna á útgefnu framleiðslupöntuninni sem stofnuð var í 7. þrepi. Svo næst skal í eftirfarandi skrefum hætta við frátekninguna úr sölupöntuninni sem var stofnuð í 6. þrep og takið eftir hvernig rakningu pantana er háttað.
 
@@ -111,22 +111,22 @@ Segjum svo, vegna viðskiptaástæðna, að brýna þurfi vöruna á útgefnu fr
 
 13. Reitnum **Áætluð móttökudagsetningu** er breytt í haus innkaupapöntunar í skrefi 5 frá 01/24/2014 í 02/05/2014.
 
-Microsoft Dynamics NAV birta eftirfarandi viðvörunarboð:
+[!INCLUDE[prod_short](includes/prod_short.md)] birta eftirfarandi viðvörunarboð:
 
    Frátekningar eru til fyrir þessa pöntun. Hætt verður við þessar frátektir ef gagnaárekstrar stafa af þessari breytingu. Á að halda áfram?
 
 14. Valið er Já. Fletta upp á frátekningar- og pöntunarrakningarfærslum úr innkaupapöntuninni.
 
 > [!NOTE]  
-> Hætt er við fyrirliggjandi frátekningu og það þarf að endurstýra handvirkt. Pöntunin er hins vegar kvik og hefur verið endurstofnuð með því Microsoft Dynamics NAV að vera til á milli innkaupapöntunarinnar og sölupöntunarinnar. Ástæðan er eftirspurn útgefnu framleiðslupöntunarinnar (02/01/2014) er á undan áætluðum móttökudagsetningu framboðsins.
+> Hætt er við fyrirliggjandi frátekningu og það þarf að endurstýra handvirkt. Pöntunin er hins vegar kvik og hefur verið endurstofnuð með því [!INCLUDE[prod_short](includes/prod_short.md)] að vera til á milli innkaupapöntunarinnar og sölupöntunarinnar. Ástæðan er eftirspurn útgefnu framleiðslupöntunarinnar (02/01/2014) er á undan áætluðum móttökudagsetningu framboðsins.
 
 Þetta lýkur sýningunni á samskiptunum milli þess að nota sjálfvirkar frátekningar og pöntunarrakningu. Dæmin sýna einnig hvað gerist þegar skiladegi er breytt og villuboðin sem koma af stað þegar misræmi verður í frátekningarárekstri.
 
-### <a name="planning-calculated"></a>Áætlun reiknuð
+### Áætlun reiknuð
 
 Áætlanir sem gerðar eru með pantanaáætlun, innkaupatillögublaðinu eða áætlunarvinnublaðinu mynda færslur í *töflunni Frátekningarfærsla* með **reitinn Staða** frátekningar stillt á Rakning, Frátekning eða Umframbirgðir. Það ætti alltaf að vera par með sama Færslunr. af jákvæðu og neikvæðu gildi í reitnum **Magn (stofn)** þegar staðan er Rakning eða Frátekning. Reiturinn **Tegund** uppruna verður eftirspurnartegundin, þ.e. tafla 37 fyrir neikvætt magn og áætlunartöflu, til dæmis tafla 246, fyrir jákvætt magn. Reiturinn Upprunakenni **verður** ÁÆTLUN.
 
-Ef um er að ræða óúthlutað framboð eða eftirspurn Microsoft Dynamics NAV  er reiturinn Staða **frátekningar stilltur** á Umframbirgðir. Til dæmis er hægt að hafa frátekningarstöðuna Umfram þegar fyrirliggjandi birgðir eru undir magni eða eftirspurn í öryggisbirgðum er tengd við spá.
+Ef um er að ræða óúthlutað framboð eða eftirspurn [!INCLUDE[prod_short](includes/prod_short.md)]  er reiturinn Staða **frátekningar stilltur** á Umframbirgðir. Til dæmis er hægt að hafa frátekningarstöðuna Umfram þegar fyrirliggjandi birgðir eru undir magni eða eftirspurn í öryggisbirgðum er tengd við spá.
 
 Taflan *Órakin áætlunareining* (Tafla 99000855) geymir upplýsingar um órakið magn sem birtist þegar notandinn sér um að fletta upp á rakningarsíðu pöntunarinnar til að sjá órakið magn eða velja viðvörunartákn á áætlunarvinnublaðinu. Taflan inniheldur færslur sem standa fyrir órakið umframmagn í pöntunarrakningarkerfinu.
 
@@ -145,41 +145,41 @@ Taflan *Órakin áætlunareining* (Tafla 99000855) geymir upplýsingar um óraki
 
  *Í töflunni Frátekningarfærsla*, eins og í innkaupa-, millifærslu- og framleiðslupöntunum, er **reiturinn Sveigjanleiki** áætlunar. Þessi valkostsreitur tilgreinir hvort birgðir sem þessar framboðspantanir tákna eru skoðaðar af áætlunarkerfinu þegar aðgerðarboð eru reiknuð. Ef kosturinn Ótakmarkað er í reitnum tekur áætlunarkerfið línuna með í reikninginn þegar aðgerðaboð eru reiknuð. Ef kosturinn Ekkert er í reitnum er línan föst og óbreytanleg og áætlunarkerfið tekur ekki með línuna þegar aðgerðarboð eru reiknuð. Aðgerðinni *er stýrt í töflunni Frátekningarfærsla* með sama heiti.
 
-### <a name="reordering-and-manufacturing-policy"></a>Endurpöntunar- og framleiðslustefna
+### Endurpöntunar- og framleiðslustefna
 
-Ef áætlunaraðgerð er framkvæmd fyrir vöru sem er sett með Endurpöntunarstefnuna sem stillt er á Pöntun Microsoft Dynamics NAV  stofnar færslur í *töflunni Frátekningarfærsla* með frátekningarstöðuna Frátekning í stað Rakningar.
+Ef áætlunaraðgerð er framkvæmd fyrir vöru sem er sett með Endurpöntunarstefnuna sem stillt er á Pöntun [!INCLUDE[prod_short](includes/prod_short.md)]  stofnar færslur í *töflunni Frátekningarfærsla* með frátekningarstöðuna Frátekning í stað Rakningar.
 
-Reitirnir **Tegund** uppruna og **Upprunakenni** hafa jafngilda meðferð á öðrum endurpöntunarstefnum. Í reitnum **Binding** í *töflunni*  Frátekningarfærsla Microsoft Dynamics NAV er hins vegar fært inn Pöntun-eftir pöntun.
+Reitirnir **Tegund** uppruna og **Upprunakenni** hafa jafngilda meðferð á öðrum endurpöntunarstefnum. Í reitnum **Binding** í *töflunni*  Frátekningarfærsla [!INCLUDE[prod_short](includes/prod_short.md)] er hins vegar fært inn Pöntun-eftir pöntun.
 
 Reiturinn **Binding** er fylltur út til að stýra framboðspöntunum sem eru bundnar við tiltekna eftirspurn, til dæmis framleiðslupantanir sem eru stofnaðar beint úr sölupöntun. Reiturinn sýnir Pöntun-í-pöntun þegar færslan er bundin sérstaklega við eftirspurn eða framboð (Sjálfvirk frátekning). Eftirspurnin getur verið tengd sölu- eða íhlutaþörf.
 
-### <a name="item-tracking-and-prospect-reservation-entry"></a>Vörurakningar- og viðfangsfrátekningarfærsla
+### Vörurakningar- og viðfangsfrátekningarfærsla
 
-Hægt er að stofna Microsoft Dynamics NAV stöðu viðfangsfrátekningar í *töflunni Frátekningarfærsla* þegar engar pöntunarneteiningar eru notaðar, þ.e. Rakning pöntunar. Til dæmis, í notkunarbókarlínu er Vörurakningu úthlutað á íhlutinn. Ef varan er hins vegar þegar rakin Microsoft Dynamics NAV  gæti stofnað fleiri frátekningarfærslur viðfangs. Þetta er sýnt í theEXAMPLE 2 sem tengist millifærslupöntunum í seinni hluta skjalsins.
+Hægt er að stofna [!INCLUDE[prod_short](includes/prod_short.md)] stöðu viðfangsfrátekningar í *töflunni Frátekningarfærsla* þegar engar pöntunarneteiningar eru notaðar, þ.e. Rakning pöntunar. Til dæmis, í notkunarbókarlínu er Vörurakningu úthlutað á íhlutinn. Ef varan er hins vegar þegar rakin [!INCLUDE[prod_short](includes/prod_short.md)]  gæti stofnað fleiri frátekningarfærslur viðfangs. Þetta er sýnt í theEXAMPLE 2 sem tengist millifærslupöntunum í seinni hluta skjalsins.
 
 Þegar síðan Vörurakningarlínur **er skoðaðar eða þeim breytt** er sameiginlegt efni töflunnar *Rakningarlýsing* (Tafla 336) og *Frátekningarfærsla* sett fram í bráðabirgðaútgáfu af töflunni 336. Þetta tryggir heildaraðgang að fyrri og virkum vörurakningargögnum.
 
 Frátekningar falla í tvo flokka: Ótilgreindar frátekningar þar sem lotu- og raðnúmer eru ekki tilgreind á frátekningartíma og Sértækar frátekningar þar sem tiltekin lotu- eða raðnúmer eru tekin frá í birgðum.
 
- **Lotunr.** eða **Raðnr.** reiturinn er auður í reitnum **Færslunr.** í töflu 337 sem vísar á eftirspurn (til dæmis sölu). Vegna skipulags frátekningargrunnsins í Microsoft Dynamics NAV verður engu að síður að velja tilteknar birgðafærslur til að taka frá Microsoft Dynamics NAV  á móti.
+ **Lotunr.** eða **Raðnr.** reiturinn er auður í reitnum **Færslunr.** í töflu 337 sem vísar á eftirspurn (til dæmis sölu). Vegna skipulags frátekningargrunnsins í [!INCLUDE[prod_short](includes/prod_short.md)] verður engu að síður að velja tilteknar birgðafærslur til að taka frá [!INCLUDE[prod_short](includes/prod_short.md)]  á móti.
 
-Þar sem birgðafærslurnar hafa vörurakningarupplýsingarnar tekur frátekningin óbeint tiltekin lotu- eða raðnúmer, jafnvel þótt notandinn hafi ekki ætlað þessu. Hins vegar, með Síðbúinni Bindingu, Microsoft Dynamics NAV  tekur samt frá gagnvart tilteknum færslum, en notar síðan endurskipulagningarbúnað í Microsoft Dynamics NAV við bókun.
+Þar sem birgðafærslurnar hafa vörurakningarupplýsingarnar tekur frátekningin óbeint tiltekin lotu- eða raðnúmer, jafnvel þótt notandinn hafi ekki ætlað þessu. Hins vegar, með Síðbúinni Bindingu, [!INCLUDE[prod_short](includes/prod_short.md)]  tekur samt frá gagnvart tilteknum færslum, en notar síðan endurskipulagningarbúnað í [!INCLUDE[prod_short](includes/prod_short.md)] við bókun.
 
-Frekari upplýsingar er að finna í Microsoft Dynamics NAV Tæknilegu hvítmálunum sem taldir eru upp í viðbótarforðanum í lok skjalsins.
+Frekari upplýsingar er að finna í [!INCLUDE[prod_short](includes/prod_short.md)] Tæknilegu hvítmálunum sem taldir eru upp í viðbótarforðanum í lok skjalsins.
 
-### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Undirtegund uppruna, bækluð aðgerðaboð, Leiðrétting aðgerðaboða og Afturköllun heimildar
+### Undirtegund uppruna, bækluð aðgerðaboð, Leiðrétting aðgerðaboða og Afturköllun heimildar
 
- **Undirtegund** uppruna, **bækluð aðgerðaboð,Leiðrétting** **aðgerðaboða** og **Afturköllun** uppruna í *töflunni Frátekningarfærsla* er lýst í þessum hluta. Aðstæður gefa kost á að sýna fram á notkun reitanna **Bækluð aðgerðaboð,Aðgerðaboðaleiðrétting** **·**  og **Afplánun afpantaðra** aðgerða. Reiturinn **Leiðrétting aðgerðarboða** er notaður fyrir aðgerðina Rakning pöntunarrakningar og Aðgerðarboð. Reiturinn **Ógilda afturköllun** er notaður fyrir aðgerðina Samsetning til pöntunar árið Microsoft Dynamics NAV 2013.
+ **Undirtegund** uppruna, **bækluð aðgerðaboð,Leiðrétting** **aðgerðaboða** og **Afturköllun** uppruna í *töflunni Frátekningarfærsla* er lýst í þessum hluta. Aðstæður gefa kost á að sýna fram á notkun reitanna **Bækluð aðgerðaboð,Aðgerðaboðaleiðrétting** **·**  og **Afplánun afpantaðra** aðgerða. Reiturinn **Leiðrétting aðgerðarboða** er notaður fyrir aðgerðina Rakning pöntunarrakningar og Aðgerðarboð. Reiturinn **Ógilda afturköllun** er notaður fyrir aðgerðina Samsetning til pöntunar árið [!INCLUDE[prod_short](includes/prod_short.md)] 2013.
 
-#### <a name="source-subtype"></a>Undirtegund uppruna
+#### Undirtegund uppruna
 
 Reiturinn **Undirtegund** uppruna gefur til kynna hvaða undirtegund uppruna frátekningarfærslan tengist. Ef færslan er tengd innkaupa- eða sölulínu afritast reiturinn úr reitnum **Tegund** fylgiskjals í línunni. Ef hún er tengd færslubókarlínu afritast reiturinn úr reitnum **Tegund** færslu í færslubókarlínunni.
 
-#### <a name="suppressed-action-msg"></a>Dempuð aðgerðarboð
+#### Dempuð aðgerðarboð
 
 Í **bækluðum aðgerðaboðum** Reitur skráir þegar búið er að vinna fyrirliggjandi framboð, til dæmis þegar innkaupapöntun hefur þegar verið móttekin að hluta eða framleiðslupöntun hefur bókað notkun á móti henni.
 
-Við framkvæmd áætlunar er þessi reitur merktur Microsoft Dynamics NAV  og stillir reitinn **Staða** frátekningarfærslu á *Umframfærslur8. Eftirfarandi dæmi er til að myndskreyta:
+Við framkvæmd áætlunar er þessi reitur merktur [!INCLUDE[prod_short](includes/prod_short.md)]  og stillir reitinn **Staða** frátekningarfærslu á *Umframfærslur8. Eftirfarandi dæmi er til að myndskreyta:
 
 1. Vara 80001 er opnuð. Eftirfarandi reitir eru stilltir:
   - **Endurpöntunarstefna**: Lota-fyrir-lotu
@@ -206,9 +206,9 @@ Upplýsingar um stöðuna í töflu 337 birtast í eftirfarandi mynd.
 
 Færslu nr. 28 í töflu 337 er með frátekningarstöðuna Rakning til samræmis við þær birgðir sem fyrir eru í birgðafærslu 318 fyrir 2 einingar og útistandandi eftirspurn í töflunni Sölupöntun 37. Síðari Færslunr. 29 er einnig með stöðuna Rakning og tengir eftirstöðvar magnsins 8 einingar milli eftirspurnar í töflunni Sölupöntun 37 og tillaga um framboð í töflunni Innkaupatillögulína 246.
 
-Færslunr. 30 er fyrirliggjandi innkaupapöntun sem hefur verið móttekin að hluta með magni 2. Þar af leiðandi **er reiturinn Staða** frátekningar umframmagn og Microsoft Dynamics NAV stillir **reitinn Magn (stofn)** á *8*  (eftirstöðvar) og **bættu aðgerðaboðunum.** reiturinn er virkur.
+Færslunr. 30 er fyrirliggjandi innkaupapöntun sem hefur verið móttekin að hluta með magni 2. Þar af leiðandi **er reiturinn Staða** frátekningar umframmagn og [!INCLUDE[prod_short](includes/prod_short.md)] stillir **reitinn Magn (stofn)** á *8*  (eftirstöðvar) og **bættu aðgerðaboðunum.** reiturinn er virkur.
 
-#### <a name="action-message-adjustment"></a>Leiðrétting á aðgerðarboði
+#### Leiðrétting á aðgerðarboði
 
 Reiturinn **Leiðrétting** aðgerðarboða sýnir breytingu á framboðshlið pöntunarrakningarinnar þegar tengd aðgerðarboð eru samþykkt. Gildi birtist aðeins hér þegar aðgerðirnar fyrir bæði pöntunarrakningu og aðgerðaboð eru virkar (Rakningarstefna pöntunar stillt á Rakning & aðgerðarboð). Gildið er reiknað út frá gögnunum í *töflunni Aðgerðaboðafærsla* (Tafla 99000849). Eftirfarandi dæmi er til að myndskreyta:
 1. Opna vöru 80002. Eftirfarandi reitur er stilltur:
@@ -221,10 +221,10 @@ Reiturinn **Leiðrétting** aðgerðarboða sýnir breytingu á framboðshlið p
 4. Sölupöntunin er valin úr skrefi 2 og keyrslan **Gera pantanir** er keyrð.
 5. Í sölupöntuninni úr skrefi 2 er reitnum **Magn** breytt úr 100 í 105.
 Upplýsingar um stöðuna í töflu 337 birtast í eftirfarandi mynd.
-6. Færslunr. 34 er með reitinn **Leiðrétting aðgerðaboða** í töflu 337 virkan fyrir 5 einingar með frátekningarstöðuna Umframbirgðir. Þegar sölupöntunin var aukin í 5 Microsoft Dynamics NAV . lið var þessi frátekning stofnuð þar sem þörf er á meira framboði.
-7. Opna skal síðuna Áætlunarvinnublöð **og á** flipanum Heim **í hópnum** Vinnsla **skal velja** Sækja aðgerðarboð **.** Microsoft Dynamics NAV mun leggja til að magn innkaupapöntunarinnar verði aukið úr 100 í 105.
+6. Færslunr. 34 er með reitinn **Leiðrétting aðgerðaboða** í töflu 337 virkan fyrir 5 einingar með frátekningarstöðuna Umframbirgðir. Þegar sölupöntunin var aukin í 5 [!INCLUDE[prod_short](includes/prod_short.md)] . lið var þessi frátekning stofnuð þar sem þörf er á meira framboði.
+7. Opna skal síðuna Áætlunarvinnublöð **og á** flipanum Heim **í hópnum** Vinnsla **skal velja** Sækja aðgerðarboð **.** [!INCLUDE[prod_short](includes/prod_short.md)] mun leggja til að magn innkaupapöntunarinnar verði aukið úr 100 í 105.
 
-#### <a name="disallow-cancellation"></a>Ógilda afturköllun
+#### Ógilda afturköllun
 
 Reiturinn **Afturköllun án afturköllunar** gefur til kynna að frátekningarfærslan tákni tengja milli sölupöntunarlínu og samsetningarpöntunar. Ekki er hægt að eyða frátekningunni vegna þess að nauðsynlegt er að viðhalda samstillingunni sem á sér stað þegar vara er sett saman í pöntun. Eftirfarandi dæmi er til að myndskreyta:
 
@@ -251,15 +251,15 @@ Reiturinn **Afturköllun án afturköllunar** gefur til kynna að frátekningarf
 
 Færslunr. 82 er með frátekningarstöðuna Umframbirgðir sem 9 einingar af Samsetningarsamstæðu í birgðum og hefur enga eftirspurn. Færslunr. 84 eru rakningarfrátekningarfærslur milli eftirspurnar í *töflunni Samsetningarlína* 901 og framboðs í birgðafærslu 346.
 
-Færslunr. 86 er með Bindandi pöntun-í-pöntun við frátekningarstöðufrátekningu. Að auki er reiturinn **Ógilda afturköllun** virkur þar sem samsetningarstefnan er stillt sem Samsetning í pöntun fyrir vörusamsetningu FG. Að lokum er reiturinn **Sveigjanleiki** áætlunar stilltur á Ekkert, því Microsoft Dynamics NAV ekki leyfir áætlunargrunninn að eyða frátekningunni.
+Færslunr. 86 er með Bindandi pöntun-í-pöntun við frátekningarstöðufrátekningu. Að auki er reiturinn **Ógilda afturköllun** virkur þar sem samsetningarstefnan er stillt sem Samsetning í pöntun fyrir vörusamsetningu FG. Að lokum er reiturinn **Sveigjanleiki** áætlunar stilltur á Ekkert, því [!INCLUDE[prod_short](includes/prod_short.md)] ekki leyfir áætlunargrunninn að eyða frátekningunni.
 
-#### <a name="quantity-available-to-pick-and-reservations"></a>Tiltækt magn til tínslu og frátekningar
+#### Tiltækt magn til tínslu og frátekningar
 
-Frátekin **tínsla & Afhenda**  magní töflu 337 sem er til í útgáfum áður en Microsoft Dynamics NAV 2013 stýrir tiltækum vörum innan stýrðs vöruhúss. Í hverri uppsetningu vöruhúsakerfis Microsoft Dynamics NAV er magn vöru bæði til sem vöruhúsafærslur og birgðafærslur. Þessar tvær færslutegundir innihalda mismunandi upplýsingar um hvar vörur eru til og hvort þær eru tiltækar. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðahöfuðbókarfærslur skilgreina hvort vara er laus með frátekningu hennar samkvæmt fylgiskjölum á útleið. Sérstakar aðgerðir eru til í tínslureiknireglurnar til að reikna magnið sem er tiltækt til tínslu þegar innihald hólfs er parað með frátekningu. Tínslureiknireglurnar draga frá magn sem er tekið frá fyrir önnur skjöl á útleið, magn í tínsluskjölum sem fyrir eru og magn sem er tínt en ekki enn afhent eða notað. Útkoman birtist í reitnum **Tiltækt magn til tínslu** á síðunni **Tínsluvinnublað** þar sem reiturinn er reiknaður kviklega. Gildið er einnig reiknað þegar notandi stofnar vöruhúsatínslu beint úr skjölum á útleið, svo sem sölupöntunum, framleiðslunotkun eða millifærslum á útleið.
+Frátekin **tínsla & Afhenda**  magní töflu 337 sem er til í útgáfum áður en [!INCLUDE[prod_short](includes/prod_short.md)] 2013 stýrir tiltækum vörum innan stýrðs vöruhúss. Í hverri uppsetningu vöruhúsakerfis [!INCLUDE[prod_short](includes/prod_short.md)] er magn vöru bæði til sem vöruhúsafærslur og birgðafærslur. Þessar tvær færslutegundir innihalda mismunandi upplýsingar um hvar vörur eru til og hvort þær eru tiltækar. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðahöfuðbókarfærslur skilgreina hvort vara er laus með frátekningu hennar samkvæmt fylgiskjölum á útleið. Sérstakar aðgerðir eru til í tínslureiknireglurnar til að reikna magnið sem er tiltækt til tínslu þegar innihald hólfs er parað með frátekningu. Tínslureiknireglurnar draga frá magn sem er tekið frá fyrir önnur skjöl á útleið, magn í tínsluskjölum sem fyrir eru og magn sem er tínt en ekki enn afhent eða notað. Útkoman birtist í reitnum **Tiltækt magn til tínslu** á síðunni **Tínsluvinnublað** þar sem reiturinn er reiknaður kviklega. Gildið er einnig reiknað þegar notandi stofnar vöruhúsatínslu beint úr skjölum á útleið, svo sem sölupöntunum, framleiðslunotkun eða millifærslum á útleið.
 
 *Magn tiltækt til tínslu = magn í tínsluhólfum - magn í tínslum og hreyfingum – (frátekið magn í tínsluhólfum + frátekið magn í tínslum og hreyfingum).*
 
-Eftirfarandi dæmi sýnir hvernig gildið í magninu sem tiltækt er til tínslu er reiknað í Microsoft Dynamics NAV:
+Eftirfarandi dæmi sýnir hvernig gildið í magninu sem tiltækt er til tínslu er reiknað í [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 1. Stofna nýja vöru sem kallast Vöruhúsavara. Eftirfarandi reitir eru stilltir:
   - **Grunnmælieining**: STK
@@ -297,23 +297,23 @@ Eftirfarandi villuboð birtast: *Ekkert í meðhöndlun.*
    
    Samtals frátekið á móti sölupöntunum er 110 Magn sem er tiltækt til tínslu = 100 – 110 = núll.
 
-Þegar vöruhúsafrágangurinn er skráður í 7. þrep, sem gerir stofnun vöruhúsatínslunnar mögulega í 11. þrep. Í útgáfum fyrir Microsoft Dynamics NAV árið 2013 skal fylla frátekið **tínslu - Afhenda magn til afhendingar.** í töflu 337 er fylltur út á móti frátekningu á magni 10.
+Þegar vöruhúsafrágangurinn er skráður í 7. þrep, sem gerir stofnun vöruhúsatínslunnar mögulega í 11. þrep. Í útgáfum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] árið 2013 skal fylla frátekið **tínslu - Afhenda magn til afhendingar.** í töflu 337 er fylltur út á móti frátekningu á magni 10.
 
-Eftirfarandi mynd er sótt úr Microsoft Dynamics NAV 2009 R2.
+Eftirfarandi mynd er sótt úr [!INCLUDE[prod_short](includes/prod_short.md)] 2009 R2.
 
-## <a name="illustrations-using-transfer-orders-and-planning"></a>Útskýringar með millifærslupöntunum og áætlunum
+## Útskýringar með millifærslupöntunum og áætlunum
 
-### <a name="transfer-orders"></a>Millifærslupantanir
+### Millifærslupantanir
 
 Þegar millifærslupantanir eru notaðar og varan er afhent en ekki að fullu móttekin fæst frátekningarstaðan Umframmagn í *töflunni Frátekningarfærsla* . Kóti birgðageymslu verður Sendist-til birgðageymsla.
 
 Reiturinn **Tilv.nr. uppruna** Er reiknað með síðasta línufærslunúmeri + Línufærslunúmer vörunnar í bókuðu millifærsluafhendingunni.
 
-Þegar pöntunarrakning er virk og engin eftirspurn er (sölupöntun eða notkun), Microsoft Dynamics NAV stofnar tvær færslur í töflu 337 með frátekningarstöðuna Umframmagn. Annar er á móti *töflunni Millifærslulína* 5741 og hinn er á móti töflunni Birgðafærsla 32.
+Þegar pöntunarrakning er virk og engin eftirspurn er (sölupöntun eða notkun), [!INCLUDE[prod_short](includes/prod_short.md)] stofnar tvær færslur í töflu 337 með frátekningarstöðuna Umframmagn. Annar er á móti *töflunni Millifærslulína* 5741 og hinn er á móti töflunni Birgðafærsla 32.
 
 Þetta er sýnt í fyrsta dæminu.
 
-#### <a name="example-1"></a>Dæmi 1
+#### Dæmi 1
 
 1. Vörur 80003 og 80004 eru opnaðar og reiturinn **Rakningarstefna** stilltur á *Aðeins* rakning. Aðrir reitir eru látnir vera sjálfgildi.
 2. Birgðabók er opnuð og birgðum þessara vara aukið í magn 10 hver á móti birgðageymslunni RAUTT og færslubókarlínurnar bókaðar.
@@ -342,7 +342,7 @@ Skýringin á eftirfarandi reitum gegn frátekningarfærslu 43 er sem hér segir
 |**Tegund uppruna**|Taflan Birgðafærsla 32.|  
 |**Tilv.nr. uppruna**|Opna birgðafærslan 322.|
 
-#### <a name="example-2"></a>Dæmi 2
+#### Dæmi 2
 
 Næsta dæmi sýnir hvað gerist þegar íhlutur er fluttur milli birgðageymslna, en um leið er rakið á milli eftirspurnarþarfar og tiltæks framboðs. Íhlutirnir verða fluttir frá birgðageymslunni RAUTT yfir í BLÁTT sem á að nota í útgefinni framleiðslupöntun. Íhluturinn notar Rakningu pöntunar, Pantanaáætlun og Vörurakningu.
 
@@ -378,7 +378,7 @@ Varan framleidd fær frálagið á móti birgðageymslunni BLÁTT.
 
 Upplýsingar um stöðuna í töflu 337 birtast í eftirfarandi mynd.
 
-##### <a name="reservation-entries-with-numbers-55-and-56"></a>Frátekningarfærslur með tölurnar 55 og 56
+##### Frátekningarfærslur með tölurnar 55 og 56
 
 Fyrir íhlutaþörfina fyrir Lotu A og Lotu B eru pöntunarrakningartenglar stofnaðir úr eftirspurninni í töflu 5407, Framl.pöntunaríhlutur, til framboðsins í töflu 32, Birgðafærsla.  **Í reitnum Staða** frátekningar er Rakning allra færslnanna fjögurra sem gefa til kynna að þessar kviku pöntunarrakningartengingar milli framboðs og eftirspurnar.
 
@@ -387,7 +387,7 @@ Eftirspurnin í töflu 5407, Framl.pöntunaríhlutur, er tengd upprunakenni útg
 > [!NOTE]  
 > Reiturinn**lotunr.** er auður á eftirspurnarlínum vegna þess að ekki eru tilgreind lotunúmer í íhlutalínum losaðrar framleiðslupöntunar.
 
-##### <a name="reservation-entry-with-number-57"></a>Frátekningarfærsla með númer 57
+##### Frátekningarfærsla með númer 57
 
 Úr sölueftirspurninni í töflu 37, Sölulína, er rakning pöntunar tengja stofnuð fyrir framboðið í töflu 5406, Framl.pöntunarlína.  **Í reitnum Staða** frátekningar er Frátekning og í reitnum **Binding** er Pöntun-eftir pöntun. Það er vegna þess að útgefna framleiðslupöntunin var mynduð sérstaklega fyrir sölupöntunina og verður að vera tengd ólíkt rakningartenglum pöntunar með frátekningarstöðuna Rakning, sem er stofnuð og breytt kviklega.
 
@@ -405,11 +405,11 @@ Bóka heildarmagn útistandandi sem aðeins afhent.
 
 Upplýsingar um stöðuna í töflunni 337 birtast í eftirfarandi mynd.
 
-##### <a name="reservation-entries-with-number-55-and-56"></a>Frátekningarfærslur með númer 55 og 56
+##### Frátekningarfærslur með númer 55 og 56
 
 Rakningarfærslur pantana fyrir loturnar tvær íhlutsins sem endurspegla eftirspurn í töflu 5407 er breytt úr frátekningarstöðu Rakningar í Umframmagn. Ástæðan er að birgðirnar sem greiðslan var tengd við áður, í töflu 32, hafa verið notaðar af sendingu á millifærslupöntuninni. Raunverulegur afgangur, eins og í þessu tilfelli, endurspeglar umframframboð eða eftirspurn sem helst órakin. Það er vísbending um ójafnvægi á pöntunarnetinu, sem mun mynda aðgerðarboð af áætlunarkerfinu nema það sé leyst með gagnvirkni.
 
-##### <a name="reservation-entry-numbers-59-to-63"></a>Frátekningarfærslunúmer 59 til 63
+##### Frátekningarfærslunúmer 59 til 63
 
 Þar sem tvær lotur íhlutarins eru bókaðar í millifærslupöntunina sem afhentar en ekki mótteknar eru allar tengdar jákvæðar rakningarfærslur pöntunar af frátekningartegundinni Umframmagn sem gefur til kynna að þeim sé ekki úthlutað á neina eftirspurn. Ein færsla tengist töflu 5741, Millifærslulínu fyrir hvert lotunúmer og eina færslu sem tengist birgðafærslunni í millifærslustaðnum þar sem vörurnar eru nú til.
 
@@ -434,21 +434,21 @@ Glugganum Vörurakning er lokað.
 
 Upplýsingar um stöðuna í töflunni 337 birtast í eftirfarandi mynd.
 
-##### <a name="reservation-entries-with-numbers-68-and-69"></a>Frátekningarfærslur með tölurnar 68 og 69
+##### Frátekningarfærslur með tölurnar 68 og 69
 
 Þar sem íhlutaþörfinni hefur verið breytt í birgðageymsluna BLÁTT og framboðið er tiltækt sem birgðafærslur í birgðageymslunni BLÁTT eru allar pöntunarrakningarfærslur fyrir lotunúmerin tvö nú að fullu raktar, gefið til kynna með frátekningarstöðunni Rakning. Lotunúmerin eru ekki útfyllt í reitnum **Lotunr.** á móti eftirspurninni í töflu 5406, **Framleiðslupöntunarlína**, þar sem við tilgreindum ekki lotunúmer fyrir íhlutinn í útgefnu framleiðslupöntuninni.
 
-##### <a name="reservation-entries-with-numbers-70-and-71"></a>Frátekningarfærslur með tölurnar 70 og 71
+##### Frátekningarfærslur með tölurnar 70 og 71
 
 Færslur með frátekningarstöðuna Viðfang eru myndaðar í töflu 337. Ástæðan er sú að báðum lotunúmerum er úthlutað á móti íhlutnum í notkunarbókinni, en færslubókin hefur ekki verið bókuð.
 
 Svona lýkur hlutanum hvernig rakningarfærslur pantana í **töflunni Frátekningarfærsla** eru myndaðar, þeim breytt og þeim eytt þegar margar aðgerðir eru notaðar ásamt millifærslupöntunum.
 
-### <a name="planning-calculated-1"></a>Áætlun reiknuð
+### Áætlun reiknuð
 
-Þegar áætlunaraðgerðir eru notaðar, þ.e. Innkaupatillögublað **, Áætlunarvinnublað** eða **Pantanaáætlun**, er hugsanlegt að **frátekningarfærslum** í töflunni Frátekningarfærsla **337 sé breytt eða bætt við eftir áætlunartillögunni sem rökmálið**  gefur Microsoft Dynamics NAV upp. Dæmi 3 mun nota **Endurpöntunarstefnupöntun** með **framleiðslustefnunni** Make-to Order fyrir framleidda vöru. Íhluturinn notar **Endurpöntunarstefnuna** Fast endurpöntunarmagn.
+Þegar áætlunaraðgerðir eru notaðar, þ.e. Innkaupatillögublað **, Áætlunarvinnublað** eða **Pantanaáætlun**, er hugsanlegt að **frátekningarfærslum** í töflunni Frátekningarfærsla **337 sé breytt eða bætt við eftir áætlunartillögunni sem rökmálið**  gefur [!INCLUDE[prod_short](includes/prod_short.md)] upp. Dæmi 3 mun nota **Endurpöntunarstefnupöntun** með **framleiðslustefnunni** Make-to Order fyrir framleidda vöru. Íhluturinn notar **Endurpöntunarstefnuna** Fast endurpöntunarmagn.
 
-#### <a name="example-3"></a>Dæmi 3
+#### Dæmi 3
 
 1. Á **spjaldinu**  Uppsetning framleiðslu **er Íhlutur á staðnum** RAUÐUR frá fyrra dæmi.
 2. Stofna nýja yfireining vöru 70061. Eftirfarandi reitir eru stilltir:
@@ -485,7 +485,7 @@ Framleiðsluuppskriftinni er úthlutað á yfireining vöru 70061.
 
 Eftirfarandi áætlunartillögur eru gefnar.
 
-Fyrsta áætlunartillagan er að stofna nýja áætlaða framleiðslupöntun til að útvega útistandandi eftirspurn sölupöntunarinnar fyrir magn 40 í yfireining Vöru 70061. Farið yfir rakningu pantana og Microsoft Dynamics NAV birtir útistandandi sölupöntun. Pöntunarrakning er virk þegar áætlunarvélin myndar hana.
+Fyrsta áætlunartillagan er að stofna nýja áætlaða framleiðslupöntun til að útvega útistandandi eftirspurn sölupöntunarinnar fyrir magn 40 í yfireining Vöru 70061. Farið yfir rakningu pantana og [!INCLUDE[prod_short](includes/prod_short.md)] birtir útistandandi sölupöntun. Pöntunarrakning er virk þegar áætlunarvélin myndar hana.
 
 Önnur línan er að koma með Birgðir fyrir ofan endurpöntunarmark (25). Að teknu tilliti til Endurpöntunarmagns (50) er magnið 50 einingar lagt til í áætlunargrunninum. Þriðja línan er að færa Birgðir í öryggisbirgðastig (10).
 
@@ -497,17 +497,17 @@ Reiturinn **Staða** frátekningar er Frátekning og Binding eftir pöntun er st
 
 Eftirspurnin upp á 40 einingar á móti reitnum **Upprunakenni** er sölupöntunarnúmerið 1005 og tegund uppruna er *taflan Tegund* uppruna 37. Frátekningarfærslan er samstillt áætlunartillögunni, Tilv.nr. upprunatilv. 10000, upprunakenni er ÁÆTLUN og Tegund uppruna er *taflan Innkaupatillögulína* 246. Svo það er staða milli eftirspurnar úr sölupöntuninni og það er birgðir sem áætlunarvélin leggur til.
 
-##### <a name="reservation-entry-numbers-73-and-74"></a>Frátekningarfærslunúmer 73 og 74
+##### Frátekningarfærslunúmer 73 og 74
 
 Með keyrslunni Reikna áætlun verða til næstu fjórar færslur með frátekningarstöðuna Rakning vegna stillingar endurpöntunarstefnunnar Fast endurpöntunarmagn fyrir íhlutinn. Nauðsynlegt framboð fyrir íhlut vara 70062 er fyllt á samkvæmt áætlunartillögunum sem gefnar eru, Tilv. upprunatilv. nr. 20000 og 30000, með upprunakenni stillt á ÁÆTLUN og Tegund uppruna úr *innkaupatillögulínu* töflu 246. Íhlutaþörfin er stofnuð til að uppfylla eftirspurnina á móti yfireining Vöru 70061 fyrir heildarmagn (stofn) 40. Reiturinn **Upprunaframl.pöntunarlína** er 10000 með tegund uppruna töfluna *Íhlutaþörf* 99000829.
 
 Frátekningarstaðan er ekki Umframmagn þar sem pöntunarrakning er á milli eftirspurnar yfireining vöru 70061 og framboðs á vöruíhlut 70062.
 
-##### <a name="reservation-entry-numbers-75-and-76"></a>Frátekningarfærslunúmer 75 og 76
+##### Frátekningarfærslunúmer 75 og 76
 
 Síðustu tvær færslurnar hafa frátekningarstöðuna Umframmagn þar sem þær eru Órakið magn sem er myndað á áætlunarvinnublaðinu sem tengist endurpöntunarfæribreytunum Endurpöntunarmark og Endurpöntunarmagn.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .  
 [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)   

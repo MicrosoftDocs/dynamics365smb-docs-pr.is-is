@@ -1,22 +1,22 @@
 ---
-title: Setja upp óinnleystan virðisaukaskatt
+title: Setja upp áætlaðan virðisaukaskatt
 description: Ef þú ert að nota bókhaldsreikning getur þú tilgreint hvernig á að meðhöndla óinnleyst virðisaukaskatt vegna sölu og kaupa.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé
+# Setja upp áætlaðan VSK fyrir sjóðstengt bókhald
 
-Ef þú ert að nota reikningsskilaaðferðir í reiðufé, getur þú sett upp [!INCLUDE[prod_short](includes/prod_short.md)] til að takast á við óinnleystan virðisaukaskatt.
+Ef notaðar eru sjóðstengdar bókhaldsaðferðir er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að meðhöndla áætlaðan VSK.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
+## Nota fjárhagsreikninga fyrir óinnleystan virðisaukaskatt
 
 Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en þetta er hægt þarf að ljúka við [VSK-bókunargrunninn](finance-setup-vat.md).
 
@@ -31,7 +31,7 @@ Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum s
 | Valkostur | Lýsing |
 | --- | --- |
 | Autt | Veldu þennan valkost ef þú vilt ekki nota óinnleystur virðisaukaskatt. |
-| prósentu | Greiðslur nær bæði virðisaukaskatti og reikningsupphæðinni í hlutfalli við hlutfall greiðslunnar af því sem eftir er af reikningnum. Greiddur virðisaukaskattur er fluttur frá óinnleyst VSK reikningi til áttaðs VSK reikning. |
+| Prósenta | Greiðslur ná bæði til VSK og reikningsupphæðar í réttu hlutfalli við greiðsluprósentu þeirrar reikningsupphæðar sem eftir stendur. Greiddur virðisaukaskattur er fluttur frá óinnleyst VSK reikningi til áttaðs VSK reikning. |
 | Fyrsta | Greiðslur ná fyrst yfir virðisaukaskatt og síðan reikningsupphæðir. Þegar svo vill til verður upphæð sem flutt er af reikningi áætlaðs VSK á VSK-reikning jöfn upphæð greiðslu uns VSK er greiddur að fullu. |
 | Síðasta | Greiðslur taka fyrst til reikningsupphæðar og síðan VSK. Í þessu tilviki verður engin upphæð flutt úr óreiknuðu virðisaukaskatti til VSK reiknings þar til heildarfjárhæð reikningsins, án virðisaukaskatts, hefur verið greiddur. |
 | Fyrst (fullgreitt) | Greiðslur munu ná til virðisaukaskatts fyrstu (eins og valkosturinn _Fyrst_) en engin upphæð verður flutt á VSK reikning fyrr en heildarupphæð virðisaukaskatts hefur verið greidd. |
@@ -46,7 +46,7 @@ Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum s
 > [!NOTE]  
 > VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn fyrir innskatt.
 
-## <a name="see-also"></a>Sjá einnig
-[Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)
+## Sjá einnig .
+[Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

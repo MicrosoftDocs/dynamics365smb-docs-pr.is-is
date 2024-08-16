@@ -1,16 +1,17 @@
 ---
-title: Stofna kostnaðaráætlanir
-description: Í þessu efnisatriði er að finna yfirlit yfir hvar skal stofna og greina kostnaðaráætlanir. Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag.
+title: Stofnun kostnaðaráætlana
+description: Þessi grein veitir yfirlit yfir hvar á að stofna og greina kostnaðaráætlanir. Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
+
+# Stofnun kostnaðaráætlana
 
 Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag. Kostnaðaráætlun er stofnuð á grundvelli kostnaðartegund, rétt eins og áætlun fyrir fjárhag er stofnuð á grundvelli fjárhagsreiknings.  
 
@@ -26,7 +27,7 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 |Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
 [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)  
