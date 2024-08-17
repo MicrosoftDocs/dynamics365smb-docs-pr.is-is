@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central aðgangur með Microsoft 365 leyfi
+# Business Central aðgangur með Microsoft 365 leyfi
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notendum er úthlutað Dynamics 365 Business Central leyfi sem gerir þeim kleift að skoða, breyta og bregðast við viðskiptagögnum sínum úr hvaða notandaviðmóti sem er. Fyrir alla aðra starfsmenn fyrirtækisins sem þurfa aðeins að skoða gögn af og til býður Business Central upp á aðgang í gegnum Microsoft 365.  
 
 Þegar fyrirtæki er bæði með Microsoft 365 og Dynamics 365 Business Central áskrift geta stjórnendur grunnstillt umhverfi til að virkja aðgang með Microsoft 365 leyfum og valið nákvæmlega hvaða töflur og aðrir hlutir þessi notandi fær aðgang að. Þegar grunnstillt er geta starfsmenn sem hafa Microsoft 365 leyfi en ekkert [!INCLUDE [prod_short](includes/prod_short.md)] leyfi skoðað [!INCLUDE [prod_short](includes/prod_short.md)] færslur sem deilt er með þeim í Microsoft Teams spjalli og rásum.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Af hverju að virkja aðgang með Microsoft 365 leyfum
+## Af hverju að virkja aðgang með Microsoft 365 leyfum  
 
 - Opnið á aðalgögn sem allir starfsmenn í fyrirtækinu eiga að hafa aðgang að.
 
@@ -31,11 +31,11 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 - Bætið gagnaöryggi með því að draga úr þörfinni á því að líma skjáúrklippur úr viðskiptagögnum út fyrir mörk gagnaumsjónar.
 
-## <a name="use-rights"></a>Notkunarréttindi
+## Notkunarréttindi
 
 Þegar einstaklingur [!INCLUDE [prod_short](includes/prod_short.md)] hefur aðgang að með Microsoft 365 leyfi á leyfið notandanum að lesa (en ekki skrifa) [!INCLUDE [prod_short](includes/prod_short.md)] gögn í gegnum einfaldað notandaviðmót í Microsoft Teams. Þessi hluti útskýrir þessi notkunarréttindi og takmarkanir sem hjálpa til við að skipuleggja hvernig á að grunnstilla og fá sem mest út úr þessari getu. Nánari upplýsingar um þessa leyfistegund í samanburði við önnur [!INCLUDE [prod_short](includes/prod_short.md)] leyfi er að finna í handbókinni [Dynamics 365 um leyfisveitingar](https://go.microsoft.com/fwlink/?LinkId=866544).
  
-### <a name="client-access"></a>Aðgangur biðlara
+### Aðgangur biðlara
 
 Notendur eiga rétt á aðgangi [!INCLUDE [prod_short](includes/prod_short.md)] að gögnum í Microsoft Teams. Eftirfarandi tafla tekur saman hver af mismunandi aðferðum við aðgang að þjónustunni [!INCLUDE [prod_short](includes/prod_short.md)] er heimil með þessu leyfi.
 
@@ -48,15 +48,15 @@ Notendur eiga rétt á aðgangi [!INCLUDE [prod_short](includes/prod_short.md)] 
 |Business Central samþættingar við önnur Office-forrit|![Nr.](media/x-icon.png )|
 |Business Central fellt inn í öll önnur forrit |![Nr.](media/x-icon.png )|
 
-### <a name="data-access"></a>Gagnaheimildir
+### Gagnaheimildir
 
 Notendur hafa rétt á að lesa töflugögn en geta ekki gert breytingar, búið til eða eytt færslum. Verkvangurinn [!INCLUDE [prod_short](includes/prod_short.md)] kemur sjálfkrafa í veg fyrir að allar gagnatöflur skrifist.  
 
-### <a name="use-of-objects"></a>Notkun hluta
+### Notkun hluta
 
 Aðgangur með Microsoft 365 leyfum takmarkar ekki hvaða Business Central-hlutir eða svið er hægt að nálgast. Notendur eiga rétt á að fá aðgang að grunnforriti Microsoft og öllum viðbótum eins og sérsniðum og viðbótarforritum.
 
-## <a name="simplified-user-interface"></a>Einfaldað notandaviðmót
+## Einfaldað notandaviðmót
 
 Notendur eiga rétt á skertum möguleikum og aðgerðum sem veittar eru í [!INCLUDE [prod_short](includes/prod_short.md)]  Microsoft Teams. Töflurnar hér að neðan minnast á athyglisverða eiginleika. Þetta er ekki tæmandi listi og getur breyst.
 
@@ -90,17 +90,17 @@ Eiginleikar forritsins [!INCLUDE [prod_short](includes/prod_short.md)] fyrir tey
 |Innbyggð notendaaðstoð|![Já](media/check.png) |Ábendingar, tenglar á fylgiskjöl|
 |Ítarleg notendaaðstoð |![Nr.](media/x-icon.png )|Fróðlegar ábendingar um síðu og reiti, hjálparsvæði|
 
-## <a name="minimum-requirements"></a>Lágmarkskröfur
+## Lágmarkskröfur
 
 Í þessum hluta er lýst lágmarksskilyrðum sem þarf að uppfylla til fyrirtækisins til að veita aðgang að Microsoft 365 leyfum og fyrir einstaka Microsoft Teams notendur að fá aðgang [!INCLUDE [prod_short](includes/prod_short.md)] að gögnum án leyfis [!INCLUDE [prod_short](includes/prod_short.md)] .
 
-### <a name="requirements-to-enable-access"></a>Kröfur til að virkja aðgang
+### Kröfur til að virkja aðgang
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] (SaaS).
 
 - Umhverfi verður að vera verkvangsútgáfa 21.1 eða nýrri.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Kröfur fyrir einstaka notendur til að fá aðgang að gögnum í Teams
+### Kröfur fyrir einstaka notendur til að fá aðgang að gögnum í Teams
 
 - Nálgast verður gögn með því að nota forritið [!INCLUDE [prod_short](includes/prod_short.md)] fyrir teymi. Notendur verða að hafa forritið [!INCLUDE [prod_short](includes/prod_short.md)] fyrir teymi uppsett og verður að nota einn af studdum teymisbiðlarum. Sjá Lágmarkskröfur fyrir notkun Business Central [!INCLUDE [prod_short](includes/prod_short.md)] fyrir lista yfir teymisbiðlara sem studdir eru af. [...](product-requirements.md#teams)
 
@@ -138,13 +138,13 @@ Eiginleikar forritsins [!INCLUDE [prod_short](includes/prod_short.md)] fyrir tey
 
 - Fyrirtækið verður að vera með a.m.k. einn annan notanda sem fær úthlutað Dynamics 365 Business Central leyfi.
 
-## <a name="next-steps"></a>Næstu skref
+## Næstu skref
 
 - Fáðu skilning á aðgengisflæði notanda til að hjálpa þér að skipuleggja nálgunina þína og grunnstillingu á Business Central til að passa við viðskiptaþarfir þínar. Sjá [Aðgengisflæði notanda](admin-access-with-m365-license-flow.md).
 - Settu upp umhverfið þitt og notendur fyrir aðgang með Microsoft 365 leyfum. Sjá [Setja upp aðgang með Microsoft 365 leyfum ](admin-access-with-m365-license-setup.md).
 - Sjá Business Central úrræðaleit fyrir ábendingar [um úrræðaleit](/troubleshoot/dynamics-365/business-central/welcome-business-central).
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Business Central og Microsoft Teams samþætting](across-teams-overview.md)  
 

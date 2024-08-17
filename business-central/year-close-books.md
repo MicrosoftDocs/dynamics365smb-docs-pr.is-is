@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="closing-the-books"></a>Bókum lokað
+# Bókum lokað
 Þegar búið er að ganga úr skugga um að allir reikningar séu uppfærðir og búið er að úthluta kostnaði og tekjum, má loka bókunum fyrir reikningsárið eða tímabilið.
 
 Það er ekki nauðsynlegt að loka ári en það gerir það auðveldar notendum að nýta þá hentugu afmörkunarvalkosti sem eru í boði. Ekki þarf að óttast að missa færslugögn þegar lokað er því allar upplýsingar eru geymdar, einnig eftir að árinu hefur verið lokað.
 
-## <a name="closing-book-process"></a>Lokunarbókarferli
+## Lokunarbókarferli
 Ferli þess að loka bókum felur í sér þessi aðalverk:
 
 1. Lokun reikningstímabilsins.
@@ -39,7 +39,7 @@ Ferli þess að loka bókum felur í sér þessi aðalverk:
 
     Nánari upplýsingar, sjá [Bóka lokunarfærslu](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Hvað gerist þegar þú lokar
+## Hvað gerist þegar þú lokar
 
 Þegar reikningum er lokað í lok árs færir kerfið hagnað úr reiknuðum hagnaði yfir á reikninginn Óráðstafað eigið fé. Kerfið merkir einnig reikningsárið sem „lokað“ og allar síðari færslur í lokaða árinu sem „færslur fyrra árs“.
 
@@ -47,7 +47,7 @@ Kerfið býr þá til lokunarfærslu en bókar færsluna ekki sjálfkrafa. Notan
 
 Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings ef keyrslan Loka rekstrarreikningi er keyrð aftur síðar.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna við reikningstímabil og reikningsár](finance-accounting-periods-and-fiscal-years.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

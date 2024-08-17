@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndlun birgða- og framleiðslukostnaðar
+# Meðhöndlun birgða- og framleiðslukostnaðar
 
 Þótt margar aðgerðir kostnaðarbókhalds séu sýndar í undirliggjandi ferlum án notendasamskipta, svo sem færslujöfnun og sjálfvirk kostnaðarleiðrétting, eru margir reitir, síður og skýrslur ætlaðir notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
 
@@ -30,7 +30,7 @@ ms.reviewer: bholtorf
 |Afturkalla handvirkt birgðajöfnunarfærslu eða setja aftur upp birgðafærslur sem forritið bjó til.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Nota skal reitinn **Jafnað frá færslu** í birgðabókinni til að stofna handvirkt fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið.|[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)    
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)    

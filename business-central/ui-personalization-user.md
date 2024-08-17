@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 07/26/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Sérsníða vinnusvæðið
+# Sérsníða vinnusvæðið
 
 Þú getur sérstillt vinnusvæðið þitt þannig að það falli betur að vinnunni og óskum þínum. Breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Sérstilling hefur aðeins áhrif á vinnusvæðið. Það breytir ekki vinnu annarra. Hægt er að sérstilla allar gerðir síðna, þar á meðal síðuna [Mitt hlutverk](ui-change-basic-settings.md#role-center) .
 
@@ -27,7 +27,7 @@ Hægt er að gera ýmsar breytingar, svo sem að færa eða fela reiti, dálka, 
 > Stjórnendur geta breytt sömu útliti og notendur með því að sérstilla forstillingu (hlutverk) sem hægt er að úthluta mörgum notendum. Til að fá nánari upplýsingar um síður hlutverka er farið í [Sérstilla síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
 Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
 
-## <a name="video-and-training"></a>Myndband og þjálfun
+## Myndband og þjálfun
 
 Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsníða hlutverkamiðstöð notanda.
 
@@ -35,7 +35,7 @@ Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsní�
 
 Til að [þjálfa á netinu er farið í Sérstilling viðmóts Microsoft Dynamics 365 Business Central](/training/modules/personalize-ui-dynamics-365-business-central/).
 
-## <a name="change-the-width-of-a-column"></a>Breyta breidd á dálki
+## Breyta breidd á dálki
 
 Þú getur auðveldlega breytt stærð dálka á hvaða lista sem er. Dragðu bara mörkin milli tveggja dálka til vinstri eða hægri.  
 
@@ -44,7 +44,7 @@ Til að [þjálfa á netinu er farið í Sérstilling viðmóts Microsoft Dynami
 
 Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd dálks geymdar á reikningnum þínum og fylgja þér, sama hvaða tæki þú notar til að skrá þig inn.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Hefja sérstillingu með því að nota sérstillingarstillinguna
+## Hefja sérstillingu með því að nota sérstillingarstillinguna
 
 1. Opna skal síðuna sem á að sérsníða.
 1. Í efra hægra horninu skaltu velja táknið ![Stillingar.](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
@@ -62,7 +62,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 
 Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Hvað er hægt að sérstilla
+## <a name="What"></a> Hvað er hægt að sérstilla
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
@@ -79,7 +79,7 @@ Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|[Fræðast meira um bókamerkingarsíður og skýrslur](ui-bookmarks.md)|
 |Byrja alltaf að birta listann sem stækkaðan eða dreginn saman|Veldu hnappinn **Stækka allt** eða **Draga allt saman** efst í vinstra horni listans. Einnig er hægt að velja aðgerðina **Stækka allt** eða **Draga allt saman** í valmynd fyrsta dálksins. |Á við um stiveldislista sem hægt er að fella saman|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Sérstilla aðgerðaslá og valmyndir
+## <a name="Actions"></a> Sérstilla aðgerðaslá og valmyndir
 
 Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða.
 
@@ -98,7 +98,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 > [!NOTE]  
 > Til að hreinsa sérstillingu skal velja örvahausinn utan um hönnuðarvalmynd hlutans og velja **svo Hreinsa sérstillingu**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Fjarlægja, fela og sýna aðgerðir og aðgerðahópa
+### Fjarlægja, fela og sýna aðgerðir og aðgerðahópa
 
 Þegar ætlunin er að sýna eða fela aðgerð skilgreina valkostirnir fyrir neðan örvaroddinn hvað sé hægt að gera miðað við ástand aðgerðarinnar. 
 
@@ -111,7 +111,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 |**Fela**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn er ekki staðsettur á neinum öðrum stað í yfirlits- eða aðgerðarstikunni.  **Ef** þessi valkostur er valinn hverfa aðgerðin eða aðgerðahópurinn af yfirlitsstikunni eða aðgerðastikunni. Í sérstillingarstillingu er aðgerðin eða aðgerðaflokkurinn enn sýndur í núverandi stöðu, nema að hann birtist deyfður.|
 |**Sýna**|Þessi valkostur birtist ef aðgerðin eða aðgerðaflokkurinn er falinn (deyfður). Ef þessi kostur er valinn birtist aðgerðin eða aðgerðahópurinn á yfirlitsstikunni eða aðgerðaslánni.|
 
-### <a name="move-actions-and-action-groups"></a>Færa aðgerðir og aðgerðahópa
+### Færa aðgerðir og aðgerðahópa
 
 Þar sem þú getur sleppt aðgerðum eða aðgerðahópum er það gefið í skyn með láréttri línu milli tveggja aðgerða eða ramma utan um aðgerðahóp. Eftirfarandi takmarkanir eru til staðar:
 
@@ -121,7 +121,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
 2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
-### <a name="about-the-automate-menu"></a>Um valmyndina Sjálfvirkt
+### Um valmyndina Sjálfvirkt
 
 - Ekki er hægt að fela eða færa **valmyndina Sjálfvirkt** eða **Power Automate** undirvalmynd og aðgerðir hennar.
 - Þú getur flutt innifalin flæði undir atriðið **Sjálfvirkni**, en ekki er hægt að fela þau með sérstillingu. Ef flæðið er fært er flæðið afritað á áfangastaðarstað fjarlægir það það ekki úr vörunni **Sjálfvirkt** .
@@ -129,7 +129,7 @@ Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og 
 > [!TIP]
 > Sem stjórnandi getur þú falið atriðið **Sjálfvirkni** fyrir notendum. Frekari upplýsingar er að finna á [Setja upp Power Automate samþættingu](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Sérstilla hluta
+## <a name="Parts"></a> Sérstilla hluta
 
 Bent er á eða valið <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> Varahlutir eru svæði á síðu sem eru yfirleitt settir saman úr mörgum reitum, myndritum eða öðru efni. Hluti sýnir litaðan ramma þegar þú fókusar á hlutann. Til dæmis er heimaskjár hlutverkamiðstöðvar með marga hluta. Vegna vel skilgreindra marka þeirra er hægt að sérsníða allan hlutann og innihald hans.
 
@@ -139,7 +139,7 @@ Bent er á eða valið <kbd>Alt</kbd>+<kbd>Up Arrow</kbd> Varahlutir eru svæði
 
 Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan einstaks hlutar með því að velja valkostinn **Hreinsa sérstillingar** undir örvaroddi hlutans. Hreinsun sérstillinga á hluta hefur aðeins áhrif á breytingar á innihaldi þess hlutar, ekki staðsetningu eða sýnileika hlutans á síðunni.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Vinna með reiti og dálka
+## <a name="fields"></a> Vinna með reiti og dálka
 
 Þegar síða er sérstillt er reiturinn **Bæta við síðusvæði** notaður til að taka með reiti eða dálka á síðunni sem eru faldir úr yfirliti. Til að opna þetta svæði skal velja aðgerðina **+ Reitur**, efst á síðunni. Ólíkt öðrum falnum einingum eru faldir reitir ekki tilgreindir á síðunni sjálfri í sérstillingarstillingu. Hins vegar er hægt að auðkenna falda reiti með því að nota reitinn **Bæta við síðusvæðið** .
 
@@ -154,7 +154,7 @@ Hér eru nokkrar almennar leiðbeiningar sem fylgja skal þegar reiturinn **Bæt
 - Reitirnir sem tiltækir eru á **svæðinu Bæta við síðusvæði** ákvarðast af forritara síðunnar og upprunatöflu hennar eða stjórnanda forstillingar sem hefur [sérsniðið síðuna](ui-personalization-manage.md). Ekki er hægt að stofna nýjar.
 - Sumar síður hafa marga síðureiti sem varpa á sömu upprunatöflu. Á svæðinu sjást hvoru tveggja síðureitirnir eru hvoru í sínu lagi. Það er einnig sjálfstætt að sýna/fela/hreyfa þá reiti er einnig óháð án þess að annar hefur áhrif á hinn.
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Bæta við reit svo að hann birtist á síðunni
+### Bæta við reit svo að hann birtist á síðunni
 
 Frá **Bæta við reit á síðusvæði** eru tvær leiðir til að taka með reit sem er falinn á síðunni:
 
@@ -164,7 +164,7 @@ Frá **Bæta við reit á síðusvæði** eru tvær leiðir til að taka með re
 > [!NOTE]
 > Suma reiti sem bætt er við er ekki hægt að breyta á síðunni þegar sérstillingu er lokið. Þessir reitir eru annaðhvort hannaðir með þessum hætti eða stjórnandi [sérsniðið](ui-personalization-manage.md) síðuna til að koma í veg fyrir að hægt sé að breyta þeim.
 
-## <a name="clear-personalization"></a>Hreinsa sérstillingar
+## Hreinsa sérstillingar
 
 Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina.
 
@@ -181,7 +181,7 @@ Frá **Bæta við reit á síðusvæði** eru tvær leiðir til að taka með re
 |**Aðeins reitir og dálkar**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á síðunni nema þær sem eru á yfirlits- eða aðgerðarstikunni. Slíkar breytingar fela í sér breytingar á reitum, dálkum, hlutum og svæðum. |
 |**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Slíkar breytingar fela í sér breytingar á yfirlits- og aðgerðarstikum, reitum, dálkum og pörtum.|
 
-## <a name="tips-and-other-points-of-interest"></a>Ábendingar og aðrir áhugaverðir punktar
+## Ábendingar og aðrir áhugaverðir punktar
 
 Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 
@@ -192,7 +192,7 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 - Sumar síður hafa marga síðureiti sem varpa á sömu upprunatöflu. Á svæðinu sjást hvoru tveggja síðureitirnir. Það er einnig sjálfstætt að sýna/fela/hreyfa þá reiti er einnig óháð án þess að annar hefur áhrif á hinn.
 - Ef hluti eða hópur er falinn sýna draugareitir inni í honum en ekki er hægt að draga fellilistann eða bæta við/sýna þann reit fyrr en hópurinn/hlutinn birtist.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

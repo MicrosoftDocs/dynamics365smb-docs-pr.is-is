@@ -11,7 +11,7 @@ ms.search.form: 7214_Primary
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="integrate-with-microsoft-dataverse-via-data-sync"></a>Samþætta við Microsoft Dataverse með samstillingu gagna
+# Samþætta við Microsoft Dataverse með samstillingu gagna
 
 Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í eitt safn af rökfræði sem auðveldar tengingu við [!INCLUDE[prod_short](includes/prod_short.md)] önnur Dynamics 365 forrit. Til dæmis, [!INCLUDE[crm_md](includes/crm_md.md)]  eða eigin forrit byggt á [!INCLUDE[prod_short](includes/cds_long_md.md)]. Til að fræðast meira um [!INCLUDE[prod_short](includes/cds_long_md.md)] er farið í [Hvað er Dataverse](/powerapps/maker/common-data-service/data-platform-intro)?.
 
@@ -26,19 +26,19 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="get-started-with-"></a>Hafist handa við [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Hafist handa við [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Til að byrja með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarftu reikning Microsoft Power Apps . Ef þú ert ekki þegar með Power Apps reikning getur þú fengið einn ókeypis með því að [heimsækjapowerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja **Að byrja ókeypis**  tengja. Til að fræðast meira um hvernig hafist er handa er [!INCLUDE[prod_short](includes/cds_long_md.md)] hafist handa með [því að fara í eininguna Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) í Microsoft-þjálfuninni.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Samstilling tvístefnulegra eða uni-stefnumiðaðra gagna
+## Samstilling tvístefnulegra eða uni-stefnumiðaðra gagna
 
 Hægt er að samstilla gögn annaðhvort til eða frá einu Dynamics 365 viðskiptaforriti til annars eða í báðar áttir í nánast rauntíma, í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ef t.d. er samþætt [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] getur sölumaður stofnað sölupöntun í [!INCLUDE[crm_md](includes/crm_md.md)] og pöntunin samstillt við [!INCLUDE[prod_short](includes/prod_short.md)]. Samt sem á móti [!INCLUDE[crm_md](includes/crm_md.md)] getur sölumaðurinn kannað ráðstöfunarmagn vörunnar í pöntuninni í [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## <a name="standard-and-custom-entities"></a>Staðlaðar og sérsniðnar einingar
+## Staðlaðar og sérsniðnar einingar
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] geymir gögn á öruggan hátt í einingatöflum, sem eru safn af færslum sem svipar til hvernig tafla geymir gögn í gagnagrunni. [!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur grunnsafn staðlaðra tafla sem ná yfir dæmigerðar aðstæður, en einnig er hægt að búa til sérsniðnar töflur sem miðast að fyrirtækinu þínu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að skoða staðlaðar og sérsniðnar töflur sem eru samstilltar á síðunni „Vörpun samþættingartöflu“.
 
-## <a name="about-the-business-central-base-integration-solution"></a>Um grunnsamþættingarlausn Business Central
+## Um grunnsamþættingarlausn Business Central
 
 Grunnsamþættingarlausnin er lykilþáttur samþættingarinnar. Lausnin bætir við nauðsynlegum hlutverkum og aðgangsstigum að notandareikningum fyrir samþættinguna og býr til töflur sem þarf til að varpa [!INCLUDE[prod_short](includes/prod_short.md)] fyrirtæki í viðskiptaeiningu í [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -57,7 +57,7 @@ Auk sérstillinga [!INCLUDE [cds_long_md](includes/cds_long_md.md)] stofnar laus
 
 Þegar tengingin er sett upp eru búnar til samþættingartafla vörpun sem þarf til að samstilla gögn. Einingum í er varpað á [!INCLUDE[prod_short](includes/cds_long_md.md)] töflur og töflureiti í [!INCLUDE [prod_short](includes/prod_short.md)] með samþættingartöflum. Nánari upplýsingar um vörpun fást með því að [fara í Staðlaða einingu vörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="handle-differences-in-local-and-base-transaction-currencies"></a>Meðhöndla mismun í staðbundnum gjaldmiðlum og grunnfærslum
+## Meðhöndla mismun í staðbundnum gjaldmiðlum og grunnfærslum
 
 Hægt er að [!INCLUDE[prod_short](includes/cds_long_md.md)] tengja við umhverfi sem er með annan grunngjaldmiðil en staðbundinn gjaldmiðill í [!INCLUDE[prod_short](includes/prod_short.md)]. Tenging er gerð á [!INCLUDE[prod_short](includes/prod_short.md)] síðunni **Dataverse Uppsetning** tengingar eða með því að nota **Setja upp tengingu til uppsetningarleiðsagnar Dataverse** með aðstoð.
 
@@ -72,13 +72,13 @@ Gjaldmiðilssamstilling er einstefnuleg, allt frá [!INCLUDE [prod_short](includ
 * Upphæðir í grunngjaldmiðlinum [!INCLUDE[prod_short](includes/cds_long_md.md)] breytast [!INCLUDE [prod_short](includes/prod_short.md)]  í staðbundinn gjaldmiðill byggðar á því gengi sem síðast var samstillt úr [!INCLUDE [prod_short](includes/prod_short.md)].
 * Upphæðir í [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinn gjaldmiðill samstilla við [!INCLUDE [prod_short](includes/prod_short.md)]  staðbundinn gjaldmiðill í öðrum (óstofnuðum) gjaldmiðlum í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="what-happens-when-you-copy-a-company"></a>Hvað gerist þegar fyrirtæki er afritað
+## Hvað gerist þegar fyrirtæki er afritað
 
 Hægt er að afrita fyrirtæki sem eru samþætt [!INCLUDE[prod_short](includes/cds_long_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)] á öruggan hátt. Afritun fyrirtækja dregur úr hættu á ósamræmi í gögnum og getur sparað verðmætasköpun. Til að [fræðast meira um afritun fyrirtækja er farið í Afrita fyrirtæki](about-new-company.md#copy-a-company).
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Gagnaeignarhaldslíkön](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

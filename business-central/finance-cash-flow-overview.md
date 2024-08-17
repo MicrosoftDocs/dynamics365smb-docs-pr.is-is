@@ -12,15 +12,15 @@ ms.date: 07/31/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="cash-flow-overview"></a>Yfirlit sjóðstreymis
+# Yfirlit sjóðstreymis
 
 Skilningur á innstreymi fjár og innstreymis er lykillinn að því að reka árangursrík fyrirtæki. Hægt er að nota sjóðstreymi til að búa á einfaldan hátt til skammtímaspá sem spáir fyrir um hvernig og hvenær má vænta að fjármunir berist og séu greiddir út af fyrirtækinu. Mikilvægt er að vita að fyrirtækið þitt er með nægt reiðufé til að greiða lánardrottnum og kostnaði þegar þeir eru komnir á gjalddaga.
 
-## <a name="definition-of-cash-flow"></a>Skilgreining sjóðstreymis
+## Skilgreining sjóðstreymis
 
 Hugtakið *Sjóðstreymi* er notað til að tilgreina inngreiðslur að frádregnum útgreiðslum yfir valið tímabil. Það er mat á fjárhæðinni sem búist er við að flæði inn og út úr viðskiptum þínum, og þar með taldar tekjur og útgjöld.
 
-## <a name="work-with-cash-flow"></a>Vinna með sjóðstreymi
+## Vinna með sjóðstreymi
 
 Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjóðstreymi.
 
@@ -39,7 +39,7 @@ Eftirfarandi mynd sýnir yfirlit yfir það hvernig hægt er að vinna með sjó
 - Ef keyrsla er notuð til að flytja upplýsingar úr svæðum í fjárhag, sölu, innkaupum, þjónustu og eignum yfir í vinnublaðið skráirðu vinnublaðalínur til að búa til sjóðsstreymisspá.  
 - Hægt er að nota ýmsar síður, skýrslur og myndrit til að greina og prenta sjóðsstreymisspá sem tengist yfirlitum um ráðstöfunarmagn og tímalínu.  
 
-## <a name="making-a-cash-flow-forecast"></a>Sjóðsstreymisspá gerð
+## Sjóðsstreymisspá gerð
 
 Á grundvelli skráðra vinnublaðslína er hægt að gera reglulega sjóðsstreymisspá. Eftirfarandi útlit er mikið notað fyrir sjóðsstreymisspá. Útlitið hefur þrjá hluta:
 
@@ -67,7 +67,7 @@ Nettó sjóðstreymi eða beingreiðsla er reiknuð sem heildarsjóðstekjur mí
 
 Hægt er að nota spána sem ákvarðanatökuverkfæri sem gerir kleift að skipuleggja og taka mikilvægar stjórnunarákvarðanir um rekstur reksturs.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
 [Greina sjóðsstreymi](finance-analyze-cash-flow.md)  

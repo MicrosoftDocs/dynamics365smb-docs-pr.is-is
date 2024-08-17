@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="delete-cost-budget-entries"></a>Eyða færslum kostnaðaráætlunar
+# Eyða færslum kostnaðaráætlunar
 
 **Eyða kostnaðaráætlunarfærslum** Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.  
 
 Til að koma í veg fyrir eyðingar í kostnaðaráætlunarfærslum og kostnaðardagbókarfærslum er ekki hægt að eyða einni færslu eða færslukeyrslu í miðjum lista dagbókarfærslna.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Til að úthluta kostnaðaráætlunarfærslu
+## Til að úthluta kostnaðaráætlunarfærslu  
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Eyða kostnaðaráætlunarfærslum** og velja síðan viðkomandi tengil.  
 
@@ -29,7 +29,7 @@ Til að koma í veg fyrir eyðingar í kostnaðaráætlunarfærslum og kostnaða
 > [!NOTE]  
 > Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** á síðunni **Fjárhagsáætlunarskrár**.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Bókhald kostnaðar](finance-manage-cost-accounting.md)    
 [Kostnaðaráætlanir stofnaðar](finance-create-cost-budgets.md)    

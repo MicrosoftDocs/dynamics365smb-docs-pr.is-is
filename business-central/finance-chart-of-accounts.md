@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="understanding-the-chart-of-accounts"></a>Að skilja bókhaldslykilinn
+# Að skilja bókhaldslykilinn
 
 Bókhaldslykill (COA) er yfirgripsmikill skráasafn fjárhagsreikninga og samsvarandi tilvísunarnúmer. CoA hefur yfirleitt af tveimur aðalflokkum reikninga:
 
@@ -39,7 +39,7 @@ Samsetning bókhaldslykils fyrirtækisins er stjórnunarleg ákvörðun sem stj�
 * Tæknifyrirtæki gæti einbeitt sér að óáþreifanlegum eignum eins og einkaleyfi og hugbúnaði.
 * Framleiðsluverksmiðja myndi rekja eignir og birgðir.
 
-## <a name="the-chart-of-accounts-page"></a>Síðan Bókhaldslykill
+## Síðan Bókhaldslykill
 
 Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhaldslyklinum geturðu gert hluti eins og:  
 
@@ -51,11 +51,11 @@ Skýringin á reikningum sýnir allar almennar bókhaldsreikningar. Úr bókhald
 
 Þú getur bætt við, breytt eða eytt almennum bókhaldsreikningum. Til að koma í veg fyrir misræmi geturðu þó ekki eytt almennri aðalbókareikning ef gögnin eru notuð í töflureikningi. Einnig er hægt að loka reikningum sem eru óvart lokaðir á viðkvæmum tímabilum. Til að fræðast meira um eyðingu reikninga er farið í [Eyða reikningum](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="the-code-hierarchy-in-gl-accounts"></a>Stigveldi kóta í fjárhagsreikningum
+## Stigveldi kóta í fjárhagsreikningum
 
 Fyrirtæki stofna yfirleitt stigveldisbyggingu í fjárhagsreikningskótum til að endurspegla hvar þau tilheyra bókhaldslyklinum. Til dæmis merkir það að fjárhagsreikningskótar sem byrja á **1** tákna eign reikninga, en fjárhagsreikningskótar sem byrja á 3 eiginfjárreikningum eru til dæmis þeir sem byrja á 3 eiginfjárreikningum. Í sumum svæðum eru reglugerðir um notkun staðlaðs bókhaldslykils. Til að hjálpa notendum að skilja þetta stigveldi án þess að þurfa að þekkja uppbyggingu innri kóta er hægt að skilgreina hausa og millisummur í bókhaldslyklinum sem opna þessar innri samsetningar.
 
-## <a name="designing-your-chart-of-accounts"></a>Hönnun bókhaldslykils
+## Hönnun bókhaldslykils
 
 Hver lína í bókhaldslyklinum er fjárhagsreikningur einnar af tegundunum:
 
@@ -70,17 +70,17 @@ Hver lína í bókhaldslyklinum er fjárhagsreikningur einnar af tegundunum:
 > [!TIP]
 > Ef aðrar reikningstegundir en **Bókun** í bókhaldslyklinum eru notaðar er hægt að skilgreina mismunandi yfirlit til að sýna "hráa" bókunarreikningana án reikningstegunda skýrslugerðar fyrir samtölur og fyrirsagnir. Til dæmis, Sýna aðeins bókunarreikninga og fela reikninga sem lokað hefur verið á.
 
-## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Nota víddir til að einfalda bókhaldslykilinn
+## Nota víddir til að einfalda bókhaldslykilinn
 
 Víddir eru gildi sem flokka færslur svo þú getir fylgst með og greint þær í skjölum, t.d. sölupöntunum. Víddir geta til dæmis gefið í skyn verkið eða deildina sem færsla koma frá. Í stað þess að setja upp sérstaka aðalbókarreikninga fyrir hverja deild og verkefni, getur þú notað víddir sem grundvöll fyrir greiningu og forðast að þurfa að stofna flókna bókhaldslykla.
 
 Hægt er að fræðast meira um víddir með því að fara í [Vinna með víddir](finance-dimensions.md).
 
-## <a name="get-a-quick-overview-of-your-finances"></a>Fáðu snöggt yfirlit yfir fjármálin
+## Fáðu snöggt yfirlit yfir fjármálin
 
 Á síðu **bókhaldslykla** eru sýndir reikningar í stigveldislista sem býður upp á skjótan aðgang að helstu upplýsingum fyrir hvern reikning. Listinn er hins vegar fastur og ef þú ert með marga reikninga gætirðu þurft að fletta til að skoða mismunandi reikninga. Ef þú vilt aðeins fá fljótlegt yfirlit yfir grunnupplýsingar, t.d. nettóbreytingar og nettóstöður, er síðan **Yfirlit bókhaldslykils** gagnleg leið til þess. Dálkauppsetningin á síðunni er sú sama og á síðunni **Bókhaldslykill** (þó með færri dálkum) þannig að auðvelt er að skilja það. Hægt er að stækka eða fella saman stigveldisstigin. Til að auðvelda að fara á milli síðna er síðan **Yfirlit bókhaldslykils** aðgengileg á síðu **bókhaldslykils**.
 
-## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Aðgangur að því að búa til og breyta bókhaldslykli
+## Aðgangur að því að búa til og breyta bókhaldslykli
 
 Í litlu fyrirtæki eins og CRONUS sýnifyrirtækinu geta flestir notendur breytt bókhaldslyklum nema notendur með TEAM MEMBER-leyfi. Stærri fyrirtæki nota þó yfirleitt hlutverk og heimildir til að takmarka breytingaraðgang að bókhaldslyklum. Ef þú ert umsjónarmaður eða hefur hlutverk viðskiptastjóra eða endurskoðanda er hægt að stjórna notendaheimildum til að veita réttindi fólks aðgang að viðkomandi töflum. Nánari upplýsingar eru notaðar til að [fá yfirlit yfir heimildir](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) notanda.  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## <a name="chart-of-accounts-best-practices"></a>Bestu venjur bókhaldslykils
+## Bestu venjur bókhaldslykils
 
 Hér eru nokkrar bestu venjur sem notandi gæti íhugað þegar bókhaldslyklar eru þróaðir og viðhaldið:
 
@@ -105,7 +105,7 @@ Hér eru nokkrar bestu venjur sem notandi gæti íhugað þegar bókhaldslyklar 
 * Nota víddir til að einfaldra bókhaldslykilinn. Ekki hafa sérstaka fjárhagsreikninga fyrir hverja vöru eða deild.
 * Bæta við nýjum fjárhagsreikningum eftir því sem þeir koma inn, en fjarlægja reikninga aðeins úr bókhaldslykli við lok tímabils.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md)    
 [Skilja fjárhag](finance-general-ledger.md)  

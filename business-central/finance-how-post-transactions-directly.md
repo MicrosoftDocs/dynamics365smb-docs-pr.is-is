@@ -12,7 +12,7 @@ ms.date: 08/06/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bóka færslur beint á fjárhagur
+# Bóka færslur beint á fjárhagur
 
 Nota færslubækur til bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga.  
 
@@ -22,7 +22,7 @@ Færslubækur bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikn
 
 Færslur sem bókaðar eru með fylgiskjölum þurfa kreditreikningsferli. Hins vegar er hægt að bakfæra færslur sem bókaðar eru með færslubókinni. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Að bóka færslu beint í fjárhagsreikning
+## Að bóka færslu beint í fjárhagsreikning
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Færslubækur** og velja síðan viðkomandi tengil.
 2. Færslubókarkeyrslan er opnuð. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
@@ -36,7 +36,7 @@ Færslur sem bókaðar eru með fylgiskjölum þurfa kreditreikningsferli. Hins 
     > Ef færa á inn margar færslulínur á undan efnahagsreikningslínu, til dæmis fyrir einn bankareikning, skal velja **gátreitinn Leggja til mótupphæð** í línunni fyrir keyrsluna á síðunni **Færslubókarkeyrslur** . Reiturinn **Upphæð** í efnahagsreikningslínunni er sjálfkrafa útfylltur með gildinu sem þarf til að jafna færslurnar.
 5. Veljið **Bóka** aðgerðina til að skrá færslurnar á tilteknu fjárhagsreikningana.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Vinna í færslubókum](ui-work-general-journals.md)    
 [Skrá og endurgreiða kostnað starfsmanns](finance-how-record-reimburse-employee-expenses.md)    

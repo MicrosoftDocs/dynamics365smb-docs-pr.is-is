@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="work-with-accounting-periods-and-fiscal-years"></a>Vinna við reikningstímabil og reikningsár
+# Vinna við reikningstímabil og reikningsár
 
 Reikningstímabil, sem einnig eru þekkt sem skýrslutímabil, eru tímabil þar sem fyrirtæki eða stofnun greinir frá fjárhagslegri frammistöðu, t.d. með því að búa til rekstrarreikning eða efnahagsreikning. Venjulega tengjast fjárhagstímabil fjárhagsári fyrirtækis, sem geta innihaldið nokkur fjárhagstímabil, svo sem mánuði eða ársfjórðunga.
 
@@ -21,11 +21,11 @@ Reikningstímabil, sem einnig eru þekkt sem skýrslutímabil, eru tímabil þar
 
 Hægt er að nota reikningstímabil í skýrslugerð, til dæmis þegar farið er yfir bókaðar færslur á síðunni **Staða/fjárhagsáætlun** þar sem skýrslugerðartímabilið er tilgreint. Einn af kostunum sem tilgreindir eru er að tilkynna eftir reikningstímabili. Einnig er hægt að búa til fjárhagsskýrslu sem ber niðurstöður saman fyrir mismunandi reikningstímabil.
 
-## <a name="creating-a-new-fiscal-year"></a>Stofna nýtt fjárhagsár
+## Stofna nýtt fjárhagsár
 
 Hægt er að búa til mörg reikningstímabil saman með runuvinnslunni **Búa til reikningsár** eða handvirkt.
 
-### <a name="how-to-create-accounting-periods-in-bulk"></a>Hvernig á að búa til reikningstímabil í magni
+### Hvernig á að búa til reikningstímabil í magni
 
 Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári niður í tímabil af jafnri lengd.  
 
@@ -36,7 +36,7 @@ Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári ni�
 5. Í reitinn **Lengd tímabils** skal slá inn tímalengd fyrir hvert tímabil. Auðkenni tímalengdar er m.a. 1M fyrir einn mánuð, 1Q fyrir einn fjórðung og 1Y fyrir eitt ár.  
 6. Velja **Í lagi**.  
 
-### <a name="how-to-create-accounting-periods-manually"></a>Hvernig á að stofna reikningstímabil handvirkt
+### Hvernig á að stofna reikningstímabil handvirkt
 
 Ef reikningstímabilin á fjárhagsárinu eru mismunandi löng, eins og 4-4-5 dagatalið sem notað er í smásölu, getur þú sett þau upp handvirkt.  
   
@@ -45,7 +45,7 @@ Ef reikningstímabilin á fjárhagsárinu eru mismunandi löng, eins og 4-4-5 da
 3. Veldu gátreitinn **Nýtt fjárhagsár** til að gefa til kynna að þetta sé fyrsta tímabilið á árinu. [!INCLUDE[prod_short](includes/prod_short.md)] mun nota þetta tímabil til að ákvarða hvaða tímabil skuli loka í árslok.
 4. Endurtakið skref 2 og 3 fyrir hin tímabilin sem eru eftir.  
 
-## <a name="closing-a-fiscal-year"></a>Lokun fjárhagsárs
+## Lokun fjárhagsárs
 
 Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka. Eftir að fjárhagsári er lokað, eru gátreitirnir **Lokað** og **Dags. læst** valdir fyrir öll tímabilin á árinu. Ekki er hægt að opna aftur í ár eða hreinsa gátreitina.
 
@@ -55,11 +55,11 @@ Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka. Eftir að fjárhagsári 
 1. Veldu ![Leita að síðu eða skýrslu.](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.  
 2. Veldu aðgerðina **Loka ári**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bókun færslna á lokað fjárhagsár
+## Bókun færslna á lokað fjárhagsár
 
 Enda þótt fjárhagsár sé lokað er enn hægt að bóka fjárhagsfærslur á það. Þegar það er gert eru færslurnar merktar sem bókaðar á lokað fjárhagsár og gátreiturinn **Fært á fyrra ár** er valinn. Sjálfgefið er að gátreiturinn birtist ekki á síðunni en hægt er að bæta honum við. Næsta skref er að loka rekstrarreikningum og flytja niðurstöður ársins yfir á efnahagsreikning. Endurtaktu þessi skref í hvert skipti sem þú bókar færslur á lokað fjárhagsár.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Bókum lokað](year-close-books.md)    
 [Lokunarár og tímabil](year-close-years-periods.md)    

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="update-standard-costs"></a>Uppfæra staðlað kostnaðarverð
+# Uppfæra staðlað kostnaðarverð
 Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja kostnaðinn saman við yfirvöruna. Ferlið samanstendur yfirleitt af fjórum eftirtöldum skrefum:  
 
 1.  Uppfærslu kostnaðar á íhluta- og afkastagetustigunum. Frekari upplýsingar, sjá **Leggja til staðlaðan vörukostnað** runuvinnslu.  
@@ -21,7 +21,7 @@ Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja
 
 Í [Um útreikning staðlaðs kostnaðar](finance-about-calculating-standard-cost.md) er fjallað nánar um þetta efni.
   
-## <a name="to-update-standard-costs"></a>að uppfæra staðlað kostnaðarverð
+## að uppfæra staðlað kostnaðarverð
 
 1.  Keyrslan **Leiðr. kostnað - Birgðafærslur** er keyrð Keyrslan er ræst með ![því að velja Ljósálgina sem opnar eiginleikann Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Leiðrétta kostnað - Birgðafærslur** og velja síðan viðkomandi tengil. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Niðurstöðurnar eru skoðaðar og breytingar gerðar eftir þörfum.  
 2.  Keyrslan **Bóka birgðakostnað á fjárhag** er keyrð Keyrslan er ræst með ![því að velja Ljósálgina sem opnar eiginleikann Segja mér.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, farðu í **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Niðurstöðurnar eru skoðaðar og breytingar gerðar eftir þörfum.  
@@ -36,7 +36,7 @@ Reglulega verður að uppfæra staðlað kostnaðarverð íhluta og leggja nýja
     7.  Keyrslan **Innleiða breytingu á stöðluðu kostnaðarverði** er keyrð.  
 4.  Skoða og bóka síðuna **Endurmatsbækur** vöru sem hefur verið fyllt með færslum úr fyrri skrefum í þessu ferli.  
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
  [Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)   
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   

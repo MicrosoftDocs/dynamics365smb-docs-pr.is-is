@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="transfer-inventory-between-locations"></a>Flytja birgðir milli birgðageymslna
+# Flytja birgðir milli birgðageymslna
 
 Það er hægt að flytja birgðavörur milli tveggja staða með því að búa til flutningspantanir. Einnig er hægt að nota vöruendurflokkunarbók.
 
 > [!NOTE]
 > Til að flytja vörur verður að setja upp birgðageymslur og flutningsleiðir. Nánari upplýsingar um uppsetningu birgðageymslna eru í [Uppsetning birgðageymslna](inventory-how-setup-locations.md). Ekki er hægt að nota millifærslupantanir fyrir *auðar* birgðageymslur.
 
-## <a name="transfer-orders"></a>Millifærslupantanir
+## Millifærslupantanir
 
 Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á móti millifærslu á innleið. Hægt er að:
 
@@ -28,7 +28,7 @@ Hægt er að afhenda flutning á útleið frá einni birgðageymslu og taka á m
 * Nota mismunandi vöruhúsaaðgerðir fyrir birgðageymslur á innleið og útleið.
 * Nota millifærslupantanir fyrir beinar millifærslur, með nokkrum takmörkunum.
 
-## <a name="item-reclassification-journals"></a>Endurflokkunarbækur birgða
+## Endurflokkunarbækur birgða
 
 Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 
@@ -39,7 +39,7 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
 * Endurflokka vörur frá auðri birgðageymslu í raunverulega birgðageymslu.
 * Stofna vöruhúsafærslur ef vöruhúsaaðgerðum er ekki stjórnað.
 
-## <a name="to-transfer-items-with-a-transfer-order"></a>Vörur fluttar með flutningspöntun
+## Vörur fluttar með flutningspöntun
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Flutningspantanir** og velja síðan viðkomandi tengil.
 2. Fyllt er út í reiti eftir því sem á við á síðunni **Flutningspöntun**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Hægt er að nota síðuna **Endurflokkunarbækur** birgða til að:
     Sem starfsmaður vörugeymslu við flutninginn frá staðsetninginni skaltu halda áfram að fá vörurnar. Millifærslupöntunarlínurnar eru þær sömu og þegar þær eru afhentar og ekki hægt að breyta þeim.
 5. Veldu aðgerðina **Bóka**, veldu **Móttaka** valkostinn og veldu síðan **Í lagi** hnappinn.
 
-### <a name="undo-a-transfer-shipment"></a>Afturkalla millifærsluafhendingu
+### Afturkalla millifærsluafhendingu
 
 Ef mistök finnast í magni í bókuðum millifærslupöntunum ef afhendingin berst ekki er auðvelt að leiðrétta magnið. Á síðunni **Bókuð millifærsluafhending** stofnar aðgerðin **Afturkalla afhendingu** leiðréttingarlínur, eins og hér segir:
 
@@ -76,7 +76,7 @@ Ef afhent magn í vöruhúsaafhendingu er leiðréttingarlína stofnuð í bóku
 
 Til að ljúka leiðréttingunni er millifærslupöntunin opnuð aftur, rétt magn fært inn og pöntunin síðan bókuð. Ef vöruhúsaafhending er notuð til að afhenda pöntunina skal stofna og bóka nýja vöruhúsaafhendingu.
 
-### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bóka margar millifærslupantanir í keyrslu
+### Bóka margar millifærslupantanir í keyrslu
 
 Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrslu.
 
@@ -96,7 +96,7 @@ Eftirfarandi ferli útskýrir hvernig á að bóka millifærslupantanir í keyrs
     > [!NOTE]
     > Bókun á mörgum skjölum gæti tekið nokkurn tíma og lokað á aðra notendur. Íhugaðu að virkja bakgrunnsbókun. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Tímasetja verkraðarfærslu til að bóka mörg skjöl í keyrslu
+### Tímasetja verkraðarfærslu til að bóka mörg skjöl í keyrslu
 
 Einnig er hægt að nota verkröðina til að tímasetja bókun á þeim tíma sem hentar fyrirtækinu. Það gæti til dæmis verið vit í því að reka ákveðnar venjur þegar mest af gagnafærslunni fer fram á daginn.
 
@@ -116,7 +116,7 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka mil
 8. Í reitinn **Upphafstími** er slegið inn **4**.
 9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
 
-### <a name="comparison-of-different-settings-for-transfer-orders"></a>Samanburður á mismunandi stillingum fyrir millifærslupantanir
+### Samanburður á mismunandi stillingum fyrir millifærslupantanir
 
 Hægt er að bóka millifærslupantanir í mismunandi stillingum, með eða án millifærslustaðsetningar. Slökkva á víxl beins **millifærslu** og velja bráðabirgðastaðinn í reitnum **Millifærslukóti** á síðunni **Millifærslupöntun** . Þegar afhending millifærslupöntunar sem notar millifærslustaðinn er bókuð eru vörurnar í línunni ekki lengur tiltækar í einni af birgðageymslunum þar sem þær eru í millifærslu. Bein bókun tryggir að millifærslustaðsetning er ekki notuð og afhendingar- og móttökuferlið samtímis. Nákvæm hegðun bein bókun getur verið mismunandi eftir gildinu sem valið var í reitnum Bókun **beinnar** millifærslu á síðunni **Birgðagrunnur** .
 
@@ -153,7 +153,7 @@ Burtséð frá aðferðinni eru afhendingar- og móttökufærslur framkvæmdar. 
 
 Nánari upplýsingar um vöruhúsastjórnun eru [í Yfirlit vöruhúsakerfis](design-details-warehouse-management.md).
 
-## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Til að flytja vörur með vöruendurflokkunarbók
+## Til að flytja vörur með vöruendurflokkunarbók
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Vöruendurflokkunarbók** og velja síðan viðkomandi tengil.
 2. Á síðunni **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Nánari upplýsingar um vöruhúsastjórnun eru [í Yfirlit vöruhúsakerfis](de
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  

@@ -11,7 +11,7 @@ ms.search.forms: '9989_Primary, 13, 9992_Primary, 9983_Primary'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-word-templates-for-bulk-communication"></a>Nota Word-notuð fyrir mörg samskipti í einu
+# Nota Word-notuð fyrir mörg samskipti í einu
 
 Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu á prenti eða í tölvupósti með einingum á borð við tengiliði, viðskiptamenn og lánardrottna. Til dæmis er hægt að stofna:
 
@@ -22,7 +22,7 @@ Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu á prenti eða
 > [!NOTE]
 > Þegar Word-sniðmát eru sett upp verður að nota tæki með Microsoft Word 2019 eða nýrra og Windows-stýrikerfið uppsett.
 
-## <a name="set-up-the-source-of-data"></a>Uppsetning gagnagjafa
+## Uppsetning gagnagjafa
 
 Einingar eru notaðar sem [!INCLUDE[prod_short](includes/prod_short.md)] gagnareitir fyrir sniðmátið og bætt við sameinuðum reitum til að sérsníða skjöl fyrir hverja einingu. Innfellingarsvæðin koma úr einingunni í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið.
 
@@ -43,7 +43,7 @@ Einingar eru notaðar sem [!INCLUDE[prod_short](includes/prod_short.md)] gagnare
 
 Til að fræðast um uppsetningu sniðmáts í Word er farið að [Setja upp sniðmát í Word](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Bæta við færslum sem tengjast eða ótengdar upprunaeiningunni
+## Bæta við færslum sem tengjast eða ótengdar upprunaeiningunni
 
 Einnig er hægt að sameina gögn frá öðrum einingum. Til að bæta við öðrum einingum sem gagnaveitum skal nota eina af eftirfarandi aðgerðum á síðunni **Word-sniðmát** eða þegar uppsetningarleiðbeiningar með aðstoð eru notaðar:
 
@@ -58,7 +58,7 @@ Hægt er að búa til stigveldi eininga, bæði tengt og ótengt. Tengslin eru s
 
 Þegar einingum er bætt við er reiturinn **Reitaforskeyti** notaður til að tilgreina forskeyti fyrir reitaheitin. Síðar þegar reitum er bætt við sniðmátið auðveldar forskeytið að greina á milli reita frá uppruna og annarra eininga.
 
-### <a name="select-the-fields-to-include"></a>Velja skal þá reiti sem taka á með
+### Velja skal þá reiti sem taka á með
 
 Fyrir hverja einingu er hægt að tilgreina þá reiti sem á að vera tiltækir fyrir sniðmátið. Velja skal númerið í dálknum **Fjöldi valinna reita** til að fá aðgang að lista yfir reiti sem eru tiltækir. Á síðunni **Reitaval** er gátreiturinn **Taka með** til að tilgreina reitina. Sjálfgefið er að reitir sem fyrirtæki nota séu sjálfgefið innifaldir í sumum einingum. Hægt er að breyta listanum til dæmis til að fjarlægja sjálfgefnu reitina. Breytingarnar eiga aðeins við um það sniðmát sem unnið er með.
 
@@ -68,7 +68,7 @@ Fyrir hverja einingu er hægt að tilgreina þá reiti sem á að vera tiltækir
 > [!NOTE]
 > Notandi eða samstarfsaðili Microsoft geta bætt sérsniðnum reitum við einingar. Þegar það er gert forskeytum við heiti reitanna með **CALC** og gefum þeim reitategundina **Reiknað**. Tegund reitarins er reiknuð til að gefa til kynna að reiturinn geti sýnt mismunandi tegundir gilda, svo sem texta, tölur, dagsetningar, og svo framvegis.
 
-## <a name="to-create-a-word-template-in-business-central"></a>Búa til Word-sniðmát í Business Central
+## Búa til Word-sniðmát í Business Central
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Word-sniðmát** og velja síðan viðkomandi tengil.
 2. Veldu **Nýtt**, síðan **Búa til sniðmát** og fylgdu síðan eftirfarandi skrefum í uppsetningu með hjálp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -76,19 +76,19 @@ Fyrir hverja einingu er hægt að tilgreina þá reiti sem á að vera tiltækir
 > [!TIP]
 > Einnig er hægt að búa til sniðmát beint af síðunni fyrir einingu með því að velja aðgerðina **Nota Word-sniðmát** til að opna hjálparuppsetninguna og síðan **Nýtt sniðmát**. Þegar þú gerir það er gagnagjafinn valinn fyrir þig út frá gerð einingarinnar.
 
-## <a name="set-up-the-template-in-word"></a>Setja upp sniðmátið í Word
+## Setja upp sniðmátið í Word
 
 Þegar sniðmát er sett upp í Word er hægt að bæta blöðrunarreitum við á **flipanum Póstar með því að velja Setja inn blæðingarreit**  **.** Í sameiningarreitunum koma úr gagnagjafaskránni sem sótt var fyrir eininguna. Þau virka sem staðgenglar sem segja Word hvar í skjalinu á að setja upplýsingarnar um eininguna.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Innfellingarsvæðum bætt við í Microsoft Word":::
 
-## <a name="apply-a-template"></a>Nota sniðmát
+## Nota sniðmát
 
 Þegar Word-sniðmátið er tilbúið er hægt á síðunni **Word-sniðmát** að velja **Nota** til að búa til skjölin. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið. Annaðhvort er hægt að búa til eitt skjal sem inniheldur hluta fyrir hverja einingu eða valið **Skipta upp** til að búa til nýtt skjal fyrir hverja einingu.
 
 Hægt er að nota aðgerðina **Nota Word-sniðmát** til að nota sniðmát fyrir eina eða fleiri sömu gerð einingar, t.d. viðskiptamann, beint í samhengi síðunnar fyrir einingu. Til dæmis síðurnar **Viðskiptamaður** eða **Lánardrottinn** .
 
-## <a name="use-word-templates-with-email"></a>Nota Word-sniðmát með tölvupósti
+## Nota Word-sniðmát með tölvupósti
 
 Þú getur notað Word-sniðmát til að bæta efni við tölvupóstskeyti. Þegar úr býrð til tölvupóst getur þú valið aðgerðina **Nota Word-sniðmát** til að nota efnið úr sniðmáti fyrir skilaboðin. Sniðmát verða að hafa verið stofnuð fyrir eininguna. Hægt er að nota eitt sniðmát í einu og þegar skipt er á milli sniðmáta breytast skilaboðin til að endurspegla efnið úr völdu sniðmáti.
 
@@ -96,7 +96,7 @@ Hægt er að nota aðgerðina **Nota Word-sniðmát** til að nota sniðmát fyr
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Valmöguleikar við notkun efnis úr Word-sniðmáti í tölvupósti":::
 
-## <a name="edit-a-word-template"></a>Breyta Word-sniðmáti
+## Breyta Word-sniðmáti
 
 Hægt er að gera eftirfarandi breytingar á Word-sniðmátunum:
 
@@ -105,7 +105,7 @@ Hægt er að gera eftirfarandi breytingar á Word-sniðmátunum:
 * Til að skipta Word-sniðmátinu út fyrir nýtt sniðmát skal nota aðgerðina **Hlaða** upp
 * Eyða sniðmátinu
 
-## <a name="see-also"></a>Sjá einnig
+## Sjá einnig
 
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Setja upp tölvupóst](admin-how-setup-email.md)  

@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Birgða- og vöruhúsaskýrslur og greiningar
+# Birgða- og vöruhúsaskýrslur og greiningar
 
 Birgða- og vöruhúsaskýrslur gefa [!INCLUDE [prod_short](includes/prod_short.md)] innsýn í birgðir og viðskiptafræðinga og upplýsingar um núgildandi og eldri birgða- og vöruhúsaaðgerðir.  
 
-## <a name="reports"></a>Skýrslur
+## Skýrslur
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Verkefni
+## Verkefni
 
 Eftirfarandi greinar lýsa sumum lykilverkum til að greina stöðu fyrirtækisins:
 
 * [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)  
 * [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Prenta og skanna strikamerki
+## Prenta og skanna strikamerki
 
 Notkun strikamerkis getur hjálpað til við að straumlínulaga ferli á innleið, útleið og innanhúss vöruhúss. 
 
@@ -45,7 +45,7 @@ Notkun strikamerkis getur hjálpað til við að straumlínulaga ferli á innlei
 > Sumir prentarar og strikamerkis-/QR-kótasnið krefjast sérstakrar útfærslu. Það gæti þurft að hlaða upp öðru Word-sniðmáti eða klóna skýrsluna til að búa til eigin sérsniðnu útgáfu.
 
 
-## <a name="explore-inventory-reports-with-report-explorer"></a>Skoða birgðaskýrslur með skýrsluvafra
+## Skoða birgðaskýrslur með skýrsluvafra
 
 Til að fá yfirlit yfir þær skýrslur sem eru tiltækar fyrir birgðir skal velja **Allar skýrslur** á heimasíðunni. Þessi aðgerð opnar Hlutverkavafrann sem er afmarkaður við aðgerðirnar í valkostinum **Skýrsla & Greining** . Undir hausnum **Sala og Markaðssetning** skal velja **Skoða**.
 
@@ -54,7 +54,7 @@ Til að fá yfirlit yfir þær skýrslur sem eru tiltækar fyrir birgðir skal v
 Nánari upplýsingar eru í [Finna skýrslur með hlutverkavafranum](ui-role-explorer.md).
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Tilfalengd greining á birgðagögnum](ad-hoc-analysis-inventory.md)  
 [Yfirlit birgðagreiningar](inventory-analytics-overview.md)   

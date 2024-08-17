@@ -11,11 +11,11 @@ ms.date: 08/05/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="close-accounting-periods"></a>Loka fjárhagstímabilum
+# Loka fjárhagstímabilum
 
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í.
 
-## <a name="to-close-accounting-periods"></a>Fjárhagstímabilum lokað:
+## Fjárhagstímabilum lokað:
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Fjárhagstímabil** og velja síðan viðkomandi tengil.
 2. Á síðunni **Fjárhagstímabil** skal velja aðgerðina **Loka ári**.
@@ -32,7 +32,7 @@ Enda þótt fjárhagsár sé lokað er enn hægt að bóka fjárhagsfærslur á 
 
 Þegar reikningsári hefur verið lokað verður að loka reikningum á rekstrarreikningi og færa ársniðurstöður yfir á reikning á efnahagsreikningi. Hægt er að endurtaka þetta í hvert sinn sem lokaða reikningsárið er bókað.
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig .
 
 [Bækur lokað](year-close-books.md)    
 [Bóka lokunarfærslu ársloka](year-how-post-year-end-close-entry.md)    
