@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Loka árum og tímabilum
+# <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 
 Í lok reikningsárs þarf að framkvæma marga stjórnunarverkhluta, eins og að ganga úr skugga um að öll skjöl og færslubækur séu bókuð, tryggja að gjaldmiðlagögn séu uppfærð, loka bókum og fleira. Raunverulegt verk fara eftir fyrirtækinu.
 
@@ -30,7 +30,7 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |
 | Loka fjárhagstímabili og reikningsári, færa jöfnuð rekstrareiknings í efnahagsreikning og bóka lokunarfærslu ársloka. |[Bókum lokað](year-close-books.md) |
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

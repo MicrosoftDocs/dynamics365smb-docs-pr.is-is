@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Leiðrétta fyrirframgreiðslur
+# <a name="correct-prepayments"></a>Leiðrétta fyrirframgreiðslur
 
 Hægt er að gera leiðréttingu á pöntun eftir að búið er að bóka fyrirframgreiðslureikning fyrir pöntunina. Hægt er að bæta nýjum línum við pöntun eftir að búið er að gefa út fyrirframgreiðslu og bóka síðan annan fyrirframgreiðslureikning en ekki er hægt að eyða línu úr pöntun eftir að fyrirframgreiðsla hefur verið reikningsfærð fyrir línuna.  
 
 > [!TIP]
 > Ef búið er að bóka fyrirframgreiðslureikning fyrir sölureikning sem þá þú leiðréttir svo eða hættir við verður einnig að leiðrétta eða hætta við fyrirframgreiðsluna.
 
-## Til að leiðrétta fyrirframgreiðslu:
+## <a name="to-correct-a-prepayment"></a>Til að leiðrétta fyrirframgreiðslu:
 
 Eftirfarandi ferli sýnir hvernig gefa skal út kreditreikning fyrirframgreiðslu til að afturkalla allar reikningsfærðar fyrirframgreiðslur fyrir sölupöntun.  
 
@@ -33,7 +33,7 @@ Eftirfarandi ferli sýnir hvernig gefa skal út kreditreikning fyrirframgreiðsl
 5. Til að gera fyrirframgreiðslureikning fyrir nýjar línur í sölukreditreikningi, veljið aðgerðina **Fyrirframgreiðsla** og síðan aðgerðina **Bóka reikning fyrirframgreiðslu** eða **Bóka og prenta reikn. fyrirframgr.** aðgerðina.  
 6. Til að gefa út auka fyrirframgreiðslureikning, skal hækka upphæð fyrirframgreiðslu í einni eða fleiri línum og bóka fyrirframgreiðslureikninginn. Nýr reikningur er stofnaður fyrir mismuninn á milli reikningsfærðra upphæða fyrirframgreiðslu og nýju fyrirframgreiðsluupphæðanna.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

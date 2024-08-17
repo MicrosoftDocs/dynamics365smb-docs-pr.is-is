@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Greina sjóðstreymi í fyrirtækinu
+# <a name="analyze-cash-flow-in-your-company"></a>Greina sjóðstreymi í fyrirtækinu
 Gröfin á Mitt hlutverk bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  
 
 | Til að svara spurningum eins og þessum | Notaðu þetta töflu |
@@ -37,13 +37,13 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 * Dregur frá viðskiptaskuldir og bætir við viðskiptakröfum  
 * Sleppur við tvíteknar sölupantanir og innkaupapantanir.  
 
-## Til að skoða vinnublað sjóðstreymis
+## <a name="to-view-a-cash-flow-worksheet"></a>Til að skoða vinnublað sjóðstreymis
 
 1. Í reitnum **Leit** skal færa inn Sjóðstreymisuppsetningu og velja síðan viðkomandi tengil.  
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
 3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Uppsetning fjárhags](finance-setup-finance.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

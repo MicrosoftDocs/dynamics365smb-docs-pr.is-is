@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Setja upp verðmætamat og kostnaðarútreikning birgða
+# <a name="set-up-inventory-valuation-and-costing"></a>Setja upp verðmætamat og kostnaðarútreikning birgða
 
 Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur. Yfirleitt velja fyrirtæki tiltekna aðferð við útreikning kostnaðar og nota hana birgðavörur, til dæmis til að fylgjast með virði á vörum og birgðum.  
 
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim 
 |Tryggja að innkaupaskil sé jafnað á upphaflegu færsluna á innleið til að varðveita birgðavirði.|Reiturinn **Nákvæmar kostnaðarbakfærslur áskildar** á síðunni **Innkaup & viðskiptaskuldir**|
 |Setja upp sléttunarreglur sem á að nota þegar vöruverð er leiðrétt eða lagt til eða þegar staðlaður kostnaður er leiðréttur eða lagður til.|**Sléttunaraðferð** síða|  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
 [Uppsetning almennra birgðaupplýsinga](inventory-how-setup-general.md)    

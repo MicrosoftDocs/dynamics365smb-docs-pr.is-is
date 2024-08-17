@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Bakfæra bókanir í færslubók og afturkalla móttökur/afhendingar
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókanir í færslubók og afturkalla móttökur/afhendingar
 
 Að bakfæra bókanir færslubókar eru gagnlegar sem dæmi til að leiðrétta villur og hreinsa út gamlar uppsöfnunarfærslur áður en ný er færð inn. Bakfærsla er sú sama og upphaflega færslan en hefur öfugt formerki í reitnum **Upphæð**. Bakfærslan verður að vera með sama fylgiskjalsnúmer og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að stofna rétta færslu.
 
@@ -22,7 +22,7 @@ Ef þú hefur bókað rangt neikvætt magn, t.d. innkaupapöntun með röngum v�
 
 Ef þú hefur bókað rangt jákvætt magn, t.d. söluafhendingu eða innkaupaskilaafhendingu með röngum vörufjölda, sem afgreitt en ekki reikningsfært, er hægt að afturkalla bókunina.
 
-## Að bakfæra færslubókarbókun fjárhagsfærslu
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Að bakfæra færslubókarbókun fjárhagsfærslu
 
 Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfarandi ferli byggist á **Fjárhagsfærslur** síðunni.
 
@@ -34,7 +34,7 @@ Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfar
 3. Á síðunni **Bakfærðar viðskiptafærslur** skal velja aðgerðina **Bakfæra**.
 4. Veldu **Já** til að staðfesta bakfærsluna.
 
-## Að bóka neikvæða færslu  
+## <a name="to-post-a-negative-entry"></a>Að bóka neikvæða færslu
 
 Reiturinn **Leiðrétting** er notaður til að bóka neikvæða debetfærslu í stað kreditfærslu, eða til að bóka neikvæða kreditfærslu í stað debetfærslu á reikningi. Reiturinn er sjálfgefið í boði í öllum færslubókum. Reitirnir **Debetupphæð** og **Kreditupphæð** innihalda bæði upphaflegu færsluna og leiðréttu færsluna. Þessir reitir hafa engin áhrif á reikningsstöðuna.  
 
@@ -44,7 +44,7 @@ Reiturinn **Leiðrétting** er notaður til að bóka neikvæða debetfærslu í
 4. Í færslubókarlínu sem á að virkja fyrir neikvæðar færslur skal velja gátreitinn **Leiðrétting**.  
 5. Til að bóka færslubókina skal velja aðgerðina **Bóka** og síðan smella á hnappinn **Já**.
 
-## Að afturkalla magn í bókaðri innkaupakvittun  
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Að afturkalla magn í bókaðri innkaupakvittun
 
 Eftirfarandi skref lýsir því hvernig á að hætta við bókaða kvittun á vörum eða tilföngum. Skrefin eru svipuð fyrir bókaðar sendingar.
 
@@ -57,7 +57,7 @@ Leiðréttingarlínu er bætt við undir völdu móttökulínuna. Ef magnið var
 
 Reitirnir **Móttekið magn** og **Móttekið magn, óreikningsfært** svæði í tengdri innkaupapöntun eru stilltir á núll.
 
-## Hvernig skal afturkalla og endurgera magnbókun á bókaða skilaafhendingu.
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Hvernig skal afturkalla og endurgera magnbókun á bókaða skilaafhendingu.
 
 Eftirfarandi skref útskýra hvernig á að:
 
@@ -83,7 +83,7 @@ Skrefin eru svipuð fyrir bókaðar vöruskilamóttökur.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## Bakfæra viðskiptamanna- og lánardrottnafærslu með raunverulegri hagnaðar- eða tapfærslu
+## <a name="reverse-a-customer-and-vendor-ledger-entry-with-a-realized-gain-or-loss-entry"></a>Bakfæra viðskiptamanna- og lánardrottnafærslu með raunverulegri hagnaðar- eða tapfærslu
 
 Hægt er að nota aðgerðina **Bakfæra viðskipta** til að bakfæra greiðslur sem voru jafnaðar við færslur sem komu úr erlendum gjaldmiðlum og voru leiðréttar með keyrslunni Gengisleiðrétting. Aðgerðin vinnur bæði fyrir innkaup og sölu.
 
@@ -94,7 +94,7 @@ Eftirfarandi er einfalt dæmi sem sýnir hvernig það virkar:
 3. Bóka greiðslu jafnaða við reikninginn.
 4. Ógilta og bakfæra greiðsluviðskiptin, til dæmis af síðunni **Viðskm.færslur** .
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)    
 [Bóka færslur beint í fjárhagur](finance-how-post-transactions-directly.md)    

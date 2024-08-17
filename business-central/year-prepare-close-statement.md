@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Lokunaryfirlit undirbúin
+# <a name="preparing-closing-statements"></a>Lokunaryfirlit undirbúin
 
 [!INCLUDE [prod_short](includes/prod_short.md)] býður upp á staðlaðar skýrslur sem auðvelda söfnun upplýsinga sem þarf til að undirbúa lokunaryfirlit fyrirtækisins. Eftirfarandi tafla lýsir skýrslunum.  
 
@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 Til að finna skýrslu skal velja ![Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo viðkomandi tengil.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Lokunarár og tímabil](year-close-years-periods.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

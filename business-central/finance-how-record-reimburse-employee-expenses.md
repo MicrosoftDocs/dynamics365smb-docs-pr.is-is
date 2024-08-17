@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Skrá og endurgreiða kostnað starfsmanns
+# <a name="record-and-reimburse-employees-expenses"></a>Skrá og endurgreiða kostnað starfsmanns
 
 [!INCLUDE[prod_short](includes/prod_short.md)] styður færslur fyrir starfsmenn á svipaðan hátt og fyrir lánardrottna. Til eru bókunarflokkar starfsmanna, sem eiga að tryggja að fjárhagsfærslur starfsmanna séu bókaðar á viðeigandi reikninga í færslubókinni.
 
@@ -29,7 +29,7 @@ Nota má færslubækur fyrir reikninga starfsmanna til að skrá útgjöld starf
 
 Til að tryggja að gengi upphæðanna sé uppfært er hægt að leiðrétta stöðu starfsmanna þegar keyrslan gengi gjaldmiðils er keyrð. Ef nota á gengistöfluna en gera upp stöðu starfsmanna í staðbundinn gjaldmiðill er hægt að útiloka reikninga starfsmanna þegar gengið er leiðrétt.
 
-## Skrá útgjöld starfsmanns
+## <a name="to-record-an-employees-expense"></a>Skrá útgjöld starfsmanns
 
 Útgjöld starfsmanna eru bókuð á síðunni **Færslubók**.
 
@@ -45,7 +45,7 @@ Til að tryggja að gengi upphæðanna sé uppfært er hægt að leiðrétta st�
     > Ef þú vilt færa inn fleiri kostnaðarlínur fyrir ofan eina mótreikningslínu fyrir bankareikning starfsmanns, skaltu velja gátreitinn **Leggja til afstemmingarupphæð** á línunni fyrir þína keyrslu á síðunni **færslubókakeyrslur**. Þá verður reiturinn **Upphæð** á mótreikningslínunni sjálfkrafa fylltur út með gildinu sem er nauðsynlegt til að jafna útgjöldin.
 5. Veljið **Bóka** aðgerðina til að skrá útgjöldin á reikning starfsmanns.
 
-## Endurgreiða starfsmanni
+## <a name="to-reimburse-an-employee"></a>Endurgreiða starfsmanni
 
 Þú endurgreiðir starfsmanni með því að bóka greiðslur á bankareikning hans á síðunni **greiðslubók**.  
 
@@ -55,11 +55,11 @@ Til að tryggja að gengi upphæðanna sé uppfært er hægt að leiðrétta st�
 4. Að öðrum kosti skal velja **Leggja til starfsmannagreiðslu** aðgerðina til að setja sjálfvirkt inn færslubókarlínu fyrir endurgreiðslu í bið til starfsmanns.
 5. Valið er **bóka** aðgerð til að skrá endurgreiðsluna.  
 
-## Afstemma endurgreiðslur við fjárhagsfærslur starfsmanns
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Afstemma endurgreiðslur við fjárhagsfærslur starfsmanns
 
 Greiðslur starfsmanna eru jafnaðar við tengdar opnar starfsmannafærslur á sama hátt og gert er fyrir lánardrottnagreiðslur, til dæmis á síðunni **Greiðsluafstemmingarbækur**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt á síðunni **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar er að finna í [Afstemma greiðslu lánardrottins með greiðslubók eða úr færslum í lánardrottnabók](payables-how-apply-purchase-transactions-manually.md).  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Bóka færslur beint í fjárhagur](finance-how-post-transactions-directly.md)    
 [Vinna í færslubókum](ui-work-general-journals.md)    

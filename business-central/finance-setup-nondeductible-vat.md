@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# Setja upp ófrádráttarbæran VSK
+# <a name="set-up-nondeductible-vat"></a>Setja upp ófrádráttarbæran VSK
 
 Ófrádráttarbær virðisaukaskattur (VSK) er VSK sem kaupandi greiðir en er ekki frádráttarbær frá eigin VSK-skuld kaupanda. Fyrirtæki geta venjulega endurheimt VSK af innkaupum á vörum og þjónustu sem tengist starfsemi fyrirtækisins. Í sumum tilvikum stofna fyrirtæki VSK sem er ekki frádráttarbært. Þessar aðstæður tengjast yfirleitt reglugerðum og geta verið mismunandi milli landa/svæða. Hins vegar er líkanið með því að nota ófrádráttarbæran eða frádráttarbæran VSK að hluta til svipað. Hægt er að nota hlutfallslegan VSK til að reikna VSK þegar um er að ræða frádráttarbæran og ófrádráttarbæran VSK.
 
@@ -26,7 +26,7 @@ Almennt er ekki hægt að draga FRÁ VSK fyrir sum innkaup vegna eftirfarandi þ
 > [!IMPORTANT]
 > Þessi altæki eiginleiki er tiltækur í öllum löndum með VSK **sem er virkur nema Belgía, Ítalía og Noregur**. Þessar staðfæringar hafa þegar staðbundna eiginleika og verða uppfærðar í framtíðinni. Ekki keyra þessa aðgerð í þessum löndum vegna þess að uppfærsluferlið er ekki til.
 
-## Nota ófrádráttarbæran VSK
+## <a name="use-nondeductible-vat"></a>Nota ófrádráttarbæran VSK
 
 1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **VSK-grunn** og velja síðan tengda tengja.
 2. Velja skal Gátreitinn **Gera ófrádráttarbær VSK**  kakassa virkan.
@@ -41,7 +41,7 @@ Almennt er ekki hægt að draga FRÁ VSK fyrir sum innkaup vegna eftirfarandi þ
     3. Velja skal gátreitinn **Nota fyrir verkkostnað** til að tilgreina að bæta þurfi ófrádráttarbærum VSK við verkkostnað þegar vörur eru keyptar fyrir verkið. Annars hefur ófrádráttarbæri VSK ekki áhrif á verkkostnað og heildarupphæðin er aðeins skráð á fjárhagur stigi.
     4. Velja skal Reitinn **Sýna óreikningsf. Í gátreitnum VSK í línum** til að tilgreina að sýna þurfi ófrádráttarbæran VSK á línusíðum fylgiskjals til að auðvelda hagræðingar vsk-upphæða.
 
-## Nota ófrádráttarbæra VSK-prósentu
+## <a name="use-the-nondeductible-vat-percentage"></a>Nota ófrádráttarbæra VSK-prósentu
 
 1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **VSK-bókunargrunn og** velja síðan viðeigandi tengja.
 2. Á síðunni **VSK-bókunargrunnur** eru reitirnir stilltir eins og lýst er í eftirfarandi töflu.
@@ -62,7 +62,7 @@ Almennt er ekki hægt að draga FRÁ VSK fyrir sum innkaup vegna eftirfarandi þ
 >
 > Ekki skal nota sama **VSK-kennigildi** fyrir venjulegan VSK þar sem reiturinn **ófrádráttarbær VSK %** er stilltur **á 0** (núll) og venjulegan VSK þar sem reiturinn **ófrádráttarbær VSK %** er stilltur á gildi sem er ekki núll. Annars er heildarupphæðin ófrádráttarbær VSK ranglega reiknuð.
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjármálastjórnun](finance.md)  
 [Upplýsingar um hönnun: Ófrádráttarbær VSK](design-details-nondeductible-vat.md)  

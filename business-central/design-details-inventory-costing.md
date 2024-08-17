@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Hönnunarupplýsingar: Birgðakostnaður
+# <a name="design-details-inventory-costing"></a>Hönnunarupplýsingar: Birgðakostnaður
 
 Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins.  
 
-## Í þessum hluta
+## <a name="in-this-section"></a>Í þessum hluta
 
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
