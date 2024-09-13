@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
-ms.date: 08/12/2024
+ms.date: 08/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="vat-management-overview"></a>Yfirlit VSK-stjórnunar
+# Yfirlit VSK-stjórnunar
 Virðisaukaskattur (VSK) er óbeinn skattur á notkun vöru og þjónustu. VSK er lagður á hvert þrep birgðakeðjunnar þar sem virði er bætt úr upphaflegri framleiðslu til sölustaðarins. Hafist er handa við VSK-stjórnun með því að skoða eftirfarandi greinar.  
 
 |  Grein  |  Heimildasamstæða  |  
@@ -28,9 +28,10 @@ Virðisaukaskattur (VSK) er óbeinn skattur á notkun vöru og þjónustu. VSK e
 | [Uppsetning VSK-yfirlits](finance-how-setup-vat-statement.md) | Í þessari grein eru upplýsingar til að tryggja að kunni að setja upp sniðmát OG heiti VSK-yfirlits til að uppfylla breytingar á kröfum skattyfirvalda.|
 | [Stjórnun breytinga á VSK-hlutfalli](finance-how-use-vat-rate-change-tool.md) | Í þessari grein er útskýrt hvernig hægt er að nota breytinga verkfæri VSK-gengis til Dynamics 365 Business Central að breyta VSK-taxta samkvæmt staðbundnum lögum.|
 | [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md) | Þessi grein útskýrir hvernig á að nota Business Central staðfestingu á VSK-númerum fyrir tengiliði, viðskiptamenn og lánardrottna sem byggjast á þjónustunni ESB VIES VSK Númer Staðfesting.|
+| [Mörg VSK-númer](finance-how-use-multiple-vat-registrations.md) | Skoða hvernig setja á upp mörg virðisaukaskattnúmer (VSK) (sem annað VSK-hlutfall) fyrir viðskiptamenn sem starfa í mismunandi löndum. |
 
 
-## <a name="see-also"></a>Sjá einnig .
+## Sjá einnig . 
 [Fjármál](finance.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

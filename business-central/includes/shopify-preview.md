@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 03/04/2024
+ms.date: 08/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
 > [!NOTE]
-> Þessi eiginleiki er í forskoðun svo að viðskiptavinir okkar og samstarfsaðilar geti veitt ábendingar. Það verður staðalbúnaður í 2024 útgáfubylgju 1. 
+> Þessi aðgerð er í boði frá 2024 útgáfubylgju 1 og krefst Plús áskriftar Shopify . Til að fá aðgang að B2B-aðgerðum þarf að muna að biðja um aðgangstákn. Nánari upplýsingar eru [í Request the access token](../../business-central/shopify/troubleshoot.md#request-the-access-token).

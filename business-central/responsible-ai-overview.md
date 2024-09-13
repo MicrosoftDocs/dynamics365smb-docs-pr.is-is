@@ -4,6 +4,7 @@ description: 'Ábyrgar algengar spurningar veita upplýsingar um AI-tæknina sem
 ms.date: 06/06/2024
 ms.custom:
   - responsible-ai-faqs
+  - copilot-learning-hub
 ms.topic: article
 author: jswymer
 ms.author: jswymer
@@ -12,16 +13,16 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Algengar algengar spurningar fyrir Dynamics 365 Business Central
+# Algengar algengar spurningar fyrir Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
-- [Algengar spurningar um gervigreindaraðstoð gagnaöryggi og persónuvernd fyrir Dynamics 365 og Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
+- [Algengar spurningar um öryggi og persónuvernd copilot fyrir Dynamics 365 og Power Platform](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 - [Greiningaraðstoð (forútgáfa)](faqs-analysis-assist.md)
 - [Aðstoð við bankaafstemmingu (forútgáfa)](faqs-bank-reconciliation.md)
-- [Spjallaðu við gervigreindaraðstoð (forútgáfa)](faqs-chat-with-copilot.md)
+- [Spjalla við Copilot (forútgáfa)](faqs-chat-with-copilot.md)
 - [Tillögur um markaðssetningu texta](faqs-marketing-text.md)
-- [Sölulínutillögur með gervigreindaraðstoð (forútgáfa)](faq-sales-suggest-sales-lines-with-copilot.md)
-- [Varpa e-skjölum í innkaupapöntunarlínur með gervigreindaraðstoð (forútgáfa)](map-edocuments-with-copilot.md)
+- [Sölulínutillögur með Afrita (forútgáfa)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [Varpa e-skjölum í innkaupapöntunarlínur með Copilot (forútgáfa)](map-edocuments-with-copilot.md)

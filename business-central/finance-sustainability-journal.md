@@ -6,23 +6,26 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, journal'
 ms.search.form: '6216, 6219, 6220'
-ms.date: 05/07/2024
+ms.date: 08/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Skrá sjálfbærnifærslur
+# Skrá sjálfbærnifærslur
 
-Eins og er er eina leiðin til að skrá losun gróðurhúsalofttegunda í sjálfbærnibók er að nota sjálfbærnibækur.
+Notendur geta handvirkt skráð losun gróðurhúsalofttegunda í sjálfbærnibókina handvirkt með sjálfbærnibókum eða hvers kyns innkaupatengdum skjölum.  
 
-## <a name="sustainability-journals"></a>Sjálfbærnibækur
+> [!NOTE]
+> Notkun hvers kyns innkaupatengdra skjala til að skrá losun gróðurhúsalofttegunda (GHG) er í boði frá og með *útgáfubylgjunni 2024*.  
+
+## Sjálfbærnibækur
 
 Sjálfbærnibækur eru hannaðar til að rekja og skrá sjálfbærnitengdar aðgerðir með því að nota sömu notendaupplifun og aðrar færslubækur í Business Central. Notendur sem hafa nauðsynlegar upplýsingar geta fært útblástur handvirkt í færslubók. Einnig er hægt að nota innbyggðar reiknireglur til að reikna út losun nákvæmlega samkvæmt þekktum færibreytum sem samsvara ýmsum tegundum uppruna og reikninga.
 
 Upplýsingarnar sem færðar eru inn í færslubók eru til bráðabirgða og hægt er að breyta þeim í þeirri færslubók. Þegar færslubókin er bókuð eru upplýsingarnar fluttar í sjálfbærnibókarfærslur á einstökum sjálfbærnireikningum þar sem ekki er hægt að breyta þeim. Hins vegar er hægt að bóka bakfærslu eða leiðréttingu færslna.
 
-### <a name="use-journal-templates-and-batches"></a>Nota bókarsniðmát og keyrslur
+### Nota bókarsniðmát og keyrslur
 
 Sjálfgefið er að um tvö sjálfbærnibókarsniðmát sé að ræða: staðlaða sniðmátið og ítrekunarsniðmátið.
 
@@ -31,20 +34,20 @@ Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók s
 > [!TIP]
 > Ef um margar línur er að ræða er hægt að draga úr hættu á mistökum með því að hafa eina bókarkeyrslu fyrir hverja útblásturstegund. Einnig er hægt að nota sameiginlega keyrslu fyrir allar tegundir útblásturs.
 
-### <a name="validate-sustainability-journals"></a>Staðfesta sjálfbærnibækur
+### Staðfesta sjálfbærnibækur
 
 Á síðunni **Sjálfbærniuppsetning** er hægt að kveikja á bakgrunnsprófun til að koma í veg fyrir bókunartafir. Ef einhver mistök sem verða á meðan unnið er í sjálfbærnibókinni tilkynnir staðfestingin þér og kemur í veg fyrir að bókin sé bókuð.
 
 Þegar staðfestingin er gerð virk sýnir upplýsingakassinn **Færslubókarprófun** úthreyfingar í opnu línunni og allri keyrslunni. Villuleit gerist þegar færslubókarkeyrsla er hlaðin inn og þegar önnur færslubókarlína er valin. Reiturinn **Samtala** útgáfa í upplýsingakassanum sýnir heildarfjölda vandamála sem [!INCLUDE [prod_short](includes/prod_short.md)] fundust. Hægt er að velja spjaldið til að opna yfirlit yfir úthreyfingarnar.
 
-### <a name="work-with-sustainability-journals"></a>Vinna með sjálfbærnibækur
+### Vinna með sjálfbærnibækur
 
-Til að byrja að vinna með sjálfbærnibækur skal fylgja eftirfarandi skrefum:
+Til að vinna með sjálfbærnibækur er skrefunum fylgt:
 
-1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, slá inn **Sjálfbærnibók** og velja síðan viðeigandi tengil.
+1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Sjálfbærnibók** og velja síðan viðeigandi tengja.
 2. Á síðunni **Sjálfbærnibók** skal færa inn eins margar línur og ætlunin er að bóka í sömu keyrslu.
 3. Reiturinn Tegund fylgiskjals **má hafa auðan eða velja** Reikningur eða **Kreditreikningur**  **.**
-4. Í reitnum **Reikningur nr.** er aðeins hægt að velja sjálfbærnireikninga sem ekki eru lokaðir þar sem reiturinn **Bein bókun** er valinn og reiturinn **Tegund** bókhalds er stilltur á **Bókun**. Einnig þarf að grunnstilla reikningana með tegund og undirflokki.
+4. Í reitnum **Reikningur nr.** er aðeins hægt að velja sjálfbærnireikninga sem ekki eru lokaðir þar sem **bein bókun**  svæðið er valið og reiturinn **Tegund** bókhalds er stilltur á **Bókun**. Einnig þarf að grunnstilla reikningana með tegund og undirflokki.
 
     > [!NOTE]
     > Ef notuð er keyrsla þar sem útblásturssviðið er grunnstillt **verður gildi útblásturssviðsins** í sjálfbærnireikningnum **að vera jafnt gildi útblásturssviðsins** í keyrslunni.
@@ -56,9 +59,9 @@ Til að byrja að vinna með sjálfbærnibækur skal fylgja eftirfarandi skrefum
 
 6. Til að bóka færslubókina skal velja aðgerðina **Bóka** . Þegar bókað er í sjálfbærnibók myndast færslur í sjálfbærnibókinni.
 
-Ef reiknireglan er byggð á valkostinum **Reikna út úr fjárhag** í flokknum Sjálfbærnireikningur verður að nota aðgerðina **Innheimta upphæð úr fjárhagsfærslum** áður en færslubókin er bókuð, til að reikna út losun á grundvelli þessarar gagnagjafa. Ef breytingar hafa verið gerðar á útblástursstuðlum eftir að færslubókarlínurnar voru útfylltar þarf að velja aðgerðina **Endurreikna** til að fá rétta upphæð í færslubókinni.
+Ef reiknireglan er byggð á **reikna út frá fjárhagur**  option í flokki sjálfbærnireiknings verður að nota aðgerðina **Innheimta upphæð úr fjárhagsfærslum** áður en færslubókin er bókuð, til að reikna út losun á grundvelli þessarar gagnagjafa. Ef breytingar hafa verið gerðar á útblástursstuðlum eftir að færslubókarlínurnar voru útfylltar þarf að velja aðgerðina **Endurreikna** til að fá rétta upphæð í færslubókinni.
 
-### <a name="recurring-journals"></a>Ítrekunarbækur
+### Ítrekunarbækur
 
 Ítrekunarbók er sjálfbærnibók sem hefur sérstaka reiti til að stjórna færslum sem oft eru bókaðar með fáum, ef einhverjar eru, breytist. Sem dæmi má nefna sjálfbærnihreyfingar eins og rafmagn eða hita eða aðrar áþekkar færslur. Hægt er að nota ítrekunarbækur til að bóka fastar og breytilegar upphæðir.
 
@@ -70,12 +73,40 @@ Reiturinn **Ítrekunartíðni** skiptir einnig máli og þarf að stilla hann. �
 
 Reiturinn **Fyrningardagsetning** ákvarðar dagsetninguna þegar línan verður bókuð í síðasta sinn. Ekki er hægt að bóka línuna eftir þá dagsetningu. Kosturinn við að nota reitinn **Útrunnið, dags** . er sá að línunni er ekki eytt strax úr færslubókinni. Þú getur slegið inn síðari dagsetningu þannig að þú getir notað línuna í framtíðinni. Ef reiturinn er auður bókast línan í hvert sinn, þar til henni er eytt úr færslubókinni.
 
-## <a name="see-also"></a>Sjá einnig .
+## Innkaupaskjöl  
 
-[Fjármál](finance.md)  
-[Sjálfbærnistjórnunaryfirlit](finance-manage-sustainability.md)  
-[Sjálfbærniuppsetning](finance-sustainability-setup.md)  
-[Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)  
-[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+Til að virkja skráningu á losun gróðurhúsalofttegunda (GHG) í öllum fylgiskjölum sem tengjast innkaupum þarf að velja **Nota losun í innkaupaskjölum** á síðunni **Sjálfbærniuppsetning** .  
+
+Til að vinna með öll fylgiskjöl sem tengjast innkaupum skal fylgja skrefunum:
+
+1.  ![Veldu Lightbulb sem opnar Tell Me aðgerð 3.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd og:  
+   1. Innkaupareikningar eru færðir **inn** ef reikningsfæra á sem **tegund** fylgiskjals og síðan valin tengd tengja.  
+   2. Innkaupapantanir eru færðar **inn** ef ætlunin er **að panta sem tegund** fylgiskjals og síðan valdar tengdar tengja.  
+2. Útfylla haus og línur á grundvelli eftirfarandi leiðbeininga [um hvernig á að vinna með innkaupareikninga og pantanir](purchasing-how-record-purchases.md).
+3. Ef þú hefur upplýsingar um losun á reikningnum sem þú ert frá lánardrottni skal velja viðeigandi **Sjálfbærnireikningur nr.** í fylgiskjalslínunum og bæta við gildum losunar með einum af eftirfarandi reitum (byggt á því sem rekja á og losun sem notandi hefur á raunreikningi): **Losun CO2**, **Emission CH4** eða **Emission N2O**.
+
+    > [!NOTE]
+    > Gildin sem færð eru inn í reitina losun eru fastar upphæðir í hverri línu og verða ekki margfaldaðar með reitnum **Magn** . Hægt er að nota **Reitinn Sjálfbærnireikningur nr.** aðeins þegar reiturinn **Tegund** (**Valkostagildi**) er **Vara** eða **Fjárhagsreikningur**. Ekki er hægt að nota **Forða-** eða **Gjald (vöru)** **Valkostagildi**. 
+
+4. Ef skoða á heildarlosun fyrir bókun er hægt að opna tölfræðisíðuna og finna bókaðan heildarlosun og losun til bókunar á hvert fylgiskjal (öll fylgiskjöl sem tengjast innkaupum) á flýtiflipanum **Sjálfbærni** .   
+5. Skjölin eru bókuð og nýr **bókaður innkaupareikningur** opnaður.
+6. Velja skal **aðgerðina Finna færslur** og sjá að færsla sjálfbærnibókar **er** ein af tengdum færslum á síðunni **Finna færslur** .
+
+> [!NOTE]
+> Þegar fylgiskjalið er bókað fyrir hverja innkaupalínur þar sem notandi er með **Númer viðtökureiknings.** kerfið stofnar sjálfstæða **Sjálfbærnibókarfærslu** með reikninginn **sem** **tegund** fylgiskjals og sama **númer fylgiskjals.**
+
+> [!NOTE]
+> Einnig er hægt að stofna og bóka **innkaupakreditreikning**. Hægt er að gera það handvirkt eða nota nokkra af eftirfarandi valkostum: **Hætta við**, **Leiðrétta** eða **Stofna leiðréttingarkreditreikning**, ef kerfið afritar fyrirliggjandi gildi úr bókaða reikningnum.  
+
+## Sjá einnig .
+
+[Fjármál](finance.md)    
+[Yfirlit yfir sjálfbærnistjórnun](finance-manage-sustainability.md)    
+[Sjálfbærniuppsetning](finance-sustainability-setup.md)    
+[Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)    
+[Tilfallukkagreining á sjálfbærnigögnum](ad-hoc-analysis-sustainability.md)    
+[Sjálfbærniskýrslur og greiningar í Business Central](sustainability-reports.md)   
+[API sjálfbærni](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
