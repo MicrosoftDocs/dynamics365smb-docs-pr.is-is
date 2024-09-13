@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Yfirlit yfir árangursmat sjálfbærni og markmiða
+# <a name="sustainability-scorecards-and-goals-overview"></a>Yfirlit yfir árangursmat sjálfbærni og markmiða
 
 Þessi grein býður upp á leiðbeiningar um hvernig á að búa til árangursmat og markmið, og hvernig á að uppfæra stöðu markmiða. Árangursmat og markmið gera fyrirtækjum kleift að lækna sjálfbærnimælingar og rekja þá gegn lykilmarkmiðum viðskipta. Hægt er að búa til markmið á grundvelli gildandi og markgilda svo að notendur geti fylgst með framvindu núverandi útstreymis í samanburði við fyrri tímabil.  
 
-## Stofna árangursmat  
+## <a name="create-a-scorecard"></a>Stofna árangursmat
 
 Til að stofna nýtt *árangursmat* sjálfbærni skal fylgja skrefunum:
 
@@ -26,7 +26,7 @@ Til að stofna nýtt *árangursmat* sjálfbærni skal fylgja skrefunum:
 
 > Takið eftir, 100.000 Í reitnum **Eigandi** er aðeins hægt að velja notendur sem hafa valið reitinn **Sjálfbærnistjóri** í töflunni **Notandaupplýsingar** . 
 
-## Stofna markmið  
+## <a name="create-goals"></a>Stofna markmið
 
 Til að stofna nýtt *markmið um sjálfbærni* skal fylgja skrefunum:
 
@@ -49,7 +49,7 @@ Ef þú hefur mörg markmið á síðunni getur þú notað **Sýna markmið** a
 > [!NOTE]
 > Notendur geta sett upp mismunandi samsetningar markmiða fyrir allt fyrirtækið, tiltekin lönd eða svæði og ábyrgðarstöð fyrir eitt *sjálfbært árangursmat*. Notendur geta einnig notað mismunandi tímabil fyrir sama líkan af rakningu. 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Sjálfbærniuppsetning](finance-sustainability-setup.md)    
 [Bókhaldslykill sjálfbærnireikninga og fjárhagur](finance-sustainability-accounts-ledger.md)    

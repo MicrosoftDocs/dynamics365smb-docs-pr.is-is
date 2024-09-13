@@ -24,7 +24,7 @@ Lagskiptingin gerir kleift að skipta verkefninu í smærri verk og notast við 
 > [!TIP]
 > Velja skal aðgerðina **Nýtt verkefni** í **Hlutverkamiðstöð verkefnastjóra** til að opna leiðsagnarforrit með aðstoð sem fer í gegnum skrefin til að stofna verkefni með samþættum verkum og áætlunarlínum. Eftirfarandi ferli sýnir hvernig á að framkvæma skrefin handvirkt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Reikningsfæra einn eða fleiri viðskiptavini fyrir verkhluta
+## <a name="to-create-a-project-card"></a>Reikningsfæra einn eða fleiri viðskiptavini fyrir verkhluta
 
 Stundum er sá aðili sem fær þjónustu annað en sá aðili sem borgar reikninginn. Stundum gæti einnig þurft að reikningsfæra marga viðskiptamenn fyrir verk í verkefninu. Á síðunni **Verkspjald** er reiturinn **Reikningsaðferð verkhluta notaður** til að tilgreina hvort verið er að reikningsfæra einn viðskiptamann eða marga viðskiptamenn.
 
@@ -36,7 +36,7 @@ Ef þú ert að reikningsfæra marga viðskiptamenn er hægt að tilgreina viðs
 * Bæta við upplýsingum um ytri tilvísanir til að einfalda samskipti um verkefnið.
 * Skrifaðu yfir stöðluðu fjármálaskilmála verksins.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Reikningsfæra einn viðskiptavin fyrir mörg verk
+## <a name="to-create-tasks-for-a-project"></a>Reikningsfæra einn viðskiptavin fyrir mörg verk
 
 Hægt er að einfalda reikningsfærsluferlið með því að senda einn reikning til viðskiptavinar fyrir mörg verkefni. Bæta verkáætlunarlínum úr mörgum verkum við sölureikning í einu tilviki. Þetta ferli svipar til þess að stofna sölureikning úr verkáætlunarlínu og færa inn gildi í **Tengja við sölureikningsnr.** Ef reiturinn er auður er
 
@@ -54,7 +54,7 @@ Hér er yfirlit yfir ferlið.
 > * Aðgerðin **Sækja verkáætlunarlínur** er ekki tiltæk á sölupöntunum eða sölutilboðum.
 > * Ekki er hægt að afmarka reitina **Sendist-til kóti** eða **Tengiliður nr.** Reitir
 
-## <a name="to-create-a-project-card"></a>Til að stofna verkspjald
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Til að stofna verkspjald
 
 Stofnað er verkspjald og síðan stofnaðar verkhlutalínur og verkáætlunarlínur fyrir það.
 
@@ -73,7 +73,7 @@ Merkja má aðgerðir sem útilokaðar með því að nota reitinn **Útilokað*
 |Bóka    |Hægt er að vinna með áætlunarlínur en bókun vegna verksins er lokuð. Ef þessi kostur er valinn er ekki hægt að bóka notkun eða sölu á verkefnið.|
 |Allt  |Allar aðgerðir eru lokaðar.|
 
-## <a name="to-create-tasks-for-a-project"></a>Til að stofna verk fyrir verk
+## <a name="specify-a-default-location-for-project-items"></a>Til að stofna verk fyrir verk
 
 Lykilatriði í stofnun verks er að tilgreina þá verkhluta sem verkið felur í sér. Verk eru tilgreind með því að stofna eina línu fyrir hvert verk á **flýtiflipanum Verkhlutar** á síðunni **Verkspjald** . Hvert verk verður að hafa að minnsta kosti eitt verk.
 

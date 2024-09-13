@@ -62,7 +62,7 @@ Ef þörf krefur er hægt að breyta línunum, en í hvert skipti sem gildi er b
 
 Skýrslan **Gátlisti** Intrastat-skýrslu er keyrður til að kanna Intrastat-línur áður en þær eru fluttar út á nauðsynlegt snið. Athugunin er keyrð í **Intrastat-skýrslunni**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Endurútreikningur þyngdar eða viðbótarmælieiningar
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Endurútreikningur þyngdar eða viðbótarmælieiningar
 
 Ef villuboðin *'Heildarþyngd" í Intrastat-skýrslulínu eru ekki auð* er líklega af því að reiturinn Nettóþyngd **á notuðum uppruna, vöru eða fastur eign var ekki stilltur** . Í þessu tilviki skaltu leita að vöru- eða eignaspjaldinu og bæta við nauðsynlegum reit. Eftir það þarftu bara að opna **Intrastat-skýrsluna** og fylgja þessum skrefum:
 

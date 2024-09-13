@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Vinna við kolefnisskuld  
+# <a name="work-with-carbon-credit"></a>Vinna við kolefnisskuld
 
 Þegar fyrirtæki geta ekki dregið úr losun sinni af ýmsum ástæðum geta þau keypt kolefnisskuldir til að mótfæra losun sína. Með því að kaupa kolefnisskuldir getur fyrirtæki enn gefið frá sér jafngilt magn af gastegundum en það sem eftir er af kolefnishlutlaust. Þessar kreditfærslur eru keyptar af sérhæfðum veitendum og hvatir til þess að draga úr losun.  
 
 Almennt eru kolefnisskuldir leyfi sem gera eiganda kleift að gefa frá sér ákveðið magn af koltvísýringi (CO₂) eða öðrum gróðurhúsalofttegundum (GHGs). Ein kolefnisskuld gefur gjarnan til kynna rétt til að gefa frá sér einn mælikvarða af CO₂ eða jafngilt magn af öðru GHG, svo mikilvægt er að gera þennan valkost virkan fyrir sum fyrirtæki.  
 
-## Setja upp kolefnisskuld  
+## <a name="set-up-the-carbon-credit"></a>Setja upp kolefnisskuld
 
 Hægt er að stilla kolefnisskuldina [!INCLUDE[prod_short](includes/prod_short.md)]  **sem vöru**. Til að setja vöruna **upp** sem kolefnisskuld er skrefunum fylgt:
   
@@ -32,9 +32,9 @@ Hægt er að stilla kolefnisskuldina [!INCLUDE[prod_short](includes/prod_short.m
 > [!NOTE]
 > Hægt er að setja upp hvaða tegund af vöru sem er, hvort sem það er birgðir, þjónusta eða ekki í birgðum, sem kolefnisskuld.  
 
-## Til að kaupa kolefnisskuld 
+## <a name="to-purchase-carbon-credit"></a>Til að kaupa kolefnisskuld
 
-### Innkaupaskjöl 
+### <a name="purchase-documents"></a>Innkaupaskjöl
 
 Til að vinna með öll fylgiskjöl sem tengjast innkaupum skal fylgja skrefunum:
 
@@ -49,7 +49,7 @@ Til að vinna með öll fylgiskjöl sem tengjast innkaupum skal fylgja skrefunum
 > [!NOTE]
 > Þótt kolefnisskuldin muni minnka virði færslna sést jákvætt virði í **losun CO2**. En þegar skjalið er bókað sést gildi með neikvæða skráningu í **Sjálfbærnibókarfærslunni** með **GHG-kredit** sem **tegund** fylgiskjals.  
 
-### Sjálfbærnibækur 
+### <a name="sustainability-journals"></a>Sjálfbærnibækur
 
 Til að vinna með **sjálfbærnibók** skal fylgja skrefunum:  
 
@@ -60,7 +60,7 @@ Til að vinna með **sjálfbærnibók** skal fylgja skrefunum:
 5. Handvirk ílag er valið **og gildið sem á að bóka sem kolefnisskuld fært** inn í reitinn **Losun CO2** .  
 6. Bóka skal færslubókina.   
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjármál](finance.md)    
 [Skrá sjálfbærnifærslur](finance-sustainability-journal.md)    

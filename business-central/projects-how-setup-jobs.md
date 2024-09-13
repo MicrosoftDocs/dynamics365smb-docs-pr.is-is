@@ -30,7 +30,7 @@ Fyrir hvert verkefni eru tilgreindar ýmsar upplýsingar:
 > [!NOTE]
 >  **Sjálfgefið** er að hólfið Jafna notkunartengil á síðunni **Uppsetning** verka gefur til kynna hvort verkfærslur séu sjálfgefið tengdar verkáætlunarlínum. Kveikja á víbreytunni til að nota þessa stillingu fyrir öll ný verk. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verkefni með því að kveikja eða slökkva á víkkuninni **Beita notkunartengli** á **síðunni Verkspjald** .
 
-### <a name="specify-a-default-location-for-project-items"></a>Tilgreina sjálfgefna staðsetningu fyrir verkvörur
+### <a name="to-set-up-project-usage-tracking"></a>Tilgreina sjálfgefna staðsetningu fyrir verkvörur
 
 Hægt er að spara tíma við gagnainnslátt með því að tilgreina sjálfgefna birgðageymslu og hólf fyrir verkefni á síðunni **Verkspjald** . Þegar verkhlutar, verkáætlunarlínur og verkbókarlínur eru stofnaðar fyrir verkið er sjálfgefnu birgðageymslunni og hólfinu sjálfkrafa úthlutað. Hins vegar er hægt að breyta birgðageymslukótanum og hólfinu í verkum og línum ef þörf krefur.
 
@@ -48,7 +48,7 @@ Ef Kóti verkefnahólfs **er skilgreindur** í birgðageymslunni er hólfakótin
 
 Þegar verkefni fela í sér marga viðskiptamenn getur það verið ögrandi að innheimta rétta viðskiptamenn fyrir rétt verk. [!INCLUDE [prod_short](includes/prod_short.md)] gerir innheimtu einfaldari með því að tilgreina reikningsfærslu og selt-til viðskiptavini í hverri verkhlutalínu verks, þannig að hægt er að búa til reikninga sjálfkrafa fyrir rétta viðskiptamenn. Til að fá nánari upplýsingar um reikningsfærslu margra viðskiptamanna er farið á Reikningsfæra á [einn eða fleiri viðskiptavini fyrir verkhluta](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Til að setja upp rakningu verknotkunar
+### <a name="synchronize-the-cost-of-used-items"></a>Til að setja upp rakningu verknotkunar
 
 Þegar unnið er að verkefni gæti notandinn viljað vita hvernig notkunin er rakin samkvæmt áætluninni. Til að kanna notkun er hægt að búa til tengingu milli áætlunarlína verkefnisins og raunnotkunar. Tengillinn gerir þér kleift að rekja kostnað og skilja hversu mikið verk helst. Sjálfgefið er að tegund verkáætlunarlínu sé **Áætlun** en ef línutegundin **Bæði áætlun og Reikningshæft** er hefur svipuð áhrif.
 

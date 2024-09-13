@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Framkvæma greiðslur með AMC-bankakerfinu 365 grundvallarviðbót eða SEPA-kreditfærslu
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Framkvæma greiðslur með AMC-bankakerfinu 365 grundvallarviðbót eða SEPA-kreditfærslu
 
 Á síðunni **Útgreiðslubækur** er hægt að vinna úr greiðslum til lánardrottna með því að flytja út skrá með greiðsluupplýsingum úr færslubókarlínunum. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning. [!INCLUDE[prod_short](includes/prod_short.md)] styður SEPA-kreditflutningssniðið en í þínu landi/svæði gætu önnur snið fyrir rafrænar greiðslur verið tiltæk.
 
@@ -22,7 +22,7 @@ ms.reviewer: bholtorf
 
 Þegar gengið hefur verið úr skugga um að bankinn hafi unnið úr greiðslunum er hægt að bóka útgreiðslubókarlínurnar.  
 
-## Uppsetning viðbótarinnar AMC Banking 365 Fundamentals 
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Uppsetning viðbótarinnar AMC Banking 365 Fundamentals
 
 Virkja viðaukann AMC Banking 365 Fundamentals til að:
 
@@ -31,7 +31,7 @@ Virkja viðaukann AMC Banking 365 Fundamentals til að:
 
 Frekari upplýsingar eru í [Nota AMC Banking 365 Fundamentals-viðbótina](ui-extensions-amc-banking.md).
 
-## Uppsetning SEPA-kreditfærslu
+## <a name="setting-up-sepa-credit-transfer"></a>Uppsetning SEPA-kreditfærslu
 
 Á síðunni **Greiðslubækur** er hægt að flytja greiðslur út í skrá til upphleðslu í rafræna bankann þinn til vinnslu á tengdum peningaflutningum. [!INCLUDE[prod_short](includes/prod_short.md)] styður SEPA-kreditflutningssniðið en í þínu landi/svæði gætu önnur snið fyrir rafrænar greiðslur verið tiltæk.  
 
@@ -50,7 +50,7 @@ Hægt er að flytja út bankaskrársnið sem ekki er studd úr reitnum í [!INCL
 > [!TIP]
 > Þessi grein gildir um almenna útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)]. Í þínu landi eða svæði, kann að vera búið að bæta við fleiri áskildum reitum á hinar ýmsu síður. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Að setja upp bankareikning fyrir SEPA-kreditfærslu
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Að setja upp bankareikning fyrir SEPA-kreditfærslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Bankareikningar** og velja síðan viðkomandi tengil.  
 2. Velja skal bankareikninginn þaðan sem greiðsluskrár eru fluttar út á SEPA-kreditfærslusniði.
@@ -68,7 +68,7 @@ Hægt er að flytja út bankaskrársnið sem ekki er studd úr reitnum í [!INCL
 6. Á flýtiflipanum **Millifærsla** í reitnum **Útflutningssnið** greiðslu er valið SEPA-sniðið sem á að nota.  
 7. Í reitnum **IBAN** skal tilgreina alþjóðlegt bankareikningsnúmer fyrir reikninginn.  
 
-### Að setja upp lánardrottin fyrir SEPA-kreditfærslu
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Að setja upp lánardrottin fyrir SEPA-kreditfærslu
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Lánardrottnar** og síðan velja viðkomandi tengil.  
 2. Opna skal spjald lánardrottins sem greitt er rafrænt með því að flytja út greiðsluskrár á SEPA-kreditfærslusniði.  
@@ -77,24 +77,24 @@ Hægt er að flytja út bankaskrársnið sem ekki er studd úr reitnum í [!INCL
 
     Ef þú ert ekki með banka lyklasafn upp fyrir þennan lánardrottinn getur þú gert það núna. Frekari upplýsingar eru í [Til að setja upp bankareikninga lánardrottna fyrir útflutning bankaskráa](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Gildið í reitnum **Valinn bankareikningur** er afritað í reitinn **Móttökubankareikningur** á síðunni **Greiðslubók**.  
 
-### Að stilla greiðslubók upp til að flytja greiðsluskrár
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Að stilla greiðslubók upp til að flytja greiðsluskrár
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslubækur** og velja síðan viðkomandi tengil.  
 2. Í reitnum **Heiti keyrslu** er felli\-lista hnappurinn valinn.  
 3. Á síðunni **Fh.færslubókakeyrslur** skal velja aðgerðina **Breyta lista**.  
 4. Í línunni fyrir útgreiðslubókina sem er notuð til að flytja út greiðslur er gátreiturinn **Heimila greiðsluútflutning** valinn.  
 
-### Tengja gagnaskiptaskilgreiningu fyrir eina eða fleiri greiðslugerðir með viðeigandi greiðslumáta.
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Tengja gagnaskiptaskilgreiningu fyrir eina eða fleiri greiðslugerðir með viðeigandi greiðslumáta.
 
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Greiðslumátar** og velja síðan viðkomandi tengil.  
 2. Á síðunni **Greiðslumáti** skaltu velja greiðslumáta sem er notað til að flytja út greiðslur frá, og þá velja **Greiðsluútflutningur Línuskilgreining** reitinn.  
 3. Á síðunni **Greiðsluútflutningur Línuskilgreining** skal velja kóðann sem var tilgreindur í **Kóði** reitnum á **Línuskilgreiningar** flýtiflipanum í skrefi 4 í „Að lýsa sniði lína og dálka í skránni“ hlutanum í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md) aðgerðinni.  
 
-## Greiðslubók undirbúin
+## <a name="preparing-the-payment-journal"></a>Greiðslubók undirbúin
 
 Fyllið út greiðslubókina með línum fyrir greiðslu á gjalddaga til lánardrottna með möguleikanum á að setja inn bókunardagsetningar byggt á gjalddaga tengdra innkaupaskjala. Nánari upplýsingar er að finna í [Stjórna skuldum](payables-manage-payables.md).
 
-## Útflutningur greiðslna í bankaskrá
+## <a name="exporting-payments-to-a-bank-file"></a>Útflutningur greiðslna í bankaskrá
 
 Þegar notandi er tilbúinn að greiða lánardrottnum eða endurgreiðslur til starfsmanna er hægt að flytja út skrá með greiðsluupplýsingum í línunum á síðunni **Útgreiðslubækur** . Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning.
 
@@ -105,7 +105,7 @@ Fyllið út greiðslubókina með línum fyrir greiðslu á gjalddaga til lánar
 
 Notaðu síðuna **Kreditfærsludagbækur** til að skoða greiðsluskrárnar sem fluttar voru út úr útgreiðslubókinni. Á þessari síðu er einnig hægt að endurútflutta greiðsluskrár ef tæknilegar villur eða skráarbreytingar urðu. Þó skal athuga að útfluttar EFT-skrár eru ekki sýndar á þessari síðu og ekki er hægt að flytja þær út aftur.  
 
-### Til að flytja út greiðslur í bankaskrá
+### <a name="to-export-payments-to-a-bank-file"></a>Til að flytja út greiðslur í bankaskrá
 
 Eftirfarandi skref útskýra hvernig á að greiða lánardrottni með ávísun. Skrefin eru svipuð og endurgreiðsla til viðskiptamanns með ávísun.
 
@@ -137,7 +137,7 @@ Eftirfarandi skref útskýra hvernig á að greiða lánardrottni með ávísun.
 
 Bankagreiðsluskráin er flutt út á tilgreindan stað. Þú getur hlaðið honum upp á rafræna bankareikninginn þinn og innt af hendi raunverulegar greiðslur. Þá má bóka útflutta greiðslubókarlínur.
 
-### Til að áætla hvenær á að bóka útfluttar greiðslur
+### <a name="to-plan-when-to-post-exported-payments"></a>Til að áætla hvenær á að bóka útfluttar greiðslur
 
 Ef ekki á að bóka útgreiðslubókarlínu vegna útfluttra greiðslna er bara hægt að eyða færslubókarlínunni. Til dæmis vegna þess að beðið er eftir staðfestingu á því að bankinn hafi unnið færsluna. Seinna, þegar útgreiðslubókarlína er stofnuð til að greiða eftirstandandi upphæð sýnir reiturinn **Útflutt heildarupphæð** hversu mikið af greiðsluupphæðinni var þegar útflutt. Þú getur einnig fundið ítarlegar upplýsingar um heildarupphæðir sem hafa verið fluttar út með því að velja hnappinn **Skráningarfærslur kreditmillifærslna** til að sjá upplýsingar um útfluttar greiðsluskrár.
 
@@ -148,7 +148,7 @@ Ef ekki á að bóka greiðslur fyrr en bankinn staðfestir að þær séu unnar
 
 Til að sjá upplýsingar um útfluttar greiðslur, veljið aðgerðina **Útflutningsferill greiðslna**.
 
-### Að endurútflytja greiðslur í bankaskrá
+### <a name="to-re-export-payments-to-a-bank-file"></a>Að endurútflytja greiðslur í bankaskrá
 
 Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmillifærslna**. Áður en greiðslubókarlínum er eytt eða bókað er einnig hægt að flytja greiðsluskrána út aftur á **síðunni Útgreiðslubækur** með því að flytja hana út aftur. Ef greiðslubókarlínum er eytt eða bókað eftir útflutninginn er hægt að flytja sömu greiðsluskrá út aftur af síðunni **Kreditfærsludagbækur** . Veldu línuna fyrir runu kreditfærslanna sem þú vilt endurútflytja og notaðu svo aðgerðina **Endurútflytja greiðslur í bankaskrá**.
 
@@ -158,11 +158,11 @@ Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmil
 1. Veldu ![Ljósapera sem opnar eiginleika Viðmótsleitar.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, fara í **Skráningar kreditfærslna** og velja síðan viðkomandi tengil.
 2. Veldu greiðsluútflutning sem þú vilt endurútflytja og notaðu svo aðgerðina **Endurútflytja greiðslu í skrá**.
 
-## Bókun greiðslna
+## <a name="posting-the-payments"></a>Bókun greiðslna
 
 Þegar bankinn vinnur úr rafrænu greiðslunni skal bóka greiðslurnar. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)  
 [Stjórna skuldum](payables-manage-payables.md)  

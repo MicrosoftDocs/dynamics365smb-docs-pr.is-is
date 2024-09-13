@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Yfirlit VSK-stjórnunar
+# <a name="vat-management-overview"></a>Yfirlit VSK-stjórnunar
 Virðisaukaskattur (VSK) er óbeinn skattur á notkun vöru og þjónustu. VSK er lagður á hvert þrep birgðakeðjunnar þar sem virði er bætt úr upphaflegri framleiðslu til sölustaðarins. Hafist er handa við VSK-stjórnun með því að skoða eftirfarandi greinar.  
 
 |  Grein  |  Heimildasamstæða  |  
@@ -31,7 +31,7 @@ Virðisaukaskattur (VSK) er óbeinn skattur á notkun vöru og þjónustu. VSK e
 | [Mörg VSK-númer](finance-how-use-multiple-vat-registrations.md) | Skoða hvernig setja á upp mörg virðisaukaskattnúmer (VSK) (sem annað VSK-hlutfall) fyrir viðskiptamenn sem starfa í mismunandi löndum. |
 
 
-## Sjá einnig . 
+## <a name="see-also"></a>Sjá einnig .
 [Fjármál](finance.md)    
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

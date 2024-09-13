@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Greining sjálfbærnifærslna með fjárhagsskýrslum 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Greining sjálfbærnifærslna með fjárhagsskýrslum
 
 Eiginleikinn *Ársskýrslur* veitir innsýn í fjárhagsgögnin sem birtast í bókhaldslyklinum (COA). Hægt er að setja upp fjárhagsskýrslur til að greina tölur á fjárhagsreikningum fjárhagur (fjárhags)og bera saman fjárhagur færslur við áætlunarfærslur. En einnig er hægt að greina tölfræðileg og sjálfbærnigögn með sama eiginleika og jafnvel sameina allar þrjár gerðir gagna.  
 
-## Skilyrði fyrir fjárhagsskýrslugerð  
+## <a name="prerequisites-for-financial-reporting"></a>Skilyrði fyrir fjárhagsskýrslugerð
 
 Uppsetning fjárhagsskýrslna krefst skilnings á skipulagi gagna sem á að greina. Það eru lykilhugtök sem líklega þarf að vekja athygli á áður en fjárhagsskýrslurnar eru hannaðar: 
 
@@ -36,7 +36,7 @@ Uppsetning fjárhagsskýrslna krefst skilnings á skipulagi gagna sem á að gre
 > [!NOTE]
 > Hér má finna fleiri óskir um notkun Fjárhagsskýrslna með fjárhagsgögnum og bókhaldslykli hér [Byggja upp fjárhagsskýrslur með því að nota fjárhagsgögn og reikningsflokka](bi-how-work-account-schedule.md).   
 
-## Stofna nýja fjárhagsskýrslu  
+## <a name="create-a-new-financial-report"></a>Stofna nýja fjárhagsskýrslu
 
 Til að búa til eigin fjárhagsskýrslur á fljótlegan hátt skal byrja á því að afrita eldri skýrslur, eins og lýst er í skrefi 3 hér á eftir. 
 
@@ -65,7 +65,7 @@ Til að stofna eða breyta línuskilgreining skal fylgja skrefunum:
 > [!NOTE]
 > Línuskilgreiningar eru ekki útgáfaðar. Þegar línuskilgreining er breytt er gömlu útgáfunni skipt út og breytingarnar verða vistaðar í gagnagrunninum. 
 
-### Greining sjálfbærnigagna  
+### <a name="analyzing-sustainability-data"></a>Greining sjálfbærnigagna
 
 1. Reiturinn Línunr. er **færður inn.** Til að auðkenna hráa og bæta við **lýsingu** sem texta sem birtist í fjárhagsskýrslulínunni. 
 2. Í dálknum Tegund samantektar skal velja Viðskm **. Valkosturinn Reikningar** .   
@@ -75,14 +75,14 @@ Til að stofna eða breyta línuskilgreining skal fylgja skrefunum:
    2. **Kolefnisgjald** ef gefa á skýrslu um fjárhagslegt jafngildi (kolefnisgjald) úr reitnum **Kolefnisgjald** í **sjálfbærnifærslunum**. 
 5. Ef Reikniregla **er valin** sem **Tegund** samantektar er hægt að nota stærðfræðilegar reiknireglur í dálknum **Samantekt** .  
 
-### Greining tölfræðilegra gagna
+### <a name="analyzing-statistical-data"></a>Greining tölfræðilegra gagna
 
 1. Reiturinn Línunr. er **færður inn.** Til að auðkenna línuna og bæta við **lýsingu** sem texta sem birtist í fjárhagsskýrslulínunni. 
 2. Í dálknum **Tegund** samantektar er valkosturinn **Upplýsingareikningar** valinn.   
 3. Í reitnum **Samantekt** skal velja einn eða fleiri sjálfbærnireikninga með öllum viðeigandi afmörkunum. 
 4. Ef Reikniregla **er valin** sem **Tegund** samantektar er hægt að nota stærðfræðilegar reiknireglur í dálknum **Samantekt** .  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit yfir sjálfbærnistjórnun](finance-manage-sustainability.md)    
 [Sjálfbærniskýrslur og greiningar í Business Central](sustainability-reports.md)   

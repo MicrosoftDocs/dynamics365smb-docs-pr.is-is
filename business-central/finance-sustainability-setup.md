@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Uppsetning sjálfbærnieiningar 
+# <a name="sustainability-module-setup"></a>Uppsetning sjálfbærnieiningar
 
 Áður en einingin Sjálfbærni getur unnið rétt þarf að setja upp nokkur grunneftirlit og leiðbeiningar sem tengjast allri virkninni.
 
 Til að setja upp eininguna Sjálfbærni skal fylgja skrefunum:
 
-## Mitt hlutverk  
+## <a name="role-center"></a>Mitt hlutverk
 
 Mælt er með því að nýta *hlutverkamiðstöð sjálfbærnistjóra fyrir einstaklinga sem hafa aðalábyrgð* á sjálfbærni. Til að grunnstilla þetta hlutverk skal fylgja skrefunum:  
 
@@ -29,7 +29,7 @@ Mælt er með því að nýta *hlutverkamiðstöð sjálfbærnistjóra fyrir ein
 
  *Hlutverkamiðstöð sjálfbærnistjóra auðveldar* skilvirka stjórnun allra lykilsvæða sem tengjast sjálfbærni. Hún nær yfir grunnaðgerðir sjálfbærni, sem og fjárhags- og innkaupaferli. Þar að auki veitir það sýnileika inn í mikilvægustu sjálfbærnitengd afkastaþörf afkastaþarfa.
 
-## Sjálfbærniuppsetning  
+## <a name="sustainability-setup"></a>Sjálfbærniuppsetning
 
 1.  ![Veldu Lightbulb sem opnar Tell Me eiginleikann.](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") Táknmynd, færa inn **Sjálfbærnigrunnur** og velja síðan viðeigandi tengja.
 2. Á flýtiflipanum **Almennt** eru skilgreindir nauðsynlegir reitir sem tengjast einingunni Sjálfbærni.
@@ -72,7 +72,7 @@ Mælt er með því að nýta *hlutverkamiðstöð sjálfbærnistjóra fyrir ein
     | **Losun sléttunarnákvæmni** | Tilgreina stærð þess tímabils sem notað er við sléttun útblástursupphæða þegar yfirvöld eru send til yfirvalda. |
     | **Tegund útblásturs sléttun** | Tilgreina hvernig kerfið sléttar losunarupphæðir þegar skýrslur eru gerðar til yfirvalda. Eftirfarandi valkostir eru í boði: **Næst**, **Upp** og **Niður**. |
 
-## Losunargjöld   
+## <a name="emission-fees"></a>Losunargjöld
 
 Til að rekja innri kolefnisgjöld eða reikna losun þína með því að nota CO2-jafngildisgildi þarf að grunnstilla **síðuna Útblástursgjöld** . Til að setja upp þessar upplýsingar skal fylgja eftirfarandi skrefum:  
 
@@ -89,7 +89,7 @@ Til að rekja innri kolefnisgjöld eða reikna losun þína með því að nota 
 
 Ef losunargjöldin **voru ekki grunnstillt** áður en sjálfbærnifærslurnar voru bókaðar og reikna á kolefnisgjöldin og CO2e afturvirkt þarf að keyra aðgerðina **Reikna út útblástursgjöld** til að uppfæra gildi í **Sjálfbærnibókarfærslunum**.  
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Fjármál](finance.md)    
 [Yfirlit yfir sjálfbærnistjórnun](finance-manage-sustainability.md)    

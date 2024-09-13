@@ -21,7 +21,7 @@ ms.reviewer: bholtorf
 - Ljúka tímafærslu fyrir þjónustupöntunina
 - Bóka og reikningsfæra þjónustupöntun samnings
 
-## <a name="creation-of-service-items"></a>Stofnun þjónustuvöru
+## <a name="create-service-items"></a>Stofnun þjónustuvöru
 
 ### <a name="scenario"></a>Aðstæður
 
@@ -45,7 +45,7 @@ Súsanna, pantanavinnslan, bókar sölupöntun sem selur vöru sem er grunnstill
 
 - Þjónustuvara er stofnuð fyrir viðskiptamann 10000
 
-## <a name="invoicing-a-service-contract"></a>Reikningsfærsla þjónustusamnings
+## <a name="invoice-a-service-contract"></a>Reikningsfærsla þjónustusamnings
 
 ### <a name="scenario-1"></a>Aðstæður
 

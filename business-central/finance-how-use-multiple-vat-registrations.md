@@ -11,14 +11,14 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Mörg VSK-númer 
+# <a name="multiple-vat-registration-numbers"></a>Mörg VSK-númer
 
 Fyrir fyrirtæki með vöruhús í mörgum ESB-löndum getur stjórnun VSK (Virðisaukaskattur) verið ögrandi þar sem hver vöruhúsastaður þarfnast annars VSK-númers til að fara eftir tilteknum reglum hvers lands. Í þessari grein eru upplýsingar um þessa þörf og hún skýrir virkni fyrir mörg virðisaukaskattsnúmer (VSK). Þessi aðgerð gerir notendum kleift að setja upp skattskráningarnúmer fyrir viðskiptamenn sína í mismunandi löndum/svæðum.  
 
 > [!NOTE]
 > Mörg *VSK-númer fyrir* viðskiptamenn eru aðeins fáanleg úr Business Central 2024 útgáfubylgju 2 (útgáfa 25).
 
-## Hvernig setja á upp önnur VSK-númer  
+## <a name="how-to-set-up-the-alternative-vat-registration-numbers"></a>Hvernig setja á upp önnur VSK-númer
 
 Til að setja upp önnur VSK-númer fyrir mismunandi lönd/svæði skal fylgja eftirfarandi skrefum: 
 
@@ -40,11 +40,11 @@ Til að stofna annað aðsetur fyrir viðskiptamanninn er skrefunum fylgt:
 8. Tilkynning birtist sem viðvörun um að bæta skuli við nýju VSK-númeri. Til að gera það þarf að velja Aðgerðina **Bæta við** á tilkynningunni **og síðan Vsk-skráning** annars viðskm. opnast. 
 9. Þessi síða færir viðskiptamannsnúmer notanda í reitinn **Númer viðskiptamanns.**  **og lands-/svæðiskóta** VSK. Svo þarf bara að bæta við uppsetningu sem á að nota. 
 
-## Vinna við söluskjöl   
+## <a name="work-with-the-sales-documents"></a>Vinna við söluskjöl
 
 Hægt er að stofna nýjan [sölureikning](sales-how-invoice-sales.md) eða [sölupöntun](sales-how-sell-products.md) í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef nota þarf sendist-til aðsetur sem er frábrugðið aðsetri viðskiptamannsins og er staðsett í öðru landi er skrefunum fylgt:  
 
-### Annað afhendingaraðsetur  
+### <a name="alternate-shipping-address"></a>Annað afhendingaraðsetur
 
 1. Flýtiflipinn **Afhending og Reikningsfæra** er stækkaður.   
 2. Í reitnum Sendist-til skal velja valkostinn **Annað afhendingaraðsetur** . 
@@ -59,7 +59,7 @@ Hægt er að stofna nýjan [sölureikning](sales-how-invoice-sales.md) eða [sö
 7. Þegar staðfest hefur verið er skrifað yfir gildin úr **UPPSETNINGU VSK-viðskiptamanns** . Hægt er að kanna alla VSK-tengda reiti sem eru á flýtiflipanum **Sundurl. reikningur** .  
 8. Skjalið bókað.  
 
-### Sérsniðið aðsetur  
+### <a name="custom-address"></a>Sérsniðið aðsetur
 
 Ef ekki er búið að grunnstilla sendist-til aðsetrið en nota á annað aðsetur fyrir afhendingu er hægt að nota þennan valkost.  
 
@@ -69,7 +69,7 @@ Ef ekki er búið að grunnstilla sendist-til aðsetrið en nota á annað aðse
 4. Þegar lands-/svæðiskótanum hefur verið breytt til samræmis við **VSK-lands-/svæðiskóta**  **vsk-kóta** annars viðskiptamanns birtist svarglugginn **Staðfesta VSK-skráningu** annars viðskm. með lista yfir reiti sem hefur verið breytt. 
 5. [!INCLUDE[prod_short](includes/prod_short.md)] einnig verður öllum VSK-tengdum reitum sem eru í flýtiflipanum **Sundurl** . reikningur breytt.  
 
-### Vinna án sendingar 
+### <a name="work-with-no-shipment"></a>Vinna án sendingar
 
 Ef engin afhending er til sem vinnsla er samt hægt að breyta úr **uppsetningu VSK-viðskiptamanns** .
 
@@ -77,11 +77,11 @@ Ef engin afhending er til sem vinnsla er samt hægt að breyta úr **uppsetningu
 
 Í slíkum tilvikum er hægt að bóka sölureikning með réttu **VSK-númeri.** viðskiptamanni þó að vörur séu ekki afhendar með þessu fylgiskjali. 
 
-### Vinna við sölukreditreikninginn  
+### <a name="work-with-the-sales-credit-memo"></a>Vinna við sölukreditreikninginn
 
 Þegar reikningurinn er bókaður með **sendist-til aðsetri** eða **LANDs-/svæðiskóta** VSK sem hefur mismunandi bókunargögn tekur leiðrétta **sölukreditreikningurinn** gildin úr **bókaða sölureikningshausnum** þar sem þessi gildi eru tekin úr **VSK-skráningu** annars viðskiptamanns, svo ekki sé þörf á öðrum aðgerðum. 
 
-## Sjá einnig .
+## <a name="see-also"></a>Sjá einnig .
 
 [Yfirlit VSK-stjórnunar](finance-manage-vat.md)    
 [Setja upp virðisaukaskatt](finance-setup-vat.md)    
